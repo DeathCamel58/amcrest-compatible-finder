@@ -1,5 +1,7 @@
+import copy
 import json
 import os.path
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import random
@@ -29,6 +31,10 @@ oem_modules = [
 #       https://securitycamcenter.com/dahua-oem-list/
 
 
+
+camera_json_lock = threading.Lock()
+
+
 def download_firmware_thread(firmware, firmware_type):
     file_name = f'firmware/{firmware[firmware_type].split("/")[-1].split("?")[0]}'
 
@@ -41,45 +47,62 @@ def download_firmware_thread(firmware, firmware_type):
             downloaded = True
             file_name = new_file_name
 
-    cameras_json = get_cameras_json()
+    # TODO: Add a lock here since we're reading, modifying, then writing back a file
 
-    # Store found camera names and notes in array
-    ignored_notes = [
-        'N/A '
-    ]
-    camera_names = []
-    if firmware['camera_name'] is not None:
-        camera_names.append(firmware['camera_name'])
+    with camera_json_lock:
+        cameras_json = get_cameras_json()
+        cameras_json_original = copy.deepcopy(cameras_json)
+        firmware_json_name = file_name[9:]
 
-    camera_notes = []
-    if firmware['firmware_notes'] is not None and firmware['firmware_notes'] not in ignored_notes:
-        camera_names.append(firmware['firmware_notes'])
+        # Store found camera names and notes in array
+        ignored_notes = [
+            'N/A '
+        ]
+        ignored_names = []
 
-    firmware_json_name = file_name[9:]
+        camera_names = []
+        firmware_notes = []
+        if firmware_json_name in cameras_json:
+            if 'camera_name' in cameras_json[firmware_json_name] and cameras_json[firmware_json_name]['camera_name']:
+                for json_camera_names in cameras_json[firmware_json_name]['camera_name']:
+                    if json_camera_names not in camera_names:
+                        camera_names.append(json_camera_names)
+            if 'notes' in cameras_json[firmware_json_name] and cameras_json[firmware_json_name]['notes']:
+                for json_camera_notes in cameras_json[firmware_json_name]['notes']:
+                    if json_camera_notes not in firmware_notes:
+                        firmware_notes.append(json_camera_notes)
 
-    if firmware_json_name in cameras_json:
-        for cam_name in cameras_json[firmware_json_name]['camera_name']:
-            camera_names.append(cam_name)
-        for camera_note in cameras_json[firmware_json_name]['notes']:
-            if camera_note not in ignored_notes:
-                camera_notes.append(camera_note)
+        if firmware['camera_name'] is not None and firmware['camera_name'] not in ignored_names and firmware['camera_name'] not in camera_names:
+            camera_names.append(firmware['camera_name'])
 
-    firmware_data = {
-        'camera_name': camera_names,
-        'url': firmware[firmware_type],
-        'notes': camera_notes,
-    }
+        if firmware['firmware_notes'] is not None and firmware['firmware_notes'] not in ignored_notes and firmware['firmware_notes'] not in firmware_notes:
+            firmware_notes.append(firmware['firmware_notes'])
 
-    if downloaded:
-        firmware_data['firmware_size']: os.stat(file_name).st_size
-        firmware_data['url']: firmware[firmware_type]
+        if firmware_json_name in cameras_json:
+            for cam_name in cameras_json[firmware_json_name]['camera_name']:
+                if cam_name not in ignored_names and cam_name not in camera_names:
+                    camera_names.append(cam_name)
+            for firmware_note in cameras_json[firmware_json_name]['notes']:
+                if firmware_note not in ignored_notes and firmware_note not in firmware_notes:
+                    firmware_notes.append(firmware_note)
 
-    if firmware_json_name in cameras_json:
-        cameras_json[firmware_json_name].update(firmware_data)
-    else:
-        cameras_json[firmware_json_name] = firmware_data
+        firmware_data = {
+            'camera_name': camera_names,
+            'url': firmware[firmware_type],
+            'notes': firmware_notes,
+        }
 
-    save_cameras_json(cameras_json)
+        if downloaded:
+            firmware_data['firmware_size']: os.stat(file_name).st_size
+            firmware_data['url']: firmware[firmware_type]
+
+        if firmware_json_name in cameras_json:
+            cameras_json[firmware_json_name].update(firmware_data)
+        else:
+            cameras_json[firmware_json_name] = firmware_data
+
+        if cameras_json_original != cameras_json:
+            save_cameras_json(cameras_json)
 
 
 # Download all firmwares
@@ -114,15 +137,14 @@ def process_firmware(firmware_file):
     file_path = f"firmware/{firmware_file}"
     tmp_file_path = f"tmp/{firmware_file}"
 
-    unknown_compatible = ['Unknown']
     firmware_json = get_firmware_json()
 
     # Only get compatibility for firmwares we don't have yet
     with ThreadPoolExecutor(max_workers=10) as pool:
         futures = []
 
-        if (firmware_file in firmware_json and firmware_json[firmware_file] == unknown_compatible) or (firmware_file not in firmware_json):
-            futures.append(pool.submit(process_firmware_threaded, firmware_file, file_path, tmp_file_path, firmware_json))
+        if (firmware_file in firmware_json and firmware_json[firmware_file] == []) or (firmware_file not in firmware_json):
+            futures.append(pool.submit(process_firmware_threaded, firmware_file, file_path, tmp_file_path))
 
         for future in as_completed(futures):
             future.result()
@@ -132,8 +154,7 @@ def process_all_firmwares():
     firmware_files = os.listdir('firmware')
 
     for firmware_file in firmware_files:
-        if not firmware_file.endswith(".json"):
-            process_firmware(firmware_file)
+        process_firmware(firmware_file)
 
 
 def start_full_processing():
