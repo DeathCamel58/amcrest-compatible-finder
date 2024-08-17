@@ -1,4 +1,3 @@
-# Dahua processing
 import requests
 from bs4 import BeautifulSoup
 
@@ -8,8 +7,6 @@ firmware_site = "https://gogss.com/firmware-download-cameras-redline/"
 
 
 def get_firmware_rows():
-    # Download and parse the Dahua firmware directory listing
-    # NOTE: This does not search other directories
     page = requests.get(firmware_site)
     soup = BeautifulSoup(page.content, "html.parser")
 
