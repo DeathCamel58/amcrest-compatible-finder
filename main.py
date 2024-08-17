@@ -13,6 +13,7 @@ from brands import GSSRedLINE_Camera
 from brands import GSSRedLINE_NVR
 from brands import GSSBlueLINE_Camera
 from brands import GSSBlueLINE_NVR
+from brands import Lorex
 from util.download_firmware import download_firmware
 from util.firmware_processing import process_firmware_threaded
 from util.json_tools import get_cameras_json, save_cameras_json, get_firmware_json, save_firmware_json
@@ -25,6 +26,7 @@ oem_modules = [
     GSSRedLINE_NVR,
     GSSBlueLINE_Camera,
     GSSBlueLINE_NVR,
+    Lorex,
 ]
 
 # TODO: Support additional Dahua OEMs

@@ -23,7 +23,7 @@ This tool downloads all firmwares across various vendors, and determines which f
  - [ ] eLine
  - [ ] Eastern CCTV
  - [ ] ENS Expose
- - [ ] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware
+ - [X] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware. This currently uses the PDFs that I've found on their website
  - [ ] Gess Technologies
  - [X] GSS
  - [ ] Honeywell (a few of their product lines)
