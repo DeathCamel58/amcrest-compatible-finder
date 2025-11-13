@@ -24,13 +24,16 @@ def extract_firmware(path):
     extracted_name = f"_{file_name}.extracted"
     extracted_name = os.path.join(directory, extracted_name)
     compatible_list = []
-    try:
-        subprocess.run(['/usr/bin/binwalk', '-e', path], stdout=subprocess.DEVNULL)
+    if not os.path.isdir(extracted_name):
+        try:
+            subprocess.run(['/usr/bin/binwalk', '-e', path], stdout=subprocess.DEVNULL)
 
-        if os.path.isdir(extracted_name):
-            compatible_list = get_extracted_firmware_compatibility(extracted_name)
-    except Exception as err:
-        print(f"\t{err}")
+            if os.path.isdir(extracted_name):
+                compatible_list = get_extracted_firmware_compatibility(extracted_name)
+        except Exception as err:
+            print(f"\t{err}")
+    else:
+        compatible_list = get_extracted_firmware_compatibility(extracted_name)
     return extracted_name, compatible_list
 
 

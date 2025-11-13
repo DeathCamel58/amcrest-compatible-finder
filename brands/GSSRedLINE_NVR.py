@@ -40,7 +40,7 @@ def parse_firmwares(rows):
                 "camera_name": nvr_name,
                 "firmware_version": firmware_version,
                 "firmware_size": None,
-                "firmware_notes": firmware_notes,
+                "firmware_notes": firmware_notes.replace("\n", "").rstrip().lstrip(),
                 "firmware_changelog": None,
                 "firmware_previous": None,
                 "firmware_latest": firmware_latest,
