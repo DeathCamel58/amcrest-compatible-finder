@@ -78,6 +78,18 @@ def get_extracted_firmware_compatibility(path):
         else:
             print("\tNo hwid")
 
+    # Some NVR/XVRs store the IDs in Install
+    if len(compatible_ids) == 0 and 'Install' in files:
+        data = None
+
+        with (open(f'{path}/Install', 'r', encoding='gb2312') as f):
+            data = f.read()
+
+        data = json.loads(data)
+
+        for i in range(len(data["Devices"])):
+            compatible_ids.append(data["Devices"][i][0])
+
     # Some NVR/XVRs store the IDs in Install.lua
     if len(compatible_ids) == 0 and 'Install.lua' in files:
         data = None
