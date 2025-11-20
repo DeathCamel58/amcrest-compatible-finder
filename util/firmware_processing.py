@@ -38,6 +38,11 @@ def extract_firmware(path):
 
 
 def get_extracted_firmware_compatibility(path):
+    # Check if path/0/dahua.zip exists and if so, extract to path
+    zip_path = os.path.join(path, '0/dahua.zip')
+    if os.path.exists(zip_path):
+        subprocess.run(['unzip', zip_path, '-d', path], capture_output=True)
+
     # TODO: Determine how NVR compatibility works
     compatible_ids = []
 
