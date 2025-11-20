@@ -132,7 +132,7 @@ def get_extracted_firmware_compatibility(path):
                     uimage_header = uimage_header[0]
             compatible_ids.append(uimage_header)
 
-    return compatible_ids
+    return list(set(compatible_ids))
 
 
 def extract_if_zip(path):
