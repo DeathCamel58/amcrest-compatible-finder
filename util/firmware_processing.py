@@ -4,6 +4,7 @@ import os
 import re
 import shutil
 import subprocess
+import tempfile
 import threading
 
 from util.json_tools import save_firmware_json, get_firmware_json
@@ -20,29 +21,42 @@ def clean_tmp(path):
 
 
 def extract_firmware(path):
-    directory, file_name = os.path.split(path)
-    extracted_name = f"_{file_name}.extracted"
-    extracted_name = os.path.join(directory, extracted_name)
-    compatible_list = []
-    if not os.path.isdir(extracted_name):
-        try:
-            subprocess.run(['/usr/bin/binwalk', '-e', path], stdout=subprocess.DEVNULL)
+    workdir = tempfile.mkdtemp(prefix="bw_")
 
-            if os.path.isdir(extracted_name):
-                compatible_list = get_extracted_firmware_compatibility(extracted_name)
-        except Exception as err:
-            print(f"\t{err}")
-    else:
-        compatible_list = get_extracted_firmware_compatibility(extracted_name)
-    return extracted_name, compatible_list
+    try:
+        directory, file_name = os.path.split(path)
+        local_fw = os.path.join(workdir, file_name)
+
+        # Copy the actual firmware file into the binwalk CWD
+        shutil.copy(path, local_fw)
+
+        # Run binwalk inside the temp directory
+        binwalk_output = subprocess.check_output(
+            ['/usr/bin/binwalk', '-e', file_name],  # use local file
+            cwd=workdir
+        )
+
+        extracted_src = os.path.join(workdir, 'extractions', file_name + ".extracted")
+        extracted_dest = os.path.join(directory, file_name + ".extracted")
+
+        if os.path.exists(extracted_dest):
+            shutil.rmtree(extracted_dest)
+
+        if os.path.isdir(extracted_src):
+            return get_extracted_firmware_compatibility(extracted_src)
+        else:
+            print(f"\t{extracted_src} is not a directory")
+
+    except Exception as err:
+        print(f"\t{err}")
+
+    finally:
+        shutil.rmtree(workdir, ignore_errors=True)
+
+    return []
 
 
-def get_extracted_firmware_compatibility(path):
-    # Check if path/0/dahua.zip exists and if so, extract to path
-    zip_path = os.path.join(path, '0/dahua.zip')
-    if os.path.exists(zip_path):
-        subprocess.run(['unzip', zip_path, '-d', path], capture_output=True)
-
+def check_firmware_compatibility(path):
     # TODO: Determine how NVR compatibility works
     compatible_ids = []
 
@@ -90,10 +104,15 @@ def get_extracted_firmware_compatibility(path):
         with (open(f'{path}/Install', 'r', encoding='gb2312') as f):
             data = f.read()
 
-        data = json.loads(data)
+        try:
+            # Cleanup the data string to remove any trailing comments
+            data = data[: data.rfind('}') + 1]
+            data = json.loads(data)
 
-        for i in range(len(data["Devices"])):
-            compatible_ids.append(data["Devices"][i][0])
+            for i in range(len(data["Devices"])):
+                compatible_ids.append(data["Devices"][i][0])
+        except Exception as err:
+            print(f"\t{err}")
 
     # Some NVR/XVRs store the IDs in Install.lua
     if len(compatible_ids) == 0 and 'Install.lua' in files:
@@ -112,11 +131,6 @@ def get_extracted_firmware_compatibility(path):
                     compatible_id = compatible_id[0]
                     compatible_ids.append(compatible_id)
 
-    # Fallback to getting the ID from u-boot.bin.img
-    # NOTE: This sometimes is the ID that can be obtained from HTTP at:
-    #        - /cgi-bin/magicBox.cgi?action=getSystemInfoNew
-    #        - /cgi-bin/magicBox.cgi?action=getSystemInfo
-    #       Although usually it's something different
     if len(compatible_ids) == 0 and 'u-boot.bin.img' in files:
         print("Found u-boot.bin.img!")
         # Run binwalk on the u-boot image
@@ -137,7 +151,34 @@ def get_extracted_firmware_compatibility(path):
                     uimage_header = uimage_header[0]
             compatible_ids.append(uimage_header)
 
-    return list(set(compatible_ids))
+    return compatible_ids
+
+
+def get_extracted_firmware_compatibility(path):
+    # Check if path/0/dahua.zip exists and if so, extract to path
+    zip_parent_path = os.path.join(path, '0')
+    zip_path = os.path.join(zip_parent_path, 'dahua.zip')
+    if os.path.exists(zip_path):
+        subprocess.run(['unzip', zip_path, '-d', path], capture_output=True)
+        shutil.rmtree(zip_parent_path)
+
+    compatible_ids = []
+
+    compatible = check_firmware_compatibility(path)
+    if len(compatible) > 0:
+        for x in range(len(compatible)):
+            compatible_ids.append(compatible[x])
+
+    files = os.listdir(path)
+    for i in range(len(files)):
+        file_path = os.path.join(path, files[i])
+        if os.path.isdir(file_path):
+            compatible = check_firmware_compatibility(file_path)
+            if len(compatible) > 0:
+                for x in range(len(compatible)):
+                    compatible_ids.append(compatible[x])
+
+    return sorted(list(set(compatible_ids)))
 
 
 def extract_if_zip(path):
@@ -204,14 +245,9 @@ def process_firmware_threaded(firmware_file, file_path, tmp_file_path):
         else:
             shutil.copy(file_path, tmp_file_path)
 
-            extracted_name, new_compatible_list = extract_firmware(tmp_file_path)
+            new_compatible_list = extract_firmware(tmp_file_path)
             if new_compatible_list:
                 compatible_list = new_compatible_list
-
-            # Clean up the temporary files
-            if os.path.exists(extracted_name):
-                clean_tmp(extracted_name)
-            os.remove(tmp_file_path)
 
             with firmware_processing_lock:
                 firmware_json = get_firmware_json()
