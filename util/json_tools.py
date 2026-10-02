@@ -16,11 +16,21 @@ def get_cameras_json():
     return data
 
 
+def save_json_atomic(json_file, data):
+    # Write to a temp file and rename it over the original, so a crash mid-save can't leave a truncated JSON
+    # (the data for firmwares that vendors have since removed can't be re-scraped)
+    temp_file = f"{json_file}.tmp"
+    with open(temp_file, 'w') as f:
+        json.dump(data, f, indent=4, sort_keys=True)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(temp_file, json_file)
+
+
 def save_cameras_json(data):
     json_file = f"cameras.json"
     with cameras_lock:
-        with open(json_file, 'w') as f:
-            json.dump(data, f, indent=4, sort_keys=True)
+        save_json_atomic(json_file, data)
 
 
 def get_firmware_json():
@@ -36,5 +46,4 @@ def get_firmware_json():
 def save_firmware_json(data):
     json_file = f"firmware_compatible.json"
     with firmware_lock:
-        with open(json_file, 'w') as f:
-            json.dump(data, f, indent=4, sort_keys=True)
+        save_json_atomic(json_file, data)

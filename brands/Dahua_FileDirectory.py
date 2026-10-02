@@ -1,7 +1,8 @@
-import requests
+from util import http
 from bs4 import BeautifulSoup
 
 name = "DahuaFileDirectory"
+vendor = "Dahua"
 
 firmware_site = "https://dahuawiki.com/images/Files/Firmware/"
 
@@ -9,7 +10,7 @@ firmware_site = "https://dahuawiki.com/images/Files/Firmware/"
 def get_links():
     # Download and parse the Dahua firmware directory listing
     # NOTE: This does not search other directories
-    page = requests.get(firmware_site)
+    page = http.get(firmware_site)
     soup = BeautifulSoup(page.content, "html.parser")
 
     results = soup.find_all("table")

@@ -1,10 +1,11 @@
 # Lorex processing
 import os
 
-import requests
+from util import http
 import pdfquery
 
 name = "Lorex"
+vendor = "Lorex"
 
 firmware_urls = [
     'https://www.lorextechnology.com/images/supportimages/supportarticles/firmware/Lorex_DVR_NVR_Firmware_012121.pdf',
@@ -26,7 +27,7 @@ def get_firmware_links():
 
     # Download and parse the Lorex firmware PDFs
     for url in firmware_urls:
-        requests_file = requests.get(url)
+        requests_file = http.get(url)
         if requests_file.status_code == 200:
             with open('tmp/lorex.pdf', 'wb') as f:
                 f.write(requests_file.content)

@@ -1,14 +1,15 @@
 import pandas as pd
-import requests
+from util import http
 from bs4 import BeautifulSoup
 
 name = "Dahua"
+vendor = "Dahua"
 
 
 def get_firmware_boxes():
     # Download and parse the Dahua firmware site
     firmware_site = "https://dahuawiki.com/Cameras"
-    page = requests.get(firmware_site)
+    page = http.get(firmware_site)
     soup = BeautifulSoup(page.content, "html.parser")
 
     results = soup.find_all(class_="wikitable")

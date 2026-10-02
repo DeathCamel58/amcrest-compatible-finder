@@ -1,20 +1,51 @@
-import requests
+import re
+
 from bs4 import BeautifulSoup
 
+from util import http
 from util.general import get_href_if_exists
 
 name = "Amcrest"
+vendor = "Amcrest"
 
 
 def get_firmware_boxes():
-    # Download and parse the Amcrest firmware site
+    # Download and parse the Amcrest firmware site (it's behind Cloudflare)
     firmware_site = "https://amcrest.com/firmware"
-    page = requests.get(firmware_site)
-    soup = BeautifulSoup(page.content, "html.parser")
+    page = http.get_protected_html(firmware_site)
+
+    # with open("/home/deathcamel57/Downloads/Firmware Upgrade _ Amcrest Technologies.html", "rb") as file:
+    #    page = file.read()
+
+    if page is None:
+        return []
+
+    soup = BeautifulSoup(page, "html.parser")
 
     results = soup.find_all(class_="frmwr-box")
 
     return results
+
+
+def get_cell_text(cell):
+    # Cells use <br> between lines, which .text would run together ("IP2M-841German")
+    return cell.get_text(" ", strip=True)
+
+
+def parse_version_cell(text):
+    # e.g. "V2.623.00AC005.0.R 8/13/21" -> ("V2.623.00AC005.0.R", "2021-08-13"); "-" means none listed
+    version, release_date = text, None
+    match = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2}|\d{4})$", text)
+    if match:
+        month, day, year = match.groups()
+        year = f"20{year}" if len(year) == 2 else year
+        release_date = f"{year}-{int(month):02d}-{int(day):02d}"
+        version = text[:match.start()].strip()
+
+    if version in ("", "-"):
+        version = None
+
+    return version, release_date
 
 
 def parse_firmwares(firmware_box):
@@ -34,11 +65,14 @@ def parse_firmwares(firmware_box):
         firmware_previous = get_href_if_exists(cols[5])
         firmware_latest = get_href_if_exists(cols[6])
 
+        firmware_version, release_date = parse_version_cell(get_cell_text(cols[1]))
+
         firmware = {
-            "camera_name": cols[0].text.replace("\n", ""),
-            "firmware_version": cols[1].text.replace("\n", ""),
-            "firmware_size": cols[2].text.replace("\n", ""),
-            "firmware_notes": cols[3].text.replace("\n", ""),
+            "camera_name": get_cell_text(cols[0]),
+            "firmware_version": firmware_version,
+            "release_date": release_date,
+            "firmware_size": get_cell_text(cols[2]),
+            "firmware_notes": get_cell_text(cols[3]),
             "firmware_changelog": changelog,
             "firmware_previous": firmware_previous,
             "firmware_latest": firmware_latest,
