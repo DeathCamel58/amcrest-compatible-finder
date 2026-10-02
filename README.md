@@ -32,80 +32,80 @@ with `python main.py download|enrich|process|archive`, and check vendor links wi
  - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
 
 ### Current
- - [ ] 2M CCTV
- - [ ] Activecam - **NOTE:** Site unreachable from the US
- - [ ] Advidia
- - [ ] Altoros
+ - [ ] 2M CCTV - **NOTE:** Now Hikvision-based; downloads are apps/tools only
+ - [ ] Activecam - **NOTE:** Site unreachable outside Russia, nothing archived
+ - [ ] Advidia - **NOTE:** Hikvision firmware (digicap.dav); domain parked
+ - [ ] Altoros - **NOTE:** Not a CCTV brand (software consultancy)
  - [X] Amcrest
- - [ ] Ameta - **NOTE:** They require that you contact support to get firmware. Ref: https://www.ametagroup.com/firmware
- - [ ] Ascendent
- - [ ] Backstreet Surveillance - **NOTE:** Sucuri bot challenge
- - [ ] Bosch (a few of their cameras and NVR models)
- - [ ] BV Security
+ - [ ] Ameta - **NOTE:** Public Drive folders hold no firmware; support form only
+ - [ ] Ascendent - **NOTE:** No site found
+ - [ ] Backstreet Surveillance - **NOTE:** No firmware published (support desk only)
+ - [X] Bosch - DIVAR AN/hybrid/network recorders (their cameras run Bosch's own firmware)
+ - [ ] BV Security - **NOTE:** Hikvision and other platforms, not Dahua
  - [ ] CCTV Security Pros - **NOTE:** No firmware links; their Blue Line is GSS
- - [ ] CCTV Star
- - [ ] CP Plus - **NOTE:** Firmware API returns no data; files only recoverable via the Wayback Machine
- - [ ] Dax Networks
- - [ ] DH Vision
- - [ ] eLine
+ - [ ] CCTV Star - **NOTE:** Domains parked or for sale
+ - [X] CP Plus - Dahua-made recorders only; live API is empty, so archived API answers and files are used
+ - [ ] Dax Networks - **NOTE:** Networking company; only old network drivers
+ - [X] DH Vision - recovered from the Wayback Machine
+ - [ ] eLine - **NOTE:** Software only; firmware via support
  - [X] Eastern CCTV / ENS Security - Diamond line (public Google Drive)
  - [X] EmpireTech (Andy) - MEGA links; anonymous MEGA downloads have a transfer quota
  - [X] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware. This currently uses the PDFs that I've found on their website
- - [ ] Gess Technologies
+ - [ ] Gess Technologies - **NOTE:** Domain now belongs to an unrelated company
  - [X] GSS
- - [ ] Honeywell (a few of their product lines) - **NOTE:** Requires a Honeywell login; line discontinued
- - [ ] Heivision
- - [ ] IC Realtime - **NOTE:** Dealer login required
- - [ ] Ikegami
+ - [ ] Honeywell (a few of their product lines) - **NOTE:** Requires a Honeywell Discover login; line discontinued 2022
+ - [ ] Heivision - **NOTE:** Distributor; no downloads
+ - [X] IC Realtime - public S3 bucket (the firmware page needs a login)
+ - [ ] Ikegami - **NOTE:** No CCTV firmware published
  - [X] Inaxsys - STORM line (public SharePoint)
- - [ ] IndigoVision
- - [ ] Infinity CCTV
- - [ ] Innekt
- - [ ] Intelbras - **NOTE:** Cloudflare on every page
- - [ ] KBVision - **NOTE:** Downloads are private SharePoint links
- - [ ] Lumixen
- - [ ] Maxron
+ - [ ] IndigoVision - **NOTE:** Firmware behind the Avigilon support login
+ - [ ] Infinity CCTV - **NOTE:** Domain parked; only 2006 software archived
+ - [ ] Innekt - **NOTE:** Domain hijacked; nothing archived
+ - [X] Intelbras - behind Cloudflare; every product page and download goes through the browser (first run is slow, then cached)
+ - [X] KBVision - listing only: downloads are private SharePoint links
+ - [ ] Lumixen - **NOTE:** Domain parked
+ - [ ] Maxron - **NOTE:** Domain parked
  - [X] Montavue - Classic line only (Nexus is not Dahua)
- - [ ] Oco
+ - [ ] Oco - **NOTE:** Cloud cameras; support by email only
  - [X] Optiview - legacy support server only
- - [ ] Panasonic (in certain countries only)
- - [ ] People Fu
- - [ ] Platinum CCTV - **NOTE:** Cloudflare, no Dahua evidence
- - [ ] RedSpeed
+ - [ ] Panasonic (in certain countries only) - **NOTE:** Product pages only have manuals
+ - [ ] People Fu - **NOTE:** Domain gone; only client software archived
+ - [ ] Platinum CCTV - **NOTE:** Software only (own AVM VMS)
+ - [ ] RedSpeed - **NOTE:** Not a camera vendor (photo enforcement)
  - [X] Rhino Co - old 2013-2016 builds, plus their file library (`/file/display/{id}`)
- - [ ] Rhodium
+ - [ ] Rhodium - **NOTE:** No site found; distributor only offers CMS software
  - [X] RVI - Dahua entries only, from the firmware page and the download ID library
- - [ ] Saxco
- - [ ] SavvyTech
- - [ ] Security Camera King
- - [ ] Space Technology
+ - [ ] Saxco - **NOTE:** Not a CCTV brand
+ - [ ] SavvyTech - **NOTE:** No site found
+ - [ ] Security Camera King - **NOTE:** Downloads are software only; firmware via support tickets
+ - [ ] Space Technology - **NOTE:** No site found
  - [X] Speco - only a few of their recorders and cameras are Dahua (release notes and the WordPress media library)
- - [ ] ToughDog
- - [ ] Unisight
+ - [ ] ToughDog - **NOTE:** Support needs a customer ID
+ - [ ] Unisight - **NOTE:** Only PDFs published
  - [X] VIP Vision
- - [ ] Watchnet
- - [ ] Winic
- - [ ] Zuum
+ - [ ] Watchnet - **NOTE:** No firmware in their downloads
+ - [X] Winic - Dahua lines only (the rest is Hikvision)
+ - [X] Zuum - public Dropbox folder
 
 ### Former
- - [ ] ADT (their residential line used to be Dahua OEM)
+ - [ ] ADT (their residential line used to be Dahua OEM) - **NOTE:** No public firmware, nothing archived
  - [ ] Annke (move to Hikvision OEMs)
- - [ ] Aposonic
- - [ ] BCS
- - [ ] Cantek
- - [ ] Dotix
- - [ ] DVR Unlimited
- - [ ] Eyenor
- - [ ] FLIR
- - [ ] HQVision
- - [ ] Legrand
- - [ ] Norden
- - [ ] Q-See
- - [ ] Raster
- - [ ] Riva
- - [ ] SecurityTronix
- - [ ] Techpro
- - [ ] Tyco Holis
- - [ ] Tyco Illustra EssentialsUra
- - [ ] Watashi
+ - [ ] Aposonic - **NOTE:** Nothing archived
+ - [ ] BCS - **NOTE:** No Dahua firmware found, nothing archived
+ - [ ] Cantek - **NOTE:** No site found
+ - [ ] Dotix - **NOTE:** No site found
+ - [ ] DVR Unlimited - **NOTE:** Nothing archived
+ - [ ] Eyenor - **NOTE:** Nothing usable archived
+ - [ ] FLIR - **NOTE:** Archived files are Digimerge DVR firmware, not Dahua; current support needs a login
+ - [ ] HQVision - **NOTE:** Nothing archived
+ - [ ] Legrand - **NOTE:** No site found
+ - [ ] Norden - **NOTE:** No site found
+ - [ ] Q-See - **NOTE:** Archived files are viewer software only; the new q-see.com isn't Dahua
+ - [ ] Raster - **NOTE:** No site found
+ - [ ] Riva - **NOTE:** No site found
+ - [X] SecurityTronix - legacy HD-CVI recorders (the current line is Hikvision)
+ - [ ] Techpro - **NOTE:** Same company as Security Camera King; software only
+ - [ ] Tyco Holis - **NOTE:** No site found, nothing archived
+ - [ ] Tyco Illustra EssentialsUra - **NOTE:** Illustra Essentials: nothing public or archived. Ura: no site found
+ - [ ] Watashi - **NOTE:** Domain redirects to an unrelated site; nothing archived
 

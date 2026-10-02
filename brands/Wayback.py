@@ -1,5 +1,5 @@
-import json
 import os
+import re
 import threading
 import time
 from urllib.parse import quote, unquote, urlparse
@@ -15,8 +15,14 @@ kind = "archive"
 CDX_URL = "http://web.archive.org/cdx/search/cdx"
 FIRMWARE_EXTENSIONS = r"(bin|zip|img|dav|rar|pak|7z)"
 
-# (URL prefix to search, vendor the files came from, only keep Dahua-style file names)
-# Lorex and Rhino also host non-Dahua firmware with their own naming, so their names aren't filtered
+# (URL prefix to search, vendor the files came from, only keep Dahua-style file names[, options])
+# Lorex and Rhino also host non-Dahua firmware with their own naming, so their names aren't filtered.
+# Options:
+#   exclude      path fragments to skip
+#   include      regex a file's path must match (case-insensitive)
+#   drop         regex for file names to skip (case-insensitive)
+#   name_prefix  generic (non-Dahua-style) names become <prefix>_<parent folder>_<file>, since they'd clash with
+#                other vendors' files of the same name
 SOURCES = [
     ("dahuawiki.com/images/Files/", "Dahua", True),
     ("materialfile.dahuasecurity.com/uploads/", "Dahua", True),
@@ -29,6 +35,20 @@ SOURCES = [
     ("www.lorextechnology.com/images/supportimages/supportarticles/firmware/", "Lorex", False),
     ("downloads.rhinoco.com.au/dvr/", "Rhino", True),
     ("gogss.com/wp-content/uploads/", "GSS", False),
+    # DH Vision's old site; the live one is a Shopify store without firmware
+    ("dh-vision.com/main/firmware/", "DH Vision", False, {
+        "exclude": ["main/Uniview/", "main/tools/"],
+        # CONFIG..._Logo_change files only replace the boot logo
+        "drop": r"logo_?change",
+        "name_prefix": "DHVision",
+    }),
+    # Intelbras' file host also serves routers, ONTs and phones, so only keep CCTV files
+    ("backend.intelbras.com/sites/default/files/", "Intelbras", False, {
+        # CCTV product lines: VIP cameras, MHDX/iMHDX/VHD analog, NVD recorders, XVR/DVR/IPC, SS face/access readers
+        "include": r"(?<![a-z])(vip|i?mhdx|vhd|nvd|xvr|dvr|ipc|ivp|ss[_ -]?\d{3,4})(?![a-z])|c[aâ]mera",
+        "drop": r"roteador|router|hotspot|iwr|onu|ont|wifi|wi-fi|telefone|phone|ramal|pabx|switch|access.?point",
+        "name_prefix": "Intelbras",
+    }),
 ]
 
 # archive.org throttles heavy users, so keep downloads from it to a couple at a time
@@ -58,6 +78,29 @@ def query_cdx(prefix, attempts=4):
     return []
 
 
+def local_file_name(path, name_prefix=None):
+    """The name to store a capture under. Dahua-style names are kept so they merge with other sources' copies."""
+    parts = [part for part in path.split("/") if part]
+    if not parts:
+        return None
+    file_name = parts[-1]
+    if not name_prefix or is_dahua_firmware_name(file_name):
+        return file_name
+    folder = parts[-2] if len(parts) > 1 else ""
+    return "_".join(part for part in (name_prefix, folder, file_name) if part).replace(" ", "_")
+
+
+def source_matches(path, options):
+    if any(fragment.lower() in path.lower() for fragment in options.get("exclude", [])):
+        return False
+    file_name = path.rsplit("/", 1)[-1]
+    if options.get("include") and not re.search(options["include"], path, re.IGNORECASE):
+        return False
+    if options.get("drop") and re.search(options["drop"], file_name, re.IGNORECASE):
+        return False
+    return True
+
+
 def get_known_files():
     """Files already on disk, which don't need recovering from the archive."""
     try:
@@ -70,7 +113,9 @@ def get_firmwares():
     have = get_known_files()
     firmwares = {}
 
-    for prefix, source_vendor, dahua_names_only in SOURCES:
+    for source in SOURCES:
+        prefix, source_vendor, dahua_names_only = source[:3]
+        options = source[3] if len(source) > 3 else {}
         captures = query_cdx(prefix)
         # Between queries, so the CDX server doesn't start refusing
         time.sleep(2)
@@ -85,10 +130,13 @@ def get_firmwares():
 
         recovered = 0
         for original, timestamp, _ in best.values():
-            file_name = unquote(urlparse(original).path.rsplit("/", 1)[-1])
+            path = unquote(urlparse(original).path)
+            file_name = local_file_name(path, options.get("name_prefix"))
             if not file_name or file_name in have or file_name in firmwares:
                 continue
-            if dahua_names_only and not is_dahua_firmware_name(file_name):
+            if dahua_names_only and not is_dahua_firmware_name(path.rsplit("/", 1)[-1]):
+                continue
+            if not source_matches(path, options):
                 continue
 
             captured = f"{timestamp[0:4]}-{timestamp[4:6]}-{timestamp[6:8]}"

@@ -33,6 +33,14 @@ from brands import ASM
 from brands import DahuaTechSupport
 from brands import RhinoFiles
 from brands import RVI_Files
+from brands import ICRealtime
+from brands import SecurityTronix
+from brands import Bosch_DIVAR
+from brands import Zuum
+from brands import Winic
+from brands import Intelbras
+from brands import CPPlus
+from brands import KBVision
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -72,6 +80,14 @@ oem_modules = [
     DahuaTechSupport,
     RhinoFiles,
     RVI_Files,
+    ICRealtime,
+    SecurityTronix,
+    Bosch_DIVAR,
+    Zuum,
+    Winic,
+    Intelbras,
+    CPPlus,
+    KBVision,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]
@@ -247,11 +263,17 @@ def replace_truncated_file(firmware, firmware_type, file_name):
 
 
 def download_firmware_thread(firmware, firmware_type):
-    file_name = f'firmware/{resolve_file_name(firmware, firmware_type)}'
-    replaced = os.path.exists(file_name) and replace_truncated_file(firmware, firmware_type, file_name)
+    listing_only = bool(firmware.get('listing_only'))
+    if listing_only:
+        # Known but not downloadable (e.g. behind a login): record the listing, don't try to fetch it
+        file_name = f'firmware/{get_firmware_file_name(firmware, firmware_type)}'
+        replaced = False
+    else:
+        file_name = f'firmware/{resolve_file_name(firmware, firmware_type)}'
+        replaced = os.path.exists(file_name) and replace_truncated_file(firmware, firmware_type, file_name)
 
     downloaded = False
-    if not os.path.exists(file_name):
+    if not listing_only and not os.path.exists(file_name):
         # file_name is None
         new_file_name = download_firmware(firmware[firmware_type], file_name, firmware.get('downloader'))
 
@@ -314,10 +336,19 @@ def download_firmware_thread(firmware, firmware_type):
                 if not existing.get('release_date'):
                     firmware_data['release_date'] = release_date
 
+        if listing_only and not os.path.exists(file_name):
+            firmware_data['downloadable'] = False
+            firmware_data['listing_only_reason'] = firmware.get('listing_only_reason')
+
         if firmware_json_name in cameras_json:
             cameras_json[firmware_json_name].update(firmware_data)
         else:
             cameras_json[firmware_json_name] = firmware_data
+
+        # Another source had the file after all
+        if os.path.exists(file_name):
+            cameras_json[firmware_json_name].pop('downloadable', None)
+            cameras_json[firmware_json_name].pop('listing_only_reason', None)
 
         if cameras_json_original != cameras_json:
             save_cameras_json(cameras_json)
@@ -334,6 +365,7 @@ HOST_CAPS = {
     'mega.nz': 2,
     'drive.google.com': 2,
     'drive.usercontent.google.com': 2,
+    'www.dropbox.com': 2,
 }
 
 
@@ -353,6 +385,10 @@ def list_vendor(oem):
         oem_firmware['source'] = oem_firmware.get('source') or oem.name
         oem_firmware['source_kind'] = getattr(oem, 'kind', 'vendor')
         oem_firmware['module'] = oem.name
+        # Modules (or single firmwares) whose files can't be downloaded, e.g. links that need a login
+        oem_firmware['listing_only'] = oem_firmware.get('listing_only') or getattr(oem, 'listing_only', False)
+        oem_firmware['listing_only_reason'] = (oem_firmware.get('listing_only_reason')
+                                               or getattr(oem, 'listing_only_reason', None))
         # Modules for hosts that need special handling (Google Drive, MEGA, ...) provide their own downloader
         oem_firmware['downloader'] = getattr(oem, 'download_file', None)
         for firmware_type in ["firmware_previous", "firmware_latest"]:
@@ -365,7 +401,9 @@ def print_download_summary(tasks):
     names = {}
     for firmware, firmware_type in tasks:
         names.setdefault(get_firmware_file_name(firmware, firmware_type), []).append((firmware, firmware_type))
-    missing = {name: listings for name, listings in names.items() if name not in on_disk}
+    listing_only = {name for name, listings in names.items()
+                    if all(firmware.get('listing_only') for firmware, _ in listings)}
+    missing = {name: listings for name, listings in names.items() if name not in on_disk and name not in listing_only}
 
     per_module = {}
     hosts = set()
@@ -375,7 +413,8 @@ def print_download_summary(tasks):
         hosts.update(urlparse(firmware[firmware_type]).hostname for firmware, firmware_type in listings)
 
     print(f'Found {len(names)} firmwares')
-    print(f'{len(names) - len(missing)}/{len(names)} firmwares already downloaded')
+    print(f'{len(names) - len(missing) - len(listing_only)}/{len(names)} firmwares already downloaded'
+          + (f' ({len(listing_only)} more are listed but not downloadable)' if listing_only else ''))
     print()
     print(f'Downloads per server ({len(missing)} firmwares from {len(hosts)} servers; '
           f'a firmware several sources list is counted for each):')

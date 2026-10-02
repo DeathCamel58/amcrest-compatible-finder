@@ -1,4 +1,5 @@
 import threading
+from contextlib import contextmanager
 from urllib.parse import urlparse
 
 import requests
@@ -56,6 +57,18 @@ def get(url, **kwargs):
     return response
 
 
+def post(url, **kwargs):
+    """Like get(), for POST requests (e.g. WordPress admin-ajax pagination behind Cloudflare). Not retried by the
+    session, since POSTs aren't idempotent."""
+    kwargs.setdefault("timeout", TIMEOUT)
+    host = urlparse(url).hostname
+    clearance = _clearances.get(host)
+    if clearance:
+        kwargs["cookies"] = {**clearance["cookies"], **kwargs.get("cookies", {})}
+        kwargs["headers"] = {"User-Agent": clearance["user_agent"], **kwargs.get("headers", {})}
+    return get_session().post(url, **kwargs)
+
+
 def _get_with_clearance(url, host, **kwargs):
     clearance = _clearances.get(host)
     if clearance:
@@ -91,6 +104,65 @@ def get_protected_html(url, attempts=3):
     """Fetch a page behind Cloudflare using a stealth browser. Returns the HTML, or None on failure."""
     with _browser_lock:
         return _get_protected_html(url, attempts)
+
+
+class _ProtectedSession:
+    def __init__(self, session):
+        self.session = session
+
+    def get_html(self, url, attempts=2, **fetch_kwargs):
+        """Fetch one page in the shared browser. Returns the HTML, or None on failure."""
+        fetch_kwargs.setdefault("solve_cloudflare", True)
+        fetch_kwargs.setdefault("network_idle", True)
+        for attempt in range(1, attempts + 1):
+            try:
+                page = self.session.fetch(url, **fetch_kwargs)
+                if page.status == 200:
+                    _store_clearance(url, page)
+                    return page.html_content
+                print(f"\tGot HTTP {page.status} from {url} (attempt {attempt}/{attempts})")
+                if page.status == 404:
+                    break
+            except Exception as err:
+                print(f"\tFailed to fetch {url} (attempt {attempt}/{attempts}): {err}")
+        return None
+
+    def download(self, file_url, destination, start_url, timeout_ms=600000):
+        """Download a file that's itself behind a Cloudflare challenge, by navigating the browser to it from
+        start_url (a page on the same site) and saving the resulting download. Raises on failure."""
+        result = {}
+
+        def action(page):
+            try:
+                with page.expect_download(timeout=timeout_ms) as info:
+                    page.evaluate("url => { window.location.href = url }", file_url)
+                info.value.save_as(destination)
+                result["ok"] = True
+            except Exception as err:
+                result["error"] = err
+
+        # Scrapling logs an error reading the page body after the navigation; the download itself is unaffected
+        self.session.fetch(start_url, solve_cloudflare=True, disable_resources=True, page_action=action,
+                           timeout=timeout_ms)
+        if not result.get("ok"):
+            raise RuntimeError(f"browser download of {file_url} failed: {result.get('error')!r}")
+
+
+@contextmanager
+def protected_session():
+    """One stealth browser kept open for many pages of a site behind Cloudflare (much faster than a browser per page).
+
+    Holds the browser lock for the whole session. Pages fetched through it store the Cloudflare clearance, so later
+    http.get calls to the same host reuse it."""
+    from scrapling.fetchers import StealthySession
+
+    with _browser_lock:
+        session = StealthySession(headless=True, solve_cloudflare=True)
+        session.start()
+        try:
+            yield _ProtectedSession(session)
+        finally:
+            session.close()
 
 
 def _get_protected_html(url, attempts):
