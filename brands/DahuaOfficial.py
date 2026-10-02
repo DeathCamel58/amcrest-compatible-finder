@@ -30,6 +30,8 @@ page_size = 10
 
 # Firmware URL -> md5 from the API, so downloads can be verified
 md5_by_url = {}
+# Firmware URL -> MD5 of a download that didn't match the published one
+mismatched_md5_by_url = {}
 
 
 def get_page(region, page):
@@ -113,6 +115,13 @@ def download_file(url, part_name):
                 md5.update(chunk)
 
     expected = md5_by_url.get(url)
-    if expected and md5.hexdigest() != expected:
+    actual = md5.hexdigest()
+    if expected and actual != expected:
+        # Dahua sometimes publishes a wrong checksum. If two downloads give the same bytes, the file is stable and the
+        # published value is what's wrong, so keep it (enrich flags the entry with vendor_md5_mismatch)
+        if mismatched_md5_by_url.get(url) == actual:
+            print(f"\tKeeping {url}: two downloads match each other ({actual}) but not Dahua's published MD5 {expected}")
+            return
+        mismatched_md5_by_url[url] = actual
         # Raised as a normal error so the download gets retried
-        raise ValueError(f"MD5 mismatch for {url}: got {md5.hexdigest()}, expected {expected}")
+        raise ValueError(f"MD5 mismatch for {url}: got {actual}, expected {expected}")

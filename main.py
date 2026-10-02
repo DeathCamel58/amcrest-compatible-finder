@@ -102,6 +102,9 @@ camera_json_lock = threading.Lock()
 # Truncated firmwares that were replaced by a complete download are kept here rather than deleted
 TRUNCATED_DIR = os.path.join(os.path.dirname(os.path.realpath('firmware')), 'firmware-truncated')
 
+# Leaves room for the ".part" / ".redownload" suffixes under the usual 255-byte limit
+MAX_FILE_NAME_BYTES = 200
+
 # Used for listing first_seen / last_seen, so every listing seen in one run gets the same date
 RUN_DATE = date.today().isoformat()
 
@@ -128,7 +131,17 @@ def split_version_build_date(firmware):
 def get_firmware_file_name(firmware, firmware_type):
     # Some download URLs don't end in the file name (Google Drive, redirect APIs, ...), so modules can set it explicitly
     name = firmware.get(f'{firmware_type}_file_name') or firmware[firmware_type].split("/")[-1].split("?")[0]
-    return name.replace("/", "_")
+    name = name.replace("/", "_")
+    # File names are limited to 255 bytes; some (RVI's model lists in Cyrillic) are longer. Shorten them, keeping the
+    # end (version and extension) and a hash of the full name so they stay unique
+    if len(name.encode()) > MAX_FILE_NAME_BYTES:
+        stem, extension = os.path.splitext(name)
+        digest = hashlib.sha1(name.encode()).hexdigest()[:8]
+        budget = MAX_FILE_NAME_BYTES - len(f'-{digest}{extension}'.encode())
+        while len(stem.encode()) > budget:
+            stem = stem[:len(stem) // 2] + stem[len(stem) // 2 + 1:]
+        name = f'{stem}-{digest}{extension}'
+    return name
 
 
 def merge_listing(listings, firmware, firmware_type, new_camera_names, firmware_file):
@@ -505,6 +518,14 @@ def enrich_firmwares():
             if integrity['status'] == 'truncated' and (entry.get('integrity') or {}).get('vendor_copy_truncated'):
                 integrity['vendor_copy_truncated'] = True
             entry['integrity'] = integrity
+            # The file on disk doesn't match the checksum the vendor published
+            vendor_md5 = (entry.get('md5') or '').lower()
+            file_md5 = (entry.get('file_hashes') or {}).get('md5')
+            if vendor_md5 and file_md5:
+                if vendor_md5 != file_md5:
+                    entry['vendor_md5_mismatch'] = True
+                else:
+                    entry.pop('vendor_md5_mismatch', None)
             truncated += integrity['status'] == 'truncated'
 
         # Older entries were stored before junk model names were filtered out
