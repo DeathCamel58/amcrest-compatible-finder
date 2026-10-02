@@ -4,7 +4,6 @@ import os.path
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import random
 import re
 import sys
 from datetime import date, datetime, timezone
@@ -35,6 +34,7 @@ from brands import DahuaTechSupport
 from brands import RhinoFiles
 from brands import RVI_Files
 from brands import Wayback
+from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
 from util.download_firmware import download_firmware
 from util.file_integrity import check_integrity
@@ -324,28 +324,69 @@ def download_firmware_thread(firmware, firmware_type):
 
 
 # Download all firmwares
+# Vendor sites are listed this many at a time
+LISTING_WORKERS = 6
+# Downloads run this many at a time in total, spread across servers (see HostScheduler)
+DOWNLOAD_WORKERS = 10
+# Servers that throttle heavy users get at most this many downloads at once
+HOST_CAPS = {
+    'web.archive.org': 2,
+    'mega.nz': 2,
+    'drive.google.com': 2,
+    'drive.usercontent.google.com': 2,
+}
+
+
+def list_vendor(oem):
+    """One vendor module's firmwares, prepared for downloading."""
+    # Don't let one broken vendor site stop the rest
+    try:
+        oem_firmwares = oem.get_firmwares()
+    except Exception as err:
+        print(f'Failed to get {oem.name} firmwares: {err!r}')
+        return []
+    print(f'Got a list of {len(oem_firmwares)} {oem.name} firmwares!')
+
+    for oem_firmware in oem_firmwares:
+        # Modules that collect other vendors' files (the Wayback Machine) set these per firmware
+        oem_firmware['vendor'] = oem_firmware.get('vendor') or oem.vendor
+        oem_firmware['source'] = oem_firmware.get('source') or oem.name
+        oem_firmware['source_kind'] = getattr(oem, 'kind', 'vendor')
+        oem_firmware['module'] = oem.name
+        # Modules for hosts that need special handling (Google Drive, MEGA, ...) provide their own downloader
+        oem_firmware['downloader'] = getattr(oem, 'download_file', None)
+        for firmware_type in ["firmware_previous", "firmware_latest"]:
+            oem_firmware[firmware_type] = normalize_firmware_url(oem_firmware[firmware_type])
+    return oem_firmwares
+
+
+def print_download_summary(tasks):
+    on_disk = set(list_firmware_files())
+    names = {}
+    for firmware, firmware_type in tasks:
+        names.setdefault(get_firmware_file_name(firmware, firmware_type), []).append((firmware, firmware_type))
+    missing = {name: listings for name, listings in names.items() if name not in on_disk}
+
+    per_module = {}
+    hosts = set()
+    for name, listings in missing.items():
+        for module in {firmware['module'] for firmware, _ in listings}:
+            per_module[module] = per_module.get(module, 0) + 1
+        hosts.update(urlparse(firmware[firmware_type]).hostname for firmware, firmware_type in listings)
+
+    print(f'Found {len(names)} firmwares')
+    print(f'{len(names) - len(missing)}/{len(names)} firmwares already downloaded')
+    print()
+    print(f'Downloads per server ({len(missing)} firmwares from {len(hosts)} servers; '
+          f'a firmware several sources list is counted for each):')
+    for module, count in sorted(per_module.items(), key=lambda item: -item[1]):
+        print(f'    {module}: {count}')
+    print()
+
+
 def get_all_firmwares():
-    firmwares = []
-
-    for oem in oem_modules:
-        # Don't let one broken vendor site stop the rest
-        try:
-            oem_firmwares = oem.get_firmwares()
-        except Exception as err:
-            print(f'Failed to get {oem.name} firmwares: {err!r}')
-            continue
-        print(f'Got a list of {len(oem_firmwares)} {oem.name} firmwares!')
-
-        for oem_firmware in oem_firmwares:
-            # Modules that collect other vendors' files (the Wayback Machine) set these per firmware
-            oem_firmware['vendor'] = oem_firmware.get('vendor') or oem.vendor
-            oem_firmware['source'] = oem_firmware.get('source') or oem.name
-            oem_firmware['source_kind'] = getattr(oem, 'kind', 'vendor')
-            # Modules for hosts that need special handling (Google Drive, MEGA, ...) provide their own downloader
-            oem_firmware['downloader'] = getattr(oem, 'download_file', None)
-            for firmware_type in ["firmware_previous", "firmware_latest"]:
-                oem_firmware[firmware_type] = normalize_firmware_url(oem_firmware[firmware_type])
-            firmwares.append(oem_firmware)
+    with ThreadPoolExecutor(max_workers=LISTING_WORKERS) as pool:
+        firmwares = [firmware for listed in pool.map(list_vendor, oem_modules) for firmware in listed]
 
     if len(firmwares) == 0:
         return
@@ -359,18 +400,15 @@ def get_all_firmwares():
     recovering = sum(1 for f in firmwares if f.get('source_kind') == 'archive')
     print(f'Recovering {recovering} of {len(archived)} archived firmwares (the rest are still available live)')
 
-    # Shuffle the order of firmwares to hit different vendors at once (to prevent a slow vendor from stopping downloads)
-    random.shuffle(firmwares)
+    tasks = [(firmware, firmware_type) for firmware in firmwares
+             for firmware_type in ["firmware_previous", "firmware_latest"] if firmware[firmware_type]]
+    print_download_summary(tasks)
 
-    # Download all firmwares
-    with ThreadPoolExecutor(max_workers=10) as pool:
-        futures = []
-        for firmware in firmwares:
-            for firmware_type in ["firmware_previous", "firmware_latest"]:
-                if firmware[firmware_type] is not None and firmware[firmware_type] != '':
-                    futures.append(pool.submit(download_firmware_thread, firmware, firmware_type))
-        for future in as_completed(futures):
-            future.result()
+    # Spread downloads across servers rather than working through one vendor's list at a time
+    scheduler = HostScheduler(DOWNLOAD_WORKERS, HOST_CAPS)
+    for firmware, firmware_type in tasks:
+        scheduler.add(urlparse(firmware[firmware_type]).hostname or '', download_firmware_thread, firmware, firmware_type)
+    scheduler.run()
 
 
 def list_firmware_files():

@@ -83,8 +83,17 @@ def _store_clearance(url, page):
         _clearances[urlparse(url).hostname] = {"cookies": cookies, "user_agent": headers["user-agent"]}
 
 
+# Vendors are listed in parallel, but each stealth browser is a whole Chromium; run one at a time
+_browser_lock = threading.Lock()
+
+
 def get_protected_html(url, attempts=3):
     """Fetch a page behind Cloudflare using a stealth browser. Returns the HTML, or None on failure."""
+    with _browser_lock:
+        return _get_protected_html(url, attempts)
+
+
+def _get_protected_html(url, attempts):
     # Imported lazily since it pulls in a whole browser stack
     from scrapling.fetchers import StealthyFetcher
 
