@@ -1,4 +1,3 @@
-import copy
 import json
 import os
 import re
@@ -6,11 +5,18 @@ import shutil
 import subprocess
 import tempfile
 import threading
+from datetime import datetime, timezone
 
+from util.hardware import classify_hardware_ids
 from util.json_tools import save_firmware_json, get_firmware_json
 
 
 firmware_processing_lock = threading.Lock()
+
+# Increase when the extraction logic improves, so firmwares without hardware IDs get analyzed again
+EXTRACTOR_VERSION = 2
+# Failed extractions are retried on later runs up to this many times per extractor version
+MAX_EXTRACT_ATTEMPTS = 3
 
 
 def clean_tmp(path):
@@ -20,40 +26,43 @@ def clean_tmp(path):
         print('Failed to delete %s. Reason: %s' % (path, e))
 
 
+class ExtractionError(Exception):
+    pass
+
+
 def extract_firmware(path):
+    """Unpack a firmware with binwalk and return the hardware IDs found. Raises ExtractionError if it can't be unpacked."""
     workdir = tempfile.mkdtemp(prefix="bw_")
 
     try:
-        directory, file_name = os.path.split(path)
+        file_name = os.path.basename(path)
         local_fw = os.path.join(workdir, file_name)
 
         # Copy the actual firmware file into the binwalk CWD
         shutil.copy(path, local_fw)
 
         # Run binwalk inside the temp directory
-        binwalk_output = subprocess.check_output(
-            ['/usr/bin/binwalk', '-e', file_name],  # use local file
-            cwd=workdir
-        )
+        try:
+            subprocess.check_output(
+                ['/usr/bin/binwalk', '-e', file_name],  # use local file
+                cwd=workdir,
+                stderr=subprocess.DEVNULL,
+            )
+        except subprocess.CalledProcessError as err:
+            raise ExtractionError(f"binwalk exited with {err.returncode}") from err
 
         extracted_src = os.path.join(workdir, 'extractions', file_name + ".extracted")
-        extracted_dest = os.path.join(directory, file_name + ".extracted")
 
-        if os.path.exists(extracted_dest):
-            shutil.rmtree(extracted_dest)
+        if not os.path.isdir(extracted_src):
+            raise ExtractionError("binwalk found nothing to extract")
 
-        if os.path.isdir(extracted_src):
+        try:
             return get_extracted_firmware_compatibility(extracted_src)
-        else:
-            print(f"\t{extracted_src} is not a directory")
-
-    except Exception as err:
-        print(f"\t{err}")
+        except Exception as err:
+            raise ExtractionError(f"reading extracted files failed: {err!r}") from err
 
     finally:
         shutil.rmtree(workdir, ignore_errors=True)
-
-    return []
 
 
 def check_firmware_compatibility(path):
@@ -182,80 +191,114 @@ def get_extracted_firmware_compatibility(path):
 
 
 def extract_if_zip(path):
-    """Determine if this is a zip file, and if so, extract it, returning the array of paths"""
-    zip_process = subprocess.run(['file', path], capture_output=True)
-    zip_process.stdout = zip_process.stdout.decode('utf-8')
-    files = []
-    if "Zip archive" in zip_process.stdout:
-        firmware_file_name = path[9:]
-        extraction_path = f"tmp/{firmware_file_name}_extracted"
+    """If path is a zip that unzip can open, extract it into its own folder under tmp/ and return
+    (member paths, folder). Returns ([], None) for anything else, so it gets handed to binwalk."""
+    file_type = subprocess.run(['file', '-b', path], capture_output=True).stdout.decode('utf-8', 'replace')
+    if "Zip archive" not in file_type:
+        return [], None
 
-        zip_process = subprocess.run(['unzip', path, '-d', extraction_path], capture_output=True, cwd=f"{os.path.dirname(os.path.realpath(__file__))}/../")
+    os.makedirs('tmp', exist_ok=True)
+    extraction_path = tempfile.mkdtemp(prefix='zip_', dir='tmp')
 
-        if zip_process.returncode != 0:
-            clean_tmp(extraction_path)
-            return files
+    # Exit code 1 means warnings only; the files were still extracted
+    zip_process = subprocess.run(['unzip', '-o', '-qq', path, '-d', extraction_path], capture_output=True)
+    if zip_process.returncode not in (0, 1):
+        # Dahua .bin files are zips with "DH" in place of "PK", which unzip can't open but binwalk can
+        clean_tmp(extraction_path)
+        return [], None
 
-        lines = zip_process.stdout.decode('utf-8')
-        lines = lines.split("\n")
-
-        files = []
-        for line in lines:
-            file_name = line[13:]
-            file_name = re.sub(r' *\n*$', '', file_name)
-            if line.startswith("  inflating: "):
-                files.append(f"{file_name}")
-            elif line.startswith(" extracting: ") and not line.endswith("/\n"):
-                files.append(f"{file_name}")
-
-        # TODO: Check that the files array does not contain folders (ending in `/`)
-        print(files)
-
-    return files
+    files = [os.path.join(root, name) for root, _, names in os.walk(extraction_path) for name in sorted(names)]
+    return files, extraction_path
 
 
-def process_firmware_threaded(firmware_file, file_path, tmp_file_path):
-    compatible_list = []
+def analyze_firmware(file_path):
+    """Returns (hardware_ids, status, error) where status is "ok", "no_ids" or "extract_failed".
+    Never modifies file_path; everything is unpacked in temporary folders."""
+    try:
+        zip_files, extraction_path = extract_if_zip(file_path)
+    except ExtractionError as err:
+        return [], "extract_failed", str(err)
 
-    firmware_json = get_firmware_json()
-
-    # Only process firmwares without data
-    if firmware_file not in firmware_json or (firmware_json[firmware_file] == []):
-        print(f"Processing: {firmware_file}")
-
-        zip_files = extract_if_zip(file_path)
-        if len(zip_files) > 0:
+    if extraction_path is not None:
+        # A zip can hold several firmwares; combine what each one supports
+        hardware_ids, statuses, errors = set(), [], []
+        try:
             for file in zip_files:
-                firmware_file_name = file[4:]
-                tmp_file_path_extracted = f"tmp/{firmware_file_name}_extracted"
-                tmp_compatible_list = process_firmware_threaded(firmware_file, file, tmp_file_path_extracted)
-                if len(tmp_compatible_list) > 0:
-                    compatible_list = tmp_compatible_list
+                member_ids, member_status, member_error = analyze_firmware(file)
+                hardware_ids.update(member_ids)
+                statuses.append(member_status)
+                if member_error:
+                    errors.append(f"{os.path.basename(file)}: {member_error}")
+        finally:
+            clean_tmp(extraction_path)
 
-            # Clean up the temporary files
-            clean_tmp(f"tmp/{file_path[9:]}_extracted")
+        if hardware_ids:
+            return sorted(hardware_ids), "ok", None
+        if statuses and all(status == "extract_failed" for status in statuses):
+            return [], "extract_failed", "; ".join(errors)
+        return [], "no_ids", None
 
-            with firmware_processing_lock:
-                firmware_json = get_firmware_json()
-                firmware_json_original = copy.deepcopy(firmware_json)
-                firmware_json[firmware_file] = compatible_list
-                if firmware_json_original != firmware_json:
-                    save_firmware_json(firmware_json)
+    try:
+        hardware_ids = extract_firmware(file_path)
+    except ExtractionError as err:
+        return [], "extract_failed", str(err)
 
-        else:
-            shutil.copy(file_path, tmp_file_path)
+    return (hardware_ids, "ok", None) if hardware_ids else ([], "no_ids", None)
 
-            new_compatible_list = extract_firmware(tmp_file_path)
-            if new_compatible_list:
-                compatible_list = new_compatible_list
 
-            with firmware_processing_lock:
-                firmware_json = get_firmware_json()
-                firmware_json_original = copy.deepcopy(firmware_json)
-                firmware_json[firmware_file] = compatible_list
-                if firmware_json_original != firmware_json:
-                    save_firmware_json(firmware_json)
-    else:
-        compatible_list = firmware_json[firmware_file]
+def save_result(firmware_file, result):
+    with firmware_processing_lock:
+        firmware_json = get_firmware_json()
+        firmware_json[firmware_file] = result
+        save_firmware_json(firmware_json)
 
-    return compatible_list
+
+def process_firmware_threaded(firmware_file, file_path, previous=None):
+    print(f"Processing: {firmware_file}")
+    hardware_ids, status, error = analyze_firmware(file_path)
+
+    result = {
+        "hardware_ids": hardware_ids,
+        "hardware": classify_hardware_ids(hardware_ids),
+        "status": status,
+        "extractor_version": EXTRACTOR_VERSION,
+        "processed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    if status == "extract_failed":
+        result["error"] = error
+        # Count failures under the same extractor version, so persistent failures stop being retried
+        same_version = previous and previous.get("extractor_version") == EXTRACTOR_VERSION
+        result["attempts"] = (previous.get("attempts", 0) if same_version else 0) + 1
+
+    save_result(firmware_file, result)
+    return result
+
+
+def mark_not_dahua(firmware_file, platform):
+    result = {
+        "hardware_ids": [],
+        "hardware": classify_hardware_ids([]),
+        "status": "not_dahua",
+        "platform": platform,
+        "extractor_version": EXTRACTOR_VERSION,
+        "processed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    save_result(firmware_file, result)
+    return result
+
+
+def needs_processing(result, platform):
+    """Whether a firmware should be (re)analyzed, given its stored result and detected platform."""
+    if not result:
+        return True
+    status = result.get("status")
+    if status == "ok":
+        return False
+    if status == "not_dahua":
+        # Only if platform detection has since changed its mind
+        return platform == "dahua"
+    if result.get("extractor_version", 1) < EXTRACTOR_VERSION:
+        return True
+    if status == "extract_failed":
+        return result.get("attempts", 1) < MAX_EXTRACT_ATTEMPTS
+    return False

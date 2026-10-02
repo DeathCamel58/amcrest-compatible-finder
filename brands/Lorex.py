@@ -26,6 +26,7 @@ def get_firmware_links():
     links = []
 
     # Download and parse the Lorex firmware PDFs
+    os.makedirs('tmp', exist_ok=True)
     for url in firmware_urls:
         requests_file = http.get(url)
         if requests_file.status_code == 200:

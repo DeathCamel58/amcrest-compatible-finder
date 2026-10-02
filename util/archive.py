@@ -46,26 +46,49 @@ def md5_file(path):
 
 
 # Entry fields copied into the provenance record that's uploaded next to each firmware
-RECORD_FIELDS = ["platform", "vendors", "listings", "camera_name", "notes", "url", "firmware_version",
+RECORD_FIELDS = ["platform", "vendors", "camera_name", "series", "notes", "url", "firmware_version",
                  "release_date", "changelog", "md5", "sha256"]
+# Listing fields that change on every run; leaving them out keeps items from being updated each time
+VOLATILE_LISTING_FIELDS = {"last_seen", "last_seen_latest", "url_checked_at"}
 
 PLATFORM_NAMES = {"dahua": "Dahua", "hikvision": "Hikvision"}
 
 
-def get_record(file_name, size, md5, entry, hardware_ids):
-    """Machine-readable provenance for the item: where the file came from and what was found inside it."""
+def stable_listings(listings):
+    return [{k: v for k, v in listing.items() if k not in VOLATILE_LISTING_FIELDS} for listing in listings or []]
+
+
+def get_record(file_name, size, md5, entry, analysis, alias_entries):
+    """Machine-readable provenance for the item: where the file came from and what was found inside it.
+
+    analysis is the file's firmware_compatible.json result, alias_entries maps other names with identical content
+    to their cameras.json entries."""
+    analysis = analysis or {}
     record = {
         "file_name": file_name,
         "size": size,
         "archived_md5": md5,
-        "hardware_ids": hardware_ids,
+        "archived_sha256": (entry.get("file_hashes") or {}).get("sha256"),
+        "hardware_ids": analysis.get("hardware_ids") or [],
+        "hardware": analysis.get("hardware"),
+        "analysis_status": analysis.get("status"),
+        "listings": stable_listings(entry.get("listings")),
         "archived_by": "amcrest-compatible-finder",
     }
     for field in RECORD_FIELDS:
         if entry.get(field):
-            # The vendor checksums are kept apart from the checksum of what was actually archived
+            # The vendor checksums are kept apart from the checksums of what was actually archived
             record[f"vendor_{field}" if field in ("md5", "sha256") else field] = entry[field]
-    return record
+
+    # The same file under other names, and where those were published
+    aliases = []
+    for alias, alias_entry in sorted(alias_entries.items()):
+        aliases.append({"file_name": alias, "url": alias_entry.get("url"),
+                        "listings": stable_listings(alias_entry.get("listings"))})
+    if aliases:
+        record["aliases"] = aliases
+
+    return {key: value for key, value in record.items() if value not in (None, [], {})}
 
 
 def get_record_hash(record):
@@ -80,8 +103,14 @@ def get_metadata(record):
     file_name = record["file_name"]
     vendors = record.get("vendors") or []
     models = record.get("camera_name") or []
-    hardware_ids = record.get("hardware_ids") or []
+    hardware = record.get("hardware") or {}
+    aliases = record.get("aliases") or []
     esc = html.escape
+    # Vendors of identical copies under other names count as distributors of this item too
+    for alias in aliases:
+        for listing in alias.get("listings") or []:
+            if listing.get("vendor") and listing["vendor"] not in vendors:
+                vendors = vendors + [listing["vendor"]]
 
     lines = [f"Firmware file <b>{esc(file_name)}</b>, archived by amcrest-compatible-finder so it stays available "
              f"after vendors remove it. The {esc(file_name)}.provenance.json file in this item has the same data "
@@ -103,6 +132,8 @@ def get_metadata(record):
             lines.append(" - " + "; ".join(parts))
             for note in listing.get("notes") or []:
                 lines.append(f"&nbsp;&nbsp;&nbsp;note: {esc(note)}")
+        if record.get("series"):
+            lines.append(f"Product series: {esc(', '.join(record['series']))}")
     else:
         if vendors:
             lines.append(f"Distributed by: {esc(', '.join(vendors))}")
@@ -113,15 +144,27 @@ def get_metadata(record):
         for note in record.get("notes") or []:
             lines.append(f"Note: {esc(note)}")
 
+    # Identical copies published under other names
+    if aliases:
+        lines.append("<b>Also published under these names</b> (byte-for-byte identical)")
+        for alias in aliases:
+            sources = [f"{esc(l['vendor'])}: {link(l['url'])}" for l in alias.get("listings") or [] if l.get("url")]
+            if not sources and alias.get("url"):
+                sources = [link(alias["url"])]
+            lines.append(f" - {esc(alias['file_name'])}" + (f" ({'; '.join(sources)})" if sources else ""))
+
     # What was found by unpacking it
     lines.append("<b>Firmware details</b>")
     platform = PLATFORM_NAMES.get(record.get("platform"))
     if platform:
         lines.append(f"Platform: {platform} firmware (identified from the file's header and naming)")
-    if hardware_ids:
-        lines.append(f"Hardware IDs this firmware installs on (read from inside the firmware): {esc(', '.join(hardware_ids))}")
+    # Read from inside the firmware: what its installer accepts
+    for label, group in [("Models it installs on", "models"), ("Board families it installs on", "boards"),
+                         ("Raw hardware IDs it installs on", "hwids")]:
+        if hardware.get(group):
+            lines.append(f"{label} (read from inside the firmware): {esc(', '.join(hardware[group]))}")
     for label, field in [("Version", "firmware_version"), ("Release date", "release_date"),
-                         ("Size", "size"), ("MD5 of this file", "archived_md5"),
+                         ("Size", "size"), ("MD5 of this file", "archived_md5"), ("SHA256 of this file", "archived_sha256"),
                          ("Vendor-published MD5", "vendor_md5"), ("Vendor-published SHA256", "vendor_sha256")]:
         if record.get(field):
             lines.append(f"{label}: {esc(str(record[field]))}")
@@ -164,7 +207,7 @@ def upload_record(identifier, record):
         os.remove(temp_path)
 
 
-def archive_firmware(path, entry, hardware_ids):
+def archive_firmware(path, entry, analysis, alias_entries):
     """Upload a firmware and its provenance record to its own Internet Archive item, or reuse an identical upload.
 
     Returns a dict of the fields to store in cameras.json. Raises on failure.
@@ -173,8 +216,10 @@ def archive_firmware(path, entry, hardware_ids):
     identifier = get_identifier(file_name)
     item_url, download_url = get_urls(identifier, file_name)
 
-    local_md5 = md5_file(path)
-    record = get_record(file_name, os.path.getsize(path), local_md5, entry, hardware_ids)
+    # Reuse the hashes from the enrich step when they're for this exact file
+    hashes = entry.get("file_hashes") or {}
+    local_md5 = hashes["md5"] if hashes.get("size") == os.path.getsize(path) and hashes.get("md5") else md5_file(path)
+    record = get_record(file_name, os.path.getsize(path), local_md5, entry, analysis, alias_entries)
     result = {"archive_item": item_url, "archive_url": download_url, "archive_md5": local_md5,
               "archive_record_hash": get_record_hash(record)}
 
@@ -183,7 +228,7 @@ def archive_firmware(path, entry, hardware_ids):
     if item.exists:
         for item_file in item.files:
             if item_file.get("name") == file_name and item_file.get("md5") == local_md5:
-                refresh_archive(file_name, entry, hardware_ids, local_md5, os.path.getsize(path))
+                refresh_archive(file_name, entry, analysis, alias_entries, local_md5, os.path.getsize(path))
                 return result
 
     # New items only appear once archive.org works through its task queue, which can take a while.
@@ -211,11 +256,11 @@ def archive_firmware(path, entry, hardware_ids):
     return result
 
 
-def refresh_archive(file_name, entry, hardware_ids, archived_md5, size):
+def refresh_archive(file_name, entry, analysis, alias_entries, archived_md5, size):
     """Update an archived item's metadata and provenance record (e.g. new hardware IDs or vendors) without
     re-uploading the firmware. Returns the new record hash."""
     identifier = get_identifier(file_name)
-    record = get_record(file_name, size, archived_md5, entry, hardware_ids)
+    record = get_record(file_name, size, archived_md5, entry, analysis, alias_entries)
 
     response = internetarchive.get_item(identifier).modify_metadata(get_metadata(record))
     # 400 "no changes to _meta.xml" just means it's already current
@@ -226,6 +271,6 @@ def refresh_archive(file_name, entry, hardware_ids, archived_md5, size):
     return get_record_hash(record)
 
 
-def needs_refresh(file_name, entry, hardware_ids, size):
-    record = get_record(file_name, size, entry.get("archive_md5"), entry, hardware_ids)
+def needs_refresh(file_name, entry, analysis, alias_entries, size):
+    record = get_record(file_name, size, entry.get("archive_md5"), entry, analysis, alias_entries)
     return get_record_hash(record) != entry.get("archive_record_hash")

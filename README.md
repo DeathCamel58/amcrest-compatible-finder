@@ -13,12 +13,12 @@ python3 -m venv .venv
 
 ## Output
  - `cameras.json`: firmware file name -> where it came from (vendors, model names, URL, version, release date, hashes)
- - `firmware_compatible.json`: firmware file name -> hardware IDs found inside the firmware
+ - `firmware_compatible.json`: firmware file name -> hardware IDs found inside the firmware, plus the analysis status
 
 See `docs/` for example output and the field reference.
 
 Every downloaded firmware is also uploaded to the Internet Archive (needs `ia configure` once). Run a single step
-with `python main.py download`, `python main.py process` or `python main.py archive`.
+with `python main.py download|enrich|process|archive`, and check vendor links with `python main.py check-links`.
 
 ## OEM Support
  - [X] Dahua (dahuawiki.com and the official download center API across all regional sites)
