@@ -23,6 +23,14 @@ with `python main.py download|enrich|process|archive`, and check vendor links wi
 ## OEM Support
  - [X] Dahua (dahuawiki.com and the official download center API across all regional sites)
 
+### Mirrors and archives
+ - [X] ASM (ftp.asm.cz) - Czech Dahua distributor's file server (cameras, recorders, intercoms, access control)
+ - [X] files.dahuatech.support - Dahua support file server
+ - [X] Wayback Machine - recovers firmwares from dahuawiki, Dahua's file storage, Amcrest, Lorex, Rhino and others
+   that are no longer served anywhere else
+ - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net
+ - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
+
 ### Current
  - [ ] 2M CCTV
  - [ ] Activecam - **NOTE:** Site unreachable from the US
@@ -64,14 +72,14 @@ with `python main.py download|enrich|process|archive`, and check vendor links wi
  - [ ] People Fu
  - [ ] Platinum CCTV - **NOTE:** Cloudflare, no Dahua evidence
  - [ ] RedSpeed
- - [X] Rhino Co - old 2013-2016 builds
+ - [X] Rhino Co - old 2013-2016 builds, plus their file library (`/file/display/{id}`)
  - [ ] Rhodium
- - [X] RVI - Dahua entries only
+ - [X] RVI - Dahua entries only, from the firmware page and the download ID library
  - [ ] Saxco
  - [ ] SavvyTech
  - [ ] Security Camera King
  - [ ] Space Technology
- - [X] Speco - only a couple of their recorders are Dahua
+ - [X] Speco - only a few of their recorders and cameras are Dahua (release notes and the WordPress media library)
  - [ ] ToughDog
  - [ ] Unisight
  - [X] VIP Vision

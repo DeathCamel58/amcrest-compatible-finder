@@ -1,5 +1,9 @@
-from util import http
+from urllib.parse import unquote, urljoin
+
 from bs4 import BeautifulSoup
+
+from util import http
+from util.oem_helpers import FIRMWARE_EXTENSIONS
 
 name = "DahuaFileDirectory"
 vendor = "Dahua"
@@ -13,49 +17,39 @@ def get_links():
     page = http.get(firmware_site)
     soup = BeautifulSoup(page.content, "html.parser")
 
-    results = soup.find_all("table")
-
-    return results
+    return soup.find_all("a", href=True)
 
 
-def parse_firmwares(link):
+def parse_firmwares(links):
     firmwares = []
 
-    links = link.find_all("a")
-    links.pop(0)
-    links.pop(0)
-    links.pop(0)
-    links.pop(0)
-    links.pop(0)
-
     for link in links:
-        link_text = link.text
+        href = link["href"]
+        # Skip sort links, parent/sub directories and anything outside this directory
+        if href.startswith(("?", "/")) or href.endswith("/"):
+            continue
 
-        if link_text.endswith(".bin"):
-            link = f"{firmware_site}{link_text}"
-            firmware = {
-                "camera_name": None,
-                "firmware_version": None,
-                "firmware_size": None,
-                "firmware_notes": None,
-                "firmware_changelog": None,
-                "firmware_previous": None,
-                "firmware_latest": link,
-            }
+        file_name = unquote(href.split("/")[-1])
+        # Dahua uses .bin, .BIN, .zip and .img; this is Dahua's own file server, so every firmware here counts
+        if not file_name.lower().endswith(FIRMWARE_EXTENSIONS):
+            continue
 
-            firmwares.append(firmware)
+        firmware = {
+            "camera_name": None,
+            "firmware_version": None,
+            "firmware_size": None,
+            "firmware_notes": None,
+            "firmware_changelog": None,
+            "firmware_previous": None,
+            "firmware_latest": urljoin(firmware_site, href),
+            # The URL is percent-encoded (spaces, brackets), so give the real file name explicitly
+            "firmware_latest_file_name": file_name,
+        }
+
+        firmwares.append(firmware)
 
     return firmwares
 
 
 def get_firmwares():
-    table = get_links()
-
-    parsed_firmware = []
-
-    parsed_firmwares = parse_firmwares(table[0])
-
-    for parsed in parsed_firmwares:
-        parsed_firmware.append(parsed)
-
-    return parsed_firmwares
+    return parse_firmwares(get_links())

@@ -30,8 +30,14 @@ from brands import Montavue
 from brands import RVI
 from brands import Speco
 from brands import Optiview
+from brands import ASM
+from brands import DahuaTechSupport
+from brands import RhinoFiles
+from brands import RVI_Files
+from brands import Wayback
 from util.archive import archive_firmware, needs_refresh, refresh_archive
 from util.download_firmware import download_firmware
+from util.file_integrity import check_integrity
 from util.firmware_platform import detect_platform
 from util import http
 from util.general import merge_unique_text, normalize_firmware_url
@@ -62,6 +68,12 @@ oem_modules = [
     RVI,
     Speco,
     Optiview,
+    ASM,
+    DahuaTechSupport,
+    RhinoFiles,
+    RVI_Files,
+    # Last, so it only recovers what no live source still has
+    Wayback,
 ]
 
 # TODO: Support additional Dahua OEMs
@@ -70,6 +82,9 @@ oem_modules = [
 
 
 camera_json_lock = threading.Lock()
+
+# Truncated firmwares that were replaced by a complete download are kept here rather than deleted
+TRUNCATED_DIR = os.path.join(os.path.dirname(os.path.realpath('firmware')), 'firmware-truncated')
 
 # Used for listing first_seen / last_seen, so every listing seen in one run gets the same date
 RUN_DATE = date.today().isoformat()
@@ -135,9 +150,20 @@ def merge_listing(listings, firmware, firmware_type, new_camera_names, firmware_
     # Freshness: when this page first and last listed the file, and whether it's that page's current firmware
     listing.setdefault('first_seen', RUN_DATE)
     listing['last_seen'] = RUN_DATE
-    if firmware_type == 'firmware_latest':
-        listing['last_seen_latest'] = RUN_DATE
-    listing['latest'] = listing.get('last_seen_latest') == listing['last_seen']
+    # Where a copy was archived from (Wayback Machine captures), and when
+    for field in ('original_url', 'archived_at'):
+        if firmware.get(field):
+            listing[field] = firmware[field]
+
+    # Mirrors (distributors' file servers) and archives just hold files; they don't say which firmware is current
+    listing['kind'] = firmware.get('source_kind', 'vendor')
+    if listing['kind'] != 'vendor':
+        listing.pop('latest', None)
+        listing.pop('last_seen_latest', None)
+    else:
+        if firmware_type == 'firmware_latest':
+            listing['last_seen_latest'] = RUN_DATE
+        listing['latest'] = listing.get('last_seen_latest') == listing['last_seen']
 
     return listings
 
@@ -188,8 +214,41 @@ def resolve_file_name(firmware, firmware_type):
     return renamed
 
 
+def replace_truncated_file(firmware, firmware_type, file_name):
+    """If the file on disk is truncated and this source serves a different copy, download it and keep it if it's
+    complete. The truncated copy is moved to TRUNCATED_DIR, never deleted."""
+    name = file_name[len('firmware/'):]
+    integrity = get_cameras_json().get(name, {}).get('integrity') or {}
+    if integrity.get('status') != 'truncated':
+        return False
+
+    expected_size = get_expected_size(firmware, firmware_type)
+    if expected_size == os.path.getsize(file_name):
+        # The vendor serves the same cut-off file, so downloading it again won't help
+        with camera_json_lock:
+            cameras_json = get_cameras_json()
+            cameras_json[name].setdefault('integrity', {})['vendor_copy_truncated'] = True
+            save_cameras_json(cameras_json)
+        return False
+
+    candidate = f'{file_name}.redownload'
+    if download_firmware(firmware[firmware_type], candidate, firmware.get('downloader')) is None:
+        return False
+    if check_integrity(candidate)['status'] != 'ok':
+        print(f'\tRe-downloaded {name}, but it is still incomplete; keeping the existing copy')
+        os.remove(candidate)
+        return False
+
+    os.makedirs(TRUNCATED_DIR, exist_ok=True)
+    os.replace(file_name, os.path.join(TRUNCATED_DIR, name))
+    os.replace(candidate, file_name)
+    print(f'\tReplaced truncated {name} with a complete copy (the old one is in {TRUNCATED_DIR})')
+    return True
+
+
 def download_firmware_thread(firmware, firmware_type):
     file_name = f'firmware/{resolve_file_name(firmware, firmware_type)}'
+    replaced = os.path.exists(file_name) and replace_truncated_file(firmware, firmware_type, file_name)
 
     downloaded = False
     if not os.path.exists(file_name):
@@ -237,7 +296,7 @@ def download_firmware_thread(firmware, firmware_type):
         if os.path.exists(file_name):
             firmware_data['firmware_size'] = os.stat(file_name).st_size
             # dahua / hikvision / unknown, from the file itself (some OEMs sell both, e.g. GSS Red|LINE is Hikvision)
-            if not existing.get('platform') or downloaded:
+            if not existing.get('platform') or downloaded or replaced:
                 firmware_data['platform'] = detect_platform(file_name)
 
         if firmware.get('firmware_changelog'):
@@ -278,8 +337,10 @@ def get_all_firmwares():
         print(f'Got a list of {len(oem_firmwares)} {oem.name} firmwares!')
 
         for oem_firmware in oem_firmwares:
-            oem_firmware['vendor'] = oem.vendor
-            oem_firmware['source'] = oem.name
+            # Modules that collect other vendors' files (the Wayback Machine) set these per firmware
+            oem_firmware['vendor'] = oem_firmware.get('vendor') or oem.vendor
+            oem_firmware['source'] = oem_firmware.get('source') or oem.name
+            oem_firmware['source_kind'] = getattr(oem, 'kind', 'vendor')
             # Modules for hosts that need special handling (Google Drive, MEGA, ...) provide their own downloader
             oem_firmware['downloader'] = getattr(oem, 'download_file', None)
             for firmware_type in ["firmware_previous", "firmware_latest"]:
@@ -288,6 +349,15 @@ def get_all_firmwares():
 
     if len(firmwares) == 0:
         return
+
+    # Archived copies (Wayback Machine) are only for files no live source has anymore
+    live_names = {get_firmware_file_name(f, t) for f in firmwares if f.get('source_kind') != 'archive'
+                  for t in ('firmware_previous', 'firmware_latest') if f.get(t)}
+    archived = [f for f in firmwares if f.get('source_kind') == 'archive']
+    firmwares = [f for f in firmwares if f.get('source_kind') != 'archive'
+                 or get_firmware_file_name(f, 'firmware_latest') not in live_names]
+    recovering = sum(1 for f in firmwares if f.get('source_kind') == 'archive')
+    print(f'Recovering {recovering} of {len(archived)} archived firmwares (the rest are still available live)')
 
     # Shuffle the order of firmwares to hit different vendors at once (to prevent a slow vendor from stopping downloads)
     random.shuffle(firmwares)
@@ -304,7 +374,8 @@ def get_all_firmwares():
 
 
 def list_firmware_files():
-    return sorted(f for f in os.listdir('firmware') if not f.endswith('.part'))
+    return sorted(f for f in os.listdir('firmware')
+                  if not f.endswith(('.part', '.redownload')) and os.path.isfile(f'firmware/{f}'))
 
 
 def enrich_firmwares():
@@ -344,11 +415,20 @@ def enrich_firmwares():
         cameras_json = get_cameras_json()
         duplicates = assign_duplicates(cameras_json, firmware_files)
 
-        # Entries downloaded before platform detection existed
+        truncated = 0
         for firmware_file in firmware_files:
             entry = cameras_json.setdefault(firmware_file, {})
+            path = f'firmware/{firmware_file}'
+            # Entries from older data may lack these
+            entry['firmware_size'] = os.path.getsize(path)
             if not entry.get('platform'):
-                entry['platform'] = detect_platform(f'firmware/{firmware_file}')
+                entry['platform'] = detect_platform(path)
+            # Catch downloads that were cut off (or vendors serving cut-off files) before they're analysed or archived
+            integrity = check_integrity(path)
+            if integrity['status'] == 'truncated' and (entry.get('integrity') or {}).get('vendor_copy_truncated'):
+                integrity['vendor_copy_truncated'] = True
+            entry['integrity'] = integrity
+            truncated += integrity['status'] == 'truncated'
 
         # Older entries were stored before junk model names were filtered out
         for firmware_file, entry in cameras_json.items():
@@ -364,6 +444,7 @@ def enrich_firmwares():
 
         save_cameras_json(cameras_json)
     print(f'Found {duplicates} firmwares that are identical to another file')
+    print(f'Found {truncated} truncated firmwares')
 
 
 def mirror_duplicate_results():
@@ -393,6 +474,14 @@ def process_firmware(firmware_file):
     if previous and previous.get('status') == 'duplicate':
         previous = None
     platform = entry.get('platform') or detect_platform(file_path)
+    integrity = entry.get('integrity') or check_integrity(file_path)
+    truncated = integrity.get('status') == 'truncated'
+
+    # A result from before the file was known to be truncated (or from before it was replaced by a complete copy)
+    # doesn't describe it correctly
+    known_truncated = bool(previous and previous.get('truncated'))
+    if previous and platform == 'dahua' and truncated != known_truncated:
+        previous = None
 
     if not needs_processing(previous, platform):
         return
@@ -402,7 +491,7 @@ def process_firmware(firmware_file):
         mark_not_dahua(firmware_file, platform)
         return
 
-    process_firmware_threaded(firmware_file, file_path, previous)
+    process_firmware_threaded(firmware_file, file_path, previous, integrity)
 
 
 def process_all_firmwares():
@@ -479,9 +568,15 @@ def archive_all_firmwares():
     firmware_json = get_firmware_json()
 
     firmware_files = []
+    skipped_truncated = []
     for firmware_file in list_firmware_files():
         entry = with_platform(cameras_json.get(firmware_file, {}), f'firmware/{firmware_file}')
         if entry.get('duplicate_of'):
+            continue
+        # Don't put an incomplete file on the archive. One that's already there keeps its item, which gets updated
+        # to say the file is incomplete
+        if (entry.get('integrity') or {}).get('status') == 'truncated' and not entry.get('archive_url'):
+            skipped_truncated.append(firmware_file)
             continue
         if not entry.get('archive_url') or not entry.get('archive_md5') or needs_refresh(
                 firmware_file, entry, firmware_json.get(firmware_file), get_alias_entries(cameras_json, entry),
@@ -490,7 +585,8 @@ def archive_all_firmwares():
 
     # Firmwares no vendor currently lists go first, since their source is the most likely to be gone
     firmware_files.sort(key=lambda f: (bool(cameras_json.get(f, {}).get('vendors')), f))
-    print(f'Archiving or updating {len(firmware_files)} firmwares on the Internet Archive')
+    print(f'Archiving or updating {len(firmware_files)} firmwares on the Internet Archive '
+          f'(skipping {len(skipped_truncated)} truncated ones)')
 
     # Keep this low; archive.org throttles bulk uploads
     with ThreadPoolExecutor(max_workers=3) as pool:
@@ -553,6 +649,8 @@ VENDOR_HOSTS = {
     'www.lorextechnology.com': 'Lorex',
     '52.45.202.118': 'Lorex',
     'gogss.com': 'GSS',
+    'amcrest.com': 'Amcrest',
+    'support.amcrest.com': 'Amcrest',
     'amcrest-firmwares.s3.amazonaws.com': 'Amcrest',
     'amcrest-firmwares.s3.us-east-1.amazonaws.com': 'Amcrest',
 }
@@ -563,22 +661,25 @@ VENDOR_S3_BUCKETS = {
 
 
 def infer_vendors_from_urls():
-    """Give entries that no current listing covers a vendor from their download host, so they still say where
-    they came from (e.g. firmwares dahuawiki has since removed)."""
+    """Give entries that no current listing covers a vendor and listing from their download host, so they still
+    say where they came from (e.g. firmwares dahuawiki has since removed)."""
     with camera_json_lock:
         cameras_json = get_cameras_json()
         inferred = 0
         for entry in cameras_json.values():
-            if entry.get('vendors') or not entry.get('url'):
+            if entry.get('listings') or not entry.get('url'):
                 continue
             url = urlparse(entry['url'])
             vendor = VENDOR_HOSTS.get(url.hostname)
             if vendor is None and url.hostname == 's3.amazonaws.com':
                 vendor = VENDOR_S3_BUCKETS.get(url.path.split('/')[1])
+            # Older entries may already name their vendor without having a listing
+            if vendor is None and len(entry.get('vendors') or []) == 1:
+                vendor = entry['vendors'][0]
             if vendor is None:
                 continue
 
-            entry['vendors'] = [vendor]
+            entry['vendors'] = list(dict.fromkeys((entry.get('vendors') or []) + [vendor]))
             entry['listings'] = [{
                 'vendor': vendor,
                 'source': f'{url.hostname} (found in an earlier scrape)',

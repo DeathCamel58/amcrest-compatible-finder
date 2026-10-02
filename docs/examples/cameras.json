@@ -11,6 +11,10 @@
         },
         "firmware_size": 20582764,
         "firmware_version": "AR_K71_V4.21.100_210819",
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -26,7 +30,7 @@
                 ],
                 "source": "GSS - Red|LINE DVR",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/AR_K71_V4.21.100_210819.dav",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -52,6 +56,10 @@
         },
         "firmware_size": 15667564,
         "firmware_version": "AR_K72_V4.21.100_210903",
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -67,7 +75,7 @@
                 ],
                 "source": "GSS - Red|LINE DVR",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/AR_K72_V4.21.100_210903.dav",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -79,6 +87,34 @@
         "url": "https://gogss.com/malls/wp-content/uploads/2025/07/AR_K72_V4.21.100_210903.dav",
         "vendors": [
             "GSS"
+        ]
+    },
+    "ATC-1202W.zip": {
+        "camera_name": [
+            "ATC-1202W"
+        ],
+        "firmware_version": "UN 3.6.05",
+        "listings": [
+            {
+                "camera_name": [
+                    "ATC-1202W"
+                ],
+                "notes": [
+                    "Only for ATC-1202W - DISCONTINUED"
+                ],
+                "source": "amcrest.com (found in an earlier scrape)",
+                "url": "https://amcrest.com/downloads/ATC-1202W.zip",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "error",
+                "vendor": "Amcrest"
+            }
+        ],
+        "notes": [
+            "Only for ATC-1202W - DISCONTINUED"
+        ],
+        "url": "https://amcrest.com/downloads/ATC-1202W.zip",
+        "vendors": [
+            "Amcrest"
         ]
     },
     "Amcrest_IPC-AWXX_EngItlGer_P_V2.420.AC00.15.R.20160908.bin": {
@@ -95,6 +131,9 @@
         },
         "firmware_size": 13797870,
         "firmware_version": "V2.420.AC00.15.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -114,7 +153,7 @@
                 "release_date": "2016-09-08",
                 "source": "Amcrest",
                 "url": "https://s3.amazonaws.com/amcrest-files/Firmware/International/Amcrest_IPC-AWXX_EngItlGer_P_V2.420.AC00.15.R.20160908.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Amcrest"
             }
@@ -147,6 +186,9 @@
         },
         "firmware_size": 15532655,
         "firmware_version": "V2.860.0000000.40.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -166,7 +208,7 @@
                 "release_date": "2026-05-29",
                 "source": "Dahua Download Center",
                 "url": "https://materialfile.dahuasecurity.com/uploads/cpq/84464/firmware/DH_IPC-HX1X3X-Kant_EngSpnRus_PN_V2.860.0000000.40.R.260515.zip",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Dahua"
             }
@@ -193,13 +235,18 @@
             "sha256": "fc222b32b20b9bdd541ac2897af4c546e9834ff3671b9799ed1f86ad6dd3b6ca",
             "size": 8642560
         },
+        "firmware_size": 8642560,
+        "integrity": {
+            "reason": "zip directory missing (download was cut off)",
+            "status": "truncated"
+        },
         "listings": [
             {
                 "camera_name": [],
                 "notes": [],
                 "source": "dahuawiki.com (found in an earlier scrape)",
                 "url": "https://dahuawiki.com/images/Files/Firmware/DH_IPC-HX5XXX-Volt_Eng_N_Stream3_V2.800.12JW000.0.R.200717.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "dead",
                 "vendor": "Dahua"
             }
@@ -207,6 +254,37 @@
         "notes": [],
         "platform": "dahua",
         "url": "https://dahuawiki.com/images/Files/Firmware/DH_IPC-HX5XXX-Volt_Eng_N_Stream3_V2.800.12JW000.0.R.200717.bin",
+        "vendors": [
+            "Dahua"
+        ]
+    },
+    "General_ASR1100B_APP_V1.002.0000.0.R.20161111.bin": {
+        "camera_name": [],
+        "file_hashes": {
+            "md5": "c5e7a024e7709f5b5abb8a33fe37046e",
+            "mtime": 1763653084,
+            "sha256": "7ed2096520575cc1defb6923403cbf746d311d23c8a9269f402fc15c8ddc778a",
+            "size": 9256
+        },
+        "firmware_size": 9256,
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
+        "listings": [
+            {
+                "camera_name": [],
+                "notes": [],
+                "source": "dahuawiki.com (found in an earlier scrape)",
+                "url": "https://dahuawiki.com/images/Files/Firmware/General_ASR1100B_APP_V1.002.0000.0.R.20161111.bin",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "ok",
+                "vendor": "Dahua"
+            }
+        ],
+        "notes": [],
+        "platform": "dahua",
+        "url": "https://dahuawiki.com/images/Files/Firmware/General_ASR1100B_APP_V1.002.0000.0.R.20161111.bin",
         "vendors": [
             "Dahua"
         ]
@@ -223,6 +301,9 @@
         },
         "firmware_size": 13529606,
         "firmware_version": "V3.200.0004.13.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -237,7 +318,7 @@
                 "release_date": "2018-05-24",
                 "source": "Inaxsys STORM",
                 "url": "https://inaxsys.sharepoint.com/sites/Download/Shared%20Documents/Cloud/STORM/Storm%20NVR%20Firmware/INS4CCVI/General_HCVR5x04-S2_Eng_PN_V3.200.0004.13.R.20171021.bin?download=1",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "unchecked",
                 "vendor": "Inaxsys"
             }
@@ -265,6 +346,9 @@
         },
         "firmware_size": 14604208,
         "firmware_version": "3.200.AC04.5",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -286,7 +370,7 @@
                 "release_date": "2015-12-17",
                 "source": "Amcrest",
                 "url": "https://s3.amazonaws.com/amcrest-files/Firmware/AMDV72116_AMDV10804_AMDV7208/General_HCVR5x08-S2_Eng_N_Amcrest_SV10003_V3.200.AC04.5.R.20151217.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Amcrest"
             }
@@ -316,6 +400,9 @@
         },
         "firmware_size": 27034660,
         "firmware_version": "V2.800.0000000.15.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -331,7 +418,7 @@
                 "release_date": "2021-06-30",
                 "source": "EmpireTech",
                 "url": "https://mega.nz/file/hjsH2KCC#Sn3mvRsvhDadN82P2DuHcHWBmhvsG-wQ_gzoKt1oR-U",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "unchecked",
                 "vendor": "EmpireTech"
             }
@@ -354,6 +441,9 @@
         },
         "firmware_size": 14073597,
         "firmware_version": "V2.212.0001.0.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -369,7 +459,7 @@
                 ],
                 "source": "Rhino",
                 "url": "http://downloads.rhinoco.com.au/dvr/Dahua/Cameras/Firmware/General_IPC-HX3(2)XXX_Eng_P_V2.212.0001.0.R.20131224.zip",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Rhino"
             }
@@ -395,6 +485,9 @@
         },
         "firmware_size": 13393612,
         "firmware_version": "V2.600.0005.0.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -407,7 +500,7 @@
                 "release_date": "2016-12-19",
                 "source": "Rhino",
                 "url": "http://downloads.rhinoco.com.au/dvr/Dahua/Cameras/Firmware/General_IPC-HX4X2X-Themis_Eng_P_Stream3_V2.600.0005.0.R.20161219/General_IPC-HX4X2X-Themis_Eng_P_Stream3_V2.600.0005.0.R.20161219.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Rhino"
             }
@@ -433,6 +526,9 @@
         },
         "firmware_size": 28187632,
         "firmware_version": "V2.800.0000032.0.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -448,7 +544,7 @@
                 "release_date": "2025-02-24",
                 "source": "EmpireTech",
                 "url": "https://mega.nz/file/JqlxDKCa#0w8UL9e4qNivUUOJPgtFEYVUZQjGlRbyI4eUm900n-0",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "unchecked",
                 "vendor": "EmpireTech"
             }
@@ -473,6 +569,9 @@
         },
         "firmware_size": 7037977,
         "firmware_version": "V2.620.0000000.1.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -489,7 +588,7 @@
                 "release_date": "2020-02-21",
                 "source": "ENS Diamond",
                 "url": "https://drive.usercontent.google.com/download?id=1po4KrpAq3LtZd0dZOsxIwMZFCjNsVBPv&export=download",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "unchecked",
                 "vendor": "ENS Security"
             }
@@ -502,6 +601,158 @@
         "url": "https://drive.usercontent.google.com/download?id=1po4KrpAq3LtZd0dZOsxIwMZFCjNsVBPv&export=download",
         "vendors": [
             "ENS Security"
+        ]
+    },
+    "General_NVR5XXX-4KS2_MultiLang_V4.002.0000000.8.R.241030.bin": {
+        "camera_name": [
+            "NVR5208-8P-4KS2E",
+            "NVR5216-16P-4KS2E",
+            "NVR5216-8P-4KS2E",
+            "INS8824KN",
+            "INS161624KN"
+        ],
+        "changelog": "https://cdn.shopify.com/s/files/1/0747/5383/5293/files/General_NVR5XXX-4KS2_MultiLang_V4.002.0000000.8.R.241030_Release_Notes.pdf?v=1733454396",
+        "file_hashes": {
+            "md5": "114fc6852be9eb964465ddcea49d9509",
+            "mtime": 1790963473,
+            "sha256": "c3110f9320d5944cf74e9d78bedb2ee9490708d3c413c37776e99782a088d78d",
+            "size": 67959427
+        },
+        "firmware_size": 67959427,
+        "firmware_version": "V4.002.0000000.8.R",
+        "integrity": {
+            "status": "ok"
+        },
+        "listings": [
+            {
+                "camera_name": [
+                    "NVR5208-8P-4KS2E",
+                    "NVR5216-16P-4KS2E",
+                    "NVR5216-8P-4KS2E"
+                ],
+                "changelog": "https://cdn.shopify.com/s/files/1/0747/5383/5293/files/General_NVR5XXX-4KS2_MultiLang_V4.002.0000000.8.R.241030_Release_Notes.pdf?v=1733454396",
+                "firmware_version": "V4.002.0000000.8.R",
+                "first_seen": "2026-10-02",
+                "last_seen": "2026-10-02",
+                "last_seen_latest": "2026-10-02",
+                "latest": true,
+                "notes": [],
+                "release_date": "2024-10-30",
+                "source": "EmpireTech",
+                "url": "https://mega.nz/folder/sj13yDSZ#jFSMNcMPrE7O5Yyi3vQwRw/file/IztDQICA",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "unchecked",
+                "vendor": "EmpireTech"
+            },
+            {
+                "camera_name": [
+                    "INS8824KN",
+                    "INS161624KN"
+                ],
+                "firmware_version": "V4.002.0000000.8.R",
+                "first_seen": "2026-10-02",
+                "last_seen": "2026-10-02",
+                "last_seen_latest": "2026-10-02",
+                "latest": true,
+                "notes": [],
+                "release_date": "2026-07-15",
+                "source": "Inaxsys STORM",
+                "url": "https://inaxsys.sharepoint.com/sites/Download/Shared%20Documents/Cloud/STORM/Storm%20NVR%20Firmware/INS8824KN%20INS161624KN%20%28S2%29/General_NVR5XXX-4KS2_MultiLang_V4.002.0000000.8.R.241030.bin?download=1",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "unchecked",
+                "vendor": "Inaxsys"
+            }
+        ],
+        "notes": [],
+        "platform": "dahua",
+        "release_date": "2026-07-15",
+        "url": "https://inaxsys.sharepoint.com/sites/Download/Shared%20Documents/Cloud/STORM/Storm%20NVR%20Firmware/INS8824KN%20INS161624KN%20%28S2%29/General_NVR5XXX-4KS2_MultiLang_V4.002.0000000.8.R.241030.bin?download=1",
+        "vendors": [
+            "EmpireTech",
+            "Inaxsys"
+        ]
+    },
+    "General_SD50XXX-HN_MCU_V2.401.0000000.65.R.200303.bin": {
+        "camera_name": [
+            "50430UNI",
+            "52C430UNI"
+        ],
+        "file_hashes": {
+            "md5": "d1e9daa6e64cf3343f3004bf5d934579",
+            "mtime": 1790956281,
+            "sha256": "47f8c0f9a852a104bf61f23d9f2c001ef569e8bb5ede6c7665da8620ce1d9945",
+            "size": 78672
+        },
+        "firmware_size": 78672,
+        "firmware_version": "V2.401.0000000.65.R",
+        "integrity": {
+            "status": "ok"
+        },
+        "listings": [
+            {
+                "camera_name": [
+                    "50430UNI"
+                ],
+                "firmware_version": "V2.401.0000000.65.R",
+                "first_seen": "2026-10-02",
+                "last_seen": "2026-10-02",
+                "latest": false,
+                "notes": [],
+                "release_date": "2020-03-03",
+                "source": "Dahua",
+                "url": "https://dahuawiki.com/images/Files/Firmware/General_SD50XXX-HN_MCU_V2.401.0000000.65.R.200303.bin",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "ok",
+                "vendor": "Dahua"
+            }
+        ],
+        "notes": [],
+        "platform": "dahua",
+        "release_date": "2020-03-03",
+        "url": "https://dahuawiki.com/images/Files/Firmware/General_SD50XXX-HN_MCU_V2.401.0000000.65.R.200303.bin",
+        "vendors": [
+            "Dahua"
+        ]
+    },
+    "General_SD6A8XXX-HN-L_MCU_V2.301.0000000.25.R.191224.bin": {
+        "camera_name": [
+            "6AL245UNI"
+        ],
+        "file_hashes": {
+            "md5": "ec353d9ee48be73a53422ed7849305ff",
+            "mtime": 1723781292,
+            "sha256": "c73779defad7f4acde656cd863628db8efc6575717962a94d087d1b20ed891c1",
+            "size": 51131
+        },
+        "firmware_size": 51131,
+        "firmware_version": "V2.301.0000000.25.R",
+        "integrity": {
+            "status": "ok"
+        },
+        "listings": [
+            {
+                "camera_name": [
+                    "6AL245UNI"
+                ],
+                "firmware_version": "V2.301.0000000.25.R",
+                "first_seen": "2026-10-02",
+                "last_seen": "2026-10-02",
+                "latest": false,
+                "notes": [],
+                "release_date": "2019-12-24",
+                "source": "Dahua",
+                "url": "https://dahuawiki.com/images/Files/Firmware/General_SD6A8XXX-HN-L_MCU_V2.301.0000000.25.R.191224.bin",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
+                "url_status": "ok",
+                "vendor": "Dahua"
+            }
+        ],
+        "notes": [],
+        "platform": "dahua",
+        "release_date": "2019-12-24",
+        "url": "https://dahuawiki.com/images/Files/Firmware/General_SD6A8XXX-HN-L_MCU_V2.301.0000000.25.R.191224.bin",
+        "vendors": [
+            "Dahua"
         ]
     },
     "General_TPC-APL5400-BCYB_V1.000.0000000.1.R.20260112.zip": {
@@ -521,6 +772,9 @@
         },
         "firmware_size": 3244808,
         "firmware_version": "V1.000.0000000.1.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -540,7 +794,7 @@
                 "release_date": "2026-02-27",
                 "source": "Dahua Download Center",
                 "url": "https://materialfile.dahuasecurity.com/uploads/cpq/79247/firmware/General_TPC-APL5400-BCYB_V1.000.0000000.1.R.20260112.zip",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Dahua"
             }
@@ -567,6 +821,9 @@
         },
         "firmware_size": 13828101,
         "firmware_version": "V2.420.0000.2.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -581,7 +838,7 @@
                 "release_date": "2016-12-08",
                 "source": "Optiview",
                 "url": "http://support.optiviewusa.com/IPC/IPxx_firmware/HDCC5M_IPC-HX3(2)XXX_Eng_N_V2.420.0000.2.R.20161208.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Optiview"
             }
@@ -606,6 +863,9 @@
         },
         "firmware_size": 13330111,
         "firmware_version": "V2.400.0000.16.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -620,7 +880,7 @@
                 "release_date": "2016-05-17",
                 "source": "Optiview",
                 "url": "http://support.optiviewusa.com/IPC/IPxx_firmware/IP2MPTZ-4X_SD-Zi-Themis_Old_N_Stream3_IVS_V2.400.0000.16.R.20160517.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Optiview"
             }
@@ -645,6 +905,9 @@
         },
         "firmware_size": 10175677,
         "firmware_version": "IPC-144M",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -658,7 +921,7 @@
                 "notes": [],
                 "source": "GSS - Blue|LINE Camera",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/IPC-144M.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -682,6 +945,9 @@
         },
         "firmware_size": 7367991,
         "firmware_version": "IPC-244ZS2.83.6",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -695,7 +961,7 @@
                 "notes": [],
                 "source": "GSS - Blue|LINE Camera",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/IPC-244ZS2.83.6.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -720,6 +986,10 @@
         },
         "firmware_size": 22227316,
         "firmware_version": "K74_V3.4.98_180104-1",
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -736,7 +1006,7 @@
                 ],
                 "source": "GSS - Red|LINE NVR",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/K74_V3.4.98_180104-1.dav",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -760,6 +1030,10 @@
             "size": 24259609
         },
         "firmware_size": 24259609,
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -770,7 +1044,7 @@
                 "notes": [],
                 "source": "Lorex",
                 "url": "https://www.lorextechnology.com/images/supportimages/supportarticles/firmware/LH0604P_20190925_00058.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Lorex"
             }
@@ -795,6 +1069,10 @@
             "size": 24259609
         },
         "firmware_size": 24259609,
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -805,7 +1083,7 @@
                 "notes": [],
                 "source": "Lorex",
                 "url": "https://www.lorextechnology.com/images/supportimages/supportarticles/firmware/LH0604_20190925_00058.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Lorex"
             }
@@ -827,6 +1105,10 @@
             "size": 24259609
         },
         "firmware_size": 24259609,
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -837,7 +1119,7 @@
                 "notes": [],
                 "source": "Lorex",
                 "url": "https://www.lorextechnology.com/images/supportimages/supportarticles/firmware/LH0704_20190925_00058.bin",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Lorex"
             }
@@ -861,6 +1143,10 @@
         },
         "firmware_size": 13942312,
         "firmware_version": "NC224_5.5.114_201209",
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -876,7 +1162,7 @@
                 ],
                 "source": "GSS - Red|LINE Camera",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/NC224_5.5.114_201209.dav",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -902,6 +1188,10 @@
         },
         "firmware_size": 23567670,
         "firmware_version": "NP104-IR_4X_5.6.12_190807",
+        "integrity": {
+            "reason": "not a zip-style file",
+            "status": "unverified"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -917,7 +1207,7 @@
                 ],
                 "source": "GSS - Red|LINE Camera",
                 "url": "https://gogss.com/malls/wp-content/uploads/2025/07/NP104-IR_4X_5.6.12_190807.dav",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "GSS"
             }
@@ -941,6 +1231,9 @@
         },
         "firmware_size": 26356095,
         "firmware_version": "V2.212.0000.0.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -958,7 +1251,7 @@
                 ],
                 "source": "ENS Diamond",
                 "url": "https://drive.usercontent.google.com/download?id=1TMnmnweCBEtemQ1_LXXi1a4B8TD0A5Ca&export=download",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "unchecked",
                 "vendor": "ENS Security"
             }
@@ -988,6 +1281,9 @@
         },
         "firmware_size": 10270032,
         "firmware_version": "V2.608.0000.0.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -1004,7 +1300,7 @@
                 "release_date": "2013-06-13",
                 "source": "RVI",
                 "url": "https://rvigroup.ru/download/api/?download-id=58143",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "RVI"
             }
@@ -1031,6 +1327,9 @@
         },
         "firmware_size": 12282286,
         "firmware_version": "V2.610.GP00.6.T",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [
@@ -1047,7 +1346,7 @@
                 "release_date": "2013-10-22",
                 "source": "RVI",
                 "url": "https://rvigroup.ru/download/api/?download-id=58039",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "RVI"
             }
@@ -1072,6 +1371,9 @@
         },
         "firmware_size": 13660019,
         "firmware_version": "V3.200.SP02.1.R",
+        "integrity": {
+            "status": "ok"
+        },
         "listings": [
             {
                 "camera_name": [],
@@ -1087,7 +1389,7 @@
                 ],
                 "source": "Speco",
                 "url": "https://specotech.com/wp-content/uploads/2019/09/nxl-v3.200.sp02.1.r.20180523-2.bin_.zip",
-                "url_checked_at": "2026-10-02T17:46:10+00:00",
+                "url_checked_at": "2026-10-02T17:57:42+00:00",
                 "url_status": "ok",
                 "vendor": "Speco"
             }

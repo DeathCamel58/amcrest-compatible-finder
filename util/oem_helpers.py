@@ -53,7 +53,7 @@ def is_generic_name(file_name):
     return bool(GENERIC_NAME.match(file_name))
 
 
-def crawl_index(start_url, max_depth=8, is_directory=None):
+def crawl_index(start_url, max_depth=8, is_directory=None, headers=None, skip_directories=()):
     """Recursively crawl a web server directory index (Apache, IIS, ...).
     Returns a list of (file_url, directory_url) for every file found below start_url."""
     if is_directory is None:
@@ -69,7 +69,7 @@ def crawl_index(start_url, max_depth=8, is_directory=None):
         seen.add(url)
 
         try:
-            page = http.get(url)
+            page = http.get(url, headers=headers or {})
         except Exception as err:
             print(f"\tFailed to list {url}: {err}")
             return
@@ -88,7 +88,8 @@ def crawl_index(start_url, max_depth=8, is_directory=None):
                 continue
 
             if is_directory(href):
-                crawl(full_url, depth + 1)
+                if unquote(href).strip('/') not in skip_directories:
+                    crawl(full_url, depth + 1)
             else:
                 files.append((full_url, url))
 

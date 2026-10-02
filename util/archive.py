@@ -46,7 +46,7 @@ def md5_file(path):
 
 
 # Entry fields copied into the provenance record that's uploaded next to each firmware
-RECORD_FIELDS = ["platform", "vendors", "camera_name", "series", "notes", "url", "firmware_version",
+RECORD_FIELDS = ["platform", "integrity", "vendors", "camera_name", "series", "notes", "url", "firmware_version",
                  "release_date", "changelog", "md5", "sha256"]
 # Listing fields that change on every run; leaving them out keeps items from being updated each time
 VOLATILE_LISTING_FIELDS = {"last_seen", "last_seen_latest", "url_checked_at"}
@@ -112,9 +112,17 @@ def get_metadata(record):
             if listing.get("vendor") and listing["vendor"] not in vendors:
                 vendors = vendors + [listing["vendor"]]
 
-    lines = [f"Firmware file <b>{esc(file_name)}</b>, archived by amcrest-compatible-finder so it stays available "
-             f"after vendors remove it. The {esc(file_name)}.provenance.json file in this item has the same data "
-             f"in machine-readable form."]
+    lines = []
+    integrity = record.get("integrity") or {}
+    if integrity.get("status") == "truncated":
+        source_note = (" The vendor's own copy is cut off in the same place." if integrity.get("vendor_copy_truncated")
+                       else "")
+        lines.append(f"<b>Warning: this file is incomplete</b> ({esc(integrity.get('reason', 'truncated'))}), so it "
+                     f"can't be installed. It's kept because no complete copy could be found.{source_note} The "
+                     f"hardware IDs below come from the intact part of the file.")
+    lines.append(f"Firmware file <b>{esc(file_name)}</b>, archived by amcrest-compatible-finder so it stays available "
+                 f"after vendors remove it. The {esc(file_name)}.provenance.json file in this item has the same data "
+                 f"in machine-readable form.")
 
     # Where it came from, per vendor page
     listings = record.get("listings") or []
@@ -179,6 +187,7 @@ def get_metadata(record):
         # Only tag a platform that was actually identified; some OEMs (GSS Red|LINE) sell Hikvision, not Dahua
         "subject": [PROJECT_TAG, "firmware", "cctv"]
                    + ([record["platform"]] if record.get("platform") in PLATFORM_NAMES else [])
+                   + (["incomplete"] if integrity.get("status") == "truncated" else [])
                    + vendors + models[:MAX_SUBJECT_MODELS],
     }
     if vendors:

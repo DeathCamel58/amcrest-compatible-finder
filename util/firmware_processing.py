@@ -2,9 +2,11 @@ import json
 import os
 import re
 import shutil
+import struct
 import subprocess
 import tempfile
 import threading
+import zlib
 from datetime import datetime, timezone
 
 from util.hardware import classify_hardware_ids
@@ -14,7 +16,8 @@ from util.json_tools import save_firmware_json, get_firmware_json
 firmware_processing_lock = threading.Lock()
 
 # Increase when the extraction logic improves, so firmwares without hardware IDs get analyzed again
-EXTRACTOR_VERSION = 2
+# 3: read standalone "hwid" files, and the intact part of truncated zip-style files
+EXTRACTOR_VERSION = 3
 # Failed extractions are retried on later runs up to this many times per extractor version
 MAX_EXTRACT_ATTEMPTS = 3
 
@@ -71,13 +74,14 @@ def check_firmware_compatibility(path):
 
     files = os.listdir(path)
 
-    # Some firmwares store the IDs in check.img
-    if 'check.img' in files:
-        print("Found check.img!")
+    # Some firmwares store the IDs in check.img, newer ones in a separate "hwid" file with the same JSON
+    hwid_file = 'check.img' if 'check.img' in files else 'hwid' if 'hwid' in files else None
+    if hwid_file:
+        print(f"Found {hwid_file}!")
 
         data = bytes
 
-        with (open(f'{path}/check.img', 'rb') as f):
+        with (open(f'{path}/{hwid_file}', 'rb') as f):
             content = f.read()
 
             data = content.split(b'{')
@@ -211,9 +215,59 @@ def extract_if_zip(path):
     return files, extraction_path
 
 
-def analyze_firmware(file_path):
+def extract_complete_entries(path, destination):
+    """Copy out the complete entries of a cut-off zip-style file (PK or Dahua's DH variant) by walking its local
+    headers, since the directory at the end is missing. Returns the number of entries extracted."""
+    extracted = 0
+    with open(path, 'rb') as f:
+        data = f.read()
+    position = 0
+    while position + 30 <= len(data) and data[position:position + 4] in (b'PK\x03\x04', b'DH\x03\x04'):
+        method = struct.unpack('<H', data[position + 8:position + 10])[0]
+        compressed_size = struct.unpack('<I', data[position + 18:position + 22])[0]
+        name_length, extra_length = struct.unpack('<HH', data[position + 26:position + 30])
+        name = data[position + 30:position + 30 + name_length].decode('utf-8', 'replace')
+        start = position + 30 + name_length + extra_length
+        end = start + compressed_size
+        if end > len(data):
+            break  # this is where the file was cut off
+
+        safe_name = os.path.basename(name)
+        if safe_name:
+            raw = data[start:end]
+            try:
+                content = zlib.decompress(raw, -15) if method == 8 else raw
+            except zlib.error:
+                break
+            with open(os.path.join(destination, safe_name), 'wb') as out:
+                out.write(content)
+            extracted += 1
+        position = end
+
+    return extracted
+
+
+def analyze_truncated_firmware(file_path):
+    """The installer metadata (hwid, Install, check.img) usually comes first, so it survives a cut-off download."""
+    workdir = tempfile.mkdtemp(prefix="partial_")
+    try:
+        if not extract_complete_entries(file_path, workdir):
+            return [], "extract_failed", "truncated: no complete entries"
+        hardware_ids = sorted(set(check_firmware_compatibility(workdir)))
+    finally:
+        shutil.rmtree(workdir, ignore_errors=True)
+
+    if hardware_ids:
+        return hardware_ids, "ok", None
+    return [], "extract_failed", "truncated: the intact part has no hardware IDs"
+
+
+def analyze_firmware(file_path, integrity=None):
     """Returns (hardware_ids, status, error) where status is "ok", "no_ids" or "extract_failed".
     Never modifies file_path; everything is unpacked in temporary folders."""
+    if integrity and integrity.get("status") == "truncated":
+        return analyze_truncated_firmware(file_path)
+
     try:
         zip_files, extraction_path = extract_if_zip(file_path)
     except ExtractionError as err:
@@ -253,9 +307,9 @@ def save_result(firmware_file, result):
         save_firmware_json(firmware_json)
 
 
-def process_firmware_threaded(firmware_file, file_path, previous=None):
+def process_firmware_threaded(firmware_file, file_path, previous=None, integrity=None):
     print(f"Processing: {firmware_file}")
-    hardware_ids, status, error = analyze_firmware(file_path)
+    hardware_ids, status, error = analyze_firmware(file_path, integrity)
 
     result = {
         "hardware_ids": hardware_ids,
@@ -264,6 +318,9 @@ def process_firmware_threaded(firmware_file, file_path, previous=None):
         "extractor_version": EXTRACTOR_VERSION,
         "processed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
+    if integrity and integrity.get("status") == "truncated":
+        # Partial result: the file is incomplete, so this is only what its intact part shows
+        result["truncated"] = True
     if status == "extract_failed":
         result["error"] = error
         # Count failures under the same extractor version, so persistent failures stop being retried
