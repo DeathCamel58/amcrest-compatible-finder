@@ -351,3 +351,14 @@ def test_dead_url_wayback_check_is_remembered(tmp_path, monkeypatch):
     assert dl.download_dead_url_from_wayback("https://dead/f.bin", target) is None
     assert dl.download_dead_url_from_wayback("https://dead/f.bin", target) is None
     assert lookups == ["https://dead/f.bin"]  # the second call didn't look it up again
+
+
+def test_throttling_host_tries_wayback_first(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    monkeypatch.setattr(dl, "WAYBACK_FIRST_HOSTS", {"slow.example"})
+    monkeypatch.setattr(dl, "wayback_capture", lambda url: "https://web.archive.org/web/1id_/" + url)
+    monkeypatch.setattr(dl, "_http_download", lambda url, part: open(part, "wb").write(b"PK\x03\x04data"))
+    live = []
+    target = str(tmp_path / "f.bin")
+    assert dl.download_firmware("https://slow.example/f.bin", target, lambda u, p: live.append(u)) == target
+    assert live == []

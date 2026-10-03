@@ -28,6 +28,9 @@ PERMANENT_HTTP_STATUSES = {403, 404, 410}
 SLOW_ATTEMPTS_BEFORE_WAYBACK = 2
 # A dead URL's Wayback copy is looked for again after this many days
 WAYBACK_RECHECK_DAYS = 30
+# Servers that throttle us to a few KB/s: their files are fetched from the Wayback Machine's copy first, when it has
+# one (about 70 KB/s against Cifra's 10 KB/s)
+WAYBACK_FIRST_HOSTS = {'ftp.cifra.cv.ua'}
 # Download URL -> the Wayback capture its file was downloaded from instead; main records it as downloaded_from
 downloaded_via_wayback = {}
 
@@ -235,6 +238,8 @@ def download_firmware(url, file_name=None, downloader=None):
         if os.path.exists(file_name):
             return None
 
+        if (urlparse(url).hostname or '') in WAYBACK_FIRST_HOSTS and _download_from_wayback(url, file_name, part_name):
+            return file_name
         return _download_to(url, file_name, part_name, downloader or _http_download)
 
 
