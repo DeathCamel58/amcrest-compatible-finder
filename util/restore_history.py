@@ -23,6 +23,7 @@ from collections import Counter
 from urllib.parse import unquote, urlparse
 
 BACKUP_DATE = re.compile(r"(\d{4}-\d{2}-\d{2})")
+CHECKSUM_PATTERNS = {"md5": re.compile(r"[0-9a-fA-F]{32}"), "sha256": re.compile(r"[0-9a-fA-F]{64}")}
 
 
 def history_versions(json_file="cameras.json", backups="backups/cameras*.json"):
@@ -161,6 +162,8 @@ def restore(cameras, versions, removed, files):
                     counts["last_seen filled"] += 1
 
             for field in ("md5", "sha256", "changelog"):
+                if field in CHECKSUM_PATTERNS and not CHECKSUM_PATTERNS[field].fullmatch(str(old_entry.get(field) or "")):
+                    continue  # older versions kept placeholders like "0"
                 if old_entry.get(field) and not entry.get(field):
                     entry[field] = old_entry[field]
                     counts[f"{field} restored"] += 1

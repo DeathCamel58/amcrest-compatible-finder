@@ -50,7 +50,7 @@ def test_restore_from_history():
         "ClickHere": {"url": "ClickHere", "camera_name": ["X"], "notes": []},
     }
     versions = [
-        ("2024-08-15", {"a.bin": {"url": "http://rhino/dvr/a.bin", "vendors": ["Rhino"], "md5": "0" * 32}}),
+        ("2024-08-15", {"a.bin": {"url": "http://rhino/dvr/a.bin", "vendors": ["Rhino"], "md5": "a" * 32}}),
         ("2026-10-02", {"a.bin": {"listings": [{"vendor": "Rhino", "source": "page", "url": "http://rhino/dvr/a2.bin",
                                                 "first_seen": "2025-01-01", "last_seen": "2026-10-02"}]},
                         "software.exe": {"url": "http://x/software.exe", "vendors": ["Dahua"]}}),
@@ -62,7 +62,13 @@ def test_restore_from_history():
     assert {item["url"] for item in listing["url_history"]} == {
         "http://rhino/dvr/a.bin", "http://rhino/dvr/a2.bin", "http://rhino/dvr/Dahua/a.bin"}
     assert listing["first_seen"] == "2024-08-15"
-    assert cameras["a.bin"]["md5"] == "0" * 32
+    assert cameras["a.bin"]["md5"] == "a" * 32
     assert "ClickHere" not in cameras and removed["ClickHere"]["removed_reason"].startswith("placeholder")
     assert removed["software.exe"]["vendors"] == ["Dahua"]
     assert unplaced == []
+
+
+def test_placeholder_checksums_are_not_restored():
+    cameras = {"a.bin": {"url": "http://x/a.bin", "listings": []}}
+    restore(cameras, [("2025-01-01", {"a.bin": {"url": "http://x/a.bin", "md5": "0"}})], {}, files={"a.bin"})
+    assert "md5" not in cameras["a.bin"]
