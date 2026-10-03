@@ -65,7 +65,8 @@ from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
 from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
                                       process_firmware_threaded)
-from util.json_tools import get_cameras_json, save_cameras_json, get_firmware_json, save_firmware_json
+from util.json_tools import (CAMERAS_JSON, get_cameras_json, save_cameras_json, get_firmware_json, save_firmware_json,
+                             json_lock)
 
 oem_modules = [
     Amcrest,
@@ -114,6 +115,61 @@ oem_modules = [
 
 
 camera_json_lock = threading.Lock()
+
+# While downloading, cameras.json is kept in memory and the entries that changed are written back in batches.
+# Loading, copying and rewriting the whole file (about 10 MB) for every listing held camera_json_lock for most of
+# each task, so the download workers mostly waited on each other instead of downloading
+CAMERA_SAVE_EVERY = 200
+CAMERA_SAVE_SECONDS = 30
+_batched_cameras = {'data': None, 'dirty': set(), 'saved': 0.0}
+
+
+def cameras_for_update():
+    """cameras.json to read or change: the shared in-memory copy while batch_camera_updates() is active, else
+    loaded from disk. Hold camera_json_lock to change it, then call save_camera_entries."""
+    data = _batched_cameras['data']
+    return data if data is not None else get_cameras_json()
+
+
+def save_camera_entries(cameras_json, names):
+    """Save these entries of cameras_json (from cameras_for_update): batched while batch_camera_updates() is
+    active, else straight away. Hold camera_json_lock."""
+    if cameras_json is not _batched_cameras['data']:
+        save_cameras_json(cameras_json)
+        return
+    _batched_cameras['dirty'].update(names)
+    if (len(_batched_cameras['dirty']) >= CAMERA_SAVE_EVERY
+            or time.monotonic() - _batched_cameras['saved'] >= CAMERA_SAVE_SECONDS):
+        _save_batched_cameras()
+
+
+def _save_batched_cameras():
+    """Write the changed entries over a fresh read of the file, so changes another process made to other entries
+    (e.g. a separate `download --only EmpireTech` run) are kept. Hold camera_json_lock."""
+    data, dirty = _batched_cameras['data'], _batched_cameras['dirty']
+    if dirty:
+        with json_lock(CAMERAS_JSON):
+            on_disk = get_cameras_json()
+            for name in dirty:
+                if name in data:
+                    on_disk[name] = data[name]
+                else:
+                    on_disk.pop(name, None)
+            save_cameras_json(on_disk)
+        dirty.clear()
+    _batched_cameras['saved'] = time.monotonic()
+
+
+@contextmanager
+def batch_camera_updates():
+    with camera_json_lock:
+        _batched_cameras.update(data=get_cameras_json(), dirty=set(), saved=time.monotonic())
+    try:
+        yield
+    finally:
+        with camera_json_lock:
+            _save_batched_cameras()
+            _batched_cameras['data'] = None
 
 # Software, OS images and documents some sources list next to firmware are moved here (not deleted), and kept out of
 # the JSONs, which only describe firmware
@@ -268,7 +324,7 @@ def resolve_file_name(firmware, firmware_type):
         if not os.path.exists(path):
             return name
 
-        entry = get_cameras_json().get(name, {})
+        entry = cameras_for_update().get(name, {})
         known_urls = {entry.get('url')} | {listing.get('url') for listing in entry.get('listings') or []}
         if url in known_urls:
             return name
@@ -307,7 +363,7 @@ def replace_truncated_file(firmware, firmware_type, file_name):
     with _get_file_lock(file_name):
         if name in _replaced_this_run or not os.path.exists(file_name):
             return False
-        integrity = get_cameras_json().get(name, {}).get('integrity') or {}
+        integrity = cameras_for_update().get(name, {}).get('integrity') or {}
         if integrity.get('status') != 'truncated':
             return False
 
@@ -315,10 +371,10 @@ def replace_truncated_file(firmware, firmware_type, file_name):
         if expected_size is not None and expected_size == os.path.getsize(file_name):
             # The vendor serves the same cut-off file, so downloading it again won't help
             with camera_json_lock:
-                cameras_json = get_cameras_json()
+                cameras_json = cameras_for_update()
                 if name in cameras_json:
                     cameras_json[name].setdefault('integrity', {})['vendor_copy_truncated'] = True
-                    save_cameras_json(cameras_json)
+                    save_camera_entries(cameras_json, [name])
             return False
 
         candidate = f'{file_name}.redownload'
@@ -448,13 +504,13 @@ def download_firmware_thread(firmware, firmware_type):
     exists = os.path.exists(file_name)
     file_hashes = get_file_hashes(file_name) if exists and (downloaded or replaced) else None
     platform = None
-    if exists and (downloaded or replaced or not get_cameras_json().get(file_name[9:], {}).get('platform')):
+    if exists and (downloaded or replaced or not cameras_for_update().get(file_name[9:], {}).get('platform')):
         platform = detect_platform(file_name)
 
     with camera_json_lock:
-        cameras_json = get_cameras_json()
-        cameras_json_original = copy.deepcopy(cameras_json)
+        cameras_json = cameras_for_update()
         firmware_json_name = file_name[9:]
+        entry_before = copy.deepcopy(cameras_json.get(firmware_json_name))
 
         existing = cameras_json.get(firmware_json_name, {})
 
@@ -523,8 +579,8 @@ def download_firmware_thread(firmware, firmware_type):
             cameras_json[firmware_json_name].pop('downloadable', None)
             cameras_json[firmware_json_name].pop('listing_only_reason', None)
 
-        if cameras_json_original != cameras_json:
-            save_cameras_json(cameras_json)
+        if cameras_json.get(firmware_json_name) != entry_before:
+            save_camera_entries(cameras_json, [firmware_json_name])
 
 
 # Download all firmwares
@@ -676,7 +732,8 @@ def get_all_firmwares():
     scheduler = HostScheduler(DOWNLOAD_WORKERS, HOST_CAPS)
     for firmware, firmware_type in tasks:
         scheduler.add(urlparse(firmware[firmware_type]).hostname or '', download_firmware_thread, firmware, firmware_type)
-    scheduler.run()
+    with batch_camera_updates():
+        scheduler.run()
 
 
 def list_firmware_files():

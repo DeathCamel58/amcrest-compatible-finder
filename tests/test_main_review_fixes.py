@@ -319,3 +319,27 @@ def test_archive_stops_after_pushback(monkeypatch, tmp_path):
     assert calls == ["firmware/a.bin"]
     assert main.archive_stop.is_set()
     main.archive_stop.clear()
+
+
+def test_camera_updates_are_batched_and_keep_other_writers_changes(monkeypatch):
+    from util.json_tools import get_cameras_json, save_cameras_json
+    save_cameras_json({"a.bin": {"vendors": ["A"]}, "b.bin": {"vendors": ["B"]}})
+    monkeypatch.setattr(main, "CAMERA_SAVE_EVERY", 10 ** 6)
+    monkeypatch.setattr(main, "CAMERA_SAVE_SECONDS", 10 ** 6)
+    with main.batch_camera_updates():
+        with main.camera_json_lock:
+            cameras = main.cameras_for_update()
+            cameras["a.bin"]["vendors"].append("A2")
+            cameras["c.bin"] = {"vendors": ["C"]}
+            main.save_camera_entries(cameras, ["a.bin", "c.bin"])
+        assert "c.bin" not in get_cameras_json()  # not written yet
+        # Another process changes an entry this run didn't touch
+        on_disk = get_cameras_json()
+        on_disk["b.bin"]["vendors"].append("B2")
+        save_cameras_json(on_disk)
+    result = get_cameras_json()
+    assert result["a.bin"]["vendors"] == ["A", "A2"]
+    assert result["c.bin"] == {"vendors": ["C"]}
+    assert result["b.bin"]["vendors"] == ["B", "B2"]
+    # Outside a batch, reads come from disk again
+    assert main.cameras_for_update() == result
