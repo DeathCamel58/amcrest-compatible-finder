@@ -63,7 +63,8 @@ from util.file_type import classify_file, classify_file_content, classify_file_t
 from util.hardware import split_model_names
 from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
-from util.firmware_processing import firmware_processing_lock, mark_not_dahua, needs_processing, process_firmware_threaded
+from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
+                                      process_firmware_threaded)
 from util.json_tools import get_cameras_json, save_cameras_json, get_firmware_json, save_firmware_json
 
 oem_modules = [
@@ -873,17 +874,19 @@ def mirror_duplicate_results():
         save_firmware_json(firmware_json)
 
 
-def process_firmware(firmware_file):
+def process_firmware(firmware_file, cameras_json=None, firmware_json=None):
+    """cameras_json and firmware_json can be passed in, loaded once for a whole run, since loading them for every
+    firmware is slow."""
     file_path = f"firmware/{firmware_file}"
 
-    entry = get_cameras_json().get(firmware_file, {})
+    entry = (cameras_json if cameras_json is not None else get_cameras_json()).get(firmware_file, {})
     if entry.get('duplicate_of'):
         return
     # Software and documents have no hardware IDs to find
     if (entry.get('file_type') or classify_file_type(firmware_file, entry.get('url'))) != 'firmware':
         return
 
-    previous = get_firmware_json().get(firmware_file)
+    previous = (firmware_json if firmware_json is not None else get_firmware_json()).get(firmware_file)
     if previous and previous.get('status') == 'duplicate':
         previous = None
     platform = entry.get('platform') or detect_platform(file_path)
@@ -942,10 +945,13 @@ def process_all_firmwares():
     # Scratch space for unpacking firmwares
     os.makedirs('tmp', exist_ok=True)
 
+    cameras_json = get_cameras_json()
+    firmware_json = get_firmware_json()
+
     def process_one(firmware_file):
         # Don't let one unusual firmware stop the rest from being processed
         try:
-            process_firmware(firmware_file)
+            process_firmware(firmware_file, cameras_json, firmware_json)
         except Exception as err:
             print(f'Failed to process {firmware_file}: {err!r}')
 
@@ -954,6 +960,7 @@ def process_all_firmwares():
     print(f'Processing with {PROCESS_WORKERS} workers')
     with ThreadPoolExecutor(max_workers=PROCESS_WORKERS) as pool:
         list(pool.map(process_one, firmware_files))
+    flush_results()
 
     mirror_duplicate_results()
 

@@ -81,3 +81,28 @@ def test_cut_off_member_is_ignored(write_file):
 def test_chip_named_uboot_is_not_a_hardware_id(write_file):
     data = to_dh_variant(make_zip_bytes({"u-boot.bin.img": uimage("ss528V100")}))
     assert read_hardware_ids(write_file("a.bin", data)) == []
+
+
+def test_results_are_saved_in_batches(monkeypatch):
+    from util.json_tools import get_firmware_json
+    monkeypatch.setattr(firmware_processing, "SAVE_EVERY", 3)
+    monkeypatch.setattr(firmware_processing, "SAVE_SECONDS", 10 ** 6)
+    firmware_processing.flush_results()
+    firmware_processing.save_result("a.bin", {"status": "ok"})
+    firmware_processing.save_result("b.bin", {"status": "ok"})
+    assert get_firmware_json() == {}
+    firmware_processing.save_result("c.bin", {"status": "no_ids"})
+    assert sorted(get_firmware_json()) == ["a.bin", "b.bin", "c.bin"]
+    firmware_processing.save_result("d.bin", {"status": "ok"})
+    firmware_processing.flush_results()
+    assert "d.bin" in get_firmware_json()
+
+
+def test_recent_failure_is_not_retried():
+    from datetime import datetime, timedelta, timezone
+    from util.firmware_processing import EXTRACTOR_VERSION, needs_processing
+    now = datetime.now(timezone.utc)
+    failed = {"status": "extract_failed", "extractor_version": EXTRACTOR_VERSION, "attempts": 1}
+    assert not needs_processing({**failed, "processed_at": now.isoformat()}, "dahua")
+    assert needs_processing({**failed, "processed_at": (now - timedelta(days=2)).isoformat()}, "dahua")
+    assert needs_processing(failed, "dahua")

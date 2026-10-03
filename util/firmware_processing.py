@@ -1,3 +1,4 @@
+import atexit
 import os
 import shutil
 import signal
@@ -5,9 +6,10 @@ import struct
 import subprocess
 import tempfile
 import threading
+import time
 import zipfile
 import zlib
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 # CHIP_IMAGE_NAME and uimage_name are re-exported for older callers and tests
 from util.firmware_metadata import (CHIP_IMAGE_NAME, UIMAGE_MAGIC, FileMember, Member, PackageReader, combine,  # noqa: F401
@@ -492,11 +494,37 @@ def single_image_packages(file_path):
     return [reader.package()] if reader.images else []
 
 
+# Results are saved in batches: firmware_compatible.json is tens of MB, and rewriting it after every firmware
+# serialises the workers on the save
+SAVE_EVERY = 50
+SAVE_SECONDS = 60
+_pending_results = {}
+_last_save = [time.monotonic()]
+
+
 def save_result(firmware_file, result):
     with firmware_processing_lock:
+        _pending_results[firmware_file] = result
+        if len(_pending_results) >= SAVE_EVERY or time.monotonic() - _last_save[0] >= SAVE_SECONDS:
+            _save_pending()
+
+
+def flush_results():
+    """Save the results not saved yet. Call when processing is done (and it runs at exit)."""
+    with firmware_processing_lock:
+        _save_pending()
+
+
+def _save_pending():
+    if _pending_results:
         firmware_json = get_firmware_json()
-        firmware_json[firmware_file] = result
+        firmware_json.update(_pending_results)
         save_firmware_json(firmware_json)
+        _pending_results.clear()
+    _last_save[0] = time.monotonic()
+
+
+atexit.register(flush_results)
 
 
 
@@ -541,6 +569,19 @@ def mark_not_dahua(firmware_file, platform):
 
 
 
+# A failed extraction isn't retried until this long after it failed, so restarting a run doesn't redo the failures
+# (often multi-GB images) it just went through
+RETRY_FAILED_AFTER = timedelta(hours=20)
+
+
+def failed_recently(result):
+    try:
+        processed_at = datetime.fromisoformat(result["processed_at"])
+    except (KeyError, TypeError, ValueError):
+        return False
+    return datetime.now(timezone.utc) - processed_at < RETRY_FAILED_AFTER
+
+
 def needs_processing(result, platform):
     """Whether a firmware should be (re)analyzed, given its stored result and detected platform."""
     if not result:
@@ -555,5 +596,5 @@ def needs_processing(result, platform):
     if result.get("extractor_version", 1) < EXTRACTOR_VERSION:
         return True
     if status == "extract_failed":
-        return result.get("attempts", 1) < MAX_EXTRACT_ATTEMPTS
+        return result.get("attempts", 1) < MAX_EXTRACT_ATTEMPTS and not failed_recently(result)
     return False
