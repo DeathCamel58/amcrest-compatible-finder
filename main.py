@@ -1,4 +1,5 @@
 import copy
+from contextlib import contextmanager
 import hashlib
 import os.path
 import threading
@@ -6,8 +7,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import re
 import sys
+import tempfile
+import time
+import shutil
 from datetime import date, datetime, timezone
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from brands import Amcrest
 from brands import Dahua
@@ -49,6 +53,7 @@ from util.file_integrity import check_integrity
 from util.firmware_platform import detect_platform
 from util import http
 from util.general import merge_unique_text, normalize_firmware_url
+from util.file_type import classify_file, classify_file_content, classify_file_type
 from util.hardware import split_model_names
 from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
@@ -99,6 +104,10 @@ oem_modules = [
 
 camera_json_lock = threading.Lock()
 
+# Software, OS images and documents some sources list next to firmware are moved here (not deleted), and kept out of
+# the JSONs, which only describe firmware
+NON_FIRMWARE_DIR = os.path.join(os.path.dirname(os.path.realpath('firmware')), 'firmware-non-firmware')
+
 # Truncated firmwares that were replaced by a complete download are kept here rather than deleted
 TRUNCATED_DIR = os.path.join(os.path.dirname(os.path.realpath('firmware')), 'firmware-truncated')
 
@@ -131,11 +140,16 @@ def split_version_build_date(firmware):
 def get_firmware_file_name(firmware, firmware_type):
     # Some download URLs don't end in the file name (Google Drive, redirect APIs, ...), so modules can set it explicitly
     name = firmware.get(f'{firmware_type}_file_name') or firmware[firmware_type].split("/")[-1].split("?")[0]
-    name = name.replace("/", "_")
+    # Decode %28-style escapes, so the same file isn't stored under both its encoded and decoded name
+    name = unquote(name).replace("/", "_")
     # File names are limited to 255 bytes; some (RVI's model lists in Cyrillic) are longer. Shorten them, keeping the
     # end (version and extension) and a hash of the full name so they stay unique
     if len(name.encode()) > MAX_FILE_NAME_BYTES:
         stem, extension = os.path.splitext(name)
+        # A "name.<long tail>" with the only dot near the start has no real extension; without this the budget goes
+        # negative and the loop below never ends
+        if len(extension.encode()) > 16:
+            stem, extension = name, ''
         digest = hashlib.sha1(name.encode()).hexdigest()[:8]
         budget = MAX_FILE_NAME_BYTES - len(f'-{digest}{extension}'.encode())
         while len(stem.encode()) > budget:
@@ -155,13 +169,13 @@ def merge_listing(listings, firmware, firmware_type, new_camera_names, firmware_
         listings.append(listing)
 
     listing['url'] = firmware[firmware_type]
-    models, series = split_model_names(
+    models, series, descriptions = split_model_names(
         merge_unique_text((listing.get('camera_name') or []) + (listing.get('series') or []) + new_camera_names),
         firmware_file)
     listing['camera_name'] = models
     if series:
         listing['series'] = series
-    listing['notes'] = merge_unique_text((listing.get('notes') or []) + [firmware['firmware_notes']])
+    listing['notes'] = merge_unique_text((listing.get('notes') or []) + [firmware['firmware_notes']] + descriptions)
     if firmware.get('firmware_changelog'):
         listing['changelog'] = firmware['firmware_changelog']
     if firmware_type == 'firmware_latest':
@@ -275,6 +289,64 @@ def replace_truncated_file(firmware, firmware_type, file_name):
     return True
 
 
+def is_valid_date(value):
+    try:
+        datetime.strptime(value, '%Y-%m-%d')
+        return True
+    except (TypeError, ValueError):
+        return False
+
+
+def tidy_entry(firmware_file, entry, inspect_content=False):
+    """Normalise a cameras.json entry in place: model names vs series vs descriptions, listing kinds, the earliest
+    release date, uninformative versions, and what kind of file it is."""
+    def split(names_holder):
+        models, series, descriptions = split_model_names(
+            (names_holder.get('camera_name') or []) + (names_holder.get('series') or []), firmware_file)
+        names_holder['camera_name'] = models
+        if series:
+            names_holder['series'] = series
+        else:
+            names_holder.pop('series', None)
+        if descriptions:
+            names_holder['notes'] = merge_unique_text((names_holder.get('notes') or []) + descriptions)
+
+    split(entry)
+    for listing in entry.get('listings') or []:
+        split(listing)
+        # Listings stored before kinds existed are all from vendors' own pages
+        listing.setdefault('kind', 'vendor')
+
+    # Drop malformed values older versions stored (placeholder checksums like "0", 7-digit "dates")
+    for field, pattern in (('md5', r'[0-9a-fA-F]{32}'), ('sha256', r'[0-9a-fA-F]{64}')):
+        if entry.get(field) and not re.fullmatch(pattern, entry[field]):
+            entry.pop(field)
+    for holder in [entry] + list(entry.get('listings') or []):
+        if holder.get('release_date') and not is_valid_date(holder['release_date']):
+            holder.pop('release_date')
+
+    # The top-level date is the earliest any vendor gives, i.e. when the firmware first appeared
+    dates = [listing['release_date'] for listing in entry.get('listings') or [] if listing.get('release_date')]
+    if dates:
+        entry['release_date'] = min(dates)
+
+    # A "version" that only repeats the file name (GSS, Montavue) says nothing extra
+    stem = os.path.splitext(firmware_file)[0].casefold()
+    if (entry.get('firmware_version') or '').casefold() == stem:
+        entry.pop('firmware_version')
+    for listing in entry.get('listings') or []:
+        if (listing.get('firmware_version') or '').casefold() == stem:
+            listing.pop('firmware_version')
+
+    # PC software, OS images and manuals some sources file next to firmware, so the site can leave them out.
+    # enrich looks inside the file (its header and zip contents); otherwise the name decides
+    path = f'firmware/{firmware_file}'
+    if inspect_content and os.path.exists(path):
+        entry['file_type'] = classify_file(path, firmware_file, entry.get('url'))
+    elif not entry.get('file_type'):
+        entry['file_type'] = classify_file_type(firmware_file, entry.get('url'))
+
+
 def download_firmware_thread(firmware, firmware_type):
     listing_only = bool(firmware.get('listing_only'))
     if listing_only:
@@ -293,6 +365,11 @@ def download_firmware_thread(firmware, firmware_type):
         if new_file_name is not None:
             downloaded = True
             file_name = new_file_name
+            # Some files only show they aren't firmware once downloaded (e.g. a zip of installers or release notes)
+            if classify_file_content(file_name) in ('software', 'document'):
+                print(f'\t{file_name[9:]} isn\'t firmware; moving it to {NON_FIRMWARE_DIR}')
+                move_out_of_firmware(file_name[9:])
+                return
 
     # TODO: Add a lock here since we're reading, modifying, then writing back a file
 
@@ -305,10 +382,10 @@ def download_firmware_thread(firmware, firmware_type):
 
         # Merge what's already stored with what this listing provides
         new_camera_names = firmware['camera_name'] if isinstance(firmware['camera_name'], list) else [firmware['camera_name']]
-        camera_names, series = split_model_names(
+        camera_names, series, descriptions = split_model_names(
             merge_unique_text((existing.get('camera_name') or []) + (existing.get('series') or []) + new_camera_names),
             firmware_json_name)
-        firmware_notes = merge_unique_text((existing.get('notes') or []) + [firmware['firmware_notes']])
+        firmware_notes = merge_unique_text((existing.get('notes') or []) + [firmware['firmware_notes']] + descriptions)
 
         vendors = list(existing.get('vendors') or [])
         if firmware['vendor'] not in vendors:
@@ -330,6 +407,9 @@ def download_firmware_thread(firmware, firmware_type):
 
         if os.path.exists(file_name):
             firmware_data['firmware_size'] = os.stat(file_name).st_size
+            # Hash a fresh download now, while it's still in memory, so enrich doesn't re-read it from disk
+            if downloaded or replaced:
+                firmware_data['file_hashes'] = get_file_hashes(file_name)
             # dahua / hikvision / unknown, from the file itself (some OEMs sell both, e.g. GSS Red|LINE is Hikvision)
             if not existing.get('platform') or downloaded or replaced:
                 firmware_data['platform'] = detect_platform(file_name)
@@ -358,6 +438,8 @@ def download_firmware_thread(firmware, firmware_type):
         else:
             cameras_json[firmware_json_name] = firmware_data
 
+        tidy_entry(firmware_json_name, cameras_json[firmware_json_name])
+
         # Another source had the file after all
         if os.path.exists(file_name):
             cameras_json[firmware_json_name].pop('downloadable', None)
@@ -371,7 +453,12 @@ def download_firmware_thread(firmware, firmware_type):
 # Vendor sites are listed this many at a time
 LISTING_WORKERS = 6
 # Downloads run this many at a time in total, spread across servers (see HostScheduler)
-DOWNLOAD_WORKERS = 10
+DOWNLOAD_WORKERS = 16
+# Firmwares are unpacked this many at a time (binwalk is CPU-bound); limited further by free space in the temp dir
+PROCESS_WORKERS = max(1, min(12, (os.cpu_count() or 2) // 2))
+# Unpacking a firmware takes up to roughly this many times its size in temp space, plus a reserve that's always kept free
+UNPACK_SPACE_FACTOR = 8
+TEMP_SPACE_RESERVE = 10 * 1024 ** 3
 # Servers that throttle heavy users get at most this many downloads at once
 HOST_CAPS = {
     'web.archive.org': 2,
@@ -380,6 +467,18 @@ HOST_CAPS = {
     'drive.usercontent.google.com': 2,
     'www.dropbox.com': 2,
 }
+
+
+# Set from --only / --skip: names of modules (e.g. "EmpireTech", "Wayback Machine") or vendors to include or leave out
+ONLY_MODULES = set()
+SKIP_MODULES = set()
+
+
+def selected_modules():
+    def matches(module, names):
+        return bool({module.name.casefold(), module.vendor.casefold(), module.__name__.split('.')[-1].casefold()} & names)
+    modules = [m for m in oem_modules if not ONLY_MODULES or matches(m, ONLY_MODULES)]
+    return [m for m in modules if not matches(m, SKIP_MODULES)]
 
 
 def list_vendor(oem):
@@ -438,7 +537,7 @@ def print_download_summary(tasks):
 
 def get_all_firmwares():
     with ThreadPoolExecutor(max_workers=LISTING_WORKERS) as pool:
-        firmwares = [firmware for listed in pool.map(list_vendor, oem_modules) for firmware in listed]
+        firmwares = [firmware for listed in pool.map(list_vendor, selected_modules()) for firmware in listed]
 
     if len(firmwares) == 0:
         return
@@ -454,6 +553,20 @@ def get_all_firmwares():
 
     tasks = [(firmware, firmware_type) for firmware in firmwares
              for firmware_type in ["firmware_previous", "firmware_latest"] if firmware[firmware_type]]
+
+    # PC software, OS images and documents some sources list next to firmware aren't downloaded at all
+    skipped = {}
+    firmware_tasks = []
+    for firmware, firmware_type in tasks:
+        file_type = classify_file_type(get_firmware_file_name(firmware, firmware_type), firmware[firmware_type])
+        if file_type == 'firmware':
+            firmware_tasks.append((firmware, firmware_type))
+        else:
+            skipped[file_type] = skipped.get(file_type, 0) + 1
+    if skipped:
+        print(f'Skipping {sum(skipped.values())} listings that aren\'t firmware: '
+              + ', '.join(f'{count} {file_type}' for file_type, count in sorted(skipped.items())))
+    tasks = firmware_tasks
     print_download_summary(tasks)
 
     # Spread downloads across servers rather than working through one vendor's list at a time
@@ -468,8 +581,53 @@ def list_firmware_files():
                   if not f.endswith(('.part', '.redownload')) and os.path.isfile(f'firmware/{f}'))
 
 
+def move_out_of_firmware(firmware_file):
+    """Move a file that turned out not to be firmware to NON_FIRMWARE_DIR, without overwriting anything there."""
+    os.makedirs(NON_FIRMWARE_DIR, exist_ok=True)
+    destination = os.path.join(NON_FIRMWARE_DIR, firmware_file)
+    if os.path.exists(destination):
+        stem, extension = os.path.splitext(firmware_file)
+        destination = os.path.join(NON_FIRMWARE_DIR, f'{stem}-{int(time.time())}{extension}')
+    os.replace(f'firmware/{firmware_file}', destination)
+
+
+def remove_non_firmware():
+    """Keep the JSONs to firmware only: move software and documents out of firmware/ and drop their entries."""
+    removed = {}
+    with camera_json_lock:
+        cameras_json = get_cameras_json()
+        on_disk = set(list_firmware_files())
+        for firmware_file in sorted(on_disk | set(cameras_json)):
+            url = cameras_json.get(firmware_file, {}).get('url')
+            if firmware_file in on_disk:
+                file_type = classify_file(f'firmware/{firmware_file}', firmware_file, url)
+            else:
+                file_type = classify_file_type(firmware_file, url)
+            if file_type == 'firmware':
+                continue
+            if firmware_file in on_disk:
+                move_out_of_firmware(firmware_file)
+            cameras_json.pop(firmware_file, None)
+            removed[file_type] = removed.get(file_type, 0) + 1
+        if removed:
+            save_cameras_json(cameras_json)
+
+    if removed:
+        with firmware_processing_lock:
+            firmware_json = get_firmware_json()
+            for firmware_file in list(firmware_json):
+                if firmware_file not in cameras_json:
+                    firmware_json.pop(firmware_file)
+            save_firmware_json(firmware_json)
+    print('Removed non-firmware: ' + (', '.join(f'{count} {file_type}' for file_type, count in sorted(removed.items()))
+                                     or 'none') + f' (moved to {NON_FIRMWARE_DIR})')
+
+
 def enrich_firmwares():
     """Hash every firmware, link files with identical content, and tidy model names in existing entries."""
+    # First, so non-firmware isn't hashed, deduplicated or written back
+    remove_non_firmware()
+
     # Before picking main entries for duplicates, which prefers names a vendor lists
     infer_vendors_from_urls()
 
@@ -528,17 +686,9 @@ def enrich_firmwares():
                     entry.pop('vendor_md5_mismatch', None)
             truncated += integrity['status'] == 'truncated'
 
-        # Older entries were stored before junk model names were filtered out
+        # Apply the current clean-up rules to every entry, including ones stored by older versions
         for firmware_file, entry in cameras_json.items():
-            models, series = split_model_names((entry.get('camera_name') or []) + (entry.get('series') or []), firmware_file)
-            entry['camera_name'] = models
-            if series:
-                entry['series'] = series
-            for listing in entry.get('listings') or []:
-                models, series = split_model_names((listing.get('camera_name') or []) + (listing.get('series') or []), firmware_file)
-                listing['camera_name'] = models
-                if series:
-                    listing['series'] = series
+            tidy_entry(firmware_file, entry, inspect_content=True)
 
         save_cameras_json(cameras_json)
     print(f'Found {duplicates} firmwares that are identical to another file')
@@ -567,6 +717,9 @@ def process_firmware(firmware_file):
     entry = get_cameras_json().get(firmware_file, {})
     if entry.get('duplicate_of'):
         return
+    # Software and documents have no hardware IDs to find
+    if (entry.get('file_type') or classify_file_type(firmware_file, entry.get('url'))) != 'firmware':
+        return
 
     previous = get_firmware_json().get(firmware_file)
     if previous and previous.get('status') == 'duplicate':
@@ -589,19 +742,50 @@ def process_firmware(firmware_file):
         mark_not_dahua(firmware_file, platform)
         return
 
-    process_firmware_threaded(firmware_file, file_path, previous, integrity)
+    with temp_space_for(os.path.getsize(file_path)):
+        process_firmware_threaded(firmware_file, file_path, previous, integrity)
+
+
+_space_condition = threading.Condition()
+_space_reserved = [0]
+
+
+@contextmanager
+def temp_space_for(file_size):
+    """Wait until the temp directory has room to unpack a file of this size alongside the others being unpacked."""
+    needed = file_size * UNPACK_SPACE_FACTOR
+    with _space_condition:
+        while True:
+            free = shutil.disk_usage(tempfile.gettempdir()).free - _space_reserved[0]
+            # Always let one job run, even if it alone needs more than is free
+            if free - needed >= TEMP_SPACE_RESERVE or _space_reserved[0] == 0:
+                break
+            _space_condition.wait(timeout=30)
+        _space_reserved[0] += needed
+    try:
+        yield
+    finally:
+        with _space_condition:
+            _space_reserved[0] -= needed
+            _space_condition.notify_all()
 
 
 def process_all_firmwares():
     # Scratch space for unpacking firmwares
     os.makedirs('tmp', exist_ok=True)
 
-    for firmware_file in list_firmware_files():
+    def process_one(firmware_file):
         # Don't let one unusual firmware stop the rest from being processed
         try:
             process_firmware(firmware_file)
         except Exception as err:
             print(f'Failed to process {firmware_file}: {err!r}')
+
+    # Largest first, so the slow ones don't all end up at the end
+    firmware_files = sorted(list_firmware_files(), key=lambda f: -os.path.getsize(f'firmware/{f}'))
+    print(f'Processing with {PROCESS_WORKERS} workers')
+    with ThreadPoolExecutor(max_workers=PROCESS_WORKERS) as pool:
+        list(pool.map(process_one, firmware_files))
 
     mirror_duplicate_results()
 
@@ -670,6 +854,9 @@ def archive_all_firmwares():
     for firmware_file in list_firmware_files():
         entry = with_platform(cameras_json.get(firmware_file, {}), f'firmware/{firmware_file}')
         if entry.get('duplicate_of'):
+            continue
+        # This is a firmware archive; PC software and manuals aren't uploaded
+        if (entry.get('file_type') or classify_file_type(firmware_file, entry.get('url'))) != 'firmware':
             continue
         # Don't put an incomplete file on the archive. One that's already there keeps its item, which gets updated
         # to say the file is incomplete
@@ -751,6 +938,24 @@ VENDOR_HOSTS = {
     'support.amcrest.com': 'Amcrest',
     'amcrest-firmwares.s3.amazonaws.com': 'Amcrest',
     'amcrest-firmwares.s3.us-east-1.amazonaws.com': 'Amcrest',
+    'sup-files.s3.us-east-2.amazonaws.com': 'Amcrest',
+    'materialfile.dahuasecurity.com': 'Dahua',
+    'material.dahuasecurity.com': 'Dahua',
+    'dahuasg.s3.ap-southeast-1.amazonaws.com': 'Dahua',
+    'files.dahuatech.support': 'Dahua',
+    'ftp.asm.cz': 'ASM',
+    'downloads.rhinoco.com.au': 'Rhino',
+    'www.rhinoco.com.au': 'Rhino',
+    'rvigroup.ru': 'RVI',
+    'icr-eb-bucket.s3.amazonaws.com': 'IC Realtime',
+    'support.securitytronix.co': 'SecurityTronix',
+    'downloadstore.boschsecurity.com': 'Bosch',
+    'cpplusworld.com': 'CP Plus',
+    'winictech.com': 'Winic',
+    'backend.intelbras.com': 'Intelbras',
+    'specotech.com': 'Speco',
+    'support.optiviewusa.com': 'Optiview',
+    'dh-vision.com': 'DH Vision',
 }
 VENDOR_S3_BUCKETS = {
     'amcrest-files': 'Amcrest',
@@ -792,18 +997,41 @@ def infer_vendors_from_urls():
     print(f'Inferred vendors for {inferred} firmwares from their download URLs')
 
 
+def validate_outputs():
+    """Check both JSONs against docs/schema/ and the cross-file rules, so a change in shape is caught before the site
+    reads them."""
+    from util.validate_output import validate
+    problems = validate()
+    counts = {}
+    for problem in problems:
+        counts[problem.category] = counts.get(problem.category, 0) + 1
+    print(f'Validation: {len(problems)} problems' + (': ' + ', '.join(f'{count} {category}' for category, count in
+                                                         sorted(counts.items(), key=lambda item: -item[1]))
+                                                     if problems else ''))
+    return problems
+
+
 def start_full_processing():
     get_all_firmwares()
     enrich_firmwares()
     process_all_firmwares()
     archive_all_firmwares()
+    validate_outputs()
 
 
 if __name__ == '__main__':
     # `python main.py` runs everything; `python main.py download|enrich|process|archive|check-links` runs one step
     steps = {'download': get_all_firmwares, 'enrich': enrich_firmwares, 'process': process_all_firmwares,
-             'archive': archive_all_firmwares, 'check-links': check_all_links}
-    if len(sys.argv) > 1:
-        steps[sys.argv[1]]()
+             'archive': archive_all_firmwares, 'check-links': check_all_links, 'validate': validate_outputs}
+    # --only A,B / --skip A,B choose which sources are listed, e.g. MEGA downloads through a VPN on their own:
+    #   python main.py download --only EmpireTech
+    args = sys.argv[1:]
+    for flag, target in (('--only', ONLY_MODULES), ('--skip', SKIP_MODULES)):
+        while flag in args:
+            i = args.index(flag)
+            target.update(name.strip().casefold() for name in args[i + 1].split(',') if name.strip())
+            del args[i:i + 2]
+    if args:
+        steps[args[0]]()
     else:
         start_full_processing()

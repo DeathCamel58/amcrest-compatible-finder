@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 from requests import HTTPError
 
 from util import http
+from util.download_firmware import check_published_md5
 
 name = "Dahua Download Center"
 vendor = "Dahua"
@@ -30,8 +31,6 @@ page_size = 10
 
 # Firmware URL -> md5 from the API, so downloads can be verified
 md5_by_url = {}
-# Firmware URL -> MD5 of a download that didn't match the published one
-mismatched_md5_by_url = {}
 
 
 def get_page(region, page):
@@ -93,8 +92,9 @@ def get_firmwares():
             "firmware_previous": None,
             "firmware_latest": item["firmware_url"],
             "release_date": item.get("post_date") or None,
-            "md5": item.get("md5") or None,
-            "sha256": item.get("hash") or None,
+            # Some entries have placeholders like "0" instead of a checksum
+            "md5": item.get("md5") if re.fullmatch(r"[0-9a-fA-F]{32}", item.get("md5") or "") else None,
+            "sha256": item.get("hash") if re.fullmatch(r"[0-9a-fA-F]{64}", item.get("hash") or "") else None,
         }
 
         if firmware["md5"]:
@@ -114,14 +114,4 @@ def download_file(url, part_name):
                 f.write(chunk)
                 md5.update(chunk)
 
-    expected = md5_by_url.get(url)
-    actual = md5.hexdigest()
-    if expected and actual != expected:
-        # Dahua sometimes publishes a wrong checksum. If two downloads give the same bytes, the file is stable and the
-        # published value is what's wrong, so keep it (enrich flags the entry with vendor_md5_mismatch)
-        if mismatched_md5_by_url.get(url) == actual:
-            print(f"\tKeeping {url}: two downloads match each other ({actual}) but not Dahua's published MD5 {expected}")
-            return
-        mismatched_md5_by_url[url] = actual
-        # Raised as a normal error so the download gets retried
-        raise ValueError(f"MD5 mismatch for {url}: got {actual}, expected {expected}")
+    check_published_md5(url, md5.hexdigest(), md5_by_url.get(url))

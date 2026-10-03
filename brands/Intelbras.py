@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import threading
 import time
 from datetime import date, datetime, timezone
 from urllib.parse import unquote
@@ -105,19 +106,36 @@ def fetch_pages(slugs, cache):
     """Fetch product pages in one browser session (about 9 s each), saving progress as it goes."""
     if not slugs:
         return
-    print(f"\tIntelbras: fetching {len(slugs)} product pages (about {len(slugs) * 9 // 60} minutes)")
+    # One browser per worker, each taking every Nth page, all writing into the same cache
+    workers = max(1, min(http.BROWSER_SLOTS, len(slugs)))
+    print(f"\tIntelbras: fetching {len(slugs)} product pages with {workers} browsers "
+          f"(about {len(slugs) * 9 // 60 // workers} minutes)")
     started = time.time()
-    with http.protected_session() as session:
-        for done, slug in enumerate(slugs, 1):
-            html = session.get_html(download_page.format(slug=slug), network_idle=False, disable_resources=True)
-            if html is None:
-                continue  # not cached, so it's retried next run
-            title, firmwares = parse_page(html)
-            cache[slug] = {"fetched": date.today().isoformat(), "title": title, "firmwares": firmwares}
-            if done % SAVE_EVERY == 0:
-                save_cache(cache)
-                print(f"\tIntelbras: {done}/{len(slugs)} pages ({(time.time() - started) / done:.1f} s each)")
-    save_cache(cache)
+    lock = threading.Lock()
+    done = [0]
+
+    def fetch_share(share):
+        with http.protected_session() as session:
+            for slug in share:
+                html = session.get_html(download_page.format(slug=slug), network_idle=False, disable_resources=True)
+                if html is None:
+                    continue  # not cached, so it's retried next run
+                title, firmwares = parse_page(html)
+                with lock:
+                    cache[slug] = {"fetched": date.today().isoformat(), "title": title, "firmwares": firmwares}
+                    done[0] += 1
+                    if done[0] % SAVE_EVERY == 0:
+                        save_cache(cache)
+                        print(f"\tIntelbras: {done[0]}/{len(slugs)} pages "
+                              f"({(time.time() - started) / done[0]:.1f} s each overall)")
+
+    threads = [threading.Thread(target=fetch_share, args=(slugs[i::workers],)) for i in range(workers)]
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join()
+    with lock:
+        save_cache(cache)
 
 
 def get_firmwares(max_pages=None):

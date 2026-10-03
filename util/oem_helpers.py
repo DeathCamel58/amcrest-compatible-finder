@@ -8,7 +8,8 @@ from util import http
 
 # Dahua firmware names start with a Dahua prefix, or carry a Dahua style version string like V2.800.0000000.11.R.230626
 DAHUA_PREFIX = re.compile(r'(^|_)(General|DH|DHI|Customer|Group)_', re.IGNORECASE)
-DAHUA_VERSION = re.compile(r'V?(\d\.\d{3}\.[0-9A-Za-z]+\.\d+(?:\.[A-Z])?)\.(\d{6,8})')
+# The build date is yymmdd or yyyymmdd; a 7-digit stamp (e.g. ...R.2303031) is something else
+DAHUA_VERSION = re.compile(r'V?(\d\.\d{3}\.[0-9A-Za-z]+\.\d+(?:\.[A-Z])?)\.(\d{8}|\d{6})(?!\d)')
 
 FIRMWARE_EXTENSIONS = ('.bin', '.zip', '.img', '.rar', '.7z')
 

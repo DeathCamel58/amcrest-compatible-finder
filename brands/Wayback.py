@@ -24,7 +24,8 @@ FIRMWARE_EXTENSIONS = r"(bin|zip|img|dav|rar|pak|7z)"
 #   name_prefix  generic (non-Dahua-style) names become <prefix>_<parent folder>_<file>, since they'd clash with
 #                other vendors' files of the same name
 SOURCES = [
-    ("dahuawiki.com/images/Files/", "Dahua", True),
+    # Its /Software/ folder holds PC tools (DiskManager, ThermalImagery, ...), not firmware
+    ("dahuawiki.com/images/Files/", "Dahua", True, {"exclude": ["/Software/"]}),
     ("materialfile.dahuasecurity.com/uploads/", "Dahua", True),
     ("material.dahuasecurity.com/uploads/", "Dahua", True),
     ("files.dahuatech.support/Firmwares/", "Dahua", True),

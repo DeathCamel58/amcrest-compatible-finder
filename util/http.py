@@ -96,8 +96,9 @@ def _store_clearance(url, page):
         _clearances[urlparse(url).hostname] = {"cookies": cookies, "user_agent": headers["user-agent"]}
 
 
-# Vendors are listed in parallel, but each stealth browser is a whole Chromium; run one at a time
-_browser_lock = threading.Lock()
+# Vendors are listed in parallel, but each stealth browser is a whole Chromium; allow a few at once
+BROWSER_SLOTS = 4
+_browser_lock = threading.BoundedSemaphore(BROWSER_SLOTS)
 
 
 def get_protected_html(url, attempts=3):
@@ -152,7 +153,7 @@ class _ProtectedSession:
 def protected_session():
     """One stealth browser kept open for many pages of a site behind Cloudflare (much faster than a browser per page).
 
-    Holds the browser lock for the whole session. Pages fetched through it store the Cloudflare clearance, so later
+    Holds one browser slot for the whole session. Pages fetched through it store the Cloudflare clearance, so later
     http.get calls to the same host reuse it."""
     from scrapling.fetchers import StealthySession
 

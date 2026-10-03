@@ -64,3 +64,22 @@ def _download_to(url, file_name, part_name, downloader):
         os.remove(part_name)
 
     return None
+
+
+# Download URL -> MD5 of an earlier download that didn't match the vendor's published checksum
+_mismatched_md5 = {}
+_mismatched_md5_lock = threading.Lock()
+
+
+def check_published_md5(url, actual, expected):
+    """Raise (so the download is retried) when a download doesn't match the vendor's published MD5, unless an
+    earlier download gave the same bytes: then the file is stable and the published value is what's wrong, so the
+    file is kept (enrich flags the entry with vendor_md5_mismatch)."""
+    if not expected or actual == expected.lower():
+        return
+    with _mismatched_md5_lock:
+        if _mismatched_md5.get(url) == actual:
+            print(f'\tKeeping {url}: two downloads match each other ({actual}) but not the published MD5 {expected}')
+            return
+        _mismatched_md5[url] = actual
+    raise ValueError(f'MD5 mismatch for {url}: got {actual}, expected {expected}')

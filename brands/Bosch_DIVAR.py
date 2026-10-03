@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from util import http
+from util.download_firmware import check_published_md5
 from util.oem_helpers import make_firmware
 
 name = "Bosch DIVAR"
@@ -76,7 +77,4 @@ def download_file(url, part_name):
                 f.write(chunk)
                 md5.update(chunk)
 
-    expected = md5_by_url.get(url)
-    if expected and md5.hexdigest() != expected:
-        # Raised as a normal error so the download gets retried
-        raise ValueError(f"MD5 mismatch for {url}: got {md5.hexdigest()}, expected {expected}")
+    check_published_md5(url, md5.hexdigest(), md5_by_url.get(url))

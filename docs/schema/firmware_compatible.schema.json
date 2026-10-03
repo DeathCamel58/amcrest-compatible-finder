@@ -1,0 +1,103 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/firmware_compatible.schema.json",
+    "title": "firmware_compatible.json",
+    "description": "What hardware each firmware supports, keyed by firmware file name (the same keys as cameras.json). See docs/FIRMWARE_DATA.md. Entries allow extra properties so new fields don't break consumers; known fields are strict.",
+    "type": "object",
+    "propertyNames": {"$ref": "#/$defs/fileName"},
+    "additionalProperties": {"$ref": "#/$defs/result"},
+    "$defs": {
+        "fileName": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[^/]+$"
+        },
+        "dateTime": {
+            "description": "ISO 8601 / RFC 3339 timestamp with a UTC offset, e.g. 2026-10-02T17:31:39+00:00",
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
+            "format": "date-time"
+        },
+        "idList": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+        },
+        "hardware": {
+            "description": "hardware_ids cleaned up and sorted into groups",
+            "type": "object",
+            "required": ["models", "boards", "hwids", "ignored"],
+            "properties": {
+                "models": {"$ref": "#/$defs/idList"},
+                "boards": {"$ref": "#/$defs/idList"},
+                "hwids": {"$ref": "#/$defs/idList"},
+                "ignored": {"$ref": "#/$defs/idList"}
+            },
+            "additionalProperties": false
+        },
+        "result": {
+            "type": "object",
+            "required": ["hardware_ids", "hardware", "status", "extractor_version"],
+            "properties": {
+                "hardware_ids": {"$ref": "#/$defs/idList"},
+                "hardware": {"$ref": "#/$defs/hardware"},
+                "status": {"enum": ["ok", "no_ids", "extract_failed", "not_dahua", "duplicate"]},
+                "extractor_version": {"type": "integer", "minimum": 1},
+                "processed_at": {"$ref": "#/$defs/dateTime"},
+                "platform": {"enum": ["hikvision", "unknown"]},
+                "error": {"type": "string", "minLength": 1},
+                "attempts": {"type": "integer", "minimum": 1},
+                "truncated": {"const": true},
+                "duplicate_of": {"$ref": "#/$defs/fileName"}
+            },
+            "allOf": [
+                {
+                    "description": "processed_at is absent only on version 1 results (the old analysis)",
+                    "if": {"properties": {"extractor_version": {"type": "integer", "minimum": 2}}},
+                    "then": {"required": ["processed_at"]}
+                },
+                {
+                    "description": "ok means hardware IDs were found",
+                    "if": {"properties": {"status": {"const": "ok"}}},
+                    "then": {"properties": {"hardware_ids": {"minItems": 1}}}
+                },
+                {
+                    "description": "hardware_ids is empty unless status is ok (a duplicate repeats its main entry's result)",
+                    "if": {"properties": {"status": {"enum": ["no_ids", "extract_failed", "not_dahua"]}}},
+                    "then": {"properties": {"hardware_ids": {"maxItems": 0}}}
+                },
+                {
+                    "description": "not_dahua names the detected platform; only not_dahua (or a duplicate of one) has it",
+                    "if": {"properties": {"status": {"const": "not_dahua"}}},
+                    "then": {"required": ["platform"]},
+                    "else": {
+                        "if": {"properties": {"status": {"const": "duplicate"}}},
+                        "then": true,
+                        "else": {"properties": {"platform": {"not": {}}}}
+                    }
+                },
+                {
+                    "description": "extract_failed says what went wrong and how often it was tried; only extract_failed (or a duplicate of one) has those",
+                    "if": {"properties": {"status": {"const": "extract_failed"}}},
+                    "then": {"required": ["error", "attempts"]},
+                    "else": {
+                        "if": {"properties": {"status": {"const": "duplicate"}}},
+                        "then": true,
+                        "else": {"properties": {"error": {"not": {}}, "attempts": {"not": {}}}}
+                    }
+                },
+                {
+                    "description": "duplicate points at the main entry, and only duplicates do",
+                    "if": {"properties": {"status": {"const": "duplicate"}}},
+                    "then": {"required": ["duplicate_of"]},
+                    "else": {"properties": {"duplicate_of": {"not": {}}}}
+                },
+                {
+                    "description": "Truncated files are analysed from their intact part, which gives ok or extract_failed, never no_ids or not_dahua",
+                    "if": {"properties": {"status": {"enum": ["no_ids", "not_dahua"]}}},
+                    "then": {"properties": {"truncated": {"not": {}}}}
+                }
+            ]
+        }
+    }
+}

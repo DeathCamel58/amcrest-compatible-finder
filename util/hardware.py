@@ -51,16 +51,45 @@ SERIES_WORDS = re.compile(r"\bseries\b", re.IGNORECASE)
 FIRMWARE_LIKE = re.compile(r"_V\d+\.\d{2,3}\.|\.(bin|zip|dav|img|rar|pak)$|_\d{6,8}$", re.IGNORECASE)
 
 
+# Product descriptions vendors put where a model name belongs ("Full Color firmware", "Updated Voice File",
+# "32 Channel Firmware (Older than 2020)", "Special")
+DESCRIPTION_WORDS = re.compile(
+    r"\b(firmware|file|files|update|updated|upgrade|special|voice|channel|version|older|newer|latest|full color|"
+    r"deterrence|tracking|main|produced|recommended|beta)\b",
+    re.IGNORECASE,
+)
+# "IPC-TPC124X-AI-S2 (S2 version Produced in Feb.2024)": a model followed by a description in brackets
+MODEL_WITH_DESCRIPTION = re.compile(r"^([A-Za-z0-9][\w\-/.+&]*\d[\w\-/.+&]*)\s*\((.+)\)$")
+# A token that looks like a model number: letters and digits together, e.g. IPC-HDW2431T-AS-S2 or NVR5208
+MODEL_TOKEN = re.compile(r"[A-Za-z]+[-_]?\d|\d+[A-Za-z]")
+
+
 def split_model_names(names, file_name):
-    """Split vendor model names into (models, series), dropping names that are really a firmware file name.
-    (A name equal to the file name is fine: GSS names files after the model, e.g. IPC-144M.bin.)"""
-    models, series = [], []
+    """Split vendor model names into (models, series, notes).
+
+    Names that are really a firmware file name are dropped, series names move to series, and descriptions move to
+    notes. (A name equal to the file name is fine: GSS names files after the model, e.g. IPC-144M.bin.)"""
+    models, series, notes = [], [], []
     for name in names:
         # Rhino and others sometimes use the firmware's file name as the "model"
         if not name or FIRMWARE_LIKE.search(name):
             continue
+
+        match = MODEL_WITH_DESCRIPTION.match(name)
+        if match and DESCRIPTION_WORDS.search(match.group(2)):
+            name = match.group(1)
+            notes.append(match.group(2).strip())
+        else:
+            # "PTZ3E10X-T180 Vehicle automatic tracking firmware": a model followed by a description
+            first, _, rest = name.partition(" ")
+            if rest and MODEL_TOKEN.search(first) and "-" in first and DESCRIPTION_WORDS.search(rest):
+                name = first
+                notes.append(rest.strip())
+
         if SERIES_WORDS.search(name) or is_family_name(name):
             series.append(name)
+        elif DESCRIPTION_WORDS.search(name) and (" " in name or not MODEL_TOKEN.search(name)):
+            notes.append(name)
         else:
             models.append(name)
-    return models, series
+    return models, series, notes

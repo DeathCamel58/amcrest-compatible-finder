@@ -6,11 +6,19 @@ vendor = "Zuum"
 
 # Redirects to Zuum's public Dropbox folder, which has a "Product Firmware/<model>/" folder per product
 firmware_site = "https://www.zuummedia.com/downloads/"
+# Where that page redirects to. Used when the page itself is unavailable (it sometimes answers 403)
+known_folder = ("https://www.dropbox.com/scl/fo/i888ztms8musfusi2l33h/ABXb55qEbCWmtggTrypfMgs"
+                "?rlkey=p9i49mholh44cstdss7ku8rom&dl=0")
 firmware_folder = "Product Firmware"
 
 
 def get_firmwares():
-    folder_url = dropbox.resolve_link(firmware_site)
+    try:
+        folder_url = dropbox.resolve_link(firmware_site)
+    except Exception:
+        folder_url = None
+    if not folder_url or "/scl/fo/" not in folder_url:
+        folder_url = known_folder
 
     firmwares = []
     for file in dropbox.walk_folder(folder_url, top_folders=(firmware_folder,)):

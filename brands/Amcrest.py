@@ -38,6 +38,9 @@ def parse_version_cell(text):
     match = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2}|\d{4})$", text)
     if match:
         month, day, year = match.groups()
+        # Most rows are month/day/year, but a few are day/month/year (e.g. 16/05/17)
+        if int(month) > 12 >= int(day):
+            month, day = day, month
         year = f"20{year}" if len(year) == 2 else year
         release_date = f"{year}-{int(month):02d}-{int(day):02d}"
         version = text[:match.start()].strip()
