@@ -205,10 +205,13 @@ def test_parse_args_groups_and_ranges():
     assert main.parse_args(["--from", "process"])[0] == ["process", "archive", "validate"]
     assert main.parse_args(["--to", "enrich"])[0] == ["download", "enrich"]
     assert main.parse_args(["all", "check-links", "--from", "archive"])[0] == ["archive", "check-links", "validate"]
+    assert main.parse_args(["--no-archive"])[0] == ["download", "enrich", "process", "validate"]
+    assert main.parse_args(["--from", "process", "--no-archive"])[0] == ["process", "validate"]
 
 
 @pytest.mark.parametrize("argv", [["download", "--only"], ["--skip"], ["--only", "--skip", "x"], ["bogus"],
-                                  ["--from", "nope"], ["--from", "validate", "--to", "download"]])
+                                  ["--from", "nope"], ["--from", "validate", "--to", "download"],
+                                  ["archive", "--no-archive"]])
 def test_parse_args_errors(argv, capsys):
     with pytest.raises(SystemExit) as exc:
         main.parse_args(argv)

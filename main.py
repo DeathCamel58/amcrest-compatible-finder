@@ -1227,7 +1227,7 @@ STAGE_GROUPS = {
     # Find and download new firmwares and analyse them, but don't upload
     'update': ('download', 'enrich', 'process', 'validate'),
 }
-USAGE = ('usage: python main.py [STAGE|GROUP ...] [--from STAGE] [--to STAGE] [--only NAME[,NAME...]] '
+USAGE = ('usage: python main.py [STAGE|GROUP ...] [--from STAGE] [--to STAGE] [--no-archive] [--only NAME[,NAME...]] '
          '[--skip NAME[,NAME...]] [--list-sources]')
 HELP = f"""{USAGE}
 
@@ -1247,6 +1247,7 @@ Groups:
 Options:
   --from STAGE   start at this stage of the selection (e.g. "--from process" = process archive validate)
   --to STAGE     stop after this stage of the selection
+  --no-archive   leave out the archive stage (e.g. "python main.py --no-archive" = the full run without uploading)
   --only NAMES   list only these sources (module, display or vendor names, comma-separated)
   --skip NAMES   skip these sources
   --list-sources print the source names --only and --skip accept, and exit
@@ -1255,6 +1256,7 @@ Examples:
   python main.py archive                      upload to archive.org only
   python main.py download process             download, then process (enrich isn't run)
   python main.py --from process               process, archive, validate
+  python main.py --no-archive                 the full run without uploading to archive.org
   python main.py download --only EmpireTech   one source's downloads, e.g. through a VPN"""
 
 
@@ -1275,6 +1277,10 @@ def parse_args(argv):
         if arg in ('-h', '--help'):
             print(HELP)
             raise SystemExit(0)
+        if arg == '--no-archive':
+            bounds['--no-archive'] = True
+            i += 1
+            continue
         if arg == '--list-sources':
             for module in oem_modules:
                 print(f"{module.__name__.split('.')[-1]:24} {module.name}  ({module.vendor})")
@@ -1307,6 +1313,8 @@ def parse_args(argv):
         stages = [stage for stage in stages if STAGES.index(stage) >= STAGES.index(bounds['--from'])]
     if '--to' in bounds:
         stages = [stage for stage in stages if STAGES.index(stage) <= STAGES.index(bounds['--to'])]
+    if '--no-archive' in bounds:
+        stages = [stage for stage in stages if stage != 'archive']
     if not stages:
         usage_error('no stages left to run')
     return stages, only, skip

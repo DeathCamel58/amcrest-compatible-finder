@@ -26,7 +26,7 @@ Every downloaded firmware is also uploaded to the Internet Archive (needs `ia co
 python main.py archive                      # upload to archive.org only
 python main.py download process             # download, then process
 python main.py analyse                      # enrich, process, validate: no network
-python main.py update                       # everything except archive
+python main.py --no-archive                 # the full run without uploading (same as: python main.py update)
 python main.py --from process               # process, archive, validate
 python main.py check-links                  # check whether vendor links still work (not part of a full run)
 python main.py download --only EmpireTech   # one source (--skip leaves sources out; --list-sources names them)
