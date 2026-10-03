@@ -227,6 +227,30 @@ def get_firmware_file_name(firmware, firmware_type):
     return name
 
 
+def record_listing_url(listing, url, seen=None):
+    """Point the listing at url, keeping every URL the page has offered the file at in url_history (with when each
+    was first and last seen). Vendors move files between folders and list one file under several products, and the
+    old addresses are part of where the firmware came from."""
+    seen = seen or RUN_DATE
+    history = [dict(item) for item in listing.get('url_history') or []]
+    if listing.get('url') and not any(item['url'] == listing['url'] for item in history):
+        # A listing from before url_history: its URL, with the listing's own dates
+        history.append({key: value for key, value in (('url', listing['url']), ('first_seen', listing.get('first_seen')),
+                                                       ('last_seen', listing.get('last_seen'))) if value})
+    item = next((item for item in history if item['url'] == url), None)
+    if item is None:
+        item = {'url': url, 'first_seen': seen}
+        history.append(item)
+    item['last_seen'] = max(item.get('last_seen') or seen, seen)
+    item['first_seen'] = min(item.get('first_seen') or seen, seen)
+    listing['url'] = url
+    # Only kept once there's more than one URL, so the common case stays small
+    if len(history) > 1:
+        listing['url_history'] = history
+    else:
+        listing.pop('url_history', None)
+
+
 def merge_listing(listings, firmware, firmware_type, new_camera_names, firmware_file):
     """Keep what each vendor page says about this file, since the top-level fields combine every vendor.
 
@@ -237,7 +261,7 @@ def merge_listing(listings, firmware, firmware_type, new_camera_names, firmware_
         listing = {'vendor': firmware['vendor'], 'source': firmware['source']}
         listings.append(listing)
 
-    listing['url'] = firmware[firmware_type]
+    record_listing_url(listing, firmware[firmware_type])
     models, series, descriptions = split_model_names(
         merge_unique_text((listing.get('camera_name') or []) + (listing.get('series') or []) + new_camera_names),
         firmware_file)

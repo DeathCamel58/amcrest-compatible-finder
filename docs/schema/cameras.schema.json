@@ -1,203 +1,508 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/cameras.schema.json",
-    "title": "cameras.json",
-    "description": "Where each firmware came from, keyed by firmware file name. See docs/FIRMWARE_DATA.md. Entries and listings allow extra properties so new fields don't break consumers; known fields are strict.",
-    "type": "object",
-    "propertyNames": {"$ref": "#/$defs/fileName"},
-    "additionalProperties": {"$ref": "#/$defs/entry"},
-    "$defs": {
-        "fileName": {
-            "type": "string",
-            "minLength": 1,
-            "pattern": "^[^/]+$"
-        },
-        "date": {
-            "description": "YYYY-MM-DD",
-            "type": "string",
-            "pattern": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
-            "format": "date"
-        },
-        "dateTime": {
-            "description": "ISO 8601 / RFC 3339 timestamp with a UTC offset, e.g. 2026-10-02T17:31:39+00:00",
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
-            "format": "date-time"
-        },
-        "text": {
-            "type": "string",
-            "minLength": 1
-        },
-        "textList": {
-            "type": "array",
-            "items": {"$ref": "#/$defs/text"},
-            "uniqueItems": true
-        },
-        "url": {
-            "type": "string",
-            "minLength": 1
-        },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/cameras.schema.json",
+  "title": "cameras.json",
+  "description": "Where each firmware came from, keyed by firmware file name. See docs/FIRMWARE_DATA.md. Entries and listings allow extra properties so new fields don't break consumers; known fields are strict.",
+  "type": "object",
+  "propertyNames": {
+    "$ref": "#/$defs/fileName"
+  },
+  "additionalProperties": {
+    "$ref": "#/$defs/entry"
+  },
+  "$defs": {
+    "fileName": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^/]+$"
+    },
+    "date": {
+      "description": "YYYY-MM-DD",
+      "type": "string",
+      "pattern": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+      "format": "date"
+    },
+    "dateTime": {
+      "description": "ISO 8601 / RFC 3339 timestamp with a UTC offset, e.g. 2026-10-02T17:31:39+00:00",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
+      "format": "date-time"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "textList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/text"
+      },
+      "uniqueItems": true
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "md5": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{32}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{64}$"
+    },
+    "platform": {
+      "enum": [
+        "dahua",
+        "hikvision",
+        "unknown"
+      ]
+    },
+    "fileHashes": {
+      "description": "Hashes of the file actually on disk; size/mtime are bookkeeping for when to recompute them.",
+      "type": "object",
+      "required": [
+        "md5",
+        "sha256",
+        "size",
+        "mtime"
+      ],
+      "properties": {
         "md5": {
-            "type": "string",
-            "pattern": "^[0-9a-fA-F]{32}$"
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
         },
         "sha256": {
-            "type": "string",
-            "pattern": "^[0-9a-fA-F]{64}$"
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mtime": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "ok",
+            "truncated",
+            "unverified"
+          ]
+        },
+        "reason": {
+          "$ref": "#/$defs/text"
+        },
+        "vendor_copy_truncated": {
+          "const": true
+        }
+      },
+      "allOf": [
+        {
+          "description": "vendor_copy_truncated only applies to a truncated file",
+          "if": {
+            "required": [
+              "vendor_copy_truncated"
+            ]
+          },
+          "then": {
+            "properties": {
+              "status": {
+                "const": "truncated"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "listing": {
+      "description": "What one vendor page (source) says about this file.",
+      "type": "object",
+      "required": [
+        "vendor",
+        "source",
+        "url",
+        "camera_name",
+        "notes",
+        "kind"
+      ],
+      "properties": {
+        "vendor": {
+          "$ref": "#/$defs/text"
+        },
+        "source": {
+          "$ref": "#/$defs/text"
+        },
+        "kind": {
+          "enum": [
+            "vendor",
+            "mirror",
+            "archive"
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "camera_name": {
+          "$ref": "#/$defs/textList"
+        },
+        "series": {
+          "$ref": "#/$defs/textList",
+          "minItems": 1
+        },
+        "notes": {
+          "$ref": "#/$defs/textList"
+        },
+        "firmware_version": {
+          "$ref": "#/$defs/text"
+        },
+        "release_date": {
+          "$ref": "#/$defs/date"
+        },
+        "changelog": {
+          "$ref": "#/$defs/url"
+        },
+        "first_seen": {
+          "$ref": "#/$defs/date"
+        },
+        "last_seen": {
+          "$ref": "#/$defs/date"
+        },
+        "latest": {
+          "type": "boolean"
+        },
+        "last_seen_latest": {
+          "$ref": "#/$defs/date"
+        },
+        "original_url": {
+          "$ref": "#/$defs/url"
+        },
+        "archived_at": {
+          "$ref": "#/$defs/date"
+        },
+        "url_status": {
+          "enum": [
+            "ok",
+            "dead",
+            "error",
+            "unchecked"
+          ]
+        },
+        "url_checked_at": {
+          "$ref": "#/$defs/dateTime"
+        },
+        "url_history": {
+          "description": "Every URL this page has offered the file at, oldest first, when there's been more than one (files get moved between folders, or listed under several products). url is the most recent",
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "url": {
+                "$ref": "#/$defs/url"
+              },
+              "first_seen": {
+                "$ref": "#/$defs/date"
+              },
+              "last_seen": {
+                "$ref": "#/$defs/date"
+              }
+            }
+          }
+        }
+      },
+      "dependentRequired": {
+        "first_seen": [
+          "last_seen"
+        ],
+        "last_seen": [
+          "first_seen"
+        ],
+        "url_status": [
+          "url_checked_at"
+        ],
+        "url_checked_at": [
+          "url_status"
+        ]
+      },
+      "allOf": [
+        {
+          "description": "latest / last_seen_latest are only on vendor pages; mirrors and archives don't say which firmware is current",
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "not": {
+                  "const": "vendor"
+                }
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "latest": {
+                "not": {}
+              },
+              "last_seen_latest": {
+                "not": {}
+              }
+            }
+          }
+        },
+        {
+          "description": "Wayback captures say where and when the file was archived from; nothing else has those fields",
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "archive"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "original_url",
+              "archived_at"
+            ]
+          },
+          "else": {
+            "properties": {
+              "original_url": {
+                "not": {}
+              },
+              "archived_at": {
+                "not": {}
+              }
+            }
+          }
+        },
+        {
+          "description": "latest: true means it was listed as current on the last run that saw it",
+          "if": {
+            "required": [
+              "latest"
+            ],
+            "properties": {
+              "latest": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "last_seen_latest"
+            ]
+          }
+        }
+      ]
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "camera_name",
+        "notes",
+        "url",
+        "file_type"
+      ],
+      "properties": {
+        "camera_name": {
+          "$ref": "#/$defs/textList"
+        },
+        "series": {
+          "$ref": "#/$defs/textList",
+          "minItems": 1
+        },
+        "notes": {
+          "$ref": "#/$defs/textList"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "vendors": {
+          "$ref": "#/$defs/textList"
+        },
+        "file_type": {
+          "const": "firmware"
+        },
+        "downloadable": {
+          "const": false
+        },
+        "listing_only_reason": {
+          "$ref": "#/$defs/text"
+        },
+        "firmware_size": {
+          "type": "integer",
+          "minimum": 0
         },
         "platform": {
-            "enum": ["dahua", "hikvision", "unknown"]
+          "$ref": "#/$defs/platform"
         },
-        "fileHashes": {
-            "description": "Hashes of the file actually on disk; size/mtime are bookkeeping for when to recompute them.",
-            "type": "object",
-            "required": ["md5", "sha256", "size", "mtime"],
-            "properties": {
-                "md5": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
-                "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-                "size": {"type": "integer", "minimum": 0},
-                "mtime": {"type": "integer"}
-            },
-            "additionalProperties": false
+        "firmware_version": {
+          "$ref": "#/$defs/text"
+        },
+        "release_date": {
+          "$ref": "#/$defs/date"
+        },
+        "changelog": {
+          "$ref": "#/$defs/url"
+        },
+        "md5": {
+          "$ref": "#/$defs/md5"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "vendor_md5_mismatch": {
+          "const": true
+        },
+        "file_hashes": {
+          "$ref": "#/$defs/fileHashes"
         },
         "integrity": {
-            "type": "object",
-            "required": ["status"],
-            "properties": {
-                "status": {"enum": ["ok", "truncated", "unverified"]},
-                "reason": {"$ref": "#/$defs/text"},
-                "vendor_copy_truncated": {"const": true}
-            },
-            "allOf": [
-                {
-                    "description": "vendor_copy_truncated only applies to a truncated file",
-                    "if": {"required": ["vendor_copy_truncated"]},
-                    "then": {"properties": {"status": {"const": "truncated"}}}
-                }
-            ]
+          "$ref": "#/$defs/integrity"
         },
-        "listing": {
-            "description": "What one vendor page (source) says about this file.",
-            "type": "object",
-            "required": ["vendor", "source", "url", "camera_name", "notes", "kind"],
-            "properties": {
-                "vendor": {"$ref": "#/$defs/text"},
-                "source": {"$ref": "#/$defs/text"},
-                "kind": {"enum": ["vendor", "mirror", "archive"]},
-                "url": {"$ref": "#/$defs/url"},
-                "camera_name": {"$ref": "#/$defs/textList"},
-                "series": {"$ref": "#/$defs/textList", "minItems": 1},
-                "notes": {"$ref": "#/$defs/textList"},
-                "firmware_version": {"$ref": "#/$defs/text"},
-                "release_date": {"$ref": "#/$defs/date"},
-                "changelog": {"$ref": "#/$defs/url"},
-                "first_seen": {"$ref": "#/$defs/date"},
-                "last_seen": {"$ref": "#/$defs/date"},
-                "latest": {"type": "boolean"},
-                "last_seen_latest": {"$ref": "#/$defs/date"},
-                "original_url": {"$ref": "#/$defs/url"},
-                "archived_at": {"$ref": "#/$defs/date"},
-                "url_status": {"enum": ["ok", "dead", "error", "unchecked"]},
-                "url_checked_at": {"$ref": "#/$defs/dateTime"}
-            },
-            "dependentRequired": {
-                "first_seen": ["last_seen"],
-                "last_seen": ["first_seen"],
-                "url_status": ["url_checked_at"],
-                "url_checked_at": ["url_status"]
-            },
-            "allOf": [
-                {
-                    "description": "latest / last_seen_latest are only on vendor pages; mirrors and archives don't say which firmware is current",
-                    "if": {"required": ["kind"], "properties": {"kind": {"not": {"const": "vendor"}}}},
-                    "then": {"properties": {"latest": {"not": {}}, "last_seen_latest": {"not": {}}}}
-                },
-                {
-                    "description": "Wayback captures say where and when the file was archived from; nothing else has those fields",
-                    "if": {"required": ["kind"], "properties": {"kind": {"const": "archive"}}},
-                    "then": {"required": ["original_url", "archived_at"]},
-                    "else": {"properties": {"original_url": {"not": {}}, "archived_at": {"not": {}}}}
-                },
-                {
-                    "description": "latest: true means it was listed as current on the last run that saw it",
-                    "if": {"required": ["latest"], "properties": {"latest": {"const": true}}},
-                    "then": {"required": ["last_seen_latest"]}
-                }
-            ]
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fileName"
+          },
+          "minItems": 1,
+          "uniqueItems": true
         },
-        "entry": {
-            "type": "object",
-            "required": ["camera_name", "notes", "url", "file_type"],
-            "properties": {
-                "camera_name": {"$ref": "#/$defs/textList"},
-                "series": {"$ref": "#/$defs/textList", "minItems": 1},
-                "notes": {"$ref": "#/$defs/textList"},
-                "url": {"$ref": "#/$defs/url"},
-                "vendors": {"$ref": "#/$defs/textList"},
-                "file_type": {"const": "firmware"},
-                "downloadable": {"const": false},
-                "listing_only_reason": {"$ref": "#/$defs/text"},
-                "firmware_size": {"type": "integer", "minimum": 0},
-                "platform": {"$ref": "#/$defs/platform"},
-                "firmware_version": {"$ref": "#/$defs/text"},
-                "release_date": {"$ref": "#/$defs/date"},
-                "changelog": {"$ref": "#/$defs/url"},
-                "md5": {"$ref": "#/$defs/md5"},
-                "sha256": {"$ref": "#/$defs/sha256"},
-                "vendor_md5_mismatch": {"const": true},
-                "file_hashes": {"$ref": "#/$defs/fileHashes"},
-                "integrity": {"$ref": "#/$defs/integrity"},
-                "aliases": {
-                    "type": "array",
-                    "items": {"$ref": "#/$defs/fileName"},
-                    "minItems": 1,
-                    "uniqueItems": true
-                },
-                "duplicate_of": {"$ref": "#/$defs/fileName"},
-                "listings": {
-                    "type": "array",
-                    "items": {"$ref": "#/$defs/listing"}
-                },
-                "archive_item": {"type": "string", "pattern": "^https://archive\\.org/details/[A-Za-z0-9._-]+$"},
-                "archive_url": {"type": "string", "pattern": "^https://archive\\.org/download/[A-Za-z0-9._-]+/.+$"},
-                "archive_md5": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
-                "archive_record_hash": {"$ref": "#/$defs/text"}
-            },
-            "dependentRequired": {
-                "downloadable": ["listing_only_reason"],
-                "listing_only_reason": ["downloadable"],
-                "archive_item": ["archive_url"],
-                "archive_url": ["archive_item"],
-                "archive_md5": ["archive_url"],
-                "archive_record_hash": ["archive_md5"],
-                "vendor_md5_mismatch": ["md5", "file_hashes"]
-            },
-            "allOf": [
-                {
-                    "description": "A listing-only firmware has no file, so no file-derived fields or archive copy",
-                    "if": {"required": ["downloadable"]},
-                    "then": {
-                        "properties": {
-                            "firmware_size": {"not": {}},
-                            "platform": {"not": {}},
-                            "file_hashes": {"not": {}},
-                            "integrity": {"not": {}},
-                            "aliases": {"not": {}},
-                            "duplicate_of": {"not": {}},
-                            "vendor_md5_mismatch": {"not": {}},
-                            "archive_item": {"not": {}},
-                            "archive_url": {"not": {}},
-                            "archive_md5": {"not": {}},
-                            "archive_record_hash": {"not": {}}
-                        }
-                    }
-                },
-                {
-                    "description": "An entry is either a main entry (aliases) or a copy (duplicate_of), never both. Copies share the main entry's archive item, so have no upload bookkeeping of their own",
-                    "if": {"required": ["duplicate_of"]},
-                    "then": {"properties": {"aliases": {"not": {}}, "archive_md5": {"not": {}}, "archive_record_hash": {"not": {}}}}
-                }
-            ]
+        "duplicate_of": {
+          "$ref": "#/$defs/fileName"
+        },
+        "listings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/listing"
+          }
+        },
+        "archive_item": {
+          "type": "string",
+          "pattern": "^https://archive\\.org/details/[A-Za-z0-9._-]+$"
+        },
+        "archive_url": {
+          "type": "string",
+          "pattern": "^https://archive\\.org/download/[A-Za-z0-9._-]+/.+$"
+        },
+        "archive_md5": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
+        },
+        "archive_record_hash": {
+          "$ref": "#/$defs/text"
         }
+      },
+      "dependentRequired": {
+        "downloadable": [
+          "listing_only_reason"
+        ],
+        "listing_only_reason": [
+          "downloadable"
+        ],
+        "archive_item": [
+          "archive_url"
+        ],
+        "archive_url": [
+          "archive_item"
+        ],
+        "archive_md5": [
+          "archive_url"
+        ],
+        "archive_record_hash": [
+          "archive_md5"
+        ],
+        "vendor_md5_mismatch": [
+          "md5",
+          "file_hashes"
+        ]
+      },
+      "allOf": [
+        {
+          "description": "A listing-only firmware has no file, so no file-derived fields or archive copy",
+          "if": {
+            "required": [
+              "downloadable"
+            ]
+          },
+          "then": {
+            "properties": {
+              "firmware_size": {
+                "not": {}
+              },
+              "platform": {
+                "not": {}
+              },
+              "file_hashes": {
+                "not": {}
+              },
+              "integrity": {
+                "not": {}
+              },
+              "aliases": {
+                "not": {}
+              },
+              "duplicate_of": {
+                "not": {}
+              },
+              "vendor_md5_mismatch": {
+                "not": {}
+              },
+              "archive_item": {
+                "not": {}
+              },
+              "archive_url": {
+                "not": {}
+              },
+              "archive_md5": {
+                "not": {}
+              },
+              "archive_record_hash": {
+                "not": {}
+              }
+            }
+          }
+        },
+        {
+          "description": "An entry is either a main entry (aliases) or a copy (duplicate_of), never both. Copies share the main entry's archive item, so have no upload bookkeeping of their own",
+          "if": {
+            "required": [
+              "duplicate_of"
+            ]
+          },
+          "then": {
+            "properties": {
+              "aliases": {
+                "not": {}
+              },
+              "archive_md5": {
+                "not": {}
+              },
+              "archive_record_hash": {
+                "not": {}
+              }
+            }
+          }
+        }
+      ]
     }
+  }
 }
