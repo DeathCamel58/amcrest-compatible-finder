@@ -50,6 +50,7 @@ from brands import DahuaPoland
 from brands import Eltrox
 from brands import Viatec
 from brands import Cifra
+from brands import DahuaFrance
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -106,6 +107,7 @@ oem_modules = [
     Eltrox,
     Viatec,
     Cifra,
+    DahuaFrance,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]

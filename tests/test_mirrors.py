@@ -220,3 +220,21 @@ def test_skip_directories_apply_to_cached_listings(fake_http, no_sleep, tmp_path
                                            ROOT + "LAN/": {"files": [[ROOT + "LAN/x.bin", None]], "directories": []}})
     fake_http({})
     assert oem_helpers.crawl_index(ROOT, cache_file=str(cache_file), offline=True, skip_directories=("LAN",)) == []
+
+
+def test_dahua_france_page():
+    from brands import DahuaFrance
+    page = """
+    <div class="block"><a class="title" href="/upload/firmwares/DH_HCVR5104H_Eng_P_V3.200.0001.32.R.20171021.bin"
+       target="_blank">DH_HCVR5104H_Eng_P_V3.200.0001.32.R.20171021.bin</a>
+      <div class="wenben"><strong><a href="/upload/firmwares/DH_HCVR5104H_Eng_P_V3.200.0001.32.R.20171021.bin.pdf"
+        target="_blank"><img src="/img/pdf.png" />&nbsp;Release note</a></strong>
+        <p>Release date: 2017-10-21<br/>Checksum (md5): 5FEAE8930A4C4B91BE22F2ACE7FF983E</p></div></div>
+    <div class="block"><a class="title" href="/upload/firmwares/DH_DPB18-AI-V2.003.0000000.0.R.200529.apk">x</a>
+      <div class="wenben"><p>Release date: 2020-05-29</p></div></div>"""
+    files = DahuaFrance.parse_page(page)
+    url = "https://france.dahuatech.com/upload/firmwares/DH_HCVR5104H_Eng_P_V3.200.0001.32.R.20171021.bin"
+    assert files[0] == (url, "2017-10-21", "5feae8930a4c4b91be22f2ace7ff983e", url + ".pdf")
+    assert files[1][2] is None and files[1][3] is None
+    assert DahuaFrance.get_model("DH_HCVR5x04-S2_Eng_P_V3.200.0004.13.R.20171021.bin") == "HCVR5x04-S2"
+    assert DahuaFrance.get_model("DH_ASI72XXX_FrnEng_NP_V1.000.9999003.0.R.201126.bin") == "ASI72XXX"

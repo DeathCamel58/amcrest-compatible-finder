@@ -43,6 +43,7 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [X] ASM (ftp.asm.cz) - Czech Dahua distributor's file server (cameras, recorders, intercoms, access control)
  - [X] files.dahuatech.support - Dahua support file server
  - [X] files.dahua.support - Dahua Poland's file server (firmware and solutions)
+ - [X] Dahua France (france.dahuatech.com) - Dahua France's document centre: about 300 firmwares from 2015-2021 with MD5s and release notes
  - [X] Eltrox (ftp.eltrox.pl) - Polish distributor's file server, including the Kenik, EasyCam, Notis, Zeus, Irbis and
    Konig rebrands. Crawled slowly and cached, since it rate limits
  - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
