@@ -1,7 +1,7 @@
 import html
 import json
 import re
-from urllib.parse import unquote, urljoin
+from urllib.parse import quote, unquote, urljoin, urlsplit, urlunsplit
 
 from util import http
 from util.oem_helpers import is_dahua_firmware_name, make_firmware, resolve_downloads, sanitize_name
@@ -58,10 +58,19 @@ def clean_notes(description):
     return notes or None
 
 
+def quote_url(url):
+    """Percent-encode a URL's path. Some RVI links are raw paths with spaces and Cyrillic (e.g. the Tiandy .box
+    firmware under /exupload/Прошивки/...), which servers answer with 404 unless encoded. Already-encoded parts are
+    left as they are."""
+    parts = urlsplit(url)
+    return urlunsplit(parts._replace(path=quote(parts.path, safe="/%:@!$&'()*+,;=-._~"),
+                                     query=quote(parts.query, safe="=&%:/?+-._~")))
+
+
 def get_firmwares():
     entries = get_link_entries()
 
-    urls = {entry["link"]: urljoin(firmware_site, entry["link"]) for entry in entries}
+    urls = {entry["link"]: quote_url(urljoin(firmware_site, entry["link"])) for entry in entries}
     # Most links are /download/api/?download-id=N redirects, so follow them to find the real file
     resolved = resolve_downloads(urls.values())
 

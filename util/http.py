@@ -40,6 +40,9 @@ def get_session():
 # cf_clearance is tied to the browser's User-Agent, so both get reused for plain requests to that host
 _clearances = {}
 _clearance_lock = threading.Lock()
+# Hosts whose clearance refresh produced no cf_clearance this run. Refreshing them again on every 403 would just launch
+# browser after browser (one at a time, blocking refreshes for every other host), so they're not retried
+_failed_refreshes = set()
 
 
 def get(url, **kwargs):
@@ -79,14 +82,55 @@ def _get_with_clearance(url, host, **kwargs):
 
 
 def _refresh_clearance(host):
+    """Get a fresh Cloudflare clearance for host. Returns whether there's a clearance to retry with."""
+    if host in _failed_refreshes:
+        return False
     stale = _clearances.get(host)
     with _clearance_lock:
-        # Another thread may have refreshed it while we waited
+        # Another thread may have refreshed (or failed to) while we waited
+        if host in _failed_refreshes:
+            return False
         if _clearances.get(host) is not stale:
             return True
 
         print(f"\tRefreshing Cloudflare clearance for {host}")
-        return get_protected_html(f"https://{host}/") is not None
+        get_protected_html(f"https://{host}/")
+        if _clearances.get(host) is stale or host not in _clearances:
+            print(f"\tNo Cloudflare clearance for {host}; not refreshing it again this run")
+            _failed_refreshes.add(host)
+            return False
+        return True
+
+
+class SlowDownloadError(Exception):
+    """A download stayed below the minimum rate for a whole window."""
+
+
+def iter_content_with_min_rate(response, chunk_size=1024 * 1024, min_bytes_per_sec=50_000, window=300,
+                               clock=None):
+    """Like response.iter_content(), but raises SlowDownloadError when the average rate over the last `window` seconds
+    drops below min_bytes_per_sec. The read timeout only fires when no bytes arrive at all, so a server trickling a
+    few bytes at a time (one 443 MB download took 5 hours) would otherwise hold a worker indefinitely."""
+    import time
+    from collections import deque
+
+    clock = clock or time.monotonic
+    started = clock()
+    samples = deque([(started, 0)])
+    received = 0
+    for chunk in response.iter_content(chunk_size=chunk_size):
+        received += len(chunk)
+        now = clock()
+        samples.append((now, received))
+        while len(samples) > 1 and samples[1][0] <= now - window:
+            samples.popleft()
+        oldest_time, oldest_received = samples[0]
+        if now - started >= window and now - oldest_time >= window:
+            rate = (received - oldest_received) / (now - oldest_time)
+            if rate < min_bytes_per_sec:
+                raise SlowDownloadError(f"{rate / 1024:.1f} KB/s over the last {window} s "
+                                        f"(minimum {min_bytes_per_sec / 1024:.0f} KB/s)")
+        yield chunk
 
 
 def _store_clearance(url, page):
@@ -150,7 +194,7 @@ class _ProtectedSession:
 
 
 @contextmanager
-def protected_session():
+def protected_session(solve_cloudflare=True):
     """One stealth browser kept open for many pages of a site behind Cloudflare (much faster than a browser per page).
 
     Holds one browser slot for the whole session. Pages fetched through it store the Cloudflare clearance, so later
@@ -158,7 +202,7 @@ def protected_session():
     from scrapling.fetchers import StealthySession
 
     with _browser_lock:
-        session = StealthySession(headless=True, solve_cloudflare=True)
+        session = StealthySession(headless=True, solve_cloudflare=solve_cloudflare)
         session.start()
         try:
             yield _ProtectedSession(session)

@@ -1,4 +1,5 @@
 import re
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
@@ -8,10 +9,33 @@ from util.general import get_href_if_exists
 name = "Amcrest"
 vendor = "Amcrest"
 
+firmware_site = "https://amcrest.com/firmware"
+
+
+def clean_download_link(href):
+    """The link as an absolute URL, or None if it can't be a file download:
+    - links with a literal "*" (an unfilled placeholder in the table, e.g. "..._10002_*.bin"), which S3 refuses
+    - AWS console pages (s3.console.aws.amazon.com), which need an AWS login and aren't files
+    - amcrest.com/downloads/... links, which redirect to a help-centre category page rather than a file
+    s3:// links are kept; main.py turns them into https."""
+    if not href:
+        return None
+    href = href.strip()
+    if href.startswith("s3://"):
+        return href
+    url = urljoin(firmware_site, href)
+    host = (urlparse(url).hostname or "").lower()
+    if "*" in url:
+        return None
+    if host.endswith("console.aws.amazon.com"):
+        return None
+    if host in ("amcrest.com", "www.amcrest.com") and urlparse(url).path.startswith("/downloads/"):
+        return None
+    return url
+
 
 def get_firmware_boxes():
     # Download and parse the Amcrest firmware site (it's behind Cloudflare)
-    firmware_site = "https://amcrest.com/firmware"
     page = http.get_protected_html(firmware_site)
 
     # with open("/home/deathcamel57/Downloads/Firmware Upgrade _ Amcrest Technologies.html", "rb") as file:
@@ -65,8 +89,8 @@ def parse_firmwares(firmware_box):
         cols = firmware_row.find_all("td")
 
         changelog = get_href_if_exists(cols[4])
-        firmware_previous = get_href_if_exists(cols[5])
-        firmware_latest = get_href_if_exists(cols[6])
+        firmware_previous = clean_download_link(get_href_if_exists(cols[5]))
+        firmware_latest = clean_download_link(get_href_if_exists(cols[6]))
 
         firmware_version, release_date = parse_version_cell(get_cell_text(cols[1]))
 

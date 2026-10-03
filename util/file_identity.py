@@ -30,17 +30,21 @@ def get_file_hashes(path):
     return {"md5": md5, "sha256": sha256, "size": stat.st_size, "mtime": int(stat.st_mtime)}
 
 
-def main_entry_sort_key(name, entry):
+def main_entry_sort_key(name, entry, analysed_names=()):
     return (
-        bool(COPY_MARKERS.search(name)),  # prefer names without copy markers
+        # prefer a copy already on archive.org, then one already analysed, so neither is redone for another copy
+        not (entry.get("archive_url") and not entry.get("archive_pending")),
+        name not in analysed_names,
+        bool(COPY_MARKERS.search(name)),  # then names without copy markers
         not entry.get("listings"),        # then one that a vendor lists
         len(name),                        # then the shortest
         name,
     )
 
 
-def assign_duplicates(cameras_json, file_names):
+def assign_duplicates(cameras_json, file_names, analysed_names=()):
     """Group files with identical content. The main entry gets "aliases", the others "duplicate_of".
+    analysed_names are files that already have results in firmware_compatible.json.
     Returns the number of duplicate files."""
     by_hash = {}
     for name in file_names:
@@ -50,7 +54,7 @@ def assign_duplicates(cameras_json, file_names):
 
     duplicates = 0
     for names in by_hash.values():
-        names.sort(key=lambda name: main_entry_sort_key(name, cameras_json[name]))
+        names.sort(key=lambda name: main_entry_sort_key(name, cameras_json[name], analysed_names))
         main, others = names[0], names[1:]
 
         cameras_json[main].pop("duplicate_of", None)

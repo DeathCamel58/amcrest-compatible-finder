@@ -1,38 +1,104 @@
+import fcntl
 import json
 import os
+import tempfile
 import threading
+from contextlib import contextmanager
 
 from util.hardware import classify_hardware_ids
 
-cameras_lock = threading.Lock()
-firmware_lock = threading.Lock()
+CAMERAS_JSON = "cameras.json"
+FIRMWARE_JSON = "firmware_compatible.json"
+
+# One lock per JSON file. Within the process an RLock (so a save inside json_lock() doesn't deadlock); across processes
+# (e.g. a separate `download --only EmpireTech` run) an fcntl lock on "<file>.lock", taken by the outermost holder only
+_locks = {}
+_locks_guard = threading.Lock()
 
 
-def get_cameras_json():
-    json_file = f"cameras.json"
-    data = {}
-    if os.path.exists(json_file):
-        with cameras_lock:
-            with open(f"cameras.json", "r") as f:
-                data = json.load(f)
-    return data
+class _FileLock:
+    def __init__(self, json_file):
+        self.json_file = json_file
+        self.thread_lock = threading.RLock()
+        self.depth = 0
+        self.handle = None
+
+    def acquire(self):
+        self.thread_lock.acquire()
+        if self.depth == 0:
+            directory = os.path.dirname(os.path.abspath(self.json_file))
+            os.makedirs(directory, exist_ok=True)
+            self.handle = open(f"{self.json_file}.lock", "a")
+            fcntl.flock(self.handle, fcntl.LOCK_EX)
+        self.depth += 1
+
+    def release(self):
+        self.depth -= 1
+        if self.depth == 0:
+            fcntl.flock(self.handle, fcntl.LOCK_UN)
+            self.handle.close()
+            self.handle = None
+        self.thread_lock.release()
+
+
+def _get_lock(json_file):
+    key = os.path.abspath(json_file)
+    with _locks_guard:
+        if key not in _locks:
+            _locks[key] = _FileLock(json_file)
+        return _locks[key]
+
+
+@contextmanager
+def json_lock(json_file):
+    """Hold a JSON file's lock (threads and other processes) across a read-modify-write:
+
+        with json_lock(CAMERAS_JSON):
+            data = get_cameras_json()
+            ...
+            save_cameras_json(data)
+    """
+    lock = _get_lock(json_file)
+    lock.acquire()
+    try:
+        yield
+    finally:
+        lock.release()
+
+
+def load_json(json_file):
+    if not os.path.exists(json_file):
+        return {}
+    with json_lock(json_file):
+        with open(json_file, "r") as f:
+            return json.load(f)
 
 
 def save_json_atomic(json_file, data):
-    # Write to a temp file and rename it over the original, so a crash mid-save can't leave a truncated JSON
-    # (the data for firmwares that vendors have since removed can't be re-scraped)
-    temp_file = f"{json_file}.tmp"
-    with open(temp_file, 'w') as f:
-        json.dump(data, f, indent=4, sort_keys=True)
-        f.flush()
-        os.fsync(f.fileno())
-    os.replace(temp_file, json_file)
+    """Write to a temp file in the same directory and rename it over the original, so a crash mid-save can't leave a
+    truncated JSON (the data for firmwares that vendors have since removed can't be re-scraped). The temp name is
+    unique per call, so concurrent writers never share one."""
+    with json_lock(json_file):
+        directory = os.path.dirname(os.path.abspath(json_file))
+        fd, temp_file = tempfile.mkstemp(prefix=f".{os.path.basename(json_file)}.", suffix=".tmp", dir=directory)
+        try:
+            with os.fdopen(fd, "w") as f:
+                json.dump(data, f, indent=4, sort_keys=True)
+                f.flush()
+                os.fsync(f.fileno())
+            os.replace(temp_file, json_file)
+        except BaseException:
+            if os.path.exists(temp_file):
+                os.remove(temp_file)
+            raise
+
+
+def get_cameras_json():
+    return load_json(CAMERAS_JSON)
 
 
 def save_cameras_json(data):
-    json_file = f"cameras.json"
-    with cameras_lock:
-        save_json_atomic(json_file, data)
+    save_json_atomic(CAMERAS_JSON, data)
 
 
 def normalize_firmware_result(value):
@@ -47,13 +113,7 @@ def normalize_firmware_result(value):
 
 
 def get_firmware_json():
-    json_file = f"firmware_compatible.json"
-    data = {}
-    if os.path.exists(json_file):
-        with firmware_lock:
-            with open(f"firmware_compatible.json", "r") as f:
-                data = json.load(f)
-    return {name: normalize_firmware_result(value) for name, value in data.items()}
+    return {name: normalize_firmware_result(value) for name, value in load_json(FIRMWARE_JSON).items()}
 
 
 def get_hardware_ids(firmware_json, firmware_file):
@@ -61,6 +121,4 @@ def get_hardware_ids(firmware_json, firmware_file):
 
 
 def save_firmware_json(data):
-    json_file = f"firmware_compatible.json"
-    with firmware_lock:
-        save_json_atomic(json_file, data)
+    save_json_atomic(FIRMWARE_JSON, data)

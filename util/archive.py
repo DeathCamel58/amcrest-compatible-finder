@@ -49,7 +49,7 @@ def md5_file(path):
 RECORD_FIELDS = ["platform", "integrity", "vendors", "camera_name", "series", "notes", "url", "firmware_version",
                  "release_date", "changelog", "md5", "sha256"]
 # Listing fields that change on every run; leaving them out keeps items from being updated each time
-VOLATILE_LISTING_FIELDS = {"last_seen", "last_seen_latest", "url_checked_at"}
+VOLATILE_LISTING_FIELDS = {"last_seen", "last_seen_latest", "url_checked_at", "url_status"}
 
 PLATFORM_NAMES = {"dahua": "Dahua", "hikvision": "Hikvision"}
 
@@ -244,9 +244,9 @@ def archive_firmware(path, entry, analysis, alias_entries):
     # If an upload is still being processed, don't upload it again
     tasks = internetarchive.get_session().get_tasks_summary(identifier)
     if tasks.get("queued", 0) or tasks.get("running", 0):
-        # Leave the record hash unset so the next run fills in the metadata and provenance record
-        result.pop("archive_record_hash")
-        return result
+        # Not archived yet (the upload may still fail): the next run checks the item again and fills in the
+        # archive URL, MD5 and provenance record once the file is there
+        return {"archive_item": item_url, "archive_pending": True}
 
     responses = internetarchive.upload(
         identifier,

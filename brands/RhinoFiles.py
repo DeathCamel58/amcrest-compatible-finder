@@ -25,11 +25,20 @@ SWEEP_PAST_MAX = 200
 FIRMWARE_FILE_EXTENSIONS = FIRMWARE_EXTENSIONS + (".dav",)
 
 
+def prune_tail(files):
+    """Drop cached misses above the highest ID that has a file. New uploads get IDs up there, so those IDs have to
+    be checked again on every run rather than remembered as missing."""
+    highest = max((file_id for file_id, file_name in files.items() if file_name), default=None)
+    if highest is None:
+        return files
+    return {file_id: file_name for file_id, file_name in files.items() if file_name or file_id <= highest}
+
+
 def load_cache():
     try:
         with open(cache_path) as f:
             cache = json.load(f)
-        return {int(k): v for k, v in cache.get("files", {}).items()}, set(cache.get("failed", []))
+        return prune_tail({int(k): v for k, v in cache.get("files", {}).items()}), set(cache.get("failed", []))
     except (FileNotFoundError, ValueError):
         return {}, set()
 
@@ -38,7 +47,7 @@ def save_cache(files, failed):
     os.makedirs(os.path.dirname(cache_path), exist_ok=True)
     temp_path = f"{cache_path}.tmp"
     with open(temp_path, "w") as f:
-        json.dump({"files": {str(k): v for k, v in sorted(files.items())}, "failed": sorted(failed)}, f)
+        json.dump({"files": {str(k): v for k, v in sorted(prune_tail(files).items())}, "failed": sorted(failed)}, f)
     os.replace(temp_path, cache_path)
 
 

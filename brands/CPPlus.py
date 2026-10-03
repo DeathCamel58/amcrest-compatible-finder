@@ -93,19 +93,42 @@ def load_header_cache():
 
 
 def save_header_cache(cache):
+    """Atomic, so an interrupted run can't leave a half-written cache."""
     os.makedirs(os.path.dirname(HEADER_CACHE), exist_ok=True)
-    with open(HEADER_CACHE, "w") as f:
+    temp_file = f"{HEADER_CACHE}.tmp"
+    with open(temp_file, "w") as f:
         json.dump(cache, f, indent=1, sort_keys=True)
+    os.replace(temp_file, HEADER_CACHE)
 
 
 def read_header(url):
+    """(first bytes, content type) of a file, or None if it couldn't be fetched."""
     try:
-        response = http.get(url, stream=True, headers={"Range": "bytes=0-1", "Accept-Encoding": "identity"})
-        content = response.raw.read(2) if response.status_code in (200, 206) else b""
+        response = http.get(url, stream=True, headers={"Range": "bytes=0-15", "Accept-Encoding": "identity"})
+        if response.status_code not in (200, 206):
+            response.close()
+            return None
+        content = response.raw.read(16)
+        content_type = response.headers.get("Content-Type", "")
         response.close()
-        return content
+        return content, content_type
     except Exception:
         return None
+
+
+def classify_header(header):
+    """'DH' for Dahua firmware, 'other' for another maker's binary, None when the response isn't a real file (an
+    error or HTML page served with 200), which mustn't be cached as 'other'."""
+    if not header:
+        return None
+    content, content_type = header
+    if not content:
+        return None
+    if content[:2] == b"DH":
+        return "DH"
+    if "text/html" in content_type.lower() or content.lstrip()[:1] == b"<":
+        return None
+    return "other"
 
 
 def get_platform_header(path, cache):
@@ -113,13 +136,18 @@ def get_platform_header(path, cache):
     CP Plus also sells Uniview and other makers' products under the same firmware page."""
     if cache.get(path) in ("DH", "other"):
         return cache[path]
-    header = read_header(BASE_URL + path)
-    if not header and path in wayback_copies:
-        header = read_header(wayback_copies[path])
-    if header is None or header == b"":
+    result = classify_header(read_header(BASE_URL + path))
+    # The live file may be gone or replaced by an error page; the Wayback copy decides before giving up
+    if result != "DH" and path in wayback_copies:
+        archived = classify_header(read_header(wayback_copies[path]))
+        if archived is not None:
+            result = archived if result is None else (archived if archived == "DH" else result)
+    if result is None:
         return None
-    cache[path] = "DH" if header[:2] == b"DH" else "other"
-    return cache[path]
+    cache[path] = result
+    # Saved as it goes, so an interrupted run keeps what it learned
+    save_header_cache(cache)
+    return result
 
 
 def get_firmwares():

@@ -2,6 +2,7 @@ import json
 import os
 import re
 import shutil
+import signal
 import struct
 import subprocess
 import tempfile
@@ -33,6 +34,12 @@ class ExtractionError(Exception):
     pass
 
 
+# One pathological file shouldn't hold a processing worker forever
+BINWALK_TIMEOUT = 30 * 60
+# Members of a truncated file bigger than this (uncompressed) aren't extracted; the hardware IDs are in small files
+MAX_PARTIAL_MEMBER_SIZE = 2 * 1024 ** 3
+
+
 def extract_firmware(path):
     """Unpack a firmware with binwalk and return the hardware IDs found. Raises ExtractionError if it can't be unpacked."""
     workdir = tempfile.mkdtemp(prefix="bw_")
@@ -44,15 +51,21 @@ def extract_firmware(path):
         # Copy the actual firmware file into the binwalk CWD
         shutil.copy(path, local_fw)
 
-        # Run binwalk inside the temp directory
+        # Run binwalk inside the temp directory, in its own process group so a timeout can stop the extractors it
+        # starts (7zz, unsquashfs, ...) too
+        process = subprocess.Popen(['/usr/bin/binwalk', '-e', file_name], cwd=workdir,
+                                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
         try:
-            subprocess.check_output(
-                ['/usr/bin/binwalk', '-e', file_name],  # use local file
-                cwd=workdir,
-                stderr=subprocess.DEVNULL,
-            )
-        except subprocess.CalledProcessError as err:
-            raise ExtractionError(f"binwalk exited with {err.returncode}") from err
+            returncode = process.wait(timeout=BINWALK_TIMEOUT)
+        except subprocess.TimeoutExpired as err:
+            try:
+                os.killpg(process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            process.wait()
+            raise ExtractionError("binwalk timed out") from err
+        if returncode != 0:
+            raise ExtractionError(f"binwalk exited with {returncode}")
 
         extracted_src = os.path.join(workdir, 'extractions', file_name + ".extracted")
 
@@ -217,34 +230,57 @@ def extract_if_zip(path):
 
 def extract_complete_entries(path, destination):
     """Copy out the complete entries of a cut-off zip-style file (PK or Dahua's DH variant) by walking its local
-    headers, since the directory at the end is missing. Returns the number of entries extracted."""
+    headers, since the directory at the end is missing. Returns the number of entries extracted.
+
+    Streams the file (header by header, member by member) rather than reading it into memory: several multi-GB
+    truncated images unpacked by parallel workers would otherwise exhaust RAM."""
     extracted = 0
     with open(path, 'rb') as f:
-        data = f.read()
-    position = 0
-    while position + 30 <= len(data) and data[position:position + 4] in (b'PK\x03\x04', b'DH\x03\x04'):
-        method = struct.unpack('<H', data[position + 8:position + 10])[0]
-        compressed_size = struct.unpack('<I', data[position + 18:position + 22])[0]
-        name_length, extra_length = struct.unpack('<HH', data[position + 26:position + 30])
-        name = data[position + 30:position + 30 + name_length].decode('utf-8', 'replace')
-        start = position + 30 + name_length + extra_length
-        end = start + compressed_size
-        if end > len(data):
-            break  # this is where the file was cut off
-
-        safe_name = os.path.basename(name)
-        if safe_name:
-            raw = data[start:end]
-            try:
-                content = zlib.decompress(raw, -15) if method == 8 else raw
-            except zlib.error:
+        size = os.fstat(f.fileno()).st_size
+        position = 0
+        while position + 30 <= size:
+            f.seek(position)
+            header = f.read(30)
+            if header[:4] not in (b'PK\x03\x04', b'DH\x03\x04'):
                 break
-            with open(os.path.join(destination, safe_name), 'wb') as out:
-                out.write(content)
-            extracted += 1
-        position = end
+            method = struct.unpack('<H', header[8:10])[0]
+            compressed_size, uncompressed_size = struct.unpack('<II', header[18:26])
+            name_length, extra_length = struct.unpack('<HH', header[26:30])
+            name = f.read(name_length).decode('utf-8', 'replace')
+            start = position + 30 + name_length + extra_length
+            end = start + compressed_size
+            if end > size:
+                break  # this is where the file was cut off
+
+            safe_name = os.path.basename(name)
+            if safe_name and uncompressed_size <= MAX_PARTIAL_MEMBER_SIZE:
+                f.seek(start)
+                if not copy_member(f, compressed_size, method, os.path.join(destination, safe_name)):
+                    break
+                extracted += 1
+            position = end
 
     return extracted
+
+
+def copy_member(f, compressed_size, method, destination, chunk_size=4 * 1024 * 1024):
+    """Write one member (stored or deflated) from f's current position to destination. False if it's corrupt."""
+    decompressor = zlib.decompressobj(-15) if method == 8 else None
+    remaining = compressed_size
+    try:
+        with open(destination, 'wb') as out:
+            while remaining > 0:
+                chunk = f.read(min(chunk_size, remaining))
+                if not chunk:
+                    break
+                remaining -= len(chunk)
+                out.write(decompressor.decompress(chunk) if decompressor else chunk)
+            if decompressor:
+                out.write(decompressor.flush())
+    except zlib.error:
+        os.remove(destination)
+        return False
+    return True
 
 
 def analyze_truncated_firmware(file_path):

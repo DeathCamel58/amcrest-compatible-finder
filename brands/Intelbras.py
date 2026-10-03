@@ -102,12 +102,18 @@ def parse_page(html):
     return (json.loads(f'"{title.group(1)}"') if title else None), firmwares
 
 
+def is_challenge(html):
+    # Cloudflare's challenge-platform script is on ordinary pages too, so go by the challenge page's title
+    return "<title>Just a moment" in html[:5000]
+
+
 def fetch_pages(slugs, cache):
     """Fetch product pages in one browser session (about 9 s each), saving progress as it goes."""
     if not slugs:
         return
     # One browser per worker, each taking every Nth page, all writing into the same cache
-    workers = max(1, min(http.BROWSER_SLOTS, len(slugs)))
+    # Leave one browser slot free, so other modules' Cloudflare pages (Amcrest, GSS, Winic) aren't blocked
+    workers = max(1, min(http.BROWSER_SLOTS - 1, len(slugs)))
     print(f"\tIntelbras: fetching {len(slugs)} product pages with {workers} browsers "
           f"(about {len(slugs) * 9 // 60 // workers} minutes)")
     started = time.time()
@@ -115,10 +121,15 @@ def fetch_pages(slugs, cache):
     done = [0]
 
     def fetch_share(share):
-        with http.protected_session() as session:
+        with http.protected_session(solve_cloudflare=False) as session:
             for slug in share:
-                html = session.get_html(download_page.format(slug=slug), network_idle=False, disable_resources=True)
-                if html is None:
+                url = download_page.format(slug=slug)
+                # Product pages usually aren't challenged; asking Scrapling to solve a challenge that isn't there logs
+                # an error per page, so only solve one when the page turns out to be a challenge
+                html = session.get_html(url, network_idle=False, disable_resources=True, solve_cloudflare=False)
+                if html is not None and is_challenge(html):
+                    html = session.get_html(url, network_idle=False, disable_resources=True, solve_cloudflare=True)
+                if html is None or is_challenge(html):
                     continue  # not cached, so it's retried next run
                 title, firmwares = parse_page(html)
                 with lock:

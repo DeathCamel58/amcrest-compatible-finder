@@ -1,6 +1,7 @@
 import copy
 from contextlib import contextmanager
 import hashlib
+import json
 import os.path
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -48,7 +49,8 @@ from brands import KBVision
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
-from util.download_firmware import download_firmware
+from util.download_firmware import (_get_file_lock, download_firmware, is_rejected, record_rejected_download,
+                                    skip_reason)
 from util.file_integrity import check_integrity
 from util.firmware_platform import detect_platform
 from util import http
@@ -127,7 +129,9 @@ def split_version_build_date(firmware):
     # Dahua versions end in the build date ("V2.800.0000032.0.R.250224"), but devices show the version
     # ("V2.800.0000032.0.R") and build date separately, so store them that way for every vendor
     version = firmware.get('firmware_version')
-    match = re.match(r'^(V?\d+\.\d+\.[0-9A-Za-z]+\.\d+\.[A-Z])\.(\d{6}|\d{8})$', version.strip()) if isinstance(version, str) else None
+    # Also 3-part versions like "V2.06.39.R.160822"
+    match = re.match(r'^(V?\d+\.\d+(?:\.[0-9A-Za-z]+)?\.\d+\.[A-Z])\.(\d{6}|\d{8})$', version.strip()) \
+        if isinstance(version, str) else None
     if not match:
         return
 
@@ -231,62 +235,100 @@ def get_expected_size(firmware, firmware_type):
     return None
 
 
+def hashed_file_name(name, url):
+    """Where a same-named but different file from another source is stored: the name plus a short hash of its URL."""
+    stem, extension = os.path.splitext(name)
+    return f'{stem}-{hashlib.sha1(url.encode()).hexdigest()[:8]}{extension}'
+
+
 def resolve_file_name(firmware, firmware_type):
     """The file name to store this listing's firmware under.
 
     A file with the same name from a different source might be a different firmware. If its size differs, store it
     under the name plus a short hash instead of treating it as the file we already have."""
     name = get_firmware_file_name(firmware, firmware_type)
+    url = firmware[firmware_type]
+    renamed = hashed_file_name(name, url)
+    # Stored under the hashed name in an earlier run: keep using it, even when the size can't be checked this time
+    if os.path.exists(f'firmware/{renamed}'):
+        return renamed
+
     path = f'firmware/{name}'
-    if not os.path.exists(path):
-        return name
+    # Decide under the file's lock, so a download of the same name can't land between the check and the decision
+    with _get_file_lock(path):
+        if not os.path.exists(path):
+            return name
 
-    entry = get_cameras_json().get(name, {})
-    known_urls = {entry.get('url')} | {listing.get('url') for listing in entry.get('listings') or []}
-    if firmware[firmware_type] in known_urls:
-        return name
+        entry = get_cameras_json().get(name, {})
+        known_urls = {entry.get('url')} | {listing.get('url') for listing in entry.get('listings') or []}
+        if url in known_urls:
+            return name
 
-    expected_size = get_expected_size(firmware, firmware_type)
-    if expected_size is None or expected_size == os.path.getsize(path):
-        return name
+        expected_size = get_expected_size(firmware, firmware_type)
+        if expected_size is None or expected_size == os.path.getsize(path):
+            return name
 
-    stem, extension = os.path.splitext(name)
-    renamed = f'{stem}-{hashlib.sha1(firmware[firmware_type].encode()).hexdigest()[:8]}{extension}'
-    print(f'\t{name} already exists with a different size ({os.path.getsize(path)} vs {expected_size}); '
-          f'storing {firmware[firmware_type]} as {renamed}')
-    return renamed
+        print(f'\t{name} already exists with a different size ({os.path.getsize(path)} vs {expected_size}); '
+              f'storing {url} as {renamed}')
+        return renamed
+
+
+def unique_destination(directory, file_name):
+    """A path in directory for file_name that doesn't overwrite anything already there."""
+    os.makedirs(directory, exist_ok=True)
+    destination = os.path.join(directory, file_name)
+    if os.path.exists(destination):
+        stem, extension = os.path.splitext(file_name)
+        counter = 1
+        while os.path.exists(destination):
+            destination = os.path.join(directory, f'{stem}-{int(time.time())}-{counter}{extension}')
+            counter += 1
+    return destination
+
+
+# Truncated files replaced by a complete copy in this run (their entries still say "truncated" until enrich)
+_replaced_this_run = set()
 
 
 def replace_truncated_file(firmware, firmware_type, file_name):
     """If the file on disk is truncated and this source serves a different copy, download it and keep it if it's
-    complete. The truncated copy is moved to TRUNCATED_DIR, never deleted."""
+    complete. The truncated copy is moved to TRUNCATED_DIR, never deleted or overwritten."""
     name = file_name[len('firmware/'):]
-    integrity = get_cameras_json().get(name, {}).get('integrity') or {}
-    if integrity.get('status') != 'truncated':
-        return False
+    # Held for the whole replace, so two listings of the same file can't both replace it
+    with _get_file_lock(file_name):
+        if name in _replaced_this_run or not os.path.exists(file_name):
+            return False
+        integrity = get_cameras_json().get(name, {}).get('integrity') or {}
+        if integrity.get('status') != 'truncated':
+            return False
 
-    expected_size = get_expected_size(firmware, firmware_type)
-    if expected_size == os.path.getsize(file_name):
-        # The vendor serves the same cut-off file, so downloading it again won't help
-        with camera_json_lock:
-            cameras_json = get_cameras_json()
-            cameras_json[name].setdefault('integrity', {})['vendor_copy_truncated'] = True
-            save_cameras_json(cameras_json)
-        return False
+        expected_size = get_expected_size(firmware, firmware_type)
+        if expected_size is not None and expected_size == os.path.getsize(file_name):
+            # The vendor serves the same cut-off file, so downloading it again won't help
+            with camera_json_lock:
+                cameras_json = get_cameras_json()
+                if name in cameras_json:
+                    cameras_json[name].setdefault('integrity', {})['vendor_copy_truncated'] = True
+                    save_cameras_json(cameras_json)
+            return False
 
-    candidate = f'{file_name}.redownload'
-    if download_firmware(firmware[firmware_type], candidate, firmware.get('downloader')) is None:
-        return False
-    if check_integrity(candidate)['status'] != 'ok':
-        print(f'\tRe-downloaded {name}, but it is still incomplete; keeping the existing copy')
-        os.remove(candidate)
-        return False
+        candidate = f'{file_name}.redownload'
+        # A complete leftover from an interrupted run would make download_firmware think it's already done
+        if os.path.exists(candidate):
+            os.remove(candidate)
+        if download_firmware(firmware[firmware_type], candidate, firmware.get('downloader')) is None:
+            return False
+        if check_integrity(candidate)['status'] != 'ok':
+            print(f'\tRe-downloaded {name}, but it is still incomplete; keeping the existing copy')
+            os.remove(candidate)
+            return False
 
-    os.makedirs(TRUNCATED_DIR, exist_ok=True)
-    os.replace(file_name, os.path.join(TRUNCATED_DIR, name))
-    os.replace(candidate, file_name)
-    print(f'\tReplaced truncated {name} with a complete copy (the old one is in {TRUNCATED_DIR})')
-    return True
+        destination = unique_destination(TRUNCATED_DIR, name)
+        os.replace(file_name, destination)
+        os.replace(candidate, file_name)
+        _replaced_this_run.add(name)
+        print(f'\tReplaced truncated {name} with a complete copy (the old one is {destination})')
+        return True
 
 
 def is_valid_date(value):
@@ -316,6 +358,10 @@ def tidy_entry(firmware_file, entry, inspect_content=False):
         split(listing)
         # Listings stored before kinds existed are all from vendors' own pages
         listing.setdefault('kind', 'vendor')
+
+    # Versions stored before the build date was split off (or in forms the split didn't know)
+    for holder in [entry] + list(entry.get('listings') or []):
+        split_version_build_date(holder)
 
     # Drop malformed values older versions stored (placeholder checksums like "0", 7-digit "dates")
     for field, pattern in (('md5', r'[0-9a-fA-F]{32}'), ('sha256', r'[0-9a-fA-F]{64}')):
@@ -348,6 +394,7 @@ def tidy_entry(firmware_file, entry, inspect_content=False):
 
 
 def download_firmware_thread(firmware, firmware_type):
+    url = firmware[firmware_type]
     listing_only = bool(firmware.get('listing_only'))
     if listing_only:
         # Known but not downloadable (e.g. behind a login): record the listing, don't try to fetch it
@@ -359,19 +406,41 @@ def download_firmware_thread(firmware, firmware_type):
 
     downloaded = False
     if not listing_only and not os.path.exists(file_name):
-        # file_name is None
-        new_file_name = download_firmware(firmware[firmware_type], file_name, firmware.get('downloader'))
+        reason = skip_reason(url)
+        new_file_name = None
+        if reason is None:
+            new_file_name = download_firmware(url, file_name, firmware.get('downloader'))
+            if new_file_name is None and os.path.exists(file_name):
+                # Another listing downloaded a file with this name meanwhile. It may be a different firmware, so
+                # check again now that there's a file to compare against
+                renamed = f'firmware/{resolve_file_name(firmware, firmware_type)}'
+                if renamed != file_name:
+                    file_name = renamed
+                    if not os.path.exists(file_name):
+                        new_file_name = download_firmware(url, file_name, firmware.get('downloader'))
 
         if new_file_name is not None:
             downloaded = True
             file_name = new_file_name
             # Some files only show they aren't firmware once downloaded (e.g. a zip of installers or release notes)
-            if classify_file_content(file_name) in ('software', 'document'):
+            file_type = classify_file_content(file_name)
+            if file_type in ('software', 'document'):
                 print(f'\t{file_name[9:]} isn\'t firmware; moving it to {NON_FIRMWARE_DIR}')
                 move_out_of_firmware(file_name[9:])
+                record_rejected_download(url, file_name[9:], file_type)
                 return
 
-    # TODO: Add a lock here since we're reading, modifying, then writing back a file
+    # A file another listing found isn't firmware (and moved out) must not get an entry
+    if not os.path.exists(file_name) and is_rejected(url, file_name[9:]):
+        return
+
+    # The slow parts (hashing a fresh download, platform detection) happen before taking the JSON lock, so other
+    # download threads aren't held up
+    exists = os.path.exists(file_name)
+    file_hashes = get_file_hashes(file_name) if exists and (downloaded or replaced) else None
+    platform = None
+    if exists and (downloaded or replaced or not get_cameras_json().get(file_name[9:], {}).get('platform')):
+        platform = detect_platform(file_name)
 
     with camera_json_lock:
         cameras_json = get_cameras_json()
@@ -405,14 +474,14 @@ def download_firmware_thread(firmware, firmware_type):
         if series:
             firmware_data['series'] = series
 
-        if os.path.exists(file_name):
+        if exists:
             firmware_data['firmware_size'] = os.stat(file_name).st_size
-            # Hash a fresh download now, while it's still in memory, so enrich doesn't re-read it from disk
-            if downloaded or replaced:
-                firmware_data['file_hashes'] = get_file_hashes(file_name)
+            # Hashed from a fresh download while it's still in memory, so enrich doesn't re-read it from disk
+            if file_hashes:
+                firmware_data['file_hashes'] = file_hashes
             # dahua / hikvision / unknown, from the file itself (some OEMs sell both, e.g. GSS Red|LINE is Hikvision)
-            if not existing.get('platform') or downloaded or replaced:
-                firmware_data['platform'] = detect_platform(file_name)
+            if platform:
+                firmware_data['platform'] = platform
 
         if firmware.get('firmware_changelog'):
             firmware_data['changelog'] = firmware['firmware_changelog']
@@ -466,6 +535,10 @@ HOST_CAPS = {
     'drive.google.com': 2,
     'drive.usercontent.google.com': 2,
     'www.dropbox.com': 2,
+    # Every product page and download goes through one of the few browser slots
+    'backend.intelbras.com': 3,
+    # More connections don't make it faster (about 5 MB/s in total), they only crowd out other servers
+    'materialfile.dahuasecurity.com': 6,
 }
 
 
@@ -567,7 +640,27 @@ def get_all_firmwares():
         print(f'Skipping {sum(skipped.values())} listings that aren\'t firmware: '
               + ', '.join(f'{count} {file_type}' for file_type, count in sorted(skipped.items())))
     tasks = firmware_tasks
+
+    # Downloads that turned out not to be firmware in an earlier run aren't fetched (or listed) again
+    rejected = [task for task in tasks if skip_reason(task[0][task[1]]) == 'not firmware']
+    if rejected:
+        print(f'Skipping {len(rejected)} listings whose download wasn\'t firmware in an earlier run')
+        tasks = [task for task in tasks if skip_reason(task[0][task[1]]) != 'not firmware']
+    # Downloads that failed for good in earlier runs are still listed, but not tried again
+    on_disk = set(list_firmware_files())
+    given_up = sum(1 for firmware, firmware_type in tasks
+                   if get_firmware_file_name(firmware, firmware_type) not in on_disk
+                   and skip_reason(firmware[firmware_type]) not in (None, 'not firmware'))
+    if given_up:
+        print(f'Not retrying {given_up} downloads that failed permanently in earlier runs '
+              f'(see tmp/failed_downloads.json)')
     print_download_summary(tasks)
+
+    # Largest first within each server, so the long downloads start early instead of trailing at the end
+    def known_size(task):
+        size = task[0].get('firmware_size') if task[1] == 'firmware_latest' else None
+        return int(size) if isinstance(size, int) or (isinstance(size, str) and size.isdigit()) else 0
+    tasks.sort(key=known_size, reverse=True)
 
     # Spread downloads across servers rather than working through one vendor's list at a time
     scheduler = HostScheduler(DOWNLOAD_WORKERS, HOST_CAPS)
@@ -583,22 +676,43 @@ def list_firmware_files():
 
 def move_out_of_firmware(firmware_file):
     """Move a file that turned out not to be firmware to NON_FIRMWARE_DIR, without overwriting anything there."""
+    os.replace(f'firmware/{firmware_file}', unique_destination(NON_FIRMWARE_DIR, firmware_file))
+
+
+REMOVED_ENTRIES_FILE = 'removed-entries.json'
+
+
+def save_removed_entries(entries):
+    """Keep the JSON entries of files moved out as non-firmware next to them, merged across runs, so nothing that
+    can't be scraped again is lost if a file was misjudged."""
+    if not entries:
+        return
     os.makedirs(NON_FIRMWARE_DIR, exist_ok=True)
-    destination = os.path.join(NON_FIRMWARE_DIR, firmware_file)
-    if os.path.exists(destination):
-        stem, extension = os.path.splitext(firmware_file)
-        destination = os.path.join(NON_FIRMWARE_DIR, f'{stem}-{int(time.time())}{extension}')
-    os.replace(f'firmware/{firmware_file}', destination)
+    path = os.path.join(NON_FIRMWARE_DIR, REMOVED_ENTRIES_FILE)
+    try:
+        with open(path) as f:
+            saved = json.load(f)
+    except (FileNotFoundError, ValueError):
+        saved = {}
+    for firmware_file, removed in entries.items():
+        saved[firmware_file] = {**removed, 'removed_on': RUN_DATE}
+    temp_path = f'{path}.{os.getpid()}.tmp'
+    with open(temp_path, 'w') as f:
+        json.dump(saved, f, indent=1, sort_keys=True)
+    os.replace(temp_path, path)
 
 
 def remove_non_firmware():
-    """Keep the JSONs to firmware only: move software and documents out of firmware/ and drop their entries."""
+    """Keep the JSONs to firmware only: move software and documents out of firmware/ and drop their entries (saved
+    next to the moved files)."""
     removed = {}
+    removed_entries = {}
     with camera_json_lock:
         cameras_json = get_cameras_json()
         on_disk = set(list_firmware_files())
         for firmware_file in sorted(on_disk | set(cameras_json)):
-            url = cameras_json.get(firmware_file, {}).get('url')
+            entry = cameras_json.get(firmware_file, {})
+            url = entry.get('url')
             if firmware_file in on_disk:
                 file_type = classify_file(f'firmware/{firmware_file}', firmware_file, url)
             else:
@@ -607,7 +721,10 @@ def remove_non_firmware():
                 continue
             if firmware_file in on_disk:
                 move_out_of_firmware(firmware_file)
-            cameras_json.pop(firmware_file, None)
+            # Its download URLs aren't fetched again
+            for listing_url in {url} | {listing.get('url') for listing in entry.get('listings') or []}:
+                record_rejected_download(listing_url, firmware_file, file_type)
+            removed_entries[firmware_file] = {'file_type': file_type, 'cameras': cameras_json.pop(firmware_file, None)}
             removed[file_type] = removed.get(file_type, 0) + 1
         if removed:
             save_cameras_json(cameras_json)
@@ -615,18 +732,52 @@ def remove_non_firmware():
     if removed:
         with firmware_processing_lock:
             firmware_json = get_firmware_json()
-            for firmware_file in list(firmware_json):
-                if firmware_file not in cameras_json:
-                    firmware_json.pop(firmware_file)
+            # Only the removed names; results for anything else are kept even if cameras.json lacks them
+            for firmware_file in removed_entries:
+                result = firmware_json.pop(firmware_file, None)
+                if result is not None:
+                    removed_entries[firmware_file]['firmware_compatible'] = result
             save_firmware_json(firmware_json)
+        save_removed_entries(removed_entries)
     print('Removed non-firmware: ' + (', '.join(f'{count} {file_type}' for file_type, count in sorted(removed.items()))
                                      or 'none') + f' (moved to {NON_FIRMWARE_DIR})')
+
+
+def migrate_long_file_names():
+    """Files saved before names were limited to MAX_FILE_NAME_BYTES get the shortened name the downloads now use, so
+    they aren't downloaded again under it. Their JSON entries move with them; nothing is overwritten."""
+    renamed = 0
+    for firmware_file in list_firmware_files():
+        if len(firmware_file.encode()) <= MAX_FILE_NAME_BYTES:
+            continue
+        new_name = get_firmware_file_name({'firmware_latest': firmware_file,
+                                           'firmware_latest_file_name': firmware_file}, 'firmware_latest')
+        if new_name == firmware_file or os.path.exists(f'firmware/{new_name}'):
+            continue
+        with camera_json_lock:
+            cameras_json = get_cameras_json()
+            if new_name in cameras_json:
+                continue
+            os.replace(f'firmware/{firmware_file}', f'firmware/{new_name}')
+            if firmware_file in cameras_json:
+                cameras_json[new_name] = cameras_json.pop(firmware_file)
+                save_cameras_json(cameras_json)
+        with firmware_processing_lock:
+            firmware_json = get_firmware_json()
+            if firmware_file in firmware_json and new_name not in firmware_json:
+                firmware_json[new_name] = firmware_json.pop(firmware_file)
+                save_firmware_json(firmware_json)
+        renamed += 1
+        print(f'\tRenamed over-long {firmware_file} to {new_name}')
+    if renamed:
+        print(f'Shortened {renamed} over-long file names')
 
 
 def enrich_firmwares():
     """Hash every firmware, link files with identical content, and tidy model names in existing entries."""
     # First, so non-firmware isn't hashed, deduplicated or written back
     remove_non_firmware()
+    migrate_long_file_names()
 
     # Before picking main entries for duplicates, which prefers names a vendor lists
     infer_vendors_from_urls()
@@ -661,7 +812,9 @@ def enrich_firmwares():
 
     with camera_json_lock:
         cameras_json = get_cameras_json()
-        duplicates = assign_duplicates(cameras_json, firmware_files)
+        # Prefer a copy that's already analysed (after one that's already archived) as the main entry
+        analysed = {name for name, result in get_firmware_json().items() if result.get('status') != 'duplicate'}
+        duplicates = assign_duplicates(cameras_json, firmware_files, analysed)
 
         truncated = 0
         for firmware_file in firmware_files:
@@ -750,13 +903,19 @@ _space_condition = threading.Condition()
 _space_reserved = [0]
 
 
+def temp_free_space():
+    """Free space where firmwares get unpacked: binwalk uses the system temp dir, zips are unpacked under ./tmp."""
+    paths = [tempfile.gettempdir(), os.path.realpath('tmp') if os.path.isdir('tmp') else '.']
+    return min(shutil.disk_usage(path).free for path in paths)
+
+
 @contextmanager
 def temp_space_for(file_size):
     """Wait until the temp directory has room to unpack a file of this size alongside the others being unpacked."""
     needed = file_size * UNPACK_SPACE_FACTOR
     with _space_condition:
         while True:
-            free = shutil.disk_usage(tempfile.gettempdir()).free - _space_reserved[0]
+            free = temp_free_space() - _space_reserved[0]
             # Always let one job run, even if it alone needs more than is free
             if free - needed >= TEMP_SPACE_RESERVE or _space_reserved[0] == 0:
                 break
@@ -808,7 +967,12 @@ def archive_firmware_thread(firmware_file):
     analysis = get_firmware_json().get(firmware_file)
 
     try:
-        if entry.get('archive_url') and entry.get('archive_md5'):
+        file_md5 = (entry.get('file_hashes') or {}).get('md5')
+        if entry.get('archive_url') and entry.get('archive_md5') and file_md5 and file_md5 != entry['archive_md5']:
+            # The file changed since it was uploaded (e.g. a truncated copy was replaced): upload it again
+            print(f'Re-archiving changed file: {firmware_file}')
+            archive_fields = archive_firmware(path, entry, analysis, alias_entries)
+        elif entry.get('archive_url') and entry.get('archive_md5'):
             # Already archived: only refresh the item's metadata and provenance record if they changed
             print(f'Updating archive metadata: {firmware_file}')
             archive_fields = {'archive_record_hash': refresh_archive(
@@ -822,9 +986,17 @@ def archive_firmware_thread(firmware_file):
 
     with camera_json_lock:
         cameras_json = get_cameras_json()
-        cameras_json.setdefault(firmware_file, {}).update({**archive_fields, 'platform': entry['platform']})
+        stored = cameras_json.setdefault(firmware_file, {})
+        if archive_fields.get('archive_pending'):
+            # archive.org hasn't processed the upload yet; the next run checks the item again
+            for field in ('archive_url', 'archive_md5', 'archive_record_hash'):
+                stored.pop(field, None)
+        else:
+            stored.pop('archive_pending', None)
+        stored.update({**archive_fields, 'platform': entry['platform']})
         save_cameras_json(cameras_json)
-    print(f'\tArchived {firmware_file}: {cameras_json[firmware_file]["archive_item"]}')
+    print(f'\tArchived {firmware_file}: {cameras_json[firmware_file]["archive_item"]}'
+          + (' (still processing at archive.org)' if archive_fields.get('archive_pending') else ''))
 
 
 def link_duplicate_archives():
@@ -833,7 +1005,7 @@ def link_duplicate_archives():
         cameras_json = get_cameras_json()
         for entry in cameras_json.values():
             main_entry = cameras_json.get(entry.get('duplicate_of') or '')
-            if main_entry and main_entry.get('archive_url'):
+            if main_entry and main_entry.get('archive_url') and not main_entry.get('archive_pending'):
                 entry['archive_item'] = main_entry['archive_item']
                 entry['archive_url'] = main_entry['archive_url']
                 # Not this file's own upload, so there's nothing of its own to refresh
@@ -863,7 +1035,9 @@ def archive_all_firmwares():
         if (entry.get('integrity') or {}).get('status') == 'truncated' and not entry.get('archive_url'):
             skipped_truncated.append(firmware_file)
             continue
-        if not entry.get('archive_url') or not entry.get('archive_md5') or needs_refresh(
+        file_md5 = (entry.get('file_hashes') or {}).get('md5')
+        if not entry.get('archive_url') or not entry.get('archive_md5') or entry.get('archive_pending') \
+                or (file_md5 and file_md5 != entry['archive_md5']) or needs_refresh(
                 firmware_file, entry, firmware_json.get(firmware_file), get_alias_entries(cameras_json, entry),
                 os.path.getsize(f'firmware/{firmware_file}')):
             firmware_files.append(firmware_file)
@@ -1019,19 +1193,40 @@ def start_full_processing():
     validate_outputs()
 
 
+USAGE = ('usage: python main.py [download|enrich|process|archive|check-links|validate] '
+         '[--only NAME[,NAME...]] [--skip NAME[,NAME...]]')
+STEPS = ('download', 'enrich', 'process', 'archive', 'check-links', 'validate')
+
+
+def parse_args(argv):
+    """(step or None, only names, skip names) from the command line. Raises SystemExit(2) on a bad command line."""
+    args = list(argv)
+    only, skip = set(), set()
+    for flag, target in (('--only', only), ('--skip', skip)):
+        while flag in args:
+            i = args.index(flag)
+            if i + 1 >= len(args) or args[i + 1].startswith('--'):
+                print(f'{flag} needs a comma-separated list of sources\n{USAGE}')
+                raise SystemExit(2)
+            target.update(name.strip().casefold() for name in args[i + 1].split(',') if name.strip())
+            del args[i:i + 2]
+    if len(args) > 1 or (args and args[0] not in STEPS):
+        print(USAGE)
+        raise SystemExit(2)
+    return (args[0] if args else None), only, skip
+
+
 if __name__ == '__main__':
     # `python main.py` runs everything; `python main.py download|enrich|process|archive|check-links` runs one step
     steps = {'download': get_all_firmwares, 'enrich': enrich_firmwares, 'process': process_all_firmwares,
              'archive': archive_all_firmwares, 'check-links': check_all_links, 'validate': validate_outputs}
     # --only A,B / --skip A,B choose which sources are listed, e.g. MEGA downloads through a VPN on their own:
     #   python main.py download --only EmpireTech
-    args = sys.argv[1:]
-    for flag, target in (('--only', ONLY_MODULES), ('--skip', SKIP_MODULES)):
-        while flag in args:
-            i = args.index(flag)
-            target.update(name.strip().casefold() for name in args[i + 1].split(',') if name.strip())
-            del args[i:i + 2]
-    if args:
-        steps[args[0]]()
+    # A partial run only refreshes the listings (last_seen, latest) of the sources it ran
+    step, only, skip = parse_args(sys.argv[1:])
+    ONLY_MODULES.update(only)
+    SKIP_MODULES.update(skip)
+    if step:
+        steps[step]()
     else:
         start_full_processing()

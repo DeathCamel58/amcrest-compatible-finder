@@ -99,6 +99,8 @@ detail:
 | `last_seen_latest` | Bookkeeping for `latest`: the last run it was listed as current. |
 | `url_status`, `url_checked_at` | From `python main.py check-links`: `ok`, `dead` (404/410, or S3's 403 for a missing file), `error`, or `unchecked` (MEGA, Google Drive and SharePoint links aren't checked). Absent until the first check. When it's `dead`, point people to `archive_url`. |
 
+`last_seen` is per source: a run limited with `--only`/`--skip` only refreshes the listings of the sources it ran, so the others keep their earlier dates.
+
 Inferred listings (`source` ending in `(found in an earlier scrape)`) come from data older than listing tracking, so
 they have no `first_seen`/`last_seen`.
 

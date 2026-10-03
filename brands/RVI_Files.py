@@ -29,10 +29,19 @@ CACHE_FILE = "tmp/rvi_download_ids.json"
 cache_lock = threading.Lock()
 
 
+def prune_tail(cache):
+    """Drop cached misses above the highest ID that has a file. New uploads get IDs up there, so those IDs have to
+    be checked again on every run rather than remembered as unused."""
+    highest = max((i for i, path in cache.items() if path), default=None)
+    if highest is None:
+        return cache
+    return {i: path for i, path in cache.items() if path or i <= highest}
+
+
 def load_cache():
     try:
         with open(CACHE_FILE) as f:
-            return {int(k): v for k, v in json.load(f).items()}
+            return prune_tail({int(k): v for k, v in json.load(f).items()})
     except (FileNotFoundError, ValueError):
         return {}
 
@@ -41,7 +50,7 @@ def save_cache(cache):
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
     temp_file = f"{CACHE_FILE}.tmp"
     with open(temp_file, "w") as f:
-        json.dump({str(k): v for k, v in sorted(cache.items())}, f)
+        json.dump({str(k): v for k, v in sorted(prune_tail(cache).items())}, f)
     os.replace(temp_file, CACHE_FILE)
 
 
