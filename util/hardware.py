@@ -92,4 +92,16 @@ def split_model_names(names, file_name):
             notes.append(name)
         else:
             models.append(name)
-    return models, series, notes
+    # Removing descriptions can leave the same name twice ("PTZ3E10X-T180 Vehicle tracking firmware" and
+    # "PTZ3E10X-T180 ... firmware")
+    return unique_names(models), unique_names(series), unique_names(notes)
+
+
+def unique_names(names):
+    """names without repeats, ignoring case; the first spelling is kept."""
+    seen, unique = set(), []
+    for name in names:
+        if name.casefold() not in seen:
+            seen.add(name.casefold())
+            unique.append(name)
+    return unique

@@ -104,3 +104,12 @@ def test_bracketed_non_description_kept_whole():
     models, series, notes = split_model_names(["IPC-HFW1230S (2.8mm)"], "x.bin")
     assert models == ["IPC-HFW1230S (2.8mm)"]
     assert notes == []
+
+
+def test_split_model_names_no_repeats_after_removing_descriptions():
+    from util.hardware import split_model_names
+    models, series, notes = split_model_names(
+        ["PTZ3E10X-T180 Vehicle automatic tracking firmware", "PTZ3E10X-T180 Ship tracking firmware",
+         "ptz3e10x-t180"], "x.bin")
+    assert models == ["PTZ3E10X-T180"]
+    assert len(notes) == 2
