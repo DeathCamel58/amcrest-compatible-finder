@@ -159,10 +159,28 @@ def download_firmware(url, file_name=None, downloader=None):
         return _download_to(url, file_name, part_name, downloader or _http_download)
 
 
+def resume_offset(response, have):
+    """Where a ranged response starts, if it continues a partial file of `have` bytes; else 0 (start over)."""
+    if have <= 0 or response.status_code != 206:
+        return 0
+    match = re.match(r"bytes (\d+)-\d+/(\d+|\*)", response.headers.get("Content-Range", ""))
+    return have if match and int(match.group(1)) == have else 0
+
+
 def _http_download(url, part_name):
-    with http.get(url, stream=True) as r:
+    """Download url to part_name. A retry continues the .part an earlier attempt left (an HTTP Range request) when
+    the server supports it, so a slow server's big file isn't restarted from zero every time."""
+    have = os.path.getsize(part_name) if os.path.exists(part_name) else 0
+    headers = {"Range": f"bytes={have}-", "Accept-Encoding": "identity"} if have else {}
+    with http.get(url, stream=True, headers=headers) as r:
+        if have and r.status_code == 416:
+            return  # the .part already holds the whole file
         r.raise_for_status()
-        with open(part_name, 'wb') as f:
+        offset = resume_offset(r, have)
+        if have:
+            print(f"\tResuming {os.path.basename(part_name)} at {offset} bytes" if offset
+                  else f"\tThe server can't resume {os.path.basename(part_name)}; starting over")
+        with open(part_name, 'ab' if offset else 'wb') as f:
             # A download that crawls (e.g. one stuck at a few KB/s for hours) is aborted and retried
             for chunk in http.iter_content_with_min_rate(r):
                 f.write(chunk)
@@ -176,6 +194,9 @@ def _note_mega_quota(err, url):
 
 
 def _download_to(url, file_name, part_name, downloader):
+    # Only attempts of this call resume a .part; one left by an earlier run may be of an older version of the file
+    if os.path.exists(part_name):
+        os.remove(part_name)
     empty_responses = 0
     for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
         try:

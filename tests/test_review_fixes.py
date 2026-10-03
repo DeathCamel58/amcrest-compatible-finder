@@ -235,3 +235,66 @@ def test_rvi_quote_url_encodes_raw_paths_once():
     assert quote_url(quoted) == quoted
     assert quote_url("https://rvigroup.ru/download/api/?download-id=11046") == \
         "https://rvigroup.ru/download/api/?download-id=11046"
+
+
+# util/download_firmware.py: retries resume the .part with a Range request
+
+class RangeResponse:
+    def __init__(self, status, body, content_range=None):
+        self.status_code = status
+        self.body = body
+        self.headers = {"Content-Range": content_range} if content_range else {}
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        return False
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise Exception(f"HTTP {self.status_code}")
+
+    def iter_content(self, chunk_size=1):
+        yield self.body
+
+
+def test_retry_resumes_partial_download(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    part = tmp_path / "f.bin.part"
+    part.write_bytes(b"hello ")
+    seen = []
+
+    def fake_get(url, stream=True, headers=None):
+        seen.append(headers)
+        return RangeResponse(206, b"world", "bytes 6-10/11")
+
+    monkeypatch.setattr(dl.http, "get", fake_get)
+    dl._http_download("https://x/f.bin", str(part))
+    assert part.read_bytes() == b"hello world"
+    assert seen[0]["Range"] == "bytes=6-"
+
+
+def test_retry_starts_over_when_server_ignores_range(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    part = tmp_path / "f.bin.part"
+    part.write_bytes(b"hello ")
+    monkeypatch.setattr(dl.http, "get", lambda url, stream=True, headers=None: RangeResponse(200, b"hello world"))
+    dl._http_download("https://x/f.bin", str(part))
+    assert part.read_bytes() == b"hello world"
+
+
+def test_stale_part_from_an_earlier_run_is_not_resumed(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    (tmp_path / "f.bin.part").write_bytes(b"old data")
+    calls = []
+
+    def downloader(url, part_name):
+        calls.append(os.path.exists(part_name))
+        with open(part_name, "wb") as f:
+            f.write(b"new")
+
+    result = dl._download_to("https://x/f.bin", str(tmp_path / "f.bin"), str(tmp_path / "f.bin.part"), downloader)
+    assert calls == [False]
+    assert (tmp_path / "f.bin").read_bytes() == b"new"
+    assert result == str(tmp_path / "f.bin")

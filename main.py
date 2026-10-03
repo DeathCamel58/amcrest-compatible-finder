@@ -604,6 +604,13 @@ HOST_CAPS = {
     'backend.intelbras.com': 3,
     # More connections don't make it faster (about 5 MB/s in total), they only crowd out other servers
     'materialfile.dahuasecurity.com': 6,
+    # Distributors' file servers share a small amount of bandwidth between connections: with 14 at once, Cifra gave
+    # each about 12 KB/s, below the minimum rate, so every download was aborted and retried
+    'ftp.cifra.cv.ua': 3,
+    'ftp.viatec.ua': 4,
+    'files.dahua.support': 3,
+    'ftp.asm.cz': 4,
+    'ftp.eltrox.pl': 1,
 }
 
 
