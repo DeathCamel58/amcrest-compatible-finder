@@ -72,6 +72,10 @@ def get_record(file_name, size, md5, entry, analysis, alias_entries):
         "hardware_ids": analysis.get("hardware_ids") or [],
         "hardware": analysis.get("hardware"),
         "analysis_status": analysis.get("status"),
+        # Where each hardware ID was read from, and each firmware image set's SoC, partitions, security and versions
+        "hardware_sources": analysis.get("hardware_sources"),
+        "packages": analysis.get("packages"),
+        "package_format": analysis.get("package_format"),
         "listings": stable_listings(entry.get("listings")),
         "archived_by": "amcrest-compatible-finder",
     }
@@ -93,6 +97,48 @@ def get_record(file_name, size, md5, entry, analysis, alias_entries):
 
 def get_record_hash(record):
     return hashlib.sha1(json.dumps(record, sort_keys=True).encode()).hexdigest()
+
+
+def get_socs(record):
+    """Distinct SoC names (or vendors, when the chip isn't known) of the record's packages."""
+    socs = []
+    for package in record.get("packages") or []:
+        soc = package.get("soc") or {}
+        label = soc.get("name") or soc.get("vendor")
+        if label and label not in socs:
+            socs.append(label)
+    return socs
+
+
+def package_lines(record):
+    """Description lines for what the firmware says about itself: SoC, architecture, versions, flash, security."""
+    esc = html.escape
+    lines = []
+    packages = record.get("packages") or []
+    for package in packages:
+        parts = []
+        soc = package.get("soc") or {}
+        if soc.get("name") or soc.get("vendor"):
+            parts.append(f"SoC: {esc(' '.join(v for v in (soc.get('vendor'), soc.get('name')) if v))}")
+        for label, field in [("architecture", "architecture"), ("kernel", "kernel_version"),
+                             ("boot loader", "bootloader_version"), ("OEM build", "oem_vendor")]:
+            if package.get(field):
+                parts.append(f"{label}: {esc(str(package[field]))}")
+        if package.get("flash_size"):
+            parts.append(f"flash: {package['flash_size'] // (1024 * 1024)} MB")
+        if package.get("partitions"):
+            parts.append(f"{len(package['partitions'])} flash partitions")
+        security = package.get("security") or {}
+        if security.get("signed"):
+            parts.append("signed")
+        if security.get("encrypted"):
+            parts.append("encrypted images")
+        if security.get("security_baseline"):
+            parts.append(f"security baseline {esc(security['security_baseline'])}")
+        if parts:
+            prefix = f"{esc(package['firmware'])}: " if package.get("firmware") and len(packages) > 1 else ""
+            lines.append(prefix + "; ".join(parts))
+    return lines
 
 
 def link(url):
@@ -171,6 +217,7 @@ def get_metadata(record):
                          ("Raw hardware IDs it installs on", "hwids")]:
         if hardware.get(group):
             lines.append(f"{label} (read from inside the firmware): {esc(', '.join(hardware[group]))}")
+    lines += package_lines(record)
     for label, field in [("Version", "firmware_version"), ("Release date", "release_date"),
                          ("Size", "size"), ("MD5 of this file", "archived_md5"), ("SHA256 of this file", "archived_sha256"),
                          ("Vendor-published MD5", "vendor_md5"), ("Vendor-published SHA256", "vendor_sha256")]:
@@ -188,7 +235,8 @@ def get_metadata(record):
         "subject": [PROJECT_TAG, "firmware", "cctv"]
                    + ([record["platform"]] if record.get("platform") in PLATFORM_NAMES else [])
                    + (["incomplete"] if integrity.get("status") == "truncated" else [])
-                   + vendors + models[:MAX_SUBJECT_MODELS],
+                   + vendors + models[:MAX_SUBJECT_MODELS]
+                   + [f"soc:{soc}" for soc in get_socs(record)],
     }
     if vendors:
         metadata["creator"] = vendors

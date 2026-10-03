@@ -142,16 +142,76 @@ One object per firmware file, describing what unpacking it found:
 
 | Field | Description |
 |---|---|
-| `hardware_ids` | Sorted **hardware IDs read from inside the firmware**: the board/model IDs its installer accepts (from `check.img` hwids, `Install`/`Install.lua`, or the u-boot image name). This is what the firmware will install on, and it's usually much longer than the vendor's `camera_name` list. Empty unless `status` is `ok`. |
+| `hardware_ids` | Sorted **hardware IDs read from inside the firmware**: the board/model IDs its installer accepts (from `check.img` hwids, the `hwid` file, `Install`/`Install.lua`, or the u-boot image name; see `hardware_sources` for which). This is what the firmware will install on, and it's usually much longer than the vendor's `camera_name` list. Empty unless `status` is `ok`. |
 | `hardware` | The same IDs, **already cleaned up and sorted**: `models` (single devices, e.g. `IPC-HFW1230S1-A-S6`), `boards` (families with placeholders, e.g. `HCVR5x04-S2`, `NVR4X-4KS2/L`, `IPC-HX3XXX`), `hwids` (raw 16-hex-digit IDs), and `ignored` (vendor tokens like `DAHUA`, RVI's `Group`, and leftover file names). `General_X` is folded into `X`. Use this instead of `hardware_ids` for search and model pages. |
 | `status` | `ok`: hardware IDs found. `no_ids`: unpacked fine, but none of the known ID sources were in it (often MCU, access control or thermal firmware). `extract_failed`: couldn't be unpacked (see `error`). `not_dahua`: not analysed because `platform` isn't Dahua. `duplicate`: an identical copy of `duplicate_of`, whose result it repeats. |
-| `extractor_version` | Version of the analysis that produced this. `1` means the old analysis, before statuses existed. Results without IDs are re-analysed when the version goes up. |
+| `extractor_version` | Version of the analysis that produced this. `1` means the old analysis, before statuses existed. Results without IDs are re-analysed when the version goes up; version 5 also re-analyses older `ok` results to add `hardware_sources` and `packages`. |
 | `processed_at` | When it was analysed (UTC, ISO 8601). Absent on version 1 results. |
 | `platform` | Only on `not_dahua`: the detected platform (`hikvision` or `unknown`). |
 | `truncated` | `true` when the file is truncated: the IDs come from the complete entries at its start (the installer metadata usually survives), so they're likely right, but the firmware itself is unusable. |
 | `error`, `attempts` | Only on `extract_failed`: what went wrong, and how many times it was tried with this extractor version (retried up to 3 times). |
 
 A firmware that's in `cameras.json` but **missing here hasn't been analysed yet**, so show it as "analysis pending".
+
+### Hardware ID sources, packages and partitions (extractor version 5+)
+
+Version 5 results also say **where each ID came from** and **what the firmware says about itself**. Older results
+lack these fields; they're re-analysed to fill them in. `hardware_ids` / `hardware` stay the union of every source.
+
+```json
+"hardware_sources": [
+    {"source": "install", "member": "Install", "firmware": null,
+     "ids": ["IPC-HX3XXX"], "raw": [["IPC-HX3XXX", "1.00"]], "vendor": "General", "counted": false},
+    {"source": "check_img", "member": "check.img", "firmware": null,
+     "ids": ["IPC-HFW2541SP-S", "..."],
+     "raw": ["IPC-HFW2541SP-S:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100", "..."],
+     "counted": true}
+],
+"package_format": "dh",
+"packages": [{
+    "firmware": null,
+    "package_format": "dh",
+    "architecture": "arm",
+    "soc": {"name": "S3L", "vendor": "Ambarella",
+            "evidence": [{"source": "bootloader", "member": "dhboot-min.bin.img", "value": "ambarella,s3l"}]},
+    "partition_source": "partition_table",
+    "partition_table": "partitionV2.txt",
+    "partitions": [
+        {"name": "Kernel", "image": "kernel.img", "start": "0xf0000", "end": "0x270000", "size": 1572864,
+         "image_size": 1487004, "image_name": "kernel", "image_type": "firmware", "filesystem": null,
+         "compression": "none", "built": "2017-05-23", "upgraded": true, "backup_start": "0x18d0000"},
+        {"name": "config", "image": null, "start": "0x1aa0000", "end": "0x1b10000", "size": 458752,
+         "image_size": null, "image_name": null, "image_type": null, "filesystem": "jffs2", "compression": null,
+         "built": null, "upgraded": false, "read_only": false}
+    ],
+    "flash_size": 33554432,
+    "build_dates": {"earliest": "2017-05-23", "latest": "2017-05-23"},
+    "kernel_version": "3.10.73",
+    "bootloader_version": "U-Boot 2010.06-svn4423",
+    "oem_vendor": "General",
+    "security": {"security_baseline": "V2.4", "upgrade_security_version": null, "signed": true, "encrypted": false,
+                 "checks": {"SecurityBaselineVersion": "V2.4,"}},
+    "locale": {"default_language": "English", "video_standard": "PAL", "supported_languages": ["English", "..."]}
+}]
+```
+
+| Field | Description |
+|---|---|
+| `hardware_sources[]` | One entry per place that lists hardware. `source`: `hwid` (the `hwid` file), `check_img` (`check.img`'s hwid list), `install` (`Install`'s `Devices`), `install_lua` (`Install.lua`'s `board.name`/`vendor.Name` checks) or `uboot` (the u-boot image's board name, only used when nothing else lists hardware). `member`: path inside its container. `firmware`: the inner firmware's file name in a bundle, else `null`. `raw`: the full hwid entries (the part after the first `:` encodes hardware revision details) or `Install`'s `[id, version]` pairs. `vendor`: `Install`'s `Vendor`. The hwid and `check.img` lists are what the device itself checks before installing, so they're the most reliable; `Install` lists board families; `install_lua` can include generic names like `DAHUA`. `counted`: whether these IDs are in `hardware_ids`. Every source is listed, but within one folder of one firmware only the most specific one counts (hwid/`check.img`, then `install`, then `install_lua`, then `uboot`), so a board family like `IPC-HX3XXX` doesn't make a firmware look compatible with every camera in that family. |
+| `package_format` | The file's container: `zip`, `dh` (Dahua's zip variant with `DH` signatures), `dhsp` (PTZ variant), `bundle` (a zip or `.bin` holding two or more firmwares) or `other` (not zip-style; read by binwalk). |
+| `packages[]` | One per firmware image set: the file itself, or each firmware nested in a bundle (`firmware` names it; a plain wrapper zip around one `.bin` gives one package named after the `.bin`). |
+| `packages[].architecture` | CPU architecture from the image headers (`arm`, `arm64`, `mips`...). |
+| `packages[].soc` | The SoC, or `null`. `name` (e.g. `Hi3516CV500`, `SS528V100`, `Infinity6C`, `NT98336`, `RK3588`, `S3L`) and `vendor` (HiSilicon, SigmaStar, Novatek, Rockchip, Fullhan, Goke, Ingenic, Ambarella, Molchip, Axera); either can be `null` when only the other is certain (e.g. a device tree that only says `novatek,na51089`). `evidence` lists what it's based on, strongest first: `device_tree` (the root `compatible`/`model`), `bootloader` (chip names in the boot loader), `image_name` (recorder images named after the chip, like `3535romfs` or `5x16FW98336Tboot`), `kernel`. Conflicting chips leave `name` null and list them in `candidates` (e.g. a boot loader built for `Hi3520DV300`, `Hi3521A` and `Hi3531A`). |
+| `packages[].partitions[]` | The flash layout, sorted by `start`. `start`/`end` are hex strings exactly as the firmware gives them, `size` and `image_size` are bytes. Partitions this firmware writes have `image` (the member), `image_name`, `image_type` and `compression` (from its uImage header; Dahua doesn't use the type codes consistently, so don't rely on them), `filesystem` (`squashfs`, `cramfs`, `jffs2`, `ubi`... from the image's content, else the table or member name), `built` (header date) and `upgraded: true`. Partitions in the table that it leaves alone (config, logs, backups) have `upgraded: false` and null image fields. Tables from `partitionV2.txt` add `read_only` and `backup_start` (where the backup copy lives) when set. **Addresses:** recorder image headers and some recorder `Install.lua` tables use memory-mapped addresses (`0xa0000000` = start of flash); IPC tables and `Install.lua` tables starting at `0x0` are flash offsets. |
+| `packages[].partition_source` | Where the layout comes from: `install_lua` (recorders' `flashPartions` table: every partition), `partition_table` (IPCs' `partition-x.cramfs.img`, whose `partitionV2.txt`/`partition.txt` lists every partition; `partition_table` names the file), `image_headers` (only the partitions this firmware writes, from each image's header, named by `Install`'s burn commands), or `null`. `partition_table_variants` lists board-specific tables when there's no main one (none is used then). `unmapped_images` lists images that didn't match a table partition. |
+| `packages[].flash_size` | Total flash in bytes: the end of a complete table (`install_lua` or `partition_table`), else `null`. `flash_size_declared` / `flash_type` are `check.img`'s `FlashSize` / `FlashType` when present (e.g. `16M`, `SPI`). |
+| `packages[].build_dates` | `{earliest, latest}` of the image header dates, or `null`. |
+| `packages[].kernel_version` | Linux kernel version from the kernel image's banner (e.g. `4.9.37`), or `null` (no separate kernel, or encrypted). |
+| `packages[].bootloader_version` | e.g. `U-Boot 2019.04-svn13580`, from the boot loader images, or `null`. |
+| `packages[].oem_vendor` | `Install`'s `Vendor`: which OEM build this is (`General`, `Amcrest`, `Dahua`...). `oem_vendor_checks` lists the vendor names `Install.lua` accepts. |
+| `packages[].security` | `signed`: a `sign.img` signature is included. `encrypted`: `true` when every filesystem/kernel image is unrecognisable high-entropy data, `false` when they're all recognisable, `null` when mixed or unknown. `security_baseline`: the security baseline version (`Install.lua`'s check, else `check.img`'s `SecurityBaselineVersion`), e.g. `V2.4`. `upgrade_security_version`: `Install.lua`'s `UpgradeSecurityVersion`. `checks`: raw security/rollback settings from `check.img` and `Install` (e.g. `HardwareSecurityVersionMajor`, a minimum-hardware-security check); `script_checks`: raw rollback / minimum-version lines from `Install.lua`. A firmware with a higher baseline than the device may not be downgradable. |
+| `packages[].locale` | From `check.img`: `default_language`, `video_standard` (`PAL`/`NTSC`) and `supported_languages`, or `null`. |
+| `packages[].software_version`, `market_area` | `Install`'s `Version.SoftwareVersion` and `MarketArea` when present. |
 
 - **Hardware IDs are the cross-vendor link.** Two firmwares from different vendors that share hardware IDs run on
   the same hardware. For example, an Amcrest SKU can be matched to the Dahua or EmpireTech firmware for the same

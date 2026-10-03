@@ -1,103 +1,767 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/firmware_compatible.schema.json",
-    "title": "firmware_compatible.json",
-    "description": "What hardware each firmware supports, keyed by firmware file name (the same keys as cameras.json). See docs/FIRMWARE_DATA.md. Entries allow extra properties so new fields don't break consumers; known fields are strict.",
-    "type": "object",
-    "propertyNames": {"$ref": "#/$defs/fileName"},
-    "additionalProperties": {"$ref": "#/$defs/result"},
-    "$defs": {
-        "fileName": {
-            "type": "string",
-            "minLength": 1,
-            "pattern": "^[^/]+$"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/firmware_compatible.schema.json",
+  "title": "firmware_compatible.json",
+  "description": "What hardware each firmware supports, keyed by firmware file name (the same keys as cameras.json). See docs/FIRMWARE_DATA.md. Entries allow extra properties so new fields don't break consumers; known fields are strict.",
+  "type": "object",
+  "propertyNames": {
+    "$ref": "#/$defs/fileName"
+  },
+  "additionalProperties": {
+    "$ref": "#/$defs/result"
+  },
+  "$defs": {
+    "fileName": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^/]+$"
+    },
+    "dateTime": {
+      "description": "ISO 8601 / RFC 3339 timestamp with a UTC offset, e.g. 2026-10-02T17:31:39+00:00",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
+      "format": "date-time"
+    },
+    "idList": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "hardware": {
+      "description": "hardware_ids cleaned up and sorted into groups",
+      "type": "object",
+      "required": [
+        "models",
+        "boards",
+        "hwids",
+        "ignored"
+      ],
+      "properties": {
+        "models": {
+          "$ref": "#/$defs/idList"
         },
-        "dateTime": {
-            "description": "ISO 8601 / RFC 3339 timestamp with a UTC offset, e.g. 2026-10-02T17:31:39+00:00",
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
-            "format": "date-time"
+        "boards": {
+          "$ref": "#/$defs/idList"
         },
-        "idList": {
-            "type": "array",
-            "items": {"type": "string", "minLength": 1},
-            "uniqueItems": true
+        "hwids": {
+          "$ref": "#/$defs/idList"
+        },
+        "ignored": {
+          "$ref": "#/$defs/idList"
+        }
+      },
+      "additionalProperties": false
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "hardware_ids",
+        "hardware",
+        "status",
+        "extractor_version"
+      ],
+      "properties": {
+        "hardware_ids": {
+          "$ref": "#/$defs/idList"
         },
         "hardware": {
-            "description": "hardware_ids cleaned up and sorted into groups",
-            "type": "object",
-            "required": ["models", "boards", "hwids", "ignored"],
+          "$ref": "#/$defs/hardware"
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "no_ids",
+            "extract_failed",
+            "not_dahua",
+            "duplicate"
+          ]
+        },
+        "extractor_version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "processed_at": {
+          "$ref": "#/$defs/dateTime"
+        },
+        "platform": {
+          "enum": [
+            "hikvision",
+            "unknown"
+          ]
+        },
+        "error": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "truncated": {
+          "const": true
+        },
+        "duplicate_of": {
+          "$ref": "#/$defs/fileName"
+        },
+        "hardware_sources": {
+          "description": "Where each hardware ID was read from (extractor version 5+)",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hardwareSource"
+          }
+        },
+        "packages": {
+          "description": "Each firmware image set's SoC, partitions, security and versions (extractor version 5+)",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/package"
+          }
+        },
+        "package_format": {
+          "enum": [
+            "zip",
+            "dh",
+            "dhsp",
+            "bundle",
+            "other",
+            null
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "description": "processed_at is absent only on version 1 results (the old analysis)",
+          "if": {
             "properties": {
-                "models": {"$ref": "#/$defs/idList"},
-                "boards": {"$ref": "#/$defs/idList"},
-                "hwids": {"$ref": "#/$defs/idList"},
-                "ignored": {"$ref": "#/$defs/idList"}
+              "extractor_version": {
+                "type": "integer",
+                "minimum": 2
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "processed_at"
+            ]
+          }
+        },
+        {
+          "description": "ok means hardware IDs were found",
+          "if": {
+            "properties": {
+              "status": {
+                "const": "ok"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "hardware_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "description": "hardware_ids is empty unless status is ok (a duplicate repeats its main entry's result)",
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "no_ids",
+                  "extract_failed",
+                  "not_dahua"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "hardware_ids": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "description": "not_dahua names the detected platform; only not_dahua (or a duplicate of one) has it",
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_dahua"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "platform"
+            ]
+          },
+          "else": {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "duplicate"
+                }
+              }
+            },
+            "then": true,
+            "else": {
+              "properties": {
+                "platform": {
+                  "not": {}
+                }
+              }
+            }
+          }
+        },
+        {
+          "description": "extract_failed says what went wrong and how often it was tried; only extract_failed (or a duplicate of one) has those",
+          "if": {
+            "properties": {
+              "status": {
+                "const": "extract_failed"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "error",
+              "attempts"
+            ]
+          },
+          "else": {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "duplicate"
+                }
+              }
+            },
+            "then": true,
+            "else": {
+              "properties": {
+                "error": {
+                  "not": {}
+                },
+                "attempts": {
+                  "not": {}
+                }
+              }
+            }
+          }
+        },
+        {
+          "description": "duplicate points at the main entry, and only duplicates do",
+          "if": {
+            "properties": {
+              "status": {
+                "const": "duplicate"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "duplicate_of"
+            ]
+          },
+          "else": {
+            "properties": {
+              "duplicate_of": {
+                "not": {}
+              }
+            }
+          }
+        },
+        {
+          "description": "Truncated files are analysed from their intact part, which gives ok or extract_failed, never no_ids or not_dahua",
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "no_ids",
+                  "not_dahua"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "truncated": {
+                "not": {}
+              }
+            }
+          }
+        }
+      ]
+    },
+    "hexAddress": {
+      "description": "Flash address as a hex string, as the firmware gives it",
+      "type": "string",
+      "pattern": "^0x[0-9a-f]+$"
+    },
+    "hardwareSource": {
+      "description": "One place in the firmware that lists hardware it installs on",
+      "type": "object",
+      "required": [
+        "source",
+        "member",
+        "firmware",
+        "ids",
+        "counted"
+      ],
+      "properties": {
+        "source": {
+          "enum": [
+            "hwid",
+            "check_img",
+            "install",
+            "install_lua",
+            "uboot"
+          ]
+        },
+        "member": {
+          "description": "Path of the member inside its container",
+          "type": "string",
+          "minLength": 1
+        },
+        "firmware": {
+          "description": "The inner firmware's file name, or null for the file itself",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ids": {
+          "$ref": "#/$defs/idList"
+        },
+        "raw": {
+          "description": "Full hwid entries (strings), or Install's Devices pairs ([id, version])",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        },
+        "vendor": {
+          "description": "Install's Vendor",
+          "type": "string"
+        },
+        "counted": {
+          "description": "Whether these IDs are in hardware_ids. Within one folder of one firmware only the most specific list counts: hwid/check_img, then install, then install_lua, then uboot",
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "soc": {
+      "description": "The SoC the firmware is built for; name or vendor may be null when only one is certain",
+      "type": "object",
+      "required": [
+        "name",
+        "vendor",
+        "evidence"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "vendor": {
+          "enum": [
+            "HiSilicon",
+            "SigmaStar",
+            "Novatek",
+            "Rockchip",
+            "Fullhan",
+            "Goke",
+            "Ingenic",
+            "Ambarella",
+            "Molchip",
+            "Axera",
+            null
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "source",
+              "member",
+              "value"
+            ],
+            "properties": {
+              "source": {
+                "enum": [
+                  "device_tree",
+                  "bootloader",
+                  "image_name",
+                  "kernel"
+                ]
+              },
+              "member": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
             },
             "additionalProperties": false
+          }
         },
-        "result": {
-            "type": "object",
-            "required": ["hardware_ids", "hardware", "status", "extractor_version"],
-            "properties": {
-                "hardware_ids": {"$ref": "#/$defs/idList"},
-                "hardware": {"$ref": "#/$defs/hardware"},
-                "status": {"enum": ["ok", "no_ids", "extract_failed", "not_dahua", "duplicate"]},
-                "extractor_version": {"type": "integer", "minimum": 1},
-                "processed_at": {"$ref": "#/$defs/dateTime"},
-                "platform": {"enum": ["hikvision", "unknown"]},
-                "error": {"type": "string", "minLength": 1},
-                "attempts": {"type": "integer", "minimum": 1},
-                "truncated": {"const": true},
-                "duplicate_of": {"$ref": "#/$defs/fileName"}
-            },
-            "allOf": [
-                {
-                    "description": "processed_at is absent only on version 1 results (the old analysis)",
-                    "if": {"properties": {"extractor_version": {"type": "integer", "minimum": 2}}},
-                    "then": {"required": ["processed_at"]}
-                },
-                {
-                    "description": "ok means hardware IDs were found",
-                    "if": {"properties": {"status": {"const": "ok"}}},
-                    "then": {"properties": {"hardware_ids": {"minItems": 1}}}
-                },
-                {
-                    "description": "hardware_ids is empty unless status is ok (a duplicate repeats its main entry's result)",
-                    "if": {"properties": {"status": {"enum": ["no_ids", "extract_failed", "not_dahua"]}}},
-                    "then": {"properties": {"hardware_ids": {"maxItems": 0}}}
-                },
-                {
-                    "description": "not_dahua names the detected platform; only not_dahua (or a duplicate of one) has it",
-                    "if": {"properties": {"status": {"const": "not_dahua"}}},
-                    "then": {"required": ["platform"]},
-                    "else": {
-                        "if": {"properties": {"status": {"const": "duplicate"}}},
-                        "then": true,
-                        "else": {"properties": {"platform": {"not": {}}}}
-                    }
-                },
-                {
-                    "description": "extract_failed says what went wrong and how often it was tried; only extract_failed (or a duplicate of one) has those",
-                    "if": {"properties": {"status": {"const": "extract_failed"}}},
-                    "then": {"required": ["error", "attempts"]},
-                    "else": {
-                        "if": {"properties": {"status": {"const": "duplicate"}}},
-                        "then": true,
-                        "else": {"properties": {"error": {"not": {}}, "attempts": {"not": {}}}}
-                    }
-                },
-                {
-                    "description": "duplicate points at the main entry, and only duplicates do",
-                    "if": {"properties": {"status": {"const": "duplicate"}}},
-                    "then": {"required": ["duplicate_of"]},
-                    "else": {"properties": {"duplicate_of": {"not": {}}}}
-                },
-                {
-                    "description": "Truncated files are analysed from their intact part, which gives ok or extract_failed, never no_ids or not_dahua",
-                    "if": {"properties": {"status": {"enum": ["no_ids", "not_dahua"]}}},
-                    "then": {"properties": {"truncated": {"not": {}}}}
-                }
-            ]
+        "candidates": {
+          "description": "The chips the strongest evidence names when it names several (name is then null)",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
         }
+      },
+      "additionalProperties": false
+    },
+    "partition": {
+      "description": "One flash partition. Images this firmware writes fill the image fields; partitions it leaves alone have upgraded false and null image fields",
+      "type": "object",
+      "required": [
+        "name",
+        "image",
+        "start",
+        "end",
+        "size",
+        "image_size",
+        "image_name",
+        "image_type",
+        "filesystem",
+        "compression",
+        "built",
+        "upgraded"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "image": {
+          "description": "Member written to it",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "start": {
+          "$ref": "#/$defs/hexAddress"
+        },
+        "end": {
+          "$ref": "#/$defs/hexAddress"
+        },
+        "size": {
+          "type": "integer"
+        },
+        "image_size": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "image_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_type": {
+          "description": "The uImage header's type code, which Dahua doesn't use consistently",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "filesystem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "compression": {
+          "description": "The uImage header's compression field",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "built": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "upgraded": {
+          "type": "boolean"
+        },
+        "read_only": {
+          "type": "boolean"
+        },
+        "backup_start": {
+          "$ref": "#/$defs/hexAddress"
+        }
+      },
+      "additionalProperties": false
+    },
+    "package": {
+      "description": "One firmware image set: the file itself, or each firmware nested in a bundle",
+      "type": "object",
+      "required": [
+        "firmware",
+        "package_format",
+        "architecture",
+        "soc",
+        "partition_source",
+        "partitions",
+        "flash_size",
+        "build_dates",
+        "kernel_version",
+        "bootloader_version",
+        "oem_vendor",
+        "security",
+        "locale"
+      ],
+      "properties": {
+        "firmware": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "package_format": {
+          "enum": [
+            "zip",
+            "dh",
+            "dhsp",
+            "other"
+          ]
+        },
+        "architecture": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "soc": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/soc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "partition_source": {
+          "enum": [
+            "install_lua",
+            "partition_table",
+            "image_headers",
+            null
+          ]
+        },
+        "partitions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/partition"
+          }
+        },
+        "partition_table": {
+          "description": "The table file used, inside partition-x.cramfs.img",
+          "type": "string"
+        },
+        "partition_table_variants": {
+          "description": "Board-specific tables when none is the main one (none used)",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unmapped_images": {
+          "description": "Images not matched to a partition of the table",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "flash_size": {
+          "description": "Bytes, from a complete partition table",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "flash_size_declared": {
+          "description": "check.img's FlashSize, e.g. 16M",
+          "type": "string"
+        },
+        "flash_type": {
+          "description": "check.img's FlashType, e.g. SPI",
+          "type": "string"
+        },
+        "build_dates": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "earliest",
+                "latest"
+              ],
+              "properties": {
+                "earliest": {
+                  "type": "string"
+                },
+                "latest": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "kernel_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bootloader_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oem_vendor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oem_vendor_checks": {
+          "description": "Install.lua's vendor.Name comparisons",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "software_version": {
+          "type": "string"
+        },
+        "market_area": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "security": {
+          "type": "object",
+          "required": [
+            "security_baseline",
+            "upgrade_security_version",
+            "signed",
+            "encrypted"
+          ],
+          "properties": {
+            "security_baseline": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "upgrade_security_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "signed": {
+              "type": "boolean"
+            },
+            "encrypted": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "checks": {
+              "description": "Raw security / baseline / rollback settings from check.img and Install",
+              "type": "object"
+            },
+            "script_checks": {
+              "description": "Raw rollback / minimum-version lines from Install.lua",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "locale": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "default_language",
+                "video_standard",
+                "supported_languages"
+              ],
+              "properties": {
+                "default_language": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "video_standard": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "supported_languages": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
     }
+  }
 }
