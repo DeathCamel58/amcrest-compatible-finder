@@ -184,19 +184,43 @@ def test_duplicates_default_order_unchanged():
 
 # --- #21 parse_args ----------------------------------------------------------------------------------------------
 
+ALL = ["download", "enrich", "process", "archive", "validate"]
+
+
 def test_parse_args():
-    assert main.parse_args([]) == (None, set(), set())
-    assert main.parse_args(["download", "--only", "EmpireTech, Dahua"]) == ("download", {"empiretech", "dahua"}, set())
-    assert main.parse_args(["--skip", "Wayback", "enrich"]) == ("enrich", set(), {"wayback"})
+    assert main.parse_args([]) == (ALL, set(), set())
+    assert main.parse_args(["download", "--only", "EmpireTech, Dahua"]) == (["download"], {"empiretech", "dahua"}, set())
+    assert main.parse_args(["--skip", "Wayback", "enrich"]) == (["enrich"], set(), {"wayback"})
+
+
+def test_parse_args_stages_run_in_pipeline_order():
+    assert main.parse_args(["validate", "download", "process"])[0] == ["download", "process", "validate"]
+    assert main.parse_args(["archive", "archive"])[0] == ["archive"]
+    assert main.parse_args(["check-links"])[0] == ["check-links"]
+
+
+def test_parse_args_groups_and_ranges():
+    assert main.parse_args(["analyse"])[0] == ["enrich", "process", "validate"]
+    assert main.parse_args(["update"])[0] == ["download", "enrich", "process", "validate"]
+    assert main.parse_args(["--from", "process"])[0] == ["process", "archive", "validate"]
+    assert main.parse_args(["--to", "enrich"])[0] == ["download", "enrich"]
+    assert main.parse_args(["all", "check-links", "--from", "archive"])[0] == ["archive", "check-links", "validate"]
 
 
 @pytest.mark.parametrize("argv", [["download", "--only"], ["--skip"], ["--only", "--skip", "x"], ["bogus"],
-                                  ["download", "enrich"]])
+                                  ["--from", "nope"], ["--from", "validate", "--to", "download"]])
 def test_parse_args_errors(argv, capsys):
     with pytest.raises(SystemExit) as exc:
         main.parse_args(argv)
     assert exc.value.code == 2
     assert "usage" in capsys.readouterr().out
+
+
+def test_parse_args_help(capsys):
+    with pytest.raises(SystemExit) as exc:
+        main.parse_args(["--help"])
+    assert exc.value.code == 0
+    assert "check-links" in capsys.readouterr().out
 
 
 # --- #22 version split -------------------------------------------------------------------------------------------

@@ -17,8 +17,21 @@ python3 -m venv .venv
 
 See `docs/` for example output and the field reference.
 
-Every downloaded firmware is also uploaded to the Internet Archive (needs `ia configure` once). Run a single step
-with `python main.py download|enrich|process|archive`, and check vendor links with `python main.py check-links`.
+Every downloaded firmware is also uploaded to the Internet Archive (needs `ia configure` once).
+
+### Running some stages only
+`python main.py` runs every stage: download, enrich, process, archive and validate. Name stages to run only those
+(they always run in pipeline order), or use a group or range:
+```
+python main.py archive                      # upload to archive.org only
+python main.py download process             # download, then process
+python main.py analyse                      # enrich, process, validate: no network
+python main.py update                       # everything except archive
+python main.py --from process               # process, archive, validate
+python main.py check-links                  # check whether vendor links still work (not part of a full run)
+python main.py download --only EmpireTech   # one source (--skip leaves sources out; --list-sources names them)
+```
+`python main.py --help` lists every stage and option.
 
 ## OEM Support
  - [X] Dahua (dahuawiki.com and the official download center API across all regional sites)

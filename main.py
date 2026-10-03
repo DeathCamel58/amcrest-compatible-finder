@@ -1201,48 +1201,108 @@ def validate_outputs():
     return problems
 
 
-def start_full_processing():
-    get_all_firmwares()
-    enrich_firmwares()
-    process_all_firmwares()
-    archive_all_firmwares()
-    validate_outputs()
+# Stages in the order they run. A full run is every stage except check-links (slow, and only needed now and then)
+STAGES = ('download', 'enrich', 'process', 'archive', 'check-links', 'validate')
+STAGE_GROUPS = {
+    'all': ('download', 'enrich', 'process', 'archive', 'validate'),
+    # Everything that works from the files already downloaded, without uploading
+    'analyse': ('enrich', 'process', 'validate'),
+    # Find and download new firmwares and analyse them, but don't upload
+    'update': ('download', 'enrich', 'process', 'validate'),
+}
+USAGE = ('usage: python main.py [STAGE|GROUP ...] [--from STAGE] [--to STAGE] [--only NAME[,NAME...]] '
+         '[--skip NAME[,NAME...]] [--list-sources]')
+HELP = f"""{USAGE}
+
+Stages, always run in this order whatever order they're given in:
+  download     list every source and download new firmwares
+  enrich       hash, de-duplicate and tidy the downloaded files, and move out non-firmware
+  process      read the hardware IDs, SoC and partition layout from each firmware
+  archive      upload new firmwares to archive.org and refresh changed item metadata
+  check-links  check whether the listed download links still work (not part of "all")
+  validate     check cameras.json and firmware_compatible.json against the schema
+
+Groups:
+  all          {' '.join(STAGE_GROUPS['all'])} (the default)
+  analyse      {' '.join(STAGE_GROUPS['analyse'])}
+  update       {' '.join(STAGE_GROUPS['update'])}
+
+Options:
+  --from STAGE   start at this stage of the selection (e.g. "--from process" = process archive validate)
+  --to STAGE     stop after this stage of the selection
+  --only NAMES   list only these sources (module, display or vendor names, comma-separated)
+  --skip NAMES   skip these sources
+  --list-sources print the source names --only and --skip accept, and exit
+
+Examples:
+  python main.py archive                      upload to archive.org only
+  python main.py download process             download, then process (enrich isn't run)
+  python main.py --from process               process, archive, validate
+  python main.py download --only EmpireTech   one source's downloads, e.g. through a VPN"""
 
 
-USAGE = ('usage: python main.py [download|enrich|process|archive|check-links|validate] '
-         '[--only NAME[,NAME...]] [--skip NAME[,NAME...]]')
-STEPS = ('download', 'enrich', 'process', 'archive', 'check-links', 'validate')
+def usage_error(message):
+    print(f'{message}\n{USAGE}\nRun "python main.py --help" for the stages and options.')
+    raise SystemExit(2)
 
 
 def parse_args(argv):
-    """(step or None, only names, skip names) from the command line. Raises SystemExit(2) on a bad command line."""
+    """(stages to run in order, only names, skip names) from the command line. Prints help and exits for --help and
+    --list-sources; raises SystemExit(2) on a bad command line."""
     args = list(argv)
-    only, skip = set(), set()
-    for flag, target in (('--only', only), ('--skip', skip)):
-        while flag in args:
-            i = args.index(flag)
+    only, skip, bounds = set(), set(), {}
+    selected = []
+    i = 0
+    while i < len(args):
+        arg = args[i]
+        if arg in ('-h', '--help'):
+            print(HELP)
+            raise SystemExit(0)
+        if arg == '--list-sources':
+            for module in oem_modules:
+                print(f"{module.__name__.split('.')[-1]:24} {module.name}  ({module.vendor})")
+            raise SystemExit(0)
+        if arg in ('--only', '--skip', '--from', '--to'):
             if i + 1 >= len(args) or args[i + 1].startswith('--'):
-                print(f'{flag} needs a comma-separated list of sources\n{USAGE}')
-                raise SystemExit(2)
-            target.update(name.strip().casefold() for name in args[i + 1].split(',') if name.strip())
-            del args[i:i + 2]
-    if len(args) > 1 or (args and args[0] not in STEPS):
-        print(USAGE)
-        raise SystemExit(2)
-    return (args[0] if args else None), only, skip
+                usage_error(f'{arg} needs a value')
+            value = args[i + 1]
+            if arg in ('--only', '--skip'):
+                (only if arg == '--only' else skip).update(
+                    name.strip().casefold() for name in value.split(',') if name.strip())
+            elif value not in STAGES:
+                usage_error(f'unknown stage for {arg}: {value}')
+            else:
+                bounds[arg] = value
+            i += 2
+            continue
+        if arg in STAGE_GROUPS:
+            selected.extend(STAGE_GROUPS[arg])
+        elif arg in STAGES:
+            selected.append(arg)
+        else:
+            usage_error(f'unknown stage or option: {arg}')
+        i += 1
+
+    if not selected:
+        selected = list(STAGE_GROUPS['all'])
+    stages = [stage for stage in STAGES if stage in selected]
+    if '--from' in bounds:
+        stages = [stage for stage in stages if STAGES.index(stage) >= STAGES.index(bounds['--from'])]
+    if '--to' in bounds:
+        stages = [stage for stage in stages if STAGES.index(stage) <= STAGES.index(bounds['--to'])]
+    if not stages:
+        usage_error('no stages left to run')
+    return stages, only, skip
 
 
 if __name__ == '__main__':
-    # `python main.py` runs everything; `python main.py download|enrich|process|archive|check-links` runs one step
-    steps = {'download': get_all_firmwares, 'enrich': enrich_firmwares, 'process': process_all_firmwares,
-             'archive': archive_all_firmwares, 'check-links': check_all_links, 'validate': validate_outputs}
-    # --only A,B / --skip A,B choose which sources are listed, e.g. MEGA downloads through a VPN on their own:
-    #   python main.py download --only EmpireTech
-    # A partial run only refreshes the listings (last_seen, latest) of the sources it ran
-    step, only, skip = parse_args(sys.argv[1:])
+    # See HELP, or run `python main.py --help`. With no stages named, everything but check-links runs.
+    # A partial run (--only/--skip) only refreshes the listings (last_seen, latest) of the sources it ran
+    stage_functions = {'download': get_all_firmwares, 'enrich': enrich_firmwares, 'process': process_all_firmwares,
+                       'archive': archive_all_firmwares, 'check-links': check_all_links, 'validate': validate_outputs}
+    stages, only, skip = parse_args(sys.argv[1:])
     ONLY_MODULES.update(only)
     SKIP_MODULES.update(skip)
-    if step:
-        steps[step]()
-    else:
-        start_full_processing()
+    for stage in stages:
+        print(f'=== {stage} ===')
+        stage_functions[stage]()
