@@ -8,6 +8,9 @@ python3 -m venv .venv
 .venv/bin/scrapling install   # browser used to get past Cloudflare (Amcrest, GSS)
 .venv/bin/python main.py
 ```
+To refuse commits of `cameras.json` or `firmware_compatible.json` that don't pass validation, enable the
+pre-commit hook once per clone: `git config core.hooksPath scripts/hooks`
+
 `binwalk`, `unzip` and `file` need to be installed. Firmwares are large (hundreds of GB across all vendors), so
 `firmware/` can be a symlink to another drive.
 

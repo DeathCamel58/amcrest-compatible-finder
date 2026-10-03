@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Refuse to commit cameras.json or firmware_compatible.json unless they pass validation (docs/schema/ plus the
+# cross-file rules). Checks the staged versions, not the working tree. Enable with:
+#   git config core.hooksPath scripts/hooks
+# Skip once with: git commit --no-verify
+set -euo pipefail
+
+staged=$(git diff --cached --name-only --diff-filter=AM -- cameras.json firmware_compatible.json)
+[ -z "$staged" ] && exit 0
+
+repo=$(git rev-parse --show-toplevel)
+python="$repo/.venv/bin/python"
+[ -x "$python" ] || python=python3
+
+temp=$(mktemp -d)
+trap 'rm -rf "$temp"' EXIT
+# The staged version of each file (the committed one if only the other file is staged), so the cross-file rules
+# compare what the commit will contain
+for file in cameras.json firmware_compatible.json; do
+    git show ":$file" > "$temp/$file"
+done
+
+echo "pre-commit: validating staged $(echo $staged | tr '\n' ' ')"
+if ! (cd "$repo" && "$python" -m util.validate_output "$temp/cameras.json" "$temp/firmware_compatible.json"); then
+    echo
+    echo "pre-commit: validation failed, so nothing was committed. Fix the data (e.g. python main.py analyse) and"
+    echo "commit again, or skip this check once with: git commit --no-verify"
+    exit 1
+fi
