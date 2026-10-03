@@ -362,3 +362,43 @@ def test_throttling_host_tries_wayback_first(tmp_path, monkeypatch):
     target = str(tmp_path / "f.bin")
     assert dl.download_firmware("https://slow.example/f.bin", target, lambda u, p: live.append(u)) == target
     assert live == []
+
+
+def test_slow_download_without_wayback_copy_keeps_resuming(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    from util.http import SlowDownloadError
+    monkeypatch.setattr(dl.time, "sleep", lambda s: None)
+    calls = []
+
+    def slow_but_steady(url, part_name):
+        calls.append(os.path.getsize(part_name) if os.path.exists(part_name) else 0)
+        with open(part_name, "ab") as f:
+            f.write(b"x" * 10)
+        if len(calls) < 6:  # more slow attempts than DOWNLOAD_ATTEMPTS, but each one makes progress
+            raise SlowDownloadError("40 KB/s")
+
+    target = str(tmp_path / "f.bin")
+    assert dl._download_to("https://eltrox.example/f.bin", target, target + ".part", slow_but_steady) == target
+    assert calls == [0, 10, 20, 30, 40, 50]  # resumed each time, nothing thrown away
+    assert os.path.getsize(target) == 60
+
+
+def test_per_host_minimum_rate(monkeypatch, tmp_path):
+    from util import download_firmware as dl
+    seen = {}
+
+    class Response:
+        status_code = 200
+        headers = {}
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def raise_for_status(self): pass
+
+    def fake_min_rate(r, min_bytes_per_sec=None, **kw):
+        seen["rate"] = min_bytes_per_sec
+        return iter([b"data"])
+
+    monkeypatch.setattr(dl.http, "get", lambda url, stream=True, headers=None: Response())
+    monkeypatch.setattr(dl.http, "iter_content_with_min_rate", fake_min_rate)
+    dl._http_download("https://ftp.eltrox.pl/a.bin", str(tmp_path / "a.part"))
+    assert seen["rate"] == dl.MIN_RATE_BY_HOST["ftp.eltrox.pl"]

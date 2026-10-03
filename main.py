@@ -643,7 +643,8 @@ HOST_CAPS = {
     'ftp.viatec.ua': 4,
     'files.dahua.support': 3,
     'ftp.asm.cz': 4,
-    'ftp.eltrox.pl': 1,
+    # Throttles each connection to about 40 KB/s; it blocked us for fast listing, not for a few downloads
+    'ftp.eltrox.pl': 3,
 }
 
 

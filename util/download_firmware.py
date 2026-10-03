@@ -26,6 +26,11 @@ PERMANENT_HTTP_STATUSES = {403, 404, 410}
 # A live download that crawls below the minimum rate this many times is fetched from the Wayback Machine's copy of
 # the same URL instead (when there is one), rather than retried from a server that's throttling us
 SLOW_ATTEMPTS_BEFORE_WAYBACK = 2
+# A slow download that's still making progress resumes this many times without using up its attempts
+MAX_SLOW_RESUMES = 50
+# Minimum download rates (bytes/s) for servers that are slow but steady; others use the default in util.http.
+# Eltrox sends 35-45 KB/s per connection, just under the default, so every download was aborted as too slow
+MIN_RATE_BY_HOST = {'ftp.eltrox.pl': 10_000, 'ftp.cifra.cv.ua': 4_000}
 # A dead URL's Wayback copy is looked for again after this many days
 WAYBACK_RECHECK_DAYS = 30
 # Servers that throttle us to a few KB/s: their files are fetched from the Wayback Machine's copy first, when it has
@@ -169,13 +174,14 @@ def wayback_capture(url):
     return f'https://web.archive.org/web/{timestamp}id_/{original}'
 
 
-def _download_from_wayback(url, file_name, part_name):
-    """Download the Wayback Machine's copy of url to file_name. Returns file_name, or None if there's no usable copy."""
+def _download_from_wayback(url, file_name, part_name=None):
+    """Download the Wayback Machine's copy of url to file_name. Returns file_name, or None if there's no usable copy.
+    Uses its own .part file, so a partial download from the live server is kept to resume if there's no copy."""
     capture = wayback_capture(url)
     if capture is None:
         return None
     print(f'\tDownloading the Wayback Machine\'s copy instead: {capture}')
-    # A .part from the live server isn't the same download, so don't resume it from the capture
+    part_name = f'{file_name}.wayback.part'
     if os.path.exists(part_name):
         os.remove(part_name)
     for attempt in range(1, 3):
@@ -264,9 +270,11 @@ def _http_download(url, part_name):
         if have:
             print(f"\tResuming {os.path.basename(part_name)} at {offset} bytes" if offset
                   else f"\tThe server can't resume {os.path.basename(part_name)}; starting over")
+        rate = MIN_RATE_BY_HOST.get(urlparse(url).hostname or '')
         with open(part_name, 'ab' if offset else 'wb') as f:
             # A download that crawls (e.g. one stuck at a few KB/s for hours) is aborted and retried
-            for chunk in http.iter_content_with_min_rate(r):
+            for chunk in (http.iter_content_with_min_rate(r, min_bytes_per_sec=rate) if rate
+                          else http.iter_content_with_min_rate(r)):
                 f.write(chunk)
 
 
@@ -283,7 +291,12 @@ def _download_to(url, file_name, part_name, downloader):
         os.remove(part_name)
     empty_responses = 0
     slow_attempts = 0
-    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+    slow_resumes = 0
+    wayback_tried = False
+    attempt = 0
+    while attempt < DOWNLOAD_ATTEMPTS:
+        attempt += 1
+        progress = os.path.getsize(part_name) if os.path.exists(part_name) else 0
         try:
             downloader(url, part_name)
             # A server can answer 200 with no body; an empty file would block a real download forever
@@ -324,16 +337,32 @@ def _download_to(url, file_name, part_name, downloader):
                 break
             if isinstance(err, http.SlowDownloadError):
                 slow_attempts += 1
-                if slow_attempts >= SLOW_ATTEMPTS_BEFORE_WAYBACK:
-                    break
+                if slow_attempts >= SLOW_ATTEMPTS_BEFORE_WAYBACK and not wayback_tried:
+                    # The server is throttling us: the Wayback Machine's copy may be faster
+                    wayback_tried = True
+                    result = _download_from_wayback(url, file_name)
+                    if result:
+                        if os.path.exists(part_name):
+                            os.remove(part_name)
+                        clear_failed_download(url)
+                        return result
+                # Still sending, just slowly: keep resuming without using up an attempt
+                if (os.path.exists(part_name) and os.path.getsize(part_name) > progress
+                        and slow_resumes < MAX_SLOW_RESUMES):
+                    slow_resumes += 1
+                    attempt -= 1
+                    continue
             if attempt < DOWNLOAD_ATTEMPTS:
                 time.sleep(10 * attempt)
 
-    # The live server failed or is crawling: use the Wayback Machine's copy of the same URL if it has one
-    result = _download_from_wayback(url, file_name, part_name)
-    if result:
-        clear_failed_download(url)
-        return result
+    # The live server failed: use the Wayback Machine's copy of the same URL if it has one
+    if not wayback_tried:
+        result = _download_from_wayback(url, file_name)
+        if result:
+            if os.path.exists(part_name):
+                os.remove(part_name)
+            clear_failed_download(url)
+            return result
 
     if os.path.exists(part_name):
         os.remove(part_name)
