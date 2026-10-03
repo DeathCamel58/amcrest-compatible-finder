@@ -1,4 +1,8 @@
+import json
+import os
 import re
+import time
+from datetime import date
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import unquote, urljoin
 
@@ -54,30 +58,89 @@ def is_generic_name(file_name):
     return bool(GENERIC_NAME.match(file_name))
 
 
-def crawl_index(start_url, max_depth=8, is_directory=None, headers=None, skip_directories=()):
+def load_index_cache(cache_file):
+    try:
+        with open(cache_file) as f:
+            return json.load(f)
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def save_index_cache(cache_file, cache):
+    directory = os.path.dirname(cache_file)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
+    temp_file = f"{cache_file}.{os.getpid()}.tmp"
+    with open(temp_file, "w") as f:
+        json.dump(cache, f, indent=1, sort_keys=True)
+    os.replace(temp_file, cache_file)
+
+
+def link_info(link):
+    """The text next to a link in a directory index (date and size on Apache, nginx and IIS listings), as shown."""
+    row = link.find_parent("tr")
+    if row is not None:
+        text = row.get_text(" ")
+        text = text.replace(link.get_text(), "", 1)
+    else:
+        sibling = link.next_sibling
+        text = sibling if isinstance(sibling, str) else ""
+    return " ".join(text.split()) or None
+
+
+def crawl_index(start_url, max_depth=8, is_directory=None, headers=None, skip_directories=(), delay=0,
+                max_failures=None, timeout=None, cache_file=None, cache_days=14, save_every=20, offline=False):
     """Recursively crawl a web server directory index (Apache, IIS, ...).
-    Returns a list of (file_url, directory_url) for every file found below start_url."""
+    Returns a list of (file_url, directory_url) for every file found below start_url.
+
+    For servers that rate limit: delay is the seconds to wait between requests, and after max_failures listings in a
+    row fail (errors, 429s or 5xxs) the crawl stops fetching, so a dead host can't stall a run. timeout overrides
+    http.TIMEOUT for each listing.
+
+    For slow servers: cache_file keeps each directory's listing (files with the date/size text next to them, and
+    subdirectories) with the date it was fetched. Listings fresher than cache_days are reused without a request,
+    except the start URL and its top-level folders, which are always fetched so new folders show up. When a fetch
+    fails, or after the failure cutoff, the cached listing is used instead. offline lists only from the cache (for a
+    host that isn't answering)."""
     if is_directory is None:
         def is_directory(href):
             return href.endswith('/')
 
+    cache = load_index_cache(cache_file) if cache_file else None
+    today = date.today()
     files = []
     seen = set()
+    state = {"requests": 0, "failures": 0, "aborted": offline, "unsaved": 0, "from_cache": 0}
+    request_options = {"headers": headers or {}}
+    if timeout is not None:
+        request_options["timeout"] = timeout
 
-    def crawl(url, depth):
-        if url in seen or depth > max_depth:
-            return
-        seen.add(url)
+    def failed():
+        state["failures"] += 1
+        if max_failures is not None and state["failures"] >= max_failures and not state["aborted"]:
+            state["aborted"] = True
+            print(f"\tGiving up on {start_url} after {state['failures']} failed listings in a row "
+                  f"({len(files)} files found so far)" + ("; using cached listings for the rest" if cache else ""))
 
+    def fetch(url):
+        """{"files": [[url, info]], "directories": [[url, href]]}, or None if the listing couldn't be fetched."""
+        if delay and state["requests"]:
+            time.sleep(delay)
+        state["requests"] += 1
         try:
-            page = http.get(url, headers=headers or {})
+            page = http.get(url, **request_options)
         except Exception as err:
             print(f"\tFailed to list {url}: {err}")
-            return
+            failed()
+            return None
         if page.status_code != 200:
             print(f"\tGot HTTP {page.status_code} listing {url}")
-            return
+            if page.status_code == 429 or page.status_code >= 500:
+                failed()
+            return None
+        state["failures"] = 0
 
+        listing = {"files": [], "directories": []}
         soup = BeautifulSoup(page.content, "html.parser")
         for link in soup.find_all("a", href=True):
             href = link["href"]
@@ -87,14 +150,57 @@ def crawl_index(start_url, max_depth=8, is_directory=None, headers=None, skip_di
             full_url = urljoin(url, href)
             if not full_url.startswith(url) or full_url == url:
                 continue
-
             if is_directory(href):
-                if unquote(href).strip('/') not in skip_directories:
-                    crawl(full_url, depth + 1)
+                listing["directories"].append([full_url, href])
             else:
-                files.append((full_url, url))
+                listing["files"].append([full_url, link_info(link) if cache is not None else None])
+        return listing
 
-    crawl(start_url, 0)
+    def is_fresh(entry):
+        try:
+            return (today - date.fromisoformat(entry["fetched"])).days <= cache_days
+        except (KeyError, TypeError, ValueError):
+            return False
+
+    def crawl(url, depth):
+        if url in seen or depth > max_depth:
+            return
+        seen.add(url)
+
+        cached = cache.get(url) if cache is not None else None
+        listing = None
+        if cached and depth > 1 and is_fresh(cached):
+            listing = cached
+            state["from_cache"] += 1
+        elif not state["aborted"]:
+            listing = fetch(url)
+            if listing is not None and cache is not None:
+                cache[url] = {"fetched": today.isoformat(), **listing}
+                state["unsaved"] += 1
+                if state["unsaved"] >= save_every:
+                    save_index_cache(cache_file, cache)
+                    state["unsaved"] = 0
+        if listing is None and cached:
+            if not state["aborted"]:
+                print(f"\tUsing the cached listing of {url} from {cached.get('fetched')}")
+            listing = cached
+            state["from_cache"] += 1
+        if listing is None:
+            return
+
+        for file_url, _ in listing["files"]:
+            files.append((file_url, url))
+        for directory_url, href in listing["directories"]:
+            if unquote(href).strip('/') not in skip_directories:
+                crawl(directory_url, depth + 1)
+
+    try:
+        crawl(start_url, 0)
+    finally:
+        if cache is not None and state["unsaved"]:
+            save_index_cache(cache_file, cache)
+    if cache is not None:
+        print(f"\tListed {start_url}: {state['requests']} requests, {state['from_cache']} directories from the cache")
     return files
 
 

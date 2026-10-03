@@ -46,6 +46,10 @@ from brands import Winic
 from brands import Intelbras
 from brands import CPPlus
 from brands import KBVision
+from brands import DahuaPoland
+from brands import Eltrox
+from brands import Viatec
+from brands import Cifra
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -95,6 +99,10 @@ oem_modules = [
     Intelbras,
     CPPlus,
     KBVision,
+    DahuaPoland,
+    Eltrox,
+    Viatec,
+    Cifra,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]

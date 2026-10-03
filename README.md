@@ -26,6 +26,11 @@ with `python main.py download|enrich|process|archive`, and check vendor links wi
 ### Mirrors and archives
  - [X] ASM (ftp.asm.cz) - Czech Dahua distributor's file server (cameras, recorders, intercoms, access control)
  - [X] files.dahuatech.support - Dahua support file server
+ - [X] files.dahua.support - Dahua Poland's file server (firmware and solutions)
+ - [X] Eltrox (ftp.eltrox.pl) - Polish distributor's file server, including the Kenik, EasyCam, Notis, Zeus, Irbis and
+   Konig rebrands. Crawled slowly and cached, since it rate limits
+ - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
+ - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
  - [X] Wayback Machine - recovers firmwares from dahuawiki, Dahua's file storage, Amcrest, Lorex, Rhino and others
    that are no longer served anywhere else
  - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net

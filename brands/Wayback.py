@@ -38,6 +38,11 @@ SOURCES = [
     ("materialfile.dahuasecurity.com/uploads/", "Dahua", True),
     ("material.dahuasecurity.com/uploads/", "Dahua", True),
     ("files.dahuatech.support/Firmwares/", "Dahua", True),
+    # Dahua's older sites' upload folders, for firmware removed from the current download center
+    ("www.dahuasecurity.com/asset/upload/", "Dahua", True),
+    ("us.dahuasecurity.com/wp-content/uploads/", "Dahua", True),
+    ("www.dahuatech.com/upload/", "Dahua", True),
+    ("www1.dahuatech.com/File/", "Dahua", True),
     ("ftp.asm.cz/Dahua/", "ASM", True),
     ("amcrest-firmwares.s3.amazonaws.com/", "Amcrest", False),
     ("s3.amazonaws.com/amcrest-files/", "Amcrest", False),
