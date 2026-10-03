@@ -67,8 +67,8 @@ from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
 from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
                                       process_firmware_threaded)
-from util.json_tools import (CAMERAS_JSON, get_cameras_json, save_cameras_json, get_firmware_json, save_firmware_json,
-                             json_lock)
+from util.json_tools import (CAMERAS_JSON, JsonFileLock, get_cameras_json, save_cameras_json, get_firmware_json,
+                             save_firmware_json, json_lock)
 
 oem_modules = [
     Amcrest,
@@ -117,7 +117,9 @@ oem_modules = [
 
 
 
-camera_json_lock = threading.Lock()
+# Held around every read-modify-write of cameras.json. It locks across processes too, so a separate run (e.g. a
+# `download --only Eltrox` over a VPN while enrich runs) can't save between another's read and write
+camera_json_lock = JsonFileLock(CAMERAS_JSON)
 
 # While downloading, cameras.json is kept in memory and the entries that changed are written back in batches.
 # Loading, copying and rewriting the whole file (about 10 MB) for every listing held camera_json_lock for most of

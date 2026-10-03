@@ -49,6 +49,23 @@ def _get_lock(json_file):
         return _locks[key]
 
 
+class JsonFileLock:
+    """A reusable lock for one JSON file, across threads and processes (see json_lock), for code that does
+    `with lock:` around a whole read-modify-write. The path is resolved when it's taken, not when it's created."""
+
+    def __init__(self, json_file):
+        self.json_file = json_file
+
+    def __enter__(self):
+        self._lock = _get_lock(self.json_file)
+        self._lock.acquire()
+        return self
+
+    def __exit__(self, *exc):
+        self._lock.release()
+        return False
+
+
 @contextmanager
 def json_lock(json_file):
     """Hold a JSON file's lock (threads and other processes) across a read-modify-write:
