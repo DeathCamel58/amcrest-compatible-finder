@@ -26,6 +26,15 @@ FIRMWARE_EXTENSIONS = r"(bin|zip|img|dav|rar|pak|7z)"
 SOURCES = [
     # Its /Software/ folder holds PC tools (DiskManager, ThermalImagery, ...), not firmware
     ("dahuawiki.com/images/Files/", "Dahua", True, {"exclude": ["/Software/"]}),
+    ("dahuawiki.com/images/Firmware/", "Dahua", True),
+    # RVI (Russia) also sells non-Dahua recorders, and names some files only by date ("Group_191106.bin")
+    ("rvigroup.ru/upload/files/", "RVI", True),
+    ("amcrest.com/downloads/", "Amcrest", False),
+    # Zuum's old Volusion store; its Software folder also holds HD-TVI recorders and HDMI matrix firmware
+    ("www.zuummedia.com/v/vspfiles/", "Zuum", False, {"include": r"LSNVR|LSX|PSNVR|NVR|XVR|IPC"}),
+    # Bosch's download store is mostly Bosch's own products; only the DIVAR recorders are Dahua made (DIVAR IP is
+    # Bosch's own Windows appliance)
+    ("downloadstore.boschsecurity.com/FILES/", "Bosch", False, {"include": r"DIVAR|DVR", "drop": r"divar.?ip"}),
     ("materialfile.dahuasecurity.com/uploads/", "Dahua", True),
     ("material.dahuasecurity.com/uploads/", "Dahua", True),
     ("files.dahuatech.support/Firmwares/", "Dahua", True),

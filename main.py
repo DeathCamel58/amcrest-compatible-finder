@@ -615,9 +615,10 @@ def get_all_firmwares():
     if len(firmwares) == 0:
         return
 
-    # Archived copies (Wayback Machine) are only for files no live source has anymore
+    # Archived copies (Wayback Machine) are only for files no live source has anymore. A live listing whose download
+    # has failed for good in earlier runs (e.g. a dead S3 link) doesn't count, so its archived copy is used instead
     live_names = {get_firmware_file_name(f, t) for f in firmwares if f.get('source_kind') != 'archive'
-                  for t in ('firmware_previous', 'firmware_latest') if f.get(t)}
+                  for t in ('firmware_previous', 'firmware_latest') if f.get(t) and skip_reason(f[t]) is None}
     archived = [f for f in firmwares if f.get('source_kind') == 'archive']
     firmwares = [f for f in firmwares if f.get('source_kind') != 'archive'
                  or get_firmware_file_name(f, 'firmware_latest') not in live_names]

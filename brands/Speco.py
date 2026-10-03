@@ -1,4 +1,5 @@
 import re
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import unquote
 
 from bs4 import BeautifulSoup
@@ -14,7 +15,6 @@ firmware_site = "https://specotech.com/recorder-software-updates-2/"
 
 # The WordPress media library also holds firmware that no page links to (e.g. Dahua based IP cameras)
 media_api = "https://specotech.com/wp-json/wp/v2/media"
-media_search_terms = ["firmware", ".bin", ".zip", ".dav", "update"]
 
 
 def get_release_notes_pages():
@@ -40,22 +40,23 @@ def parse_dahua_file_name(file_name):
     return f"V{match[1]}", f"{date[0:4]}-{date[4:6]}-{date[6:8]}"
 
 
+def get_media_page(page):
+    response = http.get(media_api, params={"per_page": 100, "page": page, "_fields": "id,source_url,title"})
+    if response.status_code != 200:
+        print(f"\tSpeco media API returned {response.status_code} for page {page}")
+        return [], 0
+    return response.json(), int(response.headers.get("X-WP-TotalPages", "1"))
+
+
 def get_media_items():
-    """Every media library item matching the search terms (the API has no "list everything" for files)."""
-    items = {}
-    for term in media_search_terms:
-        page = 1
-        while True:
-            response = http.get(media_api, params={"per_page": 100, "search": term, "page": page})
-            if response.status_code != 200:
-                print(f"\tSpeco media API returned {response.status_code} for {term!r}")
-                break
-            for item in response.json():
-                items[item["id"]] = item
-            if page >= int(response.headers.get("X-WP-TotalPages", "1")):
-                break
-            page += 1
-    return list(items.values())
+    """Every item in the media library (about 7,000, so ~70 pages). Searching only finds items whose title or
+    description has the term, which misses firmware uploaded under just a model name."""
+    items, pages = get_media_page(1)
+    # Each page takes a few seconds, so fetch the rest a few at a time
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for page_items, _ in pool.map(get_media_page, range(2, pages + 1)):
+            items += page_items
+    return list({item["id"]: item for item in items}.values())
 
 
 def get_media_firmwares(seen_urls):

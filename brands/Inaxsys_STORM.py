@@ -36,13 +36,11 @@ def get_model_names(model_folder):
 
 def add_firmwares(firmwares, folder, models):
     for path, files in share.walk(folder):
-        # Skip folders holding an already extracted firmware (update.img, *.cramfs.img, ...)
-        if any(file["Name"].lower().endswith(".img") for file in files):
-            continue
-
         for file in files:
             file_name = file["Name"]
             version = version_regex.search(file_name)
+            # Extracted firmware parts (update.img, *.cramfs.img, ...) sit next to the packages in some folders (e.g.
+            # PTZ/DO2PTZ4X), and are skipped here by extension and the missing version
             if not file_name.lower().endswith(firmware_extensions) or not version:
                 continue
 
