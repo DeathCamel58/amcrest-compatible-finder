@@ -297,3 +297,22 @@ def test_unique_destination_never_overwrites():
     write(first)
     second = main.unique_destination("out", "a.bin")
     assert second != first and not os.path.exists(second)
+
+
+def test_archive_stops_after_pushback(monkeypatch, tmp_path):
+    (tmp_path / "firmware").mkdir()
+    for name in ("a.bin", "b.bin"):
+        (tmp_path / "firmware" / name).write_bytes(b"x")
+    calls = []
+
+    def fake_archive(path, entry, analysis, aliases):
+        calls.append(path)
+        raise Exception("error uploading: Please reduce your request rate. - appears to be spam")
+
+    monkeypatch.setattr(main, "archive_firmware", fake_archive)
+    main.archive_stop.clear()
+    main.archive_firmware_thread("a.bin")
+    main.archive_firmware_thread("b.bin")
+    assert calls == ["firmware/a.bin"]
+    assert main.archive_stop.is_set()
+    main.archive_stop.clear()

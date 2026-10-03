@@ -83,7 +83,9 @@ def save_json_atomic(json_file, data):
         fd, temp_file = tempfile.mkstemp(prefix=f".{os.path.basename(json_file)}.", suffix=".tmp", dir=directory)
         try:
             with os.fdopen(fd, "w") as f:
-                json.dump(data, f, indent=4, sort_keys=True)
+                # One-space indent: still one field per line for readable diffs, but firmware_compatible.json stays well
+                # under GitHub's 100 MiB file limit (4 spaces made it 104 MB once partition tables were added)
+                json.dump(data, f, indent=1, sort_keys=True)
                 f.flush()
                 os.fsync(f.fileno())
             os.replace(temp_file, json_file)

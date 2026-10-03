@@ -975,7 +975,18 @@ def get_alias_entries(cameras_json, entry):
     return {alias: cameras_json[alias] for alias in entry.get('aliases') or [] if alias in cameras_json}
 
 
+# Uploads at once. archive.org's spam filter flagged 3 at once from a personal account (2026-10-03)
+ARCHIVE_WORKERS = 1
+
+# archive.org's replies when it wants uploads to slow down or stop (rate limiting, the spam filter). Carrying on
+# after one of these risks the account, so the whole archive stage stops instead
+ARCHIVE_PUSHBACK = re.compile(r"reduce your request rate|appears to be spam|SlowDown|\b(429|503)\b", re.IGNORECASE)
+archive_stop = threading.Event()
+
+
 def archive_firmware_thread(firmware_file):
+    if archive_stop.is_set():
+        return
     path = f'firmware/{firmware_file}'
     cameras_json = get_cameras_json()
     entry = with_platform(cameras_json.get(firmware_file, {}), path)
@@ -998,6 +1009,11 @@ def archive_firmware_thread(firmware_file):
             archive_fields = archive_firmware(path, entry, analysis, alias_entries)
     except Exception as err:
         print(f'\tFailed to archive {firmware_file}: {err!r}')
+        if ARCHIVE_PUSHBACK.search(str(err)):
+            if not archive_stop.is_set():
+                print('archive.org asked to slow down or flagged the upload; stopping the archive stage. '
+                      'Run it again later.')
+            archive_stop.set()
         return
 
     with camera_json_lock:
@@ -1064,7 +1080,8 @@ def archive_all_firmwares():
           f'(skipping {len(skipped_truncated)} truncated ones)')
 
     # Keep this low; archive.org throttles bulk uploads
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    archive_stop.clear()
+    with ThreadPoolExecutor(max_workers=ARCHIVE_WORKERS) as pool:
         for future in as_completed([pool.submit(archive_firmware_thread, f) for f in firmware_files]):
             future.result()
 

@@ -8,6 +8,12 @@ import zlib
 import pytest
 
 from conftest import make_zip_bytes, to_dh_variant
+
+
+def noise(size, seed=1):
+    """High-entropy bytes that, unlike os.urandom, never happen to start with a recognised magic (0xEE starts none)"""
+    import random
+    return b"\xee" + random.Random(seed).randbytes(size - 1)
 from util import firmware_metadata as fm
 from util import firmware_processing
 from util.firmware_processing import needs_processing, read_firmware
@@ -132,7 +138,7 @@ def test_uimage_header_holds_partition_range():
     (gzip.compress(b"hello"), "gzip"),
     (b"\xd0\x0d\xfe\xed" + b"\0" * 100, "fdt"),
     (struct.pack("<4I", 0xea000006, 0xea000005, 0, 0), "arm_code"),
-    (os.urandom(4096), None),
+    (noise(4096), None),
 ])
 def test_payload_kind(data, kind):
     if kind is None and fm.payload_kind(data):
@@ -242,7 +248,7 @@ def test_kernel_and_bootloader_versions():
 
 def ipc_firmware(encrypted=False):
     def content():
-        return os.urandom(5000) if encrypted else squashfs()
+        return noise(5000) if encrypted else squashfs()
 
     check = uimage("check") + (b'{"DefaultLanguage": "English", "DefaultVideoStandard": "NTSC",'
                                b' "SupportLanguages": "English,Spanish", "SecurityBaselineVersion": "V2.4,",'
@@ -309,8 +315,8 @@ def test_encrypted_images(write_file):
     assert result["packages"][0]["security"]["encrypted"] is None
     data = to_dh_variant(make_zip_bytes({
         "hwid": b'{"hwid": ["IPC-A:01"]}',
-        "romfs-x.squashfs.img": uimage("romfs", os.urandom(5000), start=0x270000, end=0x3c0000),
-        "user-x.squashfs.img": uimage("user", os.urandom(5000), start=0x3c0000, end=0x500000),
+        "romfs-x.squashfs.img": uimage("romfs", noise(5000, 2), start=0x270000, end=0x3c0000),
+        "user-x.squashfs.img": uimage("user", noise(5000, 3), start=0x3c0000, end=0x500000),
     }))
     assert read_firmware(write_file("enc2.bin", data))["packages"][0]["security"]["encrypted"] is True
 
