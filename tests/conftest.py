@@ -40,3 +40,11 @@ def write_file(tmp_path):
         path.write_bytes(data)
         return str(path)
     return write
+
+
+@pytest.fixture(autouse=True)
+def no_wayback_lookups(monkeypatch):
+    """Failed test downloads would otherwise look up a Wayback copy over the network. Tests that need a capture
+    patch wayback_capture themselves."""
+    from util import download_firmware
+    monkeypatch.setattr(download_firmware, "wayback_capture", lambda url: None)

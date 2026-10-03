@@ -298,3 +298,56 @@ def test_stale_part_from_an_earlier_run_is_not_resumed(tmp_path, monkeypatch):
     assert calls == [False]
     assert (tmp_path / "f.bin").read_bytes() == b"new"
     assert result == str(tmp_path / "f.bin")
+
+
+# util/download_firmware.py: falling back to the Wayback Machine's copy
+
+def test_slow_download_falls_back_to_wayback(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    from util.http import SlowDownloadError
+    monkeypatch.setattr(dl.time, "sleep", lambda s: None)
+    live_calls = []
+
+    def slow_downloader(url, part_name):
+        live_calls.append(url)
+        raise SlowDownloadError("10 KB/s")
+
+    monkeypatch.setattr(dl, "wayback_capture", lambda url: "https://web.archive.org/web/1id_/" + url)
+
+    def fake_http_download(url, part_name):
+        assert url.startswith("https://web.archive.org/")
+        with open(part_name, "wb") as f:
+            f.write(b"PK\x03\x04firmware")
+
+    monkeypatch.setattr(dl, "_http_download", fake_http_download)
+    target = str(tmp_path / "f.bin")
+    assert dl._download_to("https://slow.example/f.bin", target, target + ".part", slow_downloader) == target
+    assert len(live_calls) == dl.SLOW_ATTEMPTS_BEFORE_WAYBACK
+    assert dl.downloaded_via_wayback["https://slow.example/f.bin"].startswith("https://web.archive.org/")
+
+
+def test_wayback_html_capture_is_rejected(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    monkeypatch.setattr(dl, "wayback_capture", lambda url: "https://web.archive.org/web/1id_/" + url)
+
+    def html(url, part_name):
+        with open(part_name, "wb") as f:
+            f.write(b"<!DOCTYPE html><html>not found</html>")
+
+    monkeypatch.setattr(dl, "_http_download", html)
+    target = str(tmp_path / "f.bin")
+    assert dl._download_from_wayback("https://x/f.bin", target, target + ".part") is None
+    assert not os.path.exists(target) and not os.path.exists(target + ".part")
+
+
+def test_dead_url_wayback_check_is_remembered(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    monkeypatch.setattr(dl, "FAILED_DOWNLOADS_FILE", str(tmp_path / "failed.json"))
+    dl._registries.pop(str(tmp_path / "failed.json"), None)
+    dl.record_failed_download("https://dead/f.bin", "HTTP 404")
+    lookups = []
+    monkeypatch.setattr(dl, "wayback_capture", lambda url: lookups.append(url))
+    target = str(tmp_path / "f.bin")
+    assert dl.download_dead_url_from_wayback("https://dead/f.bin", target) is None
+    assert dl.download_dead_url_from_wayback("https://dead/f.bin", target) is None
+    assert lookups == ["https://dead/f.bin"]  # the second call didn't look it up again

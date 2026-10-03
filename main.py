@@ -53,8 +53,9 @@ from brands import Cifra
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
-from util.download_firmware import (_get_file_lock, download_firmware, is_rejected, record_rejected_download,
-                                    skip_reason)
+from util.download_firmware import (_get_file_lock, download_dead_url_from_wayback, download_firmware,
+                                     downloaded_via_wayback, is_rejected, record_rejected_download,
+                                     skip_reason)
 from util.file_integrity import check_integrity
 from util.firmware_platform import detect_platform
 from util import http
@@ -497,6 +498,9 @@ def download_firmware_thread(firmware, firmware_type):
     if not listing_only and not os.path.exists(file_name):
         reason = skip_reason(url)
         new_file_name = None
+        if reason and reason.startswith('failed in'):
+            # Dead for good on the live server, but the Wayback Machine may have kept a copy
+            new_file_name = download_dead_url_from_wayback(url, file_name)
         if reason is None:
             new_file_name = download_firmware(url, file_name, firmware.get('downloader'))
             if new_file_name is None and os.path.exists(file_name):
@@ -563,6 +567,9 @@ def download_firmware_thread(firmware, firmware_type):
         if series:
             firmware_data['series'] = series
 
+        if downloaded and url in downloaded_via_wayback:
+            # The live server failed or was too slow; this copy came from the Wayback Machine
+            firmware_data['downloaded_from'] = downloaded_via_wayback[url]
         if exists:
             firmware_data['firmware_size'] = os.stat(file_name).st_size
             # Hashed from a fresh download while it's still in memory, so enrich doesn't re-read it from disk

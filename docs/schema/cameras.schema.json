@@ -409,6 +409,10 @@
         },
         "archive_record_hash": {
           "$ref": "#/$defs/text"
+        },
+        "downloaded_from": {
+          "description": "Set when the file couldn't be downloaded from its listed URL (dead, or too slow) and the Wayback Machine's capture of that URL was downloaded instead: the capture's raw download URL",
+          "$ref": "#/$defs/url"
         }
       },
       "dependentRequired": {

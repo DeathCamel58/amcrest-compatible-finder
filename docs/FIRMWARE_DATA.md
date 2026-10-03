@@ -98,6 +98,7 @@ detail:
 | `url_history` | Every URL this page has offered the file at, oldest first, each with `first_seen` and `last_seen`. Only present when there has been more than one: vendors move files between folders (Rhino moved `/dvr/` into `/dvr/Dahua/...`) and list one file under several products (Amcrest's per-camera S3 folders). `url` is the most recent. Old addresses are worth showing as "previously at" links and for finding Wayback copies. |
 | `original_url`, `archived_at` | Only on `kind: archive`: the URL the file was originally published at, and the date the Wayback Machine captured it. `url` is the Wayback download link. |
 | `last_seen_latest` | Bookkeeping for `latest`: the last run it was listed as current. |
+| `downloaded_from` | Only when the file couldn't be downloaded from its listed URL (the server deleted it, or was throttling us) and the Wayback Machine's capture of that same URL was downloaded instead: the capture's download link. The listings still say where the vendor published it. |
 | `url_status`, `url_checked_at` | From `python main.py check-links`: `ok`, `dead` (404/410, or S3's 403 for a missing file), `error`, or `unchecked` (MEGA, Google Drive and SharePoint links aren't checked). Absent until the first check. When it's `dead`, point people to `archive_url`. |
 
 `last_seen` is per source: a run limited with `--only`/`--skip` only refreshes the listings of the sources it ran, so the others keep their earlier dates.

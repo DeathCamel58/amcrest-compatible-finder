@@ -23,6 +23,13 @@ REJECTED_DOWNLOADS_FILE = 'tmp/rejected_downloads.json'
 # A URL that failed permanently in this many different runs isn't tried again
 SKIP_AFTER_FAILED_RUNS = 2
 PERMANENT_HTTP_STATUSES = {403, 404, 410}
+# A live download that crawls below the minimum rate this many times is fetched from the Wayback Machine's copy of
+# the same URL instead (when there is one), rather than retried from a server that's throttling us
+SLOW_ATTEMPTS_BEFORE_WAYBACK = 2
+# A dead URL's Wayback copy is looked for again after this many days
+WAYBACK_RECHECK_DAYS = 30
+# Download URL -> the Wayback capture its file was downloaded from instead; main records it as downloaded_from
+downloaded_via_wayback = {}
 
 # Identifies this run in FAILED_DOWNLOADS_FILE, so a URL failing several times in one run counts once
 RUN_ID = datetime.now().isoformat(timespec='seconds')
@@ -139,6 +146,78 @@ def _permanent_failure(err):
     return None
 
 
+def wayback_capture(url):
+    """The Wayback Machine's most recent capture of url that isn't an HTML page, as a raw (id_) download URL, or
+    None. MEGA and Google Drive links aren't captured usefully, so they aren't looked up."""
+    host = urlparse(url).hostname or ''
+    if not host or host == 'web.archive.org' or is_mega(url) or 'google.com' in host or 'sharepoint.com' in host:
+        return None
+    try:
+        response = http.get('https://web.archive.org/cdx/search/cdx', timeout=60, params={
+            'url': url, 'output': 'json', 'fl': 'timestamp,original',
+            'filter': ['statuscode:200', '!mimetype:text/html'], 'limit': '-1'})
+        rows = response.json()[1:] if response.ok and response.text.strip() else []
+    except Exception as err:
+        print(f'\tCould not look up a Wayback copy of {url}: {err!r}')
+        return None
+    if not rows:
+        return None
+    timestamp, original = rows[-1][:2]
+    return f'https://web.archive.org/web/{timestamp}id_/{original}'
+
+
+def _download_from_wayback(url, file_name, part_name):
+    """Download the Wayback Machine's copy of url to file_name. Returns file_name, or None if there's no usable copy."""
+    capture = wayback_capture(url)
+    if capture is None:
+        return None
+    print(f'\tDownloading the Wayback Machine\'s copy instead: {capture}')
+    # A .part from the live server isn't the same download, so don't resume it from the capture
+    if os.path.exists(part_name):
+        os.remove(part_name)
+    for attempt in range(1, 3):
+        try:
+            _http_download(capture, part_name)
+            with open(part_name, 'rb') as f:
+                head = f.read(512)
+            if not head:
+                raise ValueError('empty download')
+            if head.lstrip()[:15].lower().startswith((b'<!doctype html', b'<html')):
+                raise ValueError('the capture is an HTML page, not the file')
+            os.replace(part_name, file_name)
+            downloaded_via_wayback[url] = capture
+            return file_name
+        except Exception as err:
+            print(f'\tWayback download failed (attempt {attempt}/2): {err}')
+            if isinstance(err, ValueError):
+                break
+    if os.path.exists(part_name):
+        os.remove(part_name)
+    return None
+
+
+def download_dead_url_from_wayback(url, file_name):
+    """For a URL earlier runs gave up on (404, refused): download the Wayback Machine's copy, at most once every
+    WAYBACK_RECHECK_DAYS. Returns file_name, or None."""
+    with _registry_lock:
+        entry = _load_registry(FAILED_DOWNLOADS_FILE).get(url) or {}
+        checked = entry.get('wayback_checked')
+    if checked and (date.today() - date.fromisoformat(checked)).days < WAYBACK_RECHECK_DAYS:
+        return None
+    with _get_file_lock(file_name):
+        if os.path.exists(file_name):
+            return None
+        result = _download_from_wayback(url, file_name, f'{file_name}.part')
+    with _registry_lock:
+        failed = _load_registry(FAILED_DOWNLOADS_FILE)
+        if result:
+            failed.pop(url, None)
+        elif url in failed:
+            failed[url]['wayback_checked'] = date.today().isoformat()
+        _save_registry(FAILED_DOWNLOADS_FILE)
+    return result
+
+
 def download_firmware(url, file_name=None, downloader=None):
     """Download url to file_name. downloader(url, part_name) can override how the file is fetched."""
     if file_name is None:
@@ -198,6 +277,7 @@ def _download_to(url, file_name, part_name, downloader):
     if os.path.exists(part_name):
         os.remove(part_name)
     empty_responses = 0
+    slow_attempts = 0
     for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
         try:
             downloader(url, part_name)
@@ -237,8 +317,18 @@ def _download_to(url, file_name, part_name, downloader):
                 break
             if _mega_quota_exceeded.is_set() and is_mega(url):
                 break
+            if isinstance(err, http.SlowDownloadError):
+                slow_attempts += 1
+                if slow_attempts >= SLOW_ATTEMPTS_BEFORE_WAYBACK:
+                    break
             if attempt < DOWNLOAD_ATTEMPTS:
                 time.sleep(10 * attempt)
+
+    # The live server failed or is crawling: use the Wayback Machine's copy of the same URL if it has one
+    result = _download_from_wayback(url, file_name, part_name)
+    if result:
+        clear_failed_download(url)
+        return result
 
     if os.path.exists(part_name):
         os.remove(part_name)
