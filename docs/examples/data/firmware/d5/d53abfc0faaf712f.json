@@ -1,0 +1,108 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "packetGeneral_TPC-APL5400-BCYB_V1.000.0000000.1.R.20260112.bin",
+   "ids": [
+    "TPC-APL5402-BCAB",
+    "TPC-APL5412-BCAB-TB",
+    "TPC-APL5602-BCAD",
+    "TPC-APL5612-BCAD-TB",
+    "TPC-APL5402-BCAB-Z",
+    "TPC-APL5412-BCAB-TB-M",
+    "TPC-APL5602-BCAD-Z",
+    "TPC-APL5612-BCAD-TB-M"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-APL5402-BCAB:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5412-BCAB-TB:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5602-BCAD:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5612-BCAD-TB:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5402-BCAB-Z:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5412-BCAB-TB-M:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5602-BCAD-Z:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5612-BCAD-TB-M:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "packetGeneral_TPC-APL5400-BCYB_V1.000.0000000.1.R.20260112.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-12",
+    "latest": "2026-01-12"
+   },
+   "firmware": "packetGeneral_TPC-APL5400-BCYB_V1.000.0000000.1.R.20260112.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "FPGA_C05401_1.img",
+     "image_name": "fpga1",
+     "image_size": 1760680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "FPGA_C05401_2.img",
+     "image_name": "fpga2",
+     "image_size": 1029698,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fb3f6cc61636cca9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d53abfc0faaf712febb6cc9e612a4e3db121000ed50624d38c19e5b77efd3673"
+}
