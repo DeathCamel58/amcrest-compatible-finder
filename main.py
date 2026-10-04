@@ -1107,6 +1107,9 @@ def get_alias_entries(cameras_json, entry):
 
 # Uploads at once. archive.org's spam filter flagged 3 at once from a personal account (2026-10-03)
 ARCHIVE_WORKERS = 1
+# Seconds to wait after each new upload, so a bulk upload doesn't look like spam to archive.org (they cleared a spam
+# flag on the account on 2026-10-04; a metadata-only refresh doesn't wait)
+ARCHIVE_UPLOAD_PAUSE = 45
 
 # archive.org's replies when it wants uploads to slow down or stop (rate limiting, the spam filter). Carrying on
 # after one of these risks the account, so the whole archive stage stops instead
@@ -1159,6 +1162,9 @@ def archive_firmware_thread(firmware_file):
         save_cameras_json(cameras_json)
     print(f'\tArchived {firmware_file}: {cameras_json[firmware_file]["archive_item"]}'
           + (' (still processing at archive.org)' if archive_fields.get('archive_pending') else ''))
+    if 'archive_record_hash' not in archive_fields or len(archive_fields) > 1:
+        # A new upload (not just a metadata refresh)
+        archive_stop.wait(ARCHIVE_UPLOAD_PAUSE)
 
 
 def link_duplicate_archives():
