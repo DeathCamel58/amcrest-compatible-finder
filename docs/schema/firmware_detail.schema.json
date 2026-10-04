@@ -1,0 +1,518 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/firmware_detail.schema.json",
+  "title": "data/firmware/<xx>/<id>.json",
+  "description": "The analysis detail of one firmware content (shared by identical copies), named after the first 16 hex characters of its SHA-256. The index entry in firmware_compatible.json points here with detail.",
+  "type": "object",
+  "required": [
+    "sha256",
+    "hardware_sources",
+    "packages"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "hardware_sources": {
+      "description": "Where each hardware ID was read from",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hardwareSource"
+      }
+    },
+    "packages": {
+      "description": "Each firmware image set's SoC, partitions, security and versions",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/package"
+      }
+    }
+  },
+  "$defs": {
+    "idList": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "hexAddress": {
+      "description": "Flash address as a hex string, as the firmware gives it",
+      "type": "string",
+      "pattern": "^0x[0-9a-f]+$"
+    },
+    "hardwareSource": {
+      "description": "One place in the firmware that lists hardware it installs on",
+      "type": "object",
+      "required": [
+        "source",
+        "member",
+        "firmware",
+        "ids",
+        "counted"
+      ],
+      "properties": {
+        "source": {
+          "enum": [
+            "hwid",
+            "check_img",
+            "install",
+            "install_lua",
+            "uboot"
+          ]
+        },
+        "member": {
+          "description": "Path of the member inside its container",
+          "type": "string",
+          "minLength": 1
+        },
+        "firmware": {
+          "description": "The inner firmware's file name, or null for the file itself",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ids": {
+          "$ref": "#/$defs/idList"
+        },
+        "raw": {
+          "description": "Full hwid entries (strings), or Install's Devices pairs ([id, version])",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        },
+        "vendor": {
+          "description": "Install's Vendor",
+          "type": "string"
+        },
+        "counted": {
+          "description": "Whether these IDs are in hardware_ids. Within one folder of one firmware only the most specific list counts: hwid/check_img, then install, then install_lua, then uboot",
+          "type": "boolean"
+        },
+        "raw_same_as": {
+          "description": "Set instead of raw when this source lists exactly the same entries as an earlier source of the same firmware (its hwid file and check.img usually do): that source's position in hardware_sources (0-based)",
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "soc": {
+      "description": "The SoC the firmware is built for; name or vendor may be null when only one is certain",
+      "type": "object",
+      "required": [
+        "name",
+        "vendor",
+        "evidence"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "vendor": {
+          "enum": [
+            "HiSilicon",
+            "SigmaStar",
+            "Novatek",
+            "Rockchip",
+            "Fullhan",
+            "Goke",
+            "Ingenic",
+            "Ambarella",
+            "Molchip",
+            "Axera",
+            null
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "source",
+              "member",
+              "value"
+            ],
+            "properties": {
+              "source": {
+                "enum": [
+                  "device_tree",
+                  "bootloader",
+                  "image_name",
+                  "kernel"
+                ]
+              },
+              "member": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "candidates": {
+          "description": "The chips the strongest evidence names when it names several (name is then null)",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
+        }
+      },
+      "additionalProperties": false
+    },
+    "partitionImage": {
+      "description": "This firmware's image for one partition of its layout, in the same order as the layout's rows: what it writes there (image fields) or that it leaves the partition alone (upgraded false, null image fields)",
+      "type": "object",
+      "required": [
+        "image",
+        "image_size",
+        "image_name",
+        "image_type",
+        "filesystem",
+        "compression",
+        "built",
+        "upgraded"
+      ],
+      "properties": {
+        "image": {
+          "description": "Member written to it",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_size": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "image_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_type": {
+          "description": "The uImage header's type code, which Dahua doesn't use consistently",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "filesystem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "compression": {
+          "description": "The uImage header's compression field",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "built": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "upgraded": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "package": {
+      "description": "One firmware image set: the file itself, or each firmware nested in a bundle",
+      "type": "object",
+      "required": [
+        "firmware",
+        "package_format",
+        "architecture",
+        "soc",
+        "partition_source",
+        "flash_size",
+        "build_dates",
+        "kernel_version",
+        "bootloader_version",
+        "oem_vendor",
+        "security",
+        "locale"
+      ],
+      "properties": {
+        "firmware": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "package_format": {
+          "enum": [
+            "zip",
+            "dh",
+            "dhsp",
+            "other"
+          ]
+        },
+        "architecture": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "soc": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/soc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "partition_source": {
+          "enum": [
+            "install_lua",
+            "partition_table",
+            "image_headers",
+            null
+          ]
+        },
+        "partition_table": {
+          "description": "The table file used, inside partition-x.cramfs.img",
+          "type": "string"
+        },
+        "partition_table_variants": {
+          "description": "Board-specific tables when none is the main one (none used)",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unmapped_images": {
+          "description": "Images not matched to a partition of the table",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "flash_size": {
+          "description": "Bytes, from a complete partition table",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "flash_size_declared": {
+          "description": "check.img's FlashSize, e.g. 16M",
+          "type": "string"
+        },
+        "flash_type": {
+          "description": "check.img's FlashType, e.g. SPI",
+          "type": "string"
+        },
+        "build_dates": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "earliest",
+                "latest"
+              ],
+              "properties": {
+                "earliest": {
+                  "type": "string"
+                },
+                "latest": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "kernel_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bootloader_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oem_vendor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oem_vendor_checks": {
+          "description": "Install.lua's vendor.Name comparisons",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "software_version": {
+          "type": "string"
+        },
+        "market_area": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "security": {
+          "type": "object",
+          "required": [
+            "security_baseline",
+            "upgrade_security_version",
+            "signed",
+            "encrypted"
+          ],
+          "properties": {
+            "security_baseline": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "upgrade_security_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "signed": {
+              "type": "boolean"
+            },
+            "encrypted": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "checks": {
+              "description": "Raw security / baseline / rollback settings from check.img and Install",
+              "type": "object"
+            },
+            "script_checks": {
+              "description": "Raw rollback / minimum-version lines from Install.lua",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "locale": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "default_language",
+                "video_standard",
+                "supported_languages"
+              ],
+              "properties": {
+                "default_language": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "video_standard": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "supported_languages": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "partition_layout": {
+          "description": "Id of the shared layout file (data/layouts/<first 2>/<id>.json) holding this package's partition rows (name, start, end, size)",
+          "type": "string",
+          "pattern": "^[0-9a-f]{16}$"
+        },
+        "partition_images": {
+          "description": "This package's image for each row of its layout, in the same order",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/partitionImage"
+          }
+        },
+        "partitions": {
+          "description": "Only present (empty) when no partition table was found",
+          "type": "array",
+          "maxItems": 0
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "description": "A package has either a layout with one image per row, or an empty partitions list",
+          "oneOf": [
+            {
+              "required": [
+                "partition_layout",
+                "partition_images"
+              ]
+            },
+            {
+              "required": [
+                "partitions"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

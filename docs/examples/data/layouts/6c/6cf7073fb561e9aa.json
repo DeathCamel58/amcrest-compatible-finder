@@ -1,0 +1,53 @@
+{
+ "id": "6cf7073fb561e9aa",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "dhboot-min",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x70000",
+   "name": "dhboot-bak",
+   "size": 327680,
+   "start": "0x20000"
+  },
+  {
+   "end": "0xd0000",
+   "name": "bootloader",
+   "size": 327680,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xf0000"
+  },
+  {
+   "end": "0x180000",
+   "name": "pd",
+   "size": 524288,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x9e0000",
+   "name": "kernel",
+   "size": 8781824,
+   "start": "0x180000"
+  },
+  {
+   "end": "0xde0000",
+   "name": "web",
+   "size": 4194304,
+   "start": "0x9e0000"
+  },
+  {
+   "end": "0xee0000",
+   "name": "user",
+   "size": 1048576,
+   "start": "0xde0000"
+  }
+ ]
+}

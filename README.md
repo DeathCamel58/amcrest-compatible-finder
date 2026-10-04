@@ -8,7 +8,7 @@ python3 -m venv .venv
 .venv/bin/scrapling install   # browser used to get past Cloudflare (Amcrest, GSS)
 .venv/bin/python main.py
 ```
-To refuse commits of `cameras.json` or `firmware_compatible.json` that don't pass validation, enable the
+To refuse commits of `cameras.json`, `firmware_compatible.json` or `data/` that don't pass validation, enable the
 pre-commit hook once per clone: `git config core.hooksPath scripts/hooks`
 
 `binwalk`, `unzip` and `file` need to be installed. Firmwares are large (hundreds of GB across all vendors), so
@@ -16,7 +16,10 @@ pre-commit hook once per clone: `git config core.hooksPath scripts/hooks`
 
 ## Output
  - `cameras.json`: firmware file name -> where it came from (vendors, model names, URL, version, release date, hashes)
- - `firmware_compatible.json`: firmware file name -> hardware IDs found inside the firmware, plus the analysis status
+ - `firmware_compatible.json`: an index of firmware file name -> hardware IDs found inside the firmware, analysis status,
+   SoC, and the path of its detail file
+ - `data/firmware/`: one detail file per firmware (where each hardware ID came from, SoC, security, versions,
+   partitions), named by content hash; `data/layouts/`: each distinct partition layout once
 
 See `docs/` for example output and the field reference.
 

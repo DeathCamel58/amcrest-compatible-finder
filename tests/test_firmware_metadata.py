@@ -403,15 +403,31 @@ def test_wrapper_zip_is_not_a_bundle(write_file):
     assert [p["firmware"] for p in result["packages"]] == ["fw.bin"]
 
 
-def test_process_saves_new_fields(write_file, monkeypatch):
-    saved = {}
-    monkeypatch.setattr(firmware_processing, "save_result", lambda name, result: saved.update({name: result}))
+def test_process_saves_index_and_detail(write_file):
+    import json
+    import os
+    from util.analysis_store import join_result
+    from util.json_tools import get_firmware_json
     path = write_file("ipc.bin", ipc_firmware())
-    result = firmware_processing.process_firmware_threaded("ipc.bin", path)
-    assert saved["ipc.bin"] is result
+    result = firmware_processing.process_firmware_threaded("ipc.bin", path, sha256="ab" * 32)
+    firmware_processing.flush_results()
     assert result["status"] == "ok" and result["extractor_version"] == 5
     assert result["package_format"] == "dh"
     assert result["hardware_sources"] and result["packages"][0]["partitions"]
+
+    index = get_firmware_json()["ipc.bin"]
+    assert "hardware_sources" not in index and "packages" not in index
+    assert index["detail"] == "data/firmware/ab/abababababababab.json"
+    assert index["hardware_ids"] == result["hardware_ids"]
+    detail = json.load(open(index["detail"]))
+    assert detail["sha256"] == "ab" * 32
+    package = detail["packages"][0]
+    assert "partitions" not in package
+    assert os.path.exists(f"data/layouts/{package['partition_layout'][:2]}/{package['partition_layout']}.json")
+    # Joining the index entry, detail and layout back gives the result that was saved
+    joined = join_result(index)
+    assert joined["hardware_sources"] == result["hardware_sources"]
+    assert joined["packages"] == result["packages"]
 
 
 @pytest.mark.parametrize("result, platform, expected", [

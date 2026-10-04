@@ -1,0 +1,119 @@
+{
+ "id": "b0a97ededf746381",
+ "partitions": [
+  {
+   "end": "0xa0100000",
+   "name": "resever",
+   "size": 1048576,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0200000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa0300000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa0700000",
+   "name": "uImage",
+   "size": 4194304,
+   "start": "0xa0300000"
+  },
+  {
+   "end": "0xa2100000",
+   "name": "rootfs",
+   "size": 27262976,
+   "start": "0xa0700000"
+  },
+  {
+   "end": "0xa2200000",
+   "name": "bootslave",
+   "size": 1048576,
+   "start": "0xa2100000"
+  },
+  {
+   "end": "0xa2500000",
+   "name": "uImageslave",
+   "size": 3145728,
+   "start": "0xa2200000"
+  },
+  {
+   "end": "0xa3300000",
+   "name": "rootfsslave",
+   "size": 14680064,
+   "start": "0xa2500000"
+  },
+  {
+   "end": "0xa3800000",
+   "name": "web2",
+   "size": 5242880,
+   "start": "0xa3300000"
+  },
+  {
+   "end": "0xa3a00000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3800000"
+  },
+  {
+   "end": "0xa3c00000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa3a00000"
+  },
+  {
+   "end": "0xa3f00000",
+   "name": "config",
+   "size": 3145728,
+   "start": "0xa3c00000"
+  },
+  {
+   "end": "0xa3f40000",
+   "name": "pmfirmware",
+   "size": 262144,
+   "start": "0xa3f00000"
+  },
+  {
+   "end": "0xa4000000",
+   "name": "misc",
+   "size": 786432,
+   "start": "0xa3f40000"
+  },
+  {
+   "end": "0xa5400000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0xa4000000"
+  },
+  {
+   "end": "0xa7200000",
+   "name": "rootfs2",
+   "size": 31457280,
+   "start": "0xa5400000"
+  },
+  {
+   "end": "0xa7c00000",
+   "name": "config2",
+   "size": 10485760,
+   "start": "0xa7200000"
+  },
+  {
+   "end": "0xa7f40000",
+   "name": "resever2",
+   "size": 3407872,
+   "start": "0xa7c00000"
+  },
+  {
+   "end": "0xa8000000",
+   "name": "misc_backup",
+   "size": 786432,
+   "start": "0xa7f40000"
+  }
+ ]
+}

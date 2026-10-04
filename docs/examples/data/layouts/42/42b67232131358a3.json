@@ -1,0 +1,59 @@
+{
+ "id": "42b67232131358a3",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_16M_norflash",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_16M_spiflash",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2080000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x2280000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0x2080000"
+  },
+  {
+   "end": "0x2500000",
+   "name": "rootfs",
+   "size": 2621440,
+   "start": "0x2280000"
+  },
+  {
+   "end": "0x2b80000",
+   "name": "user",
+   "size": 6815744,
+   "start": "0x2500000"
+  },
+  {
+   "end": "0x2d80000",
+   "name": "web",
+   "size": 2097152,
+   "start": "0x2b80000"
+  },
+  {
+   "end": "0x2f20000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0x2f00000"
+  },
+  {
+   "end": "0x2ff0000",
+   "name": "data",
+   "size": 851968,
+   "start": "0x2f20000"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DeathCamel58/amcrest-compatible-finder/docs/schema/partition_layout.schema.json",
+  "title": "data/layouts/<xx>/<id>.json",
+  "description": "A flash partition layout, stored once and shared by every firmware that uses it. id is the first 16 hex characters of the SHA-256 of the rows, and names the file.",
+  "type": "object",
+  "required": [
+    "id",
+    "partitions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$"
+    },
+    "partitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/partition"
+      }
+    }
+  },
+  "$defs": {
+    "hexAddress": {
+      "description": "Flash address as a hex string, as the firmware gives it",
+      "type": "string",
+      "pattern": "^0x[0-9a-f]+$"
+    },
+    "partition": {
+      "description": "One partition of the flash layout",
+      "type": "object",
+      "required": [
+        "name",
+        "start",
+        "end",
+        "size"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start": {
+          "$ref": "#/$defs/hexAddress"
+        },
+        "end": {
+          "$ref": "#/$defs/hexAddress"
+        },
+        "size": {
+          "type": "integer"
+        },
+        "read_only": {
+          "type": "boolean"
+        },
+        "backup_start": {
+          "$ref": "#/$defs/hexAddress"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

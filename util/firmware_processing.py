@@ -15,6 +15,8 @@ from datetime import datetime, timedelta, timezone
 from util.firmware_metadata import (CHIP_IMAGE_NAME, UIMAGE_MAGIC, FileMember, Member, PackageReader, combine,  # noqa: F401
                                     members_in_directory, uimage_name)
 from util.hardware import classify_hardware_ids
+from util.analysis_store import split_result, write_detail
+from util.file_identity import hash_file
 from util.json_tools import save_firmware_json, get_firmware_json
 
 
@@ -502,9 +504,15 @@ _pending_results = {}
 _last_save = [time.monotonic()]
 
 
-def save_result(firmware_file, result):
+def save_result(firmware_file, result, sha256=None):
+    """Save a full analysis result: its detail (hardware sources, packages) to the firmware's own detail file right
+    away, and its index entry to firmware_compatible.json in the next batch. sha256 is the file's content hash,
+    which names the detail file."""
+    index_entry, detail, layouts = split_result(result, sha256)
+    if detail is not None:
+        write_detail(detail, layouts)
     with firmware_processing_lock:
-        _pending_results[firmware_file] = result
+        _pending_results[firmware_file] = index_entry
         if len(_pending_results) >= SAVE_EVERY or time.monotonic() - _last_save[0] >= SAVE_SECONDS:
             _save_pending()
 
@@ -528,7 +536,7 @@ atexit.register(flush_results)
 
 
 
-def process_firmware_threaded(firmware_file, file_path, previous=None, integrity=None):
+def process_firmware_threaded(firmware_file, file_path, previous=None, integrity=None, sha256=None):
     print(f"Processing: {firmware_file}")
     found = analyze_firmware(file_path, integrity)
     status = found['status']
@@ -552,8 +560,11 @@ def process_firmware_threaded(firmware_file, file_path, previous=None, integrity
         same_version = previous and previous.get("extractor_version") == EXTRACTOR_VERSION
         result["attempts"] = (previous.get("attempts", 0) if same_version else 0) + 1
 
-    save_result(firmware_file, result)
+    if sha256 is None and (result["hardware_sources"] or result["packages"]):
+        sha256 = hash_file(file_path)[1]
+    save_result(firmware_file, result, sha256)
     return result
+
 
 def mark_not_dahua(firmware_file, platform):
     result = {

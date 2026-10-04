@@ -1,7 +1,9 @@
-"""Check cameras.json and firmware_compatible.json against their JSON Schemas (docs/schema/) and the rules that
-span both files.
+"""Check cameras.json, the firmware_compatible.json index, and the detail and layout files it points to (data/)
+against their JSON Schemas (docs/schema/) and the rules that span the files.
 
     python -m util.validate_output [cameras.json] [firmware_compatible.json]
+
+Detail and layout paths are relative to the directory firmware_compatible.json is in.
 
 Prints a summary of problems by category and exits non-zero if there are any."""
 import json
@@ -15,6 +17,8 @@ from urllib.parse import unquote
 SCHEMA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'docs', 'schema')
 CAMERAS_SCHEMA = os.path.join(SCHEMA_DIR, 'cameras.schema.json')
 COMPAT_SCHEMA = os.path.join(SCHEMA_DIR, 'firmware_compatible.schema.json')
+DETAIL_SCHEMA = os.path.join(SCHEMA_DIR, 'firmware_detail.schema.json')
+LAYOUT_SCHEMA = os.path.join(SCHEMA_DIR, 'partition_layout.schema.json')
 
 
 class Problem(NamedTuple):
@@ -54,12 +58,16 @@ def schema_category(error):
     return f'schema: {field}: {keyword}'
 
 
-def schema_problems(data, schema_path, label, jsonschema):
+def make_validator(schema_path, jsonschema):
     with open(schema_path) as f:
         schema = json.load(f)
     validator_class = jsonschema.validators.validator_for(schema)
     validator_class.check_schema(schema)
-    validator = validator_class(schema, format_checker=validator_class.FORMAT_CHECKER)
+    return validator_class(schema, format_checker=validator_class.FORMAT_CHECKER)
+
+
+def schema_problems(data, schema_path, label, jsonschema, validator=None):
+    validator = validator or make_validator(schema_path, jsonschema)
 
     errors = list(validator.iter_errors(data))
     # Dates and timestamps have both a pattern and a format; one problem is enough
@@ -150,6 +158,76 @@ def cross_file_problems(cameras, compat):
     return problems
 
 
+def data_problems(cameras, compat, root, jsonschema):
+    """The detail and layout files: each index entry's detail exists, is valid and belongs to that file's content;
+    each package's layout exists and matches its images; and nothing is stored that the index doesn't use."""
+    from util.analysis_store import DETAIL_DIR, LAYOUT_DIR, layout_path
+    problems = []
+    if not isinstance(compat, dict):
+        return problems
+    detail_validator = make_validator(DETAIL_SCHEMA, jsonschema) if jsonschema else None
+    layout_validator = make_validator(LAYOUT_SCHEMA, jsonschema) if jsonschema else None
+    cameras = cameras if isinstance(cameras, dict) else {}
+    checked_details, used_layouts, checked_layouts = {}, set(), {}
+
+    def read(path, label, key):
+        try:
+            with open(os.path.join(root, path)) as f:
+                return json.load(f)
+        except FileNotFoundError:
+            problems.append(Problem(label, key, 'data: missing file', f'{path} does not exist'))
+        except (OSError, ValueError) as err:
+            problems.append(Problem(label, key, 'data: unreadable', f'{path}: {err}'))
+        return None
+
+    for key, entry in compat.items():
+        path = entry.get('detail') if isinstance(entry, dict) else None
+        if not path:
+            continue
+        if path not in checked_details:
+            detail = read(path, 'firmware_compatible.json', key)
+            checked_details[path] = detail
+            if detail is None:
+                continue
+            if detail_validator:
+                problems += [p._replace(file=path, key=key) for p in
+                             schema_problems(detail, DETAIL_SCHEMA, path, jsonschema, detail_validator)]
+            sha = detail.get('sha256') or ''
+            if not path.endswith(f'/{sha[:16]}.json'):
+                problems.append(Problem(path, key, 'data: name does not match sha256', f'sha256 is {sha}'))
+            for package in detail.get('packages') or []:
+                layout = package.get('partition_layout')
+                if not layout:
+                    continue
+                used_layouts.add(layout_path(layout))
+                if layout not in checked_layouts:
+                    rows = read(layout_path(layout), path, key)
+                    checked_layouts[layout] = rows
+                    if rows is not None and layout_validator:
+                        problems += [p._replace(file=layout_path(layout), key=key) for p in
+                                     schema_problems(rows, LAYOUT_SCHEMA, layout_path(layout), jsonschema,
+                                                     layout_validator)]
+                rows = checked_layouts.get(layout)
+                if rows and len(rows.get('partitions') or []) != len(package.get('partition_images') or []):
+                    problems.append(Problem(path, key, 'data: images do not match layout rows',
+                                            f'{len(package.get("partition_images") or [])} images for '
+                                            f'{len(rows.get("partitions") or [])} rows of layout {layout}'))
+        detail = checked_details.get(path)
+        file_sha = ((cameras.get(key) or {}).get('file_hashes') or {}).get('sha256')
+        if detail and file_sha and detail.get('sha256') != file_sha:
+            problems.append(Problem('both', key, 'data: detail is for different content',
+                                    f'cameras.json has sha256 {file_sha}, {path} is for {detail.get("sha256")}'))
+
+    for directory, used in ((DETAIL_DIR, set(checked_details)), (LAYOUT_DIR, used_layouts)):
+        for current, _, names in os.walk(os.path.join(root, directory)):
+            for name in names:
+                relative = os.path.relpath(os.path.join(current, name), root).replace(os.sep, '/')
+                if name.endswith('.json') and relative not in used:
+                    problems.append(Problem(relative, '', 'data: file nothing refers to',
+                                            'not used by any firmware_compatible.json entry'))
+    return problems
+
+
 def validate(cameras_path='cameras.json', compat_path='firmware_compatible.json'):
     """Returns a list of Problem tuples (empty when both files are valid)."""
     problems = []
@@ -171,6 +249,7 @@ def validate(cameras_path='cameras.json', compat_path='firmware_compatible.json'
             problems += schema_problems(compat, COMPAT_SCHEMA, 'firmware_compatible.json', jsonschema)
 
     problems += cross_file_problems(cameras, compat)
+    problems += data_problems(cameras, compat, os.path.dirname(os.path.abspath(compat_path)), jsonschema)
     return problems
 
 

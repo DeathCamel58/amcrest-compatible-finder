@@ -67,6 +67,7 @@ from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
 from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
                                       process_firmware_threaded)
+from util.analysis_store import join_result, remove_unreferenced, split_result, write_detail
 from util.json_tools import (CAMERAS_JSON, JsonFileLock, get_cameras_json, save_cameras_json, get_firmware_json,
                              save_firmware_json, json_lock)
 
@@ -846,7 +847,7 @@ def remove_non_firmware():
             for firmware_file in removed_entries:
                 result = firmware_json.pop(firmware_file, None)
                 if result is not None:
-                    removed_entries[firmware_file]['firmware_compatible'] = result
+                    removed_entries[firmware_file]['firmware_compatible'] = join_result(result)
             save_firmware_json(firmware_json)
         save_removed_entries(removed_entries)
     print('Removed non-firmware: ' + (', '.join(f'{count} {file_type}' for file_type, count in sorted(removed.items()))
@@ -1008,7 +1009,8 @@ def process_firmware(firmware_file, cameras_json=None, firmware_json=None):
         return
 
     with temp_space_for(os.path.getsize(file_path)):
-        process_firmware_threaded(firmware_file, file_path, previous, integrity)
+        process_firmware_threaded(firmware_file, file_path, previous, integrity,
+                                  (entry.get('file_hashes') or {}).get('sha256'))
 
 
 _space_condition = threading.Condition()
@@ -1041,9 +1043,34 @@ def temp_space_for(file_size):
             _space_condition.notify_all()
 
 
+def split_old_results():
+    """Move hardware_sources and packages out of firmware_compatible.json into detail files, for results saved
+    before the index/detail split. Does nothing once everything is split."""
+    cameras_json = get_cameras_json()
+    with firmware_processing_lock:
+        firmware_json = get_firmware_json()
+        moved = 0
+        for name, result in firmware_json.items():
+            if not any(field in result for field in ('hardware_sources', 'packages')):
+                continue
+            sha256 = (cameras_json.get(name, {}).get('file_hashes') or {}).get('sha256')
+            if sha256 is None and os.path.isfile(f'firmware/{name}'):
+                sha256 = get_file_hashes(f'firmware/{name}')['sha256']
+            index_entry, detail, layouts = split_result(result, sha256)
+            if detail is not None:
+                write_detail(detail, layouts)
+            firmware_json[name] = index_entry
+            moved += 1
+        if moved:
+            save_firmware_json(firmware_json)
+            print(f'Moved the details of {moved} analysis results into data/')
+    return moved
+
+
 def process_all_firmwares():
     # Scratch space for unpacking firmwares
     os.makedirs('tmp', exist_ok=True)
+    split_old_results()
 
     cameras_json = get_cameras_json()
     firmware_json = get_firmware_json()
@@ -1063,6 +1090,9 @@ def process_all_firmwares():
     flush_results()
 
     mirror_duplicate_results()
+    removed = remove_unreferenced(get_firmware_json())
+    if removed:
+        print(f'Removed {removed} detail and layout files no firmware refers to anymore')
 
 
 def with_platform(entry, path):
@@ -1091,7 +1121,7 @@ def archive_firmware_thread(firmware_file):
     cameras_json = get_cameras_json()
     entry = with_platform(cameras_json.get(firmware_file, {}), path)
     alias_entries = get_alias_entries(cameras_json, entry)
-    analysis = get_firmware_json().get(firmware_file)
+    analysis = join_result(get_firmware_json().get(firmware_file))
 
     try:
         file_md5 = (entry.get('file_hashes') or {}).get('md5')
@@ -1151,7 +1181,8 @@ def archive_all_firmwares():
     infer_vendors_from_urls()
 
     cameras_json = get_cameras_json()
-    firmware_json = get_firmware_json()
+    # The archive records carry the full analysis (hardware sources, packages), not just the index
+    firmware_json = {name: join_result(result) for name, result in get_firmware_json().items()}
 
     firmware_files = []
     skipped_truncated = []

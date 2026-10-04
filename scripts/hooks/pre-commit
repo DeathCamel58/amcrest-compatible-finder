@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
-# Refuse to commit cameras.json or firmware_compatible.json unless they pass validation (docs/schema/ plus the
-# cross-file rules). Checks the staged versions, not the working tree. Enable with:
+# Refuse to commit the firmware data unless it passes validation: cameras.json, the firmware_compatible.json index,
+# and the detail and layout files under data/ (docs/schema/ plus the cross-file rules). Checks what's staged, not
+# the working tree, so a detail file that wasn't staged is caught too. Enable with:
 #   git config core.hooksPath scripts/hooks
 # Skip once with: git commit --no-verify
 set -euo pipefail
 
-staged=$(git diff --cached --name-only --diff-filter=AM -- cameras.json firmware_compatible.json)
+staged=$(git diff --cached --name-only -- cameras.json firmware_compatible.json data/)
 [ -z "$staged" ] && exit 0
 
 repo=$(git rev-parse --show-toplevel)
@@ -14,16 +15,15 @@ python="$repo/.venv/bin/python"
 
 temp=$(mktemp -d)
 trap 'rm -rf "$temp"' EXIT
-# The staged version of each file (the committed one if only the other file is staged), so the cross-file rules
-# compare what the commit will contain
-for file in cameras.json firmware_compatible.json; do
-    git show ":$file" > "$temp/$file"
-done
+# The staged version of the data files (the committed version of anything not staged), so the checks see exactly
+# what the commit will contain
+git checkout-index --prefix="$temp/" -- cameras.json firmware_compatible.json
+git ls-files -z -- data/ | (cd "$repo" && xargs -0 -r git checkout-index --prefix="$temp/" --)
 
-echo "pre-commit: validating staged $(echo $staged | tr '\n' ' ')"
+echo "pre-commit: validating the staged firmware data ($(echo "$staged" | wc -l) changed files)"
 if ! (cd "$repo" && "$python" -m util.validate_output "$temp/cameras.json" "$temp/firmware_compatible.json"); then
     echo
-    echo "pre-commit: validation failed, so nothing was committed. Fix the data (e.g. python main.py analyse) and"
-    echo "commit again, or skip this check once with: git commit --no-verify"
+    echo "pre-commit: validation failed, so nothing was committed. Fix the data (e.g. python main.py analyse, and"
+    echo "git add data/) and commit again, or skip this check once with: git commit --no-verify"
     exit 1
 fi
