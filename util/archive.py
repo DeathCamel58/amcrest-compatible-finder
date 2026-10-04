@@ -99,8 +99,27 @@ def get_record(file_name, size, md5, entry, analysis, alias_entries):
     return {key: value for key, value in record.items() if value not in (None, [], {})}
 
 
+# Bump when get_metadata changes in a way existing items should get (it's part of the record hash, so every archived
+# item gets one metadata-only refresh). 2: the rights statement
+METADATA_VERSION = 2
+# Set when an item is created and never sent in a refresh: archive.org doesn't let uploaders take items out of a
+# collection, and items created before the switch to Community Data keep their media type
+CREATE_ONLY_FIELDS = ("collection", "mediatype")
+MANUFACTURERS = {"dahua": "Zhejiang Dahua Technology", "hikvision": "Hangzhou Hikvision Digital Technology"}
+
+
 def get_record_hash(record):
-    return hashlib.sha1(json.dumps(record, sort_keys=True).encode()).hexdigest()
+    return hashlib.sha1(json.dumps({"record": record, "metadata_version": METADATA_VERSION},
+                                   sort_keys=True).encode()).hexdigest()
+
+
+def get_rights(record, vendors):
+    """Who owns the firmware, and that it's archived as published, not licensed by the uploader."""
+    maker = MANUFACTURERS.get(record.get("platform"), "its manufacturer")
+    distributed = f", distributed by {', '.join(vendors)}" if vendors else ""
+    return (f"Firmware copyright {maker} and/or the OEM brands it was made for{distributed}. Archived unmodified, "
+            f"as published, for preservation, research and device recovery. No license is granted or implied by "
+            f"this upload; all rights remain with their owners.")
 
 
 def get_socs(record):
@@ -234,6 +253,7 @@ def get_metadata(record):
         "title": file_name,
         "mediatype": MEDIATYPE,
         "collection": COLLECTION,
+        "rights": get_rights(record, vendors),
         "description": "<br>".join(lines),
         # Only tag a platform that was actually identified; some OEMs (GSS Red|LINE) sell Hikvision, not Dahua
         "subject": [PROJECT_TAG, "firmware", "cctv"]
@@ -323,7 +343,8 @@ def refresh_archive(file_name, entry, analysis, alias_entries, archived_md5, siz
     identifier = get_identifier(file_name)
     record = get_record(file_name, size, archived_md5, entry, analysis, alias_entries)
 
-    response = internetarchive.get_item(identifier).modify_metadata(get_metadata(record))
+    metadata = {key: value for key, value in get_metadata(record).items() if key not in CREATE_ONLY_FIELDS}
+    response = internetarchive.get_item(identifier).modify_metadata(metadata)
     # 400 "no changes to _meta.xml" just means it's already current
     if response.status_code != 200 and "no changes" not in response.text.lower():
         response.raise_for_status()
