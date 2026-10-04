@@ -1105,8 +1105,8 @@ def get_alias_entries(cameras_json, entry):
     return {alias: cameras_json[alias] for alias in entry.get('aliases') or [] if alias in cameras_json}
 
 
-# Uploads at once. archive.org's spam filter flagged 3 at once from a personal account (2026-10-03)
-ARCHIVE_WORKERS = 1
+# Uploads at once. 3 at once tripped the spam filter on 2026-10-03, before archive.org cleared the account (2026-10-04)
+ARCHIVE_WORKERS = 3
 # Seconds to wait after each new upload, so a bulk upload doesn't look like spam to archive.org (they cleared a spam
 # flag on the account on 2026-10-04; a metadata-only refresh doesn't wait)
 ARCHIVE_UPLOAD_PAUSE = 45
