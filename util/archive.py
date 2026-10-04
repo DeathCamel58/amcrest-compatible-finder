@@ -11,7 +11,11 @@ import internetarchive
 # Each firmware gets its own Internet Archive item, so it has its own searchable metadata and a stable link.
 # Item identifiers can never be renamed, so don't change this scheme once items exist
 IDENTIFIER_PREFIX = "cctv-firmware-"
-COLLECTION = "open_source_software"
+# "Community Data": data and miscellaneous media from individuals. Community Software (open_source_software) is for
+# open-source and public-domain programs, which vendor firmware isn't. Uploaders can't take an item out of a
+# collection, so the 14 items uploaded there before 2026-10-04 need archive.org staff to move them
+COLLECTION = "opensource_media"
+MEDIATYPE = "data"
 # Every item gets this tag so the whole archive is one search away, until there's a dedicated collection
 # (only archive.org staff can create those)
 PROJECT_TAG = "amcrest-compatible-finder"
@@ -228,7 +232,7 @@ def get_metadata(record):
 
     metadata = {
         "title": file_name,
-        "mediatype": "software",
+        "mediatype": MEDIATYPE,
         "collection": COLLECTION,
         "description": "<br>".join(lines),
         # Only tag a platform that was actually identified; some OEMs (GSS Red|LINE) sell Hikvision, not Dahua
