@@ -1,0 +1,202 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH1510",
+    "VTH1510CH",
+    "VTH1660CH",
+    "VTH1550CHW-2",
+    "VTH52X1D",
+    "VTH5221D",
+    "VTH1560B-W",
+    "VTH5241D",
+    "VTH5222CH"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH1510",
+     "1.10"
+    ],
+    [
+     "VTH1510",
+     "1.20"
+    ],
+    [
+     "VTH1510CH",
+     "1.10"
+    ],
+    [
+     "VTH1510CH",
+     "1.20"
+    ],
+    [
+     "VTH1510CH",
+     "1.50"
+    ],
+    [
+     "VTH1510CH",
+     "1.60"
+    ],
+    [
+     "VTH1510CH",
+     "1.90"
+    ],
+    [
+     "VTH1660CH",
+     "1.10"
+    ],
+    [
+     "VTH1660CH",
+     "1.20"
+    ],
+    [
+     "VTH1550CHW-2",
+     "1.10"
+    ],
+    [
+     "VTH1550CHW-2",
+     "1.20"
+    ],
+    [
+     "VTH52X1D",
+     "1.10"
+    ],
+    [
+     "VTH52X1D",
+     "1.20"
+    ],
+    [
+     "VTH5221D",
+     "1.10"
+    ],
+    [
+     "VTH5221D",
+     "1.20"
+    ],
+    [
+     "VTH1560B-W",
+     "1.10"
+    ],
+    [
+     "VTH1560B-W",
+     "1.20"
+    ],
+    [
+     "VTH5241D",
+     "1.10"
+    ],
+    [
+     "VTH5241D",
+     "1.20"
+    ],
+    [
+     "VTH5222CH",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2017-08-03",
+    "latest": "2017-08-03"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "2.6.18_pro500-davinci_evm-arm_v5t_le",
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-08-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dm365_ubl_boot_16M.bin.img",
+     "image_name": "uboot",
+     "image_size": 258796,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1771504,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "gui-x.cramfs.img",
+     "image_name": "gui",
+     "image_size": 909312,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2981888,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6230016,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 335872,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3958e98e0d38ed05",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "76a89ea5858dcc7a0d63f7c18bab5871e084ef2f3ee706de7c60f79fcba3279b"
+}

@@ -1,0 +1,140 @@
+{
+ "id": "f4563e8ce9f3ae79",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "loader",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x80000",
+   "end": "0x80000",
+   "name": "dtb",
+   "size": 262144,
+   "start": "0x40000"
+  },
+  {
+   "end": "0xc0000",
+   "name": "backdtb",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x140000",
+   "name": "mini-Boot",
+   "size": 524288,
+   "start": "0xc0000"
+  },
+  {
+   "backup_start": "0x140000",
+   "end": "0x340000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x240000"
+  },
+  {
+   "end": "0x440000",
+   "name": "smc",
+   "size": 1048576,
+   "start": "0x340000"
+  },
+  {
+   "end": "0x540000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x440000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dgs",
+   "size": 786432,
+   "start": "0x540000"
+  },
+  {
+   "end": "0xd00000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x1400000",
+   "name": "config",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0x1b00000",
+   "name": "backup",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0x1400000"
+  },
+  {
+   "end": "0x1c00000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x1b00000"
+  },
+  {
+   "backup_start": "0x4e00000",
+   "end": "0x1d00000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x1c00000"
+  },
+  {
+   "backup_start": "0x4f00000",
+   "end": "0x2300000",
+   "name": "Kernel",
+   "size": 6291456,
+   "start": "0x1d00000"
+  },
+  {
+   "backup_start": "0x5500000",
+   "end": "0x2d00000",
+   "name": "web",
+   "read_only": true,
+   "size": 10485760,
+   "start": "0x2300000"
+  },
+  {
+   "backup_start": "0x5f00000",
+   "end": "0x4e00000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 34603008,
+   "start": "0x2d00000"
+  },
+  {
+   "end": "0x4f00000",
+   "name": "backpart",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x4e00000"
+  },
+  {
+   "end": "0x5500000",
+   "name": "backkernel",
+   "size": 6291456,
+   "start": "0x4f00000"
+  },
+  {
+   "end": "0x5f00000",
+   "name": "backweb",
+   "read_only": true,
+   "size": 10485760,
+   "start": "0x5500000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 34603008,
+   "start": "0x5f00000"
+  }
+ ]
+}

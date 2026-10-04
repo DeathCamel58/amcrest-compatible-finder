@@ -1,0 +1,162 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2521CH",
+    "VTH1521CH",
+    "VTH2521G",
+    "VTH1521G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2521CH",
+     "0.00"
+    ],
+    [
+     "VTH1521CH",
+     "0.00"
+    ],
+    [
+     "VTH2521G",
+     "0.00"
+    ],
+    [
+     "VTH1521G",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-15",
+    "latest": "2021-07-15"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "env-x.cramfs.img",
+     "image_name": "env",
+     "image_size": 67768,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "dtb.img",
+     "image_name": "dtb",
+     "image_size": 24071,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1608760,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2480312,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 288952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 485560,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "usr-x.squashfs.img",
+     "image_name": "usr",
+     "image_size": 6928568,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "product",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "f6ae50474928f217",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "080b049b6cd6c9034e010546f9aea20977f23de758ea88ab43a3aa2f32a93212"
+}

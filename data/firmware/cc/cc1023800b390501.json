@@ -1,0 +1,435 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR7xxx",
+    "General_N7",
+    "Dahua",
+    "OEM_TYPE"
+   ],
+   "member": "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505.bin",
+   "ids": [
+    "HCVR7xxx",
+    "General_N7",
+    "Dahua",
+    "OEM_TYPE"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "CONFIG_General_Eng_N_General_WebEng_General_HCVR7xxx_V3.200.0.R.150512.bin",
+   "ids": [
+    "HCVR7xxx",
+    "General_N7",
+    "Dahua",
+    "OEM_TYPE"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1376",
+   "build_dates": {
+    "earliest": "2015-05-05",
+    "latest": "2015-05-12"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N7",
+    "Dahua",
+    "OEM_TYPE"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 396684,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 22704128,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "HCVR7416L Video Jumping Fix/CONFIG_General_Eng_N_General_WebEng_General_HCVR7xxx_V3.200.0.R.150512/web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1900544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "HCVR7416L Video Jumping Fix/CONFIG_General_Eng_N_General_WebEng_General_HCVR7xxx_V3.200.0.R.150512/custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "HCVR7416L Video Jumping Fix/CONFIG_General_Eng_N_General_WebEng_General_HCVR7xxx_V3.200.0.R.150512/logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/custom-x.cramfs.img",
+    "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/logo-x.cramfs.img",
+    "HCVR7416L Video Jumping Fix/142477_General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505/web-x.cramfs.img"
+   ]
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1376",
+   "build_dates": {
+    "earliest": "2015-05-05",
+    "latest": "2015-05-05"
+   },
+   "firmware": "General_HCVR7xxx(V2.0)_Eng_P_V3.200.0024.0.T.20150505.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N7",
+    "Dahua",
+    "OEM_TYPE"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 396684,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 22704128,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1806336,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2015-05-12",
+    "latest": "2015-05-12"
+   },
+   "firmware": "CONFIG_General_Eng_N_General_WebEng_General_HCVR7xxx_V3.200.0.R.150512.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1900544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_EraseUserdataHCVRN7_3.2_TS_V1.00.0.R.20150402.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "cc1023800b3905015fc38f6a92322536e8b3b2c506e130480aa0a0b1a55519ad"
+}

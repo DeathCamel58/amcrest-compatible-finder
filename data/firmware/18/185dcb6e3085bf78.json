@@ -1,0 +1,263 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023.bin",
+   "ids": [
+    "XVR7x16-I2V2",
+    "Kangle"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-10-23",
+    "latest": "2023-10-23"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/u-boot.bin.img",
+     "image_name": "ss528V100",
+     "image_size": 391352,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 13791232,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 33320960,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7116e9f4624c73f2",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023/u-boot.bin.img",
+      "source": "image_name",
+      "value": "ss528V100"
+     }
+    ],
+    "name": "SS528V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-10-23",
+    "latest": "2023-10-23"
+   },
+   "firmware": "SilviaX16-I2(V2.0)_Eng_NP_V4.000.00KL504.0.R.231023.bin",
+   "flash_size": 268435456,
+   "kernel_version": "4.19.90",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Kangle"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "ss528V100",
+     "image_size": 391352,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "ss528V100",
+     "image_size": 11760128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "ss528V100",
+     "image_size": 38612992,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "ss528V100",
+     "image_size": 13463552,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 14950400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 33320960,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a9cd634950f253e9",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "ss528V100"
+     }
+    ],
+    "name": "SS528V100",
+    "vendor": "HiSilicon"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "185dcb6e3085bf78424bac5ec3acbeb8c1176ecc6ba407cbd940de8f2c8a9b45"
+}

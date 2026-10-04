@@ -1,0 +1,165 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_XVR4x04-I-V2_MultiLang_V4.004.0000001.0.R.250821.bin",
+   "ids": [
+    "XVR4x04-I",
+    "General_XVR4x04-I"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-21",
+    "latest": "2025-08-21"
+   },
+   "firmware": "DH_XVR4x04-I-V2_MultiLang_V4.004.0000001.0.R.250821.bin",
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR4x04-I"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "SSR920_64M",
+     "image_size": 283124,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "SSR920_64M",
+     "image_size": 3707884,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "SSR920_64M",
+     "image_size": 30306304,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "SSR920_64M",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "SSR920_64M",
+     "image_size": 3850240,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "SSR920_64M",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "SSR920_64M",
+     "image_size": 1708032,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "304dc5a582dc6ddd",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a9a55743f8439fd8657a561f780a89299cb2f7b3dc8bbcd5c358fabbb52481d3"
+}

@@ -1,0 +1,117 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "General_ARA46_Eng_PN_868_V1.000.0000001.0.R.251029.bin",
+   "ids": [
+    "ARA46-N-W2",
+    "ARA46-N-W2-868",
+    "ARA46-P-W2",
+    "ARA46-P-W2-868"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARA46-N-W2",
+     "1.00"
+    ],
+    [
+     "ARA46-N-W2-868",
+     "1.00"
+    ],
+    [
+     "ARA46-P-W2",
+     "1.00"
+    ],
+    [
+     "ARA46-P-W2-868",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_ARA46_Eng_PN_868_V1.000.0000001.0.R.251029.bin",
+   "ids": [
+    "ARA46-N-W2",
+    "ARA46-N-W2-868",
+    "ARA46-P-W2",
+    "ARA46-P-W2-868"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ARA46-N-W2:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF",
+    "ARA46-N-W2-868:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF",
+    "ARA46-P-W2:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF",
+    "ARA46-P-W2-868:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-10-29",
+    "latest": "2025-10-29"
+   },
+   "firmware": "General_ARA46_Eng_PN_868_V1.000.0000001.0.R.251029.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "Eng"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-10-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2469554,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-10-29",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.ramdisk.img",
+     "image_name": "romfs",
+     "image_size": 10623058,
+     "image_type": "ramdisk",
+     "upgraded": true
+    },
+    {
+     "built": "2025-10-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 7936184,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0ea94e123a9f3377",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1f1e434d9571a4cdf67caa430e89fa7ad05514729fe4723bac1d6183c2ece3b7"
+}

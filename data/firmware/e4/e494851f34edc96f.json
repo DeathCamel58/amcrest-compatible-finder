@@ -1,0 +1,176 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_HCVR42xx-S2_Eng_P_V3.200.0004.30.R.20151124.bin",
+   "ids": [
+    "HCVR42xx-V3",
+    "HCVR42xx-V3.1",
+    "General_HCVR42xx-V3"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1964",
+   "build_dates": {
+    "earliest": "2015-11-24",
+    "latest": "2015-11-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2015-11-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3531boot",
+     "image_size": 238388,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a46da61f6533c644",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3531boot"
+     }
+    ],
+    "name": "Hi3531",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1964",
+   "build_dates": {
+    "earliest": "2015-11-24",
+    "latest": "2017-03-07"
+   },
+   "firmware": "DH_HCVR42xx-S2_Eng_P_V3.200.0004.30.R.20151124.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_HCVR42xx-V3"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-11-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3531boot",
+     "image_size": 238388,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3531romfs",
+     "image_size": 13422592,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-11-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1552384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-11-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-11-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b3a2aa3aa4372f12",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3531boot"
+     },
+     {
+      "member": "romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3531romfs"
+     }
+    ],
+    "name": "Hi3531",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "e494851f34edc96fa974c6b38622ffdc2775fd2e61c474a5f885d0204c769bd1"
+}

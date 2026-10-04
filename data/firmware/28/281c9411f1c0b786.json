@@ -1,0 +1,367 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HFW7XXX-E3-Fafnir_MultiLang_PN_Stream4_V2.800.0000000.4.R.210708.bin",
+   "ids": [
+    "IPC-HFW8841X-3D",
+    "IPC-HFW7841X-E3",
+    "IPC-HFW7841X-E3-LB",
+    "IPC-HFW7841X-E3-WJW",
+    "IPC-HFW8841XP-E3-LB",
+    "IPC-HFW8841XP-E3"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW8841X-3D:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3-LB:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3-WJW:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW8841XP-E3-LB:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW8841XP-E3:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HFW7XXX-E3-Fafnir_MultiLang_PN_Stream4_V2.800.0000000.4.R.210708.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HFW7XXX-E3-Fafnir_MultiLang_PN_Stream4_V2.800.0000000.4.R.210708.bin",
+   "ids": [
+    "IPC-HFW8841X-3D",
+    "IPC-HFW7841X-E3",
+    "IPC-HFW7841X-E3-LB",
+    "IPC-HFW7841X-E3-WJW",
+    "IPC-HFW8841XP-E3-LB",
+    "IPC-HFW8841XP-E3"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HFW8841X-3D",
+    "IPC-HFW7841X-E3",
+    "IPC-HFW7841X-E3-LB",
+    "IPC-HFW7841X-E3-WJW",
+    "IPC-HFW8841XP-E3-LB",
+    "IPC-HFW8841XP-E3"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW8841X-3D:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3-LB:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7841X-E3-WJW:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW8841XP-E3-LB:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW8841XP-E3:01:02:00:76:2D:00:02:10:01:01:04:708:09:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-08",
+    "latest": "2021-07-08"
+   },
+   "firmware": "DH_IPC-HFW7XXX-E3-Fafnir_MultiLang_PN_Stream4_V2.800.0000000.4.R.210708.bin",
+   "flash_size": 4244635648,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 135971,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 244080,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 117786808,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9567584,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1288376,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 522424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10528952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 76286136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4278be49a99a9b14",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-08",
+    "latest": "2021-07-08"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10528952,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "64257e043ee7b5d2",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "281c9411f1c0b786807470d22680b80b5285ff5253404dc5e3199706375843e8"
+}

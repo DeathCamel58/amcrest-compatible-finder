@@ -1,0 +1,282 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_SD-Mao-Themis_Eng_P_Stream3_P2P_IVS_V2.422.0001.0.T.20170316.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Mao-Themis_Eng_P_Stream3_P2P_IVS_V2.422.0001.0.T.20170316.bin",
+   "ids": [
+    "CA-HZ2030T",
+    "CA-HZ1020TA",
+    "CA-HZ2020TA",
+    "CA-HZ2012T",
+    "SD22204T-GN-NAND",
+    "SD22204T-GNW",
+    "SD29204T-GNW",
+    "SD29204T-GN"
+   ],
+   "member": "check.img",
+   "raw": [
+    "CA-HZ2030T:01:03:04:33:18:00:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100",
+    "CA-HZ1020TA:01:03:04:37:16:13:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100",
+    "CA-HZ2020TA:01:03:04:1E:18:15:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100",
+    "CA-HZ2012T:01:03:04:36:18:00:01:0C:01:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD22204T-GN-NAND:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100",
+    "SD22204T-GNW:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100",
+    "SD29204T-GNW:01:03:04:36:18:00:01:0E:01:00:04:258:00:02:00:00:00:01:00:00:100",
+    "SD29204T-GN:01:03:04:36:18:00:01:0E:01:00:04:258:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn3567",
+   "build_dates": {
+    "earliest": "2017-03-16",
+    "latest": "2017-03-16"
+   },
+   "firmware": "DH_SD-Mao-Themis_Eng_P_Stream3_P2P_IVS_V2.422.0001.0.T.20170316.bin",
+   "flash_size": 132120576,
+   "flash_size_declared": "128M",
+   "flash_type": "NAND",
+   "kernel_version": "3.10.50",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 407468,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 292864,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1677056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1355776,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6004736,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 13144064,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "02f67146c3e8a696",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "S2LM",
+     "S2L"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2lm"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s2l"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "9dfa1aaa1bd43052e31d22e0ab794595f03b6efc3242641cf5765d9d156f4e95"
+}

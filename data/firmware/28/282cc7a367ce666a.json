@@ -1,0 +1,48 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "Config_General_VTO2111D_EngGrk_P_16M_V1.000.00.0.R_20170628.data.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 651264,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "ce713f6e3b94166a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "282cc7a367ce666a9e19cab42531076b155ee4d4b3ff2126b1b97809e1896a59"
+}

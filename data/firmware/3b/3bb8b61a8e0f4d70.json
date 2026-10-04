@@ -1,0 +1,443 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVR_V3.200.0000021.4.R.250424.bin",
+   "ids": [
+    "SDT4E425-8P-MB-0280-A",
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT8C2433-4F-GAS2-0400-A",
+    "SDT8C2440-4F-GAS2-0400-A",
+    "SDT8C2425-4F-GAS2-0400-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004",
+    "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
+    "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E",
+    "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C",
+    "SDT8C2433-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E",
+    "SDT8C2440-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E",
+    "SDT8C2425-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVR_V3.200.0000021.4.R.250424.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVR_V3.200.0000021.4.R.250424.bin",
+   "ids": [
+    "SDT4E425-8P-MB-0280-A",
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT8C2433-4F-GAS2-0400-A",
+    "SDT8C2440-4F-GAS2-0400-A",
+    "SDT8C2425-4F-GAS2-0400-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT4E425-8P-MB-0280-A",
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT8C2433-4F-GAS2-0400-A",
+    "SDT8C2440-4F-GAS2-0400-A",
+    "SDT8C2425-4F-GAS2-0400-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004",
+    "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
+    "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E",
+    "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E",
+    "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C",
+    "SDT8C2433-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E",
+    "SDT8C2440-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E",
+    "SDT8C2425-4F-GAS2-0400-A:01:03:04:B3:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:8084_800E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT4E425-8P-MB-0280-A",
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT8C2433-4F-GAS2-0400-A",
+    "SDT8C2440-4F-GAS2-0400-A",
+    "SDT8C2425-4F-GAS2-0400-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-24",
+    "latest": "2025-04-24"
+   },
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVR_V3.200.0000021.4.R.250424.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2025-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 624824,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 31177,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 135600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3815608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 19507384,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8724152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_aa.img",
+     "image_name": "romfs",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_ab.img",
+     "image_name": "romfs",
+     "image_size": 52885688,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ab.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ac.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ad.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ae.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_af.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ag.img",
+     "image_name": "firmware",
+     "image_size": 2349240,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "itop-x.ext4_aa.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ab.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ac.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ad.img",
+     "image_name": "itop",
+     "image_size": 38799544,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bb53a7cfb6625074",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hi3519dv500"
+     }
+    ],
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.200.0000021.4.R.250424"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-24",
+    "latest": "2025-04-24"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.0000021.4.R.250424"
+  }
+ ],
+ "sha256": "3bb8b61a8e0f4d70ce21bea51a055270c91671bdf30d2f4ce610cfc4716fc1ec"
+}

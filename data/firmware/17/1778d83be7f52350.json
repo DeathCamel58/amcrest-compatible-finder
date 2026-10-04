@@ -1,0 +1,169 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR4X-I",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn3151",
+   "build_dates": {
+    "earliest": "2024-10-31",
+    "latest": "2024-10-31"
+   },
+   "firmware": null,
+   "flash_size": 1073741824,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR4X-I",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3519AV100",
+     "image_size": 335933,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "hi3519AV100",
+     "image_size": 11010048,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "hi3519AV100",
+     "image_size": 38846464,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "hi3519AV100",
+     "image_size": 22286336,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "hi3519AV100",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "hi3519AV100",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-10-31",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "algorithm.img",
+     "image_name": "hi3519AV100",
+     "image_size": 73056256,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "126e3f4a255a4963",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "hi3519AV100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "1778d83be7f52350930cce5fef7cfee64c30fa2c12df47bd60bcfdd0c2b51d89"
+}

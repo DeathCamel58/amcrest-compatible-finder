@@ -1,0 +1,345 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1831R",
+    "IPC-HDBW1831R-S",
+    "IPC-HFW1831E",
+    "IPC-HFW2831T-ZS-3711",
+    "IPC-HFW2831T-ZAS-3711",
+    "IPC-HDBW2831R-ZS-3711",
+    "IPC-HDBW2831R-ZAS-3711"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW1831R-S:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW1831E:01:02:02:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:200",
+    "IPC-HFW2831T-ZS-3711:01:02:02:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW2831T-ZAS-3711:01:02:02:64:2C:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW2831R-ZS-3711:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW2831R-ZAS-3711:01:02:05:64:2C:00:01:0E:01:01:04:320:03:00:00:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Amcrest"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1831R",
+    "IPC-HDBW1831R-S",
+    "IPC-HFW1831E",
+    "IPC-HFW2831T-ZS-3711",
+    "IPC-HFW2831T-ZAS-3711",
+    "IPC-HDBW2831R-ZS-3711",
+    "IPC-HDBW2831R-ZAS-3711"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6778",
+   "build_dates": {
+    "earliest": "2020-03-30",
+    "latest": "2020-03-30"
+   },
+   "firmware": null,
+   "flash_size": 133169152,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Amcrest",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 321088,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 387256,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 75960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 75960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1861304,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1022136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6023352,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 11438264,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernelslv.img",
+     "image_name": "kernelslv",
+     "image_size": 1778360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfsslv-x.squashfs.img",
+     "image_name": "romfsslv",
+     "image_size": 12863672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "18fa9f476f9802f6",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "933e58f752a518f5a99cb4f76366e6f4e9dc93e51f3fb7d4cd4f771d16df5273"
+}

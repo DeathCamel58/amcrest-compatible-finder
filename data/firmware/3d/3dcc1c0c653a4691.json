@@ -1,0 +1,59 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_SD2AXXX-HN-MNL4G_MCU_V2.401.0000001.57.R.230107.bin",
+   "ids": [
+    "SD6XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SD2AXXX-HN-MNL4G_MCU_V2.401.0000001.57.R.230107.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-stm32.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 39904,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4b6a6a911904cba4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000001.57.RHNDU_230107_43698"
+  }
+ ],
+ "sha256": "3dcc1c0c653a4691472d3c3997de0cc499d6ebd302267a31905c33e87713581e"
+}

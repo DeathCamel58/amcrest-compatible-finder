@@ -1,0 +1,58 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "firmware-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-29",
+    "latest": "2026-05-29"
+   },
+   "firmware": "firmware-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 26831032,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "267cba2da0d4b1b7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "270061e6dbc501d6be60e1580947e099c5740f1b18dba366c049ea68031e27fc"
+}

@@ -1,0 +1,311 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-JianCe_V2.812.0000047.2.R.240723.bin",
+   "ids": [
+    "CA-HZ4040XA-C",
+    "CA-HZ8040XA-A",
+    "CA-HZ8040XA-B",
+    "CA-HZ4032XB-E"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4040XA-C:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8040XA-A:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8040XA-B:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XB-E:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-JianCe_V2.812.0000047.2.R.240723.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-JianCe_V2.812.0000047.2.R.240723.bin",
+   "ids": [
+    "CA-HZ4040XA-C",
+    "CA-HZ8040XA-A",
+    "CA-HZ8040XA-B",
+    "CA-HZ4032XB-E"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-23",
+    "latest": "2024-07-23"
+   },
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-JianCe_V2.812.0000047.2.R.240723.bin",
+   "flash_size": 3758096384,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 217456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4156228,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 3045560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3606712,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 180205752,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9173176,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "6a7949b6f84b92d0",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "87c317d63fbb37905d087507d498c1945005019be5febccf5f42289c1aa145c4"
+}

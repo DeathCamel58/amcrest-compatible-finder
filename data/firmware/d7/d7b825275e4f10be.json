@@ -1,0 +1,1145 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TPC-BF2221-TB"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-BF2221-TB:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF2221-TB_MultiLang_PN_V2.630.0000000.8.R.200702.bin",
+   "ids": [
+    "TPC-BF2221-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-BF2221-TB:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-BF2221-TB_MultiLang_PN_V2.630.0000000.8.R.200702.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF2221-TB_MultiLang_PN_V2.630.0000000.8.R.200702.bin",
+   "ids": [
+    "TPC-BF2221-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX2200-GX_V1.000.0000000.10.R.190716.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5400-BX-TP_V1.000.0000000.20.R.190716.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5800-BX-TP_V1.000.0000000.20.R.190716.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": null,
+   "flash_size": 268435456,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 3009,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 301424,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 18616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 637112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4143800,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 27277496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6199480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 14739640,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "51bfc5a85d7ddbb2",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   },
+   "unmapped_images": [
+    "dhboot-min.bin.img"
+   ]
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "DH_TPC-BF2221-TB_MultiLang_PN_V2.630.0000000.8.R.200702.bin",
+   "flash_size": 268435456,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 145744,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 301424,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 18616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 637112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4143800,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 27056312,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6199480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 14739640,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "51bfc5a85d7ddbb2",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "General_TPC-NYX2200-GX_V1.000.0000000.10.R.190716.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 3785145,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "packetCamera_TPC-NYX2200-GX_V1.000.0000000.10.R.190716.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 3918449,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "General_TPC-NYX5400-BX-TP_V1.000.0000000.20.R.190716.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 3764955,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "packetCamera_TPC-NYX5400-BX-TP_V1.000.0000000.20.R.190716.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 3898259,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "General_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 5178573,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 5311877,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "General_TPC-NYX5800-BX-TP_V1.000.0000000.20.R.190716.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 3770676,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "packetCamera_TPC-NYX5800-BX-TP_V1.000.0000000.20.R.190716.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 3903980,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "General_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 4767365,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-02",
+    "latest": "2020-07-02"
+   },
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 4900669,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d7b825275e4f10beb5e4524a9531d1641bde0e37287e31dea577e1b84095a25f"
+}

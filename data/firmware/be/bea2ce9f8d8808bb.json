@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DH_ITC41X-PW4D(PL8I)-XXX_MultiLang_PN_V5.001.10BE000.0.R.240130",
+    "ITC413-PW4D-Z1",
+    "ITC413-PW4D-Z3",
+    "ITC413-PW4D-IZ1",
+    "ITC413-PW4D-IZ3",
+    "ITC416-PL8I-IZ",
+    "ITC436-PW9H-IZ"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "DH_ITC41X-PW4D(PL8I)-XXX_MultiLang_PN_V5.001.10BE000.0.R.240130",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z3",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ3",
+     "1.00"
+    ],
+    [
+     "ITC416-PL8I-IZ",
+     "1.00"
+    ],
+    [
+     "ITC436-PW9H-IZ",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-01-30",
+    "latest": "2024-01-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-01-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 33460,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 202960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 54550,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4175544,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2672824,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 27310264,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1288376,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 41486520,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 16726200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 53868728,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7e9e6cff2220e714",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V5.001.10BE000.0.R.240130"
+  }
+ ],
+ "sha256": "bea2ce9f8d8808bb690fbac18680b5f1838b457efbd887c2c14d028875840d47"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "ed951a87d7beaf27",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "mini-Boot",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x40000",
+   "end": "0xc0000",
+   "name": "U-Boot",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0xd0000",
+   "name": "hwid",
+   "size": 65536,
+   "start": "0xc0000"
+  },
+  {
+   "end": "0xe0000",
+   "name": "partition",
+   "read_only": true,
+   "size": 65536,
+   "start": "0xd0000"
+  },
+  {
+   "end": "0x2e0000",
+   "name": "Kernel",
+   "size": 2097152,
+   "start": "0xe0000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 11665408,
+   "start": "0x2e0000"
+  },
+  {
+   "end": "0xe80000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 524288,
+   "start": "0xe00000"
+  },
+  {
+   "end": "0xf00000",
+   "name": "config",
+   "read_only": false,
+   "size": 524288,
+   "start": "0xe80000"
+  },
+  {
+   "end": "0xf80000",
+   "name": "backup",
+   "read_only": false,
+   "size": 524288,
+   "start": "0xf00000"
+  },
+  {
+   "end": "0x1000000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 524288,
+   "start": "0xf80000"
+  }
+ ]
+}

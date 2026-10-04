@@ -1,0 +1,120 @@
+{
+ "id": "039d80a29b8eeae7",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "MinBoot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x7400000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x7500000",
+   "end": "0x700000",
+   "name": "custom",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x7600000",
+   "end": "0x800000",
+   "name": "product",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x700000"
+  },
+  {
+   "backup_start": "0x7700000",
+   "end": "0xc00000",
+   "name": "Kernel",
+   "size": 4194304,
+   "start": "0x800000"
+  },
+  {
+   "backup_start": "0x7b00000",
+   "end": "0x1000000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0xc00000"
+  },
+  {
+   "backup_start": "0x7f00000",
+   "end": "0x2400000",
+   "name": "web",
+   "read_only": true,
+   "size": 20971520,
+   "start": "0x1000000"
+  },
+  {
+   "backup_start": "0x9300000",
+   "end": "0x4c00000",
+   "name": "user",
+   "read_only": true,
+   "size": 41943040,
+   "start": "0x2400000"
+  },
+  {
+   "backup_start": "0xbb00000",
+   "end": "0x7400000",
+   "name": "slave",
+   "size": 41943040,
+   "start": "0x4c00000"
+  },
+  {
+   "end": "0xf400000",
+   "name": "data",
+   "read_only": false,
+   "size": 17825792,
+   "start": "0xe300000"
+  },
+  {
+   "end": "0xf800000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xf400000"
+  },
+  {
+   "end": "0xfc00000",
+   "name": "config",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xf800000"
+  },
+  {
+   "end": "0x10000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xfc00000"
+  }
+ ]
+}

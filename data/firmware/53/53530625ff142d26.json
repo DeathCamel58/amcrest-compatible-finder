@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-01-23",
+    "latest": "2014-01-23"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-01-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVR5x04_Eng_N_kirk_V2.616.0001.12.R.20140123_custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a5aa055c37e273ca",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "53530625ff142d26d1a7738652df5732b59bc6437b6c6c6770b3099b53a3666f"
+}

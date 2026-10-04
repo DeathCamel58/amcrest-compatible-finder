@@ -1,0 +1,29 @@
+{
+ "id": "1ce3aaaade40c957",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-Boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x3a00000",
+   "name": "kernel",
+   "size": 2621440,
+   "start": "0x3780000"
+  },
+  {
+   "end": "0x5a00000",
+   "name": "kernelslv",
+   "size": 1572864,
+   "start": "0x5880000"
+  }
+ ]
+}

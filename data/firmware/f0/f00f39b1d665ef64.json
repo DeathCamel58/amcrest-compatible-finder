@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-14",
+    "latest": "2013-01-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04LF-A_Eng_N_FirstOption_V2.608.0006.0.R.20130114_slave-x.cramfs.img",
+     "image_name": "linuxslave",
+     "image_size": 1961984,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cac63f31f69bea10",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f00f39b1d665ef64fe42a83d2be7c0ab3ac5e17e93efe1d037cefe2ae26b3b72"
+}

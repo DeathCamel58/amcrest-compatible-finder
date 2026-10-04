@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-09-30",
+    "latest": "2013-09-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-09-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04HF-X-E(V2.0)_Eng_N_V2.616.0001.0.R.20130930_romfs-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 14110720,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "64a713a0850cc70e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dcd386f43a3a2f74cad16e7654a5304993ef5844b4c4a2221214344c672610f7"
+}

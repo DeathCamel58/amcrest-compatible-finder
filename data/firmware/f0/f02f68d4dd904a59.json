@@ -1,0 +1,443 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin",
+   "ids": [
+    "VTO4202F",
+    "VTO4202F-MA"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin",
+   "ids": [
+    "VTO4202F",
+    "VTO4202F-MA"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.language.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO4202F",
+    "VTO4202F-MA"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin",
+   "flash_size": 78643200,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Dutch",
+     "Ukrainian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 233840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2197688,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2551480,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4163768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 15894712,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "ce7a232a0bc56377",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516cv500"
+     }
+    ],
+    "name": "Hi3516CV500",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "General_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.language.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2197688,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4163768,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "87c65a6f732b4558",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Dutch",
+     "Ukrainian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4163768,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1a39385215d3e3a5",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f02f68d4dd904a5994cc01aaec78a9d367811dd5cde5882991d2063f1c148107"
+}

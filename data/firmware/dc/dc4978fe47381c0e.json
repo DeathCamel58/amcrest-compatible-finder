@@ -1,0 +1,443 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PDBW820XX-Fafnir_MultiLang_PN_Stream3_V3.000.0000000.2.R.210708.bin",
+   "ids": [
+    "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-PDBW820XX-Fafnir_MultiLang_PN_Stream3_V3.000.0000000.2.R.210708.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PDBW820XX-Fafnir_MultiLang_PN_Stream3_V3.000.0000000.2.R.210708.bin",
+   "ids": [
+    "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-08",
+    "latest": "2021-07-08"
+   },
+   "firmware": "DH_IPC-PDBW820XX-Fafnir_MultiLang_PN_Stream3_V3.000.0000000.2.R.210708.bin",
+   "flash_size": 18446744075638931455,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Hungarian",
+     "Indonesian",
+     "Japanese",
+     "Romanian",
+     "Thai",
+     "TradChinese",
+     "Turkish",
+     "Ukrainian",
+     "Vietnamese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 135939,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 242032,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 85358776,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9569548,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1534136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 964792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15657144,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "5a44932b762b8318",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-08",
+    "latest": "2021-07-08"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Hungarian",
+     "Indonesian",
+     "Japanese",
+     "Romanian",
+     "Thai",
+     "TradChinese",
+     "Turkish",
+     "Ukrainian",
+     "Vietnamese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 33499320,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "405d7959164beae4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-08",
+    "latest": "2021-07-08"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15657144,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "64257e043ee7b5d2",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dc4978fe47381c0e57c441b69562e4353344a158f401c0962215113538cdaf63"
+}

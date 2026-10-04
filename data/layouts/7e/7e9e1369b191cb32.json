@@ -1,0 +1,41 @@
+{
+ "id": "7e9e1369b191cb32",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "boot",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x24000",
+   "name": "hw-set",
+   "size": 16384,
+   "start": "0x20000"
+  },
+  {
+   "end": "0x2a000",
+   "name": "def-set",
+   "size": 24576,
+   "start": "0x24000"
+  },
+  {
+   "end": "0x300000",
+   "name": "linux",
+   "size": 2883584,
+   "start": "0x40000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "rootfs",
+   "size": 11534336,
+   "start": "0x300000"
+  },
+  {
+   "end": "0xe80000",
+   "name": "custom.jiffs2",
+   "size": 524288,
+   "start": "0xe00000"
+  }
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "PTZ-MT4X8052FG-4F2-0400-A",
+    "SDT8C1840-8P-FA-0280-A",
+    "SDT8C1840-8P-FG-0280-A",
+    "SDT8C1-8P-FA-0280-A",
+    "PTZ-MT4X8052FG-4F2-0400-B",
+    "CA-HZ8040FA-A",
+    "CA-HZ8040FG-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000",
+    "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E",
+    "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E",
+    "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006",
+    "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E",
+    "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "PTZ-MT4X8052FG-4F2-0400-A",
+    "SDT8C1840-8P-FA-0280-A",
+    "SDT8C1840-8P-FG-0280-A",
+    "SDT8C1-8P-FA-0280-A",
+    "PTZ-MT4X8052FG-4F2-0400-B",
+    "CA-HZ8040FA-A",
+    "CA-HZ8040FG-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "PTZ-MT4X8052FG-4F2-0400-A",
+    "SDT8C1840-8P-FA-0280-A",
+    "SDT8C1840-8P-FG-0280-A",
+    "SDT8C1-8P-FA-0280-A",
+    "PTZ-MT4X8052FG-4F2-0400-B",
+    "CA-HZ8040FA-A",
+    "CA-HZ8040FG-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000",
+    "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E",
+    "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E",
+    "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006",
+    "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E",
+    "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "PTZ-MT4X8052FG-4F2-0400-A",
+    "SDT8C1840-8P-FA-0280-A",
+    "SDT8C1840-8P-FG-0280-A",
+    "SDT8C1-8P-FA-0280-A",
+    "PTZ-MT4X8052FG-4F2-0400-B",
+    "CA-HZ8040FA-A",
+    "CA-HZ8040FG-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-12-13",
+    "latest": "2024-12-13"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2024-12-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 516136,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 516136,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 39672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2463928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1124536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12878592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 17234104,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 202971320,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ab.img",
+     "image_name": "firmware",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ac.img",
+     "image_name": "firmware",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ad.img",
+     "image_name": "firmware",
+     "image_size": 48863416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "sfmw-x.squashfs_aa.img",
+     "image_name": "sfmw",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "sfmw-x.squashfs_ab.img",
+     "image_name": "sfmw",
+     "image_size": 111007928,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8bd943000ee29f91",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.200.1CLO000.0.R.241213"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-12-13",
+    "latest": "2024-12-13"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.1CLO000.0.R.241213"
+  }
+ ],
+ "sha256": "f250937ec16e78757f2ff340ec65e44e56a30f2d19d44f03299537d51a9a5c0b"
+}

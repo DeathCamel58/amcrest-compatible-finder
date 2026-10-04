@@ -1,0 +1,224 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_NVR4x-4KS2L_MultiLang_V4.002.0000000.4.R.220729.bin",
+   "ids": [
+    "NVR4X-4KS2/L",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-29",
+    "latest": "2022-07-29"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 2777088,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 7299072,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bfaa3bf5464c70c1",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-29",
+    "latest": "2022-07-29"
+   },
+   "firmware": "General_NVR4x-4KS2L_MultiLang_V4.002.0000000.4.R.220729.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR4X-4KS2/L",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "param.bin.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 786432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 2777088,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 44953600,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 13869056,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "eusr-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0eaca6e44e5bfb5c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "3.00"
+   },
+   "soc": null,
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "83cd8518ccc4eb074ff8b879c3e6158b75f9c4d3a655570ef61966d45a80b053"
+}

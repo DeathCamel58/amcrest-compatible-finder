@@ -1,0 +1,390 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DVR3100H",
+    "IntelBras"
+   ],
+   "member": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "DVR3100H",
+    "IntelBras"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "DVR3100H",
+    "General_N6",
+    "General",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-06-03",
+    "latest": "2017-11-16"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/u-boot.bin.img",
+     "image_name": "IB56boot",
+     "image_size": 115764,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/romfs-x.cramfs.img",
+     "image_name": "IB56romfs",
+     "image_size": 3305472,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/user-x.cramfs.img",
+     "image_name": "IB56user",
+     "image_size": 6164480,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/web-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 1429504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/slave-x.cramfs.img",
+     "image_name": "IB56slave",
+     "image_size": 1769472,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/custom-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - VD 3008 - 06-06-2014 (WBN 241)/Passo 1/logo-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "9ab072f9542ba95c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-06-03",
+    "latest": "2017-11-16"
+   },
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IB56boot",
+     "image_size": 115764,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "IB56romfs",
+     "image_size": 3305472,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "IB56user",
+     "image_size": 6164480,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-11-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 1429504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "slave-x.cramfs.img",
+     "image_name": "IB56slave",
+     "image_size": 1769472,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "IB56",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "9ab072f9542ba95c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2015-04-24",
+    "latest": "2015-04-24"
+   },
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2015-04-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "custom",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b0525eb4ffe37e69",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d2fde921ae1c5b8b2bc96047c3d863bece2d49c05fa2b4e4db14570a58f5dc51"
+}

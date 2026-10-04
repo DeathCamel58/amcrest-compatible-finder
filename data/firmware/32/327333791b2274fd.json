@@ -1,0 +1,289 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-KF2X41-TB-S1_MultiLang_PN_V2.660.0000000.0.R.260819.bin",
+   "ids": [
+    "TPC-KF2241-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:00:00:800",
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:01:00:800",
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:04:00:800",
+    "TPC-KF2241-TB:01:08:14:147:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:02:00:800",
+    "TPC-KF2241-TB:01:08:14:147:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:06:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-KF2X41-TB-S1_MultiLang_PN_V2.660.0000000.0.R.260819.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-KF2X41-TB-S1_MultiLang_PN_V2.660.0000000.0.R.260819.bin",
+   "ids": [
+    "TPC-KF2241-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "TPC-KF2241-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:00:00:800",
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:01:00:800",
+    "TPC-KF2241-TB:01:08:14:10E:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:04:00:800",
+    "TPC-KF2241-TB:01:08:14:147:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:02:00:800",
+    "TPC-KF2241-TB:01:08:14:147:6A:00:02:00:00:00:00:352_352:00:00:00:00:00:00:06:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "TPC-KF2241-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-19",
+    "latest": "2026-08-19"
+   },
+   "firmware": "DH_TPC-KF2X41-TB-S1_MultiLang_PN_V2.660.0000000.0.R.260819.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 726200,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 31177,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 135600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2750648,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 17299640,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9119416,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_aa.img",
+     "image_name": "romfs",
+     "image_size": 87406776,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-19",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ab.img",
+     "image_name": "firmware",
+     "image_size": 63113400,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "599caa4d28a1a218",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hi3519dv500"
+     }
+    ],
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V2.660.0000000.0.R.260819"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-19",
+    "latest": "2026-08-19"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.660.0000000.0.R.260819"
+  }
+ ],
+ "sha256": "327333791b2274fdd1de8535e95d4fd9057928593f6b12d934966127bf6f25d3"
+}

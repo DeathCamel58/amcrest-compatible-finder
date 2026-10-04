@@ -1,0 +1,77 @@
+{
+ "id": "a9dedcde1bfef31a",
+ "partitions": [
+  {
+   "end": "0x80000",
+   "name": "fdt",
+   "size": 262144,
+   "start": "0x40000"
+  },
+  {
+   "end": "0xc0000",
+   "name": "fdtbak",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x1c0000",
+   "name": "uboot",
+   "size": 1048576,
+   "start": "0xc0000"
+  },
+  {
+   "end": "0x2c0000",
+   "name": "ubootbak",
+   "size": 1048576,
+   "start": "0x1c0000"
+  },
+  {
+   "end": "0x6c0000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x5c0000"
+  },
+  {
+   "end": "0xd00000",
+   "name": "uImage",
+   "size": 3670016,
+   "start": "0x980000"
+  },
+  {
+   "end": "0x1580000",
+   "name": "rootfs",
+   "size": 8912896,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0x2c80000",
+   "name": "userfs",
+   "size": 24117248,
+   "start": "0x1580000"
+  },
+  {
+   "end": "0x4080000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0x2c80000"
+  },
+  {
+   "end": "0x40c0000",
+   "name": "custom",
+   "size": 262144,
+   "start": "0x4080000"
+  },
+  {
+   "end": "0x4100000",
+   "name": "logo",
+   "size": 262144,
+   "start": "0x40c0000"
+  },
+  {
+   "end": "0x7300000",
+   "name": "algorithm",
+   "size": 52428800,
+   "start": "0x4100000"
+  }
+ ]
+}

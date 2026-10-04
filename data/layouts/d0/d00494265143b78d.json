@@ -1,0 +1,113 @@
+{
+ "id": "d00494265143b78d",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "boot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "boot-bak",
+   "size": 1048576,
+   "start": "0x100000"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x3c80000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x3d80000",
+   "end": "0x900000",
+   "name": "Kernel",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x4080000",
+   "end": "0xe00000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 5242880,
+   "start": "0x900000"
+  },
+  {
+   "backup_start": "0x4580000",
+   "end": "0x1800000",
+   "name": "web",
+   "read_only": true,
+   "size": 10485760,
+   "start": "0xe00000"
+  },
+  {
+   "backup_start": "0x4d80000",
+   "end": "0x1b00000",
+   "name": "data",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x1800000"
+  },
+  {
+   "backup_start": "0x5280000",
+   "end": "0x1c00000",
+   "name": "custom",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x1b00000"
+  },
+  {
+   "backup_start": "0x5380000",
+   "end": "0x3c80000",
+   "name": "user",
+   "read_only": true,
+   "size": 34078720,
+   "start": "0x1c00000"
+  },
+  {
+   "end": "0x7800000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7400000"
+  },
+  {
+   "end": "0x7c00000",
+   "name": "config",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7800000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7c00000"
+  }
+ ]
+}

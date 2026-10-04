@@ -1,0 +1,110 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_DVR-xxxPM_Eng_P_V3.606.0000.0.20090401.bin",
+   "ids": [
+    "DVRXX04HB-U",
+    "DVR0X04HBU",
+    "DVR0X04HB-U",
+    "DVR1604HBU",
+    "General",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2009-04-01",
+    "latest": "2009-04-01"
+   },
+   "firmware": "General_DVR-xxxPM_Eng_P_V3.606.0000.0.20090401.bin",
+   "flash_size": 2155872256,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2009-04-01",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "armboot-x.bin.img",
+     "image_name": "uClinux",
+     "image_size": 97166,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2009-04-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2009-04-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 6234112,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2009-04-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 1159168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "f5da839cd6b52ece",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "6d975ee4acd11593fa5ab492f63f9d44076e6d3a1ba01855a301b3dd2ed05083"
+}

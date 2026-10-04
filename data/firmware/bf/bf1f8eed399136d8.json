@@ -1,0 +1,428 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "blob.bin",
+   "ids": [
+    "IPC-PSDW8849M-A180-D440",
+    "IPC-PSDW8842M-A180-S2",
+    "IPC-PSDW81649M-A360-D237",
+    "IPC-PSDW81642ML-A360-D237"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "blob.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PSDW8XXXL-Fafnir_EngSpnFrn_PN_Stream3_V2.800.0000000.6.R.250820.bin",
+   "ids": [
+    "IPC-PSDW8849M-A180-D440",
+    "IPC-PSDW8842M-A180-S2",
+    "IPC-PSDW81649M-A360-D237",
+    "IPC-PSDW81642ML-A360-D237"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-PSDW8XXXL-Fafnir_EngSpnFrn_PN_Stream3_V2.800.0000000.6.R.250820.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PSDW8XXXL-Fafnir_EngSpnFrn_PN_Stream3_V2.800.0000000.6.R.250820.bin",
+   "ids": [
+    "IPC-PSDW8849M-A180-D440",
+    "IPC-PSDW8842M-A180-S2",
+    "IPC-PSDW81649M-A360-D237",
+    "IPC-PSDW81642ML-A360-D237"
+   ],
+   "member": "check.img",
+   "raw_same_as": 2,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-PSDW8849M-A180-D440",
+    "IPC-PSDW8842M-A180-S2",
+    "IPC-PSDW81649M-A360-D237",
+    "IPC-PSDW81642ML-A360-D237"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8849M-A180-D440:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:01:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW8842M-A180-S2:01:02:00:86:2D:00:02:10:03:03:04:800:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81649M-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:01:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000",
+    "IPC-PSDW81642ML-A360-D237:01:02:00:86:2D:00:02:10:03:03:04:400:0A:00:00:0D:03:01:00:00:1000"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-20",
+    "latest": "2025-08-20"
+   },
+   "firmware": "blob.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "blob.img",
+     "image_name": "blob",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9d1a2bd6fd4ded38",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-20",
+    "latest": "2025-08-20"
+   },
+   "firmware": "DH_IPC-PSDW8XXXL-Fafnir_EngSpnFrn_PN_Stream3_V2.800.0000000.6.R.250820.bin",
+   "flash_size": 3771727872,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 235888,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 280760,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 186552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9567640,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13535416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 85072056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 109123768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "blob.img",
+     "image_name": "blob",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "cf49918670abe2da",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-20",
+    "latest": "2025-08-20"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13535416,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5649a6a714c155a0",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bf1f8eed399136d86e919bc671793f18ed1ffd524b1a5e3b7a0df5412837790b"
+}

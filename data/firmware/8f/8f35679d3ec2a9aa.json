@@ -1,0 +1,209 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO2202F-P-S3",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO0301R-W"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO2101E-P-338:01:04:01:75:42:00:01:00:01:01:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2311R-WP:01:04:01:B4:42:00:01:00:01:01:04:400:00:02:00:00:00:00:00:00:100:FF",
+    "VTO3311Q-WP:01:04:01:B4:42:00:01:00:01:01:04:400:00:02:00:00:00:00:00:00:100:FF",
+    "VTO3311Q-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2202F-P-S3:01:04:01:75:42:00:01:00:01:01:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO3312Q-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2301R-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO1301R-W:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO0301R-W:01:04:01:00:42:00:00:00:01:01:00:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO0301R-W"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2101E-P-338",
+     "1.00"
+    ],
+    [
+     "VTO2311R-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-P",
+     "1.00"
+    ],
+    [
+     "VTO3312Q-P",
+     "1.00"
+    ],
+    [
+     "VTO2301R-P",
+     "1.00"
+    ],
+    [
+     "VTO1301R-W",
+     "1.00"
+    ],
+    [
+     "VTO0301R-W",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO2202F-P-S3",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO0301R-W"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-06-13",
+    "latest": "2022-06-13"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-06-13",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 55836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4507832,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5163704,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 20986040,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3913912,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "66c62c5cd37b854c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8f35679d3ec2a9aa4bcbe5140acd2e17288a26339cf25eb15397dc4972a7bc55"
+}

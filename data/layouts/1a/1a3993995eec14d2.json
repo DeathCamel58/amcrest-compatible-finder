@@ -1,0 +1,83 @@
+{
+ "id": "1a3993995eec14d2",
+ "partitions": [
+  {
+   "end": "0x300000",
+   "name": "param",
+   "size": 3145728,
+   "start": "0x0"
+  },
+  {
+   "end": "0x500000",
+   "name": "boot",
+   "size": 2097152,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x980000",
+   "name": "MBOOTBAK",
+   "size": 4718592,
+   "start": "0x500000"
+  },
+  {
+   "end": "0xd80000",
+   "name": "UBILD",
+   "size": 4194304,
+   "start": "0x980000"
+  },
+  {
+   "end": "0xf80000",
+   "name": "env",
+   "size": 2097152,
+   "start": "0xd80000"
+  },
+  {
+   "end": "0x1580000",
+   "name": "uImage",
+   "size": 6291456,
+   "start": "0xf80000"
+  },
+  {
+   "end": "0x4b80000",
+   "name": "rootfs",
+   "size": 56623104,
+   "start": "0x1580000"
+  },
+  {
+   "end": "0x5580000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x4b80000"
+  },
+  {
+   "end": "0x5780000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0x5580000"
+  },
+  {
+   "end": "0x5a80000",
+   "name": "logo",
+   "size": 3145728,
+   "start": "0x5780000"
+  },
+  {
+   "end": "0x6980000",
+   "name": "logs",
+   "size": 15728640,
+   "start": "0x5a80000"
+  },
+  {
+   "end": "0x7d80000",
+   "name": "config",
+   "size": 20971520,
+   "start": "0x6980000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "extend1",
+   "size": 2621440,
+   "start": "0x7d80000"
+  }
+ ]
+}

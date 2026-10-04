@@ -1,0 +1,114 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_IVD51XX&IVSS51XXAI-I_MultiLang_V3.005.0000004.0.R.260606.BIN",
+   "ids": [
+    "IVD500-M-V2",
+    "General",
+    "Dahua"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm64",
+   "bootloader_version": "U-Boot 2020.04-svn10268",
+   "build_dates": {
+    "earliest": "2026-06-06",
+    "latest": "2026-06-06"
+   },
+   "firmware": "General_IVD51XX&IVSS51XXAI-I_MultiLang_V3.005.0000004.0.R.260606.BIN",
+   "flash_size": 3145728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "Dahua"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "bf6f6bd0565394d1",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX650",
+     "AX650X",
+     "AX650A",
+     "AX650N",
+     "AX650C"
+    ],
+    "evidence": [
+     {
+      "member": "uboot_503_emmc_bk.img",
+      "source": "bootloader",
+      "value": "AX650"
+     },
+     {
+      "member": "uboot_503_emmc_bk.img",
+      "source": "bootloader",
+      "value": "AX650X"
+     },
+     {
+      "member": "uboot_503_emmc_bk.img",
+      "source": "bootloader",
+      "value": "AX650A"
+     },
+     {
+      "member": "uboot_503_emmc_bk.img",
+      "source": "bootloader",
+      "value": "AX650N"
+     },
+     {
+      "member": "uboot_503_emmc_bk.img",
+      "source": "bootloader",
+      "value": "AX650C"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   }
+  }
+ ],
+ "sha256": "ee697ccaf683a865aa22fbdbe16e26ccce3ca5e6b57523022e9893f96844d97c"
+}

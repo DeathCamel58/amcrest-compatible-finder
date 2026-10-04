@@ -1,0 +1,59 @@
+{
+ "id": "d12a1152f9a8ff4f",
+ "partitions": [
+  {
+   "end": "0x60000",
+   "name": "bootloader",
+   "size": 327680,
+   "start": "0x10000"
+  },
+  {
+   "end": "0x190000",
+   "name": "dtb",
+   "size": 65536,
+   "start": "0x180000"
+  },
+  {
+   "end": "0x300000",
+   "name": "kernel",
+   "size": 1507328,
+   "start": "0x190000"
+  },
+  {
+   "end": "0x440000",
+   "name": "web",
+   "size": 1310720,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x7b0000",
+   "name": "web",
+   "size": 4915200,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x580000",
+   "name": "web",
+   "size": 1310720,
+   "start": "0x440000"
+  },
+  {
+   "end": "0x780000",
+   "name": "user",
+   "size": 2097152,
+   "start": "0x580000"
+  },
+  {
+   "end": "0x8f0000",
+   "name": "rootfs",
+   "size": 1310720,
+   "start": "0x7b0000"
+  },
+  {
+   "end": "0xfe0000",
+   "name": "user",
+   "size": 7274496,
+   "start": "0x8f0000"
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6441F",
+    "VTO6431F",
+    "VTO6421F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6441F:01:04:01:75:33:00:01:11:01:01:04:3E8:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6431F:01:04:01:75:33:00:01:11:01:01:04:3E8:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6421F:01:04:01:75:33:00:01:11:01:01:04:3E8:00:00:00:06:00:00:00:00:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "VTO6431F",
+    "VTO6441F"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6431F",
+     "1.00"
+    ],
+    [
+     "VTO6441F",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6441F",
+    "VTO6431F",
+    "VTO6421F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-05-17",
+    "latest": "2019-05-17"
+   },
+   "firmware": null,
+   "flash_size": 268435456,
+   "kernel_version": "3.18.30",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-05-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 401284,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.img",
+     "image_name": "logo",
+     "image_size": 38136,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2593936,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 24574136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1448120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1063096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "86c3d7fbb9217a18",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c251b7db231d1af979eb120b80556415f80ec349d10c86e5c8fa163fb0f35839"
+}

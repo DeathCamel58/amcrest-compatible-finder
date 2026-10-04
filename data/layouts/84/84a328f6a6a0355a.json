@@ -1,0 +1,29 @@
+{
+ "id": "84a328f6a6a0355a",
+ "partitions": [
+  {
+   "end": "0x2c0000",
+   "name": "U-Boot",
+   "size": 1572864,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x1040000",
+   "name": "Kernel",
+   "size": 10485760,
+   "start": "0x640000"
+  },
+  {
+   "end": "0x2c40000",
+   "name": "romfs",
+   "size": 29360128,
+   "start": "0x1040000"
+  },
+  {
+   "end": "0x6340000",
+   "name": "rofile",
+   "size": 17825792,
+   "start": "0x5240000"
+  }
+ ]
+}

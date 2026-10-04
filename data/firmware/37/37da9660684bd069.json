@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-10-11",
+    "latest": "2013-10-11"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-10-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "DHVision_General_IPC-HX3(2)XXX_Eng_N_SNMP_V2.211.0000.0.T.20131011_web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 2064384,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "32e45858f9c111cd",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "37da9660684bd069e79a8521ac4ac72f2ef266ee558d1fb644d5d2ef89780253"
+}

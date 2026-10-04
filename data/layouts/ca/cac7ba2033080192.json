@@ -1,0 +1,29 @@
+{
+ "id": "cac7ba2033080192",
+ "partitions": [
+  {
+   "end": "0xa02c0000",
+   "name": "u-boot",
+   "size": 1835008,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa3580000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3380000"
+  },
+  {
+   "end": "0xa4480000",
+   "name": "web",
+   "size": 15728640,
+   "start": "0xa3580000"
+  },
+  {
+   "end": "0xa4680000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa4480000"
+  }
+ ]
+}

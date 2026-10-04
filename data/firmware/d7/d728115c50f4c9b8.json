@@ -1,0 +1,427 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ4060WX-A",
+    "CA-HZ4040WA5-A",
+    "CA-HZ4078WM-A",
+    "CA-HZ40B0WM-A",
+    "CA-HZ8020WA-B",
+    "CA-HZ8030WA-A",
+    "CA-HZ2040WA3-A",
+    "CA-HZ4040WA3-A",
+    "CA-HZ8040WA3-A",
+    "CA-HZ4040WA4-A",
+    "CA-HZ2025WD-C",
+    "CA-HZ8020WA-C",
+    "CA-HZ4040WD-D",
+    "CA-HZ8040WA3-D",
+    "CA-HZ2053WA-B",
+    "CA-HZ2050WA-B",
+    "CA-HZ2053WA-C",
+    "CA-HZ4040WA4-B",
+    "PTZ-HZ20A0WA-B",
+    "CA-HZ4040WA4-F",
+    "CA-HZ8040WA3-E",
+    "CA-HZ4040WA4-C",
+    "CA-HZ2040WA3-B",
+    "CA-HZ8040WA3-G",
+    "CA-HZ4040WA4-H",
+    "CA-HZ4060WX-B",
+    "CA-HZ8040WA3-I",
+    "CA-HZ2040WA3-D",
+    "CA-HZ8020WA1-A",
+    "PTZ-HZ20A0WF-A",
+    "PTZ-HZ2075WY-A",
+    "PTZ-HZ2076WC-A",
+    "CA-HZ4040WA4-I",
+    "CA-HZ8040WA3-H"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4060WX-A:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA5-A:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:01:00:01:00:00:1000",
+    "CA-HZ4078WM-A:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ40B0WM-A:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8020WA-B:01:03:04:5A:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8030WA-A:01:03:04:5A:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2040WA3-A:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA3-A:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA3-A:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-A:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2025WD-C:01:03:04:79:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000:04",
+    "CA-HZ8020WA-C:01:03:04:5A:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WD-D:01:03:04:8B:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000:05",
+    "CA-HZ8040WA3-D:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2053WA-B:01:03:04:76:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2050WA-B:01:03:04:76:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2053WA-C:01:03:04:76:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-B:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "PTZ-HZ20A0WA-B:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-F:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA3-E:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-C:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2040WA3-B:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA3-G:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-H:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4060WX-B:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA3-I:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ2040WA3-D:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8020WA1-A:01:03:04:9D:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "PTZ-HZ20A0WF-A:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "PTZ-HZ2075WY-A:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "PTZ-HZ2076WC-A:01:03:04:42:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA4-I:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA3-H:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ4060WX-A",
+    "CA-HZ4040WA5-A",
+    "CA-HZ4078WM-A",
+    "CA-HZ40B0WM-A",
+    "CA-HZ8020WA-B",
+    "CA-HZ8030WA-A",
+    "CA-HZ2040WA3-A",
+    "CA-HZ4040WA3-A",
+    "CA-HZ8040WA3-A",
+    "CA-HZ4040WA4-A",
+    "CA-HZ2025WD-C",
+    "CA-HZ8020WA-C",
+    "CA-HZ4040WD-D",
+    "CA-HZ8040WA3-D",
+    "CA-HZ2053WA-B",
+    "CA-HZ2050WA-B",
+    "CA-HZ2053WA-C",
+    "CA-HZ4040WA4-B",
+    "PTZ-HZ20A0WA-B",
+    "CA-HZ4040WA4-F",
+    "CA-HZ8040WA3-E",
+    "CA-HZ4040WA4-C",
+    "CA-HZ2040WA3-B",
+    "CA-HZ8040WA3-G",
+    "CA-HZ4040WA4-H",
+    "CA-HZ4060WX-B",
+    "CA-HZ8040WA3-I",
+    "CA-HZ2040WA3-D",
+    "CA-HZ8020WA1-A",
+    "PTZ-HZ20A0WF-A",
+    "PTZ-HZ2075WY-A",
+    "PTZ-HZ2076WC-A",
+    "CA-HZ4040WA4-I",
+    "CA-HZ8040WA3-H"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-10",
+    "latest": "2021-07-10"
+   },
+   "firmware": null,
+   "flash_size": 7516192768,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 135747,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 260464,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9567928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1280184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1202360,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 95119544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 12789944,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 230586552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "sfmw-x.squashfs.img",
+     "image_name": "sfmw",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware1-x.squashfs.img",
+     "image_name": "firmware1",
+     "image_size": 177731768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "6b0ded04a83d3fa5",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV3.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "d728115c50f4c9b8b81d0fe62966f0d94ff2b1e5fbdeb4f282d8d31604a1639b"
+}

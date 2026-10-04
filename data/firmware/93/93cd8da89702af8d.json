@@ -1,0 +1,180 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI2212H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2212H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI2212H-W",
+     "1.00"
+    ],
+    [
+     "ASI2212H-DW",
+     "1.00"
+    ],
+    [
+     "ASI2201H-W",
+     "1.00"
+    ],
+    [
+     "ASI2201H-DW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-24",
+    "latest": "2024-07-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Czechish",
+    "supported_languages": [
+     "Czechish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 806,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1886392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 47288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5108796,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 12998840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2828472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e7824ca617bf6704",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "93cd8da89702af8dc480677d1cd72e680b2546dd59d49ae734dc61e30557fa7a"
+}

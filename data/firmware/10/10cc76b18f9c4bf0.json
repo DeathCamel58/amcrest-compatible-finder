@@ -1,0 +1,439 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "IntelBras_SD-Gauss_PrtEngSpn_N_Stream3_V2.821.00IB004.0.R.260721.bin",
+   "ids": [
+    "SD6C3223DB-A",
+    "CA-HZ2032DB-A",
+    "CA-HZ4032DB-A",
+    "SD3C3005DB-A",
+    "SD49405DB-A",
+    "CA-HZ2023DB-A",
+    "CA-HZ2016DB-A",
+    "CA-HZ2020DB-A",
+    "CA-HZ2023DB2-A",
+    "CA-HZ2025DB-A",
+    "CA-HZ4023DB-A",
+    "CA-HZ4025DB-A",
+    "SD6C3423DB-A",
+    "SD49425DB-A",
+    "SD49423DB-A",
+    "CA-HZ4040DB-A",
+    "SD-MT3A4004DB-B",
+    "SD3A4004DB-A",
+    "SD-MT3A4004DB-C",
+    "SD3A4004DB-B",
+    "CA-HZ2040DB-A",
+    "SD-MT3A2004DB-A",
+    "SD3A2004DB-A",
+    "SD-MT3A4000DA-A",
+    "SD-MT3A4000DA-B",
+    "SD49225DB-A",
+    "SD49216DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD6C3223DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2032DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4032DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3C3005DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49405DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2016DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2020DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB2-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2025DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4023DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4025DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3423DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49425DB-A:01:03:04:78:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49423DB-A:01:03:04:78:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4040DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-B:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A4004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-C:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A4004DB-B:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2040DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A2004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A2004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4000DA-A:01:03:04:B3:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4000DA-B:01:03:04:B3:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49216DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "IntelBras_SD-Gauss_PrtEngSpn_N_Stream3_V2.821.00IB004.0.R.260721.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "IntelBras_SD-Gauss_PrtEngSpn_N_Stream3_V2.821.00IB004.0.R.260721.bin",
+   "ids": [
+    "SD6C3223DB-A",
+    "CA-HZ2032DB-A",
+    "CA-HZ4032DB-A",
+    "SD3C3005DB-A",
+    "SD49405DB-A",
+    "CA-HZ2023DB-A",
+    "CA-HZ2016DB-A",
+    "CA-HZ2020DB-A",
+    "CA-HZ2023DB2-A",
+    "CA-HZ2025DB-A",
+    "CA-HZ4023DB-A",
+    "CA-HZ4025DB-A",
+    "SD6C3423DB-A",
+    "SD49425DB-A",
+    "SD49423DB-A",
+    "CA-HZ4040DB-A",
+    "SD-MT3A4004DB-B",
+    "SD3A4004DB-A",
+    "SD-MT3A4004DB-C",
+    "SD3A4004DB-B",
+    "CA-HZ2040DB-A",
+    "SD-MT3A2004DB-A",
+    "SD3A2004DB-A",
+    "SD-MT3A4000DA-A",
+    "SD-MT3A4000DA-B",
+    "SD49225DB-A",
+    "SD49216DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD6C3223DB-A",
+    "CA-HZ2032DB-A",
+    "CA-HZ4032DB-A",
+    "SD3C3005DB-A",
+    "SD49405DB-A",
+    "CA-HZ2023DB-A",
+    "CA-HZ2016DB-A",
+    "CA-HZ2020DB-A",
+    "CA-HZ2023DB2-A",
+    "CA-HZ2025DB-A",
+    "CA-HZ4023DB-A",
+    "CA-HZ4025DB-A",
+    "SD6C3423DB-A",
+    "SD49425DB-A",
+    "SD49423DB-A",
+    "CA-HZ4040DB-A",
+    "SD-MT3A4004DB-B",
+    "SD3A4004DB-A",
+    "SD-MT3A4004DB-C",
+    "SD3A4004DB-B",
+    "CA-HZ2040DB-A",
+    "SD-MT3A2004DB-A",
+    "SD3A2004DB-A",
+    "SD-MT3A4000DA-A",
+    "SD-MT3A4000DA-B",
+    "SD49225DB-A",
+    "SD49216DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD6C3223DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2032DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4032DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3C3005DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49405DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2016DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2020DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB2-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2025DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4023DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4025DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3423DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49425DB-A:01:03:04:78:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49423DB-A:01:03:04:78:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4040DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-B:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A4004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-C:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A4004DB-B:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2040DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A2004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD3A2004DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4000DA-A:01:03:04:B3:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4000DA-B:01:03:04:B3:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49216DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD6C3223DB-A",
+    "CA-HZ2032DB-A",
+    "CA-HZ4032DB-A",
+    "SD3C3005DB-A",
+    "SD49405DB-A",
+    "CA-HZ2023DB-A",
+    "CA-HZ2016DB-A",
+    "CA-HZ2020DB-A",
+    "CA-HZ2023DB2-A",
+    "CA-HZ2025DB-A",
+    "CA-HZ4023DB-A",
+    "CA-HZ4025DB-A",
+    "SD6C3423DB-A",
+    "SD49425DB-A",
+    "SD49423DB-A",
+    "CA-HZ4040DB-A",
+    "SD-MT3A4004DB-B",
+    "SD3A4004DB-A",
+    "SD-MT3A4004DB-C",
+    "SD3A4004DB-B",
+    "CA-HZ2040DB-A",
+    "SD-MT3A2004DB-A",
+    "SD3A2004DB-A",
+    "SD-MT3A4000DA-A",
+    "SD-MT3A4000DA-B",
+    "SD49225DB-A",
+    "SD49216DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn11114",
+   "build_dates": {
+    "earliest": "2026-07-21",
+    "latest": "2026-07-21"
+   },
+   "firmware": "IntelBras_SD-Gauss_PrtEngSpn_N_Stream3_V2.821.00IB004.0.R.260721.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "Portuguese",
+     "English",
+     "Spanish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-07-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 70000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 200340,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 549232,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 32979128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 29288632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 329912,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2693816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2693816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14837944,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "rollback-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 12023992,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 608440,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fcc29756c8e67836",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51089"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51089"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "nt98560"
+     }
+    ],
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-07-21",
+    "latest": "2026-07-21"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "Portuguese",
+     "English",
+     "Spanish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "10cc76b18f9c4bf0d49168c62fac615ddea3e205937df8093e2ced27ef46c9ea"
+}

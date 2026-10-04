@@ -1,0 +1,269 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASCX2XX-A-RUSSELL-02_MultiLang_PN_V3.004.0000000.0.R.260630.bin",
+   "ids": [
+    "ASC21B-DF",
+    "ASC22B-DF",
+    "ASC24B-SF",
+    "ASC21C-D",
+    "ASC22C-D",
+    "ASC24C-D",
+    "ASC21C-DF",
+    "ASC22C-DF",
+    "ASC24C-DF",
+    "ASC21C-DBF",
+    "ASC22C-DBF",
+    "ASC24C-DBF",
+    "ASC24C-SBF",
+    "ASC620XC"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASC21B-DF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC22B-DF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC24B-SF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC21C-D:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC22C-D:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC24C-D:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC21C-DF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC22C-DF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC24C-DF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC21C-DBF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC22C-DBF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC24C-DBF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC24C-SBF:01:04:0E:00:6B:00:00:00:00:00:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "ASC620XC:01:04:0E:00:6B:00:00:00:00:00:05:400:00:03:00:00:0B:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASCX2XX-A-RUSSELL-02_MultiLang_PN_V3.004.0000000.0.R.260630.bin",
+   "ids": [
+    "ASC21B-DF",
+    "ASC22B-DF",
+    "ASC24B-SF",
+    "ASC21C-D",
+    "ASC22C-D",
+    "ASC24C-D",
+    "ASC21C-DF",
+    "ASC22C-DF",
+    "ASC24C-DF",
+    "ASC21C-DBF",
+    "ASC22C-DBF",
+    "ASC24C-DBF",
+    "ASC24C-SBF",
+    "ASC620XC"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASC21B-DF",
+     "1.00"
+    ],
+    [
+     "ASC22B-DF",
+     "1.00"
+    ],
+    [
+     "ASC24B-SF",
+     "1.00"
+    ],
+    [
+     "ASC21C-D",
+     "1.00"
+    ],
+    [
+     "ASC22C-D",
+     "1.00"
+    ],
+    [
+     "ASC24C-D",
+     "1.00"
+    ],
+    [
+     "ASC21C-DF",
+     "1.00"
+    ],
+    [
+     "ASC22C-DF",
+     "1.00"
+    ],
+    [
+     "ASC24C-DF",
+     "1.00"
+    ],
+    [
+     "ASC21C-DBF",
+     "1.00"
+    ],
+    [
+     "ASC22C-DBF",
+     "1.00"
+    ],
+    [
+     "ASC24C-DBF",
+     "1.00"
+    ],
+    [
+     "ASC24C-SBF",
+     "1.00"
+    ],
+    [
+     "ASC620XC",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASCX2XX-A-RUSSELL-02_MultiLang_PN_V3.004.0000000.0.R.260630.bin",
+   "ids": [
+    "ASC21B-DF",
+    "ASC22B-DF",
+    "ASC24B-SF",
+    "ASC21C-D",
+    "ASC22C-D",
+    "ASC24C-D",
+    "ASC21C-DF",
+    "ASC22C-DF",
+    "ASC24C-DF",
+    "ASC21C-DBF",
+    "ASC22C-DBF",
+    "ASC24C-DBF",
+    "ASC24C-SBF",
+    "ASC620XC"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11",
+   "build_dates": {
+    "earliest": "2026-06-30",
+    "latest": "2026-06-30"
+   },
+   "firmware": "DH_ASCX2XX-A-RUSSELL-02_MultiLang_PN_V3.004.0000000.0.R.260630.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "Arabic",
+     "English",
+     "French",
+     "PortugalBR",
+     "Russian",
+     "SpanishEU",
+     "Dutch",
+     "Greek",
+     "Hungarian",
+     "Italian",
+     "Polish",
+     "Portuguese",
+     "Romanian",
+     "Serbian",
+     "Slovakian",
+     "TradChinese",
+     "Turkey",
+     "Spanish",
+     "German"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-06-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 175336,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 147328,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2431160,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 7037624,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 20228280,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6084792,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "b3151c26f7c4fdc1",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.004.0000000.0.R.260630"
+  }
+ ],
+ "sha256": "e8ab98e548619b1eaaf7936d9cb7a045560d78aab9b8f2533468469620610615"
+}

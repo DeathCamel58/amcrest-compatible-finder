@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2012-07-06",
+    "latest": "2012-07-06"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2012-07-06",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_Winic_DVRxx04L(H)E-SL(AX)(DVR3116E)_Eng_N_V2.608.WI00.0.R.20120705_logo-x.cramfs.img",
+     "image_name": "logo",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "338e0ff0e7ad227a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a562be5ceea3d8884906e587dc8d8cee083da8c617710a9eb1bde964df78ef60"
+}

@@ -1,0 +1,96 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-SG50XXX-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-SG5028X",
+    "TS-SG5036FX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-SG5028X",
+     "1.00"
+    ],
+    [
+     "TS-SG5036FX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-SG50XXX-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-SG5028X",
+    "TS-SG5036FX",
+    "TTS-SG5036FX"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-SG5028X:02:04:01:0D:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-SG5036FX:02:04:01:0E:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TTS-SG5036FX:02:04:01:0E:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2026-01-08",
+    "latest": "2026-01-08"
+   },
+   "firmware": "DH_TS-SG50XXX-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 891992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 17824440,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "789b63f8d9c9bd48",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.001.0000000.29.R.260108"
+  }
+ ],
+ "sha256": "34c9e66abbd65e6032dc05c975323e8c90e3fd536ee30d2deb7501f82f652578"
+}

@@ -1,0 +1,118 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR5x16-S2",
+    "HCVR5x16-V2",
+    "General_HCVR5x16-S2",
+    "General_HCVR5x16-V2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn2018",
+   "build_dates": {
+    "earliest": "2017-04-17",
+    "latest": "2017-04-17"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_HCVR5x16-S2",
+    "General_HCVR5x16-V2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "gm8210Dboot",
+     "image_size": 306020,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "gm8210Dromfs",
+     "image_size": 12648448,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1572864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "13b052ac529787bfa6e0d44a6fe055270d0eb4686e20e36edde0b5e13ca94e09"
+}

@@ -1,0 +1,134 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_ASI1212D_EngCze_V3.203.10A0000.0.R.20210506.bin",
+   "ids": [
+    "ASI1212D"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2021-05-07",
+    "latest": "2021-05-07"
+   },
+   "firmware": "Customer_ASI1212D_EngCze_V3.203.10A0000.0.R.20210506.bin",
+   "flash_size": 54525952,
+   "kernel_version": "2.6.18_pro500-davinci_evm-arm_v5t_le",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "ASI1212D"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-05-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dm365_ubl_boot_spi.bin.img",
+     "image_name": "uboot",
+     "image_size": 260084,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "custom",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1771952,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2985984,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "gui-x.cramfs.img",
+     "image_name": "gui",
+     "image_size": 1425408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 4468736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-05-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 4136960,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "657ab09dabf5224a",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "2a3524fba6730659e26f6b942b56969f36dd62f3e5fa56eae2484ab0a2448d0f"
+}

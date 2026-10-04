@@ -1,0 +1,363 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DVR21xx",
+    "IntelBras_DVR21xx"
+   ],
+   "member": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "Update.bin",
+   "ids": [
+    "DVR21xx",
+    "IntelBras_DVR21xx"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1451",
+   "build_dates": {
+    "earliest": "2014-11-18",
+    "latest": "2017-05-10"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_DVR21xx"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/u-boot.bin.img",
+     "image_name": "IB3520Dboot",
+     "image_size": 220784,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-05-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/romfs-x.cramfs.img",
+     "image_name": "3520Dromfs",
+     "image_size": 12341248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-05-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/web-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 1462272,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/custom-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/logo-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     },
+     {
+      "member": "atualiza\u00e7\u255eo_vd_3104_-_18_11_2014/Passo 1/romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3520Dromfs"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1451",
+   "build_dates": {
+    "earliest": "2014-11-18",
+    "latest": "2017-05-10"
+   },
+   "firmware": "Update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_DVR21xx"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IB3520Dboot",
+     "image_size": 220784,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-05-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3520Dromfs",
+     "image_size": 12341248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-05-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 1462272,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-11-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "IBlinux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     },
+     {
+      "member": "romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3520Dromfs"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b5591284cfb25566",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "226c73fcc8814299dbf6ff8d19e5738ff5185605d7ee137634fb6f091c56c8cf"
+}

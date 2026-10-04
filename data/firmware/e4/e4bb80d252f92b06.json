@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-14",
+    "latest": "2013-01-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04LF-A_Eng_N_FirstOption_V2.608.0006.0.R.20130114_romfs-x.cramfs.img",
+     "image_name": "linuxromfs",
+     "image_size": 3428352,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6714e1db9f558bf",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e4bb80d252f92b067edbcc643a61c3ba5cc288ab41a654acb77b796f61f7b1ca"
+}

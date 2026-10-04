@@ -1,0 +1,35 @@
+{
+ "id": "64eae17aaaa6aeaf",
+ "partitions": [
+  {
+   "end": "0xa03c0000",
+   "name": "u-boot",
+   "size": 2621440,
+   "start": "0xa0140000"
+  },
+  {
+   "end": "0xa3880000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3680000"
+  },
+  {
+   "end": "0xa4380000",
+   "name": "web",
+   "size": 11534336,
+   "start": "0xa3880000"
+  },
+  {
+   "end": "0xa4580000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa4380000"
+  },
+  {
+   "end": "0xa7180000",
+   "name": "algorithm",
+   "size": 46137344,
+   "start": "0xa4580000"
+  }
+ ]
+}

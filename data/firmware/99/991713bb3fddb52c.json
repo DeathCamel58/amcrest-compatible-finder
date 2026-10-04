@@ -1,0 +1,186 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "NVR2XXX-I_Mul_V4.001.0000000.1.R.200930.bin",
+   "ids": [
+    "NVR2X-I",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-09-30",
+    "latest": "2020-09-30"
+   },
+   "firmware": "NVR2XXX-I_Mul_V4.001.0000000.1.R.200930.bin",
+   "flash_size": 268435456,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR2X-I",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3535AV100",
+     "image_size": 220208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "hi3535AV100",
+     "image_size": 46657536,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6311936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 12062720,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 29917184,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0823482127ee9ddb",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "hi3535AV100"
+     }
+    ],
+    "name": "Hi3535AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "991713bb3fddb52c5c5e443c1219b5ee0f08f0f5a82e38e0a2ee9c8c49f3ec03"
+}

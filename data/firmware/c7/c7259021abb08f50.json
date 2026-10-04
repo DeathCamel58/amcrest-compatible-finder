@@ -1,0 +1,185 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR2X-4KS2-W",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4669",
+   "build_dates": {
+    "earliest": "2020-06-17",
+    "latest": "2020-06-17"
+   },
+   "firmware": null,
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR2X-4KS2-W",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 405728,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 3769244,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 38051840,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 6295552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR2X-4KS3",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "ff9c6c55ac050848",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": "V2.0"
+   },
+   "soc": {
+    "candidates": [
+     "Hi3536",
+     "Hi3536C"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "HI3536"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3536C"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "c7259021abb08f5055d2abe474eadaacc546cfa2e8bb6c7f4bb0cf5ec85de7d7"
+}

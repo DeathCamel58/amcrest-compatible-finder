@@ -1,0 +1,120 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PT-4G-AOVHB-Cauchy_Eng_PN_V2.820.0000000.21.R.260820.bin",
+   "ids": [
+    "IPC-BP6XP-E2Z-4G"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-BP6XP-E2Z-4G:01:02:00:111:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-PT-4G-AOVHB-Cauchy_Eng_PN_V2.820.0000000.21.R.260820.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PT-4G-AOVHB-Cauchy_Eng_PN_V2.820.0000000.21.R.260820.bin",
+   "ids": [
+    "IPC-BP6XP-E2Z-4G"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-20",
+    "latest": "2026-08-20"
+   },
+   "firmware": "DH_IPC-PT-4G-AOVHB-Cauchy_Eng_PN_V2.820.0000000.21.R.260820.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 1181880,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2534346,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 20863160,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rofiles.bin.img",
+     "image_name": "RO_FILES",
+     "image_size": 11740088,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "84a328f6a6a0355a",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.820.0000000.21.R.260820"
+  }
+ ],
+ "sha256": "09c21af4d500d6bb5058f81c0b774ebe738a0e774bf165529320c92e88dd476d"
+}

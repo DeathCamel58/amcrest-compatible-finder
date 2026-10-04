@@ -1,0 +1,209 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ARC3X08H_MultiLang_V1.000.0000001.0.R.260402.bin",
+   "ids": [
+    "ARC3808H",
+    "ARC3408H"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ARC3808H:01:04:0D:00:67:00:00:1C:00:01:00:4B0:00:02:00:00:0B:00:00:00:100:FF",
+    "ARC3408H:01:04:0D:00:67:00:00:1C:00:01:00:4B0:00:02:00:00:09:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ARC3X08H_MultiLang_V1.000.0000001.0.R.260402.bin",
+   "ids": [
+    "ARC3808H",
+    "ARC3408H"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC3808H",
+     "1.00"
+    ],
+    [
+     "ARC3408H",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ARC3X08H_MultiLang_V1.000.0000001.0.R.260402.bin",
+   "ids": [
+    "ARC3808H",
+    "ARC3408H"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC3808H",
+    "ARC3408H"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ARC3808H:01:04:0D:00:67:00:00:1C:00:01:00:4B0:00:02:00:00:0B:00:00:00:100:FF",
+    "ARC3408H:01:04:0D:00:67:00:00:1C:00:01:00:4B0:00:02:00:00:09:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-02",
+    "latest": "2026-04-02"
+   },
+   "firmware": "DH_ARC3X08H_MultiLang_V1.000.0000001.0.R.260402.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "MultiLang"
+    ],
+    "video_standard": "NA"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 48380,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 3942584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 489656,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5191688,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 25868472,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3086520,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4c149c6179b3cf08",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-02",
+    "latest": "2026-04-02"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "MultiLang"
+    ],
+    "video_standard": "NA"
+   },
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3086520,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "76fd2f3fbeda1163",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "708c56130c66b719d237144804477dfc215c356a2205a701f47e73341e42509d"
+}

@@ -1,0 +1,223 @@
+{
+ "id": "e1d3066eff65c77f",
+ "partitions": [
+  {
+   "end": "0x600000",
+   "name": "mini-Boot",
+   "size": 6291456,
+   "start": "0x0"
+  },
+  {
+   "end": "0xc00000",
+   "name": "U-Boot",
+   "size": 6291456,
+   "start": "0x600000"
+  },
+  {
+   "end": "0xd00000",
+   "name": "vbmeta",
+   "size": 1048576,
+   "start": "0xc00000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "dtb-x3",
+   "size": 1048576,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0xf00000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0xe00000"
+  },
+  {
+   "end": "0x1000000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0xf00000"
+  },
+  {
+   "end": "0x3000000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x1000000"
+  },
+  {
+   "end": "0x5000000",
+   "name": "config",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x3000000"
+  },
+  {
+   "end": "0x7000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x5000000"
+  },
+  {
+   "end": "0x7800000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 8388608,
+   "start": "0x7000000"
+  },
+  {
+   "backup_start": "0x43c00000",
+   "end": "0x7900000",
+   "name": "dtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x7800000"
+  },
+  {
+   "backup_start": "0x43d00000",
+   "end": "0x9900000",
+   "name": "Kernel",
+   "size": 33554432,
+   "start": "0x7900000"
+  },
+  {
+   "backup_start": "0x45d00000",
+   "end": "0xb900000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x9900000"
+  },
+  {
+   "backup_start": "0x47d00000",
+   "end": "0xf900000",
+   "name": "user",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0xb900000"
+  },
+  {
+   "backup_start": "0x4bd00000",
+   "end": "0x11200000",
+   "name": "custom",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x10200000"
+  },
+  {
+   "backup_start": "0x4cd00000",
+   "end": "0x13200000",
+   "name": "data",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x11200000"
+  },
+  {
+   "backup_start": "0x4ed00000",
+   "end": "0x17200000",
+   "name": "web",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x13200000"
+  },
+  {
+   "backup_start": "0x52d00000",
+   "end": "0x1b200000",
+   "name": "firmware",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x17200000"
+  },
+  {
+   "backup_start": "0x56d00000",
+   "end": "0x43c00000",
+   "name": "free",
+   "read_only": false,
+   "size": 681574400,
+   "start": "0x1b200000"
+  },
+  {
+   "end": "0x43d00000",
+   "name": "backdtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x43c00000"
+  },
+  {
+   "end": "0x45d00000",
+   "name": "backKernel",
+   "size": 33554432,
+   "start": "0x43d00000"
+  },
+  {
+   "end": "0x47d00000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x45d00000"
+  },
+  {
+   "end": "0x4bd00000",
+   "name": "backuser",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x47d00000"
+  },
+  {
+   "end": "0x4cd00000",
+   "name": "backcustom",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x4bd00000"
+  },
+  {
+   "end": "0x4ed00000",
+   "name": "backdata",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x4cd00000"
+  },
+  {
+   "end": "0x52d00000",
+   "name": "backweb",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x4ed00000"
+  },
+  {
+   "end": "0x56d00000",
+   "name": "backfirmware",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x52d00000"
+  },
+  {
+   "end": "0x7f800000",
+   "name": "backfree",
+   "read_only": false,
+   "size": 682622976,
+   "start": "0x56d00000"
+  },
+  {
+   "end": "0x80000000",
+   "name": "ext",
+   "read_only": false,
+   "size": 8388608,
+   "start": "0x7f800000"
+  },
+  {
+   "end": "0xa0000000",
+   "name": "appData",
+   "read_only": false,
+   "size": 536870912,
+   "start": "0x80000000"
+  },
+  {
+   "end": "0xeb000000",
+   "name": "core",
+   "read_only": false,
+   "size": 1258291200,
+   "start": "0xa0000000"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_HWS1600D_Eng_PN_Oversea_4G_V4.000.0000000.2.R.250410.bin",
+   "ids": [
+    "HWS1600D-C4"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "HWS1600D-C4",
+     "1.00"
+    ],
+    [
+     "HWS1600D-C4",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-10",
+    "latest": "2025-04-10"
+   },
+   "firmware": "General_HWS1600D_Eng_PN_Oversea_4G_V4.000.0000000.2.R.250410.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-04-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 516360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 516360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 74164,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 817336,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12813056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 5503160,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 84379832,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 30431416,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 35104952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 177162424,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "f30e365e0dc943b6",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "7d51d6a4fdae7514377c84a81331f79831a32605b040886ae1a2ae2e47e40f2b"
+}

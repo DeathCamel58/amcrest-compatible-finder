@@ -1,0 +1,253 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HF8232F-HDMI",
+    "IPC-EBW81230-S3",
+    "IPC-EBW81230-H-S3",
+    "IPC-EBW8630-IVC-S3",
+    "IPC-EBW8630-S3",
+    "IPC-EBW8630-H-S3"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HF8232F-HDMI:01:02:01:1E:23:00:01:10:01:01:04:4B0:08:00:00:03:00:01:00:00:400",
+    "IPC-EBW81230-S3:01:02:0B:24:23:00:01:10:03:01:04:4B0:08:00:00:04:00:01:00:00:200",
+    "IPC-EBW81230-H-S3:01:02:0B:24:23:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:200",
+    "IPC-EBW8630-IVC-S3:01:02:0B:21:23:00:01:10:03:01:04:4B0:08:00:00:04:00:01:00:00:200",
+    "IPC-EBW8630-S3:01:02:0B:21:23:00:01:10:03:01:04:4B0:08:00:00:04:00:01:00:00:200",
+    "IPC-EBW8630-H-S3:01:02:0B:21:23:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HF8232F-HDMI",
+    "IPC-EBW81230-S3",
+    "IPC-EBW81230-H-S3",
+    "IPC-EBW8630-IVC-S3",
+    "IPC-EBW8630-S3",
+    "IPC-EBW8630-H-S3"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4992",
+   "build_dates": {
+    "earliest": "2017-09-26",
+    "latest": "2017-09-26"
+   },
+   "firmware": null,
+   "flash_size": 671088640,
+   "kernel_version": "3.18.20",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-09-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 239616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 135168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3282168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7618560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 18247680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "8837fd74c3e3266c",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3519V101",
+     "Hi3519"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3519V101"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3519"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "149fc09de03ba997c5e0d11e8d14058ce43d4ca722d61b5a81a134fa3fec6eda"
+}

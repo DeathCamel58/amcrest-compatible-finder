@@ -1,0 +1,379 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Gram_MultiLang_PN_Stream3-Len_V2.820.0000012.1.R.250826.bin",
+   "ids": [
+    "CA-HZ4045QA-A",
+    "CA-HZ4045QA-B",
+    "CA-HZ2052QA-A",
+    "CA-HZ4060QA-A",
+    "CA-HZ8045QA-A",
+    "CA-HZ4045QA1-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4045QA-A:01:03:04:86:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000",
+    "CA-HZ4045QA-B:01:03:04:86:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000",
+    "CA-HZ2052QA-A:01:03:04:86:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000",
+    "CA-HZ4060QA-A:01:03:04:86:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000",
+    "CA-HZ8045QA-A:01:03:04:74:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000",
+    "CA-HZ4045QA1-A:01:03:04:86:4A:00:01:14:01:01:04:3F0_3F0_3F0_3F0:04:00:00:0D:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Gram_MultiLang_PN_Stream3-Len_V2.820.0000012.1.R.250826.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Gram_MultiLang_PN_Stream3-Len_V2.820.0000012.1.R.250826.bin",
+   "ids": [
+    "CA-HZ4045QA-A",
+    "CA-HZ4045QA-B",
+    "CA-HZ2052QA-A",
+    "CA-HZ4060QA-A",
+    "CA-HZ8045QA-A",
+    "CA-HZ4045QA1-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn17836",
+   "build_dates": {
+    "earliest": "2025-08-26",
+    "latest": "2025-08-26"
+   },
+   "firmware": "DH_SD-Gram_MultiLang_PN_Stream3-Len_V2.820.0000012.1.R.250826.bin",
+   "flash_size": 18446744080810508287,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "miniboot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 344432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1124536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1267896,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8749752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 12982456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 100485304,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-26",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4_aa.img",
+     "image_name": "firmware",
+     "image_size": 104859832,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "25fdf3d4d71c99e4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "firmware-x.ext4_ab.img",
+    "firmware-x.ext4_ac.img",
+    "firmware-x.ext4_ad.img"
+   ]
+  }
+ ],
+ "sha256": "484e4cc01a1b6e5d34c84cc1fbdaadd21c28bde4ca1f6738851050ec19670b79"
+}

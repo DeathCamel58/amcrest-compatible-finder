@@ -1,0 +1,274 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDPW4120FP-W",
+    "IPC-HDPW4220FP-W",
+    "IPC-HDPW4221FP-W",
+    "IPC-HDPW4120FP-W-V2",
+    "IPC-HDPW4120FP-W-0280B-V2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDPW4120FP-W:01:02:05:37:16:00:01:06:01:00:04:258:00:02:00:00:00:01:00:00:100",
+    "IPC-HDPW4220FP-W:01:02:05:33:18:00:01:06:01:00:04:258:00:02:00:00:00:01:00:00:100",
+    "IPC-HDPW4221FP-W:01:02:05:36:18:00:01:06:01:00:04:258:00:02:00:00:00:01:00:00:100",
+    "IPC-HDPW4120FP-W-V2:01:02:05:36:18:00:01:06:01:00:04:258:00:02:00:00:00:01:00:00:100",
+    "IPC-HDPW4120FP-W-0280B-V2:01:02:05:36:18:00:01:06:01:00:04:258:00:02:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4581",
+   "build_dates": {
+    "earliest": "2019-11-30",
+    "latest": "2019-11-30"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": "3.10.50",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 131072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 260096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1558576,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1363968,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2125824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 8339456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 53248,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-30",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "43f7d666fc351ece",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "S2LM",
+     "S2L"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2lm"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s2l"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "1a6daa2f8f2599f7639722e9eb69e837c2bd72808e0cbcec41327200ed58916b"
+}

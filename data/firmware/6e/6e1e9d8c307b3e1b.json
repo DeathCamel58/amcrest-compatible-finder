@@ -1,0 +1,226 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX1XXX-Edison2_EngSpnRus_PN_V2.800.0000000.13.R.241226.bin",
+   "ids": [
+    "IPC-HDW1230C-A-V5",
+    "IPC-HFW1230M-V5",
+    "IPC-HFW1230V-LED-V5",
+    "IPC-HFW1230V-A-IL-V5",
+    "IPC-HFW1230V-IL-V5",
+    "IPC-B12-I6-A",
+    "IPC-B12-I6",
+    "IPC-HFW1230SP-S5-QH2",
+    "IPC-HFW1239S1P-LED-S5-QH2",
+    "IPC-HFW1230TP-ZS-S5-QH2",
+    "IPC-HFW1230MP-A-B-S5-QH2",
+    "IPC-HFW1239S1P-A-LED-S5-QH2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDW1230C-A-V5:01:02:13:CD:55:00:01:10:01:00:00:384:00:00:00:04:00:00:00:00:40",
+    "IPC-HFW1230M-V5:01:02:13:CD:55:00:01:00:00:00:00:384:00:00:00:04:00:00:00:00:40",
+    "IPC-HFW1230V-LED-V5:01:02:13:CD:55:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230V-A-IL-V5:01:02:13:CD:55:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230V-IL-V5:01:02:13:CD:55:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-B12-I6-A:01:02:13:CF:55:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-B12-I6:01:02:13:CF:55:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230SP-S5-QH2:01:02:13:CD:55:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1239S1P-LED-S5-QH2:01:02:13:CD:55:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230TP-ZS-S5-QH2:01:02:13:CD:55:00:01:00:00:00:04:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230MP-A-B-S5-QH2:01:02:13:CD:55:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1239S1P-A-LED-S5-QH2:01:02:13:CD:55:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX1XXX-Edison2_EngSpnRus_PN_V2.800.0000000.13.R.241226.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX1XXX-Edison2_EngSpnRus_PN_V2.800.0000000.13.R.241226.bin",
+   "ids": [
+    "IPC-HDW1230C-A-V5",
+    "IPC-HFW1230M-V5",
+    "IPC-HFW1230V-LED-V5",
+    "IPC-HFW1230V-A-IL-V5",
+    "IPC-HFW1230V-IL-V5",
+    "IPC-B12-I6-A",
+    "IPC-B12-I6",
+    "IPC-HFW1230SP-S5-QH2",
+    "IPC-HFW1239S1P-LED-S5-QH2",
+    "IPC-HFW1230TP-ZS-S5-QH2",
+    "IPC-HFW1230MP-A-B-S5-QH2",
+    "IPC-HFW1239S1P-A-LED-S5-QH2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-12-26",
+    "latest": "2024-12-26"
+   },
+   "firmware": "DH_IPC-HX1XXX-Edison2_EngSpnRus_PN_V2.800.0000000.13.R.241226.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 93024,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 186736,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 186736,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 198840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 6585591,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel_aol.img",
+     "image_name": "kernel_aol",
+     "image_size": 1947313,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 5048504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 1312952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition_bak.img",
+     "image_name": "partition_bak",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "eb0febd6b9e84fa0",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "HardwareSecurityVersionMajor": "1",
+     "HardwareSecurityVersionMinor": "1",
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "gk7205v200"
+     }
+    ],
+    "name": "GK7205V200",
+    "vendor": "Goke"
+   }
+  }
+ ],
+ "sha256": "6e1e9d8c307b3e1b5b9545c14973fab0633730906c438bf6d36bf2e61f5e5916"
+}

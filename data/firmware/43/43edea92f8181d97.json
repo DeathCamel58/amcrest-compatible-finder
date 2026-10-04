@@ -1,0 +1,133 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7214X",
+    "ASI7223X-A",
+    "ASI7213X-C",
+    "ASI7214X-C",
+    "ASI7213X-T",
+    "ASI7223X-A-T",
+    "ASI7213X-T1",
+    "ASI7223X-A-T1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI7213X",
+     "1.00"
+    ],
+    [
+     "ASI7214X",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A",
+     "1.00"
+    ],
+    [
+     "ASI7213X-C",
+     "1.00"
+    ],
+    [
+     "ASI7214X-C",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T1",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7213X-T",
+    "ASI7213X-T1",
+    "ASI7214X",
+    "ASI7223X-A",
+    "ASI7223X-A-T",
+    "ASI7223X-A-T1",
+    "ASI7213X-C",
+    "ASI7214X-C"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ASI7213X:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-T:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-T1:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A-T:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A-T1:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-C:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X-C:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-07-22",
+    "latest": "2020-07-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "French"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 14063800,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "90b49360926cbd20",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "43edea92f8181d978d372e911c2c197b16cacf79eea9c289ffcc1f97fd36690e"
+}

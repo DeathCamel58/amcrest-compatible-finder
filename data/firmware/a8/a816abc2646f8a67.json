@@ -1,0 +1,107 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX2200-MS-CTPGW_V1.000.0000000.7.R.20240701.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-01",
+    "latest": "2024-07-01"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2024-07-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 788664,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-01",
+    "latest": "2024-07-01"
+   },
+   "firmware": "packetCamera_TPC-NYX2200-MS-CTPGW_V1.000.0000000.7.R.20240701.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 921968,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a816abc2646f8a67f8b775fe856f848059aa4a70e4838ea6b2f23af1fbcc0e57"
+}

@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2013-10-11",
+    "latest": "2013-10-11"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-10-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "DHVision_General_IPC-HX3(2)XXX_Eng_N_SNMP_V2.211.0000.0.T.20131011_dm365_ubl_boot_16M_spiflash.bin.img",
+     "image_name": "uboot",
+     "image_size": 251508,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a1df03df767a5326",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dac28045b1d496d76b78d4d6fd7a078b0f65d41c61ac1049014b8a2ccda43667"
+}

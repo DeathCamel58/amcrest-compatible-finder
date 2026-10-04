@@ -1,0 +1,257 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Intelbras_VIP-5203-T-IA_260727.bin",
+   "ids": [
+    "TPC-BF1241-B-S8",
+    "TPC-BF1241-B10F8-S8",
+    "TPC-BF1241-BWIFI-S8",
+    "TPC-BF1241-B10F8WIFI-S8",
+    "TPC-DF1241-B-S8",
+    "TPC-DF1241-B2F2-S8",
+    "TPC-BF1241-TB-S8",
+    "TPC-BF1241-TB10F8-S8",
+    "TPC-BF1241-TBWIFI-S8",
+    "TPC-BF1241-TB10F8WIFI-S8",
+    "TPC-DF1241-TB-S8",
+    "TPC-DF1241-TB2F2-S8"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-BF1241-B-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-BWIFI-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8WIFI-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-BWIFI-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8WIFI-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-BWIFI-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8WIFI-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-BWIFI-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-B10F8WIFI-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B2F2-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B2F2-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B2F2-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-B2F2-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TBWIFI-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8WIFI-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TBWIFI-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8WIFI-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TBWIFI-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8WIFI-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TBWIFI-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1241-TB10F8WIFI-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB2F2-S8:01:08:0C:A5:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB2F2-S8:01:08:0C:10E:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB2F2-S8:01:08:0C:147:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1241-TB2F2-S8:01:08:0C:14F:64:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Intelbras_VIP-5203-T-IA_260727.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Intelbras_VIP-5203-T-IA_260727.bin",
+   "ids": [
+    "TPC-BF1241-B-S8",
+    "TPC-BF1241-B10F8-S8",
+    "TPC-BF1241-BWIFI-S8",
+    "TPC-BF1241-B10F8WIFI-S8",
+    "TPC-DF1241-B-S8",
+    "TPC-DF1241-B2F2-S8",
+    "TPC-BF1241-TB-S8",
+    "TPC-BF1241-TB10F8-S8",
+    "TPC-BF1241-TBWIFI-S8",
+    "TPC-BF1241-TB10F8WIFI-S8",
+    "TPC-DF1241-TB-S8",
+    "TPC-DF1241-TB2F2-S8"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn38202",
+   "build_dates": {
+    "earliest": "2026-07-27",
+    "latest": "2026-07-27"
+   },
+   "firmware": "Intelbras_VIP-5203-T-IA_260727.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portugal",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portugal"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 81592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "vendor.bin.img",
+     "image_name": "vendor",
+     "image_size": 111800,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhbootup.bin.img",
+     "image_name": "boot",
+     "image_size": 946248,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 36957,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 424120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 293048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5112504,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 17004728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 54970552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 39213240,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "16ce5f269148d303",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhbootup.bin.img",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   }
+  }
+ ],
+ "sha256": "c003adada5df29287231f821bd07cd3b6aab5596ad90b0fa64770c6f5288c50a"
+}

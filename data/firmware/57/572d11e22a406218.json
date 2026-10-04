@@ -1,0 +1,220 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-PFS4218-16ET-190",
+    "TS-PFS4218-16ET-240",
+    "TS-PFS4226-24ET-240",
+    "TS-PFS4226-24ET-360",
+    "TS-PFS42XX",
+    "TS-PFS4218-16ET",
+    "TS-PFS4226-24ET"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TS-PFS4218-16ET-190:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4218-16ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET-360:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS42XX:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4218-16ET:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "TS-PFS42XX-XXET-XX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-PFS42XX-XXET-XX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-PFS4218-16ET-190",
+    "TS-PFS4218-16ET-240",
+    "TS-PFS4226-24ET-240",
+    "TS-PFS4226-24ET-360",
+    "TS-PFS42XX",
+    "TS-PFS4218-16ET",
+    "TS-PFS4226-24ET"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4366",
+   "build_dates": {
+    "earliest": "2017-10-17",
+    "latest": "2017-10-17"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.0.8+",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": ""
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-10-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 192512,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1175212,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 749568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2248704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 7200768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "484f6da8f437163c",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "572d11e22a406218bee4f0cf0abb6ed0e1625b42c1ba3f95c6752c0b921f846e"
+}

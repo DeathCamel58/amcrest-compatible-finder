@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-01-10",
+    "latest": "2014-01-10"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_NVR5xxx_Eng_N_V2.616.0000.0.R.20140110_romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 22409216,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4f8906dbff5ad75c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5d78ee6023b8cd359bccde910de7fc78dd114d5ed4dc2db852383bcffd8ccb4a"
+}

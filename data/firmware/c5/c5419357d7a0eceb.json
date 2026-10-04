@@ -1,0 +1,85 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TS-WM4720-XX-VenusC_Eng_Local_V1.000.0000000.3.R.220726.bin",
+   "ids": [
+    "DH-WM4720-OW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "DH-WM4720-OW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-26",
+    "latest": "2022-07-26"
+   },
+   "firmware": "DH_TS-WM4720-XX-VenusC_Eng_Local_V1.000.0000000.3.R.220726.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "tclinux.bin.img",
+     "image_name": "firmware",
+     "image_size": 18916626,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom.squashfs.img",
+     "image_name": "custom",
+     "image_size": 114640,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "985390ae85b5a47a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000000.3.R.220726"
+  }
+ ],
+ "sha256": "c5419357d7a0eceb81b36056fa9fdf92ee17e56a901e3824fed29cec1dcccdd7"
+}

@@ -1,0 +1,35 @@
+{
+ "id": "532a09e958413a77",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "boot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x6e00000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x6d00000"
+  },
+  {
+   "end": "0x7e00000",
+   "name": "kernel",
+   "size": 16777216,
+   "start": "0x6e00000"
+  },
+  {
+   "end": "0x9e00000",
+   "name": "rootfs",
+   "size": 33554432,
+   "start": "0x7e00000"
+  }
+ ]
+}

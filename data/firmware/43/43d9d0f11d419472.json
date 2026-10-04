@@ -1,0 +1,271 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.810.0000000.4.R.260528.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF",
+    "VTH5X41G:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "VTHX4X1:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH8641KMG-A:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:0E:08:00:00:00:80:FF",
+    "VTH864X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTHX62X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH262X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.810.0000000.4.R.260528.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.810.0000000.4.R.260528.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-28",
+    "latest": "2026-05-28"
+   },
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.810.0000000.4.R.260528.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Hebrew",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "mini-boot",
+     "image_size": 26808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 818,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 53760,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 633016,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5224324,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 17897656,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 59992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1804472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "89e64915377370c8",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "43d9d0f11d41947279bf18a717200a0a4e6764fa01ad4e9a9278a8dfc8dcac79"
+}

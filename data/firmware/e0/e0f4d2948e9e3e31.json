@@ -1,0 +1,412 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX3XXX-Sag_EngSpnFrn_PN_Stream3_V2.800.0000000.11.R.230626.bin",
+   "ids": [
+    "IPC-HF3241F",
+    "IPC-HFW3241E-Z-27135",
+    "IPC-HFW3241E-Z-0735",
+    "IPC-HDBW3241E-Z-27135",
+    "IPC-HDBW3241E-Z-0735"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HF3241F:01:02:01:4A:2C:00:01:0F:07:01:04:320:08:00:00:04:00:01:00:00:400",
+    "IPC-HFW3241E-Z-27135:01:02:02:4A:2C:00:01:0F:01:01:04:320:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW3241E-Z-0735:01:02:02:4A:2C:00:01:0F:01:01:04:320:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW3241E-Z-27135:01:02:05:4A:2C:00:01:0F:01:01:04:320:03:00:00:04:00:01:00:00:400",
+    "IPC-HDBW3241E-Z-0735:01:02:05:4A:2C:00:01:0F:01:01:04:320:03:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX3XXX-Sag_EngSpnFrn_PN_Stream3_V2.800.0000000.11.R.230626.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX3XXX-Sag_EngSpnFrn_PN_Stream3_V2.800.0000000.11.R.230626.bin",
+   "ids": [
+    "IPC-HF3241F",
+    "IPC-HFW3241E-Z-27135",
+    "IPC-HFW3241E-Z-0735",
+    "IPC-HDBW3241E-Z-27135",
+    "IPC-HDBW3241E-Z-0735"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HF3241F",
+    "IPC-HFW3241E-Z-27135",
+    "IPC-HFW3241E-Z-0735",
+    "IPC-HDBW3241E-Z-27135",
+    "IPC-HDBW3241E-Z-0735"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HF3241F:01:02:01:4A:2C:00:01:0F:07:01:04:320:08:00:00:04:00:01:00:00:400",
+    "IPC-HFW3241E-Z-27135:01:02:02:4A:2C:00:01:0F:01:01:04:320:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW3241E-Z-0735:01:02:02:4A:2C:00:01:0F:01:01:04:320:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW3241E-Z-27135:01:02:05:4A:2C:00:01:0F:01:01:04:320:03:00:00:04:00:01:00:00:400",
+    "IPC-HDBW3241E-Z-0735:01:02:05:4A:2C:00:01:0F:01:01:04:320:03:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn8031",
+   "build_dates": {
+    "earliest": "2023-06-26",
+    "latest": "2023-06-26"
+   },
+   "firmware": "DH_IPC-HX3XXX-Sag_EngSpnFrn_PN_Stream3_V2.800.0000000.11.R.230626.bin",
+   "flash_size": 133169152,
+   "kernel_version": "3.0.8+",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 320732,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 364728,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 284856,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 387256,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1863576,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1022136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7403704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 12318904,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernelslv.img",
+     "image_name": "kernelslv",
+     "image_size": 1401568,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfsslv-x.squashfs.img",
+     "image_name": "romfsslv",
+     "image_size": 15960248,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "27c9db0c40b8a6f8",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-06-26",
+    "latest": "2023-06-26"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7403704,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "874f910231921947",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e0f4d2948e9e3e314a942129a7c45ec15075ea91a2b0b470907654c6e8648690"
+}

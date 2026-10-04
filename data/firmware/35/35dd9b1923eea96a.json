@@ -1,0 +1,240 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "V5.000.0000000.2.R.240726",
+    "ITC415-PW6M-LZ-C2",
+    "ITC415-PW6M-IZ-C2",
+    "ITC437-PW6M-LZ-C2",
+    "ITC437-PW6M-IZ-C2",
+    "ITC215-PW6M-LZF-C2",
+    "ITC215-PW6M-IRLZF-C2",
+    "ITC237-PW6M-LZF-C2",
+    "ITC237-PW6M-IRLZF-C2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "V5.000.0000000.2.R.240726",
+     "1.00"
+    ],
+    [
+     "ITC415-PW6M-LZ-C2",
+     "1.00"
+    ],
+    [
+     "ITC415-PW6M-IZ-C2",
+     "1.00"
+    ],
+    [
+     "ITC437-PW6M-LZ-C2",
+     "1.00"
+    ],
+    [
+     "ITC437-PW6M-IZ-C2",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-LZF-C2",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-IRLZF-C2",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-LZF-C2",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-IRLZF-C2",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn10702",
+   "build_dates": {
+    "earliest": "2024-07-26",
+    "latest": "2024-07-26"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 467312,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 67768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8749752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 3836088,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 31336632,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 3139768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 8091832,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15538360,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 45181112,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "324e3a35643f846c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "CV22BUB",
+     "CV22"
+    ],
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "ambarella,cv22bub"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "ambarella,cv22"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Ambarella CV22 Walnut Board"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,cv22bub"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,cv22"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   },
+   "software_version": "V5.000.0000000.2.R.240726"
+  }
+ ],
+ "sha256": "35dd9b1923eea96a9beac1675682ad7aae80f4b5cd08af087f3bef00804de19e"
+}

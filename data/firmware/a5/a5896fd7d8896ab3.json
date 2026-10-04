@@ -1,0 +1,109 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ2030T-S2",
+    "CA-HZ2025T-S2",
+    "CA-HZ2012T-S2",
+    "CA-HZ2023T-S2",
+    "SD22404T-GNW-S2",
+    "SD22404T-GN-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "CA-HZ2030T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2025T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2012T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2023T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "SD22404T-GNW-S2:01:03:04:36:21:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:200:FF",
+    "SD22404T-GN-S2:01:03:04:36:21:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:200:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2017-04-26",
+    "latest": "2017-04-26"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "flash_size_declared": "128M",
+   "flash_type": "NAND",
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Poland"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-04-26",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 65536,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d5dfb736f7f99a60",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a5896fd7d8896ab317485a867a1ab4835143dbc4b461d98705dc51539a47b334"
+}

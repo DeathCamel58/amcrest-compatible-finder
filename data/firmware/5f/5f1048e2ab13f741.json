@@ -1,0 +1,93 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO2202F",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO2211G-WP",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO3211D-P-S2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.10"
+    ],
+    [
+     "VTO1201G-P",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P",
+     "1.10"
+    ],
+    [
+     "VTO3211D-P-S2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 3942584,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cb8e8c01f130e897",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5f1048e2ab13f741b52bd29568ac05364a2e4f71d9b3684a1ee0d2e8c74404cc"
+}

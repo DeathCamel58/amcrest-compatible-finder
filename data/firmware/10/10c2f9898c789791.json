@@ -1,0 +1,379 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASA3213G-MW",
+    "ASA3213GL-MW",
+    "ASI3213G-MW",
+    "ASI3213GL-MW",
+    "ASI6214J-MFW",
+    "ASI3214J-MFW",
+    "ASI6213J-MW",
+    "ASI3213J-MW"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASA3213G-MW:01:04:06:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASA3213GL-MW:01:04:06:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI3213G-MW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI3213GL-MW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI6214J-MFW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI3214J-MFW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI6213J-MW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF",
+    "ASI3213J-MW:01:04:05:AC:36:00:02:10:01:01:04:384_384:00:03:00:06:00:01:00:00:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "ASA3213G-MW",
+    "ASA3213GL-MW",
+    "ASI3213G-MW",
+    "ASI3213GL-MW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASA3213G-MW",
+     "1.00"
+    ],
+    [
+     "ASA3213GL-MW",
+     "1.00"
+    ],
+    [
+     "ASI3213G-MW",
+     "1.00"
+    ],
+    [
+     "ASI3213GL-MW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASA3213G-MW",
+    "ASA3213GL-MW",
+    "ASI3213G-MW",
+    "ASI3213GL-MW",
+    "ASI6214J-MFW",
+    "ASI3214J-MFW",
+    "ASI6213J-MW",
+    "ASI3213J-MW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-04-29",
+    "latest": "2021-04-29"
+   },
+   "firmware": null,
+   "flash_size": 18446744075681923071,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Korean",
+     "Arabic",
+     "SpanishLatin",
+     "Thai"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 207216,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3918913,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 32958648,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 36608184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4442296,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-04-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware.img",
+     "image_name": "firmware",
+     "image_size": 111745208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "88348c197be19bfa",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "10c2f9898c789791ad07c30d68c7380ee581bb8ccb3b1ad3966bdd4e02b66e90"
+}

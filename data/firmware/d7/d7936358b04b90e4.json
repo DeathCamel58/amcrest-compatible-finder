@@ -1,0 +1,72 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_SDT5XXXX-HN-WA-V_MCU_V2.401.0000000.58.R.191213.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SDT5XXXX-HN-WA-V_MCU_V2.401.0000000.58.R.191213.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 131108,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main1.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 131108,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "23397f4cf5d3e26c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d7936358b04b90e4230e947e49f74a70f624a4926dfb25add977a36db5f03b99"
+}

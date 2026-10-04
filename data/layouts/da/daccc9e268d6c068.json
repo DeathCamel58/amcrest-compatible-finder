@@ -1,0 +1,112 @@
+{
+ "id": "daccc9e268d6c068",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "boot0",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0x280000",
+   "name": "boot",
+   "size": 2359296,
+   "start": "0x40000"
+  },
+  {
+   "backup_start": "0x5a80000",
+   "end": "0x2a0000",
+   "name": "mbr",
+   "size": 131072,
+   "start": "0x280000"
+  },
+  {
+   "end": "0x4e0000",
+   "name": "ubootbackup",
+   "size": 2359296,
+   "start": "0x2a0000"
+  },
+  {
+   "backup_start": "0x5aa0000",
+   "end": "0x520000",
+   "name": "env",
+   "size": 262144,
+   "start": "0x4e0000"
+  },
+  {
+   "end": "0x620000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x520000"
+  },
+  {
+   "backup_start": "0x5ae0000",
+   "end": "0x720000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x620000"
+  },
+  {
+   "end": "0x7a0000",
+   "name": "dgs",
+   "size": 524288,
+   "start": "0x720000"
+  },
+  {
+   "backup_start": "0x5be0000",
+   "end": "0xba0000",
+   "name": "kernel",
+   "size": 4194304,
+   "start": "0x7a0000"
+  },
+  {
+   "backup_start": "0x5fe0000",
+   "end": "0xfa0000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0xba0000"
+  },
+  {
+   "backup_start": "0x63e0000",
+   "end": "0xfc0000",
+   "name": "logo",
+   "read_only": true,
+   "size": 131072,
+   "start": "0xfa0000"
+  },
+  {
+   "backup_start": "0x6400000",
+   "end": "0x13c0000",
+   "name": "web",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0xfc0000"
+  },
+  {
+   "backup_start": "0x6800000",
+   "end": "0x19c0000",
+   "name": "data",
+   "read_only": true,
+   "size": 6291456,
+   "start": "0x13c0000"
+  },
+  {
+   "backup_start": "0x6e00000",
+   "end": "0x28c0000",
+   "name": "usr",
+   "read_only": true,
+   "size": 15728640,
+   "start": "0x19c0000"
+  },
+  {
+   "backup_start": "0x7d00000",
+   "end": "0x2900000",
+   "name": "pd",
+   "read_only": true,
+   "size": 262144,
+   "start": "0x28c0000"
+  }
+ ]
+}

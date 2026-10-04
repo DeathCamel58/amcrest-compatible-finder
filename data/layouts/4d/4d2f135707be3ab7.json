@@ -1,0 +1,35 @@
+{
+ "id": "4d2f135707be3ab7",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_8M_spiflash",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2160000",
+   "name": "kernel",
+   "size": 1048576,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x21c0000",
+   "name": "data",
+   "size": 393216,
+   "start": "0x2160000"
+  },
+  {
+   "end": "0x2600000",
+   "name": "rootfs",
+   "size": 4456448,
+   "start": "0x21c0000"
+  },
+  {
+   "end": "0x2740000",
+   "name": "web",
+   "size": 1310720,
+   "start": "0x2600000"
+  }
+ ]
+}

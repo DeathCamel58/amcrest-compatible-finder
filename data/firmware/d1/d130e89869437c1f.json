@@ -1,0 +1,251 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_NVR5XXX-4KS2_MultiLang_V4.001.0000000.0.R.200221.bin",
+   "ids": [
+    "NVR5X-4K",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4440",
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "DH_NVR5XXX-4KS2_MultiLang_V4.001.0000000.0.R.200221.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR5X-4K",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 370832,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 3002480,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 19812352,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot_slave.bin.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 108380,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage_slave.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 1819664,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs_slave-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 5509184,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "575S_PMX.bin.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 13824,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 5574656,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs2-x.squashfs.img",
+     "image_name": "NVR5XXX-4K",
+     "image_size": 13893632,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b0a97ededf746381",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": "V2.1"
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "HI3536"
+     },
+     {
+      "member": "u-boot_slave.bin.img",
+      "source": "bootloader",
+      "value": "Hi3536"
+     }
+    ],
+    "name": "Hi3536",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "d130e89869437c1fb75935997ef4a5ba72d6503dee611b1d3bbdf1cadccb6d99"
+}

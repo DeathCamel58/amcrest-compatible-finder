@@ -1,0 +1,153 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-WDS-S2-Cayenne",
+    "IPC-WDS-S2-USA"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-WDS-S2-Cayenne:01:04:07:00:39:00:00:10:00:01:00:320:00:02:00:00:04:00:00:00:40",
+    "IPC-WDS-S2-USA:01:04:0F:00:39:00:00:10:00:01:00:3E8:00:02:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-WDS-S2-Cayenne",
+    "IPC-WDS-S2-USA"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-06-07",
+    "latest": "2023-06-07"
+   },
+   "firmware": null,
+   "flash_size": 8388608,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-06-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 166448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1278856,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 6310072,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "3fedba32d43939ec",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "886b24aae5aca7ece769762651a9ea906c35cae777082e71f585b4f19216d7d7"
+}

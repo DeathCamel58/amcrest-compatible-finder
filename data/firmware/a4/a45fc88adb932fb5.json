@@ -1,0 +1,302 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ARC3000H_MultiLang_PN_868_V1.001.0000011.5.R.260402.bin",
+   "ids": [
+    "ARC3000H-W2",
+    "ARC3000H-GW2",
+    "ARC3000H-FW2",
+    "ARC3000H-RW2",
+    "ARC3000H-GRW2",
+    "ARC3000H-FRW2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ARC3000H-W2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-GW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-FW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-RW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-GRW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-FRW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ARC3000H_MultiLang_PN_868_V1.001.0000011.5.R.260402.bin",
+   "ids": [
+    "ARC3000H-W2",
+    "ARC3000H-GW2",
+    "ARC3000H-FW2",
+    "ARC3000H-RW2",
+    "ARC3000H-GRW2",
+    "ARC3000H-FRW2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC3000H-W2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-GW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-FW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-RW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-GRW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-FRW2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ARC3000H_MultiLang_PN_868_V1.001.0000011.5.R.260402.bin",
+   "ids": [
+    "ARC3000H-W2",
+    "ARC3000H-GW2",
+    "ARC3000H-FW2",
+    "ARC3000H-RW2",
+    "ARC3000H-GRW2",
+    "ARC3000H-FRW2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC3000H-W2",
+    "ARC3000H-GW2",
+    "ARC3000H-FW2",
+    "ARC3000H-RW2",
+    "ARC3000H-GRW2",
+    "ARC3000H-FRW2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC3000H-W2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-GW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-FW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-RW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-GRW2",
+     "1.00"
+    ],
+    [
+     "ARC3000H-FRW2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC3000H-W2",
+    "ARC3000H-GW2",
+    "ARC3000H-FW2",
+    "ARC3000H-RW2",
+    "ARC3000H-GRW2",
+    "ARC3000H-FRW2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ARC3000H-W2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-GW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-FW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-RW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-GRW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC3000H-FRW2:01:04:0D:00:45:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-02",
+    "latest": "2026-04-02"
+   },
+   "firmware": "DH_ARC3000H_MultiLang_PN_868_V1.001.0000011.5.R.260402.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Arabic",
+     "Dansk",
+     "French",
+     "Italian",
+     "Turkey"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49719,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1329336,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 30904,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4660372,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 17336504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0d1c937075805015",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-02",
+    "latest": "2026-04-02"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Arabic",
+     "Dansk",
+     "French",
+     "Italian",
+     "Turkey"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bbe56df1340d15a6",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a45fc88adb932fb5376da781078a4a8313a924248f184672e79ec7b5bdd23223"
+}

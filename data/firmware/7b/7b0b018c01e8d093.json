@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-12-24",
+    "latest": "2013-12-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-12-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_IPC-HX3(2)XXX_Eng_N_V2.212.0001.0.R.20131224_romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2465792,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a085e2783707cbfb",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "7b0b018c01e8d093e2d2d7df07b58e1dc682a9190f0b24130120d3ed191399a4"
+}

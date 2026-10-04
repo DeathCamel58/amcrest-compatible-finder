@@ -1,0 +1,277 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTO-Hybrid-Vale_PN_128M_V1.001.0000000.0.R.260303.bin",
+   "ids": [
+    "VTO4103F-1",
+    "VTO4103F-I1",
+    "VTO4103F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO4103F-1:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO4103F-I1:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO4103F:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTO-Hybrid-Vale_PN_128M_V1.001.0000000.0.R.260303.bin",
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO0301R-W",
+    "VTO2111D-P-S3",
+    "VTO2211G-WP-S2",
+    "VTO2211G-P-S2",
+    "VTO2211G-P-V1",
+    "VTO3222E-P",
+    "VTO6222E-P",
+    "VTO2201F-P-S2",
+    "VTO2202F-P-S3",
+    "VTO4202F-P-S3",
+    "VTO4201F-P",
+    "VTO4201F-P1",
+    "VTO4202F-P1",
+    "VTO4103F-1",
+    "VTO4103F",
+    "VTO4103F-I1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2101E-P-338",
+     "1.00"
+    ],
+    [
+     "VTO2311R-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-P",
+     "1.00"
+    ],
+    [
+     "VTO3312Q-P",
+     "1.00"
+    ],
+    [
+     "VTO2301R-P",
+     "1.00"
+    ],
+    [
+     "VTO1301R-W",
+     "1.00"
+    ],
+    [
+     "VTO0301R-W",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO3222E-P",
+     "1.00"
+    ],
+    [
+     "VTO6222E-P",
+     "1.00"
+    ],
+    [
+     "VTO2201F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2202F-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO4202F-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO4201F-P",
+     "1.00"
+    ],
+    [
+     "VTO4201F-P1",
+     "1.00"
+    ],
+    [
+     "VTO4202F-P1",
+     "1.00"
+    ],
+    [
+     "VTO4103F-1",
+     "1.00"
+    ],
+    [
+     "VTO4103F",
+     "1.00"
+    ],
+    [
+     "VTO4103F-I1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTO-Hybrid-Vale_PN_128M_V1.001.0000000.0.R.260303.bin",
+   "ids": [
+    "VTO4103F-1",
+    "VTO4103F-I1",
+    "VTO4103F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-03-03",
+    "latest": "2026-03-03"
+   },
+   "firmware": "DH_VTO-Hybrid-Vale_PN_128M_V1.001.0000000.0.R.260303.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Hebrew",
+     "Kazakh",
+     "Polish",
+     "Turkey",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "TradChinese",
+     "TradChinese2",
+     "Vietnamese",
+     "Japanese",
+     "Korean",
+     "Thai",
+     "Estonian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-03-03",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 51278,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1689784,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5282584,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 19114168,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a8b1529c43d7577d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "3a317ed6f1e246c2d821ab2d1740c4b0a197d6b9963769d5b48e445c7dc24f0d"
+}

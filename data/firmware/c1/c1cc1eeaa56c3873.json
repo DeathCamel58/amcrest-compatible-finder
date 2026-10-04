@@ -1,0 +1,340 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TPC-HO5401-B"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-HO5401-B:01:08:E2:B6:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-HO5401-B_Eng_P_V2.630.0000000.2.R.220801.bin",
+   "ids": [
+    "TPC-HO5401-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-HO5401-B:01:08:E2:B6:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-HO5401-B_Eng_P_V2.630.0000000.2.R.220801.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-HO5401-B_Eng_P_V2.630.0000000.2.R.220801.bin",
+   "ids": [
+    "TPC-HO5401-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-01",
+    "latest": "2022-08-01"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 2960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 95920,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 67768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5984423,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 3279032,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga_gowin.img",
+     "image_name": "fpga_gowin",
+     "image_size": 46190,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "png.img",
+     "image_name": "png",
+     "image_size": 478392,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "checkHwid.img",
+     "image_name": "check",
+     "image_size": 252,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e094ebf502fe068b",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-01",
+    "latest": "2022-08-01"
+   },
+   "firmware": "DH_TPC-HO5401-B_Eng_P_V2.630.0000000.2.R.220801.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 95920,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 67768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5984423,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 3279032,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga_gowin.img",
+     "image_name": "fpga_gowin",
+     "image_size": 46190,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "png.img",
+     "image_name": "png",
+     "image_size": 478392,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "824a78b593926933",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "c1cc1eeaa56c3873364c2060da0432926d95a991cb2ba992de385c6a6fb0694e"
+}

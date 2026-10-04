@@ -1,0 +1,187 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "VIP5460LPR_RTMP_V5.001.00IB006.0.R.260319.bin",
+   "ids": [
+    "General_ITC4XX-PX4D(PL8I)(PW9H)_MultiLang_NP_RTMP_V5.001.00IB006.0.R.260319",
+    "ITC413-PW4D-Z1",
+    "ITC413-PW4D-Z3",
+    "ITC413-PW4D-IZ1",
+    "ITC413-PW4D-IZ3",
+    "ITC416-PL8I-IZ",
+    "ITC436-PW9H-IZ",
+    "ITC413-PM4D-Z1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "General_ITC4XX-PX4D(PL8I)(PW9H)_MultiLang_NP_RTMP_V5.001.00IB006.0.R.260319",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z3",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ3",
+     "1.00"
+    ],
+    [
+     "ITC416-PL8I-IZ",
+     "1.00"
+    ],
+    [
+     "ITC436-PW9H-IZ",
+     "1.00"
+    ],
+    [
+     "ITC413-PM4D-Z1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-03-19",
+    "latest": "2026-03-19"
+   },
+   "firmware": "VIP5460LPR_RTMP_V5.001.00IB006.0.R.260319.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-03-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 33460,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 202960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 54839,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4175544,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2672824,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 27998392,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1448120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 41449656,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 19335352,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 53803192,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7e9e6cff2220e714",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V5.001.00IB006.0.R.260319"
+  }
+ ],
+ "sha256": "8790ea9e543317cb70d83fe1117c0cdd658d7436e1d7a13ece81364d7a345493"
+}

@@ -1,0 +1,83 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-12-10",
+    "latest": "2019-12-10"
+   },
+   "firmware": "recovery.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-12-10",
+    "latest": "2019-12-10"
+   },
+   "firmware": "update.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3798MV100",
+     "Hi3798MV200",
+     "Hi3796MV100",
+     "Hi3716CV200"
+    ],
+    "evidence": [
+     {
+      "member": "0/fastboot.img",
+      "source": "bootloader",
+      "value": "hi3798mv100"
+     },
+     {
+      "member": "0/fastboot.img",
+      "source": "bootloader",
+      "value": "HI3798MV200"
+     },
+     {
+      "member": "0/fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3796Mv100"
+     },
+     {
+      "member": "0/fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3716cV200"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "1086ea907857434e6aa837515c5209ea3d3c9dd4ea61937ec861b3d3ec1db1b7"
+}

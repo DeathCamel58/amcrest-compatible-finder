@@ -1,0 +1,194 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-HO5601-B_MultiLang_P_V2.630.0000000.6.R.230629.bin",
+   "ids": [
+    "TPC-HO5601-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-HO5601-B:01:08:E2:B7:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-HO5601-B_MultiLang_P_V2.630.0000000.6.R.230629.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-HO5601-B_MultiLang_P_V2.630.0000000.6.R.230629.bin",
+   "ids": [
+    "TPC-HO5601-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-06-29",
+    "latest": "2023-06-29"
+   },
+   "firmware": "DH_TPC-HO5601-B_MultiLang_P_V2.630.0000000.6.R.230629.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "French",
+     "German",
+     "Poland",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Swedish",
+     "Norwegian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 82432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 184688,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 67768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 6443648,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga_gowin.img",
+     "image_name": "fpga_gowin",
+     "image_size": 46190,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "png.img",
+     "image_name": "png",
+     "image_size": 478392,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "824a78b593926933",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "701c6b03bb0c400dd2cfae5888d03beaeecb5686ded52303ceb2f9d3dc9ebbc9"
+}

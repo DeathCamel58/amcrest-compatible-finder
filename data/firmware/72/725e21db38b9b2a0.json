@@ -1,0 +1,425 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Chen-Gauss_MultiLang_PN_Stream3_V3.201.0000007.1.R.260413.bin",
+   "ids": [
+    "CA-HZ2023DB1-A",
+    "CA-HZ2032DBC-A",
+    "CA-HZ2023DBC-A",
+    "CA-HZ2023DB4-A",
+    "CA-HZ2023DB6-A",
+    "CA-HZ2023DB5-A",
+    "CA-HZ4025DB-B",
+    "CA-HZ4032DBC-A",
+    "CA-HZ4023DBC-A",
+    "SD49425DB-B",
+    "CA-HZ4004DAC-A",
+    "SD6C4223DB-A",
+    "SD6C4425DB-A",
+    "SD49225DB1-B",
+    "SD6C3432DB-A",
+    "SD6C3223DB5-A",
+    "CA-HZ2020DB1-A",
+    "CA-HZ4020DB-A",
+    "SD49420DB-A",
+    "SD49220DB1-A",
+    "SD49225DB3-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ2023DB1-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2032DBC-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DBC-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB4-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB6-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB5-A:01:03:04:7F:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4025DB-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4032DBC-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4023DBC-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49425DB-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4004DAC-A:01:03:04:86:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C4223DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C4425DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB1-B:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3432DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3223DB5-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2020DB1-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4020DB-A:01:03:04:10C:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49420DB-A:01:03:04:10C:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49220DB1-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB3-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Chen-Gauss_MultiLang_PN_Stream3_V3.201.0000007.1.R.260413.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Chen-Gauss_MultiLang_PN_Stream3_V3.201.0000007.1.R.260413.bin",
+   "ids": [
+    "CA-HZ2023DB1-A",
+    "CA-HZ2032DBC-A",
+    "CA-HZ2023DBC-A",
+    "CA-HZ2023DB4-A",
+    "CA-HZ2023DB6-A",
+    "CA-HZ2023DB5-A",
+    "CA-HZ4025DB-B",
+    "CA-HZ4032DBC-A",
+    "CA-HZ4023DBC-A",
+    "SD49425DB-B",
+    "CA-HZ4004DAC-A",
+    "SD6C4223DB-A",
+    "SD6C4425DB-A",
+    "SD49225DB1-B",
+    "SD6C3432DB-A",
+    "SD6C3223DB5-A",
+    "CA-HZ2020DB1-A",
+    "CA-HZ4020DB-A",
+    "SD49420DB-A",
+    "SD49220DB1-A",
+    "SD49225DB3-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "CA-HZ2023DB1-A",
+    "CA-HZ2032DBC-A",
+    "CA-HZ2023DBC-A",
+    "CA-HZ2023DB4-A",
+    "CA-HZ2023DB6-A",
+    "CA-HZ2023DB5-A",
+    "CA-HZ4025DB-B",
+    "CA-HZ4032DBC-A",
+    "CA-HZ4023DBC-A",
+    "SD49425DB-B",
+    "CA-HZ4004DAC-A",
+    "SD6C4223DB-A",
+    "SD6C4425DB-A",
+    "SD49225DB1-B",
+    "SD6C3432DB-A",
+    "SD6C3223DB5-A",
+    "CA-HZ2020DB1-A",
+    "CA-HZ4020DB-A",
+    "SD49420DB-A",
+    "SD49220DB1-A",
+    "SD49225DB3-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ2023DB1-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2032DBC-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DBC-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB4-A:01:03:04:75:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB6-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2023DB5-A:01:03:04:7F:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4025DB-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4032DBC-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4023DBC-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49425DB-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4004DAC-A:01:03:04:86:5B:00:01:10:01:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C4223DB-A:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C4425DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB1-B:01:03:04:75:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3432DB-A:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD6C3223DB5-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ2020DB1-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "CA-HZ4020DB-A:01:03:04:10C:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49420DB-A:01:03:04:10C:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49220DB1-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD49225DB3-A:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "CA-HZ2023DB1-A",
+    "CA-HZ2032DBC-A",
+    "CA-HZ2023DBC-A",
+    "CA-HZ2023DB4-A",
+    "CA-HZ2023DB6-A",
+    "CA-HZ2023DB5-A",
+    "CA-HZ4025DB-B",
+    "CA-HZ4032DBC-A",
+    "CA-HZ4023DBC-A",
+    "SD49425DB-B",
+    "CA-HZ4004DAC-A",
+    "SD6C4223DB-A",
+    "SD6C4425DB-A",
+    "SD49225DB1-B",
+    "SD6C3432DB-A",
+    "SD6C3223DB5-A",
+    "CA-HZ2020DB1-A",
+    "CA-HZ4020DB-A",
+    "SD49420DB-A",
+    "SD49220DB1-A",
+    "SD49225DB3-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn18131",
+   "build_dates": {
+    "earliest": "2026-04-13",
+    "latest": "2026-04-13"
+   },
+   "firmware": "DH_SD-Chen-Gauss_MultiLang_PN_Stream3_V3.201.0000007.1.R.260413.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-04-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 70000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 156940,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 428400,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2762768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14883000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1312952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 3107000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 32467128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 30439608,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d2e38e41e54f2040",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51089"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51089"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "nt98560"
+     }
+    ],
+    "name": "NT98560",
+    "vendor": "Novatek"
+   },
+   "software_version": "V3.201.0000007.1.R.260413"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-13",
+    "latest": "2026-04-13"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.201.0000007.1.R.260413"
+  }
+ ],
+ "sha256": "725e21db38b9b2a03bc68309a782f1dfe3d85105c1ca7e2576e642150b634d67"
+}

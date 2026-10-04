@@ -1,0 +1,162 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_SD6A88X_HN_PowerAPP_V1.00.9.R.170116.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "General_SD6A8XXXS-HN-L_MainAPP_Sony_PTZ_V3.02.20.R.170116.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "alarm-dh.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 20516,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-dh.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 47140,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a179b7097e35793f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SD6A88X_HN_PowerAPP_V1.00.9.R.170116.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-dh.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 20516,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "da65e8ba2497bb67",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SD6A8XXXS-HN-L_MainAPP_Sony_PTZ_V3.02.20.R.170116.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-dh.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 47140,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "da65e8ba2497bb67",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "be551fbbd34fb9982a5a9ae323633910ad3b66775c2bd7839268b71ea13d5a08"
+}

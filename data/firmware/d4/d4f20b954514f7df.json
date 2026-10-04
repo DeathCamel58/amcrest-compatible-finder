@@ -1,0 +1,189 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "FW-XL-ICA-(read_txt)_Eng_P_V2.103.0001.0.R.20120914.bin",
+   "ids": [
+    "HF3210-F",
+    "HF3211-F",
+    "HF321X-F",
+    "IPC-F728WP",
+    "IPC-F722WP",
+    "IPC-HF3110",
+    "IPC-HF3300",
+    "IPC-HX3XXX",
+    "IPC-HDB3110",
+    "IPC-HFW3110",
+    "IPC-HDBW3110",
+    "IPC-HDBW3300P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "HF3210-F",
+     "1.00"
+    ],
+    [
+     "HF3211-F",
+     "1.00"
+    ],
+    [
+     "HF321X-F",
+     "1.00"
+    ],
+    [
+     "IPC-F728WP",
+     "1.00"
+    ],
+    [
+     "IPC-F722WP",
+     "1.00"
+    ],
+    [
+     "IPC-HF3110",
+     "1.00"
+    ],
+    [
+     "IPC-HF3110",
+     "1.20"
+    ],
+    [
+     "IPC-HF3300",
+     "1.00"
+    ],
+    [
+     "IPC-HF3300",
+     "1.10"
+    ],
+    [
+     "IPC-HF3300",
+     "1.20"
+    ],
+    [
+     "IPC-HF3300",
+     "1.30"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HDB3110",
+     "1.10"
+    ],
+    [
+     "IPC-HFW3110",
+     "1.10"
+    ],
+    [
+     "IPC-HDBW3110",
+     "1.00"
+    ],
+    [
+     "IPC-HDBW3300P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2012-09-14",
+    "latest": "2012-09-14"
+   },
+   "firmware": "FW-XL-ICA-(read_txt)_Eng_P_V2.103.0001.0.R.20120914.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "custom",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1912832,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2461696,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6643712,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1622016,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 16384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2012-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 704512,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "67814ed086e166a8",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d4f20b954514f7df335ec5bda1eca5aeaff3a9485ba33ed6cc857a4d529d3228"
+}

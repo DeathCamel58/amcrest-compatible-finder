@@ -1,0 +1,246 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2421F",
+    "VTH2421F_R",
+    "VTH5221D-S",
+    "VTH5241D-S",
+    "VTH5441G",
+    "VTH5421E-H",
+    "VTH5421CH",
+    "VTH5241D-S-SH",
+    "VTH5221D-S-SH",
+    "VTH2421FS-SH"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421F",
+     "0.00"
+    ],
+    [
+     "VTH2421F_R",
+     "0.00"
+    ],
+    [
+     "VTH5221D-S",
+     "0.00"
+    ],
+    [
+     "VTH5241D-S",
+     "0.00"
+    ],
+    [
+     "VTH5441G",
+     "0.00"
+    ],
+    [
+     "VTH5421E-H",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH5241D-S-SH",
+     "0.00"
+    ],
+    [
+     "VTH5221D-S-SH",
+     "0.00"
+    ],
+    [
+     "VTH2421FS-SH",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2011.09-rc1-svn6551",
+   "build_dates": {
+    "earliest": "2023-11-30",
+    "latest": "2023-11-30"
+   },
+   "firmware": null,
+   "flash_size": 41943040,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Hebrew"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot0.bin.img",
+     "image_name": "boot0",
+     "image_size": 26808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 673976,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mbr.img",
+     "image_name": "mbr",
+     "image_size": 18616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "env-x.cramfs.img",
+     "image_name": "env",
+     "image_size": 67768,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2923248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2300088,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "bootlogo",
+     "image_size": 8859,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 2980024,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 747704,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "usr-x.cramfs.img",
+     "image_name": "usr",
+     "image_size": 12732600,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-11-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "19ede9ea1137bc31",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bec39e8be3fdb6844c202a95ad358d3ea515f2a5ca64b02c9a7f7c80867b56ea"
+}

@@ -1,0 +1,130 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR7x16-4M",
+    "General_HCVR7x16-4M"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2824",
+   "build_dates": {
+    "earliest": "2017-08-07",
+    "latest": "2017-08-07"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_HCVR7x16-4M"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-08-07",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "32Mhi3531ADboot",
+     "image_size": 312344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "32Mhi3531ADromfs",
+     "image_size": 20176896,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1953792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "hi3531Aboot",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "f51b8124fe445aef",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520DV300",
+     "Hi3521A",
+     "Hi3531A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520dv300"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3521a"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3531a"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "e86fdfd255952fe4cc2a89ef99ab9b234b0345dcc11fded51b2aaada60d8661d"
+}

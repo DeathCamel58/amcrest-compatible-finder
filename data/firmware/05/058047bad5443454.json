@@ -1,0 +1,216 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2220M",
+    "IPC-HFW2220M-S",
+    "IPC-HFW2220M-AS",
+    "IPC-HFW2120M-S-V2",
+    "IPC-HFW2120M-AS-V2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2220M-S:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2220M-AS:01:02:02:4F:1E:00:01:0A:01:01:04:258:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2120M-S-V2:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2120M-AS-V2:01:02:02:4F:1E:00:01:0A:01:01:04:258:03:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2220M",
+    "IPC-HFW2220M-S",
+    "IPC-HFW2220M-AS",
+    "IPC-HFW2120M-S-V2",
+    "IPC-HFW2120M-AS-V2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4554",
+   "build_dates": {
+    "earliest": "2017-09-30",
+    "latest": "2017-09-30"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.4.35",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-09-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 215040,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 69632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1247208,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2269184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 7761920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "bd4c59e5a85137ed",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3518EV200"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "hi3518ev200"
+     }
+    ],
+    "name": "Hi3518EV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "058047bad5443454306fbe87bcbc0e88d1d9127457e1328f8ad83f9bffe5db9f"
+}

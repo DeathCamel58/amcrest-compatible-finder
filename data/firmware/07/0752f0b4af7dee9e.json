@@ -1,0 +1,208 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "IntelBras_IPC-Consumer-Web-Mao-Eris_PrtEngSpn_NP_GENETEC_V2.680.00IB009.0.R.210702.bin",
+   "ids": [
+    "IPC-G22N-IMOU",
+    "IPC-G22MP-0280B",
+    "IPC-D22P-IMOU",
+    "IPC-G26E"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-G22N-IMOU:01:02:03:7F:2B:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:80",
+    "IPC-G22MP-0280B:01:02:03:7F:2B:00:01:10:00:00:04:320:00:02:00:00:00:00:00:00:80",
+    "IPC-D22P-IMOU:01:02:05:7F:2B:00:01:00:00:00:04:320:00:02:00:00:00:00:00:00:80",
+    "IPC-G26E:01:02:02:60:2B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "IntelBras_IPC-Consumer-Web-Mao-Eris_PrtEngSpn_NP_GENETEC_V2.680.00IB009.0.R.210702.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "IntelBras_IPC-Consumer-Web-Mao-Eris_PrtEngSpn_NP_GENETEC_V2.680.00IB009.0.R.210702.bin",
+   "ids": [
+    "IPC-G22N-IMOU",
+    "IPC-G22MP-0280B",
+    "IPC-D22P-IMOU",
+    "IPC-G26E"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6949",
+   "build_dates": {
+    "earliest": "2021-07-02",
+    "latest": "2021-07-02"
+   },
+   "firmware": "IntelBras_IPC-Consumer-Web-Mao-Eris_PrtEngSpn_NP_GENETEC_V2.680.00IB009.0.R.210702.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 297144,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 215224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3025520,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5535928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 15517880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "e7057f01c1668d28",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0752f0b4af7dee9ec26369317b588f6194941c17f3991ca5cf9a352f27ebdf1b"
+}

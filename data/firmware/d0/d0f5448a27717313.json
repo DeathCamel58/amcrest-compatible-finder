@@ -1,0 +1,206 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Exige-I_V4.000.00KL506.0.R.251224.bin",
+   "ids": [
+    "NVR5X-4KS3"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-12-24",
+    "latest": "2025-12-24"
+   },
+   "firmware": "Exige-I_V4.000.00KL506.0.R.251224.bin",
+   "flash_size": 688805380096,
+   "kernel_version": "5.10.0",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 440976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "ss626v100",
+     "image_size": 14825112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 63426560,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 17215488,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-12-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "mdc.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 686464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "091358453bd3536f",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "3.10"
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img",
+    "algorithm.img",
+    "busybox.img"
+   ]
+  }
+ ],
+ "sha256": "d0f5448a2771731383a478b7be1e7057ad3d2a51341d07a7d8781490c90c7300"
+}

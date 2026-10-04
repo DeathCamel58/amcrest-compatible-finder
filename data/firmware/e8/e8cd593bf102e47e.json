@@ -1,0 +1,189 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1230M-V2",
+    "IPC-B1A20",
+    "IPC-HDW1230C-A-V2",
+    "IPC-HFW1225B",
+    "IPC-HFW1230TP-ZS-2812-S4",
+    "IPC-HFW1230SP-S4",
+    "IPC-HFW1230S1P-LED-S4"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1230M-V2:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-B1A20:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-A-V2:01:02:05:77:37:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1225B:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230TP-ZS-2812-S4:01:02:02:77:37:00:01:00:00:00:04:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230S1P-LED-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1230M-V2",
+    "IPC-B1A20",
+    "IPC-HDW1230C-A-V2",
+    "IPC-HFW1225B",
+    "IPC-HFW1230TP-ZS-2812-S4",
+    "IPC-HFW1230SP-S4",
+    "IPC-HFW1230S1P-LED-S4"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-12-18",
+    "latest": "2019-12-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 79984,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 180592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 180592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 460984,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5947855,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 5048504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 1378488,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9126d0465847136c",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev200"
+     }
+    ],
+    "name": "Hi3516EV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "e8cd593bf102e47ebc9214b6e6016d1b5721dc46c0c9c210731b96720c19a4c0"
+}

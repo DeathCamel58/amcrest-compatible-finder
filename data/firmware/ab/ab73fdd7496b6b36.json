@@ -1,0 +1,166 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR5X-I",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn3151",
+   "build_dates": {
+    "earliest": "2020-06-19",
+    "latest": "2020-06-19"
+   },
+   "firmware": null,
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR5X-I",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3559AV100",
+     "image_size": 400680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 14553088,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 34357248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userdata.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 2904064,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 73728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "hi3559AV100",
+     "image_size": 11300864,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3487a14cce6cee50",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": "V2.0"
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "hi3559AV100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "ab73fdd7496b6b36438fb1f8b5b70599524423eefde24426fbe0ecc40df73820"
+}

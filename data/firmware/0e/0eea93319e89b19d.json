@@ -1,0 +1,483 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2(5)XXX-Leo_MultiLang_PN_Stream2_V2.800.0000000.47.R.250217.bin",
+   "ids": [
+    "IPC-HFW2541TP-ZS-27135",
+    "IPC-HFW2541TP-ZAS-27135",
+    "IPC-HDW2541TP-ZS-27135",
+    "IPC-HFW2541EP-S",
+    "IPC-HDW2541TP-S"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2541TP-ZS-27135:01:02:00:63:3A:00:01:00:00:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541TP-ZAS-27135:01:02:00:63:3A:00:01:14:01:01:04:320:03:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-ZS-27135:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541EP-S:01:02:00:63:3A:00:01:14:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-S:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX2(5)XXX-Leo_MultiLang_PN_Stream2_V2.800.0000000.47.R.250217.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2(5)XXX-Leo_MultiLang_PN_Stream2_V2.800.0000000.47.R.250217.bin",
+   "ids": [
+    "IPC-HFW2541TP-ZS-27135",
+    "IPC-HFW2541TP-ZAS-27135",
+    "IPC-HDW2541TP-ZS-27135",
+    "IPC-HFW2541EP-S",
+    "IPC-HDW2541TP-S"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "IPC-HFW2541TP-ZS-27135",
+    "IPC-HFW2541TP-ZAS-27135",
+    "IPC-HDW2541TP-ZS-27135",
+    "IPC-HFW2541EP-S",
+    "IPC-HDW2541TP-S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW2541TP-ZS-27135:01:02:00:63:3A:00:01:00:00:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541TP-ZAS-27135:01:02:00:63:3A:00:01:14:01:01:04:320:03:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-ZS-27135:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541EP-S:01:02:00:63:3A:00:01:14:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-S:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HFW2541TP-ZS-27135",
+    "IPC-HFW2541TP-ZAS-27135",
+    "IPC-HDW2541TP-ZS-27135",
+    "IPC-HFW2541EP-S",
+    "IPC-HDW2541TP-S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW2541TP-ZS-27135:01:02:00:63:3A:00:01:00:00:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541TP-ZAS-27135:01:02:00:63:3A:00:01:14:01:01:04:320:03:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-ZS-27135:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HFW2541EP-S:01:02:00:63:3A:00:01:14:01:00:04:320:00:00:02:00:00:01:00:00:200",
+    "IPC-HDW2541TP-S:01:02:00:63:3A:00:01:0E:01:00:04:320:00:00:02:00:00:01:00:00:200"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn16961",
+   "build_dates": {
+    "earliest": "2025-02-17",
+    "latest": "2025-02-17"
+   },
+   "firmware": "DH_IPC-HX2(5)XXX-Leo_MultiLang_PN_Stream2_V2.800.0000000.47.R.250217.bin",
+   "flash_size": 133693440,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Hungarian",
+     "Indonesia",
+     "Japanese",
+     "Romanian",
+     "Thai",
+     "TradChinese",
+     "Turkey",
+     "Ukrainian",
+     "Vietnamese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-02-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 395448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 278896,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4724920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 215224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1796792,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 25782456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5925048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernelslv.img",
+     "image_name": "kernelslv",
+     "image_size": 1010364,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user2-x.squashfs.img",
+     "image_name": "user2",
+     "image_size": 4143288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user1-x.squashfs.img",
+     "image_name": "user1",
+     "image_size": 3635384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "02af7ae767910fa4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-02-17",
+    "latest": "2025-02-17"
+   },
+   "firmware": "firmware-x.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4724920,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "b254a3a3c5885f88",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-02-17",
+    "latest": "2025-02-17"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-02-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5925048,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0081fa31752be5ad",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0eea93319e89b19d8b9662d5518bf5be4b71dbfc84600dd02d938762d0273fe3"
+}

@@ -1,0 +1,368 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Mao-Nova_MultiLang_PN_Stream3-Xingenzong_V2.800.0000000.11.R.191030.bin",
+   "ids": [
+    "CA-HZ8030U-I",
+    "CA-HZ8004V",
+    "SD-46A230U-HNI",
+    "SD-P46B230U-HNI",
+    "SD-E46B230U-HNI",
+    "SD-E46B230U-HN",
+    "SDE56E220-HNI-NOVA-A",
+    "SDE56E220-HNI-NOVA-B",
+    "SD-56E223V-HN",
+    "SD-56E223V-HNI",
+    "SD-56P223V-HNI",
+    "SD-56D223V-HNI"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ8030U-I:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400",
+    "CA-HZ8004V:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400",
+    "SD-46A230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-P46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-E46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-E46B230U-HN:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SDE56E220-HNI-NOVA-A:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SDE56E220-HNI-NOVA-B:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56E223V-HN:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56E223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56P223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56D223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Mao-Nova_MultiLang_PN_Stream3-Xingenzong_V2.800.0000000.11.R.191030.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Mao-Nova_MultiLang_PN_Stream3-Xingenzong_V2.800.0000000.11.R.191030.bin",
+   "ids": [
+    "CA-HZ8030U-I",
+    "CA-HZ8004V",
+    "SD-46A230U-HNI",
+    "SD-P46B230U-HNI",
+    "SD-E46B230U-HNI",
+    "SD-E46B230U-HN",
+    "SDE56E220-HNI-NOVA-A",
+    "SDE56E220-HNI-NOVA-B",
+    "SD-56E223V-HN",
+    "SD-56E223V-HNI",
+    "SD-56P223V-HNI",
+    "SD-56D223V-HNI"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "CA-HZ8030U-I",
+    "CA-HZ8004V",
+    "SD-46A230U-HNI",
+    "SD-P46B230U-HNI",
+    "SD-E46B230U-HNI",
+    "SD-E46B230U-HN",
+    "SDE56E220-HNI-NOVA-A",
+    "SDE56E220-HNI-NOVA-B",
+    "SD-56E223V-HN",
+    "SD-56E223V-HNI",
+    "SD-56P223V-HNI",
+    "SD-56D223V-HNI"
+   ],
+   "member": "check.img",
+   "raw": [
+    "CA-HZ8030U-I:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400",
+    "CA-HZ8004V:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400",
+    "SD-46A230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-P46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-E46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-E46B230U-HN:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SDE56E220-HNI-NOVA-A:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SDE56E220-HNI-NOVA-B:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56E223V-HN:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56E223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56P223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400",
+    "SD-56D223V-HNI:01:03:04:42:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6666",
+   "build_dates": {
+    "earliest": "2019-10-30",
+    "latest": "2019-10-30"
+   },
+   "firmware": "DH_SD-Mao-Nova_MultiLang_PN_Stream3-Xingenzong_V2.800.0000000.11.R.191030.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Farsi",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-10-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 434360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1333432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 55480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3263160,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 22952120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5454008,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "fe2899f40d26f8e4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519"
+     }
+    ],
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-10-30",
+    "latest": "2019-10-30"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5454008,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c18fcdcf3019c7f5",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8990736225e1ea7ca0e621a872aafc2b52f80bf7a651537651899c14cfe3616d"
+}

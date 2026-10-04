@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_SD3AXXX-HN-BGQ_MCU_V2.401.0000003.6.R.250512.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SD3AXXX-HN-BGQ_MCU_V2.401.0000003.6.R.250512.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 138276,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-alarm.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 63524,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cd7f3d5d3be40e1a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000003.6.RHNGZ_250512_56275"
+  }
+ ],
+ "sha256": "6719427688a9edcc57a45607b641a81162c6ad3ad0b6ed782020ad07eec416cc"
+}

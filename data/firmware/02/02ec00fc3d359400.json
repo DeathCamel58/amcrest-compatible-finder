@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-08-12",
+    "latest": "2013-08-12"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-08-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVR5x16_Eng_N_960H_V2.616.0000.0.R.20130812_logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d8cca4cb66cd5c1c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "02ec00fc3d35940003a6c0e6ec5fa30330c8ae9f4f7f20c66f82ed04be08ee76"
+}

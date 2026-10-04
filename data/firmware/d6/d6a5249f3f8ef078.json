@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-09-18",
+    "latest": "2013-09-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-09-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "DHVision_General_NVR5xxx_Eng_N_V2.610.0000.7.R.20130918_u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 146492,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "406268b351b9b4ef",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d6a5249f3f8ef07844f0ae43d640c51da485c7516d85d6fe7d4268e1cb2aeaee"
+}

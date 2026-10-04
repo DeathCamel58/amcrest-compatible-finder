@@ -1,0 +1,95 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "NKB1000_PldEng_V2.620.00NS200.0.R.20191202.bin",
+   "ids": [
+    "NKB1000s",
+    "NKB1000"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-12-02",
+    "latest": "2019-12-02"
+   },
+   "firmware": "NKB1000_PldEng_V2.620.00NS200.0.R.20191202.bin",
+   "flash_size": 8388608,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NKB1000"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-12-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "fslboot",
+     "image_size": 151536,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-12-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 6832128,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4654593a5055c54e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "86f728f94baefd5dd369fa23f4cc8cd824ca45bd50197590d8173c50d1846d73"
+}

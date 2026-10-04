@@ -1,0 +1,136 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-DB6I"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-DB6I:01:04:07:7C:41:00:01:10:01:01:04:400:03:03:00:00:08:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-DB6I"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-06-15",
+    "latest": "2022-06-15"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-06-15",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 50524,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 5681152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4047360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 23625728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-06-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5918720,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "23ed2c607b65cf0f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "29a817fa91d7a5595ef9aecd1f0904a5c2608da42c32c6b0ceaa21183b73e475"
+}

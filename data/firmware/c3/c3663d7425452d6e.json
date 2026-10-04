@@ -1,0 +1,146 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_ASC320XB_MultiLang_NP_V1.000.10NX000.0.R.260525.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASC3202B:01:04:0E:00:42:00:00:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Customer_ASC320XB_MultiLang_NP_V1.000.10NX000.0.R.260525.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASC3202B",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "Customer_ASC320XB_MultiLang_NP_V1.000.10NX000.0.R.260525.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-25",
+    "latest": "2026-05-25"
+   },
+   "firmware": "Customer_ASC320XB_MultiLang_NP_V1.000.10NX000.0.R.260525.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "French",
+     "German",
+     "Italian",
+     "Polish",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-25",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 53084,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 985272,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5253816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 24258744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9726136,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bb201804f180c124",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c3663d7425452d6e02f1906cb31d5eddddfde30c8f006aa7bd463914e60f1fe4"
+}

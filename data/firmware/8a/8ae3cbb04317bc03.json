@@ -1,0 +1,404 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTOXXX_Eng_P_16M_SIP_V4.000.0000000.5.R.20181030.bin",
+   "ids": [
+    "VTO1210A-X",
+    "VTO1210B-X",
+    "VTO1210C-X",
+    "VTO1220A",
+    "VTO1220B",
+    "VTO6110B",
+    "VTO6000C",
+    "VTO6100C",
+    "VTO6210B",
+    "VTO2000A"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO1210A-X",
+     "1.00"
+    ],
+    [
+     "VTO1210B-X",
+     "1.00"
+    ],
+    [
+     "VTO1210C-X",
+     "1.00"
+    ],
+    [
+     "VTO1220A",
+     "1.00"
+    ],
+    [
+     "VTO1220B",
+     "1.00"
+    ],
+    [
+     "VTO6110B",
+     "1.00"
+    ],
+    [
+     "VTO6000C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.10"
+    ],
+    [
+     "VTO6100C",
+     "1.20"
+    ],
+    [
+     "VTO6210B",
+     "1.00"
+    ],
+    [
+     "VTO6210B",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.20"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTOXXX_Eng_P_16M_SIP_V4.000.0000000.5.R.20181030.language.bin",
+   "ids": [
+    "VTO1210A-X",
+    "VTO1210B-X",
+    "VTO1210C-X",
+    "VTO1220A",
+    "VTO1220B",
+    "VTO6110B",
+    "VTO6000C",
+    "VTO6100C",
+    "VTO6210B",
+    "VTO2000A"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO1210A-X",
+     "1.00"
+    ],
+    [
+     "VTO1210B-X",
+     "1.00"
+    ],
+    [
+     "VTO1210C-X",
+     "1.00"
+    ],
+    [
+     "VTO1220A",
+     "1.00"
+    ],
+    [
+     "VTO1220B",
+     "1.00"
+    ],
+    [
+     "VTO6110B",
+     "1.00"
+    ],
+    [
+     "VTO6000C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.10"
+    ],
+    [
+     "VTO6100C",
+     "1.20"
+    ],
+    [
+     "VTO6210B",
+     "1.00"
+    ],
+    [
+     "VTO6210B",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.20"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2018-10-30",
+    "latest": "2018-10-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "2.6.18_pro500-davinci_evm-arm_v5t_le",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2018-10-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dm365_ubl_boot_16M.bin.img",
+     "image_name": "uboot",
+     "image_size": 260240,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1799248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1085440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2985984,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6516736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 405504,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "b9db311b200b69c6",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2018-10-30",
+    "latest": "2018-10-30"
+   },
+   "firmware": "General_VTOXXX_Eng_P_16M_SIP_V4.000.0000000.5.R.20181030.bin",
+   "flash_size": null,
+   "kernel_version": "2.6.18_pro500-davinci_evm-arm_v5t_le",
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-10-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dm365_ubl_boot_16M.bin.img",
+     "image_name": "uboot",
+     "image_size": 260240,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1799248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1085440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2985984,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6516736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 405504,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d28949fea174c24a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-10-30",
+    "latest": "2018-10-30"
+   },
+   "firmware": "General_VTOXXX_Eng_P_16M_SIP_V4.000.0000000.5.R.20181030.language.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1085440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-10-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 405504,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4b755c50c7b403d9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8ae3cbb04317bc03e9cfe7e59a54344a870da7507e024304157a442f47b06a5d"
+}

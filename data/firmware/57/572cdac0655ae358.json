@@ -1,0 +1,107 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-Venus-B_Eng_Local_V1.001.0000002.4.R.230216.bin",
+   "ids": [
+    "TS-Venus-B-16ET2GF-190",
+    "TS-Venus-B-16ET2GF-240",
+    "TS-Venus-B-24ET2GF-240",
+    "TS-Venus-B-24ET2GF-360"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-Venus-B-16ET2GF-190",
+     "1.00"
+    ],
+    [
+     "TS-Venus-B-16ET2GF-240",
+     "1.00"
+    ],
+    [
+     "TS-Venus-B-24ET2GF-240",
+     "1.00"
+    ],
+    [
+     "TS-Venus-B-24ET2GF-360",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-Venus-B_Eng_Local_V1.001.0000002.4.R.230216.bin",
+   "ids": [
+    "TS-Venus-B-16ET2GF-190",
+    "TS-Venus-B-16ET2GF-240",
+    "TS-Venus-B-24ET2GF-240",
+    "TS-Venus-B-24ET2GF-360"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-Venus-B-16ET2GF-190:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-Venus-B-16ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-Venus-B-24ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-Venus-B-24ET2GF-360:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-02-16",
+    "latest": "2023-02-16"
+   },
+   "firmware": "DH_TS-Venus-B_Eng_Local_V1.001.0000002.4.R.230216.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NONE"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-02-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1686200,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-02-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs-x",
+     "image_size": 10414264,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e4de8ae796899c09",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "572cdac0655ae3589203b268168bb90b0b221c2eae57a08d4cb7ca25d7260be3"
+}

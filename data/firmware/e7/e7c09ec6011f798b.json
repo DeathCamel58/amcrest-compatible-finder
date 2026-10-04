@@ -1,0 +1,63 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-PTD8XX4-HN_MCU_V2.401.0000000.9.R.250715.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_TPC-PTD8XX4-HN_MCU_V2.401.0000000.9.R.250715.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 172068,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "da65e8ba2497bb67",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000000.9.RHDJ_250715_56895"
+  }
+ ],
+ "sha256": "e7c09ec6011f798b8f4af05d34f27e162d561d5d2082039a06f214c7c6824893"
+}

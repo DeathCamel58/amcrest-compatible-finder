@@ -1,0 +1,35 @@
+{
+ "id": "785f148781256478",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "boot",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0x6e0000",
+   "name": "rootfs",
+   "size": 6815744,
+   "start": "0x60000"
+  },
+  {
+   "end": "0x700000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x6e0000"
+  },
+  {
+   "end": "0x740000",
+   "name": "logo",
+   "size": 262144,
+   "start": "0x700000"
+  },
+  {
+   "end": "0x800000",
+   "name": "config",
+   "size": 786432,
+   "start": "0x740000"
+  }
+ ]
+}

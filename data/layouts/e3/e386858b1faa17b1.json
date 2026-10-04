@@ -1,0 +1,106 @@
+{
+ "id": "e386858b1faa17b1",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "MinBoot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x3b80000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x3c80000",
+   "end": "0x940000",
+   "name": "custom",
+   "read_only": true,
+   "size": 3407872,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x3fc0000",
+   "end": "0xc80000",
+   "name": "product",
+   "read_only": true,
+   "size": 3407872,
+   "start": "0x940000"
+  },
+  {
+   "backup_start": "0x4300000",
+   "end": "0x1200000",
+   "name": "Kernel",
+   "size": 5767168,
+   "start": "0xc80000"
+  },
+  {
+   "backup_start": "0x4880000",
+   "end": "0x1600000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x1200000"
+  },
+  {
+   "backup_start": "0x4c80000",
+   "end": "0x1e00000",
+   "name": "web",
+   "read_only": true,
+   "size": 8388608,
+   "start": "0x1600000"
+  },
+  {
+   "backup_start": "0x5480000",
+   "end": "0x3b80000",
+   "name": "user",
+   "read_only": true,
+   "size": 30932992,
+   "start": "0x1e00000"
+  },
+  {
+   "end": "0x7600000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7200000"
+  },
+  {
+   "end": "0x7a00000",
+   "name": "config",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7600000"
+  },
+  {
+   "end": "0x7e00000",
+   "name": "backup",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7a00000"
+  }
+ ]
+}

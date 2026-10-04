@@ -1,0 +1,95 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "VSIPPTZKBV2_Firmware_20200106.bin",
+   "ids": [
+    "NKB1000s",
+    "NKB1000"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-01-06",
+    "latest": "2020-01-06"
+   },
+   "firmware": "VSIPPTZKBV2_Firmware_20200106.bin",
+   "flash_size": 8388608,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NKB1000"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-01-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "fslboot",
+     "image_size": 151536,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-01-06",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 6828032,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4654593a5055c54e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e3e13825441b5b32d5e0d28c89de3e2fec9c9251fdbe4e85dde78c1c667443e0"
+}

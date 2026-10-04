@@ -1,0 +1,172 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-E2-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-H3D-3F",
+    "IPC-H3DP-3F-0280B",
+    "IPC-H5D-5F",
+    "IPC-H5DP-5F-0280B",
+    "IPC-P3D-3FIL",
+    "IPC-P3DP-3F-PV-0360B",
+    "IPC-P5D-5FIL",
+    "IPC-P5DP-5F-PV-0360B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-H3D-3F:01:02:08:FA:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-H3DP-3F-0280B:01:02:08:FA:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-H5D-5F:01:02:08:E6:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-H5DP-5F-0280B:01:02:08:E6:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-P3D-3FIL:01:02:08:CF:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-P3DP-3F-PV-0360B:01:02:08:CF:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-P5D-5FIL:01:02:08:BF:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80",
+    "IPC-P5DP-5F-PV-0360B:01:02:08:BF:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-WPT-E2-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-E2-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-H3D-3F",
+    "IPC-H3DP-3F-0280B",
+    "IPC-H5D-5F",
+    "IPC-H5DP-5F-0280B",
+    "IPC-P3D-3FIL",
+    "IPC-P3DP-3F-PV-0360B",
+    "IPC-P5D-5FIL",
+    "IPC-P5DP-5F-PV-0360B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-29",
+    "latest": "2026-05-29"
+   },
+   "firmware": "DH_IPC-WPT-E2-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 80056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 186669,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 186669,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1715928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 13222256,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e670f49a5503d5fa",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "SSC027A",
+     "Infinity6C"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "SSC027A"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "sstar,infinity6c"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V2.860.0000000.26.R.260530"
+  }
+ ],
+ "sha256": "c1b421f9a546da1b86cbdd89cde9aa17bf1ede85d11c28ab952ac5276c485cdd"
+}

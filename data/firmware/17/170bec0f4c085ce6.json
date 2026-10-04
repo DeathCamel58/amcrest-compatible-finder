@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_PTZ52XXX-HN_MCU_V2.401.0000001.65.R.230401.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_PTZ52XXX-HN_MCU_V2.401.0000001.65.R.230401.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 197668,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-light.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 33828,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cd7f3d5d3be40e1a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000001.65.RHNAB_230401_44222"
+  }
+ ],
+ "sha256": "170bec0f4c085ce6df8fd6747076d4d9f056f6a40caa9c7356da478165a8eb09"
+}

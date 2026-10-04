@@ -1,0 +1,242 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX5XXX",
+    "IPC-HX3XXX",
+    "SD6XXX-HN"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "SD6XXX-HN",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD6A8240-HNI",
+    "SD6A9130-HNI",
+    "SD-PTZ81240-N2",
+    "SD-PTZ81240-S2",
+    "SD6C1230-HN",
+    "SD65A230F-HNI",
+    "SD6A8240-HNI-4G",
+    "SD60A230-HNI",
+    "SD6A9230F-HNI-HJ",
+    "SD65F230DF-HNS",
+    "SD6A9230DF-HNS",
+    "SD65F230F-HNI-S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "SD6A8240-HNI:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
+    "SD6A9130-HNI:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
+    "SD-PTZ81240-N2:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
+    "SD-PTZ81240-S2:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:01:00:01:00:00:200",
+    "SD6C1230-HN:01:03:01:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:02:00:00:04:00:00:00:00:200",
+    "SD65A230F-HNI:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
+    "SD6A8240-HNI-4G:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:400",
+    "SD60A230-HNI:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:400",
+    "SD6A9230F-HNI-HJ:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:02:00:04:00:01:00:00:400:00",
+    "SD65F230DF-HNS:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:400",
+    "SD6A9230DF-HNS:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
+    "SD65F230F-HNI-S:01:03:03:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:01:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-08-28",
+    "latest": "2019-08-28"
+   },
+   "firmware": null,
+   "flash_size": 67108864,
+   "flash_size_declared": "64M",
+   "flash_type": "SPI",
+   "kernel_version": "2.6.37_IPNC_DM812x_1.5.0",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "French"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-08-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 180288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 188416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 217088,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2675424,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2793472,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10121216,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 25485312,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "198a775ac692904e",
+   "partition_source": "partition_table",
+   "partition_table": "partition.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0476258f940a14ba0e4db655cf91f5a3f070177fa423722c033f6ba8d73e9f99"
+}

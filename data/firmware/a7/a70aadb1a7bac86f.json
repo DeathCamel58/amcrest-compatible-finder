@@ -1,0 +1,137 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR5x08-X",
+    "XVR1B08H",
+    "XVR5x08-X-PoC",
+    "General_XVR5x08-X"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2020-05-18",
+    "latest": "2020-05-18"
+   },
+   "firmware": null,
+   "flash_size": 84934656,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR5x08-X"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3521Dboot",
+     "image_size": 567348,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3521Dromfs",
+     "image_size": 10174464,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 22949888,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12263424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 57344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7ca518af144c696e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3521D"
+     }
+    ],
+    "name": "Hi3521D",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "a70aadb1a7bac86f3117847864004c39f4d39128fab077ce3d81d417bc5bc3c7"
+}

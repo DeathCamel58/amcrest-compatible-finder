@@ -1,0 +1,65 @@
+{
+ "id": "155c069b61e53f70",
+ "partitions": [
+  {
+   "end": "0xa0080000",
+   "name": "fdt",
+   "size": 262144,
+   "start": "0xa0040000"
+  },
+  {
+   "end": "0xa0200000",
+   "name": "u-boot",
+   "size": 1310720,
+   "start": "0xa00c0000"
+  },
+  {
+   "end": "0xa0a00000",
+   "name": "hwid",
+   "size": 2097152,
+   "start": "0xa0800000"
+  },
+  {
+   "end": "0xa1e00000",
+   "name": "uImage",
+   "size": 15728640,
+   "start": "0xa0f00000"
+  },
+  {
+   "end": "0xa3700000",
+   "name": "romfs",
+   "size": 26214400,
+   "start": "0xa1e00000"
+  },
+  {
+   "end": "0xa5f00000",
+   "name": "userfs",
+   "size": 41943040,
+   "start": "0xa3700000"
+  },
+  {
+   "end": "0xa7300000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0xa5f00000"
+  },
+  {
+   "end": "0xa7800000",
+   "name": "custom",
+   "size": 5242880,
+   "start": "0xa7300000"
+  },
+  {
+   "end": "0xa7b00000",
+   "name": "logo",
+   "size": 3145728,
+   "start": "0xa7800000"
+  },
+  {
+   "end": "0xadf00000",
+   "name": "algorithm",
+   "size": 104857600,
+   "start": "0xa7b00000"
+  }
+ ]
+}

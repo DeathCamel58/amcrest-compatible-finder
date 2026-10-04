@@ -1,0 +1,29 @@
+{
+ "id": "d9dd325b026b6c17",
+ "partitions": [
+  {
+   "end": "0x60000",
+   "name": "bootloader",
+   "size": 262144,
+   "start": "0x20000"
+  },
+  {
+   "end": "0xb0000",
+   "name": "bootloader",
+   "size": 262144,
+   "start": "0x70000"
+  },
+  {
+   "end": "0x360000",
+   "name": "kernel",
+   "size": 2031616,
+   "start": "0x170000"
+  },
+  {
+   "end": "0xfc0000",
+   "name": "rootfs",
+   "size": 12976128,
+   "start": "0x360000"
+  }
+ ]
+}

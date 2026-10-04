@@ -1,0 +1,17 @@
+{
+ "id": "86a9a426ebc8d567",
+ "partitions": [
+  {
+   "end": "0xf0000",
+   "name": "boot",
+   "size": 983040,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1000000",
+   "name": "krootfs",
+   "size": 13631488,
+   "start": "0x300000"
+  }
+ ]
+}

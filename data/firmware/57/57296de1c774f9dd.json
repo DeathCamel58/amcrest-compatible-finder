@@ -1,0 +1,83 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-PT8XX1G-HBL-V_MCU_V2.401.0000000.1.R.260113.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_TPC-PT8XX1G-HBL-V_MCU_V2.401.0000000.1.R.260113.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 172068,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-alarm.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 46116,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-light.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 68644,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bd7ccd8399c2a68d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000000.1.RHNBH_260113_58344"
+  }
+ ],
+ "sha256": "57296de1c774f9dd41b1df3f980ea9a1d23f7148265c96e61b15f5ba8a3a0a99"
+}

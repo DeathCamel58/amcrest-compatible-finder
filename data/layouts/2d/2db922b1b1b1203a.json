@@ -1,0 +1,29 @@
+{
+ "id": "2db922b1b1b1203a",
+ "partitions": [
+  {
+   "end": "0xa0200000",
+   "name": "u-boot",
+   "size": 1048576,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa4200000",
+   "name": "web",
+   "size": 15728640,
+   "start": "0xa3300000"
+  },
+  {
+   "end": "0xa4400000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa4200000"
+  },
+  {
+   "end": "0xa4700000",
+   "name": "logo",
+   "size": 3145728,
+   "start": "0xa4400000"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "a8279c2a092cef95",
+ "partitions": [
+  {
+   "end": "0xa0300000",
+   "name": "u-boot_nand",
+   "size": 1048576,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa0700000",
+   "name": "uImage",
+   "size": 3145728,
+   "start": "0xa0400000"
+  },
+  {
+   "end": "0xa0900000",
+   "name": "romfs",
+   "size": 2097152,
+   "start": "0xa0700000"
+  },
+  {
+   "end": "0xa0a00000",
+   "name": "custom",
+   "size": 1048576,
+   "start": "0xa0900000"
+  },
+  {
+   "end": "0xa0d00000",
+   "name": "web",
+   "size": 3145728,
+   "start": "0xa0a00000"
+  },
+  {
+   "end": "0xa1000000",
+   "name": "data",
+   "size": 3145728,
+   "start": "0xa0d00000"
+  },
+  {
+   "end": "0xa1e00000",
+   "name": "user",
+   "size": 14680064,
+   "start": "0xa1000000"
+  }
+ ]
+}

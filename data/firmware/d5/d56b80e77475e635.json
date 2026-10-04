@@ -1,0 +1,275 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTO65XXX-C-H-Freyja-A3_MultiLang_PN_V4.810.0000000.1.R.250919.bin",
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6521F-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6531F-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6521H-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6531H-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6541H-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6531H-SH-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6533H:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6521K-S2:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6521H-D-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTO65XXX-C-H-Freyja-A3_MultiLang_PN_V4.810.0000000.1.R.250919.bin",
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6521F-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531F-V1",
+     "1.00"
+    ],
+    [
+     "VTO6521H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6541H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531H-SH-V1",
+     "1.00"
+    ],
+    [
+     "VTO6533H",
+     "1.00"
+    ],
+    [
+     "VTO6521K-S2",
+     "1.00"
+    ],
+    [
+     "VTO6521H-D-V1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTO65XXX-C-H-Freyja-A3_MultiLang_PN_V4.810.0000000.1.R.250919.bin",
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-09-19",
+    "latest": "2025-09-19"
+   },
+   "firmware": "DH_VTO65XXX-C-H-Freyja-A3_MultiLang_PN_V4.810.0000000.1.R.250919.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkey",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "Hebrew",
+     "TradChinese",
+     "TradChinese2",
+     "Japanese",
+     "Korean",
+     "Vietnamese",
+     "Thai",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-09-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 270472,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 221688,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 320048,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 420404,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 11933880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 137400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5080840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 33396920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 29456568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 99731640,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1540e2ab4d4df0d0",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.810.0000000.1.R.250919"
+  }
+ ],
+ "sha256": "d56b80e77475e6357bfed52abac8dbebeff99238a3b6d9d90ea71d0123cff3d2"
+}

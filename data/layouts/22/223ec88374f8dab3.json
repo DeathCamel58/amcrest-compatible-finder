@@ -1,0 +1,77 @@
+{
+ "id": "223ec88374f8dab3",
+ "partitions": [
+  {
+   "end": "0xa0200000",
+   "name": "boot",
+   "size": 2097152,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0800000",
+   "name": "kernel",
+   "size": 4194304,
+   "start": "0xa0400000"
+  },
+  {
+   "end": "0xa1b80000",
+   "name": "rootfs",
+   "size": 20447232,
+   "start": "0xa0800000"
+  },
+  {
+   "end": "0xa1c80000",
+   "name": "upadteflag",
+   "size": 1048576,
+   "start": "0xa1b80000"
+  },
+  {
+   "end": "0xa3480000",
+   "name": "sysbackup",
+   "size": 25165824,
+   "start": "0xa1c80000"
+  },
+  {
+   "end": "0xa3e80000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0xa3480000"
+  },
+  {
+   "end": "0xa3f00000",
+   "name": "custom",
+   "size": 524288,
+   "start": "0xa3e80000"
+  },
+  {
+   "end": "0xa4000000",
+   "name": "logo",
+   "size": 1048576,
+   "start": "0xa3f00000"
+  },
+  {
+   "end": "0xa4500000",
+   "name": "record1",
+   "size": 5242880,
+   "start": "0xa4000000"
+  },
+  {
+   "end": "0xa4a00000",
+   "name": "record2",
+   "size": 5242880,
+   "start": "0xa4500000"
+  },
+  {
+   "end": "0xa4d00000",
+   "name": "bcfg",
+   "size": 3145728,
+   "start": "0xa4a00000"
+  },
+  {
+   "end": "0xa5000000",
+   "name": "config",
+   "size": 3145728,
+   "start": "0xa4d00000"
+  }
+ ]
+}

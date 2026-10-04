@@ -1,0 +1,89 @@
+{
+ "id": "6c2711668add46d1",
+ "partitions": [
+  {
+   "end": "0xa0100000",
+   "name": "resever",
+   "size": 1048576,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0200000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa0300000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa0700000",
+   "name": "uImage",
+   "size": 4194304,
+   "start": "0xa0300000"
+  },
+  {
+   "end": "0xa2800000",
+   "name": "rootfs",
+   "size": 34603008,
+   "start": "0xa0700000"
+  },
+  {
+   "end": "0xa2900000",
+   "name": "bootslave",
+   "size": 1048576,
+   "start": "0xa2800000"
+  },
+  {
+   "end": "0xa2c00000",
+   "name": "uImageslave",
+   "size": 3145728,
+   "start": "0xa2900000"
+  },
+  {
+   "end": "0xa3200000",
+   "name": "rootfsslave",
+   "size": 6291456,
+   "start": "0xa2c00000"
+  },
+  {
+   "end": "0xa3800000",
+   "name": "web",
+   "size": 6291456,
+   "start": "0xa3200000"
+  },
+  {
+   "end": "0xa3a00000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3800000"
+  },
+  {
+   "end": "0xa3c00000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa3a00000"
+  },
+  {
+   "end": "0xa3f00000",
+   "name": "config",
+   "size": 3145728,
+   "start": "0xa3c00000"
+  },
+  {
+   "end": "0xa3f40000",
+   "name": "pmfirmware",
+   "size": 262144,
+   "start": "0xa3f00000"
+  },
+  {
+   "end": "0xa4000000",
+   "name": "config1",
+   "size": 786432,
+   "start": "0xa3f40000"
+  }
+ ]
+}

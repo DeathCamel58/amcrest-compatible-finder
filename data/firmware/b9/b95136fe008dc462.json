@@ -1,0 +1,188 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-B1B40",
+    "IPC-B1B40-AS",
+    "IPC-HFW2430M",
+    "IPC-B2B40-ZS"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-B1B40:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-B1B40-AS:01:02:02:73:30:00:01:10:03:01:04:320:09:00:00:00:00:00:00:00:100",
+    "IPC-HFW2430M:01:02:02:7A:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-B2B40-ZS:01:02:02:73:30:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "EZIP"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-B1B40",
+    "IPC-B1B40-AS",
+    "IPC-HFW2430M",
+    "IPC-B2B40-ZS"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn5938",
+   "build_dates": {
+    "earliest": "2018-08-15",
+    "latest": "2018-08-15"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.18.30",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "EZIP",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-08-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 227328,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2018-08-15",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 233472,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-08-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1813696,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2445312,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 9666560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2dc2e6ecc2c9b213",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b95136fe008dc462975425f54dbf9d9835e8255052e1ac7dec24811bdcc150c8"
+}

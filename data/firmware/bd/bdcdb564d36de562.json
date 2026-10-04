@@ -1,0 +1,233 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "ASI31C-M",
+    "ASI31C-MF",
+    "ASI31C-MW",
+    "ASI31C-MFW",
+    "ASI6213S-W",
+    "ASI6213S-QW",
+    "ASI6213S-DW",
+    "ASI6214S-W",
+    "ASI6213S-B4G",
+    "ASI6213S-WT",
+    "ASI6213S-QWT",
+    "ASI6213S",
+    "ASI6214S",
+    "ASI6213S-D",
+    "ASI6214S-D",
+    "ASI6223S-W",
+    "ASI6213J-MW-V1",
+    "ASI6214J-MFW-V1",
+    "ASI31D-M",
+    "ASI31D-MF",
+    "ASI31D-MW",
+    "ASI31D-MFW"
+   ],
+   "member": "42E/Install",
+   "raw": [
+    [
+     "ASI31C-M",
+     "1.00"
+    ],
+    [
+     "ASI31C-MF",
+     "1.00"
+    ],
+    [
+     "ASI31C-MW",
+     "1.00"
+    ],
+    [
+     "ASI31C-MFW",
+     "1.00"
+    ],
+    [
+     "ASI6213S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213S-QW",
+     "1.00"
+    ],
+    [
+     "ASI6213S-DW",
+     "1.00"
+    ],
+    [
+     "ASI6214S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213S-B4G",
+     "1.00"
+    ],
+    [
+     "ASI6213S-WT",
+     "1.00"
+    ],
+    [
+     "ASI6213S-QWT",
+     "1.00"
+    ],
+    [
+     "ASI6213S",
+     "1.00"
+    ],
+    [
+     "ASI6214S",
+     "1.00"
+    ],
+    [
+     "ASI6213S-D",
+     "1.00"
+    ],
+    [
+     "ASI6214S-D",
+     "1.00"
+    ],
+    [
+     "ASI6223S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213J-MW-V1",
+     "1.00"
+    ],
+    [
+     "ASI6214J-MFW-V1",
+     "1.00"
+    ],
+    [
+     "ASI31D-M",
+     "1.00"
+    ],
+    [
+     "ASI31D-MF",
+     "1.00"
+    ],
+    [
+     "ASI31D-MW",
+     "1.00"
+    ],
+    [
+     "ASI31D-MFW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI31C-M",
+    "ASI31C-MF",
+    "ASI31C-MW",
+    "ASI31C-MFW",
+    "ASI6213S-W",
+    "ASI6223S-W",
+    "ASI6213S-QW",
+    "ASI6213S-DW",
+    "ASI6214S-W",
+    "ASI6213S-B4G",
+    "ASI6213S-WT",
+    "ASI6213S-QWT",
+    "ASI6213S",
+    "ASI6214S",
+    "ASI6213S-D",
+    "ASI6214S-D",
+    "ASI6213J-MW-V1",
+    "ASI6214J-MFW-V1",
+    "ASI31D-M",
+    "ASI31D-MF",
+    "ASI31D-MW",
+    "ASI31D-MFW"
+   ],
+   "member": "42E/check.img",
+   "raw": [
+    "ASI31C-M:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI31C-MF:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI31C-MW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI31C-MFW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6223S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-QW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-DW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6214S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-B4G:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:09:01:00:01:400:FF",
+    "ASI6213S-WT:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-QWT:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6214S:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6213S-D:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6214S-D:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6213J-MW-V1:01:04:05:CD:4B:00:02:10:01:01:00:4B0_4B0:00:02:00:06:08:01:00:01:400:FF",
+    "ASI6214J-MFW-V1:01:04:05:CD:4B:00:02:10:01:01:00:4B0_4B0:00:02:00:06:08:01:00:01:400:FF",
+    "ASI31D-M:01:04:05:CD:4B:00:02:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31D-MF:01:04:05:CD:4B:00:03:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31D-MW:01:04:05:CD:4B:00:02:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31D-MFW:01:04:05:CD:4B:00:03:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-11-14",
+    "latest": "2023-11-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "French",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR",
+     "Thai",
+     "Indonesian",
+     "Malay"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-11-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "42E/firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 63523000,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c6854df3f2173823",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bdcdb564d36de562e3f28d2db78b975afd77d2badd2a4925cb367199cd150a71"
+}

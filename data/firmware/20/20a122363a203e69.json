@@ -1,0 +1,174 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-C22C-LC",
+    "IPC-C22C",
+    "IPC-F22A-LC",
+    "IPC-F22A",
+    "IPC-G22A-LC",
+    "IPC-G22FA-LC",
+    "IPC-T22A",
+    "IPC-F22-LC",
+    "IPC-F22"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-C22C-LC:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40",
+    "IPC-C22C:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40",
+    "IPC-F22A-LC:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40",
+    "IPC-F22A:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40",
+    "IPC-G22A-LC:01:02:02:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40",
+    "IPC-G22FA-LC:01:02:02:A8:39:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:40",
+    "IPC-T22A:01:02:04:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40",
+    "IPC-F22-LC:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40",
+    "IPC-F22:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-C22C-LC",
+    "IPC-C22C",
+    "IPC-F22A-LC",
+    "IPC-F22A",
+    "IPC-G22A-LC",
+    "IPC-G22FA-LC",
+    "IPC-T22A",
+    "IPC-F22-LC",
+    "IPC-F22"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-03-30",
+    "latest": "2022-03-30"
+   },
+   "firmware": null,
+   "flash_size": 8388608,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 162996,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-03-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-03-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1322496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-03-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 6244536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "383c0877e2fd9242",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "20a122363a203e69bc3af2b0670e66b30a870494c0f7db430e0fe2a390a3b5c0"
+}

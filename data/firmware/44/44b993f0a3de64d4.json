@@ -1,0 +1,85 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1230E-S-S2",
+    "IPC-HDBW1230E-S2",
+    "IPC-HDW1230EMP-S2",
+    "IPC-HFW1230M-S-S2",
+    "IPC-HFW1230M-AS-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDBW1230E-S-S2:01:02:05:60:28:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW1230E-S2:01:02:05:60:28:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW1230EMP-S2:01:02:05:60:28:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW1230M-S-S2:01:02:02:60:28:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW1230M-AS-S2:01:02:02:60:28:00:01:10:01:01:04:320:08:00:00:00:00:01:00:00:80"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-03-23",
+    "latest": "2018-03-23"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Russian",
+    "supported_languages": [
+     "English",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-03-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 163840,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d264cd2eb92e09d0",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "44b993f0a3de64d47840e2889c66bd95ec3c8b371f0d7bb8bba3a2738f4ffa4b"
+}

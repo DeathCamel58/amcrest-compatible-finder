@@ -1,0 +1,122 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PT-WIFI-AOV-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.bin",
+   "ids": [
+    "IPC-BP3E",
+    "IPC-BP5E"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-BP3E:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-BP5E:01:02:00:112:4E:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-PT-WIFI-AOV-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PT-WIFI-AOV-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.bin",
+   "ids": [
+    "IPC-BP3E",
+    "IPC-BP5E"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-02-04",
+    "latest": "2026-02-04"
+   },
+   "firmware": "DH_IPC-PT-WIFI-AOV-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-02-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 1181880,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-02-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2533514,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-02-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 16447672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-02-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rofiles.bin.img",
+     "image_name": "RO_FILES",
+     "image_size": 11740088,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "84a328f6a6a0355a",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f67e68dfcb8883bd90a6902229d0b3a80d107d4e25868605cd1fa5465e868a33"
+}

@@ -1,0 +1,338 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.39.R.250718.bin",
+   "ids": [
+    "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+    "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+    "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+    "IPC-HFW5443DK1-ZYH-PV-5G-0735"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW5842DK1P-Z-5G-FM16-2712:01:02:02:87:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5842DK1P-Z-5G-FM65-2712:01:02:02:87:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-2712:01:02:02:D1:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-0832:01:02:02:87:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5842DK1P-Z-5G-FM16-0832:01:02:02:87:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5842DK1P-Z-5G-FM65-0832:01:02:02:87:56:00:01:14:07:03:04:3E8:09:00:00:04:00:00:00:00:400",
+    "IPC-HFW5843DK1-ZYH-PV-5G-2712:01:02:02:87:56:00:01:14:07:03:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFW5843DK1-ZYH-PV-5G-0832:01:02:02:87:56:00:01:14:07:03:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFW5443DK1-ZYH-PV-5G-27135:01:02:02:C8:56:00:01:14:07:03:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFW5443DK1-ZYH-PV-5G-0735:01:02:02:C8:56:00:01:14:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.39.R.250718.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.39.R.250718.bin",
+   "ids": [
+    "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+    "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+    "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+    "IPC-HFW5443DK1-ZYH-PV-5G-0735"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-18",
+    "latest": "2025-07-18"
+   },
+   "firmware": "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.39.R.250718.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 298432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 210096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 208848,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 208848,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 32127160,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4562104,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14837944,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1652920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 123062456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4562104,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 15055032,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c2602b7968972612",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.0000000.39.R.250718"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-18",
+    "latest": "2025-07-18"
+   },
+   "firmware": "firmware-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 123062456,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a0c06f09c2a2109b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-18",
+    "latest": "2025-07-18"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14837944,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0afc8695ec3ab254",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c4b46409479f90640f5c4e086820742a200fdd5affbdc3eadfaf1c8188e6fdd1"
+}

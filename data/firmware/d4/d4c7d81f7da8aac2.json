@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PDBW82043-B360-E4-2812-S2",
+    "IPC-PDBW82041P-B360-E4-2812-S2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PDBW82043-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:02:00:00:01:00:00:1000",
+    "IPC-PDBW82041P-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PDBW82043-B360-E4-2812-S2",
+    "IPC-PDBW82041P-B360-E4-2812-S2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-03-31",
+    "latest": "2025-03-31"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-03-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 513320,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 513320,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 41120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3610808,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12964608,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 121546936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13256888,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "d4c7d81f7da8aac21b04c374bde83c916c9473a5e681b0a077c416f6fcbf2a5d"
+}

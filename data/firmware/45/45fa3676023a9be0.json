@@ -1,0 +1,72 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5400-BX-TP_V1.000.0000000.28.R.211009.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-10-11",
+    "latest": "2021-10-11"
+   },
+   "firmware": "packetCamera_TPC-NYX5400-BX-TP_V1.000.0000000.28.R.211009.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-10-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 4009867,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "45fa3676023a9be064d0d32b3326629977dc8926253270c1c1121ce815802af4"
+}

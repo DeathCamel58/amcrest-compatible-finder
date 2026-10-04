@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-S422X-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S422X-16GT2GT2GF-240",
+    "TS-S422X-16GT2GT2GF-190",
+    "TS-S422X-24GT2GT2GF-360",
+    "TS-S422X-24GT2GT2GF-240",
+    "TS-S422X-16GT2GT2GF",
+    "TS-S422X-24GT2GT2GF",
+    "TS-S422X-24GT4GF",
+    "TS-S422X-16GT2GT2GF-240-B",
+    "TS-S422X-24GT2GT2GF-240-B",
+    "TS-S422X-16GT2GT2GF-A",
+    "TS-S422X-24GT2GT2GF-A",
+    "TS-S422X-24GT4GF-A",
+    "TS-S422X-24GT4GF-B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S422X-16GT2GT2GF-240",
+     "1.00"
+    ],
+    [
+     "TS-S422X-16GT2GT2GF-190",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT2GT2GF-360",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT2GT2GF-240",
+     "1.00"
+    ],
+    [
+     "TS-S422X-16GT2GT2GF",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT2GT2GF",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT4GF",
+     "1.00"
+    ],
+    [
+     "TS-S422X-16GT2GT2GF-240-B",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT2GT2GF-240-B",
+     "1.00"
+    ],
+    [
+     "TS-S422X-16GT2GT2GF-A",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT2GT2GF-A",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT4GF-A",
+     "1.00"
+    ],
+    [
+     "TS-S422X-24GT4GF-B",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-S422X-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S422X-16GT2GT2GF-190",
+    "TS-S422X-16GT2GT2GF-240",
+    "TS-S422X-16GT2GT2GF-240-B",
+    "TS-S422X-24GT2GT2GF-240",
+    "TS-S422X-24GT2GT2GF-240-B",
+    "TS-S422X-24GT2GT2GF-360",
+    "TS-S422X-16GT2GT2GF",
+    "TS-S422X-16GT2GT2GF-A",
+    "TS-S422X-24GT2GT2GF",
+    "TS-S422X-24GT2GT2GF-A",
+    "TS-S422X-24GT4GF",
+    "TS-S422X-24GT4GF-A",
+    "TS-S422X-24GT4GF-B"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S422X-16GT2GT2GF-190:02:04:02:09:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-16GT2GT2GF-240:02:04:02:08:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-16GT2GT2GF-240-B:02:04:02:1C:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT2GT2GF-240:02:04:02:0B:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT2GT2GF-240-B:02:04:02:1D:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT2GT2GF-360:02:04:02:0A:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-16GT2GT2GF:02:04:02:0C:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-16GT2GT2GF-A:02:04:02:1E:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT2GT2GF:02:04:02:0D:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT2GT2GF-A:02:04:02:1F:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT4GF:02:04:02:0E:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT4GF-A:02:04:02:28:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S422X-24GT4GF-B:02:04:02:29:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2026-01-08",
+    "latest": "2026-01-08"
+   },
+   "firmware": "DH_TS-S422X-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 812752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 17988600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "aol.bin.img",
+     "image_name": "firmware",
+     "image_size": 8992440,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c5522de5e877dd0b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.001.0000000.29.R.260108"
+  }
+ ],
+ "sha256": "1972da75b180555b5544d9426f8c21130d4f625b6f79788d60fe235e483fcffe"
+}

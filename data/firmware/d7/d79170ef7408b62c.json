@@ -1,0 +1,66 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2428",
+   "build_dates": {
+    "earliest": "2016-11-02",
+    "latest": "2016-11-02"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2016-11-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "0/u-boot.bin.img",
+     "image_name": "hi3531Aboot",
+     "image_size": 299412,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9ce010592ee16603",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520DV300",
+     "Hi3521A",
+     "Hi3531A"
+    ],
+    "evidence": [
+     {
+      "member": "0/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520dv300"
+     },
+     {
+      "member": "0/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3521a"
+     },
+     {
+      "member": "0/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3531a"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "d79170ef7408b62c77961a7e0aa6a8c16edcd1815bb5fd9275c1011710c9ceba"
+}

@@ -1,0 +1,327 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF1241-B-S8-V1_MultiLang_PN_V2.680.0000000.1.R.260515.bin",
+   "ids": [
+    "TPC-BF1241-B",
+    "TPC-BF1241-TB",
+    "TPC-DF1241-B",
+    "TPC-DF1241-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-BF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-BF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-DF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-DF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-BF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-BF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-DF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-DF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-BF1241-B-S8-V1_MultiLang_PN_V2.680.0000000.1.R.260515.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF1241-B-S8-V1_MultiLang_PN_V2.680.0000000.1.R.260515.bin",
+   "ids": [
+    "TPC-BF1241-B",
+    "TPC-BF1241-TB",
+    "TPC-DF1241-B",
+    "TPC-DF1241-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "TPC-BF1241-B",
+    "TPC-BF1241-TB",
+    "TPC-DF1241-B",
+    "TPC-DF1241-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-BF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-BF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-DF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-DF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800",
+    "TPC-BF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-BF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-DF1241-B:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800",
+    "TPC-DF1241-TB:01:08:0C:10E:7B:00:02:00:00:00:00:4B0:00:00:00:00:00:00:01:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "TPC-BF1241-B",
+    "TPC-BF1241-TB",
+    "TPC-DF1241-B",
+    "TPC-DF1241-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2020.10-svn49384",
+   "build_dates": {
+    "earliest": "2026-05-15",
+    "latest": "2026-05-15"
+   },
+   "firmware": "DH_TPC-BF1241-B-S8-V1_MultiLang_PN_V2.680.0000000.1.R.260515.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-05-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "SPL",
+     "image_size": 135352,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "vendor.bin.img",
+     "image_name": "vendor",
+     "image_size": 139448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 745752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 135600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2787512,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 10035896,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 16984248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_aa.img",
+     "image_name": "romfs",
+     "image_size": 74688696,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ab.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ac.img",
+     "image_name": "firmware",
+     "image_size": 47950008,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "b02abee3ced30570",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V2.680.0000000.1.R.260515"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-15",
+    "latest": "2026-05-15"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.680.0000000.1.R.260515"
+  }
+ ],
+ "sha256": "4e88b564e39b07b199e3213e59ad4a0808136bdd3687821680ddbcbefa8d0ecc"
+}

@@ -1,0 +1,271 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTO66-Freyja-A3_MultiLang_PN_V4.820.0000000.2.R.260707.bin",
+   "ids": [
+    "VTO6631Q-WP"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6631Q-WP:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:02:00:0E:08:01:00:01:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTO66-Freyja-A3_MultiLang_PN_V4.820.0000000.2.R.260707.bin",
+   "ids": [
+    "VTO7631M",
+    "VTO7641M-MF",
+    "VTO9631M",
+    "VTO9641M-MF",
+    "VTO7531G-V2",
+    "VTO7541G-V2",
+    "VTO7531G-4G-V2",
+    "VTO9531D-V2",
+    "VTO9541D-V2",
+    "VTO9551D-V2",
+    "VTO7631Q",
+    "VTO9631Q",
+    "VTO6631Q-WP"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO7631M",
+     "1.00"
+    ],
+    [
+     "VTO7641M-MF",
+     "1.00"
+    ],
+    [
+     "VTO9631M",
+     "1.00"
+    ],
+    [
+     "VTO9641M-MF",
+     "1.00"
+    ],
+    [
+     "VTO7531G-V2",
+     "1.00"
+    ],
+    [
+     "VTO7541G-V2",
+     "1.00"
+    ],
+    [
+     "VTO7531G-4G-V2",
+     "1.00"
+    ],
+    [
+     "VTO9531D-V2",
+     "1.00"
+    ],
+    [
+     "VTO9541D-V2",
+     "1.00"
+    ],
+    [
+     "VTO9551D-V2",
+     "1.00"
+    ],
+    [
+     "VTO7631Q",
+     "1.00"
+    ],
+    [
+     "VTO9631Q",
+     "1.00"
+    ],
+    [
+     "VTO6631Q-WP",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTO66-Freyja-A3_MultiLang_PN_V4.820.0000000.2.R.260707.bin",
+   "ids": [
+    "VTO6631Q-WP"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-07-07",
+    "latest": "2026-07-07"
+   },
+   "firmware": "DH_VTO66-Freyja-A3_MultiLang_PN_V4.820.0000000.2.R.260707.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkey",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "Hebrew",
+     "TradChinese",
+     "TradChinese2",
+     "Japanese",
+     "Korean",
+     "Vietnamese",
+     "Thai",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 271640,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 222856,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 342676,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 844564,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 21563576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 157880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5210016,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 35285176,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 28502200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 99604664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1540e2ab4d4df0d0",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.820.0000000.2.R.260707"
+  }
+ ],
+ "sha256": "ae9599650c4da58ddf668bc3e812cb51c150d954d78b6ad774d1a9f852628c7a"
+}

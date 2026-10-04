@@ -1,0 +1,139 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DVR5x08_Eng_P_V3.200.0001.28.R.20170802.bin",
+   "ids": [
+    "DVR5x00_B",
+    "General_5x00",
+    "DH",
+    "OEM_TYPE"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1587",
+   "build_dates": {
+    "earliest": "2017-08-03",
+    "latest": "2017-09-21"
+   },
+   "firmware": "DH_DVR5x08_Eng_P_V3.200.0001.28.R.20170802.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_5x00",
+    "DH",
+    "OEM_TYPE"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3521boot",
+     "image_size": 223884,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 12709888,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1507328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 102400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3521boot"
+     },
+     {
+      "member": "romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     }
+    ],
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "4c25607335e3cfb5bf748455b898752acb94c13f896ba40380fad279c8d2019e"
+}

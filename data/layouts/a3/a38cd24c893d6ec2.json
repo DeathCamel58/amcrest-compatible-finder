@@ -1,0 +1,17 @@
+{
+ "id": "a38cd24c893d6ec2",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "dhboot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "dhboot",
+   "size": 1048576,
+   "start": "0x200000"
+  }
+ ]
+}

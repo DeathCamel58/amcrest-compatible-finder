@@ -1,0 +1,182 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "Firmware_VIP_1430_BD_09-09-2020.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1430_BD_09-09-2020.bin",
+   "ids": [
+    "IPC-VIP-1430-B",
+    "IPC-VIP-1430-D"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-VIP-1430-B:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-VIP-1430-D:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1430_BD_09-09-2020.bin",
+   "ids": [
+    "IPC-VIP-1430-B",
+    "IPC-VIP-1430-D"
+   ],
+   "member": "hwid",
+   "raw_same_as": 1,
+   "source": "hwid"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn5938",
+   "build_dates": {
+    "earliest": "2020-09-09",
+    "latest": "2020-09-18"
+   },
+   "firmware": "Firmware_VIP_1430_BD_09-09-2020.bin",
+   "flash_size": 16777216,
+   "kernel_version": "3.18.30",
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-09-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 227328,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-09-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 159744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1814568,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2547712,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 9674752,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2dc2e6ecc2c9b213",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "4abf470adf603c9db40980a78b03851e06d4d02ef69931aeee6d5baded418d2e"
+}

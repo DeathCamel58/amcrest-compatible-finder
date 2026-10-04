@@ -1,0 +1,87 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TS-S4428-24GT4GF-Talos_Eng_Local_V1.000.0000000.7.R.260618.bin",
+   "ids": [
+    "TS-S4428-24GT4GF"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S4428-24GT4GF:02:04:02:60:1001:00:00:00:00:00:00:00:00:18:04:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TS-S4428-24GT4GF-Talos_Eng_Local_V1.000.0000000.7.R.260618.bin",
+   "ids": [
+    "TS-S4428-24GT4GF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S4428-24GT4GF",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2022.07-v1.26",
+   "build_dates": {
+    "earliest": "2026-06-18",
+    "latest": "2026-06-18"
+   },
+   "firmware": "DH_TS-S4428-24GT4GF-Talos_Eng_Local_V1.000.0000000.7.R.260618.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-06-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uImage",
+     "image_name": "firmware",
+     "image_size": 65205036,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8ad5b7b59398ccc7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "boot_256M.bin",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V1.000.0000000.7.R.260618"
+  }
+ ],
+ "sha256": "e097184cda32562426ddd109fd2e78d7625bf3eaece25d18a0ecbd9ee8d717ca"
+}

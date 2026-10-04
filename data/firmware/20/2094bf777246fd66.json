@@ -1,0 +1,75 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6221",
+    "VTO622X",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO3221D"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6221",
+     "1.00"
+    ],
+    [
+     "VTO622X",
+     "1.00"
+    ],
+    [
+     "VTO6223B",
+     "1.00"
+    ],
+    [
+     "VTO6223C",
+     "1.00"
+    ],
+    [
+     "VTO3221D",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General_VTO3211D"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General_VTO3211D",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1060864,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e3a35333e1e04abc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "2094bf777246fd665523339f7f860deacc8ddf4845fd9fd838f7ab29b5943e66"
+}

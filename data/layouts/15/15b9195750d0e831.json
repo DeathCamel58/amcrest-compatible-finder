@@ -1,0 +1,71 @@
+{
+ "id": "15b9195750d0e831",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "dhboot-min",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x400",
+   "name": "CmdScript",
+   "size": 1024,
+   "start": "0x0"
+  },
+  {
+   "end": "0xd0000",
+   "name": "dhboot",
+   "size": 327680,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xf0000"
+  },
+  {
+   "end": "0x180000",
+   "name": "pd",
+   "size": 524288,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x900000",
+   "name": "kernel",
+   "size": 7864320,
+   "start": "0x180000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "user",
+   "size": 5242880,
+   "start": "0x900000"
+  },
+  {
+   "end": "0x1260000",
+   "name": "fpga_gowin",
+   "size": 65536,
+   "start": "0x1250000"
+  },
+  {
+   "end": "0x2000000",
+   "name": "png",
+   "size": 589824,
+   "start": "0x1f70000"
+  },
+  {
+   "end": "0x1ff0000",
+   "name": "checkHwid",
+   "size": 65536,
+   "start": "0x1fe0000"
+  },
+  {
+   "end": "0x8800000",
+   "name": "ThermalCore",
+   "size": 8388608,
+   "start": "0x8000000"
+  }
+ ]
+}

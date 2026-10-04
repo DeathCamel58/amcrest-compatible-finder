@@ -1,0 +1,495 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_NVR6XXX-I_MultiLang_IP_SPEAKER_V4.000.18LK000.0.T.230920.Plain.bin",
+   "ids": [
+    "NVR6X-I",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2017.09-svn6819",
+   "build_dates": {
+    "earliest": "2023-09-20",
+    "latest": "2023-09-20"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "RK3588",
+     "image_size": 4194304,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 12922880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 536870912,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a7f7c5a8cc0d5037",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "RK3588",
+     "RK3568",
+     "RK3399",
+     "RV1126",
+     "RK3036",
+     "RK1808",
+     "RK3308",
+     "RK3128",
+     "RK3328",
+     "RK3368",
+     "RV1108",
+     "RK3066",
+     "RK3188",
+     "RK3228",
+     "RK3288",
+     "RK3126",
+     "RK3366"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3588"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3568"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3399"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rv1126"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3036"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk1808"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3308"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3128"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3328"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3368"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rv1108"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3066"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3188"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3228"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3288"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3126"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3366"
+     },
+     {
+      "member": "algorithm-x.squashfs.img",
+      "source": "image_name",
+      "value": "RK3588"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2017.09-svn6819",
+   "build_dates": {
+    "earliest": "2023-09-20",
+    "latest": "2023-09-20"
+   },
+   "firmware": "Customer_NVR6XXX-I_MultiLang_IP_SPEAKER_V4.000.18LK000.0.T.230920.Plain.bin",
+   "flash_size": 11061151399936,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR6X-I",
+    "DAHUA"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "loader.img",
+     "image_name": "RK3588",
+     "image_size": 1081344,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "RK3588",
+     "image_size": 4194304,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "RK3588",
+     "image_size": 11729440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 78839808,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 18186240,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-09-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "RK3588",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "5d9a697d38ee4de8",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "2.10"
+   },
+   "soc": {
+    "candidates": [
+     "RK3588",
+     "RK3399",
+     "RK3036",
+     "RK1808",
+     "RK3308",
+     "RV1126",
+     "RK3568",
+     "RK3288",
+     "RV1108",
+     "RK3066",
+     "RK3128",
+     "RK3188",
+     "RK3228",
+     "RK3328",
+     "RK3368",
+     "RK3126",
+     "RK3366"
+    ],
+    "evidence": [
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3588"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3399"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3036"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk1808"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3308"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rv1126"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3568"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3288"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rv1108"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3066"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3128"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3188"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3228"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3328"
+     },
+     {
+      "member": "loader.img",
+      "source": "bootloader",
+      "value": "rk3368"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3126"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "rk3366"
+     },
+     {
+      "member": "loader.img",
+      "source": "image_name",
+      "value": "RK3588"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img",
+    "algorithm.img",
+    "busybox.img",
+    "mcu.bin.img"
+   ]
+  }
+ ],
+ "sha256": "ea34f16a4dd2191dc082e09f24f8c145ca7cfbc5ee7c12ee9c0d478c3f5548dc"
+}

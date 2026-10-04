@@ -1,0 +1,41 @@
+{
+ "id": "e6b96ceea54f78ec",
+ "partitions": [
+  {
+   "end": "0xa0050000",
+   "name": "boot",
+   "size": 327680,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0da0000",
+   "name": "rootfs",
+   "size": 13893632,
+   "start": "0xa0060000"
+  },
+  {
+   "end": "0xa0f40000",
+   "name": "web",
+   "size": 1703936,
+   "start": "0xa0da0000"
+  },
+  {
+   "end": "0xa0f60000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0xa0f40000"
+  },
+  {
+   "end": "0xa0f80000",
+   "name": "logo",
+   "size": 131072,
+   "start": "0xa0f60000"
+  },
+  {
+   "end": "0xa1000000",
+   "name": "config",
+   "size": 524288,
+   "start": "0xa0f80000"
+  }
+ ]
+}

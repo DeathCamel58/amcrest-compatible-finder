@@ -1,0 +1,83 @@
+{
+ "id": "c1769efa4eb29e28",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "param",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "ipl",
+   "size": 786432,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x2c0000",
+   "name": "ipl_cust",
+   "size": 786432,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x440000",
+   "name": "boot",
+   "size": 1572864,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0x540000",
+   "name": "env",
+   "size": 1048576,
+   "start": "0x440000"
+  },
+  {
+   "end": "0x2a40000",
+   "name": "romfs",
+   "size": 38797312,
+   "start": "0x540000"
+  },
+  {
+   "end": "0x2ac0000",
+   "name": "custom",
+   "size": 524288,
+   "start": "0x2a40000"
+  },
+  {
+   "end": "0x34c0000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x2ac0000"
+  },
+  {
+   "end": "0x3540000",
+   "name": "logo",
+   "size": 524288,
+   "start": "0x34c0000"
+  },
+  {
+   "end": "0x3840000",
+   "name": "config_fw",
+   "size": 3145728,
+   "start": "0x3540000"
+  },
+  {
+   "end": "0x3dc0000",
+   "name": "config",
+   "size": 5767168,
+   "start": "0x3840000"
+  },
+  {
+   "end": "0x3fc0000",
+   "name": "logs",
+   "size": 2097152,
+   "start": "0x3dc0000"
+  },
+  {
+   "end": "0x4000000",
+   "name": "dgs",
+   "size": 262144,
+   "start": "0x3fc0000"
+  }
+ ]
+}

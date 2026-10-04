@@ -1,0 +1,178 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH5421H",
+    "VTH5422H"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "VTH5421H",
+    "VTH5422H"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH5421H",
+    "VTH5422H"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-15",
+    "latest": "2021-07-15"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Russian",
+     "Turkey",
+     "Italian",
+     "French",
+     "German",
+     "Dutch",
+     "Spanish",
+     "Portuguese",
+     "Polish",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 806,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49284,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 641208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 141496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4506296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 12753080,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1845432,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a80b11507646f4a7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "820d7df071f48b623e3ede93bcdd669cff32a4177989ca8da8043b54d73ce439"
+}

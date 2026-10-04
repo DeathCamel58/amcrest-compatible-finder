@@ -1,0 +1,77 @@
+{
+ "id": "96877c0f0393d679",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "dhboot-min",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1000",
+   "name": "CmdScript",
+   "size": 4096,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "IPL",
+   "size": 786432,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x2c0000",
+   "name": "IPL_CUST",
+   "size": 786432,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "boot",
+   "size": 1310720,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "dtb",
+   "size": 4194304,
+   "start": "0xa00000"
+  },
+  {
+   "end": "0x2f00000",
+   "name": "data",
+   "size": 20971520,
+   "start": "0x1b00000"
+  },
+  {
+   "end": "0x3100000",
+   "name": "pd",
+   "size": 2097152,
+   "start": "0x2f00000"
+  },
+  {
+   "end": "0x3900000",
+   "name": "kernel",
+   "size": 8388608,
+   "start": "0x3100000"
+  },
+  {
+   "end": "0x5700000",
+   "name": "rootfs",
+   "size": 31457280,
+   "start": "0x3900000"
+  },
+  {
+   "end": "0x5900000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0x5700000"
+  },
+  {
+   "end": "0x6d00000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0x5900000"
+  }
+ ]
+}

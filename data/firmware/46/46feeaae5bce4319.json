@@ -1,0 +1,270 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-PFS4218-16ET-190",
+    "TS-PFS4218-16ET-240",
+    "TS-PFS4226-24ET-240",
+    "TS-PFS4226-24ET-360",
+    "TS-PFS42XX",
+    "TS-PFS4218-16ET",
+    "TS-PFS4226-24ET"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TS-PFS4218-16ET-190:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4218-16ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET-360:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS42XX:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4218-16ET:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
+    "TS-PFS4226-24ET:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "TS-PFS4226-24ET-360",
+    "TS-PFS4226-24ET-240",
+    "TS-PFS4218-16ET-240",
+    "TS-PFS4218-16ET-190",
+    "TS-PFS4226-24ET",
+    "TS-PFS4218-16ET",
+    "TS-PFS42XX-XXET-XX",
+    "TS-LR2226-24ET-360",
+    "TS-LR22XX-XXET-XX",
+    "TS-LR2218-16ET-240"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-PFS4226-24ET-360",
+     "1.00"
+    ],
+    [
+     "TS-PFS4226-24ET-240",
+     "1.00"
+    ],
+    [
+     "TS-PFS4218-16ET-240",
+     "1.00"
+    ],
+    [
+     "TS-PFS4218-16ET-190",
+     "1.00"
+    ],
+    [
+     "TS-PFS4226-24ET",
+     "1.00"
+    ],
+    [
+     "TS-PFS4218-16ET",
+     "1.00"
+    ],
+    [
+     "TS-PFS42XX-XXET-XX",
+     "1.00"
+    ],
+    [
+     "TS-LR2226-24ET-360",
+     "1.00"
+    ],
+    [
+     "TS-LR22XX-XXET-XX",
+     "1.00"
+    ],
+    [
+     "TS-LR2218-16ET-240",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-PFS4218-16ET-190",
+    "TS-PFS4218-16ET-240",
+    "TS-PFS4226-24ET-240",
+    "TS-PFS4226-24ET-360",
+    "TS-PFS42XX",
+    "TS-PFS4218-16ET",
+    "TS-PFS4226-24ET"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn8135",
+   "build_dates": {
+    "earliest": "2020-07-13",
+    "latest": "2020-07-13"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.0.8+",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": ""
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 194560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1175360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 761856,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2269184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 7659520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-07-13",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "config-x.jiffs2.img",
+     "image_name": "config",
+     "image_size": 65536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "a44bcc34511f1b2b",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "46feeaae5bce4319d04caf8975d23f94bab5cb601d54acfd1119124ad8b35b55"
+}

@@ -1,0 +1,293 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "LaurelX16-I3_NP_V4.001.00KL500.1.R.220701.bin",
+   "ids": [
+    "XVR5x16-I3",
+    "Kangle"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn5847",
+   "build_dates": {
+    "earliest": "2022-07-01",
+    "latest": "2022-07-01"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "LaurelX16-I3_V4.001.00KL500.1.R.220701/u-boot.bin.img",
+     "image_name": "5x16FW98336Tboot",
+     "image_size": 890584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "LaurelX16-I3_V4.001.00KL500.1.R.220701/custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "LaurelX16-I3_V4.001.00KL500.1.R.220701/web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 8224768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "LaurelX16-I3_V4.001.00KL500.1.R.220701/logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d34a17907e8b8b18",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "LaurelX16-I3_V4.001.00KL500.1.R.220701/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98336"
+     },
+     {
+      "member": "LaurelX16-I3_V4.001.00KL500.1.R.220701/u-boot.bin.img",
+      "source": "image_name",
+      "value": "5x16FW98336Tboot"
+     }
+    ],
+    "name": "NT98336",
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn5847",
+   "build_dates": {
+    "earliest": "2022-07-01",
+    "latest": "2022-07-01"
+   },
+   "firmware": "LaurelX16-I3_NP_V4.001.00KL500.1.R.220701.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Kangle"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "5x16FW98336Tboot",
+     "image_size": 17918,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "5x16FW98336Tboot",
+     "image_size": 890584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "5x16FW98336Tromfs",
+     "image_size": 45457408,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "5x16FW98336Tromfs",
+     "image_size": 12705792,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 36147200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "310d0864ee1644b0",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51090"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51090"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98336"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "5x16FW98336Tboot"
+     }
+    ],
+    "name": "NT98336",
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "41bcad67f06e84754d82fda31ad18294ac40bfea8c299fad305cd15356f7ae39"
+}

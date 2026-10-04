@@ -1,0 +1,41 @@
+{
+ "id": "bb201804f180c124",
+ "partitions": [
+  {
+   "end": "0x700000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x2500000",
+   "name": "data",
+   "size": 20971520,
+   "start": "0x1100000"
+  },
+  {
+   "end": "0x3500000",
+   "name": "pd",
+   "size": 16777216,
+   "start": "0x2500000"
+  },
+  {
+   "end": "0x3f00000",
+   "name": "kernel",
+   "size": 10485760,
+   "start": "0x3500000"
+  },
+  {
+   "end": "0xaf00000",
+   "name": "rootfs",
+   "size": 117440512,
+   "start": "0x3f00000"
+  },
+  {
+   "end": "0xff00000",
+   "name": "web",
+   "size": 83886080,
+   "start": "0xaf00000"
+  }
+ ]
+}

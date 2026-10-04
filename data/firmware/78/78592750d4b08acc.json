@@ -1,0 +1,983 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TPC-NYX-Phoebe_EngItlSpnFrn_NP_V2.622.0000000.13.R.210712.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-NYX-Phoebe_EngItlSpnFrn_NP_V2.622.0000000.13.R.210712.bin",
+   "ids": [
+    "TPC-PT8X20A-B",
+    "TPC-PT8X20B-B",
+    "TPC-PT8X20C-LB",
+    "TPC-PT8X20C-RB",
+    "TPC-SD8X20-B",
+    "TPC-PT8620A-B",
+    "TPC-SD8620-B",
+    "TPC-PT8620B-B",
+    "TPC-PT8620C-LB",
+    "TPC-PT8620C-RB"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-PT8X20A-B:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-SD8X20-B:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8620A-B:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-SD8620-B:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "ids": [
+    "TPC-PT8X20B-B",
+    "TPC-SD8X20-B",
+    "TPC-PT8X20A-B",
+    "TPC-PT8X20M-B",
+    "TPC-AEBF5X00-B",
+    "TPC-AEPT8X20-B",
+    "TPC-BF5X00-B",
+    "TPC-PT8X20C-RB",
+    "TPC-PT8X20C-LB",
+    "TPC-BF8X20A-B",
+    "TPC-BF5400-TB",
+    "TPC-SD8420-TB",
+    "TPC-PT8420A-TB",
+    "TPC-PT8420M-TB",
+    "TPC-UMU8420-TB",
+    "TPC-UMU5400-TB",
+    "TPC-PT8420M-TBM",
+    "TPC-PT8420M-TBW",
+    "TPC-PT8420M-TBMW"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-SD8X20-B:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20A-B:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20M-B:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00-B:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-AEPT8X20-B:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-BF5X00-B:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-BF5X00-B:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:02:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8X20C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8X20C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-BF8X20A-B:01:08:02:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-BF5400-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-BF5400-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:02:00:400",
+    "TPC-SD8420-TB:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8420A-TB:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8420M-TB:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-UMU8420-TB:01:08:02:30:15:00:02:06:01:01:04:330_330:03:00:00:04:00:01:00:00:400",
+    "TPC-UMU5400-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8420M-TBM:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8420M-TBW:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8420M-TBMW:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw_same_as": 2,
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "ids": [
+    "TPC-PT8X20B-B",
+    "TPC-SD8X20-B",
+    "TPC-PT8X20A-B",
+    "TPC-PT8X20M-B",
+    "TPC-AEBF5X00-B",
+    "TPC-AEPT8X20-B",
+    "TPC-BF5X00-B",
+    "TPC-PT8X20C-RB",
+    "TPC-PT8X20C-LB",
+    "TPC-BF8X20A-B",
+    "TPC-BF5400-TB",
+    "TPC-SD8420-TB",
+    "TPC-PT8420A-TB",
+    "TPC-PT8420M-TB",
+    "TPC-UMU8420-TB",
+    "TPC-UMU5400-TB",
+    "TPC-PT8420M-TBM",
+    "TPC-PT8420M-TBW",
+    "TPC-PT8420M-TBMW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "ids": [
+    "TPC-PT8620C-RB",
+    "TPC-PT8620C-LB",
+    "TPC-PT8620B-B",
+    "TPC-PT8620A-B",
+    "TPC-SD8620-B",
+    "TPC-BF5600-B",
+    "TPC-BF8620A-B",
+    "TPC-PT8620M-B",
+    "TPC-BF5600-TB",
+    "TPC-SD8620-TB",
+    "TPC-PT8620A-TB",
+    "TPC-PT8620M-TB",
+    "TPC-AEBF5600-TB",
+    "TPC-AEPT8620-TB",
+    "TPC-UMU8620-TB",
+    "TPC-UMU5600-TB",
+    "TPC-PT8620M-TBM",
+    "TPC-PT8620M-TBW",
+    "TPC-PT8620M-TBMW"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620C-RB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8620C-LB:01:08:01:31:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:10:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:80:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:90:00:400",
+    "TPC-PT8620B-B:01:08:01:30:15:00:02:01:01:01:04:330_330:02:00:00:04:00:01:20:00:400",
+    "TPC-PT8620A-B:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-SD8620-B:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-BF5600-B:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-BF5600-B:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:02:00:400",
+    "TPC-BF8620A-B:01:08:02:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-B:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-BF5600-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-BF5600-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:02:00:400",
+    "TPC-SD8620-TB:01:08:05:30:15:00:02:06:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8620A-TB:01:08:01:30:15:00:02:01:01:01:04:330_330:04:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-TB:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5600-TB:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-AEPT8620-TB:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-UMU8620-TB:01:08:02:30:15:00:02:06:01:01:04:330_330:03:00:00:04:00:01:00:00:400",
+    "TPC-UMU5600-TB:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-TBM:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-TBW:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-TBMW:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw_same_as": 6,
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "ids": [
+    "TPC-PT8620C-RB",
+    "TPC-PT8620C-LB",
+    "TPC-PT8620B-B",
+    "TPC-PT8620A-B",
+    "TPC-SD8620-B",
+    "TPC-BF5600-B",
+    "TPC-BF8620A-B",
+    "TPC-PT8620M-B",
+    "TPC-BF5600-TB",
+    "TPC-SD8620-TB",
+    "TPC-PT8620A-TB",
+    "TPC-PT8620M-TB",
+    "TPC-AEBF5600-TB",
+    "TPC-AEPT8620-TB",
+    "TPC-UMU8620-TB",
+    "TPC-UMU5600-TB",
+    "TPC-PT8620M-TBM",
+    "TPC-PT8620M-TBW",
+    "TPC-PT8620M-TBMW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 7,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "packetFpga-PT8X20B.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetScm.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6265",
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "DH_TPC-NYX-Phoebe_EngItlSpnFrn_NP_V2.622.0000000.13.R.210712.bin",
+   "flash_size": 132120576,
+   "kernel_version": "3.10.50",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 407845,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 301056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 266240,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 348160,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1770120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1454080,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4075520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 18161664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "slave-x.ramdisk.gz.img",
+     "image_name": "slave",
+     "image_size": 13629201,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "d344d9ed9d780b0f",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s2l"
+     }
+    ],
+    "name": "S2L",
+    "vendor": "Ambarella"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "NYX5400_A4.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.img",
+     "image_name": "fpga",
+     "image_size": 5176341,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ea654a275b41360",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 5307413,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e57767b4b712d12f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "NYX5400_A5.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.img",
+     "image_name": "fpga",
+     "image_size": 5176341,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ea654a275b41360",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetCamera_TPC-NYX5400-TBX_V1.000.0000000.1.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 5307413,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e57767b4b712d12f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "NYX5600_A4.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.img",
+     "image_name": "fpga",
+     "image_size": 4765133,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ea654a275b41360",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 4896205,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e57767b4b712d12f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "NYX5600_A5.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.img",
+     "image_name": "fpga",
+     "image_size": 4765133,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ea654a275b41360",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetCamera_TPC-NYX5800-TBX_V1.000.0000000.3.R.181016.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 4896205,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e57767b4b712d12f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetFpga-PT8X20B.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.img",
+     "image_name": "fpga",
+     "image_size": 2685597,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ea654a275b41360",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-12",
+    "latest": "2021-07-12"
+   },
+   "firmware": "packetScm.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "scm.img",
+     "image_name": "scm",
+     "image_size": 52004,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fd31b14604141a9a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "78592750d4b08accc1e5cce7e1f04d947c772ab30926204c27dc8bd3dd097655"
+}

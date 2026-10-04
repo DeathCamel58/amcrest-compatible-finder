@@ -1,0 +1,404 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD-MT3000-HI-A",
+    "SD-MT3000-HI-B",
+    "SD-MT3000-HI1-A",
+    "SD-MT2000-HI-A",
+    "SD-MT2000-HI-B",
+    "SD-MT3000-HI2-B",
+    "SD-MT2000-HI2-A",
+    "SD-MT3000-HI3-B",
+    "SD-MT2000-HI3-A",
+    "SD-MT3000-HI2-A",
+    "SD-MT2000-HI2-B",
+    "SD-MT3000-HI3-A",
+    "SD-MT2000-HI3-B",
+    "SD-MT2003-HIC-A",
+    "SD-MT3A2005-HI-A",
+    "SD-MT1A3003-HIC-A",
+    "SD-MT3000-HI2-C",
+    "PTZ-NT2000HB-0600-A",
+    "PTZ-NT2000HB-0600-B",
+    "SD-MT1H2000HI-A",
+    "SD49216HB-A",
+    "SD49220HB-A",
+    "SD49220HB-B",
+    "SD49223HB-A",
+    "SD-MT3A2005HI1-A",
+    "SD-MT3A2005HI1-B",
+    "SD-MT4000-HI-A",
+    "SD-MT3400-HI-B",
+    "SD-MT3400-HI-C",
+    "PTZ-NT4000HB-0600-A",
+    "PTZ-NT4000HB-0600-B",
+    "SD-MT3A4005HI-A",
+    "SD-MT3A4005HI-B",
+    "SD-MT3A2010HI-A",
+    "SD-MT3A4005HI-C",
+    "SD-MT1H4000HI-A",
+    "SD-MT5000-HI-A",
+    "SD-MT5000-HI-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT3000-HI-A:01:03:04:AC:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI-B:01:03:04:AC:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI1-A:01:03:04:9B:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI-A:01:03:04:AC:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI-B:01:03:04:AC:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI2-B:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI2-A:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI3-B:01:03:04:B1:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI3-A:01:03:04:B1:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI2-A:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI2-B:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI3-A:01:03:04:B1:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2000-HI3-B:01:03:04:B1:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT2003-HIC-A:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A2005-HI-A:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT1A3003-HIC-A:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3000-HI2-C:01:03:04:CB:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "PTZ-NT2000HB-0600-A:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "PTZ-NT2000HB-0600-B:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT1H2000HI-A:01:03:04:CF:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD49216HB-A:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD49220HB-A:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD49220HB-B:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD49223HB-A:01:03:04:75:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A2005HI1-A:01:03:04:CF:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A2005HI1-B:01:03:04:CF:4E:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT4000-HI-A:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3400-HI-B:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3400-HI-C:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "PTZ-NT4000HB-0600-A:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "PTZ-NT4000HB-0600-B:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A4005HI-A:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A4005HI-B:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A2010HI-A:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT3A4005HI-C:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT1H4000HI-A:01:03:04:BF:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT5000-HI-A:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80",
+    "SD-MT5000-HI-B:01:03:04:78:50:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD-MT3000-HI-A",
+    "SD-MT3000-HI-B",
+    "SD-MT3000-HI1-A",
+    "SD-MT2000-HI-A",
+    "SD-MT2000-HI-B",
+    "SD-MT3000-HI2-B",
+    "SD-MT2000-HI2-A",
+    "SD-MT3000-HI3-B",
+    "SD-MT2000-HI3-A",
+    "SD-MT3000-HI2-A",
+    "SD-MT2000-HI2-B",
+    "SD-MT3000-HI3-A",
+    "SD-MT2000-HI3-B",
+    "SD-MT2003-HIC-A",
+    "SD-MT3A2005-HI-A",
+    "SD-MT1A3003-HIC-A",
+    "SD-MT3000-HI2-C",
+    "PTZ-NT2000HB-0600-A",
+    "PTZ-NT2000HB-0600-B",
+    "SD-MT1H2000HI-A",
+    "SD49216HB-A",
+    "SD49220HB-A",
+    "SD49220HB-B",
+    "SD49223HB-A",
+    "SD-MT3A2005HI1-A",
+    "SD-MT3A2005HI1-B",
+    "SD-MT4000-HI-A",
+    "SD-MT3400-HI-B",
+    "SD-MT3400-HI-C",
+    "PTZ-NT4000HB-0600-A",
+    "PTZ-NT4000HB-0600-B",
+    "SD-MT3A4005HI-A",
+    "SD-MT3A4005HI-B",
+    "SD-MT3A2010HI-A",
+    "SD-MT3A4005HI-C",
+    "SD-MT1H4000HI-A",
+    "SD-MT5000-HI-A",
+    "SD-MT5000-HI-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn9913",
+   "build_dates": {
+    "earliest": "2023-06-20",
+    "latest": "2023-06-20"
+   },
+   "firmware": null,
+   "flash_size": 134217728,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 305520,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2228056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 14342328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6899896,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 710840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "8b7fc03623d55dc9",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V12.2"
+    },
+    "encrypted": false,
+    "security_baseline": "V12.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc335de"
+     }
+    ],
+    "name": "SSC335DE",
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "05d250ff54ed2c4dea93ed86a246c4e732189665de17f0f4014e10a9693ced42"
+}

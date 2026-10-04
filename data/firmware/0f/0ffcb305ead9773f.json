@@ -1,0 +1,85 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6221",
+    "VTO622X",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO3221D",
+    "VTO3221E",
+    "VTO6221E"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6221",
+     "1.00"
+    ],
+    [
+     "VTO622X",
+     "1.00"
+    ],
+    [
+     "VTO6223B",
+     "1.00"
+    ],
+    [
+     "VTO6223C",
+     "1.00"
+    ],
+    [
+     "VTO3221D",
+     "1.00"
+    ],
+    [
+     "VTO3221E",
+     "1.00"
+    ],
+    [
+     "VTO6221E",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 954368,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e3a35333e1e04abc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0ffcb305ead9773ff71a45ed80879351466621d2ed0ea5ca3739a36d5b544897"
+}

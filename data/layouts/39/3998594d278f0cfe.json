@@ -1,0 +1,53 @@
+{
+ "id": "3998594d278f0cfe",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_16M",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2080000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x2280000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0x2080000"
+  },
+  {
+   "end": "0x2580000",
+   "name": "rootfs",
+   "size": 3145728,
+   "start": "0x2280000"
+  },
+  {
+   "end": "0x2700000",
+   "name": "web",
+   "size": 1572864,
+   "start": "0x2580000"
+  },
+  {
+   "end": "0x2860000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0x2840000"
+  },
+  {
+   "end": "0x2ee0000",
+   "name": "user",
+   "size": 6815744,
+   "start": "0x2860000"
+  },
+  {
+   "end": "0x3000000",
+   "name": "data",
+   "size": 1179648,
+   "start": "0x2ee0000"
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD-MT12200UE-GN-36-EOS",
+    "SD-MT12200UE-GN-28-EOS",
+    "SD-MT12203UE-GN-EOS",
+    "SD6C82FB-GN-EOS-A",
+    "SD6C82FB-GN-EOS-B",
+    "SD6C80FB-GN-A",
+    "SD12200UE-GN-36-EOS",
+    "SD12203UE-GN-EOS",
+    "PTZ-MT2000UA-0360-A",
+    "PTZ-MT2000UA-0600-A",
+    "PTZ-NT203UE-A",
+    "SD49D216UE-GN-D",
+    "SD49D220UE-HN-D",
+    "PTZ-MT1B200UE-GN",
+    "PTZ-MT1B203UE-GN",
+    "SD29204UE-GN-A",
+    "SD-MT22204UE-GN-A",
+    "SD6C3223UI-GN-A",
+    "SD49216UB-A-USC",
+    "SD49220UB-A-USC",
+    "SD49223UB-A-USC",
+    "SD6120UB-A-USC",
+    "SD6220UB-A-USC"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT12200UE-GN-36-EOS:01:03:04:4F:1A:00:01:10:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "SD-MT12200UE-GN-28-EOS:01:03:04:4F:1A:00:01:10:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "SD-MT12203UE-GN-EOS:01:03:04:4F:1A:00:01:10:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "SD6C82FB-GN-EOS-A:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD6C82FB-GN-EOS-B:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD6C80FB-GN-A:01:03:04:38:1A:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "SD12200UE-GN-36-EOS:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD12203UE-GN-EOS:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "PTZ-MT2000UA-0360-A:01:03:04:4F:1A:00:01:10:01:01:04:258:02:00:00:00:00:01:00:00:100",
+    "PTZ-MT2000UA-0600-A:01:03:04:4F:1A:00:01:10:01:01:04:258:02:00:00:00:00:01:00:00:100",
+    "PTZ-NT203UE-A:01:03:04:4F:1A:00:01:10:01:01:04:258:02:00:00:00:00:01:00:00:100",
+    "SD49D216UE-GN-D:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD49D220UE-HN-D:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "PTZ-MT1B200UE-GN:01:03:04:6A:1A:00:01:10:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "PTZ-MT1B203UE-GN:01:03:04:6A:1A:00:01:10:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "SD29204UE-GN-A:01:03:04:6A:1A:00:01:10:03:01:04:258:04:00:00:00:00:01:00:00:100",
+    "SD-MT22204UE-GN-A:01:03:04:6A:1A:00:01:00:01:01:04:258:00:00:00:00:00:01:00:00:100",
+    "SD6C3223UI-GN-A:01:03:04:4F:1A:00:01:10:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "SD49216UB-A-USC:01:03:04:6A:1A:00:01:10:01:01:04:258:04:00:00:04:00:01:00:00:100",
+    "SD49220UB-A-USC:01:03:04:6A:1A:00:01:10:01:01:04:258:04:00:00:04:00:01:00:00:100",
+    "SD49223UB-A-USC:01:03:04:6A:1A:00:01:10:01:01:04:258:04:00:00:04:00:01:00:00:100",
+    "SD6120UB-A-USC:01:03:04:6A:1A:00:01:10:01:01:04:258:04:00:00:04:00:01:00:00:100",
+    "SD6220UB-A-USC:01:03:04:6A:1A:00:01:10:01:01:04:258:04:00:00:04:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD-MT12200UE-GN-36-EOS",
+    "SD-MT12200UE-GN-28-EOS",
+    "SD-MT12203UE-GN-EOS",
+    "SD6C82FB-GN-EOS-A",
+    "SD6C82FB-GN-EOS-B",
+    "SD6C80FB-GN-A",
+    "SD12200UE-GN-36-EOS",
+    "SD12203UE-GN-EOS",
+    "PTZ-MT2000UA-0360-A",
+    "PTZ-MT2000UA-0600-A",
+    "PTZ-NT203UE-A",
+    "SD49D216UE-GN-D",
+    "SD49D220UE-HN-D",
+    "PTZ-MT1B200UE-GN",
+    "PTZ-MT1B203UE-GN",
+    "SD29204UE-GN-A",
+    "SD-MT22204UE-GN-A",
+    "SD6C3223UI-GN-A",
+    "SD49216UB-A-USC",
+    "SD49220UB-A-USC",
+    "SD49223UB-A-USC",
+    "SD6120UB-A-USC",
+    "SD6220UB-A-USC"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-09-28",
+    "latest": "2022-09-28"
+   },
+   "firmware": null,
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 139448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2746552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 497848,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2794656,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1026232,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6117560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 20244664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "36dcf0061245ee2d",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d6df45f9dd3eca7ca88ca86fb1ca4c628660d340d3b5900d1c6b7096a952d4f8"
+}

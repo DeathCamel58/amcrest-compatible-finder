@@ -1,0 +1,59 @@
+{
+ "id": "657ab09dabf5224a",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "boot",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2080000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x2280000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0x2080000"
+  },
+  {
+   "end": "0x2580000",
+   "name": "rootfs",
+   "size": 3145728,
+   "start": "0x2280000"
+  },
+  {
+   "end": "0x2780000",
+   "name": "gui",
+   "size": 2097152,
+   "start": "0x2580000"
+  },
+  {
+   "end": "0x29c0000",
+   "name": "web",
+   "size": 2359296,
+   "start": "0x2780000"
+  },
+  {
+   "end": "0x29e0000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0x29c0000"
+  },
+  {
+   "end": "0x2fe0000",
+   "name": "user",
+   "size": 6291456,
+   "start": "0x29e0000"
+  },
+  {
+   "end": "0x3400000",
+   "name": "data",
+   "size": 4325376,
+   "start": "0x2fe0000"
+  }
+ ]
+}

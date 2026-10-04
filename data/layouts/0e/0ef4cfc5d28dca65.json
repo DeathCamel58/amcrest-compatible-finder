@@ -1,0 +1,41 @@
+{
+ "id": "0ef4cfc5d28dca65",
+ "partitions": [
+  {
+   "end": "0xa0030000",
+   "name": "boot",
+   "size": 196608,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa02d0000",
+   "name": "kernel",
+   "size": 2621440,
+   "start": "0xa0050000"
+  },
+  {
+   "end": "0xa0550000",
+   "name": "rootfs",
+   "size": 2621440,
+   "start": "0xa02d0000"
+  },
+  {
+   "end": "0xa0560000",
+   "name": "custom",
+   "size": 65536,
+   "start": "0xa0550000"
+  },
+  {
+   "end": "0xa0f80000",
+   "name": "usr",
+   "size": 8519680,
+   "start": "0xa0760000"
+  },
+  {
+   "end": "0xa1000000",
+   "name": "voice",
+   "size": 524288,
+   "start": "0xa0f80000"
+  }
+ ]
+}

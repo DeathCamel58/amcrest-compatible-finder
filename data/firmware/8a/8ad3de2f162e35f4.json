@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC413-PW4D-Z1",
+    "ITC413-PW4D-Z3",
+    "ITC413-PW4D-IZ1",
+    "ITC413-PW4D-IZ3",
+    "ITC416-PL8I-IZ",
+    "ITC436-PW9H-IZ",
+    "ITC413-PM4D-Z1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC413-PW4D-Z1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z3",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ3",
+     "1.00"
+    ],
+    [
+     "ITC416-PL8I-IZ",
+     "1.00"
+    ],
+    [
+     "ITC436-PW9H-IZ",
+     "1.00"
+    ],
+    [
+     "ITC413-PM4D-Z1",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-08-14",
+    "latest": "2024-08-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 33460,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 202960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 54847,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4177080,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2672824,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 27949240,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1460408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 41617592,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 21678264,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 53913784,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7e9e6cff2220e714",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V5.003.0000000.1.R.240814"
+  }
+ ],
+ "sha256": "8ad3de2f162e35f45a172046a30a1c853868cd536a14aa2be34a032201a69f25"
+}

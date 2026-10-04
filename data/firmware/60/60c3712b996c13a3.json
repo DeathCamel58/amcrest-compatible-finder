@@ -1,0 +1,124 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DVRxx04HF-X",
+    "DVRxx04HF-X-4H",
+    "DVRxx04HF-X-E",
+    "NVSxx04HF-X",
+    "General_N6",
+    "General",
+    "OEM_TYPE",
+    "OEM_TYPE1"
+   ],
+   "member": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": "U-Boot 1.3.1",
+   "build_dates": {
+    "earliest": "2015-10-09",
+    "latest": "2015-10-09"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N6",
+    "General",
+    "OEM_TYPE",
+    "OEM_TYPE1"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 204308,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 13094912,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1437696,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009/logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "60c3712b996c13a34d7a16abee591a6a7d5d65a9aa3dbfd245588b797649daa7"
+}

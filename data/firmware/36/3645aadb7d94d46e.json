@@ -1,0 +1,355 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDW2120R-Z",
+    "IPC-HDW2220R-Z",
+    "IPC-HDW2320R-Z",
+    "IPC-HDBW2120R-ZS",
+    "IPC-HDBW2220R-ZS",
+    "IPC-HDBW2320R-ZS",
+    "IPC-HDBW2320R-ZAS",
+    "IPC-HDBW2121R-ZS",
+    "IPC-HDBW2221R-ZS",
+    "IPC-HDBW2121R-ZS-V2",
+    "IPC-HDBW2421R-ZS",
+    "IPC-HDBW2121R-VFS-V2",
+    "IPC-HDBW2221R-VFS",
+    "IPC-HFW2120R-ZS",
+    "IPC-HFW2220R-ZS",
+    "IPC-HFW2320R-ZS",
+    "IPC-HFW2120R-VFS",
+    "IPC-HFW2220R-VFS",
+    "IPC-HFW2320R-VFS",
+    "IPC-HFW2320R-Z",
+    "IPC-HFW2420R-VFS",
+    "IPC-HFW2420R-ZS",
+    "IPC-HFW2121R-VFS",
+    "IPC-HFW2121R-ZS",
+    "IPC-HFW2221R-VFS",
+    "IPC-HFW2121R-VFS-V2",
+    "IPC-HFW2221R-ZS",
+    "IPC-HFW2121R-ZS-V2",
+    "IPC-HFW2421R-VFS",
+    "IPC-HFW2421R-ZS",
+    "IPC-HFW1220R",
+    "IPC-HFW1420R",
+    "IPC-HD1320C",
+    "IPC-HDW1320S",
+    "IPC-HDPW1420F",
+    "IPC-HDPW1220FP-S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW2120R-Z:01:02:02:37:16:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2120R-Z:01:02:02:37:16:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2220R-Z:01:02:02:33:18:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2220R-Z:01:02:02:33:18:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2320R-Z:01:02:02:19:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW2320R-Z:01:02:02:19:18:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2120R-ZS:01:02:02:37:16:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2220R-ZS:01:02:02:33:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2320R-ZS:01:02:02:19:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2320R-ZAS:01:02:02:19:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2121R-ZS:01:02:05:35:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2121R-ZS:01:02:05:35:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2221R-ZS:01:02:05:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2121R-ZS-V2:01:02:05:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2221R-ZS:01:02:05:36:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2121R-ZS-V2:01:02:05:36:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2421R-ZS:01:02:02:23:19:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2421R-ZS:01:02:02:23:19:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2121R-VFS-V2:01:02:02:36:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDBW2221R-VFS:01:02:02:36:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2120R-ZS:01:02:02:37:16:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2220R-ZS:01:02:02:33:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2320R-ZS:01:02:02:19:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2120R-VFS:01:02:02:37:16:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2220R-VFS:01:02:02:33:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2320R-VFS:01:02:02:19:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2120R-VFS:01:02:02:37:16:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2220R-VFS:01:02:02:33:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2320R-Z:01:02:02:19:18:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2420R-VFS:01:02:02:23:19:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2420R-ZS:01:02:02:23:19:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2120R-VFS:01:02:05:37:16:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2220R-VFS:01:02:05:33:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-VFS:01:02:02:35:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-ZS:01:02:02:35:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2221R-VFS:01:02:02:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-VFS-V2:01:02:02:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-VFS-V2:01:02:02:36:18:00:01:0E:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2221R-ZS:01:02:02:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-ZS-V2:01:02:02:36:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-ZS-V2:01:02:02:36:18:00:01:0E:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2421R-VFS:01:02:02:23:19:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2421R-ZS:01:02:02:23:19:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2421R-ZS:01:02:02:23:19:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-ZS:01:02:02:35:18:00:01:06:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2221R-ZS:01:02:02:36:18:00:01:0E:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2121R-ZS-V2:01:02:02:36:18:00:01:0E:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW2221R-VFS:01:02:02:36:18:00:01:0E:01:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HFW1220R:01:02:02:36:18:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW1420R:01:02:02:23:19:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HD1320C:01:02:06:19:18:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW1320S:01:02:05:19:18:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW1320S:01:02:05:19:18:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:100",
+    "IPC-HDPW1420F:01:02:02:23:19:00:01:06:03:01:04:258:03:00:00:00:00:00:00:00:100",
+    "IPC-HDPW1220FP-S:01:02:05:36:18:00:01:06:01:00:04:258:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4581",
+   "build_dates": {
+    "earliest": "2022-09-23",
+    "latest": "2022-09-23"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": "3.10.50",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 131072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 260096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1558368,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1368064,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2158592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 8376320,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 61440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-09-23",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "43f7d666fc351ece",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "S2LM",
+     "S2L"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2lm"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s2l"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "3645aadb7d94d46e619a11367c3c2c486dcd4f966db424c9f2b3c5446747d52d"
+}

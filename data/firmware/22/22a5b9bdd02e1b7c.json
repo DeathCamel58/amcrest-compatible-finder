@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-01-10",
+    "latest": "2014-01-10"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "DHVision_General_NVR3xxx_Eng_N_V2.616.0000.0.R.20140110_web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1548288,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "245fcb177fb6790b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "22a5b9bdd02e1b7cb73ed01b2d2ec73c010fa031dfa12f3d6778319360619c45"
+}

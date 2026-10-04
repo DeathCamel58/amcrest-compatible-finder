@@ -1,0 +1,204 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_ITC431-RW1F-IRL8(L)-C2_Eng_PN_Oversea_V4.003.0000000.0.R.230112.bin",
+   "ids": [
+    "ITC431-RW1F-L-C2",
+    "ITC431-RW1F-IRL8-C2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC431-RW1F-L-C2",
+     "1.00"
+    ],
+    [
+     "ITC431-RW1F-IRL8-C2",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn10128",
+   "build_dates": {
+    "earliest": "2023-01-12",
+    "latest": "2023-01-12"
+   },
+   "firmware": "General_ITC431-RW1F-IRL8(L)-C2_Eng_PN_Oversea_V4.003.0000000.0.R.230112.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "miniboot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 457072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 67768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8749752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 3827896,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 78801080,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1177784,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 28481720,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 33806520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 37292216,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d92a58ad32cbc94c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "CV22BUB",
+     "CV22"
+    ],
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "ambarella,cv22bub"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "ambarella,cv22"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Ambarella CV22 Walnut Board"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,cv22bub"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,cv22"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "7a73bad840eba3300fdd3ed2a3e0d9e2cd5939308d90356044e62857fb8a29f8"
+}

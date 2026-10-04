@@ -1,0 +1,125 @@
+{
+ "id": "3681ea63533161d8",
+ "partitions": [
+  {
+   "end": "0xa02c0000",
+   "name": "param",
+   "size": 2883584,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0440000",
+   "name": "uboot",
+   "size": 1572864,
+   "start": "0xa02c0000"
+  },
+  {
+   "end": "0xa0500000",
+   "name": "env",
+   "size": 786432,
+   "start": "0xa0440000"
+  },
+  {
+   "end": "0xa0580000",
+   "name": "updateflag",
+   "size": 524288,
+   "start": "0xa0500000"
+  },
+  {
+   "end": "0xa0600000",
+   "name": "partition",
+   "size": 524288,
+   "start": "0xa0580000"
+  },
+  {
+   "end": "0xa0a80000",
+   "name": "kernel",
+   "size": 4718592,
+   "start": "0xa0600000"
+  },
+  {
+   "end": "0xa2b00000",
+   "name": "romfs",
+   "size": 34078720,
+   "start": "0xa0a80000"
+  },
+  {
+   "end": "0xa2b80000",
+   "name": "custom",
+   "size": 524288,
+   "start": "0xa2b00000"
+  },
+  {
+   "end": "0xa3780000",
+   "name": "web",
+   "size": 12582912,
+   "start": "0xa2b80000"
+  },
+  {
+   "end": "0xa3800000",
+   "name": "logo",
+   "size": 524288,
+   "start": "0xa3780000"
+  },
+  {
+   "end": "0xa3880000",
+   "name": "dgs",
+   "size": 524288,
+   "start": "0xa3800000"
+  },
+  {
+   "end": "0xa3e80000",
+   "name": "scripts",
+   "size": 6291456,
+   "start": "0xa3880000"
+  },
+  {
+   "end": "0xa4880000",
+   "name": "config",
+   "size": 10485760,
+   "start": "0xa3e80000"
+  },
+  {
+   "end": "0xa4d80000",
+   "name": "backup",
+   "size": 5242880,
+   "start": "0xa4880000"
+  },
+  {
+   "end": "0xa5200000",
+   "name": "backkernel",
+   "size": 4718592,
+   "start": "0xa4d80000"
+  },
+  {
+   "end": "0xa7280000",
+   "name": "backromfs",
+   "size": 34078720,
+   "start": "0xa5200000"
+  },
+  {
+   "end": "0xa7300000",
+   "name": "backcustom",
+   "size": 524288,
+   "start": "0xa7280000"
+  },
+  {
+   "end": "0xa7f00000",
+   "name": "backweb",
+   "size": 12582912,
+   "start": "0xa7300000"
+  },
+  {
+   "end": "0xa7f80000",
+   "name": "backlogo",
+   "size": 524288,
+   "start": "0xa7f00000"
+  },
+  {
+   "end": "0xa8000000",
+   "name": "backpartition",
+   "size": 524288,
+   "start": "0xa7f80000"
+  }
+ ]
+}

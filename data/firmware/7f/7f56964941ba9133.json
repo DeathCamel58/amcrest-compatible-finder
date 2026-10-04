@@ -1,0 +1,313 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_CEE-Nordic_V4.810.0000000.0.R.250707.bin",
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO2211G-WP-S2",
+    "VTO2111D-P-S3",
+    "VTO2211G-P-S2",
+    "VTO2211G-P-V1",
+    "VTO3222E-P",
+    "VTO6222E-P",
+    "VTO2201F-P-S2",
+    "VTO2202F-P-S3",
+    "VTO4202F-P-S3",
+    "VTO4201F-P",
+    "VTO4201F-P1",
+    "VTO4202F-P1",
+    "VTO0301R-W"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO2101E-P-338:01:04:01:75:42:00:01:00:01:01:00:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2311R-WP:01:04:01:B4:42:00:01:00:01:01:04:400:00:02:00:00:00:00:00:00:100:FF",
+    "VTO3311Q-WP:01:04:01:B4:42:00:01:00:01:01:04:400:00:02:00:00:00:00:00:00:100:FF",
+    "VTO3311Q-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO3312Q-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2301R-P:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO1301R-W:01:04:01:B4:42:00:01:00:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2211G-WP-S2:01:04:01:B4:42:00:01:10:01:01:04:400:00:02:00:00:00:00:00:01:100:FF",
+    "VTO2111D-P-S3:01:04:01:CD:42:00:01:10:01:01:00:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2211G-P-S2:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2211G-P-V1:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO3222E-P:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO6222E-P:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2201F-P-S2:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2202F-P-S3:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4202F-P-S3:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4201F-P:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4201F-P1:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4202F-P1:01:04:01:B4:42:00:01:10:01:01:04:400:00:00:00:00:00:00:00:01:100:FF",
+    "VTO0301R-W:01:04:01:00:42:00:00:00:01:01:00:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_CEE-Nordic_V4.810.0000000.0.R.250707.bin",
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO0301R-W",
+    "VTO2111D-P-S3",
+    "VTO2211G-WP-S2",
+    "VTO2211G-P-S2",
+    "VTO2211G-P-V1",
+    "VTO3222E-P",
+    "VTO6222E-P",
+    "VTO2201F-P-S2",
+    "VTO2202F-P-S3",
+    "VTO4202F-P-S3",
+    "VTO4201F-P",
+    "VTO4201F-P1",
+    "VTO4202F-P1",
+    "VTO4103F-1",
+    "VTO4103F"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2101E-P-338",
+     "1.00"
+    ],
+    [
+     "VTO2311R-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-WP",
+     "1.00"
+    ],
+    [
+     "VTO3311Q-P",
+     "1.00"
+    ],
+    [
+     "VTO3312Q-P",
+     "1.00"
+    ],
+    [
+     "VTO2301R-P",
+     "1.00"
+    ],
+    [
+     "VTO1301R-W",
+     "1.00"
+    ],
+    [
+     "VTO0301R-W",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO3222E-P",
+     "1.00"
+    ],
+    [
+     "VTO6222E-P",
+     "1.00"
+    ],
+    [
+     "VTO2201F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2202F-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO4202F-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO4201F-P",
+     "1.00"
+    ],
+    [
+     "VTO4201F-P1",
+     "1.00"
+    ],
+    [
+     "VTO4202F-P1",
+     "1.00"
+    ],
+    [
+     "VTO4103F-1",
+     "1.00"
+    ],
+    [
+     "VTO4103F",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_CEE-Nordic_V4.810.0000000.0.R.250707.bin",
+   "ids": [
+    "VTO2101E-P-338",
+    "VTO2311R-WP",
+    "VTO3311Q-WP",
+    "VTO3311Q-P",
+    "VTO3312Q-P",
+    "VTO2301R-P",
+    "VTO1301R-W",
+    "VTO2211G-WP-S2",
+    "VTO2111D-P-S3",
+    "VTO2211G-P-S2",
+    "VTO2211G-P-V1",
+    "VTO3222E-P",
+    "VTO6222E-P",
+    "VTO2201F-P-S2",
+    "VTO2202F-P-S3",
+    "VTO4202F-P-S3",
+    "VTO4201F-P",
+    "VTO4201F-P1",
+    "VTO4202F-P1",
+    "VTO0301R-W"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-07",
+    "latest": "2025-07-07"
+   },
+   "firmware": "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_CEE-Nordic_V4.810.0000000.0.R.250707.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Polish",
+     "Turkey",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-07",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 168408,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4864184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5280440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 20875448,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4688056,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9e61fbb9521800e4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.810.0000000.0.R.250707"
+  }
+ ],
+ "sha256": "7f56964941ba9133f925aff81215805ecf1c4e541873459d11f639b1ea3e23ed"
+}

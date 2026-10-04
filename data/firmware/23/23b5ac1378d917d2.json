@@ -1,0 +1,190 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PFW8843-A180-GNF-S2",
+    "IPC-PFW8843-A180-DC12AC24V-S2",
+    "IPC-PFW8841P-A180-DC12AC24V",
+    "IPC-PFW81649-A180-G-DC12AC24V",
+    "IPC-PFW81642P-A180-DC12AC24V"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PFW8843-A180-GNF-S2:01:02:00:D6:52:00:01:14:01:01:04:4B0:08:00:02:04:00:01:00:00:1000",
+    "IPC-PFW8843-A180-DC12AC24V-S2:01:02:00:D6:52:00:01:14:01:01:04:4B0:08:00:02:04:00:01:00:00:1000",
+    "IPC-PFW8841P-A180-DC12AC24V:01:02:00:D6:52:00:01:14:01:01:04:4B0:08:00:02:04:00:01:00:00:1000",
+    "IPC-PFW81649-A180-G-DC12AC24V:01:02:00:86:52:00:01:14:01:01:04:4B0:08:00:02:04:00:01:00:00:1000",
+    "IPC-PFW81642P-A180-DC12AC24V:01:02:00:86:52:00:01:14:01:01:04:4B0:08:00:02:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PFW8843-A180-GNF-S2",
+    "IPC-PFW8843-A180-DC12AC24V-S2",
+    "IPC-PFW8841P-A180-DC12AC24V",
+    "IPC-PFW81649-A180-G-DC12AC24V",
+    "IPC-PFW81642P-A180-DC12AC24V"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-12",
+    "latest": "2022-08-12"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-08-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 513368,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 513368,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 42072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3369144,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12964608,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 118626488,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13162680,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "23b5ac1378d917d2d152b2378da7d2a3e0b830ab78222670d93e1395efeb1676"
+}

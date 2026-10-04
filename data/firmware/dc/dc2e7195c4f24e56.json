@@ -1,0 +1,317 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR5x08-S2",
+    "HCVR5x08-V2",
+    "IntelBras_HCVR41XXHS-S2"
+   ],
+   "member": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "HCVR5x08-S2",
+    "HCVR5x08-V2",
+    "IntelBras_HCVR41XXHS-S2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1884",
+   "build_dates": {
+    "earliest": "2016-06-08",
+    "latest": "2017-12-08"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_HCVR41XXHS-S2"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/u-boot.bin.img",
+     "image_name": "IBgm8210boot",
+     "image_size": 304292,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/romfs-x.cramfs.img",
+     "image_name": "gm8210romfs",
+     "image_size": 12156928,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/web-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 1556480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/custom-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 106496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - HDCVI 1016 - 08-06-2016/Passo 1/logo-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1884",
+   "build_dates": {
+    "earliest": "2016-06-08",
+    "latest": "2017-12-08"
+   },
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_HCVR41XXHS-S2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IBgm8210boot",
+     "image_size": 304292,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "gm8210romfs",
+     "image_size": 12156928,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 1556480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 106496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-06-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "gm8210",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dc2e7195c4f24e56b0ca8ddcda386a639bd28c94d4323b4646cb47f7a19827f4"
+}

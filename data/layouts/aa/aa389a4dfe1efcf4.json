@@ -1,0 +1,41 @@
+{
+ "id": "aa389a4dfe1efcf4",
+ "partitions": [
+  {
+   "end": "0x2020000",
+   "name": "dhboot",
+   "size": 131072,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2060000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x2040000"
+  },
+  {
+   "end": "0x2360000",
+   "name": "romfs",
+   "size": 3145728,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x2960000",
+   "name": "user",
+   "size": 6291456,
+   "start": "0x2360000"
+  },
+  {
+   "end": "0x2ba0000",
+   "name": "web",
+   "size": 1572864,
+   "start": "0x2a20000"
+  },
+  {
+   "end": "0x2f60000",
+   "name": "data",
+   "size": 3145728,
+   "start": "0x2c60000"
+  }
+ ]
+}

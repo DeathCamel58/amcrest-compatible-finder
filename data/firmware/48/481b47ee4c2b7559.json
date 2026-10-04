@@ -1,0 +1,124 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DVRxx04HF-X_Eng_P_V3.200.0000.0.R.20170803.bin",
+   "ids": [
+    "DVRxx04HF-X",
+    "DVRxx04HF-X-4H",
+    "DVRxx04HF-X-E",
+    "NVSxx04HF-X",
+    "General_N6",
+    "General",
+    "DH",
+    "DH_N6"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": "U-Boot 1.3.1",
+   "build_dates": {
+    "earliest": "2017-08-08",
+    "latest": "2017-08-08"
+   },
+   "firmware": "DH_DVRxx04HF-X_Eng_P_V3.200.0000.0.R.20170803.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N6",
+    "General",
+    "DH",
+    "DH_N6"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-08-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 204164,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12652544,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1536000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 73728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "481b47ee4c2b75596032b9c4e89cbf2b00cd4de2f57fbc2a03eb2f07de6e377c"
+}

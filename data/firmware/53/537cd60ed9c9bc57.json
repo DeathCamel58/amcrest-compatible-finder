@@ -1,0 +1,214 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "EclipseX3_V2.820.00KL002.0.R.220719.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "EclipseX3_V2.820.00KL002.0.R.220719.bin",
+   "ids": [
+    "IPC-HDBW3841R-ZAS",
+    "IPC-HDBW3841R-ZS",
+    "IPC-HFW3841EP-AS",
+    "IPC-HFW3841EP-SA",
+    "IPC-HFW3841T-ZAS-27135",
+    "IPC-HFW3841T-ZS-27135",
+    "IPC-HDW3841TM-AS",
+    "IPC-HDW3841EM-AS",
+    "IPC-HDW3841T-ZAS-27135",
+    "IPC-HDBW3841E-S",
+    "IPC-HDBW3841E-AS",
+    "IPC-HFW3841EN-PV-0280B-cayenne",
+    "IPC-HDW3849HP-AS-PV",
+    "IPC-HFW3849T1P-AS-PV",
+    "IPC-HDW3841HN-AS-PV",
+    "IPC-HDW3841HN-AS-PV-CAYENNE",
+    "IPC-HDW3641EMP-S-0280B-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDBW3841R-ZAS:01:02:05:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3841R-ZS:01:02:05:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW3841EP-AS:01:02:02:8F:41:00:01:10:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3841EP-SA:01:02:02:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW3841T-ZAS-27135:01:02:02:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3841T-ZS-27135:01:02:02:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3841TM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3841EM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3841T-ZAS-27135:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3841E-S:01:02:00:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3841E-AS:01:02:00:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3841EN-PV-0280B-cayenne:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200",
+    "IPC-HDW3849HP-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3849T1P-AS-PV:01:02:02:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDW3841HN-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDW3841HN-AS-PV-CAYENNE:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200",
+    "IPC-HDW3641EMP-S-0280B-S2:01:02:00:7C:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "EclipseX3_V2.820.00KL002.0.R.220719.bin",
+   "ids": [
+    "IPC-HDBW3841R-ZAS",
+    "IPC-HDBW3841R-ZS",
+    "IPC-HFW3841EP-AS",
+    "IPC-HFW3841EP-SA",
+    "IPC-HFW3841T-ZAS-27135",
+    "IPC-HFW3841T-ZS-27135",
+    "IPC-HDW3841TM-AS",
+    "IPC-HDW3841EM-AS",
+    "IPC-HDW3841T-ZAS-27135",
+    "IPC-HDBW3841E-S",
+    "IPC-HDBW3841E-AS",
+    "IPC-HFW3841EN-PV-0280B-cayenne",
+    "IPC-HDW3849HP-AS-PV",
+    "IPC-HFW3849T1P-AS-PV",
+    "IPC-HDW3841HN-AS-PV",
+    "IPC-HDW3841HN-AS-PV-CAYENNE",
+    "IPC-HDW3641EMP-S-0280B-S2"
+   ],
+   "member": "hwid",
+   "raw_same_as": 1,
+   "source": "hwid"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-19",
+    "latest": "2022-08-17"
+   },
+   "firmware": "EclipseX3_V2.820.00KL002.0.R.220719.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 815800,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 2230456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 60456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 6416568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 186552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5197496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 21711032,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7243960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x-Ext.squashfs.img",
+     "image_name": "firmwareExt",
+     "image_size": 6977720,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e094d76b6d000a31",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "537cd60ed9c9bc57b52332106b4b4e6312fdcb301a7d7c16549c357659c8a45e"
+}

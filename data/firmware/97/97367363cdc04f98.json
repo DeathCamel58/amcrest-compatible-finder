@@ -1,0 +1,338 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "firmware-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW5449R-ASE-LED:01:02:00:B3:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449TP-ASE-LED:01:02:00:B3:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449E-SE-LED:01:02:00:B3:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW5449TM-SE-LED:01:02:00:B3:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2:01:02:02:B3:57:00:01:14:07:03:04:3E8:03:00:02:00:00:01:00:00:400",
+    "IPC-HDW5449HP-ZE-LED-2712-S2:01:02:02:B3:57:00:01:14:07:03:04:3E8:03:00:02:00:00:01:00:00:400",
+    "IPC-HDBW5441E-ZE-HDMI-27135:01:02:00:CE:56:00:01:10:03:01:04:3E8:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW5441R-ASE-HDMI:01:02:00:CE:56:00:01:10:03:01:04:3E8:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2:01:02:02:D1:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2:01:02:00:D1:56:00:01:14:07:01:04:3E8:03:00:00:00:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "firmware-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 120907960,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e462d28c7a94db84",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "General_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 294836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 229224,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 206288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 206288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 120907960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4150968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 12822712,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 29890744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4150968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14952632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1640632,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e6f8a4475151d703",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.0000000.35.R.250519"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14952632,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d6f1ec38f6b52ca3",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "97367363cdc04f9814d254d7df3419f94628b4a58f8da2355b7ddf7766c9400f"
+}

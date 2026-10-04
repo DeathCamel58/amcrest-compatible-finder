@@ -1,0 +1,176 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_NVR4X-4KS2_Eng_12Languages_V3.215.000TL00.0.R.20171209.bin",
+   "ids": [
+    "NVR4X-4KS2",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2017-12-09",
+    "latest": "2017-12-09"
+   },
+   "firmware": "DH_NVR4X-4KS2_Eng_12Languages_V3.215.000TL00.0.R.20171209.bin",
+   "flash_size": 134217728,
+   "kernel_version": "3.18.24_hi3798cv2x",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR4X-4KS2",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 348160,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 4969870,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 34377728,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 9629696,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 684032,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR4X-S2",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "fd3346b9eff8d60a",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3798cv200"
+     }
+    ],
+    "name": "Hi3798CV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "b27f3900a4cc04db5206185451873867adaddbb6ee93751b875eb731b6faf710"
+}

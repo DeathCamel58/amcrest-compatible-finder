@@ -1,0 +1,77 @@
+{
+ "id": "2ccfd4465dff7cb6",
+ "partitions": [
+  {
+   "end": "0xa0140000",
+   "name": "param",
+   "size": 1310720,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa03c0000",
+   "name": "boot",
+   "size": 2621440,
+   "start": "0xa0140000"
+  },
+  {
+   "end": "0xa0540000",
+   "name": "env",
+   "size": 1572864,
+   "start": "0xa03c0000"
+  },
+  {
+   "end": "0xa0ac0000",
+   "name": "kernel",
+   "size": 5767168,
+   "start": "0xa0540000"
+  },
+  {
+   "end": "0xa3680000",
+   "name": "romfs",
+   "size": 45875200,
+   "start": "0xa0ac0000"
+  },
+  {
+   "end": "0xa3880000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3680000"
+  },
+  {
+   "end": "0xa4380000",
+   "name": "web",
+   "size": 11534336,
+   "start": "0xa3880000"
+  },
+  {
+   "end": "0xa4580000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa4380000"
+  },
+  {
+   "end": "0xa7180000",
+   "name": "algorithm",
+   "size": 46137344,
+   "start": "0xa4580000"
+  },
+  {
+   "end": "0xa7580000",
+   "name": "config_fw",
+   "size": 4194304,
+   "start": "0xa7180000"
+  },
+  {
+   "end": "0xa7f80000",
+   "name": "config",
+   "size": 10485760,
+   "start": "0xa7580000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "dgs",
+   "size": -2683830272,
+   "start": "0xa7f80000"
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2130M",
+    "IPC-HDW2130C-A",
+    "IPC-D1B20",
+    "IPC-D1B20-L",
+    "IPC-B1B20",
+    "IPC-B1B20-L",
+    "IPC-HFW1230MO",
+    "IPC-HDW1230C-AO",
+    "IPC-HFW1230M",
+    "IPC-HDW1230C-A",
+    "IPC-B2B20-ZS",
+    "IPC-B2B20-L-ZS"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW2130C-A:01:02:02:38:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20-L:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20-L:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230MO:01:02:02:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-AO:01:02:05:60:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230M:01:02:02:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-A:01:02:05:77:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-L-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "EZIP"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2130M",
+    "IPC-HDW2130C-A",
+    "IPC-D1B20",
+    "IPC-D1B20-L",
+    "IPC-B1B20",
+    "IPC-B1B20-L",
+    "IPC-HFW1230MO",
+    "IPC-HDW1230C-AO",
+    "IPC-HFW1230M",
+    "IPC-HDW1230C-A",
+    "IPC-B2B20-ZS",
+    "IPC-B2B20-L-ZS"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn15927",
+   "build_dates": {
+    "earliest": "2018-09-18",
+    "latest": "2018-09-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "EZIP",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-09-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 78222,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "ubootbak",
+     "image_size": 311296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 311296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 4112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 327680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5349390,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 3342336,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-18",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 786432,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6cf7073fb561e9aa",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3516CV300"
+     }
+    ],
+    "name": "Hi3516CV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "4346cdb42086ad0d309ca52abee8f348277e44822f935a6c1e4165c286ed3aeb"
+}

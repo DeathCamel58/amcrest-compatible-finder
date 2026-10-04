@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-21",
+    "latest": "2013-01-21"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04LE-AX(DVR310XE)_Eng_N_FirstOption_V2.608.0000.0.R.20130105_web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1564672,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "37bab63616837d3f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d561d11e4750ed0b05583a4467ec025e45e318466ead9be21a7c9ca1026f4c82"
+}

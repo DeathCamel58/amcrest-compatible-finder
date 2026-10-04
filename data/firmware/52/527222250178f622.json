@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2008.10",
+   "build_dates": {
+    "earliest": "2011-01-25",
+    "latest": "2011-09-13"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "2.6.24-rt1-hi3520v100",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2011-09-13",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "BE0000/cramfs.initrd.img",
+     "image_name": "initrd in cramfs",
+     "image_size": 1261568,
+     "image_type": "ramdisk",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1cdaff89ab649a1f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "527222250178f62232f0f719ce2ba45298a4f6fa21f55c024026838692b66da8"
+}

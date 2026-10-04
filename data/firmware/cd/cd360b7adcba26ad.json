@@ -1,0 +1,260 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_XVR5x04-X1_MultiLang_PN_V4.000.0000002.4.R.190402.bin",
+   "ids": [
+    "XVR5x04-X1",
+    "General_XVR5x04-X1"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn3786",
+   "build_dates": {
+    "earliest": "2019-04-02",
+    "latest": "2019-04-02"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "miniboot.bin.img",
+     "image_name": "hi3520DV400boot",
+     "image_size": 162368,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3520DV400boot",
+     "image_size": 615704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3520DV400romfs",
+     "image_size": 9629696,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 23269376,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12562432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "ubi",
+     "image": "imgbak-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 37617664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9770db1e65bdef18",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "miniboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3520DV400"
+     }
+    ],
+    "name": "Hi3520DV400",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2019-04-02",
+    "latest": "2019-04-02"
+   },
+   "firmware": "DH_XVR5x04-X1_MultiLang_PN_V4.000.0000002.4.R.190402.bin",
+   "flash_size": 84934656,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR5x04-X1"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3520DV400boot",
+     "image_size": 615704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3520DV400romfs",
+     "image_size": 9629696,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 23269376,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12562432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7ca518af144c696e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3520DV400"
+     }
+    ],
+    "name": "Hi3520DV400",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "cd360b7adcba26ad7d2d6e0dad8b91873ff6f76ce4ef4867074c6dc5d5a417ac"
+}

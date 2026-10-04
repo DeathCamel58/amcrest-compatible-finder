@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-06-24",
+    "latest": "2014-06-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-06-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVR5X16HX_Eng_N_V3.200.0001.8.R.20140624_logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8d5d7a9fead02b1c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a33c595ad6b8b4bc57ced50701f270de6ac956c41d48f7d9f6aafe731e132b0b"
+}

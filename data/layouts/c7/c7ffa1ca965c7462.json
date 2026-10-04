@@ -1,0 +1,179 @@
+{
+ "id": "c7ffa1ca965c7462",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "boot0",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0x280000",
+   "name": "boot",
+   "size": 2359296,
+   "start": "0x40000"
+  },
+  {
+   "backup_start": "0x7f00000",
+   "end": "0x2a0000",
+   "name": "mbr",
+   "size": 131072,
+   "start": "0x280000"
+  },
+  {
+   "end": "0x4e0000",
+   "name": "ubootbackup",
+   "size": 2359296,
+   "start": "0x2a0000"
+  },
+  {
+   "backup_start": "0x5f80000",
+   "end": "0x520000",
+   "name": "env",
+   "size": 262144,
+   "start": "0x4e0000"
+  },
+  {
+   "end": "0x620000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x520000"
+  },
+  {
+   "backup_start": "0x5fc0000",
+   "end": "0x720000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x620000"
+  },
+  {
+   "end": "0x7a0000",
+   "name": "dgs",
+   "size": 524288,
+   "start": "0x720000"
+  },
+  {
+   "backup_start": "0x60c0000",
+   "end": "0xba0000",
+   "name": "kernel",
+   "size": 4194304,
+   "start": "0x7a0000"
+  },
+  {
+   "backup_start": "0x64c0000",
+   "end": "0xfa0000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0xba0000"
+  },
+  {
+   "backup_start": "0x68c0000",
+   "end": "0xfc0000",
+   "name": "logo",
+   "read_only": true,
+   "size": 131072,
+   "start": "0xfa0000"
+  },
+  {
+   "backup_start": "0x68e0000",
+   "end": "0x13c0000",
+   "name": "web",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0xfc0000"
+  },
+  {
+   "backup_start": "0x6ce0000",
+   "end": "0x16c0000",
+   "name": "data",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x13c0000"
+  },
+  {
+   "backup_start": "0x6fe0000",
+   "end": "0x2440000",
+   "name": "usr",
+   "read_only": true,
+   "size": 14155776,
+   "start": "0x16c0000"
+  },
+  {
+   "backup_start": "0x7d60000",
+   "end": "0x2480000",
+   "name": "pd",
+   "read_only": true,
+   "size": 262144,
+   "start": "0x2440000"
+  },
+  {
+   "end": "0x5fc0000",
+   "name": "backenv",
+   "size": 262144,
+   "start": "0x5f80000"
+  },
+  {
+   "end": "0x60c0000",
+   "name": "backpartition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x5fc0000"
+  },
+  {
+   "end": "0x64c0000",
+   "name": "backkernel",
+   "size": 4194304,
+   "start": "0x60c0000"
+  },
+  {
+   "end": "0x68c0000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x64c0000"
+  },
+  {
+   "end": "0x68e0000",
+   "name": "backlogo",
+   "read_only": true,
+   "size": 131072,
+   "start": "0x68c0000"
+  },
+  {
+   "end": "0x6ce0000",
+   "name": "backweb",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x68e0000"
+  },
+  {
+   "end": "0x6fe0000",
+   "name": "backdata",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x6ce0000"
+  },
+  {
+   "end": "0x7d60000",
+   "name": "backusr",
+   "read_only": true,
+   "size": 14155776,
+   "start": "0x6fe0000"
+  },
+  {
+   "end": "0x7da0000",
+   "name": "backpd",
+   "read_only": true,
+   "size": 262144,
+   "start": "0x7d60000"
+  },
+  {
+   "end": "0x7f20000",
+   "name": "backmbr",
+   "size": 131072,
+   "start": "0x7f00000"
+  }
+ ]
+}

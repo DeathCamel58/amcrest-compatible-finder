@@ -1,0 +1,176 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_NVR1XHC-S3_EngMSP_V3.216.0000001.0.R.190201.bin",
+   "ids": [
+    "NVR2XHC-HDS2",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn3151",
+   "build_dates": {
+    "earliest": "2019-02-01",
+    "latest": "2019-02-01"
+   },
+   "firmware": "General_NVR1XHC-S3_EngMSP_V3.216.0000001.0.R.190201.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR2XHC-HDS2",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3536Dboot",
+     "image_size": 572468,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "hi3536Dromfs",
+     "image_size": 10649600,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "hi3536Dromfs",
+     "image_size": 16601088,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "hi3536Dromfs",
+     "image_size": 3604480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "hi3536Dromfs",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "hi3536Dromfs",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-02-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7b9e7fdbe2da1172",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3536DV100"
+     }
+    ],
+    "name": "Hi3536DV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "91e3fc0b73e503972961f4e269d8b89628b0fe6ede716811e2c1119f2c67f60d"
+}

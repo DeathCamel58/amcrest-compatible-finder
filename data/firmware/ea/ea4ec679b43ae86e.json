@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO2000A",
+    "VTO2000A-2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A-2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General_Multi3"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-02-22",
+    "latest": "2019-02-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General_Multi3",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-02-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1486848,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-02-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 827392,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "99084f96b0f152fe",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "ea4ec679b43ae86ebfbd6d519ecc564c6deab45fc45f9d265a8dd482ee35d28c"
+}

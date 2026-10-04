@@ -1,0 +1,67 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1831R",
+    "IPC-HDBW1831R-S",
+    "IPC-HFW1831E",
+    "IPC-HFW2831T-ZS-3711",
+    "IPC-HFW2831T-ZAS-3711",
+    "IPC-HDBW2831R-ZS-3711",
+    "IPC-HDBW2831R-ZAS-3711"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW1831R-S:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW1831E:01:02:02:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:200",
+    "IPC-HFW2831T-ZS-3711:01:02:02:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW2831T-ZAS-3711:01:02:02:64:2C:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW2831R-ZS-3711:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW2831R-ZAS-3711:01:02:05:64:2C:00:01:0E:01:01:04:320:03:00:00:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Group"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Group",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bebd525ce46ee48a6adf16129527eeedb7cb955d151f8cea4ba4d647419fef1e"
+}

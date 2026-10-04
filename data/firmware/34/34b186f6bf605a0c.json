@@ -1,0 +1,472 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTOXXXXD-G_MultiLang_PN_PAAS_SIP_V4.511.0000000.1.R.240731.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO3211D-P-S2",
+    "VTO2211G-WP",
+    "VTO4202F-MA"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO2202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2202F:01:04:01:6A:35:00:01:11:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2211G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:01:01:100:FF",
+    "VTO1201G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:01:01:100:FF",
+    "VTO2111D-P-S2:01:04:01:77:35:00:01:10:01:01:00:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO1101D-P:01:04:01:77:35:00:01:10:01:01:00:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO3211D-P-S2:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2211G-WP:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2211G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO1201G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_VTOXXXXD-G_MultiLang_PN_PAAS_SIP_V4.511.0000000.1.R.240731.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO2211G-WP",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO3211D-P-S2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.10"
+    ],
+    [
+     "VTO1201G-P",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P",
+     "1.10"
+    ],
+    [
+     "VTO3211D-P-S2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTOXXXXD-G_MultiLang_PN_PAAS_SIP_V4.511.0000000.1.R.240731.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO3211D-P-S2",
+    "VTO2211G-WP",
+    "VTO4202F-MA"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO2211G-WP",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO3211D-P-S2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.10"
+    ],
+    [
+     "VTO1201G-P",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P",
+     "1.10"
+    ],
+    [
+     "VTO3211D-P-S2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO3211D-P-S2",
+    "VTO2211G-WP",
+    "VTO4202F-MA"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTO2202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2202F:01:04:01:6A:35:00:01:11:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2211G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:01:01:100:FF",
+    "VTO1201G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:01:01:100:FF",
+    "VTO2111D-P-S2:01:04:01:77:35:00:01:10:01:01:00:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO1101D-P:01:04:01:77:35:00:01:10:01:01:00:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO3211D-P-S2:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2211G-WP:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO2211G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO1201G-P:01:04:01:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:01:100:FF",
+    "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-31",
+    "latest": "2024-07-31"
+   },
+   "firmware": "General_VTOXXXXD-G_MultiLang_PN_PAAS_SIP_V4.511.0000000.1.R.240731.bin",
+   "flash_size": 79691776,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 231792,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4131000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2556607,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3303608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 20338872,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "bad06dfccca0e3e9",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": ""
+    },
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516cv500"
+     }
+    ],
+    "name": "Hi3516CV500",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-31",
+    "latest": "2024-07-31"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "Germany",
+     "Portuguese",
+     "Turkey",
+     "Polish",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3303608,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1a39385215d3e3a5",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "34b186f6bf605a0c99163b162c42087bc082df046e657622d71483f3838844bb"
+}

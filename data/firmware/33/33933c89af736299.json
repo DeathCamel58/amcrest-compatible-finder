@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 692224,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "62c9e028ec00dae9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "33933c89af736299c279834e7d48253d89bad81ba275e85f4e719f81533d1d4c"
+}

@@ -1,0 +1,262 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_XVR5x08-X_EngFrn_N_Inaxsys_V4.001.1002000.0.R.200518.bin",
+   "ids": [
+    "XVR5x08-X",
+    "XVR1B08H",
+    "XVR5x08-X-PoC",
+    "General_XVR5x08-X"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4554",
+   "build_dates": {
+    "earliest": "2020-05-18",
+    "latest": "2020-05-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "miniboot.bin.img",
+     "image_name": "hi3521Dboot",
+     "image_size": 161720,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3521Dboot",
+     "image_size": 567348,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3521Dromfs",
+     "image_size": 10174464,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 22949888,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12263424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 57344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "ubi",
+     "image": "imgbak-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 37879808,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9770db1e65bdef18",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "miniboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3521D"
+     }
+    ],
+    "name": "Hi3521D",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2020-05-18",
+    "latest": "2020-05-18"
+   },
+   "firmware": "Customer_XVR5x08-X_EngFrn_N_Inaxsys_V4.001.1002000.0.R.200518.bin",
+   "flash_size": 84934656,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR5x08-X"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3521Dboot",
+     "image_size": 567348,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3521Dromfs",
+     "image_size": 10174464,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 22949888,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12263424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-05-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 57344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7ca518af144c696e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3521D"
+     }
+    ],
+    "name": "Hi3521D",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "0114ddae683a71da0d3ae0dd5ef378a03c040e22d8cc780b54a519b9b2e52a5c"
+}

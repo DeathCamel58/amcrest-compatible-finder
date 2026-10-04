@@ -1,0 +1,59 @@
+{
+ "id": "bc08dc94d58826ed",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "uboot",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0x50000",
+   "name": "env",
+   "size": 65536,
+   "start": "0x40000"
+  },
+  {
+   "end": "0x2f0000",
+   "name": "boot",
+   "size": 2752512,
+   "start": "0x50000"
+  },
+  {
+   "end": "0x590000",
+   "name": "system",
+   "size": 2752512,
+   "start": "0x2f0000"
+  },
+  {
+   "end": "0x5a0000",
+   "name": "logo",
+   "size": 65536,
+   "start": "0x590000"
+  },
+  {
+   "end": "0x6a0000",
+   "name": "web",
+   "size": 1048576,
+   "start": "0x5a0000"
+  },
+  {
+   "end": "0x820000",
+   "name": "data",
+   "size": 1572864,
+   "start": "0x6a0000"
+  },
+  {
+   "end": "0xef0000",
+   "name": "usr",
+   "size": 7143424,
+   "start": "0x820000"
+  },
+  {
+   "end": "0xf00000",
+   "name": "pd",
+   "size": 65536,
+   "start": "0xef0000"
+  }
+ ]
+}

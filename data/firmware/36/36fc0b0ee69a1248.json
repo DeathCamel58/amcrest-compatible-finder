@@ -1,0 +1,97 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO4202F-P-data_MultiLang_Czech_P_128M_SIP_PART_V1.000.0000006.0.R.20200108.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2406584,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cb8e8c01f130e897",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTO4202F-P-data_MultiLang_Czech_P_128M_SIP_PART_V1.000.0000006.0.R.20200108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2406584,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cb8e8c01f130e897",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "36fc0b0ee69a1248bcbbd4ce6b8af74b8450ca43bb6b4abad434fe132cc65c49"
+}

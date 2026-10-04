@@ -1,0 +1,71 @@
+{
+ "id": "126e3f4a255a4963",
+ "partitions": [
+  {
+   "end": "0x200000",
+   "name": "updateboot",
+   "size": 1048576,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x600000",
+   "name": "boot",
+   "size": 4194304,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x2e00000",
+   "name": "rootfs",
+   "size": 41943040,
+   "start": "0x600000"
+  },
+  {
+   "end": "0xe000000",
+   "name": "userfs",
+   "size": 186646528,
+   "start": "0x2e00000"
+  },
+  {
+   "end": "0xfe00000",
+   "name": "web",
+   "size": 31457280,
+   "start": "0xe000000"
+  },
+  {
+   "end": "0x10100000",
+   "name": "custom",
+   "size": 3145728,
+   "start": "0xfe00000"
+  },
+  {
+   "end": "0x10600000",
+   "name": "logo",
+   "size": 5242880,
+   "start": "0x10100000"
+  },
+  {
+   "end": "0x11a00000",
+   "name": "config",
+   "size": 20971520,
+   "start": "0x10600000"
+  },
+  {
+   "end": "0x13800000",
+   "name": "logs",
+   "size": 31457280,
+   "start": "0x11a00000"
+  },
+  {
+   "end": "0x20000000",
+   "name": "extend",
+   "size": 209715200,
+   "start": "0x13800000"
+  },
+  {
+   "end": "0x40000000",
+   "name": "algorithm",
+   "size": 536870912,
+   "start": "0x20000000"
+  }
+ ]
+}

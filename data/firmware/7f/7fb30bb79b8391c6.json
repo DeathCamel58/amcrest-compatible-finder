@@ -1,0 +1,297 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Hornet_Control4_V2.821.00KL002.0.R.231020.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD22404DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT2A4000DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Hornet_Control4_V2.821.00KL002.0.R.231020.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Kangle"
+  },
+  {
+   "counted": true,
+   "firmware": "Hornet_Control4_V2.821.00KL002.0.R.231020.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD22404DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT2A4000DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Kangle"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn10785",
+   "build_dates": {
+    "earliest": "2023-10-20",
+    "latest": "2023-10-20"
+   },
+   "firmware": "Hornet_Control4_V2.821.00KL002.0.R.231020.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Kangle",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2023-10-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 70000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 200336,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 549232,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 29092024,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 36358328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 88248,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2693816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2693816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13719736,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "rollback-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 11405496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 280760,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fcc29756c8e67836",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51089"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51089"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "nt98560"
+     }
+    ],
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-10-20",
+    "latest": "2023-10-20"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Kangle",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "7fb30bb79b8391c66397e225acf28663de6782a3c88f21e9ad457778ce1d1c42"
+}

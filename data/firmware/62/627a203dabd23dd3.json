@@ -1,0 +1,322 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-Radar_V2.812.0000019.0.R.211107.bin",
+   "ids": [
+    "PFR4K-E",
+    "PFR4K-D150",
+    "PFR4K-D300",
+    "PFR4K-D450",
+    "PFR4K-B240",
+    "PFR7K-DS1K",
+    "PFR7BX-H",
+    "PFR7AR-H30-A",
+    "PFR5QI-E50",
+    "PFR5QI-E50-SL",
+    "PFR7QR-E50"
+   ],
+   "member": "hwid",
+   "raw": [
+    "PFR4K-E:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR4K-D150:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR4K-D300:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR4K-D450:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR4K-B240:01:0B:01:00:36:00:01:00:01:01:04:384_384:0C:00:02:00:00:00:00:00:400",
+    "PFR7K-DS1K:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR7BX-H:01:0B:01:00:36:00:01:00:01:01:04:384_384:0B:00:02:00:00:00:00:00:400",
+    "PFR7AR-H30-A:01:0B:01:00:36:00:01:10:01:01:04:384_384:0C:00:02:00:00:00:00:00:400",
+    "PFR5QI-E50:01:0B:02:86:36:00:01:00:01:01:04:384_384:0C:00:02:00:00:00:00:00:400",
+    "PFR5QI-E50-SL:01:0B:02:86:36:00:01:00:01:01:04:384_384:0C:00:02:00:00:00:00:00:400",
+    "PFR7QR-E50:01:0B:02:86:36:00:01:00:01:01:04:384_384:0C:00:02:00:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-Radar_V2.812.0000019.0.R.211107.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-Radar_V2.812.0000019.0.R.211107.bin",
+   "ids": [
+    "PFR4K-E",
+    "PFR4K-D150",
+    "PFR4K-D300",
+    "PFR4K-D450",
+    "PFR4K-B240",
+    "PFR7K-DS1K",
+    "PFR7BX-H",
+    "PFR7AR-H30-A",
+    "PFR5QI-E50",
+    "PFR5QI-E50-SL",
+    "PFR7QR-E50"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-11-07",
+    "latest": "2021-11-07"
+   },
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-Radar_V2.812.0000019.0.R.211107.bin",
+   "flash_size": 3758096384,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-11-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 215408,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4145124,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1640632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2078904,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 48187576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7411896,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "6a7949b6f84b92d0",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "627a203dabd23dd3228f971af2bd030137a1ec9a26dac882cfe1f9babcb9ce4a"
+}

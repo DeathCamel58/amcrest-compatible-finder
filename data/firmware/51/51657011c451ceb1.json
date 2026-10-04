@@ -1,0 +1,251 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2541SP-S",
+    "IPC-HFW2541TP-AS",
+    "IPC-HFW2541TP-ZS",
+    "IPC-HFW2541TP-ZAS",
+    "IPC-HFW2549SP-S-IL",
+    "IPC-HFW2549TP-AS-IL",
+    "IPC-HFW2841SP-S",
+    "IPC-HFW2841TP-AS",
+    "IPC-HFW2841TP-ZS",
+    "IPC-HFW2841TP-ZAS",
+    "IPC-HFW2849SP-S-IL",
+    "IPC-HFW2849TP-AS-IL"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW2541SP-S:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-AS:01:02:04:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-ZS:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-ZAS:01:02:04:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2549SP-S-IL:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2549TP-AS-IL:01:02:02:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841SP-S:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-AS:01:02:04:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-ZS:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-ZAS:01:02:04:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2849SP-S-IL:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2849TP-AS-IL:01:02:02:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2541SP-S",
+    "IPC-HFW2541TP-AS",
+    "IPC-HFW2541TP-ZS",
+    "IPC-HFW2541TP-ZAS",
+    "IPC-HFW2549SP-S-IL",
+    "IPC-HFW2549TP-AS-IL",
+    "IPC-HFW2841SP-S",
+    "IPC-HFW2841TP-AS",
+    "IPC-HFW2841TP-ZS",
+    "IPC-HFW2841TP-ZAS",
+    "IPC-HFW2849SP-S-IL",
+    "IPC-HFW2849TP-AS-IL"
+   ],
+   "member": "hwid",
+   "raw_same_as": 1,
+   "source": "hwid"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-11-19",
+    "latest": "2022-12-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 165544,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 60752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 60752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2327472,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 8231096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-11-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 4268400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 31123640,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5e5c4d23244da4dc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb-bak.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb-bak.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027D-S01A"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "51657011c451ceb1bc2da9f5cfd3afc52e70c610921ff10fbf739be417ca312a"
+}

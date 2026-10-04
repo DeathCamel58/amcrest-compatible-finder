@@ -1,0 +1,191 @@
+{
+ "id": "2cfa075692c64e89",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x4200000",
+   "name": "pd",
+   "size": 8388608,
+   "start": "0x3a00000"
+  },
+  {
+   "end": "0x6200000",
+   "name": "web",
+   "size": 33554432,
+   "start": "0x4200000"
+  },
+  {
+   "end": "0x8200000",
+   "name": "kernel",
+   "size": 33554432,
+   "start": "0x6200000"
+  },
+  {
+   "end": "0xe200000",
+   "name": "rootfs",
+   "size": 67108864,
+   "start": "0xa200000"
+  },
+  {
+   "end": "0x12200000",
+   "name": "rootfs",
+   "size": 67108864,
+   "start": "0xe200000"
+  },
+  {
+   "end": "0x14200000",
+   "name": "rootfs",
+   "size": 33554432,
+   "start": "0x12200000"
+  },
+  {
+   "end": "0x2ab00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x26b00000"
+  },
+  {
+   "end": "0x2eb00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x2ab00000"
+  },
+  {
+   "end": "0x32b00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x2eb00000"
+  },
+  {
+   "end": "0x36b00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x32b00000"
+  },
+  {
+   "end": "0x3ab00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x36b00000"
+  },
+  {
+   "end": "0x3eb00000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x3ab00000"
+  },
+  {
+   "end": "0x46b00000",
+   "name": "firmware",
+   "size": 134217728,
+   "start": "0x3eb00000"
+  },
+  {
+   "end": "0x4ab00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x46b00000"
+  },
+  {
+   "end": "0x4eb00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x4ab00000"
+  },
+  {
+   "end": "0x52b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x4eb00000"
+  },
+  {
+   "end": "0x56b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x52b00000"
+  },
+  {
+   "end": "0x5ab00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x56b00000"
+  },
+  {
+   "end": "0x5eb00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x5ab00000"
+  },
+  {
+   "end": "0x62b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x5eb00000"
+  },
+  {
+   "end": "0x66b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x62b00000"
+  },
+  {
+   "end": "0x6ab00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x66b00000"
+  },
+  {
+   "end": "0x6eb00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x6ab00000"
+  },
+  {
+   "end": "0x72b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x6eb00000"
+  },
+  {
+   "end": "0x76b00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x72b00000"
+  },
+  {
+   "end": "0x7ab00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x76b00000"
+  },
+  {
+   "end": "0x7eb00000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x7ab00000"
+  },
+  {
+   "end": "0x86b00000",
+   "name": "itop",
+   "size": 134217728,
+   "start": "0x7eb00000"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-A12",
+    "DB11",
+    "VTO2101E"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-A12",
+     "1.00"
+    ],
+    [
+     "IPC-A12",
+     "1.10"
+    ],
+    [
+     "DB11",
+     "1.00"
+    ],
+    [
+     "VTO2101E",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General_PushPhone"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General_PushPhone",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 483328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "2ce7ef7e80d1e5d1",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "83f7b8a54931b90a09247f801aaa1fe83f0f30ebf812a4f893bff5fa3e2a84db"
+}

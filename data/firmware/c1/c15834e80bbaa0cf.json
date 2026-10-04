@@ -1,0 +1,167 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTS2601A",
+    "VTS5240B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTS2601A",
+     "1.00"
+    ],
+    [
+     "VTS2601A",
+     "1.10"
+    ],
+    [
+     "VTS5240B",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn3222",
+   "build_dates": {
+    "earliest": "2018-07-23",
+    "latest": "2018-07-23"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "3.0.8",
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3521boot",
+     "image_size": 166816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2056080,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2420736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 1331200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 14307328,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 901120,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "gui-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2449408,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "276aa6c67b28a06c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3521boot"
+     },
+     {
+      "member": "kernel-x.cramfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     }
+    ],
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "c15834e80bbaa0cf1823445471846a4d63e781e2f7867da7cb4382ff751a2b35"
+}

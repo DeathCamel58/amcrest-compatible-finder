@@ -1,0 +1,150 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Group_NVR5xxx_RusEng_P_SNMP_V2.616.GP00.0.R.20141230.bin",
+   "ids": [
+    "DVRxx04HF-X",
+    "Group"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-12-30",
+    "latest": "2014-12-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Group_NVR5xxx_RusEng_P_SNMP_V2.616.GP00.0.R.20141230/u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 146492,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "29aeb7c6a984645c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-12-30",
+    "latest": "2014-12-30"
+   },
+   "firmware": "Group_NVR5xxx_RusEng_P_SNMP_V2.616.GP00.0.R.20141230.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Group"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 146492,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 21127168,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1556480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 94208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-12-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7556807b1238a294",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d568bd603397cf709b1fc629cad0cb88bc98fe3ac14776e71b463250dca3f06e"
+}

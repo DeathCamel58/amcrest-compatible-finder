@@ -1,0 +1,193 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "GalantX7_V3.146.00KL001.0.R.260306.bin",
+   "ids": [
+    "IPC-HDBW7442E1P-Z-2712F-X",
+    "IPC-HDBW7442E1P-Z-0832-X",
+    "IPC-HDBW7842E1P-Z-2712F-X",
+    "IPC-HDBW7842E1P-Z-0832-X",
+    "IPC-HFW7442HP-Z-2712F-DCAC-X",
+    "IPC-HFW7442HP-Z-0832-DCAC-X",
+    "IPC-HFW7842HP-Z-2712F-DCAC-X",
+    "IPC-HFW7842HP-Z-0832-DCAC-X",
+    "IPC-HF7442FP-Z-X",
+    "IPC-HF7842FP-Z-X",
+    "IPC-HDBW71242E1P-Z-2712-X",
+    "IPC-HFW71242HP-Z-2712-DCAC-X",
+    "IPC-HF71242FP-Z-X"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW7442E1P-Z-2712F-X:01:02:05:86:52:00:01:14:07:03:04:4B0:09:00:00:04:00:01:00:00:1000",
+    "IPC-HDBW7442E1P-Z-0832-X:01:02:05:86:52:00:01:14:07:03:04:4B0:09:00:00:04:00:01:00:00:1000",
+    "IPC-HDBW7842E1P-Z-2712F-X:01:02:05:87:52:00:01:14:07:03:04:4B0:09:00:00:04:00:01:00:00:1000",
+    "IPC-HDBW7842E1P-Z-0832-X:01:02:05:87:52:00:01:14:07:03:04:4B0:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW7442HP-Z-2712F-DCAC-X:01:02:00:86:52:00:01:14:01:01:04:4B0:09:00:00:0D:00:01:00:00:1000",
+    "IPC-HFW7442HP-Z-0832-DCAC-X:01:02:00:86:52:00:01:14:01:01:04:4B0:09:00:00:0D:00:01:00:00:1000",
+    "IPC-HFW7842HP-Z-2712F-DCAC-X:01:02:00:87:52:00:01:14:01:01:04:4B0:09:00:00:0D:00:01:00:00:1000",
+    "IPC-HFW7842HP-Z-0832-DCAC-X:01:02:00:87:52:00:01:14:01:01:04:4B0:09:00:00:0D:00:01:00:00:1000",
+    "IPC-HF7442FP-Z-X:01:02:01:86:52:00:01:14:07:01:04:4B0:08:00:00:04:00:01:00:00:1000",
+    "IPC-HF7842FP-Z-X:01:02:01:87:52:00:01:14:07:01:04:4B0:08:00:00:04:00:01:00:00:1000",
+    "IPC-HDBW71242E1P-Z-2712-X:01:02:05:23:52:00:01:14:07:03:04:4B0:09:00:00:04:00:01:00:00:1000",
+    "IPC-HFW71242HP-Z-2712-DCAC-X:01:02:00:23:52:00:01:14:01:01:04:4B0:09:00:00:0D:00:01:00:00:1000",
+    "IPC-HF71242FP-Z-X:01:02:01:23:52:00:01:14:07:01:04:4B0:08:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "GalantX7_V3.146.00KL001.0.R.260306.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "GalantX7_V3.146.00KL001.0.R.260306.bin",
+   "ids": [
+    "IPC-HDBW7442E1P-Z-2712F-X",
+    "IPC-HDBW7442E1P-Z-0832-X",
+    "IPC-HDBW7842E1P-Z-2712F-X",
+    "IPC-HDBW7842E1P-Z-0832-X",
+    "IPC-HFW7442HP-Z-2712F-DCAC-X",
+    "IPC-HFW7442HP-Z-0832-DCAC-X",
+    "IPC-HFW7842HP-Z-2712F-DCAC-X",
+    "IPC-HFW7842HP-Z-0832-DCAC-X",
+    "IPC-HF7442FP-Z-X",
+    "IPC-HF7842FP-Z-X",
+    "IPC-HDBW71242E1P-Z-2712-X",
+    "IPC-HFW71242HP-Z-2712-DCAC-X",
+    "IPC-HF71242FP-Z-X"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-03-06",
+    "latest": "2026-03-06"
+   },
+   "firmware": "GalantX7_V3.146.00KL001.0.R.260306.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 515544,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 515544,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 45232,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 5130424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 13554432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 116463800,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 19241144,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ss928v100"
+     }
+    ],
+    "name": "SS928V100",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.146.00KL001.0.R.260306"
+  }
+ ],
+ "sha256": "df525b8a5a7a9562e395c240c24aba5121ab0233f59b299f9ffa38a211f96d8b"
+}

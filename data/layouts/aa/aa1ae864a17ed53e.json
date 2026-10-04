@@ -1,0 +1,77 @@
+{
+ "id": "aa1ae864a17ed53e",
+ "partitions": [
+  {
+   "end": "0xc00",
+   "name": "CmdScript",
+   "size": 3072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x100000",
+   "name": "dhboot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1c0000",
+   "name": "dhboot",
+   "size": 786432,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x300000",
+   "name": "smc",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dhdtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0xc800000",
+   "name": "firmware",
+   "size": 73400320,
+   "start": "0x8200000"
+  },
+  {
+   "end": "0x8900000",
+   "name": "kernel-aol",
+   "size": 7340032,
+   "start": "0x8200000"
+  },
+  {
+   "end": "0xa700000",
+   "name": "romfs-x-aol",
+   "size": 31457280,
+   "start": "0x8900000"
+  },
+  {
+   "end": "0xe600000",
+   "name": "romfs",
+   "size": 31457280,
+   "start": "0xc800000"
+  },
+  {
+   "end": "0xed00000",
+   "name": "kernel",
+   "size": 7340032,
+   "start": "0xe600000"
+  },
+  {
+   "end": "0xfd00000",
+   "name": "web",
+   "size": 16777216,
+   "start": "0xed00000"
+  },
+  {
+   "end": "0x10000000",
+   "name": "pd",
+   "size": 3145728,
+   "start": "0xfd00000"
+  }
+ ]
+}

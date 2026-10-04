@@ -1,0 +1,323 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-DHOP_V2.812.0000032.2.R.220804.bin",
+   "ids": [
+    "CA-HZ4040XA-A-OP",
+    "CA-HZ4032XB-A-OP",
+    "CA-HZ4033XA-A-OP",
+    "CA-HZ2033XA-A-OP",
+    "CA-HZ4040XB-A-OP",
+    "PTZ-MT404XA-A-0832-OP",
+    "CA-HZ4045XA-A-OP",
+    "CA-HZ4025XB-A-OP"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4040XA-A-OP:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XB-A-OP:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033XA-A-OP:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2033XA-A-OP:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4040XB-A-OP:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "PTZ-MT404XA-A-0832-OP:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4045XA-A-OP:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XB-A-OP:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-DHOP_V2.812.0000032.2.R.220804.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-DHOP_V2.812.0000032.2.R.220804.bin",
+   "ids": [
+    "CA-HZ4040XA-A-OP",
+    "CA-HZ4032XB-A-OP",
+    "CA-HZ4033XA-A-OP",
+    "CA-HZ2033XA-A-OP",
+    "CA-HZ4040XB-A-OP",
+    "PTZ-MT404XA-A-0832-OP",
+    "CA-HZ4045XA-A-OP",
+    "CA-HZ4025XB-A-OP"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-04",
+    "latest": "2022-08-04"
+   },
+   "firmware": "DH_SD-Prometheus_MultiLang_PN_Stream3-DHOP_V2.812.0000032.2.R.220804.bin",
+   "flash_size": 3758096384,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-08-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 217456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4152020,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2996408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3516600,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 75270328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9091256,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-04",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "itop-x.ext4.img",
+     "image_name": "itop",
+     "image_size": 377489592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b0aea2a2e5ecbf2b",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "7dd0d36e31963172fdb0a25f809141945659d30c8acff4327077ad29c9af95bf"
+}

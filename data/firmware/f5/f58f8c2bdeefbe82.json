@@ -1,0 +1,404 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX8(7)XXX-E2-Faraday_MultiLang_PN_V3.140.0000000.46.R.260828.bin",
+   "ids": [
+    "IPC-HDW7443X-B-E2-0200B",
+    "IPC-HDW7443X-B-E2-0280B",
+    "IPC-HDW7443X-B-E2-0360B",
+    "IPC-HDW8441XP-BV-3D-0200B",
+    "IPC-HDW8441XP-BV-3D-0280B",
+    "IPC-HDW8441XP-BV-3D-0360B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDW7443X-B-E2-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX8(7)XXX-E2-Faraday_MultiLang_PN_V3.140.0000000.46.R.260828.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX8(7)XXX-E2-Faraday_MultiLang_PN_V3.140.0000000.46.R.260828.bin",
+   "ids": [
+    "IPC-HDW7443X-B-E2-0200B",
+    "IPC-HDW7443X-B-E2-0280B",
+    "IPC-HDW7443X-B-E2-0360B",
+    "IPC-HDW8441XP-BV-3D-0200B",
+    "IPC-HDW8441XP-BV-3D-0280B",
+    "IPC-HDW8441XP-BV-3D-0360B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HDW7443X-B-E2-0200B",
+    "IPC-HDW7443X-B-E2-0280B",
+    "IPC-HDW7443X-B-E2-0360B",
+    "IPC-HDW8441XP-BV-3D-0200B",
+    "IPC-HDW8441XP-BV-3D-0280B",
+    "IPC-HDW8441XP-BV-3D-0360B"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW7443X-B-E2-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HDW7443X-B-E2-0200B",
+    "IPC-HDW7443X-B-E2-0280B",
+    "IPC-HDW7443X-B-E2-0360B",
+    "IPC-HDW8441XP-BV-3D-0200B",
+    "IPC-HDW8441XP-BV-3D-0280B",
+    "IPC-HDW8441XP-BV-3D-0360B"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW7443X-B-E2-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW7443X-B-E2-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0200B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0280B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HDW8441XP-BV-3D-0360B:01:02:02:D7:52:00:01:14:07:03:04:4B0:08:00:00:04:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-28",
+    "latest": "2026-08-28"
+   },
+   "firmware": "DH_IPC-HX8(7)XXX-E2-Faraday_MultiLang_PN_V3.140.0000000.46.R.260828.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 514600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 514600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 42772,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 5355704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 13554432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 82380984,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 18073784,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ss928v100"
+     }
+    ],
+    "name": "SS928V100",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.140.0000000.46.R.260828"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-28",
+    "latest": "2026-08-28"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part00.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part01.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part02.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part03.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part04.img",
+     "image_name": "firmware",
+     "image_size": 32508088,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9eb59794aba6fdfd",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-28",
+    "latest": "2026-08-28"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-28",
+    "latest": "2026-08-28"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 18073784,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "08bb9993a7e5af7c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.0000000.46.R.260828"
+  }
+ ],
+ "sha256": "f58f8c2bdeefbe82976e3827187411af94e81fed001724f31201bc6049531e82"
+}

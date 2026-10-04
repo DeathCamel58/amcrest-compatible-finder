@@ -1,0 +1,269 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1230R-ZS-2812-S4-BF",
+    "IPC-HDBW1230RP-S4-BF",
+    "IPC-HDBW1230EP-S4-BF",
+    "IPC-HDW1330C-A-BF",
+    "IPC-HDW1330C-A-V2-BF",
+    "IPC-HFW1330M-BF",
+    "IPC-HFW1330SP-S4-BF",
+    "IPC-HDBW1230R-V2-BF",
+    "IPC-B2A30",
+    "IPC-HDPW3230R1-VFAS-2812",
+    "IPC-HDPW3230R1-ZAS-2812",
+    "IPC-HDPW3230DR1-ZS-2812",
+    "IPC-HFW3230F2-ZAS-2812",
+    "IPC-HFW3230DF2-ZSA-2812",
+    "IPC-HFW1439SP-A-LED-S4",
+    "IPC-HFW1239SP-A-LED-S5-QH3",
+    "IPC-HFW2233M-A-V2A",
+    "IPC-HFW2433M-A-V2A",
+    "IPC-HDBW2233R-SA-V2A",
+    "IPC-HDBW2433R-SA-V2A",
+    "IPC-HDW2233T-A-IL-V2A",
+    "IPC-HDW2433T-A-IL-V2A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW1230R-ZS-2812-S4-BF:01:02:13:AC:3B:00:01:10:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1230RP-S4-BF:01:02:13:AC:3B:00:01:10:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1230EP-S4-BF:01:02:13:A8:3B:00:01:10:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDW1330C-A-BF:01:02:13:9B:3B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDW1330C-A-V2-BF:01:02:13:9B:3B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1330M-BF:01:02:13:9B:3B:00:01:10:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1330SP-S4-BF:01:02:13:9B:3B:00:01:10:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1230R-V2-BF:01:02:05:AC:3B:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-B2A30:01:02:13:9B:3B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HDPW3230R1-VFAS-2812:01:02:05:CD:3B:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:80",
+    "IPC-HDPW3230R1-ZAS-2812:01:02:05:CD:3B:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:80",
+    "IPC-HDPW3230DR1-ZS-2812:01:02:05:CD:3B:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW3230F2-ZAS-2812:01:02:13:CD:3B:00:01:10:03:01:04:320:03:00:00:00:00:01:00:00:80",
+    "IPC-HFW3230DF2-ZSA-2812:01:02:13:CD:3B:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW1439SP-A-LED-S4:01:02:02:89:3C:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1239SP-A-LED-S5-QH3:01:02:02:B4:3B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW2233M-A-V2A:01:02:04:B4:3B:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2433M-A-V2A:01:02:04:89:3C:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW2233R-SA-V2A:01:02:04:B4:3B:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW2433R-SA-V2A:01:02:04:89:3C:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW2233T-A-IL-V2A:01:02:04:B4:3B:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW2433T-A-IL-V2A:01:02:04:89:3C:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW1230R-ZS-2812-S4-BF",
+    "IPC-HDBW1230RP-S4-BF",
+    "IPC-HDBW1230EP-S4-BF",
+    "IPC-HDW1330C-A-BF",
+    "IPC-HDW1330C-A-V2-BF",
+    "IPC-HFW1330M-BF",
+    "IPC-HFW1330SP-S4-BF",
+    "IPC-HDBW1230R-V2-BF",
+    "IPC-B2A30",
+    "IPC-HDPW3230R1-VFAS-2812",
+    "IPC-HDPW3230R1-ZAS-2812",
+    "IPC-HDPW3230DR1-ZS-2812",
+    "IPC-HFW3230F2-ZAS-2812",
+    "IPC-HFW3230DF2-ZSA-2812",
+    "IPC-HFW1439SP-A-LED-S4",
+    "IPC-HFW1239SP-A-LED-S5-QH3",
+    "IPC-HFW2233M-A-V2A",
+    "IPC-HFW2433M-A-V2A",
+    "IPC-HDBW2233R-SA-V2A",
+    "IPC-HDBW2433R-SA-V2A",
+    "IPC-HDW2233T-A-IL-V2A",
+    "IPC-HDW2433T-A-IL-V2A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn10448",
+   "build_dates": {
+    "earliest": "2022-12-22",
+    "latest": "2022-12-22"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-12-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 229560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-12-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1477824,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-22",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 1477824,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 7354552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b45b157192b7cd73",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc325"
+     }
+    ],
+    "name": "SSC325",
+    "vendor": "SigmaStar"
+   },
+   "unmapped_images": [
+    "romfs-x-aol.squashfs.img",
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "505f4971dec992843affe8af929f005730753ecc3cb2a41aaaa78e9904c5cd12"
+}

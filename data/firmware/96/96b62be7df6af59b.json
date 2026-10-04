@@ -1,0 +1,220 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF5X41-V1_MultiLang_PN_V2.660.0000000.0.R.260420.bin",
+   "ids": [
+    "TPC-BF5441-B-S52",
+    "TPC-BF5441-TB-S52",
+    "TPC-BF5641-B-S52",
+    "TPC-BF5641-TB-S52"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-BF5441-B-S52:01:08:02:80:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000",
+    "TPC-BF5441-TB-S52:01:08:02:E9:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000",
+    "TPC-BF5441-TB-S52:01:08:02:149:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000",
+    "TPC-BF5641-B-S52:01:08:02:81:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000",
+    "TPC-BF5641-TB-S52:01:08:02:EA:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000",
+    "TPC-BF5641-TB-S52:01:08:02:14A:52:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-BF5X41-V1_MultiLang_PN_V2.660.0000000.0.R.260420.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-BF5X41-V1_MultiLang_PN_V2.660.0000000.0.R.260420.bin",
+   "ids": [
+    "TPC-BF5441-B-S52",
+    "TPC-BF5441-TB-S52",
+    "TPC-BF5641-B-S52",
+    "TPC-BF5641-TB-S52"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-20",
+    "latest": "2026-04-20"
+   },
+   "firmware": "DH_TPC-BF5X41-V1_MultiLang_PN_V2.660.0000000.0.R.260420.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 542856,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 542856,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 39536,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2148536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1362104,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12813056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 16861368,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 75958456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-20",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.img",
+     "image_name": "firmware",
+     "image_size": 738199736,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cc1ff23b6a153e5e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ss928v100"
+     }
+    ],
+    "name": "SS928V100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "96b62be7df6af59b36678b17cff5893388975a65e2620c8806a7d1e7be23ebc0"
+}

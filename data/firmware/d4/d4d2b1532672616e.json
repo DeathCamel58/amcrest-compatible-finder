@@ -1,0 +1,438 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-C-V-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI31C-M",
+    "ASI31C-MF",
+    "ASI31C-MW",
+    "ASI31C-MFW",
+    "ASI6213S-W",
+    "ASI6223S-W",
+    "ASI6213S-QW",
+    "ASI6213S-DW",
+    "ASI6214S-W",
+    "ASI6213S-B4G",
+    "ASI6213S-WT",
+    "ASI6213S-QWT",
+    "ASI6213S",
+    "ASI6214S",
+    "ASI6213S-D",
+    "ASI6214S-D",
+    "ASI6213J-MW-V1",
+    "ASI6214J-MFW-V1",
+    "ASI31D-M",
+    "ASI31D-MF",
+    "ASI31D-MW",
+    "ASI31D-MFW",
+    "ASI31D-DW",
+    "ASI31D-DFW",
+    "ASI6213S-W-V1",
+    "ASI6214S-W-V1",
+    "ASI6213S-W-WVGA",
+    "ASI6214S-W-WVGA",
+    "ASI31C-M4G-V1",
+    "ASI31C-M-V1",
+    "ASI31C-MW-V1",
+    "ASI31C-MF-V1",
+    "ASI31C-MFW-V1"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI31C-M:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI31C-MF:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI31C-MW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI31C-MFW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6223S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-QW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-DW:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6214S-W:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-B4G:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:09:01:00:01:400:FF",
+    "ASI6213S-WT:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S-QWT:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:03:00:06:08:01:00:01:400:FF",
+    "ASI6213S:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6214S:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6213S-D:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6214S-D:01:04:05:CD:4B:00:02:10:01:01:01:4B0_4B0:00:00:00:06:00:01:00:01:400:FF",
+    "ASI6213J-MW-V1:01:04:05:CD:4B:00:02:10:01:01:00:4B0_4B0:00:02:00:06:08:01:00:01:400:FF",
+    "ASI6214J-MFW-V1:01:04:05:CD:4B:00:02:10:01:01:00:4B0_4B0:00:02:00:06:08:01:00:01:400:FF",
+    "ASI31D-M:01:04:05:CD:4B:00:02:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31D-MF:01:04:05:CD:4B:00:03:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31D-MW:01:04:05:CD:4B:00:02:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31D-MFW:01:04:05:CD:4B:00:03:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31D-DW:01:04:05:CD:4B:00:02:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31D-DFW:01:04:05:CD:4B:00:03:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI6213S-W-V1:01:04:05:102:4B:00:02:10:01:01:01:3E8:00:03:00:06:08:01:00:01:200:FF",
+    "ASI6214S-W-V1:01:04:05:102:4B:00:02:10:01:01:01:3E8:00:03:00:06:08:01:00:01:200:FF",
+    "ASI6213S-W-WVGA:01:04:05:102:4B:00:02:10:01:01:01:3E8:00:03:00:06:08:01:00:01:200:FF",
+    "ASI6214S-W-WVGA:01:04:05:102:4B:00:02:10:01:01:01:3E8:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31C-M4G-V1:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:02:00:06:09:01:00:01:200:FF",
+    "ASI31C-M-V1:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31C-MW-V1:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF",
+    "ASI31C-MF-V1:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:00:00:06:00:01:00:01:200:FF",
+    "ASI31C-MFW-V1:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:03:00:06:08:01:00:01:200:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASIX2XX-C-V-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI31C-M",
+    "ASI31C-MF",
+    "ASI31C-MW",
+    "ASI31C-MFW",
+    "ASI6213S-W",
+    "ASI6213S-QW",
+    "ASI6213S-DW",
+    "ASI6214S-W",
+    "ASI6213S-B4G",
+    "ASI6213S-WT",
+    "ASI6213S-QWT",
+    "ASI6213S",
+    "ASI6214S",
+    "ASI6213S-D",
+    "ASI6214S-D",
+    "ASI6223S-W",
+    "ASI6213J-MW-V1",
+    "ASI6214J-MFW-V1",
+    "ASI31D-M",
+    "ASI31D-MF",
+    "ASI31D-MW",
+    "ASI31D-MFW",
+    "ASI6213S-W-V1",
+    "ASI6214S-W-V1",
+    "ASI6213S-W-WVGA",
+    "ASI6214S-W-WVGA",
+    "ASI31C-M4G-V1",
+    "ASI31C-M-V1",
+    "ASI31C-MW-V1",
+    "ASI31C-MF-V1",
+    "ASI31C-MFW-V1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI31C-M",
+     "1.00"
+    ],
+    [
+     "ASI31C-MF",
+     "1.00"
+    ],
+    [
+     "ASI31C-MW",
+     "1.00"
+    ],
+    [
+     "ASI31C-MFW",
+     "1.00"
+    ],
+    [
+     "ASI6213S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213S-QW",
+     "1.00"
+    ],
+    [
+     "ASI6213S-DW",
+     "1.00"
+    ],
+    [
+     "ASI6214S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213S-B4G",
+     "1.00"
+    ],
+    [
+     "ASI6213S-WT",
+     "1.00"
+    ],
+    [
+     "ASI6213S-QWT",
+     "1.00"
+    ],
+    [
+     "ASI6213S",
+     "1.00"
+    ],
+    [
+     "ASI6214S",
+     "1.00"
+    ],
+    [
+     "ASI6213S-D",
+     "1.00"
+    ],
+    [
+     "ASI6214S-D",
+     "1.00"
+    ],
+    [
+     "ASI6223S-W",
+     "1.00"
+    ],
+    [
+     "ASI6213J-MW-V1",
+     "1.00"
+    ],
+    [
+     "ASI6214J-MFW-V1",
+     "1.00"
+    ],
+    [
+     "ASI31D-M",
+     "1.00"
+    ],
+    [
+     "ASI31D-MF",
+     "1.00"
+    ],
+    [
+     "ASI31D-MW",
+     "1.00"
+    ],
+    [
+     "ASI31D-MFW",
+     "1.00"
+    ],
+    [
+     "ASI6213S-W-V1",
+     "1.00"
+    ],
+    [
+     "ASI6214S-W-V1",
+     "1.00"
+    ],
+    [
+     "ASI6213S-W-WVGA",
+     "1.00"
+    ],
+    [
+     "ASI6214S-W-WVGA",
+     "1.00"
+    ],
+    [
+     "ASI31C-M4G-V1",
+     "1.00"
+    ],
+    [
+     "ASI31C-M-V1",
+     "1.00"
+    ],
+    [
+     "ASI31C-MW-V1",
+     "1.00"
+    ],
+    [
+     "ASI31C-MF-V1",
+     "1.00"
+    ],
+    [
+     "ASI31C-MFW-V1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-C-V-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI31C-M",
+    "ASI31C-MF",
+    "ASI31C-MW",
+    "ASI31C-MFW",
+    "ASI6213S-W",
+    "ASI6223S-W",
+    "ASI6213S-QW",
+    "ASI6213S-DW",
+    "ASI6214S-W",
+    "ASI6213S-B4G",
+    "ASI6213S-WT",
+    "ASI6213S-QWT",
+    "ASI6213S",
+    "ASI6214S",
+    "ASI6213S-D",
+    "ASI6214S-D",
+    "ASI6213J-MW-V1",
+    "ASI6214J-MFW-V1",
+    "ASI31D-M",
+    "ASI31D-MF",
+    "ASI31D-MW",
+    "ASI31D-MFW",
+    "ASI31D-DW",
+    "ASI31D-DFW",
+    "ASI6213S-W-V1",
+    "ASI6214S-W-V1",
+    "ASI6213S-W-WVGA",
+    "ASI6214S-W-WVGA",
+    "ASI31C-M4G-V1",
+    "ASI31C-M-V1",
+    "ASI31C-MW-V1",
+    "ASI31C-MF-V1",
+    "ASI31C-MFW-V1"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-03",
+    "latest": "2026-09-03"
+   },
+   "firmware": "DH_ASIX2XX-C-V-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "French",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR",
+     "Thai",
+     "TradChinese",
+     "TradChinese2",
+     "Indonesian",
+     "Malay",
+     "Italian",
+     "Japanese",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 272084,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 223300,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 523700,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 572492,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 18913464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 194744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5268448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 36599992,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 29366456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.img",
+     "image_name": "firmware",
+     "image_size": 79628472,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fcd67208b1e936e7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.004.0000005.3.R.260903"
+  }
+ ],
+ "sha256": "d4d2b1532672616eff93e14fcaa0f6c2e7b6f6f92c9b3d2838a062ab4b2cf2d7"
+}

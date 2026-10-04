@@ -1,0 +1,263 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Firmware_VIPW_1430_16_07_26.bin",
+   "ids": [
+    "IPC-WD22",
+    "IPC-WF22",
+    "IPC-HFW1230DS-SAW",
+    "IPC-HDBW1230DE-SW",
+    "IPC-HDW1230DT-SAW",
+    "IPC-HFW1230DS1-SAW",
+    "IPC-B1A20-WT-PV-B-V2A",
+    "IPC-B1A20-W-B-V2",
+    "IPC-B1A20-WT-B-V2",
+    "IPC-B1A20-PV-V2",
+    "IPC-B3A40-WT",
+    "IPC-WF42",
+    "IPC-WD42",
+    "IPC-HFW1430DS-SAW",
+    "IPC-HDBW1430DE-SW",
+    "IPC-HDW1430DT-SAW",
+    "IPC-HFW1430DS1-SAW",
+    "IPC-B1A40-WT-B-V2",
+    "IPC-B1A40-WT-PV-B-V2",
+    "IPC-B1A40-PV-V2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-WD22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-WF22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HFW1230DS-SAW:01:02:02:CD:48:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HDBW1230DE-SW:01:02:04:CD:48:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HDW1230DT-SAW:01:02:04:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1230DS1-SAW:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-B1A20-WT-PV-B-V2A:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B1A20-W-B-V2:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B1A20-WT-B-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B1A20-PV-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B3A40-WT:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-WF42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-WD42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HFW1430DS-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HDBW1430DE-SW:01:02:04:BF:4F:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-HDW1430DT-SAW:01:02:04:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1430DS1-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-B1A40-WT-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B1A40-WT-PV-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-B1A40-PV-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Firmware_VIPW_1430_16_07_26.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIPW_1430_16_07_26.bin",
+   "ids": [
+    "IPC-WD22",
+    "IPC-WF22",
+    "IPC-HFW1230DS-SAW",
+    "IPC-HDBW1230DE-SW",
+    "IPC-HDW1230DT-SAW",
+    "IPC-HFW1230DS1-SAW",
+    "IPC-B1A20-WT-PV-B-V2A",
+    "IPC-B1A20-W-B-V2",
+    "IPC-B1A20-WT-B-V2",
+    "IPC-B1A20-PV-V2",
+    "IPC-B3A40-WT",
+    "IPC-WF42",
+    "IPC-WD42",
+    "IPC-HFW1430DS-SAW",
+    "IPC-HDBW1430DE-SW",
+    "IPC-HDW1430DT-SAW",
+    "IPC-HFW1430DS1-SAW",
+    "IPC-B1A40-WT-B-V2",
+    "IPC-B1A40-WT-PV-B-V2",
+    "IPC-B1A40-PV-V2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn10062",
+   "build_dates": {
+    "earliest": "2026-07-16",
+    "latest": "2026-07-16"
+   },
+   "firmware": "Firmware_VIPW_1430_16_07_26.bin",
+   "flash_size": 16777216,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-07-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 235888,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-07-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1470296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-16",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 1470296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 7981240,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "9577212c884136c6",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc335"
+     }
+    ],
+    "name": "SSC335",
+    "vendor": "SigmaStar"
+   },
+   "unmapped_images": [
+    "romfs-x-aol.squashfs.img",
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "7e728a678d5b289f8ebe3fc6fcf41d580f71a39e209f256dcb3d65a8383e9143"
+}

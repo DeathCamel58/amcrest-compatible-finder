@@ -1,0 +1,171 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1020_G2_23-03-21.bin",
+   "ids": [
+    "IPC-D1B20"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Firmware_VIP_1020_G2_23-03-21.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1020_G2_23-03-21.bin",
+   "ids": [
+    "IPC-D1B20"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn17707",
+   "build_dates": {
+    "earliest": "2021-03-23",
+    "latest": "2021-03-23"
+   },
+   "firmware": "Firmware_VIP_1020_G2_23-03-21.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-03-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 80486,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "ubootbak",
+     "image_size": 305336,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 305336,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 67768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5506932,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 4131000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-03-23",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 723128,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6cf7073fb561e9aa",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3516CV300"
+     }
+    ],
+    "name": "Hi3516CV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "f7b46100559eca3305280c1ccd9e0fa09849d6a43c10ba1e07b55796bb3c5c60"
+}

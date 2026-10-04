@@ -1,0 +1,83 @@
+{
+ "id": "b32a2479923440c2",
+ "partitions": [
+  {
+   "end": "0x200000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x1a00000",
+   "name": "rootfs",
+   "size": 20971520,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x4800000",
+   "name": "userfs",
+   "size": 48234496,
+   "start": "0x1a00000"
+  },
+  {
+   "end": "0x4a00000",
+   "name": "hwid",
+   "size": 2097152,
+   "start": "0x4800000"
+  },
+  {
+   "end": "0x5e00000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0x4a00000"
+  },
+  {
+   "end": "0x6100000",
+   "name": "custom",
+   "size": 3145728,
+   "start": "0x5e00000"
+  },
+  {
+   "end": "0x6600000",
+   "name": "logo",
+   "size": 5242880,
+   "start": "0x6100000"
+  },
+  {
+   "end": "0x7a00000",
+   "name": "record",
+   "size": 20971520,
+   "start": "0x6600000"
+  },
+  {
+   "end": "0x8c00000",
+   "name": "config",
+   "size": 18874368,
+   "start": "0x7a00000"
+  },
+  {
+   "end": "0x9e00000",
+   "name": "bcfg",
+   "size": 18874368,
+   "start": "0x8c00000"
+  },
+  {
+   "end": "0xa000000",
+   "name": "updateflag",
+   "size": 2097152,
+   "start": "0x9e00000"
+  },
+  {
+   "end": "0x180000000",
+   "name": "systembackup",
+   "size": 6274678784,
+   "start": "0xa000000"
+  },
+  {
+   "end": "0x20000000",
+   "name": "algorithm",
+   "size": 134217728,
+   "start": "0x18000000"
+  }
+ ]
+}

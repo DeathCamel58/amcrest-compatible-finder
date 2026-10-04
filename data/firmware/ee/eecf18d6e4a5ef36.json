@@ -1,0 +1,171 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WDB-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-DB41AP-0210B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-DB41AP-0210B:01:04:07:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-WDB-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WDB-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "ids": [
+    "IPC-DB41AP-0210B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-29",
+    "latest": "2026-05-29"
+   },
+   "firmware": "DH_IPC-WDB-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "Arabic",
+     "Czechish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Korean",
+     "Poland",
+     "Portugal",
+     "SpanishEU",
+     "Romanian",
+     "Hungarian",
+     "Turkey",
+     "Hebrew",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "Ukrainian",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 80056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 183718,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 183718,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1716936,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 10404208,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "702a490e85136555",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "SSC027A",
+     "Infinity6C"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "SSC027A"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "sstar,infinity6c"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V2.860.0000000.26.R.260530"
+  }
+ ],
+ "sha256": "eecf18d6e4a5ef36521d52c59bcaf36340cceed741b626ca7630145484c8d412"
+}

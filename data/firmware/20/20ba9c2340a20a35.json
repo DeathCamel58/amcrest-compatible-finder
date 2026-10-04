@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-09-01",
+    "latest": "2014-09-01"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-09-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_HCVRxx04HG(P)-X_Eng_N_V3.200.0001.19.R.20140901_custom-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "43b212805029546e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "20ba9c2340a20a358d5bd1ef95e64521352b4194367c4260412c5b2a152f7d53"
+}

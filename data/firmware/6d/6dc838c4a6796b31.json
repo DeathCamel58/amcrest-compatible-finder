@@ -1,0 +1,158 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WHX-Hertz2_Eng_PN_V2.840.0000000.3.R.20240119.bin",
+   "ids": [
+    "IPC-C42EN-S2-Cayenne",
+    "IPC-A42EN-S2-Cayenne",
+    "IPC-E4AP",
+    "IPC-H4AC",
+    "IPC-S42F-0360B-S2-Cayenne",
+    "IPC-E2AP",
+    "IPC-H2AC"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-C42EN-S2-Cayenne:01:02:0F:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-A42EN-S2-Cayenne:01:02:00:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40",
+    "IPC-E4AP:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40",
+    "IPC-H4AC:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40",
+    "IPC-S42F-0360B-S2-Cayenne:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
+    "IPC-E2AP:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40",
+    "IPC-H2AC:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-WHX-Hertz2_Eng_PN_V2.840.0000000.3.R.20240119.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WHX-Hertz2_Eng_PN_V2.840.0000000.3.R.20240119.bin",
+   "ids": [
+    "IPC-C42EN-S2-Cayenne",
+    "IPC-A42EN-S2-Cayenne",
+    "IPC-E4AP",
+    "IPC-H4AC",
+    "IPC-S42F-0360B-S2-Cayenne",
+    "IPC-E2AP",
+    "IPC-H2AC"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-01-19",
+    "latest": "2024-01-19"
+   },
+   "firmware": "DH_IPC-WHX-Hertz2_Eng_PN_V2.840.0000000.3.R.20240119.bin",
+   "flash_size": 8388608,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-01-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 166392,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-01-19",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1350928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-01-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 6281400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "383c0877e2fd9242",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "6dc838c4a6796b3140ed7e37b83fb6e7013d343048b496f0c1a299416ce9efdf"
+}

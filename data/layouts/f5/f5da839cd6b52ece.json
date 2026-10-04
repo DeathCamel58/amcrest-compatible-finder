@@ -1,0 +1,41 @@
+{
+ "id": "f5da839cd6b52ece",
+ "partitions": [
+  {
+   "end": "0x80020000",
+   "name": "armboot",
+   "size": 131072,
+   "start": "0x80000000"
+  },
+  {
+   "end": "0x80030000",
+   "name": "custom",
+   "size": 65536,
+   "start": "0x80020000"
+  },
+  {
+   "end": "0x80630000",
+   "name": "rootfs",
+   "size": 6291456,
+   "start": "0x80030000"
+  },
+  {
+   "end": "0x80780000",
+   "name": "web",
+   "size": 1376256,
+   "start": "0x80630000"
+  },
+  {
+   "end": "0x807c0000",
+   "name": "userdata",
+   "size": 262144,
+   "start": "0x80780000"
+  },
+  {
+   "end": "0x80800000",
+   "name": "logo",
+   "size": 262144,
+   "start": "0x807c0000"
+  }
+ ]
+}

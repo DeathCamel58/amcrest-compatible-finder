@@ -1,0 +1,243 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Elan_V4.000.00KL502.0.R.250402.bin",
+   "ids": [
+    "NVR2X-S3",
+    "Kangle"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-02",
+    "latest": "2025-04-02"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Elan_V4.000.00KL502.0.R.250402/u-boot.bin.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 221596,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elan_V4.000.00KL502.0.R.250402/custom-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elan_V4.000.00KL502.0.R.250402/web-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 7864320,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elan_V4.000.00KL502.0.R.250402/logo-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 16384,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "00b73e95cc10796c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-02",
+    "latest": "2025-04-02"
+   },
+   "firmware": "Elan_V4.000.00KL502.0.R.250402.bin",
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Kangle"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 221596,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 35102720,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 8646656,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 16384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "c1769efa4eb29e28",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": "2.30"
+   },
+   "soc": null,
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "8d452783f99b9b5aee5c330febef5c11e336f28a50fdc2db6049236ed6bc23d3"
+}

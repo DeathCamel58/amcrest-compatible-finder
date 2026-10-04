@@ -1,0 +1,195 @@
+{
+ "id": "25fdf3d4d71c99e4",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-Boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x18600000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0xa00000",
+   "name": "lens",
+   "size": 4194304,
+   "start": "0x600000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xa00000"
+  },
+  {
+   "end": "0x1e00000",
+   "name": "config",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0xe00000"
+  },
+  {
+   "end": "0x2e00000",
+   "name": "backup",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x1e00000"
+  },
+  {
+   "end": "0x3e00000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x2e00000"
+  },
+  {
+   "end": "0x4e00000",
+   "name": "devconfig",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x3e00000"
+  },
+  {
+   "backup_start": "0x18700000",
+   "end": "0x5200000",
+   "name": "custom",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x4e00000"
+  },
+  {
+   "backup_start": "0x18b00000",
+   "end": "0x5600000",
+   "name": "product",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x5200000"
+  },
+  {
+   "backup_start": "0x18f00000",
+   "end": "0x6600000",
+   "name": "Kernel",
+   "size": 16777216,
+   "start": "0x5600000"
+  },
+  {
+   "backup_start": "0x19f00000",
+   "end": "0x8600000",
+   "name": "web",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x6600000"
+  },
+  {
+   "backup_start": "0x1bf00000",
+   "end": "0x18600000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 268435456,
+   "start": "0x8600000"
+  },
+  {
+   "end": "0x18700000",
+   "name": "backpart",
+   "read_only": false,
+   "size": 1048576,
+   "start": "0x18600000"
+  },
+  {
+   "end": "0x18b00000",
+   "name": "bakcustom",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x18700000"
+  },
+  {
+   "end": "0x18f00000",
+   "name": "backproduct",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x18b00000"
+  },
+  {
+   "end": "0x19f00000",
+   "name": "backkernel",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x18f00000"
+  },
+  {
+   "end": "0x1bf00000",
+   "name": "backweb",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x19f00000"
+  },
+  {
+   "end": "0x2bf00000",
+   "name": "backromfs",
+   "read_only": false,
+   "size": 268435456,
+   "start": "0x1bf00000"
+  },
+  {
+   "end": "0x57400000",
+   "name": "res",
+   "read_only": false,
+   "size": 726663168,
+   "start": "0x2bf00000"
+  },
+  {
+   "end": "0xb7400000",
+   "name": "firmware",
+   "read_only": true,
+   "size": 1610612736,
+   "start": "0x57400000"
+  },
+  {
+   "end": "0x127400000",
+   "name": "sfmw",
+   "read_only": false,
+   "size": 1879048192,
+   "start": "0xb7400000"
+  },
+  {
+   "end": "0x1a7400000",
+   "name": "appdata",
+   "read_only": false,
+   "size": 2147483648,
+   "start": "0x127400000"
+  },
+  {
+   "end": "0x100000001a73fffff",
+   "name": "coredump",
+   "read_only": false,
+   "size": 18446744073709551615,
+   "start": "0x1a7400000"
+  }
+ ]
+}

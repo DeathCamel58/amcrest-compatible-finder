@@ -1,0 +1,114 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2015.01-svn9739",
+   "build_dates": {
+    "earliest": "2023-03-21",
+    "latest": "2023-03-31"
+   },
+   "firmware": "update.zip",
+   "flash_size": null,
+   "kernel_version": "4.9.84",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "Hi3751V811.dtb",
+      "source": "device_tree",
+      "value": "hisilicon,hi3751"
+     },
+     {
+      "member": "Hi3751V811.dtb",
+      "source": "device_tree",
+      "value": "Hi3751"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "HI3751V811"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "hi3751v600"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v800"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v500"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v520"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v620"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v550"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v810"
+     },
+     {
+      "member": "fastboot.img",
+      "source": "bootloader",
+      "value": "Hi3751v100"
+     },
+     {
+      "member": "system/bin/bootvideo",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "system/framework/arm/boot-HitvShare.oat",
+      "source": "bootloader",
+      "value": "Hi3751V811"
+     },
+     {
+      "member": "vendor/firmware/sigmastar/boot/IPL.bin",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     },
+     {
+      "member": "vendor/firmware/sigmastar/boot/IPL_CUST.bin",
+      "source": "bootloader",
+      "value": "Sigmastar"
+     },
+     {
+      "member": "vendor/firmware/sigmastar/boot/u-boot.xz.img.bin",
+      "source": "bootloader",
+      "value": "SigmaStar"
+     }
+    ],
+    "name": "Hi3751",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "0785290433ff3a641408fc5b3ba5c980051b2919561ae806591238b240103ba7"
+}

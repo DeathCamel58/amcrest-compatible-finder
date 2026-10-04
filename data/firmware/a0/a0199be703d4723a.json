@@ -1,0 +1,370 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PSDW8XXV-Plato-Vodka_MultiLang_PN_Stream3_V3.142.0000000.13.R.260702.bin",
+   "ids": [
+    "IPC-PSDW81249S-A270-D440-BD",
+    "IPC-PSDW81649S-A360-D440-BD",
+    "IPC-PSDW8849S-A180-D440-BD",
+    "IPC-PSDW8842SP-A180-D440",
+    "IPC-PSDW81642SP-A360-D440"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PSDW81249S-A270-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW81649S-A360-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW8849S-A180-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW8842SP-A180-D440:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW81642SP-A360-D440:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-PSDW8XXV-Plato-Vodka_MultiLang_PN_Stream3_V3.142.0000000.13.R.260702.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-PSDW8XXV-Plato-Vodka_MultiLang_PN_Stream3_V3.142.0000000.13.R.260702.bin",
+   "ids": [
+    "IPC-PSDW81249S-A270-D440-BD",
+    "IPC-PSDW81649S-A360-D440-BD",
+    "IPC-PSDW8849S-A180-D440-BD",
+    "IPC-PSDW8842SP-A180-D440",
+    "IPC-PSDW81642SP-A360-D440"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-PSDW81249S-A270-D440-BD",
+    "IPC-PSDW81649S-A360-D440-BD",
+    "IPC-PSDW8849S-A180-D440-BD",
+    "IPC-PSDW8842SP-A180-D440",
+    "IPC-PSDW81642SP-A360-D440"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PSDW81249S-A270-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW81649S-A360-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW8849S-A180-D440-BD:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW8842SP-A180-D440:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000",
+    "IPC-PSDW81642SP-A360-D440:01:02:00:86:5E:00:01:10:0F:03:04:3E8:09:00:00:04:00:01:01:00:1000"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2017.09-svn18479",
+   "build_dates": {
+    "earliest": "2026-07-02",
+    "latest": "2026-07-02"
+   },
+   "firmware": "DH_IPC-PSDW8XXV-Plato-Vodka_MultiLang_PN_Stream3_V3.142.0000000.13.R.260702.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 2132152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 4982968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 985116,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3446968,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 15200440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 117827768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 23648440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 121030840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "blob.img",
+     "image_name": "blob",
+     "image_size": 378128568,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8756fe6a7b080c88",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "RK3588",
+     "RK3399",
+     "RK3036",
+     "RK3568",
+     "RK1808",
+     "RK3308",
+     "RV1126",
+     "RK3128",
+     "RK3328",
+     "RK3368",
+     "RV1108",
+     "RK3066",
+     "RK3188",
+     "RK3228",
+     "RK3288",
+     "RK3126",
+     "RK3366"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3588"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3399"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3036"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3568"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk1808"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3308"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rv1126"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3128"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3328"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3368"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rv1108"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3066"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3188"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3228"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3288"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3126"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3366"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V3.142.0000000.13.R.260702"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-07-02",
+    "latest": "2026-07-02"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 23648440,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e480a90fb88dbf3d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a0199be703d4723a2747d3b9d101734945c6b74f65ceff935f6666edf20e6763"
+}

@@ -1,0 +1,48 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "Config_General_VTH52X1D_EngBulCzeFinHgrPolSloSvn_P_32M_V1.000.00.0.R_20170505.data.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 430080,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "50067c73fa44a937",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a4698fc8c6e6c6c4e588115bc52ceab9cd5f07045a87574646a4591d9a380f21"
+}

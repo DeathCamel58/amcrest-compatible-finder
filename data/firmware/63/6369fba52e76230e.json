@@ -1,0 +1,119 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR7xxx",
+    "Digimerge",
+    "Flir",
+    "Lorex"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1376",
+   "build_dates": {
+    "earliest": "2019-07-18",
+    "latest": "2019-07-18"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Digimerge",
+    "Flir",
+    "Lorex"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-07-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 396684,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 22958080,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1851392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 98304,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "6369fba52e76230ecd20a16b43cca9783e5cac98575f8997ced3fce96b0694e4"
+}

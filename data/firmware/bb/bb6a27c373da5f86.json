@@ -1,0 +1,58 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-12-01",
+    "latest": "2018-12-01"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-12-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu.bin.img",
+     "image_name": "mcu",
+     "image_size": 5624,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "b854060bf9917a70",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bb6a27c373da5f86491d118dd7d1faffbadda9d2fbf299b9ed132317f118f845"
+}

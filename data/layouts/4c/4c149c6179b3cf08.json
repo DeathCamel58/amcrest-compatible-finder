@@ -1,0 +1,47 @@
+{
+ "id": "4c149c6179b3cf08",
+ "partitions": [
+  {
+   "end": "0x400000",
+   "name": "U-Boot",
+   "size": 1310720,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0x700000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x4b00000",
+   "name": "data",
+   "size": 25165824,
+   "start": "0x3300000"
+  },
+  {
+   "end": "0x4c00000",
+   "name": "pd",
+   "size": 1048576,
+   "start": "0x4b00000"
+  },
+  {
+   "end": "0x5300000",
+   "name": "kernel",
+   "size": 7340032,
+   "start": "0x4c00000"
+  },
+  {
+   "end": "0x7b00000",
+   "name": "rootfs",
+   "size": 41943040,
+   "start": "0x5300000"
+  },
+  {
+   "end": "0x8700000",
+   "name": "web",
+   "size": 12582912,
+   "start": "0x7b00000"
+  }
+ ]
+}

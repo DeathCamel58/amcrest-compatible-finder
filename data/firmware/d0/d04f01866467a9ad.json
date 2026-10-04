@@ -1,0 +1,104 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-S4210-8GT-ArtemisA_Eng-C2_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S4210-8GT-110",
+    "TS-S4210-8GT"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S4210-8GT-110",
+     "1.00"
+    ],
+    [
+     "TS-S4210-8GT",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-S4210-8GT-ArtemisA_Eng-C2_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S4210-8GT-110",
+    "TS-S4210-8GT"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S4210-8GT-110:02:04:02:11:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S4210-8GT:02:04:02:12:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2026-01-08",
+    "latest": "2026-01-08"
+   },
+   "firmware": "DH_TS-S4210-8GT-ArtemisA_Eng-C2_Local_V1.001.0000000.29.R.260108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 812752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 17997696,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "aol.bin.img",
+     "image_name": "firmware",
+     "image_size": 8960696,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c5522de5e877dd0b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.001.0000000.29.R.260108"
+  }
+ ],
+ "sha256": "d04f01866467a9ad71d66faa45b1eaefa5a5b6dc595c6b89079726aa9690b8ab"
+}

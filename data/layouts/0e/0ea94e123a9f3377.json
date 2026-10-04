@@ -1,0 +1,23 @@
+{
+ "id": "0ea94e123a9f3377",
+ "partitions": [
+  {
+   "end": "0xb40000",
+   "name": "kernel",
+   "size": 4194304,
+   "start": "0x740000"
+  },
+  {
+   "end": "0x1840000",
+   "name": "rootfs",
+   "size": 13631488,
+   "start": "0xb40000"
+  },
+  {
+   "end": "0x2440000",
+   "name": "data",
+   "size": 12582912,
+   "start": "0x1840000"
+  }
+ ]
+}

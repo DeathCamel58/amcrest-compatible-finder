@@ -1,0 +1,278 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "XVR4x16-I3-V2",
+    "IB_General_XVR4x16-I3-V2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn6408",
+   "build_dates": {
+    "earliest": "2026-04-08",
+    "latest": "2026-04-08"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o MHDX 1316/u-boot.bin.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 858700,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o MHDX 1316/custom-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o MHDX 1316/web-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 7487488,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o MHDX 1316/logo-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 196608,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d0c329f21825c6b4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98331",
+     "NT98332"
+    ],
+    "evidence": [
+     {
+      "member": "Atualiza\u00e7\u00e3o MHDX 1316/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98331"
+     },
+     {
+      "member": "Atualiza\u00e7\u00e3o MHDX 1316/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98332"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn6408",
+   "build_dates": {
+    "earliest": "2026-04-08",
+    "latest": "2026-04-08"
+   },
+   "firmware": "update.bin",
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_General_XVR4x16-I3-V2"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 65999,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 858700,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "IB64MFW98332Tromfs",
+     "image_size": 29704192,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 7487488,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 196608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "IB64MFW98332Tboot",
+     "image_size": 5607424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0825c7d1ea6e15bc",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98331",
+     "NT98332"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51103"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51103"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98331"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98332"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   }
+  }
+ ],
+ "sha256": "eef32b94af1bb3445c5d51e0fedc306e7d4be77d99a8bab83ea2a7dcf6eb3b97"
+}

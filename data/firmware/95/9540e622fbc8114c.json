@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-12-31",
+    "latest": "2013-12-31"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-12-31",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "DHVision_General_IPC-HX5(4)XXX(SD-Adreia)_Eng_N_Stream3_V2.400.0000.0.R.20131231_web-x.ubifs.img",
+     "image_name": "web",
+     "image_size": 5242880,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "ad3e2c61715e117b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "9540e622fbc8114cd37184f884cd370380db97fdccd2e73923a265b8e5a4b333"
+}

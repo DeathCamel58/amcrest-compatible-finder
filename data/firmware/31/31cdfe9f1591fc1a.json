@@ -1,0 +1,113 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-P3DP-3F-PV-P-PRO",
+    "SD-MT2C2000NAS2-A",
+    "SD-MT2C3000NAS2-A",
+    "SD-MT2C4000NAS2-D",
+    "SD-MT2C5000NAS2-A",
+    "SD-MT2C8000NAS2-A",
+    "SD-MT2C8000NAS2-B"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-P3DP-3F-PV-P-PRO:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100",
+    "SD-MT2C2000NAS2-A:01:03:04:116:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100",
+    "SD-MT2C3000NAS2-A:01:03:04:116:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100",
+    "SD-MT2C4000NAS2-D:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100",
+    "SD-MT2C5000NAS2-A:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100",
+    "SD-MT2C8000NAS2-A:01:03:04:F2:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100",
+    "SD-MT2C8000NAS2-B:01:03:04:F2:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-16",
+    "latest": "2025-05-16"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13759160,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3f929f299977d09d",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "31cdfe9f1591fc1a1b254fe9518d5ded026ccaae70a7b3ad681d84dc306a97b3"
+}

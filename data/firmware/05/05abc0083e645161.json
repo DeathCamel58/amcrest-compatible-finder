@@ -1,0 +1,185 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR7x32-I2",
+    "General_XVR7x32-I2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2024-07-24",
+    "latest": "2024-07-24"
+   },
+   "firmware": null,
+   "flash_size": 268435456,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR7x32-I2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "miniboot.bin.img",
+     "image_name": "hi3531DV200",
+     "image_size": 190152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3531DV200",
+     "image_size": 274424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "hi3531DV200",
+     "image_size": 49971200,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 13729792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 102400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 14868480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 75640832,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "68712cb57aed9109",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "miniboot.bin.img",
+      "source": "image_name",
+      "value": "hi3531DV200"
+     }
+    ],
+    "name": "Hi3531DV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "05abc0083e645161b57f6c64084f98565a2f58040358760f01b5f575d4d145a1"
+}

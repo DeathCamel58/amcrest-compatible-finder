@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2015-10-09",
+    "latest": "2015-10-09"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2015-10-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_195509_General_DVRxx04HF-X_Eng_N_V2.616.0024.0.T.20151009_custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "ca937650b5a17e87",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b6c0d2deb7b64f99ba4aa2037d37099aa3c54ece043e78e1226338dcaeccefee"
+}

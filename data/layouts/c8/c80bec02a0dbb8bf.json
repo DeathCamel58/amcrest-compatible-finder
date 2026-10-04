@@ -1,0 +1,71 @@
+{
+ "id": "c80bec02a0dbb8bf",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1c0000",
+   "name": "U-Boot",
+   "size": 786432,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x700000",
+   "name": "dtb-bak",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x4800000",
+   "name": "firmware",
+   "size": 48234496,
+   "start": "0x1a00000"
+  },
+  {
+   "end": "0x2100000",
+   "name": "kernel-aol",
+   "size": 7340032,
+   "start": "0x1a00000"
+  },
+  {
+   "end": "0x3f00000",
+   "name": "rootfs-aol",
+   "size": 31457280,
+   "start": "0x2100000"
+  },
+  {
+   "end": "0x6600000",
+   "name": "rootfs",
+   "size": 31457280,
+   "start": "0x4800000"
+  },
+  {
+   "end": "0x6d00000",
+   "name": "kernel",
+   "size": 7340032,
+   "start": "0x6600000"
+  },
+  {
+   "end": "0x7d00000",
+   "name": "web",
+   "size": 16777216,
+   "start": "0x6d00000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "pd",
+   "size": 3145728,
+   "start": "0x7d00000"
+  }
+ ]
+}

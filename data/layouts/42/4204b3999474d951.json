@@ -1,0 +1,89 @@
+{
+ "id": "4204b3999474d951",
+ "partitions": [
+  {
+   "end": "0x1000000",
+   "name": "user",
+   "size": 16777216,
+   "start": "0x0"
+  },
+  {
+   "end": "0xc0000",
+   "name": "U-Boot",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "hwid",
+   "size": 262144,
+   "start": "0xc0000"
+  },
+  {
+   "end": "0x140000",
+   "name": "partition",
+   "size": 262144,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x180000",
+   "name": "custom",
+   "size": 262144,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x1c0000",
+   "name": "product",
+   "size": 262144,
+   "start": "0x180000"
+  },
+  {
+   "end": "0x440000",
+   "name": "Kernel",
+   "size": 2621440,
+   "start": "0x1c0000"
+  },
+  {
+   "end": "0x840000",
+   "name": "romfs",
+   "size": 4194304,
+   "start": "0x440000"
+  },
+  {
+   "end": "0xc00000",
+   "name": "web",
+   "size": 3932160,
+   "start": "0x840000"
+  },
+  {
+   "end": "0xc40000",
+   "name": "autoFix",
+   "size": 262144,
+   "start": "0xc00000"
+  },
+  {
+   "end": "0xc80000",
+   "name": "autoFixBackup",
+   "size": 262144,
+   "start": "0xc40000"
+  },
+  {
+   "end": "0xd80000",
+   "name": "syslog",
+   "size": 1048576,
+   "start": "0xc80000"
+  },
+  {
+   "end": "0xec0000",
+   "name": "config",
+   "size": 1310720,
+   "start": "0xd80000"
+  },
+  {
+   "end": "0x1000000",
+   "name": "backup",
+   "size": 1310720,
+   "start": "0xec0000"
+  }
+ ]
+}

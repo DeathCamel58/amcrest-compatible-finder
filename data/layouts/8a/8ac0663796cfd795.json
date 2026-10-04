@@ -1,0 +1,191 @@
+{
+ "id": "8ac0663796cfd795",
+ "partitions": [
+  {
+   "end": "0x80000",
+   "name": "miniBoot",
+   "size": 524288,
+   "start": "0x0"
+  },
+  {
+   "end": "0x180000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x300000",
+   "name": "reserved",
+   "size": 1572864,
+   "start": "0x180000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "dgs",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "end": "0x2500000",
+   "name": "config",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x4500000",
+   "name": "backup",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x2500000"
+  },
+  {
+   "end": "0x5500000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x4500000"
+  },
+  {
+   "end": "0x5600000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x5500000"
+  },
+  {
+   "backup_start": "0x24000000",
+   "end": "0x5700000",
+   "name": "smc",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x5600000"
+  },
+  {
+   "backup_start": "0x24100000",
+   "end": "0x5800000",
+   "name": "dtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x5700000"
+  },
+  {
+   "backup_start": "0x24200000",
+   "end": "0x6800000",
+   "name": "product",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x5800000"
+  },
+  {
+   "backup_start": "0x25200000",
+   "end": "0x8800000",
+   "name": "Kernel",
+   "size": 33554432,
+   "start": "0x6800000"
+  },
+  {
+   "backup_start": "0x27200000",
+   "end": "0x1f000000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 377487360,
+   "start": "0x8800000"
+  },
+  {
+   "backup_start": "0x3da00000",
+   "end": "0x23000000",
+   "name": "web",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x1f000000"
+  },
+  {
+   "backup_start": "0x41a00000",
+   "end": "0x24000000",
+   "name": "aewb",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x23000000"
+  },
+  {
+   "end": "0x24100000",
+   "name": "backsmc",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x24000000"
+  },
+  {
+   "end": "0x24200000",
+   "name": "backdtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x24100000"
+  },
+  {
+   "end": "0x25200000",
+   "name": "backproduct",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x24200000"
+  },
+  {
+   "end": "0x27200000",
+   "name": "backkernel",
+   "size": 33554432,
+   "start": "0x25200000"
+  },
+  {
+   "end": "0x3da00000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 377487360,
+   "start": "0x27200000"
+  },
+  {
+   "end": "0x41a00000",
+   "name": "backweb",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x3da00000"
+  },
+  {
+   "end": "0x42a00000",
+   "name": "backaewb",
+   "read_only": true,
+   "size": 16777216,
+   "start": "0x41a00000"
+  },
+  {
+   "end": "0x44a00000",
+   "name": "data",
+   "size": 33554432,
+   "start": "0x42a00000"
+  },
+  {
+   "end": "0x74a00000",
+   "name": "firmware",
+   "read_only": true,
+   "size": 805306368,
+   "start": "0x44a00000"
+  },
+  {
+   "end": "0x7ca00000",
+   "name": "ext",
+   "size": 134217728,
+   "start": "0x74a00000"
+  },
+  {
+   "end": "0x100000000",
+   "name": "appdata",
+   "read_only": false,
+   "size": 2204106752,
+   "start": "0x7ca00000"
+  }
+ ]
+}

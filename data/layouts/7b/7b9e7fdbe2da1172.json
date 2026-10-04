@@ -1,0 +1,77 @@
+{
+ "id": "7b9e7fdbe2da1172",
+ "partitions": [
+  {
+   "end": "0x200000",
+   "name": "updateboot",
+   "size": 1048576,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x600000",
+   "name": "boot",
+   "size": 4194304,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x1700000",
+   "name": "rootfs",
+   "size": 17825792,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x4500000",
+   "name": "userfs",
+   "size": 48234496,
+   "start": "0x1700000"
+  },
+  {
+   "end": "0x4f00000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x4500000"
+  },
+  {
+   "end": "0x5100000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0x4f00000"
+  },
+  {
+   "end": "0x5400000",
+   "name": "logo",
+   "size": 3145728,
+   "start": "0x5100000"
+  },
+  {
+   "end": "0x5a00000",
+   "name": "logs",
+   "size": 6291456,
+   "start": "0x5400000"
+  },
+  {
+   "end": "0x6400000",
+   "name": "config",
+   "size": 10485760,
+   "start": "0x5a00000"
+  },
+  {
+   "end": "0x6700000",
+   "name": "hwid",
+   "size": 3145728,
+   "start": "0x6400000"
+  },
+  {
+   "end": "0x6c00000",
+   "name": "extend1",
+   "size": 5242880,
+   "start": "0x6700000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "core",
+   "size": 20971520,
+   "start": "0x6c00000"
+  }
+ ]
+}

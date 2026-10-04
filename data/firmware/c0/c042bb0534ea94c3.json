@@ -1,0 +1,104 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "TS-S4210-8GT-110",
+    "TS-S4210-8GT"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S4210-8GT-110",
+     "1.00"
+    ],
+    [
+     "TS-S4210-8GT",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-S4210-8GT-110",
+    "TS-S4210-8GT"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S4210-8GT-110:02:04:02:11:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S4210-8GT:02:04:02:12:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2023-12-11",
+    "latest": "2023-12-11"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-12-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 809784,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 13172884,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs_backup.bin.img",
+     "image_name": "firmware",
+     "image_size": 13172884,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e93c8778017a0515",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000000.23.R.231211"
+  }
+ ],
+ "sha256": "c042bb0534ea94c32294453da7cad53410b245ad21ce9a74bab86f2f31bcd9f8"
+}

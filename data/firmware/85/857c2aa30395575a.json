@@ -1,0 +1,120 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO1210A-X",
+    "VTO1210B-X",
+    "VTO1210C-X",
+    "VTO1220A",
+    "VTO1220B",
+    "VTO6110B",
+    "VTO6000C",
+    "VTO6100C",
+    "VTO6210B",
+    "VTO2000A"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO1210A-X",
+     "1.00"
+    ],
+    [
+     "VTO1210B-X",
+     "1.00"
+    ],
+    [
+     "VTO1210C-X",
+     "1.00"
+    ],
+    [
+     "VTO1220A",
+     "1.00"
+    ],
+    [
+     "VTO1220B",
+     "1.00"
+    ],
+    [
+     "VTO6110B",
+     "1.00"
+    ],
+    [
+     "VTO6000C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.10"
+    ],
+    [
+     "VTO6100C",
+     "1.20"
+    ],
+    [
+     "VTO6210B",
+     "1.00"
+    ],
+    [
+     "VTO6210B",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A",
+     "1.10"
+    ],
+    [
+     "VTO2000A",
+     "1.20"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 1036288,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8fc72a70bd20347c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "857c2aa30395575a0aa9df82ac5a687ffceb827abe513681aa409325b5e2bc5f"
+}

@@ -1,0 +1,107 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DS11"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "DS11",
+     "0.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 1.1.3",
+   "build_dates": {
+    "earliest": "2020-12-17",
+    "latest": "2020-12-17"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "2.6.36+",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-12-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "boot",
+     "image_size": 98604,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-12-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "kernel",
+     "image_size": 2621440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-12-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "rootfs.cramfs.img",
+     "image_name": "rootfs",
+     "image_size": 2134016,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2020-12-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom.cramfs.img",
+     "image_name": "custom",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-12-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "usr.cramfs.img",
+     "image_name": "usr",
+     "image_size": 8036352,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-12-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "voice.cramfs.img",
+     "image_name": "voice",
+     "image_size": 524288,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0ef4cfc5d28dca65",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "847d8b0bd0904ffc63b0d8044bf2e8adaf596789a62460a0faddd761938a9cd3"
+}

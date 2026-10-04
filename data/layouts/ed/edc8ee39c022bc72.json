@@ -1,0 +1,17 @@
+{
+ "id": "edc8ee39c022bc72",
+ "partitions": [
+  {
+   "end": "0x1e00000",
+   "name": "web",
+   "size": 4194304,
+   "start": "0x1a00000"
+  },
+  {
+   "end": "0x2200000",
+   "name": "data",
+   "size": 4194304,
+   "start": "0x1e00000"
+  }
+ ]
+}

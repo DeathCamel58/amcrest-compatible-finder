@@ -1,0 +1,473 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "IPC-EW5541-AS",
+    "IPC-EW5541-ASW",
+    "IPC-EB5541-AS",
+    "IPC-EB5541-M12-SA",
+    "IPC-EB5541-M12-SA-GDJT"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-EW5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EW5541-ASW:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:02:00:00:00:01:00:00:200",
+    "IPC-EB5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA:01:02:0B:7C:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA-GDJT:01:02:0B:63:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-EX5XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.46.R.241108.bin",
+   "ids": [
+    "IPC-EW5541-AS",
+    "IPC-EW5541-ASW",
+    "IPC-EB5541-AS",
+    "IPC-EB5541-M12-SA",
+    "IPC-EB5541-M12-SA-GDJT"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-EW5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EW5541-ASW:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:02:00:00:00:01:00:00:200",
+    "IPC-EB5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA:01:02:0B:7C:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA-GDJT:01:02:0B:63:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_IPC-EX5XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.46.R.241108.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-EX5XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.46.R.241108.bin",
+   "ids": [
+    "IPC-EW5541-AS",
+    "IPC-EW5541-ASW",
+    "IPC-EB5541-AS",
+    "IPC-EB5541-M12-SA",
+    "IPC-EB5541-M12-SA-GDJT"
+   ],
+   "member": "check.img",
+   "raw_same_as": 2,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-EW5541-AS",
+    "IPC-EW5541-ASW",
+    "IPC-EB5541-AS",
+    "IPC-EB5541-M12-SA",
+    "IPC-EB5541-M12-SA-GDJT"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-EW5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EW5541-ASW:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:02:00:00:00:01:00:00:200",
+    "IPC-EB5541-AS:01:02:0B:7C:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA:01:02:0B:7C:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-EB5541-M12-SA-GDJT:01:02:0B:63:3A:00:01:14:01:00:04:320:00:00:00:00:00:01:00:00:200"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-11-08",
+    "latest": "2024-11-08"
+   },
+   "firmware": "firmware-x.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4671672,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "293e47d93aae0040",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn16961",
+   "build_dates": {
+    "earliest": "2024-11-08",
+    "latest": "2024-11-08"
+   },
+   "firmware": "General_IPC-EX5XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.46.R.241108.bin",
+   "flash_size": 133693440,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Hungarian",
+     "Indonesia",
+     "Japanese",
+     "Romanian",
+     "Thai",
+     "TradChinese",
+     "Turkey",
+     "Ukrainian",
+     "Vietnamese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-11-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 395448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 278896,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4671672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 694456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1796152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 23058616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3041464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernelslv.img",
+     "image_name": "kernelslv",
+     "image_size": 1010732,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user1-x.squashfs.img",
+     "image_name": "user1",
+     "image_size": 6113464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "6a0a5390842f5bb5",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-11-08",
+    "latest": "2024-11-08"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-11-08",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3041464,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "2f74cf82e9bbf62b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "db51c4882507f1dda096cec055f0e95377bc518f8c055048578a58b6e7352476"
+}

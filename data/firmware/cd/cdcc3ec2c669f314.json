@@ -1,0 +1,197 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-HS4408-4ET-60",
+    "TS-HS4408-4ET-96",
+    "TS-HS4412-8ET-96",
+    "TS-HS4412-8ET-120"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-HS4408-4ET-60:02:04:02:13:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4408-4ET-96:02:04:02:14:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4412-8ET-96:02:04:02:15:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4412-8ET-120:02:04:02:16:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TS-HS44X-XET4GF-ArtemisF_Eng_Local_V1.000.17BD000.0.R.250704.bin",
+   "ids": [
+    "TS-HS4408-4ET-60",
+    "TS-HS4408-4ET-96",
+    "TS-HS4412-8ET-96",
+    "TS-HS4412-8ET-120"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-HS4408-4ET-60",
+     "1.00"
+    ],
+    [
+     "TS-HS4408-4ET-96",
+     "1.00"
+    ],
+    [
+     "TS-HS4412-8ET-96",
+     "1.00"
+    ],
+    [
+     "TS-HS4412-8ET-120",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-HS44X-XET4GF-ArtemisF_Eng_Local_V1.000.17BD000.0.R.250704.bin",
+   "ids": [
+    "TS-HS4408-4ET-60",
+    "TS-HS4408-4ET-96",
+    "TS-HS4412-8ET-96",
+    "TS-HS4412-8ET-120"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-HS4408-4ET-60:02:04:02:13:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4408-4ET-96:02:04:02:14:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4412-8ET-96:02:04:02:15:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4412-8ET-120:02:04:02:16:501:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2025-07-04",
+    "latest": "2025-07-04"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 806556,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 15892152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "aol.bin.img",
+     "image_name": "firmware",
+     "image_size": 8853236,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "90fd2ff12fce9cae",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2025-07-04",
+    "latest": "2025-07-04"
+   },
+   "firmware": "DH_TS-HS44X-XET4GF-ArtemisF_Eng_Local_V1.000.17BD000.0.R.250704.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 806556,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 15892152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-04",
+     "compression": "none",
+     "filesystem": null,
+     "image": "aol.bin.img",
+     "image_name": "firmware",
+     "image_size": 8853236,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c5522de5e877dd0b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.17BD000.0.R.250704"
+  }
+ ],
+ "sha256": "cdcc3ec2c669f314efcfe274daa8f6073678e302ddfd35b94d87805eed4fcddc"
+}

@@ -1,0 +1,134 @@
+{
+ "id": "285b9f8aacd3dec6",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-Boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x480000",
+   "name": "hwid",
+   "size": 524288,
+   "start": "0x400000"
+  },
+  {
+   "end": "0xa80000",
+   "name": "config",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x480000"
+  },
+  {
+   "end": "0x1080000",
+   "name": "backup",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0xa80000"
+  },
+  {
+   "end": "0x1680000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x1080000"
+  },
+  {
+   "backup_start": "0x1e80000",
+   "end": "0x1700000",
+   "name": "partition",
+   "read_only": true,
+   "size": 524288,
+   "start": "0x1680000"
+  },
+  {
+   "end": "0x1800000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 1048576,
+   "start": "0x1700000"
+  },
+  {
+   "end": "0x1a00000",
+   "name": "kernel_min",
+   "size": 2097152,
+   "start": "0x1800000"
+  },
+  {
+   "end": "0x1e80000",
+   "name": "romfs_min",
+   "read_only": true,
+   "size": 4718592,
+   "start": "0x1a00000"
+  },
+  {
+   "end": "0x1f00000",
+   "name": "bakpart",
+   "read_only": true,
+   "size": 524288,
+   "start": "0x1e80000"
+  },
+  {
+   "end": "0x2500000",
+   "name": "appdata",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x1f00000"
+  },
+  {
+   "end": "0x2800000",
+   "name": "product",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x2500000"
+  },
+  {
+   "end": "0x2c00000",
+   "name": "Kernel",
+   "size": 4194304,
+   "start": "0x2800000"
+  },
+  {
+   "end": "0x3400000",
+   "name": "web",
+   "read_only": true,
+   "size": 8388608,
+   "start": "0x2c00000"
+  },
+  {
+   "end": "0x5400000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 33554432,
+   "start": "0x3400000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "ext",
+   "read_only": false,
+   "size": 46137344,
+   "start": "0x5400000"
+  },
+  {
+   "end": "0x10000000",
+   "name": "firmware",
+   "read_only": true,
+   "size": 134217728,
+   "start": "0x8000000"
+  }
+ ]
+}

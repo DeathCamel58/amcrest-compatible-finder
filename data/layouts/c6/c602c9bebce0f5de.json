@@ -1,0 +1,47 @@
+{
+ "id": "c602c9bebce0f5de",
+ "partitions": [
+  {
+   "end": "0x80000",
+   "name": "minboot",
+   "size": 524288,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "bootloader",
+   "size": 1572864,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x380000",
+   "name": "boot-bak",
+   "size": 1572864,
+   "start": "0x200000"
+  },
+  {
+   "end": "0xb80000",
+   "name": "kernel",
+   "size": 5242880,
+   "start": "0x680000"
+  },
+  {
+   "end": "0x6100000",
+   "name": "rootfs",
+   "size": 89653248,
+   "start": "0xb80000"
+  },
+  {
+   "end": "0x6400000",
+   "name": "aol",
+   "size": 3145728,
+   "start": "0x6100000"
+  },
+  {
+   "end": "0x6b00000",
+   "name": "aol",
+   "size": 7340032,
+   "start": "0x6400000"
+  }
+ ]
+}

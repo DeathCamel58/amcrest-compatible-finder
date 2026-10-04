@@ -1,0 +1,205 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-APL5XX2_Eng_PN_V2.634.0000000.11.R.260109.bin",
+   "ids": [
+    "TPC-APL5402-BCAB",
+    "TPC-APL5412-BCAB-TB",
+    "TPC-APL5602-BCAD",
+    "TPC-APL5612-BCAD-TB",
+    "TPC-APL5402-BCAB-Z",
+    "TPC-APL5412-BCAB-TB-M",
+    "TPC-APL5602-BCAD-Z",
+    "TPC-APL5612-BCAD-TB-M"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-APL5402-BCAB:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5412-BCAB-TB:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5602-BCAD:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5612-BCAD-TB:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5402-BCAB-Z:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5412-BCAB-TB-M:01:08:E1:D1:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5602-BCAD-Z:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-APL5612-BCAD-TB-M:01:08:E1:D2:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_TPC-APL5XX2_Eng_PN_V2.634.0000000.11.R.260109.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_TPC-APL5XX2_Eng_PN_V2.634.0000000.11.R.260109.bin",
+   "ids": [
+    "TPC-APL5402-BCAB",
+    "TPC-APL5412-BCAB-TB",
+    "TPC-APL5602-BCAD",
+    "TPC-APL5612-BCAD-TB",
+    "TPC-APL5402-BCAB-Z",
+    "TPC-APL5412-BCAB-TB-M",
+    "TPC-APL5602-BCAD-Z",
+    "TPC-APL5612-BCAD-TB-M"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-09",
+    "latest": "2026-01-09"
+   },
+   "firmware": "General_TPC-APL5XX2_Eng_PN_V2.634.0000000.11.R.260109.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 174448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-gk.bin.img",
+     "image_name": "uboot-gk",
+     "image_size": 174448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 329912,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 7088345,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 1575096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel_aol.img",
+     "image_name": "kernel",
+     "image_size": 2374394,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-09",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 8063160,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "26985aac9e79948b",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "1fad9bdce9f8cfb80ed65e114441fc81807b5e1dc98587f726a674910ae45a17"
+}

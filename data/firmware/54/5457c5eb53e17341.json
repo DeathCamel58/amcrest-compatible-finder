@@ -1,0 +1,93 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-SDT8XXXX-HN_MCU_V2.401.0000000.5.R.240710.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_TPC-SDT8XXXX-HN_MCU_V2.401.0000000.5.R.240710.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main1.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 168996,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-main.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 168996,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-alarm1.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 44068,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-light.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 40996,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "babd2870ce10f743",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000000.5.RHNBJ_240710_52381"
+  }
+ ],
+ "sha256": "5457c5eb53e173413de535c084fbfe892ac294ae15b1809cd70c44a2277e0b2c"
+}

@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-PTD8XX4E-F_MCU_V2.401.0000000.3.R.241225.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_TPC-PTD8XX4E-F_MCU_V2.401.0000000.3.R.241225.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-focusT.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 113700,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-focusV.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 91172,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4b8850f9eb3cc890",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000000.3.RUAT_241225_55255"
+  }
+ ],
+ "sha256": "2294a6ecd90beb60015db90c9d32095219f2408ca868aa1b2a5d85aba74c2907"
+}

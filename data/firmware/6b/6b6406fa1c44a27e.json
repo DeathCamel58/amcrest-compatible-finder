@@ -1,0 +1,257 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR5x04",
+    "IB_XVR5x04",
+    "IB_XVR41XXHS"
+   ],
+   "member": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "XVR5x04",
+    "IB_XVR5x04",
+    "IB_XVR41XXHS"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2916",
+   "build_dates": {
+    "earliest": "2019-08-02",
+    "latest": "2019-08-02"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_XVR5x04",
+    "IB_XVR41XXHS"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/u-boot.bin.img",
+     "image_name": "IBhi3520Dboot",
+     "image_size": 313276,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/romfs-x.cramfs.img",
+     "image_name": "IBhi3520Dromfs",
+     "image_size": 12939264,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1687552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "e6b96ceea54f78ec",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520DV300",
+     "Hi3521A",
+     "Hi3531A"
+    ],
+    "evidence": [
+     {
+      "member": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520dv300"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3521a"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo de firmware MHDX_1008-02-08-2019/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3531a"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2916",
+   "build_dates": {
+    "earliest": "2019-08-02",
+    "latest": "2019-08-02"
+   },
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_XVR5x04",
+    "IB_XVR41XXHS"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IBhi3520Dboot",
+     "image_size": 313276,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "IBhi3520Dromfs",
+     "image_size": 12939264,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1687552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "e6b96ceea54f78ec",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520DV300",
+     "Hi3521A",
+     "Hi3531A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520dv300"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3521a"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3531a"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "6b6406fa1c44a27ea88e0802a70ee56fb22093774f3c6a38ee41aa83d7e0100f"
+}

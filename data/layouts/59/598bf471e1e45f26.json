@@ -1,0 +1,44 @@
+{
+ "id": "598bf471e1e45f26",
+ "partitions": [
+  {
+   "end": "0x30000",
+   "name": "U-Boot",
+   "size": 196608,
+   "start": "0x0"
+  },
+  {
+   "end": "0x40000",
+   "name": "hwid",
+   "size": 65536,
+   "start": "0x30000"
+  },
+  {
+   "end": "0x50000",
+   "name": "partition",
+   "read_only": true,
+   "size": 65536,
+   "start": "0x40000"
+  },
+  {
+   "end": "0x1b0000",
+   "name": "Kernel",
+   "size": 1441792,
+   "start": "0x50000"
+  },
+  {
+   "end": "0x7b0000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 6291456,
+   "start": "0x1b0000"
+  },
+  {
+   "end": "0x800000",
+   "name": "config",
+   "read_only": false,
+   "size": 327680,
+   "start": "0x7b0000"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "23d10cbfd5e2ec0e",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "boot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x6e00000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x6d00000"
+  },
+  {
+   "end": "0x7e00000",
+   "name": "kernel",
+   "size": 16777216,
+   "start": "0x6e00000"
+  },
+  {
+   "end": "0x9e00000",
+   "name": "rootfs",
+   "size": 33554432,
+   "start": "0x7e00000"
+  },
+  {
+   "end": "0x14200000",
+   "name": "user",
+   "size": 171966464,
+   "start": "0x9e00000"
+  },
+  {
+   "end": "0x15200000",
+   "name": "custom",
+   "size": 16777216,
+   "start": "0x14200000"
+  },
+  {
+   "end": "0x17200000",
+   "name": "data",
+   "size": 33554432,
+   "start": "0x15200000"
+  },
+  {
+   "end": "0x1b200000",
+   "name": "web",
+   "size": 67108864,
+   "start": "0x17200000"
+  },
+  {
+   "end": "0x27200000",
+   "name": "firmware",
+   "size": 201326592,
+   "start": "0x1b200000"
+  }
+ ]
+}

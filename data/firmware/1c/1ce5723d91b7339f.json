@@ -1,0 +1,315 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR7xxx",
+    "IntelBras_HCVR5x32-S2"
+   ],
+   "member": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "HCVR7xxx",
+    "IntelBras_HCVR5x32-S2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn2001",
+   "build_dates": {
+    "earliest": "2016-09-13",
+    "latest": "2017-03-09"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_HCVR5x32-S2"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 444640,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 22581248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1781760,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "atualiza\u00e7\u255eo_hdcvi_3132_m_-_09_03_2017/Passo 1/logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn2001",
+   "build_dates": {
+    "earliest": "2016-09-13",
+    "latest": "2017-03-09"
+   },
+   "firmware": "update.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_HCVR5x32-S2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 444640,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 22581248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 1781760,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-09-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "update.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1ce5723d91b7339f07b24e2d7bdcbff8bcccc7244c4ba309c8c6157fe52f7f06"
+}

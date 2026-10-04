@@ -1,0 +1,191 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1130_26-10-23.bin",
+   "ids": [
+    "IPC-HFW1030SP-S4"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1030SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Firmware_VIP_1130_26-10-23.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIP_1130_26-10-23.bin",
+   "ids": [
+    "IPC-HFW1030SP-S4"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-10-26",
+    "latest": "2023-10-26"
+   },
+   "firmware": "Firmware_VIP_1130_26-10-23.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 80480,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 186736,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 186736,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 460984,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 6032361,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel_aol.img",
+     "image_name": "kernel_aol",
+     "image_size": 1867818,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 5179576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 1640632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-10-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition_bak.img",
+     "image_name": "partition_bak",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "f72a4a1d7fce0311",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev200"
+     }
+    ],
+    "name": "Hi3516EV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "a0379e2761a1eae67aff9f6eed35dbc79dbe8d098844c3a4c2d8e12ed5b4ce49"
+}

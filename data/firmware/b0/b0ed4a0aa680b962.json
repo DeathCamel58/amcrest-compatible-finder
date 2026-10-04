@@ -1,0 +1,77 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2130M",
+    "IPC-HDW2130C-A",
+    "IPC-D1B20",
+    "IPC-D1B20-L",
+    "IPC-B1B20",
+    "IPC-B1B20-L",
+    "IPC-HFW1230MO",
+    "IPC-HDW1230C-AO",
+    "IPC-HFW1230M",
+    "IPC-HDW1230C-A",
+    "IPC-B2B20-ZS",
+    "IPC-B2B20-L-ZS"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW2130C-A:01:02:02:38:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20-L:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20-L:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230MO:01:02:02:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-AO:01:02:05:60:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230M:01:02:02:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-A:01:02:05:77:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-L-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Group"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Group",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b0ed4a0aa680b96235e24738d54dac2fdaca44bef6470d92e7fa4656d30b5d32"
+}

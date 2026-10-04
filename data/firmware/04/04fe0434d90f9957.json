@@ -1,0 +1,209 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "EZIP_IPC-XXBXX-Eris2_EngSpnPrt_P_V2.622.0000000.10.R.191122.bin",
+   "ids": [
+    "IPC-B1B40",
+    "IPC-HFW2430M",
+    "IPC-HFW2433M",
+    "IPC-HDW2433C-A",
+    "IPC-HFW2433M-LED",
+    "IPC-HDW2433T-A-LED",
+    "IPC-B1B40-AS",
+    "IPC-B2B40-ZS",
+    "IPC-HFW2433M-S",
+    "IPC-HFW2433M-AS",
+    "IPC-HFW2433M-AS-LED"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-B1B40:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2430M:01:02:02:7A:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2433M:01:02:02:89:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW2433C-A:01:02:02:89:30:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2433M-LED:01:02:02:89:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HDW2433T-A-LED:01:02:05:89:30:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:100",
+    "IPC-B1B40-AS:01:02:02:73:30:00:01:10:03:01:04:320:09:00:00:00:00:00:00:00:100",
+    "IPC-B2B40-ZS:01:02:02:73:30:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2433M-S:01:02:02:89:30:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2433M-AS:01:02:02:89:30:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:100",
+    "IPC-HFW2433M-AS-LED:01:02:02:89:30:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "EZIP_IPC-XXBXX-Eris2_EngSpnPrt_P_V2.622.0000000.10.R.191122.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "EZIP"
+  },
+  {
+   "counted": true,
+   "firmware": "EZIP_IPC-XXBXX-Eris2_EngSpnPrt_P_V2.622.0000000.10.R.191122.bin",
+   "ids": [
+    "IPC-B1B40",
+    "IPC-HFW2430M",
+    "IPC-HFW2433M",
+    "IPC-HDW2433C-A",
+    "IPC-HFW2433M-LED",
+    "IPC-HDW2433T-A-LED",
+    "IPC-B1B40-AS",
+    "IPC-B2B40-ZS",
+    "IPC-HFW2433M-S",
+    "IPC-HFW2433M-AS",
+    "IPC-HFW2433M-AS-LED"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6372",
+   "build_dates": {
+    "earliest": "2019-11-22",
+    "latest": "2019-11-22"
+   },
+   "firmware": "EZIP_IPC-XXBXX-Eris2_EngSpnPrt_P_V2.622.0000000.10.R.191122.bin",
+   "flash_size": 16777216,
+   "kernel_version": "3.18.30",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "EZIP",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 229376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-11-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 241664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1805056,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2502656,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 9539584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2dc2e6ecc2c9b213",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "04fe0434d90f9957d4049dff1d68cd5f7e6b60fc12112b339f50b336aa4706b3"
+}

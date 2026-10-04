@@ -1,0 +1,322 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX8XXX-Dual-Lens-Nobel_MultiLang_PN_V2.800.0000000.21.R.221205.bin",
+   "ids": [
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW8343XP-3D-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDW8343X-B-3D:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-B-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW8343XP-3D-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-PC-M-E2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX8XXX-Dual-Lens-Nobel_MultiLang_PN_V2.800.0000000.21.R.221205.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX8XXX-Dual-Lens-Nobel_MultiLang_PN_V2.800.0000000.21.R.221205.bin",
+   "ids": [
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW8343XP-3D-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW8343XP-3D-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW8343X-B-3D:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-B-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW8343XP-3D-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-PC-M-E2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW8343XP-3D-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW8343X-B-3D:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-B-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW8343XP-3D-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-PC-M-E2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-12-05",
+    "latest": "2022-12-05"
+   },
+   "firmware": "DH_IPC-HX8XXX-Dual-Lens-Nobel_MultiLang_PN_V2.800.0000000.21.R.221205.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-12-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 242208,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 268656,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 39132,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1722552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5539516,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 78407864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-12-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7297208,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-12-05",
+    "latest": "2022-12-05"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-12-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 138025144,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "518ec82107d57982",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-12-05",
+    "latest": "2022-12-05"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-12-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7297208,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "08bb9993a7e5af7c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "490a78ad011f13a0bd781424b824876a52f1fdb6ad7f7576e3fa17459dd4fec8"
+}

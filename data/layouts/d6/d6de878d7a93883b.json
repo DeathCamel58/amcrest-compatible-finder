@@ -1,0 +1,59 @@
+{
+ "id": "d6de878d7a93883b",
+ "partitions": [
+  {
+   "end": "0xa0060000",
+   "name": "u-boot",
+   "size": 393216,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0360000",
+   "name": "kernel",
+   "size": 3145728,
+   "start": "0xa0060000"
+  },
+  {
+   "end": "0xa0660000",
+   "name": "romfs",
+   "size": 3145728,
+   "start": "0xa0360000"
+  },
+  {
+   "end": "0xa0680000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0xa0660000"
+  },
+  {
+   "end": "0xa0880000",
+   "name": "web",
+   "size": 2097152,
+   "start": "0xa0680000"
+  },
+  {
+   "end": "0xa09e0000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0xa09c0000"
+  },
+  {
+   "end": "0xa17e0000",
+   "name": "user",
+   "size": 14680064,
+   "start": "0xa09e0000"
+  },
+  {
+   "end": "0xa19e0000",
+   "name": "data",
+   "size": 2097152,
+   "start": "0xa17e0000"
+  },
+  {
+   "end": "0xa2000000",
+   "name": "gui",
+   "size": 6422528,
+   "start": "0xa19e0000"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "358faf69597a4892",
+ "partitions": [
+  {
+   "end": "0xa0060000",
+   "name": "u-boot",
+   "size": 393216,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0560000",
+   "name": "rootfs",
+   "size": 5242880,
+   "start": "0xa0060000"
+  },
+  {
+   "end": "0xa0580000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0xa0560000"
+  },
+  {
+   "end": "0xa0880000",
+   "name": "web",
+   "size": 3145728,
+   "start": "0xa0580000"
+  },
+  {
+   "end": "0xa09e0000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0xa09c0000"
+  },
+  {
+   "end": "0xa13e0000",
+   "name": "user",
+   "size": 10485760,
+   "start": "0xa09e0000"
+  },
+  {
+   "end": "0xa15e0000",
+   "name": "data",
+   "size": 2097152,
+   "start": "0xa13e0000"
+  },
+  {
+   "end": "0xa1be0000",
+   "name": "gui",
+   "size": 6291456,
+   "start": "0xa15e0000"
+  }
+ ]
+}

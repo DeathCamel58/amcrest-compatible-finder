@@ -1,0 +1,180 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1530B-A-IL",
+    "IPC-HFW1639TC-A-IL",
+    "IPC-HFW1839TC-A-IL"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1530B-A-IL:01:02:13:C8:6E:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW1639TC-A-IL:01:02:02:C8:6E:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW1839TC-A-IL:01:02:02:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1530B-A-IL",
+    "IPC-HFW1639TC-A-IL",
+    "IPC-HFW1839TC-A-IL"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-08-30",
+    "latest": "2024-08-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 162696,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 46893,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2333004,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 8278384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 4272496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 27578736,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8cee29f4d85e5c22",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027D-S01A"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V2.880.0000000.16.R.240830"
+  }
+ ],
+ "sha256": "16879cc0917241c62e9aba3e7b20ea5d023dbe93787116070b36411267ad19ba"
+}

@@ -1,0 +1,63 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_TPC-PT8XX1G-F-CODE_MCU_V2.402.0000000.1.R.251215.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_TPC-PT8XX1G-F-CODE_MCU_V2.402.0000000.1.R.251215.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-focusT1.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 117796,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6b56292721a4ba13",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.402.0000000.1.RUAU_251215_58132"
+  }
+ ],
+ "sha256": "5319c52b584579edf2a80235d676dc2c00be77cf7a5ded22deadc331e6f5d04f"
+}

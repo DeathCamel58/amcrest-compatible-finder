@@ -1,0 +1,357 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDW2230TP-AS-S2-QH2",
+    "IPC-HFW2230SP-S-S2-QH2",
+    "IPC-HDBW3433R-S-S3",
+    "IPC-HDBW3433R-AS-S3",
+    "IPC-HFW3433M-S3",
+    "IPC-HDW3433T-A-S3",
+    "IPC-HUM7436S",
+    "IPC-HUM7436S-XDDZ",
+    "IPC-HUM4431SP",
+    "IPC-HFW2439M-LED",
+    "IPC-HDW2439T-A-LED",
+    "IPC-HFW2439M-AS-LED",
+    "IPC-HUM7236S",
+    "IPC-HUM4231SP"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDW2230TP-AS-S2-QH2:01:02:05:CD:4E:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2230SP-S-S2-QH2:01:02:05:CD:4E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW3433R-S-S3:01:02:05:89:50:00:01:00:00:00:04:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW3433R-AS-S3:01:02:05:89:50:00:01:10:01:01:04:4B0:08:00:00:00:00:01:00:00:80",
+    "IPC-HFW3433M-S3:01:02:05:89:50:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW3433T-A-S3:01:02:05:89:50:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-HUM7436S:01:02:00:89:50:00:01:10:03:01:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HUM7436S-XDDZ:01:02:00:89:50:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HUM4431SP:01:02:00:89:50:00:01:10:03:01:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2439M-LED:01:02:05:B3:50:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW2439T-A-LED:01:02:05:B3:50:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2439M-AS-LED:01:02:02:B3:50:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:80",
+    "IPC-HUM7236S:01:02:00:89:50:00:01:10:03:01:00:320:00:00:00:00:00:01:00:00:80",
+    "IPC-HUM4231SP:01:02:00:89:50:00:01:10:03:01:00:320:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDW2230TP-AS-S2-QH2",
+    "IPC-HFW2230SP-S-S2-QH2",
+    "IPC-HDBW3433R-S-S3",
+    "IPC-HDBW3433R-AS-S3",
+    "IPC-HFW3433M-S3",
+    "IPC-HDW3433T-A-S3",
+    "IPC-HUM7436S",
+    "IPC-HUM7436S-XDDZ",
+    "IPC-HUM4431SP",
+    "IPC-HFW2439M-LED",
+    "IPC-HDW2439T-A-LED",
+    "IPC-HFW2439M-AS-LED",
+    "IPC-HUM7236S",
+    "IPC-HUM4231SP"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn14165",
+   "build_dates": {
+    "earliest": "2024-08-07",
+    "latest": "2024-08-07"
+   },
+   "firmware": null,
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesia"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 311664,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2407384,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 8014008,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 21051576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "80341d12c8a2ae73",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "SSC335DE",
+     "SSC335"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc335de"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc335"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "131d425d9d36e44be602b7c464fbaa387d9d1f84a8a8e89f44c07823e2eb8836"
+}

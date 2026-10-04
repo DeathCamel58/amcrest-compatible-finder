@@ -1,0 +1,221 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW5443F1-ZAST-27135-GZHG",
+    "IPC-HDBW5443R1-ZAST-27135-GZHG",
+    "IPC-HFW5443F1-ZAST-0624-GZHG",
+    "IPC-HDBW5443R1-ZAST-0624-GZHG",
+    "IPC-PFW5849P-A180-E2-Dodge"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW5443F1-ZAST-27135-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-HDBW5443R1-ZAST-27135-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-HFW5443F1-ZAST-0624-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-HDBW5443R1-ZAST-0624-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-PFW5849P-A180-E2-Dodge:01:02:00:7C:56:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW5443F1-ZAST-27135-GZHG",
+    "IPC-HDBW5443R1-ZAST-27135-GZHG",
+    "IPC-HFW5443F1-ZAST-0624-GZHG",
+    "IPC-HDBW5443R1-ZAST-0624-GZHG",
+    "IPC-PFW5849P-A180-E2-Dodge"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-04-09",
+    "latest": "2025-04-09"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesia"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 294836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 223000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 144644,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 144644,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 22546616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4454072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 11868344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 28063928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4454072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14751928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-04-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1104056,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "67c98acb7e27e448",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.120.101Y002.0.R.250409"
+  }
+ ],
+ "sha256": "fe7b05d262fb81bf8a914909ac51ec0160f736f4577337a66370a70d97280f7a"
+}

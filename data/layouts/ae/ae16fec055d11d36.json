@@ -1,0 +1,132 @@
+{
+ "id": "ae16fec055d11d36",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "minboot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x11100000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x11200000",
+   "end": "0x980000",
+   "name": "custom",
+   "read_only": true,
+   "size": 3670016,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x11580000",
+   "end": "0xd00000",
+   "name": "product",
+   "read_only": true,
+   "size": 3670016,
+   "start": "0x980000"
+  },
+  {
+   "backup_start": "0x11900000",
+   "end": "0x1700000",
+   "name": "Kernel",
+   "size": 10485760,
+   "start": "0xd00000"
+  },
+  {
+   "backup_start": "0x12300000",
+   "end": "0x5700000",
+   "name": "web",
+   "read_only": true,
+   "size": 67108864,
+   "start": "0x1700000"
+  },
+  {
+   "backup_start": "0x16300000",
+   "end": "0x11100000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 195035136,
+   "start": "0x5700000"
+  },
+  {
+   "end": "0x25500000",
+   "name": "fpn",
+   "read_only": true,
+   "size": 58720256,
+   "start": "0x21d00000"
+  },
+  {
+   "end": "0x25d00000",
+   "name": "dgs",
+   "size": 8388608,
+   "start": "0x25500000"
+  },
+  {
+   "end": "0x26100000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x25d00000"
+  },
+  {
+   "end": "0x26700000",
+   "name": "config",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x26100000"
+  },
+  {
+   "end": "0x26d00000",
+   "name": "backup",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x26700000"
+  },
+  {
+   "backup_start": "0x36d00000",
+   "end": "0x36d00000",
+   "name": "firmware",
+   "size": 268435456,
+   "start": "0x26d00000"
+  },
+  {
+   "end": "0x86d00000",
+   "name": "blob",
+   "read_only": true,
+   "size": 1073741824,
+   "start": "0x46d00000"
+  },
+  {
+   "end": "0xe0d00000",
+   "name": "appdata",
+   "read_only": false,
+   "size": 1509949440,
+   "start": "0x86d00000"
+  }
+ ]
+}

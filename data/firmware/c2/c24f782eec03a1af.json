@@ -1,0 +1,142 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR7x08-4KL",
+    "Lorex_XVR7x08-4KL",
+    "Flir_XVR7x08-4KL"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2019-07-13",
+    "latest": "2019-07-13"
+   },
+   "firmware": null,
+   "flash_size": 84934656,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Lorex_XVR7x08-4KL",
+    "Flir_XVR7x08-4KL"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3531Aboot",
+     "image_size": 457592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3531Aromfs",
+     "image_size": 4427776,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 17649664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2023424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "8723055c3dad59f3",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520DV300",
+     "Hi3521A",
+     "Hi3531A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520dv300"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3521a"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3531a"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "c24f782eec03a1aff55584eefc314ffee38325da71f1cd0f9d60768284f0d09d"
+}

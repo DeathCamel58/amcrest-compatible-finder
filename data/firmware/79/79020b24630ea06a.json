@@ -1,0 +1,231 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-12-21",
+    "latest": "2023-12-21"
+   },
+   "firmware": "Exige-I_V4.000.00KL501.0.R.231221/algorithm-x.squashfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-12-21",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 471859200,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "701ac07da9a7c2c3",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "algorithm-x.squashfs.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-12-21",
+    "latest": "2023-12-21"
+   },
+   "firmware": "Exige-I_V4.000.00KL501.0.R.231221/algorithm.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-12-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "algorithm.img",
+     "image_name": "ss626v100",
+     "image_size": 151530315,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "701ac07da9a7c2c3",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "algorithm.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-12-21",
+    "latest": "2023-12-21"
+   },
+   "firmware": "Exige-I_V4.000.00KL501.0.R.231221/custom-x.squashfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-12-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9dfeb155c1654e97",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "custom-x.squashfs.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-12-21",
+    "latest": "2023-12-21"
+   },
+   "firmware": "Exige-I_V4.000.00KL501.0.R.231221/logo-x.squashfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-12-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "31570b02f637855e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "logo-x.squashfs.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-12-21",
+    "latest": "2023-12-21"
+   },
+   "firmware": "Exige-I_V4.000.00KL501.0.R.231221/web-x.squashfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2023-12-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 13791232,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c55ae1a1a52fb652",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "web-x.squashfs.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "79020b24630ea06a0c6d836f52ba5e31f142be2c434fca9c2a1492661f020164"
+}

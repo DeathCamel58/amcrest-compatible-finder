@@ -1,0 +1,310 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Hugo_MultiLang_PN_Stream2-Normal-GYY_V3.200.0000017.7.R.260414.bin",
+   "ids": [
+    "SD-MT2H4000NAS2-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Hugo_MultiLang_PN_Stream2-Normal-GYY_V3.200.0000017.7.R.260414.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Hugo_MultiLang_PN_Stream2-Normal-GYY_V3.200.0000017.7.R.260414.bin",
+   "ids": [
+    "SD-MT2H4000NAS2-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD-MT2H4000NAS2-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD-MT2H4000NAS2-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2020.04-svn17747",
+   "build_dates": {
+    "earliest": "2026-04-14",
+    "latest": "2026-04-14"
+   },
+   "firmware": "DH_SD-Hugo_MultiLang_PN_Stream2-Normal-GYY_V3.200.0000017.7.R.260414.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 2377,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 945022,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 945022,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "smc.bin.img",
+     "image_name": "smc",
+     "image_size": 397912,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3232440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 16548536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 36266680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 6963896,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "017f2a005fec7b5f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX620E",
+     "AX620Q",
+     "AX630C",
+     "AX620X"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620E"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620Q"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX630C"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ax620x"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   },
+   "software_version": "V3.200.0000017.7.R.260414"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-14",
+    "latest": "2026-04-14"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.0000017.7.R.260414"
+  }
+ ],
+ "sha256": "928341ea4b5178a8e1a74b97f72d558b8612016bb22dec1beac92be9bc1c95d0"
+}

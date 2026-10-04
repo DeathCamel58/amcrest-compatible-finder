@@ -1,0 +1,125 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-HS4XX-XXGT-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-HS4208-4GT-60",
+    "TS-HS4208-4GT-90",
+    "TS-HS4210-8GT-90",
+    "TS-HS4210-8GT-110",
+    "TS-HS4420-16GT-190"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-HS4208-4GT-60",
+     "1.00"
+    ],
+    [
+     "TS-HS4208-4GT-90",
+     "1.00"
+    ],
+    [
+     "TS-HS4210-8GT-90",
+     "1.00"
+    ],
+    [
+     "TS-HS4210-8GT-110",
+     "1.00"
+    ],
+    [
+     "TS-HS4420-16GT-190",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-HS4XX-XXGT-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-HS4208-4GT-60",
+    "TS-HS4208-4GT-90",
+    "TS-HS4210-8GT-90",
+    "TS-HS4210-8GT-110",
+    "TS-HS4420-16GT-190"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-HS4208-4GT-60:02:04:02:17:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4208-4GT-90:02:04:02:18:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4210-8GT-90:02:04:02:19:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4210-8GT-110:02:04:02:1A:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-HS4420-16GT-190:02:04:02:1B:500:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2026-01-08",
+    "latest": "2026-01-08"
+   },
+   "firmware": "DH_TS-HS4XX-XXGT-ArtemisA_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 806588,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 18032516,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "aol.bin.img",
+     "image_name": "firmware",
+     "image_size": 9020520,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c5522de5e877dd0b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.001.0000000.29.R.260108"
+  }
+ ],
+ "sha256": "2ab5ebd7a4ecae70aa5a54c2fb8ae0b65d33966389516215b28bf328864e86de"
+}

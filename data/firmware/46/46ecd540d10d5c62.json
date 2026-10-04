@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-04-19",
+    "latest": "2014-04-19"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-04-19",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "DHVision_General_IPC-HX5(4)XXX_Eng_N_Stream3_V2.420.0000.0.R.20140419_user-x-bak.ubifs.img",
+     "image_name": "user",
+     "image_size": 21233664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3b915c14c4a158db",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "46ecd540d10d5c620989d58eef44fd21742cff57d381ad6705ff64023bd72d77"
+}

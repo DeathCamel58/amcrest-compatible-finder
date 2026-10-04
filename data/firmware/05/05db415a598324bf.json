@@ -1,0 +1,434 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX7(8)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.32.R.250115.bin",
+   "ids": [
+    "IPC-HDW7443X-E2-0280B",
+    "IPC-HDW7443X-E2-0200B",
+    "IPC-HDW8441X-3D-0200B",
+    "IPC-HDW8441X-3D-0280B",
+    "IPC-HD7243X-E2-0210B",
+    "IPC-HD7243X-E2-0280B",
+    "IPC-MFW84249K1-ZRL-X-0832-S5",
+    "IPC-MFW84249DK1-ZRL-0832-S5",
+    "IPC-MFW84449K1-ZRL-X-0832-S5",
+    "IPC-MFW84449K1-ZRL-X-0856-S5",
+    "IPC-MFW84449DK1-ZRL-0832-S5",
+    "IPC-MFW84449DK1-ZRL-PT-0832-S5",
+    "IPC-MFW84449DK1-ZRL-XPT-0832-S5",
+    "IPC-MFW84449DK1-ZRL-XPT-0856-S5",
+    "IPC-MFW84449K1-ZRL-X-0832-1S-S5",
+    "IPC-MFW84249DK1-ZRL-X-5G-0832",
+    "IPC-MFW84249DK1-ZHL-X-5G-0832",
+    "IPC-MFW8443DXS-ZRL-4E2-0832",
+    "IPC-MFW8443XS-ZRL-4E2-0832",
+    "IPC-MFW8449DXS-ZRL-4E2-08320360",
+    "IPC-MFW8449XS-ZRL-4E2-08320360",
+    "IPC-MFW8449DXS-ZRL-4E2-08560360",
+    "IPC-MFW8449XS-ZRL-4E2-08560360",
+    "MFW8449DXS-ZRL-4E2-03600832-S1A",
+    "MFW8449DXS-ZRL-4E2-08320360-S1A",
+    "IPC-HFE7843E-ZNF-LED-0832",
+    "IPC-HFE7843E-ZNF-LED-2712",
+    "IPC-HFE7843E-Z-LED-0832",
+    "IPC-HFE7843E-Z-LED-2712",
+    "IPC-HFE7449E-ZNF-LED-2712",
+    "IPC-HFE7449E-ZNF-LED-0832",
+    "IPC-HFE7449E-Z-LED-2712",
+    "IPC-HFE7449E-Z-LED-0832",
+    "IPC-HFE7449E-Z-IL",
+    "IPC-HFE8449E-ZNF-IL-2712-S2",
+    "IPC-HFE8449E-ZNF-LED-0832-S2",
+    "IPC-HFE8843E-ZNF-IL-2712-S2",
+    "IPC-HFE8843E-ZNF-LED-0832-S2",
+    "IPC-HFW8443F1-ZRL-27135-S3",
+    "IPC-HFW8443F1-ZRL-0624-S3",
+    "IPC-HDBW8443R1-ZRL-27135-S3",
+    "IPC-HDBW8443R1-ZRL-0624-S3"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDW7443X-E2-0280B:01:02:00:CE:56:00:01:1A:07:03:04:3E8:08:00:00:04:00:01:00:00:400",
+    "IPC-HDW7443X-E2-0200B:01:02:00:CE:56:00:01:1A:07:03:04:3E8:08:00:00:04:00:01:00:00:400",
+    "IPC-HDW8441X-3D-0200B:01:02:00:CE:56:00:01:1A:07:03:04:3E8:08:00:00:04:00:01:00:00:400",
+    "IPC-HDW8441X-3D-0280B:01:02:00:CE:56:00:01:1A:07:03:04:3E8:08:00:00:04:00:01:00:00:400",
+    "IPC-HD7243X-E2-0210B:01:02:00:B4:57:00:01:10:01:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HD7243X-E2-0280B:01:02:00:B4:57:00:01:10:01:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-MFW84249K1-ZRL-X-0832-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84249DK1-ZRL-0832-S5:01:02:00:B3:56:00:02:14:03:01:04:3E8:00:00:02:00:00:01:00:00:400",
+    "IPC-MFW84449K1-ZRL-X-0832-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84449K1-ZRL-X-0856-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84449DK1-ZRL-0832-S5:01:02:00:B3:56:00:02:14:03:01:04:3E8:00:00:02:00:00:01:00:00:400",
+    "IPC-MFW84449DK1-ZRL-PT-0832-S5:01:02:00:B3:56:00:02:14:03:01:04:3E8:00:00:02:00:00:01:00:00:400",
+    "IPC-MFW84449DK1-ZRL-XPT-0832-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84449DK1-ZRL-XPT-0856-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84449K1-ZRL-X-0832-1S-S5:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW84249DK1-ZRL-X-5G-0832:01:02:02:B3:56:00:02:14:07:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-MFW84249DK1-ZHL-X-5G-0832:01:02:02:B3:56:00:02:14:07:03:04:3E8:09:00:00:00:00:01:00:00:400",
+    "IPC-MFW8443DXS-ZRL-4E2-0832:01:02:00:B3:56:00:02:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-MFW8443XS-ZRL-4E2-0832:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:02:04:00:01:00:00:400",
+    "IPC-MFW8449DXS-ZRL-4E2-08320360:01:02:00:B3:56:00:02:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-MFW8449XS-ZRL-4E2-08320360:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:00:04:00:01:00:00:400",
+    "IPC-MFW8449DXS-ZRL-4E2-08560360:01:02:00:B3:56:00:02:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-MFW8449XS-ZRL-4E2-08560360:01:02:00:B3:56:00:02:14:0F:03:04:3E8:09:00:00:04:00:01:00:00:400",
+    "MFW8449DXS-ZRL-4E2-03600832-S1A:01:02:00:B3:56:00:02:10:03:01:04:3E8:00:00:02:00:00:01:00:00:400",
+    "MFW8449DXS-ZRL-4E2-08320360-S1A:01:02:00:B3:56:00:02:10:03:01:04:3E8:00:00:02:00:00:01:00:00:400",
+    "IPC-HFE7843E-ZNF-LED-0832:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:03:01:00:00:400",
+    "IPC-HFE7843E-ZNF-LED-2712:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:03:01:00:00:400",
+    "IPC-HFE7843E-Z-LED-0832:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE7843E-Z-LED-2712:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE7449E-ZNF-LED-2712:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:03:01:00:00:400",
+    "IPC-HFE7449E-ZNF-LED-0832:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:03:01:00:00:400",
+    "IPC-HFE7449E-Z-LED-2712:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE7449E-Z-LED-0832:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE7449E-Z-IL:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:03:01:00:00:400",
+    "IPC-HFE8449E-ZNF-IL-2712-S2:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE8449E-ZNF-LED-0832-S2:01:02:02:86:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE8843E-ZNF-IL-2712-S2:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFE8843E-ZNF-LED-0832-S2:01:02:02:87:56:00:01:10:01:01:04:3E8:08:00:00:00:00:01:00:00:400",
+    "IPC-HFW8443F1-ZRL-27135-S3:01:02:02:C8:57:00:01:14:07:03:04:3E8:08:00:02:00:00:01:00:00:400",
+    "IPC-HFW8443F1-ZRL-0624-S3:01:02:02:C8:57:00:01:14:07:03:04:3E8:08:00:02:00:00:01:00:00:400",
+    "IPC-HDBW8443R1-ZRL-27135-S3:01:02:02:C8:57:00:01:14:07:03:04:3E8:08:00:02:00:00:01:00:00:400",
+    "IPC-HDBW8443R1-ZRL-0624-S3:01:02:02:C8:57:00:01:14:07:03:04:3E8:08:00:02:00:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX7(8)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.32.R.250115.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX7(8)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.32.R.250115.bin",
+   "ids": [
+    "IPC-HDW7443X-E2-0280B",
+    "IPC-HDW7443X-E2-0200B",
+    "IPC-HDW8441X-3D-0200B",
+    "IPC-HDW8441X-3D-0280B",
+    "IPC-HD7243X-E2-0210B",
+    "IPC-HD7243X-E2-0280B",
+    "IPC-MFW84249K1-ZRL-X-0832-S5",
+    "IPC-MFW84249DK1-ZRL-0832-S5",
+    "IPC-MFW84449K1-ZRL-X-0832-S5",
+    "IPC-MFW84449K1-ZRL-X-0856-S5",
+    "IPC-MFW84449DK1-ZRL-0832-S5",
+    "IPC-MFW84449DK1-ZRL-PT-0832-S5",
+    "IPC-MFW84449DK1-ZRL-XPT-0832-S5",
+    "IPC-MFW84449DK1-ZRL-XPT-0856-S5",
+    "IPC-MFW84449K1-ZRL-X-0832-1S-S5",
+    "IPC-MFW84249DK1-ZRL-X-5G-0832",
+    "IPC-MFW84249DK1-ZHL-X-5G-0832",
+    "IPC-MFW8443DXS-ZRL-4E2-0832",
+    "IPC-MFW8443XS-ZRL-4E2-0832",
+    "IPC-MFW8449DXS-ZRL-4E2-08320360",
+    "IPC-MFW8449XS-ZRL-4E2-08320360",
+    "IPC-MFW8449DXS-ZRL-4E2-08560360",
+    "IPC-MFW8449XS-ZRL-4E2-08560360",
+    "MFW8449DXS-ZRL-4E2-03600832-S1A",
+    "MFW8449DXS-ZRL-4E2-08320360-S1A",
+    "IPC-HFE7843E-ZNF-LED-0832",
+    "IPC-HFE7843E-ZNF-LED-2712",
+    "IPC-HFE7843E-Z-LED-0832",
+    "IPC-HFE7843E-Z-LED-2712",
+    "IPC-HFE7449E-ZNF-LED-2712",
+    "IPC-HFE7449E-ZNF-LED-0832",
+    "IPC-HFE7449E-Z-LED-2712",
+    "IPC-HFE7449E-Z-LED-0832",
+    "IPC-HFE7449E-Z-IL",
+    "IPC-HFE8449E-ZNF-IL-2712-S2",
+    "IPC-HFE8449E-ZNF-LED-0832-S2",
+    "IPC-HFE8843E-ZNF-IL-2712-S2",
+    "IPC-HFE8843E-ZNF-LED-0832-S2",
+    "IPC-HFW8443F1-ZRL-27135-S3",
+    "IPC-HFW8443F1-ZRL-0624-S3",
+    "IPC-HDBW8443R1-ZRL-27135-S3",
+    "IPC-HDBW8443R1-ZRL-0624-S3"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-01-15",
+    "latest": "2025-01-15"
+   },
+   "firmware": "DH_IPC-HX7(8)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.32.R.250115.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 298432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 210096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 304080,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 304080,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 37599416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4866744,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14678200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2287800,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 210942136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4866744,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 20920504,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c2602b7968972612",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.0000000.32.R.250115"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-01-15",
+    "latest": "2025-01-15"
+   },
+   "firmware": "firmware-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 210942136,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a0c06f09c2a2109b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-01-15",
+    "latest": "2025-01-15"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-01-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14678200,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0afc8695ec3ab254",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "05db415a598324bfb436e10215e6672086957e4a2003efc1fc47f2a8ab95eefb"
+}

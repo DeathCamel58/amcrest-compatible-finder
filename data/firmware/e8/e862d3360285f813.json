@@ -1,0 +1,59 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_SD49XXX-HN-MR_MCU_V2.401.0000003.14.R.250925.bin",
+   "ids": [
+    "SD6XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-18",
+    "latest": "2016-01-18"
+   },
+   "firmware": "General_SD49XXX-HN-MR_MCU_V2.401.0000003.14.R.250925.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-stm32.bin.img",
+     "image_name": "upmcu0",
+     "image_size": 49120,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4b6a6a911904cba4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.401.0000003.14.RHNAP_250925_57539"
+  }
+ ],
+ "sha256": "e862d3360285f813824559adfed3b417c685c302a4f82a8cc870d08e52d7184a"
+}

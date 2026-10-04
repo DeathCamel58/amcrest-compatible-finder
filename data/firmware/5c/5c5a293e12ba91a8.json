@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_MVD_PrtEng_N_V4.005.00IB000.0.260627.bin",
+   "ids": [
+    "MXVRXX04-I",
+    "Intelbras"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.07-svn43179",
+   "build_dates": {
+    "earliest": "2026-06-26",
+    "latest": "2026-06-26"
+   },
+   "firmware": "General_MVD_PrtEng_N_V4.005.00IB000.0.260627.bin",
+   "flash_size": 192937984,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "MXVRXX04-I",
+    "Intelbras"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "FW98323T",
+     "image_size": 17987,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt_bak.bin.img",
+     "image_name": "FW98323T",
+     "image_size": 17987,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "FW98323T",
+     "image_size": 1114216,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot_bak.bin.img",
+     "image_name": "FW98323T",
+     "image_size": 1114216,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "FW98323T",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "FW98323Tromfs",
+     "image_size": 13774848,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 32911360,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6864896,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 163840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 57430016,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "835afecba40d3e73",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51068"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51068"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   }
+  }
+ ],
+ "sha256": "5c5a293e12ba91a80bd771302a3fabac6198ac9e9d8cc7a5d4d398ad2b49a796"
+}

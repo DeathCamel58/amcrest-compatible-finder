@@ -1,0 +1,343 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Gauss_MultiLang_PN_Stream3-NumberStat_V3.200.0000011.1.R.240619.bin",
+   "ids": [
+    "SD294004DB-A",
+    "SD294004DB-B",
+    "SD292004DB-A",
+    "SD292004DB-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Gauss_MultiLang_PN_Stream3-NumberStat_V3.200.0000011.1.R.240619.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Gauss_MultiLang_PN_Stream3-NumberStat_V3.200.0000011.1.R.240619.bin",
+   "ids": [
+    "SD294004DB-A",
+    "SD294004DB-B",
+    "SD292004DB-A",
+    "SD292004DB-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD294004DB-A",
+    "SD294004DB-B",
+    "SD292004DB-A",
+    "SD292004DB-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD294004DB-A",
+    "SD294004DB-B",
+    "SD292004DB-A",
+    "SD292004DB-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn14639",
+   "build_dates": {
+    "earliest": "2024-06-19",
+    "latest": "2024-06-19"
+   },
+   "firmware": "DH_SD-Gauss_MultiLang_PN_Stream3-NumberStat_V3.200.0000011.1.R.240619.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2024-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 70000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 200324,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 551280,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 36628664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 28149944,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2848952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2761400,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2761400,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14481592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "rollback-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 5949624,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 952504,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e62ebf08922ed8f0",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51089"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51089"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "nt98560"
+     }
+    ],
+    "name": "NT98560",
+    "vendor": "Novatek"
+   },
+   "software_version": "V3.200.0000011.1.R.240619"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-06-19",
+    "latest": "2024-06-19"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.0000011.1.R.240619"
+  }
+ ],
+ "sha256": "603367bf3820f3cdddd64e2c207f62f480b2a3fd9a6a0cd1f6a4dbc1f68cb15f"
+}

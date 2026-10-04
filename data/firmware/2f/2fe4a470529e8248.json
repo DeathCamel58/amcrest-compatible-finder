@@ -1,0 +1,123 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO2000A-2_EngHgrBulSvnPolFinCzhSvk_P_16M_V3.120.1026000.0.R.20180620.bin",
+   "ids": [
+    "VTO2000A",
+    "VTO2000A-2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A-2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 1.3.6",
+   "build_dates": {
+    "earliest": "2018-06-20",
+    "latest": "2018-06-20"
+   },
+   "firmware": "General_VTO2000A-2_EngHgrBulSvnPolFinCzhSvk_P_16M_V3.120.1026000.0.R.20180620.bin",
+   "flash_size": null,
+   "kernel_version": "2.6.18_pro500-davinci_evm-arm_v5t_le",
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-06-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dm365_ubl_boot_16M.bin.img",
+     "image_name": "uboot",
+     "image_size": 258796,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1912476,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1503232,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2981888,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 45056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6033408,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-06-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 638976,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d28949fea174c24a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "2fe4a470529e824837122e316833ffd566eae670fafacf7f6d1d93e18686ab11"
+}

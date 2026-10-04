@@ -1,0 +1,65 @@
+{
+ "id": "009836a1e24e537e",
+ "partitions": [
+  {
+   "end": "0xa0200000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa1700000",
+   "name": "rootfs",
+   "size": 17825792,
+   "start": "0xa0600000"
+  },
+  {
+   "end": "0xa1a00000",
+   "name": "hwid",
+   "size": 3145728,
+   "start": "0xa1700000"
+  },
+  {
+   "end": "0xa3300000",
+   "name": "userfs",
+   "size": 26214400,
+   "start": "0xa1a00000"
+  },
+  {
+   "end": "0xa4200000",
+   "name": "web",
+   "size": 15728640,
+   "start": "0xa3300000"
+  },
+  {
+   "end": "0xa4400000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa4200000"
+  },
+  {
+   "end": "0xa4700000",
+   "name": "logo",
+   "size": 3145728,
+   "start": "0xa4400000"
+  },
+  {
+   "end": "0xa5100000",
+   "name": "config",
+   "size": 10485760,
+   "start": "0xa4700000"
+  },
+  {
+   "end": "0xa7600000",
+   "name": "algorithm",
+   "size": 38797312,
+   "start": "0xa5100000"
+  },
+  {
+   "end": "0xa8000000",
+   "name": "backup",
+   "size": 10485760,
+   "start": "0xa7600000"
+  }
+ ]
+}

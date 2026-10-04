@@ -1,0 +1,159 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-WBC5-XXXX-MercuryA_Eng_Local-FEM_V1.000.0000003.10.R.251117.bin",
+   "ids": [
+    "TS-WBC5-30AC-05P",
+    "TS-WBH5-30AC-05PC",
+    "TS-WBK5-30AC-05P",
+    "TS-WBC5-90AC-01S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-WBC5-30AC-05P",
+     "1.00"
+    ],
+    [
+     "TS-WBH5-30AC-05PC",
+     "1.00"
+    ],
+    [
+     "TS-WBK5-30AC-05P",
+     "1.00"
+    ],
+    [
+     "TS-WBC5-90AC-01S",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-WBC5-XXXX-MercuryA_Eng_Local-FEM_V1.000.0000003.10.R.251117.bin",
+   "ids": [
+    "TS-WBC5-90AC-01P",
+    "TS-WBC5-45AC-03P",
+    "TS-WBC5-30AC-05P",
+    "TS-WBK5-90AC-01P",
+    "TS-WBK5-45AC-03P",
+    "TS-WBK5-30AC-05P",
+    "TS-WBC5-45AC-03S",
+    "TS-WBC5-90AC-01S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-WBC5-90AC-01P:02:04:06:01:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBC5-45AC-03P:02:04:06:02:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBC5-30AC-05P:02:04:06:03:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-90AC-01P:02:04:06:01:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-45AC-03P:02:04:06:02:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-30AC-05P:02:04:06:03:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-90AC-01P:02:04:06:01:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-45AC-03P:02:04:06:02:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBK5-30AC-05P:02:04:06:03:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBC5-45AC-03S:02:04:06:04:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-WBC5-90AC-01S:02:04:06:05:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-11-17",
+    "latest": "2025-11-17"
+   },
+   "firmware": "DH_TS-WBC5-XXXX-MercuryA_Eng_Local-FEM_V1.000.0000003.10.R.251117.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-11-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 116000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "hw-set.bin.img",
+     "image_name": "hw-set",
+     "image_size": 18616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "def-set.bin.img",
+     "image_name": "def-set",
+     "image_size": 26808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.bin.img",
+     "image_name": "kernel",
+     "image_size": 2486968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 8293048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-17",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "custom.jiffs2.img",
+     "image_name": "custom",
+     "image_size": 526520,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7e9e1369b191cb32",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000003.10.R.251117"
+  }
+ ],
+ "sha256": "d9a83489d64bb15165a1ffa0dbe5afda2d8321a944e2a2cc67fb07e338e90602"
+}

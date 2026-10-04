@@ -1,0 +1,462 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7213X-MW4G",
+    "ASI7213X-CW4G",
+    "ASI7213X-T",
+    "ASI7213X-T1",
+    "ASI7214X",
+    "ASI7214X-MW4G",
+    "ASI7214X-CW4G",
+    "ASI7223X-A",
+    "ASI7223X-A-T",
+    "ASI7223X-A-T1",
+    "ASI7223X-A-W4G",
+    "ASI7213X-C",
+    "ASI7214X-C"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI7213X:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-MW4G:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-CW4G:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-T:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-T1:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X-MW4G:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X-CW4G:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A-T:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A-T1:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7223X-A-W4G:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7213X-C:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF",
+    "ASI7214X-C:01:04:05:75:34:00:02:10:01:01:04:5DC_5DC:00:00:00:06:00:01:00:01:800:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7214X",
+    "ASI7223X-A",
+    "ASI7213X-C",
+    "ASI7214X-C",
+    "ASI7213X-T",
+    "ASI7223X-A-T",
+    "ASI7213X-T1",
+    "ASI7223X-A-T1",
+    "ASI7213X-MW4G",
+    "ASI7214X-MW4G",
+    "ASI7213X-CW4G",
+    "ASI7214X-CW4G",
+    "ASI7223X-A-W4G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI7213X",
+     "1.00"
+    ],
+    [
+     "ASI7214X",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A",
+     "1.00"
+    ],
+    [
+     "ASI7213X-C",
+     "1.00"
+    ],
+    [
+     "ASI7214X-C",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T1",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T1",
+     "1.00"
+    ],
+    [
+     "ASI7213X-MW4G",
+     "1.00"
+    ],
+    [
+     "ASI7214X-MW4G",
+     "1.00"
+    ],
+    [
+     "ASI7213X-CW4G",
+     "1.00"
+    ],
+    [
+     "ASI7214X-CW4G",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-W4G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7213X-MW4G",
+    "ASI7213X-CW4G",
+    "ASI7213X-T",
+    "ASI7213X-T1",
+    "ASI7214X",
+    "ASI7214X-MW4G",
+    "ASI7214X-CW4G",
+    "ASI7223X-A",
+    "ASI7223X-A-T",
+    "ASI7223X-A-T1",
+    "ASI7223X-A-W4G",
+    "ASI7213X-C",
+    "ASI7214X-C"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-10-23",
+    "latest": "2020-10-23"
+   },
+   "firmware": null,
+   "flash_size": 17179869184,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Polish",
+    "supported_languages": [
+     "English",
+     "Polish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-10-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 133024,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 272752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 100536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4135760,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 40995000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4880568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 12814520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-10-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 126740664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "be56e078ab78c3b9",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "a3f7cd8a22de87643643a747d0072ace0e6bf785024bbbe9b64761b43c6fdb18"
+}

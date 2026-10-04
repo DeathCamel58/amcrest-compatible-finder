@@ -1,0 +1,316 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW81230E-Z",
+    "IPC-HFW81230E-Z-IRA",
+    "IPC-HF81230E",
+    "IPC-HFW81230E-Z",
+    "IPC-HDBW81230E-ZH",
+    "IPC-HF81239F",
+    "IPC-HF81235FP",
+    "IPC-HDBW8630EP-ZH-S2",
+    "IPC-HF8630FP-S2",
+    "IPC-HFW8630EP-ZH-S2",
+    "IPC-HFW8630K-Z-I4",
+    "IPC-HDBW8630E-Z",
+    "IPC-HDBW8231EP-ZH-S2",
+    "IPC-HDBW8231EP-ZH-FD-S2",
+    "IPC-HFW8231EP-ZH-S2",
+    "IPC-HF8231FP-S2",
+    "IPC-HF8231F-S2",
+    "IPC-HDBW8231EP-ZH-0735-S2",
+    "IPC-HFW8231EP-ZH-0735-S2",
+    "IPC-HDBW8232EP-ZH-S2",
+    "IPC-HF8232FP-S2",
+    "IPC-HF8232F-S2",
+    "IPC-HFW8232EP-ZH-S2",
+    "IPC-HDBW8232EP-ZH-SL-S2",
+    "IPC-HF8331F-S2",
+    "IPC-HF8331F",
+    "IPC-HDBW8331E-ZH-S2",
+    "IPC-HFW8331E-ZH-S2",
+    "IPC-HDBW8331EP-ZH-0735-S2",
+    "IPC-HFW8331EP-ZH-0735-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDBW81230E-Z:01:02:05:24:1F:00:01:10:03:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW81230E-Z-IRA:01:02:02:24:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HF81230E:01:02:01:24:1F:00:01:10:03:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW81230E-Z:01:02:02:24:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW81230E-ZH:01:02:05:24:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HF81239F:01:02:01:5A:1F:00:01:10:03:01:04:4B0:08:00:00:08:00:01:00:00:400",
+    "IPC-HF81235FP:01:02:01:5A:1F:00:01:10:03:01:04:4B0:08:00:00:08:00:01:00:00:400",
+    "IPC-HDBW8630EP-ZH-S2:01:02:05:21:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HF8630FP-S2:01:02:01:21:1F:00:01:10:07:01:04:4B0:08:00:00:09:00:01:00:00:400",
+    "IPC-HFW8630EP-ZH-S2:01:02:02:21:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW8630K-Z-I4:01:02:02:21:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8630E-Z:01:02:05:21:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8231EP-ZH-S2:01:02:05:4A:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8231EP-ZH-FD-S2:01:02:05:4A:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8231EP-ZH-S2:01:02:02:4A:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HF8231FP-S2:01:02:01:4A:1F:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400",
+    "IPC-HF8231F-S2:01:02:01:4A:1F:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8231EP-ZH-0735-S2:01:02:05:4A:1F:00:01:10:01:01:00:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8231EP-ZH-0735-S2:01:02:02:4A:1F:00:01:10:01:01:00:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8231EP-ZH-0735-S2:01:02:05:4A:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8231EP-ZH-0735-S2:01:02:02:4A:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8232EP-ZH-S2:01:02:05:1E:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HF8232FP-S2:01:02:01:1E:1F:00:01:10:07:01:04:4B0:08:00:00:09:00:01:00:00:400",
+    "IPC-HF8232F-S2:01:02:01:1E:1F:00:01:10:07:01:04:4B0:08:00:00:09:00:01:00:00:400",
+    "IPC-HFW8232EP-ZH-S2:01:02:02:1E:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8232EP-ZH-SL-S2:01:02:05:1E:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HF8331F-S2:01:02:01:29:1F:00:01:10:03:01:04:4B0:08:00:00:04:00:01:00:00:400",
+    "IPC-HF8331F:01:02:01:29:1F:00:01:10:03:01:04:4B0:08:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8331E-ZH-S2:01:02:05:29:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8331E-ZH-S2:01:02:02:29:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8331EP-ZH-0735-S2:01:02:05:29:1F:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8331EP-ZH-0735-S2:01:02:02:29:1F:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW81230E-Z",
+    "IPC-HFW81230E-Z-IRA",
+    "IPC-HF81230E",
+    "IPC-HFW81230E-Z",
+    "IPC-HDBW81230E-ZH",
+    "IPC-HF81239F",
+    "IPC-HF81235FP",
+    "IPC-HDBW8630EP-ZH-S2",
+    "IPC-HF8630FP-S2",
+    "IPC-HFW8630EP-ZH-S2",
+    "IPC-HFW8630K-Z-I4",
+    "IPC-HDBW8630E-Z",
+    "IPC-HDBW8231EP-ZH-S2",
+    "IPC-HDBW8231EP-ZH-FD-S2",
+    "IPC-HFW8231EP-ZH-S2",
+    "IPC-HF8231FP-S2",
+    "IPC-HF8231F-S2",
+    "IPC-HDBW8231EP-ZH-0735-S2",
+    "IPC-HFW8231EP-ZH-0735-S2",
+    "IPC-HDBW8232EP-ZH-S2",
+    "IPC-HF8232FP-S2",
+    "IPC-HF8232F-S2",
+    "IPC-HFW8232EP-ZH-S2",
+    "IPC-HDBW8232EP-ZH-SL-S2",
+    "IPC-HF8331F-S2",
+    "IPC-HF8331F",
+    "IPC-HDBW8331E-ZH-S2",
+    "IPC-HFW8331E-ZH-S2",
+    "IPC-HDBW8331EP-ZH-0735-S2",
+    "IPC-HFW8331EP-ZH-0735-S2"
+   ],
+   "member": "hwid",
+   "raw_same_as": 0,
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4559",
+   "build_dates": {
+    "earliest": "2017-06-19",
+    "latest": "2017-07-27"
+   },
+   "firmware": null,
+   "flash_size": 671088640,
+   "kernel_version": "3.18.20",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-06-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 251904,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 36864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 53248,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3125816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7299072,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 21004288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "566b1fbc4f80c926",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3519"
+     }
+    ],
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "3b87e6ac0315d7f042fa8cb5eb8cd34a36345c8af1e86ade10ef7dc23e76d56a"
+}

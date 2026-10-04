@@ -1,0 +1,100 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTHX421H-data_MultiLang_Eng_SIP_PART_V4.500.0000002.0.R.20210520.bin",
+   "ids": [
+    "VTH2421F",
+    "VTH2421F_R",
+    "VTH5221D-S",
+    "VTH5241D-S",
+    "VTH5441G",
+    "VTH5421E-H",
+    "VTH5421CH",
+    "VTH5241D-S-SH",
+    "VTH5221D-S-SH",
+    "VTH2421FS-SH"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421F",
+     "0.00"
+    ],
+    [
+     "VTH2421F_R",
+     "0.00"
+    ],
+    [
+     "VTH5221D-S",
+     "0.00"
+    ],
+    [
+     "VTH5241D-S",
+     "0.00"
+    ],
+    [
+     "VTH5441G",
+     "0.00"
+    ],
+    [
+     "VTH5421E-H",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH5241D-S-SH",
+     "0.00"
+    ],
+    [
+     "VTH5221D-S-SH",
+     "0.00"
+    ],
+    [
+     "VTH2421FS-SH",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTHX421H-data_MultiLang_Eng_SIP_PART_V4.500.0000002.0.R.20210520.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 809144,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "263ab177735df617",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "2da39b22e172e78da3ee4a1bf4459687cd4e6ceb305af55a5887124f9344ed6f"
+}

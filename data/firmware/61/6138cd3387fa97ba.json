@@ -1,0 +1,119 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DVRxx04HD-X",
+    "General_N6",
+    "DAHUA",
+    "OEM_TYPE"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": "U-Boot 1.3.1",
+   "build_dates": {
+    "earliest": "2017-09-30",
+    "latest": "2017-09-30"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N6",
+    "DAHUA",
+    "OEM_TYPE"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "N6II",
+     "image_size": 204444,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 12898304,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 1499136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-30",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "6138cd3387fa97ba861a7f51d1f4fb68f479c504b287d1f2a1677a33b58ff8d2"
+}

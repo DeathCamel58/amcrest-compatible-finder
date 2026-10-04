@@ -1,0 +1,297 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ2030T-S2",
+    "CA-HZ2025T-S2",
+    "CA-HZ2012T-S2",
+    "CA-HZ2023T-S2",
+    "CA-HZ4012T-S2",
+    "CA-HZ4023T-S2",
+    "CA-HZ4025T-S2",
+    "CA-HZ2023UT",
+    "CA-HZ1023UT",
+    "CA-HZ1031UT",
+    "SD22404T-GN-S2",
+    "SD22206T-GN-S2",
+    "SD22204T-GN-HK-S2",
+    "SD12200T-GN-28-S2",
+    "SD12200T-GN-36-S2",
+    "SD12203T-GN-S2",
+    "SD29D404T-HNG-D-S2",
+    "SD29D206T-HNG-D-S2",
+    "PTZ1204T-GN-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "CA-HZ2030T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2025T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2012T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2023T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ4012T-S2:01:03:04:23:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ4023T-S2:01:03:04:23:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ4025T-S2:01:03:04:23:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ2023UT:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ1023UT:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "CA-HZ1031UT:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
+    "SD22404T-GN-S2:01:03:04:23:21:00:01:00:00:00:04:330:04:00:00:00:00:01:00:00:200:FF",
+    "SD22206T-GN-S2:01:03:04:23:21:00:01:00:00:00:04:330:04:00:00:00:00:01:00:00:200:FF",
+    "SD22204T-GN-HK-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:02:00:00:00:01:00:00:200:FF",
+    "SD12200T-GN-28-S2:01:03:04:4A:21:00:01:14:01:01:04:330:04:00:00:04:00:01:00:00:200:FF",
+    "SD12200T-GN-36-S2:01:03:04:4A:21:00:01:14:01:01:04:330:04:00:00:04:00:01:00:00:200:FF",
+    "SD12203T-GN-S2:01:03:04:4A:21:00:01:14:01:01:04:330:04:00:00:04:00:01:00:00:200:FF",
+    "SD29D404T-HNG-D-S2:01:03:04:23:21:00:01:0E:01:00:04:330:00:00:00:00:00:01:00:00:200:FF",
+    "SD29D206T-HNG-D-S2:01:03:04:23:21:00:01:0E:01:00:04:330:00:00:00:00:00:01:00:00:200:FF",
+    "PTZ1204T-GN-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:02:00:00:00:01:00:00:200:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4805",
+   "build_dates": {
+    "earliest": "2017-09-05",
+    "latest": "2017-09-05"
+   },
+   "firmware": null,
+   "flash_size": 132120576,
+   "flash_size_declared": "128M",
+   "flash_type": "NAND",
+   "kernel_version": "3.10.73",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 410995,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 268288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 126976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 65536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1653836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1417216,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7344128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-09-05",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 17211392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "02f67146c3e8a696",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s3l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s3l"
+     }
+    ],
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "a9d8868bf971b7dd3e6b9de05b25924b9c6b1209278e125902d250521c5d5bae"
+}

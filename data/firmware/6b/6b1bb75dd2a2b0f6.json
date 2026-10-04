@@ -1,0 +1,340 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Kant-Dual_MultiLang_PN_V2.820.0000017.1.R.250719.bin",
+   "ids": [
+    "SDT3A400-4F-NB-0400-A",
+    "SDT3A400-4F-NB-0400-B",
+    "SDT3A200-2F-NB-0400-A",
+    "SDT3A200-2F-NB-0400-B",
+    "SDT3A200-2F-NB1-0400-A",
+    "SDT3A200-2F-NB1-0400-B",
+    "SDT3A300-3F-NB-0400-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT3A400-4F-NB-0400-A:01:03:04:100:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A400-4F-NB-0400-B:01:03:04:100:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A200-2F-NB-0400-A:01:03:04:FA:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A200-2F-NB-0400-B:01:03:04:FA:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A200-2F-NB1-0400-A:01:03:04:CF:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A200-2F-NB1-0400-B:01:03:04:CF:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
+    "SDT3A300-3F-NB-0400-A:01:03:04:FA:6D:00:02:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Kant-Dual_MultiLang_PN_V2.820.0000017.1.R.250719.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Kant-Dual_MultiLang_PN_V2.820.0000017.1.R.250719.bin",
+   "ids": [
+    "SDT3A400-4F-NB-0400-A",
+    "SDT3A400-4F-NB-0400-B",
+    "SDT3A200-2F-NB-0400-A",
+    "SDT3A200-2F-NB-0400-B",
+    "SDT3A200-2F-NB1-0400-A",
+    "SDT3A200-2F-NB1-0400-B",
+    "SDT3A300-3F-NB-0400-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-19",
+    "latest": "2025-07-19"
+   },
+   "firmware": "DH_SD-Kant-Dual_MultiLang_PN_V2.820.0000017.1.R.250719.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 181904,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49941,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 49941,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2342660,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 17359544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 11383480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 759992,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "9f59d253b92c985b",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027D-S01A"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V2.820.0000017.1.R.250719",
+   "unmapped_images": [
+    "partition-x.cramfs.img"
+   ]
+  }
+ ],
+ "sha256": "6b1bb75dd2a2b0f6429e6b61dae02372a39950e438fb1ff0dbd3ee647611b933"
+}

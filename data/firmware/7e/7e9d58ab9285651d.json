@@ -1,0 +1,214 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-PTD8XX4E-B_MultiLang_PN_V2.660.0000000.3.R.241218.bin",
+   "ids": [
+    "TPC-PTD8644E-B",
+    "TPC-PTD8A44E-B",
+    "TPC-PTD8624E-B",
+    "TPC-PTD8A24E-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-PTD8644E-B:01:08:22:81:52:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:1000",
+    "TPC-PTD8A44E-B:01:08:22:D5:52:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:1000",
+    "TPC-PTD8624E-B:01:08:22:81:52:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:1000",
+    "TPC-PTD8A24E-B:01:08:22:D5:52:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-PTD8XX4E-B_MultiLang_PN_V2.660.0000000.3.R.241218.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-PTD8XX4E-B_MultiLang_PN_V2.660.0000000.3.R.241218.bin",
+   "ids": [
+    "TPC-PTD8644E-B",
+    "TPC-PTD8A44E-B",
+    "TPC-PTD8624E-B",
+    "TPC-PTD8A24E-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-12-18",
+    "latest": "2024-12-18"
+   },
+   "firmware": "DH_TPC-PTD8XX4E-B_MultiLang_PN_V2.660.0000000.3.R.241218.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 524136,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 524136,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 38444,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1792184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 964792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12681984,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9668792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 59263160,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-12-18",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.img",
+     "image_name": "firmware",
+     "image_size": 203425976,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8773a0d48118cf6b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "7e9d58ab9285651d9827c5f1c551d84b250b32a33bb80ee1067dc009fcd5ab69"
+}

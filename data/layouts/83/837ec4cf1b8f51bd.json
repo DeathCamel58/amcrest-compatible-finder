@@ -1,0 +1,71 @@
+{
+ "id": "837ec4cf1b8f51bd",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "boot-min",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x7e00000",
+   "name": "Kernel",
+   "size": 16777216,
+   "start": "0x6e00000"
+  },
+  {
+   "end": "0x9e00000",
+   "name": "romfs",
+   "size": 33554432,
+   "start": "0x7e00000"
+  },
+  {
+   "end": "0xde00000",
+   "name": "user",
+   "size": 67108864,
+   "start": "0x9e00000"
+  },
+  {
+   "end": "0xee00000",
+   "name": "custom",
+   "size": 16777216,
+   "start": "0xde00000"
+  },
+  {
+   "end": "0x11e00000",
+   "name": "data",
+   "size": 50331648,
+   "start": "0xee00000"
+  },
+  {
+   "end": "0x19e00000",
+   "name": "web",
+   "size": 134217728,
+   "start": "0x11e00000"
+  },
+  {
+   "end": "0x2f800000",
+   "name": "firmware",
+   "size": 362807296,
+   "start": "0x19e00000"
+  },
+  {
+   "end": "0x30000000",
+   "name": "plugin",
+   "size": 8388608,
+   "start": "0x2f800000"
+  }
+ ]
+}

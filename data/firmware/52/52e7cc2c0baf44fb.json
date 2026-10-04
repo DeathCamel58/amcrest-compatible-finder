@@ -1,0 +1,215 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-GX2XXX-Hugo_MultiLang_PN_V3.120.0000000.12.R.250307.bin",
+   "ids": [
+    "IPC-HFW2849TL-S-LED-PRO",
+    "IPC-HFW2649TL-S-LED-PRO",
+    "IPC-HFW2849M-A-LED",
+    "IPC-HFW2649M-A-LED",
+    "IPC-HFW21249T-AS-IL",
+    "IPC-HFW21249T-S-IL"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2849TL-S-LED-PRO:01:02:00:F2:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2649TL-S-LED-PRO:01:02:00:F2:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2849M-A-LED:01:02:02:F2:73:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2649M-A-LED:01:02:02:F2:73:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW21249T-AS-IL:01:02:00:EE:73:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW21249T-S-IL:01:02:00:EE:73:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-GX2XXX-Hugo_MultiLang_PN_V3.120.0000000.12.R.250307.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-GX2XXX-Hugo_MultiLang_PN_V3.120.0000000.12.R.250307.bin",
+   "ids": [
+    "IPC-HFW2849TL-S-LED-PRO",
+    "IPC-HFW2649TL-S-LED-PRO",
+    "IPC-HFW2849M-A-LED",
+    "IPC-HFW2649M-A-LED",
+    "IPC-HFW21249T-AS-IL",
+    "IPC-HFW21249T-S-IL"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2020.04-svn16422",
+   "build_dates": {
+    "earliest": "2025-03-06",
+    "latest": "2025-03-06"
+   },
+   "firmware": "DH_IPC-GX2XXX-Hugo_MultiLang_PN_V3.120.0000000.12.R.250307.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.125",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 863840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 863840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2986664,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 71307632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2574760,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 7004528,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c602c9bebce0f5de",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX620E",
+     "AX620Q",
+     "AX630C",
+     "AX620X"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620E"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620Q"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX630C"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ax620x"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   },
+   "software_version": "V3.120.0000000.12.R.250307"
+  }
+ ],
+ "sha256": "52e7cc2c0baf44fbb351d37919be4f5e83886c2074c044dc35484f951f619635"
+}

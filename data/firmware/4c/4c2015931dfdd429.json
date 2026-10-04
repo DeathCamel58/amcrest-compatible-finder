@@ -1,0 +1,342 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTA2302A_Eng_PN_V4.300.0000003.0.R.20220801.bin",
+   "ids": [
+    "VTA2302A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTA2302A:01:04:08:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTA2302A_Eng_PN_V4.300.0000003.0.R.20220801.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTA2302A_Eng_PN_V4.300.0000003.0.R.20220801.bin",
+   "ids": [
+    "VTA2302A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTA2302A"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTA2302A:01:04:08:6A:35:00:01:10:01:01:04:384_384:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-01",
+    "latest": "2022-08-01"
+   },
+   "firmware": "DH_VTA2302A_Eng_PN_V4.300.0000003.0.R.20220801.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 235888,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 538808,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2551486,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1149112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 16128184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "d8ec2f00edbfd54f",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516cv500"
+     }
+    ],
+    "name": "Hi3516CV500",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-08-01",
+    "latest": "2022-08-01"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-08-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1149112,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1a39385215d3e3a5",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0,"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "4c2015931dfdd4299df9058f99f79a9407871494a120edacb34d4ee10b022d7d"
+}

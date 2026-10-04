@@ -1,0 +1,379 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4010DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD22404DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-A:01:03:04:D7:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-C:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-B:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4010DB-A:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-A:01:03:04:B4:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-B:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-C:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT2A4000DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4010DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4010DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD22404DB-A:01:03:04:BF:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-A:01:03:04:D7:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-C:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4005DB-B:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E4010DB-A:01:03:04:D7:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-A:01:03:04:B4:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-B:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3E2005DB-C:01:03:04:B4:5B:00:01:10:01:01:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT3A4004DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200",
+    "SD-MT2A4000DB-A:01:03:04:BF:5B:00:01:10:03:03:04:3E8:04:00:00:04:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD22404DB-A",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4010DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3A4004DB-A",
+    "SD-MT2A4000DB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn18131",
+   "build_dates": {
+    "earliest": "2025-12-18",
+    "latest": "2025-12-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2025-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 70000,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 156928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 418160,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 31340728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 30439608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 3057848,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2762768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2762768,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 14858424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "rollback-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 6154424,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1300664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c2e0b497ed60939f",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51089"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51089"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "nt98560"
+     }
+    ],
+    "name": "NT98560",
+    "vendor": "Novatek"
+   },
+   "software_version": "V3.201.0000006.0.R.251219"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-12-18",
+    "latest": "2025-12-18"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4,"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.201.0000006.0.R.251219"
+  }
+ ],
+ "sha256": "416c01ed8d2a02f33317b2124fd12113087cf94b93a4a5d05c5cba005069071f"
+}

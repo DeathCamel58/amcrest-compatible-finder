@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-29",
+    "latest": "2013-01-29"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-29",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVR0404LF-AS_3104H_Eng_N_FirstOption_V2.608.0000.0.R.20130129_slave-x.cramfs.img",
+     "image_name": "810Xslave",
+     "image_size": 1662976,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "14927db9f575369f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b9705fa89d75308d175f81744adab0ddfd6c145d9fb3ea33cf00f4dbb8d2f2fb"
+}

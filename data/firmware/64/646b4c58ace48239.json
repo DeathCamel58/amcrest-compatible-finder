@@ -1,0 +1,431 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTOXXXXD-G-S2_MultiLang_PN_PAAS_SIP_V4.511.0000000.0.R.220105.bin",
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P",
+    "VTO2101E-P-S2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO4202F-P-S2:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2202F-P-S2:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2201F-P:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2101E-P-S2:01:04:01:75:3D:00:01:10:01:01:00:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTOXXXXD-G-S2_MultiLang_PN_PAAS_SIP_V4.511.0000000.0.R.220105.bin",
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P",
+    "VTO2111D-P-S3",
+    "VTO3211D-P1-S3",
+    "VTO3211D-P2-S3",
+    "VTO3211D_P4-S3",
+    "VTO3221E-P-S2",
+    "VTO6221E-P-S2",
+    "VTO2101E-P-S2",
+    "VTO2101X-P",
+    "VTO2211G-P-S2",
+    "VTO2211G-WP-S2",
+    "VTO2211G-P-V1",
+    "VTO2211GG-P-V1",
+    "VTO1201G-P-V1",
+    "VTO1201GG-P-V1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO4202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2201F-P",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D-P1-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D-P2-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D_P4-S3",
+     "1.00"
+    ],
+    [
+     "VTO3221E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO6221E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2101E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2101X-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO2211GG-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO1201GG-P-V1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTOXXXXD-G-S2_MultiLang_PN_PAAS_SIP_V4.511.0000000.0.R.220105.bin",
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P",
+    "VTO2101E-P-S2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P",
+    "VTO2111D-P-S3",
+    "VTO3211D-P1-S3",
+    "VTO3211D-P2-S3",
+    "VTO3211D_P4-S3",
+    "VTO3221E-P-S2",
+    "VTO6221E-P-S2",
+    "VTO2101E-P-S2",
+    "VTO2101X-P",
+    "VTO2211G-P-S2",
+    "VTO2211G-WP-S2",
+    "VTO2211G-P-V1",
+    "VTO2211GG-P-V1",
+    "VTO1201G-P-V1",
+    "VTO1201GG-P-V1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO4202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2201F-P",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D-P1-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D-P2-S3",
+     "1.00"
+    ],
+    [
+     "VTO3211D_P4-S3",
+     "1.00"
+    ],
+    [
+     "VTO3221E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO6221E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2101E-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2101X-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP-S2",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO2211GG-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P-V1",
+     "1.00"
+    ],
+    [
+     "VTO1201GG-P-V1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P",
+    "VTO2101E-P-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTO4202F-P-S2:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2202F-P-S2:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:07:00:00:00:100:FF",
+    "VTO2201F-P:01:04:01:A8:3D:00:01:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF",
+    "VTO2101E-P-S2:01:04:01:75:3D:00:01:10:01:01:00:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-01-05",
+    "latest": "2022-01-05"
+   },
+   "firmware": "DH_VTOXXXXD-G-S2_MultiLang_PN_PAAS_SIP_V4.511.0000000.0.R.220105.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Dutch",
+     "French",
+     "Germany",
+     "Italian",
+     "Polish",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Turkey",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-01-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 1837240,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 806,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 113560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4135096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 137400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4623180,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 14710968,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3856568,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a80b11507646f4a7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-01-05",
+    "latest": "2022-01-05"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Dutch",
+     "French",
+     "Germany",
+     "Italian",
+     "Polish",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Turkey",
+     "Ukrainian",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-01-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3856568,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c80738175b285fc7",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "646b4c58ace48239bc32889c897be51f8dc8b176e489c9234d4d2182f0595084"
+}

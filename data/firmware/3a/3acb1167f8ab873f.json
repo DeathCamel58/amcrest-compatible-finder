@@ -1,0 +1,280 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "VIP_E5120_15-03-2017.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "VIP_E5120_15-03-2017.bin",
+   "ids": [
+    "SD6580G-HN",
+    "SD6A80G-HN",
+    "SD6AW120S-HN",
+    "SD6D80G-GN",
+    "SD6380G-GN",
+    "SD6C80G-GN",
+    "SD6380D-GN",
+    "SD6C80D-GN",
+    "SDZ1020A",
+    "SDZW1020S",
+    "SDZWT1020S",
+    "SD6C1023E",
+    "CA-HZ1020A-N",
+    "CA-HZ1020S1E",
+    "SD40A212S-HN",
+    "SD49A212S-HN",
+    "CA-HZ2012-N",
+    "CA-HZ2012S-D",
+    "SD65D230S-HN",
+    "SD6A1230S-HN",
+    "SD6AW230S-HN",
+    "SD6C2230S-GN",
+    "SD63D230S-GN",
+    "SD6C1230S-GN",
+    "SD63D230T-GN",
+    "SD6C1230T-GN",
+    "SDZ2030S",
+    "SDZW2030S",
+    "SDZWT2030S",
+    "SD6C1036E",
+    "CA-HZ2030S",
+    "CA-HZ2030S1",
+    "CA-HZ2020T",
+    "SD21A108Q-GN",
+    "SD29D204S-HN",
+    "CA-HZ2003S"
+   ],
+   "member": "check.img",
+   "raw": [
+    "SD6580G-HN:01:03:04:1A:0B:08:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6A80G-HN:01:03:04:1A:0B:08:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6AW120S-HN:01:03:04:1A:0B:08:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6D80G-GN:01:03:04:1A:0B:08:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD6380G-GN:01:03:04:1A:0B:08:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD6C80G-GN:01:03:04:1A:0B:08:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD6380D-GN:01:03:04:1A:0B:08:01:00:00:00:00:210:00:00:00:04:00:00:00:00:100",
+    "SD6C80D-GN:01:03:04:1A:0B:08:01:00:00:00:00:210:00:00:00:04:00:00:00:00:100",
+    "SDZ1020A:01:03:04:1A:0B:08:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SDZW1020S:01:03:04:1A:0B:08:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SDZWT1020S:01:03:04:1A:0B:08:01:00:00:00:04:210:00:00:00:04:00:00:00:00:100",
+    "SD6C1023E:01:03:04:1A:0B:08:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ1020A-N:01:03:04:1A:0B:08:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ1020S1E:01:03:04:1A:0B:08:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "SD40A212S-HN:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD49A212S-HN:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "CA-HZ2012-N:01:03:04:1B:0A:07:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ2012S-D:01:03:04:1B:0A:07:01:06:01:01:04:210:03:00:02:04:00:00:00:00:80",
+    "SD65D230S-HN:01:03:04:1B:0A:07:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6A1230S-HN:01:03:04:1B:0A:07:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6AW230S-HN:01:03:04:1B:0A:07:01:06:01:01:04:210:04:00:00:04:00:00:00:00:100",
+    "SD6C2230S-GN:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD63D230S-GN:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD6C1230S-GN:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SD63D230T-GN:01:03:04:1B:0A:07:01:00:00:00:00:210:00:00:00:04:00:00:00:00:100",
+    "SD6C1230T-GN:01:03:04:1B:0A:07:01:00:00:00:00:210:00:00:00:04:00:00:00:00:100",
+    "SDZ2030S:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SDZW2030S:01:03:04:1B:0A:07:01:06:01:01:04:210:02:00:00:04:00:00:00:00:100",
+    "SDZWT2030S:01:03:04:1A:0B:08:01:00:00:00:04:210:00:00:00:04:00:00:00:00:100",
+    "SD6C1036E:01:03:04:1B:0A:07:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ2030S:01:03:04:1B:0A:07:01:06:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ2030S1:01:03:04:1B:0A:07:01:07:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "CA-HZ2020T:01:03:04:1B:0A:00:01:07:01:01:04:210:00:00:00:04:00:00:00:00:100",
+    "SD21A108Q-GN:01:03:04:1A:0B:08:01:06:01:01:04:210:00:03:00:00:00:00:00:00:100",
+    "SD29D204S-HN:01:03:04:1F:0A:00:01:06:01:01:04:210:00:03:00:00:00:00:00:00:100",
+    "CA-HZ2003S:01:03:04:1B:0A:00:01:06:01:01:04:210:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn",
+   "build_dates": {
+    "earliest": "2017-03-15",
+    "latest": "2017-03-15"
+   },
+   "firmware": "VIP_E5120_15-03-2017.bin",
+   "flash_size": 132120576,
+   "kernel_version": "2.6.38.8",
+   "locale": {
+    "default_language": "Portugal",
+    "supported_languages": null,
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 335872,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "custom-x.ubifs.img",
+     "image_name": "custom",
+     "image_size": 1835008,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "pd-x.ubifs.img",
+     "image_name": "pd",
+     "image_size": 1703936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2546960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "romfs-x.ubifs.img",
+     "image_name": "romfs",
+     "image_size": 7340032,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "web-x.ubifs.img",
+     "image_name": "web",
+     "image_size": 7208960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-15",
+     "compression": "none",
+     "filesystem": "ubi",
+     "image": "user-x.ubifs.img",
+     "image_name": "user",
+     "image_size": 23330816,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "f9503592c2140f47",
+   "partition_source": "partition_table",
+   "partition_table": "partition.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Ambarella"
+     }
+    ],
+    "name": null,
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "3acb1167f8ab873f3d7f64db3da11aa830735d1d80a68586845a49706f414d6e"
+}

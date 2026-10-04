@@ -1,0 +1,77 @@
+{
+ "id": "0825c7d1ea6e15bc",
+ "partitions": [
+  {
+   "end": "0xa0040000",
+   "name": "loader",
+   "size": 262144,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0080000",
+   "name": "fdt",
+   "size": 262144,
+   "start": "0xa0040000"
+  },
+  {
+   "end": "0xa0200000",
+   "name": "uboot",
+   "size": 1572864,
+   "start": "0xa0080000"
+  },
+  {
+   "end": "0xa02c0000",
+   "name": "uenv",
+   "size": 786432,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa2740000",
+   "name": "rootfs",
+   "size": 38273024,
+   "start": "0xa02c0000"
+  },
+  {
+   "end": "0xa27c0000",
+   "name": "custom",
+   "size": 524288,
+   "start": "0xa2740000"
+  },
+  {
+   "end": "0xa3040000",
+   "name": "web",
+   "size": 8912896,
+   "start": "0xa27c0000"
+  },
+  {
+   "end": "0xa30c0000",
+   "name": "logo",
+   "size": 524288,
+   "start": "0xa3040000"
+  },
+  {
+   "end": "0xa3740000",
+   "name": "ext_usr",
+   "size": 6815744,
+   "start": "0xa30c0000"
+  },
+  {
+   "end": "0xa3a40000",
+   "name": "config_fw",
+   "size": 3145728,
+   "start": "0xa3740000"
+  },
+  {
+   "end": "0xa3fc0000",
+   "name": "config",
+   "size": 5767168,
+   "start": "0xa3a40000"
+  },
+  {
+   "end": "0xa4000000",
+   "name": "dgs",
+   "size": 262144,
+   "start": "0xa3fc0000"
+  }
+ ]
+}

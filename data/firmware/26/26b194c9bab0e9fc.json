@@ -1,0 +1,322 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ISCD-D718R-I_Eng_PN_V1.000.9992000.0.R.250722.bin",
+   "ids": [
+    "ISCD-D718RI",
+    "ISC-D12",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-22",
+    "latest": "2025-07-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "5.10.0",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 441744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "ss626v100",
+     "image_size": 15156880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 184635392,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 7331840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 36864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "mdc.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 686464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e500393c3b882acd",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "algorithm-x.squashfs.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-22",
+    "latest": "2025-07-22"
+   },
+   "firmware": "DH_ISCD-D718R-I_Eng_PN_V1.000.9992000.0.R.250722.bin",
+   "flash_size": 687462154240,
+   "kernel_version": "5.10.0",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "ISC-D12",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 441744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "ss626v100",
+     "image_size": 15156880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 184635392,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 7331840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 36864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "mdc.bin.img",
+     "image_name": "ss626v100",
+     "image_size": 686464,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-07-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "ss626v100",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "76ac87b7d8966df5",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "uImage.img",
+      "source": "image_name",
+      "value": "ss626v100"
+     }
+    ],
+    "name": "SS626V100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "26b194c9bab0e9fcd8ac19dfbf8b70946c4eb11a3d702aca65f5098ffb2d3178"
+}

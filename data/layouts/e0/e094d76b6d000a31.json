@@ -1,0 +1,59 @@
+{
+ "id": "e094d76b6d000a31",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "dhboot-min",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x400000",
+   "name": "U-Boot",
+   "size": 2883584,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x700000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x2180000",
+   "name": "firmware",
+   "size": 9961472,
+   "start": "0x1800000"
+  },
+  {
+   "end": "0x2380000",
+   "name": "pd",
+   "size": 2097152,
+   "start": "0x2180000"
+  },
+  {
+   "end": "0x2980000",
+   "name": "kernel",
+   "size": 6291456,
+   "start": "0x2380000"
+  },
+  {
+   "end": "0x4380000",
+   "name": "rootfs",
+   "size": 27262976,
+   "start": "0x2980000"
+  },
+  {
+   "end": "0x4b80000",
+   "name": "web",
+   "size": 8388608,
+   "start": "0x4380000"
+  },
+  {
+   "end": "0x5600000",
+   "name": "firmwareExt",
+   "size": 9961472,
+   "start": "0x4c80000"
+  }
+ ]
+}

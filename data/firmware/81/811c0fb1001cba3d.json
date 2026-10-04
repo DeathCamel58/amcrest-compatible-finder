@@ -1,0 +1,230 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DB11"
+   ],
+   "member": "hwid",
+   "raw": [
+    "DB11:01:04:07:36:1E:00:01:11:03:03:04:21C:00:03:00:00:00:00:00:00:100:FF",
+    "DB11:01:04:07:36:1D:00:01:11:03:03:04:21C:00:03:00:00:00:00:00:00:100:FF",
+    "DB11:01:04:07:75:1E:00:01:11:03:03:04:21C:00:03:00:00:00:00:01:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "DB11",
+    "DB-LEXUS",
+    "DB-LOREX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "DB11",
+     "1.00"
+    ],
+    [
+     "DB-LEXUS",
+     "1.00"
+    ],
+    [
+     "DB-LOREX",
+     "1.00"
+    ],
+    [
+     "DB11",
+     "1.10"
+    ],
+    [
+     "DB-LEXUS",
+     "1.10"
+    ],
+    [
+     "DB-LOREX",
+     "1.10"
+    ],
+    [
+     "DB11",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DB11"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn5172",
+   "build_dates": {
+    "earliest": "2022-07-19",
+    "latest": "2022-07-19"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.4.35",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 223232,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1311528,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1404928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 10670080,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 880640,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b202014e5c8bd0f8",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "HI3518EV200"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "hi3518ev200"
+     }
+    ],
+    "name": "Hi3518EV200",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "811c0fb1001cba3d58974a2dc6ef649cbaa5eb90790b2a6272bf7bbfebdd322f"
+}

@@ -1,0 +1,139 @@
+{
+ "id": "66c1b91c69b5e1a5",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "mini-Boot",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1a0000",
+   "name": "IPL",
+   "size": 393216,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x200000",
+   "name": "IPL_CUST",
+   "size": 393216,
+   "start": "0x1a0000"
+  },
+  {
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "smc",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "dgs",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "end": "0x5c0000",
+   "name": "hwid",
+   "size": 786432,
+   "start": "0x500000"
+  },
+  {
+   "end": "0xd00000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x1400000",
+   "name": "config",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0x1b00000",
+   "name": "backup",
+   "read_only": false,
+   "size": 7340032,
+   "start": "0x1400000"
+  },
+  {
+   "end": "0x1c00000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x1b00000"
+  },
+  {
+   "backup_start": "0x1d00000",
+   "end": "0x1d00000",
+   "name": "dtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x1c00000"
+  },
+  {
+   "end": "0x1e00000",
+   "name": "backdtb",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x1d00000"
+  },
+  {
+   "backup_start": "0x5400000",
+   "end": "0x2100000",
+   "name": "Kernel",
+   "size": 3145728,
+   "start": "0x1e00000"
+  },
+  {
+   "end": "0x2b00000",
+   "name": "web",
+   "read_only": false,
+   "size": 10485760,
+   "start": "0x2100000"
+  },
+  {
+   "backup_start": "0x5700000",
+   "end": "0x3100000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 6291456,
+   "start": "0x2b00000"
+  },
+  {
+   "backup_start": "0x5d00000",
+   "end": "0x5300000",
+   "name": "user",
+   "read_only": true,
+   "size": 35651584,
+   "start": "0x3100000"
+  },
+  {
+   "end": "0x5700000",
+   "name": "backkernel",
+   "size": 3145728,
+   "start": "0x5400000"
+  },
+  {
+   "end": "0x5d00000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 6291456,
+   "start": "0x5700000"
+  },
+  {
+   "end": "0x7f00000",
+   "name": "backuser",
+   "read_only": true,
+   "size": 35651584,
+   "start": "0x5d00000"
+  }
+ ]
+}

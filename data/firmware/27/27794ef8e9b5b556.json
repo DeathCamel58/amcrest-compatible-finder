@@ -1,0 +1,289 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1235S-W",
+    "IPC-HFW1230S",
+    "IPC-HDBW1235E-W",
+    "IPC-HDBW1230E-S",
+    "IPC-HFW1430SN-W-Lexus",
+    "IPC-HDBW1430SN-AW-Lexus",
+    "IPC-HFW1430SN-Lexus",
+    "IPC-HDBW1430EN-AS-Lexus",
+    "IPC-HFW1235S-W-Lexus",
+    "IPC-HFW1230S-Lexus",
+    "IPC-HDBW1235E-W-Lexus",
+    "IPC-HDBW1230E-S-Lexus"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW1235S-W:01:02:03:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:100",
+    "IPC-HFW1230S:01:02:02:4F:25:00:01:00:00:00:00:2D0:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW1235E-W:01:02:03:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:100",
+    "IPC-HDBW1230E-S:01:02:05:4F:25:00:01:00:00:00:04:2D0:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW1430SN-W-Lexus:01:02:03:23:21:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:200",
+    "IPC-HDBW1430SN-AW-Lexus:01:02:03:23:21:00:01:0E:01:01:04:2D0:03:02:00:00:00:00:00:00:200",
+    "IPC-HFW1430SN-Lexus:01:02:02:23:21:00:01:00:00:00:00:2D0:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW1430EN-AS-Lexus:01:02:05:23:21:00:01:0E:01:01:04:2D0:03:00:00:00:00:00:00:00:200",
+    "IPC-HFW1235S-W-Lexus:01:02:03:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:100",
+    "IPC-HFW1230S-Lexus:01:02:02:4F:25:00:01:00:00:00:00:2D0:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW1235E-W-Lexus:01:02:03:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:100",
+    "IPC-HDBW1230E-S-Lexus:01:02:05:4F:25:00:01:00:00:00:04:2D0:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX",
+    "IPC-HX8XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX8XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Amcrest"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4694",
+   "build_dates": {
+    "earliest": "2017-06-15",
+    "latest": "2017-07-20"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": "3.10.73",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Amcrest",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-07-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 131072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 237568,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-06-15",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1487012,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-06-15",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1310720,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-06-15",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3158016,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-07-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 9854976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-06-15",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 16384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-06-15",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "d304e786d3849841",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ambarella"
+     },
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s3l"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s3l"
+     }
+    ],
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "27794ef8e9b5b5561dae392a2717bff923e9b486c25cffe588d893aafa309be1"
+}

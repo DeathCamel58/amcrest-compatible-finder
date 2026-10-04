@@ -1,0 +1,520 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTO95XXX_Eng_P_SIP_V4.300.0000003.0.R.210716.bin",
+   "ids": [
+    "VTO9521D",
+    "VTO9531D",
+    "VTO9541D",
+    "VTO9551D",
+    "VTO9531D-HD"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO9521D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9531D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9541D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9551D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9531D-HD:01:04:01:75:34:18:01:10:03:01:04:5DC:00:00:02:0C:00:01:00:01:800:FF",
+    "VTO9521D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:00:01:01:800:FF",
+    "VTO9531D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9541D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9551D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9531D-HD:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTO95XXX_Eng_P_SIP_V4.300.0000003.0.R.210716.bin",
+   "ids": [
+    "VTO9521D",
+    "VTO9531D",
+    "VTO9541D",
+    "VTO9551D",
+    "VTO9531D-HD"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO9521D",
+     "1.00"
+    ],
+    [
+     "VTO9531D",
+     "1.00"
+    ],
+    [
+     "VTO9541D",
+     "1.00"
+    ],
+    [
+     "VTO9551D",
+     "1.00"
+    ],
+    [
+     "VTO9531D-HD",
+     "1.00"
+    ],
+    [
+     "VTO9521D",
+     "1.10"
+    ],
+    [
+     "VTO9531D",
+     "1.10"
+    ],
+    [
+     "VTO9541D",
+     "1.10"
+    ],
+    [
+     "VTO9551D",
+     "1.10"
+    ],
+    [
+     "VTO9531D-HD",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTO95XXX_Eng_P_SIP_V4.300.0000003.0.R.210716.bin",
+   "ids": [
+    "VTO9521D",
+    "VTO9531D",
+    "VTO9541D",
+    "VTO9551D",
+    "VTO9531D-HD"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "VTO9521D",
+    "VTO9531D",
+    "VTO9541D",
+    "VTO9551D",
+    "VTO9531D-HD"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTO9521D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9531D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9541D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9551D:01:04:01:75:34:18:02:10:03:01:04:5DC:00:00:00:0C:00:01:00:01:800:FF",
+    "VTO9531D-HD:01:04:01:75:34:18:01:10:03:01:04:5DC:00:00:02:0C:00:01:00:01:800:FF",
+    "VTO9521D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:00:01:01:800:FF",
+    "VTO9531D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9541D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9551D:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF",
+    "VTO9531D-HD:01:04:01:75:34:18:02:10:03:01:04:5DC_5DC:00:00:00:0C:00:01:01:01:800:FF"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "VTO9521D",
+    "VTO9531D",
+    "VTO9541D",
+    "VTO9551D",
+    "VTO9531D-HD"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO9521D",
+     "1.00"
+    ],
+    [
+     "VTO9531D",
+     "1.00"
+    ],
+    [
+     "VTO9541D",
+     "1.00"
+    ],
+    [
+     "VTO9551D",
+     "1.00"
+    ],
+    [
+     "VTO9531D-HD",
+     "1.00"
+    ],
+    [
+     "VTO9521D",
+     "1.10"
+    ],
+    [
+     "VTO9531D",
+     "1.10"
+    ],
+    [
+     "VTO9541D",
+     "1.10"
+    ],
+    [
+     "VTO9551D",
+     "1.10"
+    ],
+    [
+     "VTO9531D-HD",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-16",
+    "latest": "2021-07-16"
+   },
+   "firmware": "DH_VTO95XXX_Eng_P_SIP_V4.300.0000003.0.R.210716.bin",
+   "flash_size": 17179869184,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 133024,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 272752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 88248,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4123592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 36522168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1157304,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 6453432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 126736568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4181615274fc9113",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-16",
+    "latest": "2021-07-16"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 126736568,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9b3ab074e9f801d3",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b30ef046348851cb872c8ca000b7e7f43c088c3c427fceff639bd3000704bab2"
+}

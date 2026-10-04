@@ -1,0 +1,286 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ4040XB-A",
+    "CA-HZ4045XA-A",
+    "CA-HZ4025XA-A",
+    "CA-HZ2033XA-A",
+    "CA-HZ2037XA-A",
+    "CA-HZ2025XA-A",
+    "CA-HZ4032XB-A",
+    "CA-HZ4030XB-A",
+    "SD-MT1A404XB-GNR-A",
+    "CA-HZ4040XA-A",
+    "CA-HZ4032XA-A",
+    "CA-HZ4033XA-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4040XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4045XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2033XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2037XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4030XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "SD-MT1A404XB-GNR-A:01:03:04:78:36:00:01:10:03:03:04:384_384:00:00:00:00:00:01:00:00:400",
+    "CA-HZ4040XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ4040XB-A",
+    "CA-HZ4045XA-A",
+    "CA-HZ4025XA-A",
+    "CA-HZ2033XA-A",
+    "CA-HZ2037XA-A",
+    "CA-HZ2025XA-A",
+    "CA-HZ4032XB-A",
+    "CA-HZ4030XB-A",
+    "SD-MT1A404XB-GNR-A",
+    "CA-HZ4040XA-A",
+    "CA-HZ4032XA-A",
+    "CA-HZ4033XA-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-04-20",
+    "latest": "2019-04-20"
+   },
+   "firmware": null,
+   "flash_size": 3758096384,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Farsi",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-04-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3698237,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1194168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1276088,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 124217528,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-04-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6629560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "b734eb27c664d95a",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "47de925b8c41cafbefc01fad8ef785b8f2339522b0bcaa2e342aeb695b342b1b"
+}

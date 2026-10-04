@@ -1,0 +1,144 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_ARC3008C_V2.617.0000001.0.R.20230203.bin",
+   "ids": [
+    "DVR21xx",
+    "General_21xx"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4998",
+   "build_dates": {
+    "earliest": "2023-02-03",
+    "latest": "2023-02-03"
+   },
+   "firmware": "General_ARC3008C_V2.617.0000001.0.R.20230203.bin",
+   "flash_size": 30408704,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_21xx"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-02-03",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3520Dboot",
+     "image_size": 230976,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-02-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "3520Dromfs",
+     "image_size": 13062144,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-02-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "3520Dweb",
+     "image_size": 675840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-02-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "3520Dcustom",
+     "image_size": 4096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-02-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "3520Dlogo",
+     "image_size": 4096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0645ff55407aa87f",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3520Dboot"
+     },
+     {
+      "member": "romfs-x.squashfs.img",
+      "source": "image_name",
+      "value": "3520Dromfs"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "89af82461f87196f33651afb3039ffc9b4c0695f01e23199e3f84650afc999f7"
+}

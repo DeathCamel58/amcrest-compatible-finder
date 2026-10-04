@@ -1,0 +1,116 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR4K",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.04-svn1958",
+   "build_dates": {
+    "earliest": "2015-09-28",
+    "latest": "2015-09-28"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR4K",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR4K",
+     "image_size": 457596,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 22671360,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 2969600,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 102400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2015-09-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web_mac-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 2138112,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fef7544d4308eb37",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5f6f08b8a5ac001f8e8b5f285a9543abf5a9e6f68fa6a95b5a941f80c29ecc2c"
+}

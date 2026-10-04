@@ -1,0 +1,184 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "VIP_9180_B-D-Pan-FT_V3.000.00IB000.0.R.210824.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PDBW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8843-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8843-A180-E4-F:01:02:05:6A:34:00:04:01:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "VIP_9180_B-D-Pan-FT_V3.000.00IB000.0.R.210824.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "VIP_9180_B-D-Pan-FT_V3.000.00IB000.0.R.210824.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-09-16",
+    "latest": "2021-09-16"
+   },
+   "firmware": "VIP_9180_B-D-Pan-FT_V3.000.00IB000.0.R.210824.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Portuguese",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-09-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 241680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 268656,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 44672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1145016,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5521284,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 82249912,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 11552952,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "b5d681d47bda5c1dc9e3786e73e040a37a60deef0dca9f561a8b57709273e662"
+}

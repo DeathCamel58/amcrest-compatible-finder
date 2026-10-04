@@ -1,0 +1,105 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-S2XXX-VenusB_Eng_Local_V1.001.0000000.12.R.230816.bin",
+   "ids": [
+    "TS-Venus-B-4ET-96"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-Venus-B-4ET-96",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-S2XXX-VenusB_Eng_Local_V1.001.0000000.12.R.230816.bin",
+   "ids": [
+    "TS-Venus-B-4ET-96"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-Venus-B-4ET-96:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn10769",
+   "build_dates": {
+    "earliest": "2023-08-16",
+    "latest": "2023-08-16"
+   },
+   "firmware": "DH_TS-S2XXX-VenusB_Eng_Local_V1.001.0000000.12.R.230816.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": null,
+    "video_standard": ""
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-08-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "U-boot",
+     "image_size": 245944,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1686200,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-16",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs-x",
+     "image_size": 10508472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c796f1c0b2726248",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc325"
+     }
+    ],
+    "name": "SSC325",
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V1.001.0000000.12.R.230816"
+  }
+ ],
+ "sha256": "b3261ad92a5076db12bbf31dcdb54f771a55bdceccd1366b0acbc89e1a85c48e"
+}

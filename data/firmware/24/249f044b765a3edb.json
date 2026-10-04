@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-03-15",
+    "latest": "2013-03-15"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-03-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "DHVision_General_IPC-K100_Eng_NP_BootSpi_V2.103.0000.3.R.20130315_data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 757760,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5d0b3660b0da1b16",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "249f044b765a3edb227573d0526583528e03b91ff408ac3ad093c4863c0a32d6"
+}

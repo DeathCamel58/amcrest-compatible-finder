@@ -1,0 +1,80 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2275512,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cb8e8c01f130e897",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "2cf6e4ec932e5fa9db960c9dd46bbdf964b45336b46f792b020c49b18a6dc6c2"
+}

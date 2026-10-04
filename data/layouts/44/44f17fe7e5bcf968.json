@@ -1,0 +1,209 @@
+{
+ "id": "44f17fe7e5bcf968",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "bootloader",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0x140000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x40000"
+  },
+  {
+   "end": "0x280000",
+   "name": "bootloader",
+   "size": 262144,
+   "start": "0x240000"
+  },
+  {
+   "end": "0x380000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x280000"
+  },
+  {
+   "end": "0x600000",
+   "name": "bootloader",
+   "size": 2621440,
+   "start": "0x380000"
+  },
+  {
+   "end": "0x6f00000",
+   "name": "kernel",
+   "size": 33554432,
+   "start": "0x4f00000"
+  },
+  {
+   "end": "0x7700000",
+   "name": "pd",
+   "size": 8388608,
+   "start": "0x6f00000"
+  },
+  {
+   "end": "0x9700000",
+   "name": "web",
+   "size": 33554432,
+   "start": "0x7700000"
+  },
+  {
+   "end": "0xd700000",
+   "name": "rootfs",
+   "size": 67108864,
+   "start": "0x9700000"
+  },
+  {
+   "end": "0x14b00000",
+   "name": "rootfs",
+   "size": 121634816,
+   "start": "0xd700000"
+  },
+  {
+   "end": "0x2a700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x26700000"
+  },
+  {
+   "end": "0x2e700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x2a700000"
+  },
+  {
+   "end": "0x32700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x2e700000"
+  },
+  {
+   "end": "0x36700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x32700000"
+  },
+  {
+   "end": "0x3a700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x36700000"
+  },
+  {
+   "end": "0x3e700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x3a700000"
+  },
+  {
+   "end": "0x42700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x3e700000"
+  },
+  {
+   "end": "0x46700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x42700000"
+  },
+  {
+   "end": "0x4a700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x46700000"
+  },
+  {
+   "end": "0x4e700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x4a700000"
+  },
+  {
+   "end": "0x52700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x4e700000"
+  },
+  {
+   "end": "0x56700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x52700000"
+  },
+  {
+   "end": "0x5a700000",
+   "name": "firmware",
+   "size": 67108864,
+   "start": "0x56700000"
+  },
+  {
+   "end": "0x66700000",
+   "name": "firmware",
+   "size": 201326592,
+   "start": "0x5a700000"
+  },
+  {
+   "end": "0x6a700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x66700000"
+  },
+  {
+   "end": "0x6e700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x6a700000"
+  },
+  {
+   "end": "0x72700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x6e700000"
+  },
+  {
+   "end": "0x76700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x72700000"
+  },
+  {
+   "end": "0x7a700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x76700000"
+  },
+  {
+   "end": "0x7e700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x7a700000"
+  },
+  {
+   "end": "0x82700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x7e700000"
+  },
+  {
+   "end": "0x86700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x82700000"
+  },
+  {
+   "end": "0x8a700000",
+   "name": "itop",
+   "size": 67108864,
+   "start": "0x86700000"
+  },
+  {
+   "end": "0xc6700000",
+   "name": "itop",
+   "size": 1006632960,
+   "start": "0x8a700000"
+  }
+ ]
+}

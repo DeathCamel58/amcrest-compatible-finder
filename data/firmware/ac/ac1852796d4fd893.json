@@ -1,0 +1,117 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_NVR5xxx_Eng_P_RHINOCO_V2.616.0000.6.R.20140417.bin",
+   "ids": [
+    "DVRxx04HF-X",
+    "General",
+    "General_N6"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2014-04-22",
+    "latest": "2014-04-22"
+   },
+   "firmware": "General_NVR5xxx_Eng_P_RHINOCO_V2.616.0000.6.R.20140417.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "General_N6"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2014-04-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 149556,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2014-04-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20082688,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2014-04-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1781760,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-04-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-04-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7556807b1238a294",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "ac1852796d4fd8930b4fcddfbefd3f2303f20ed10e52c770d1ebf7db4a97580d"
+}

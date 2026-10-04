@@ -1,0 +1,262 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SDT8A1840WA-8Z4",
+    "CA-HZ8040WA-B",
+    "SDT8A1840WA-T8Z4",
+    "CA-HZ8040WA-C",
+    "SDT8A1440WA-4Z3",
+    "CA-HZ4040WA1-E"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT8A1840WA-8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA-B:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT8A1840WA-T8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ8040WA-C:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT8A1440WA-4Z3:01:03:04:86:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "CA-HZ4040WA1-E:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SDT8A1840WA-8Z4",
+    "CA-HZ8040WA-B",
+    "SDT8A1840WA-T8Z4",
+    "CA-HZ8040WA-C",
+    "SDT8A1440WA-4Z3",
+    "CA-HZ4040WA1-E"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-01-06",
+    "latest": "2022-01-06"
+   },
+   "firmware": null,
+   "flash_size": 4076863488,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-01-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 280576,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9356436,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 69632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 208896,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 147529728,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13832192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "c12e44e9f1a7aa65",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3559av100"
+     }
+    ],
+    "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "58676811585d4d50863b1f131e32156d1950b6116e9d3f40e4da8955b4e1230e"
+}

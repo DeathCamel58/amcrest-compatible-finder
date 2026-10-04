@@ -1,0 +1,73 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-01-22",
+    "latest": "2019-01-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-01-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 548864,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "62c9e028ec00dae9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "9f10c9151dac30a27e7735d38121247a1e98a5e2c0306f1f7b7c567c9368eccb"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "88a7d93418b798f3",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x5200000",
+   "name": "custom",
+   "size": 4194304,
+   "start": "0x4e00000"
+  },
+  {
+   "end": "0x5600000",
+   "name": "pd",
+   "size": 4194304,
+   "start": "0x5200000"
+  },
+  {
+   "end": "0x6600000",
+   "name": "kernel",
+   "size": 16777216,
+   "start": "0x5600000"
+  },
+  {
+   "end": "0x8600000",
+   "name": "web",
+   "size": 33554432,
+   "start": "0x6600000"
+  },
+  {
+   "end": "0x18600000",
+   "name": "rootfs",
+   "size": 268435456,
+   "start": "0x8600000"
+  },
+  {
+   "end": "0x83f00000",
+   "name": "firmware",
+   "size": 134217728,
+   "start": "0x7bf00000"
+  },
+  {
+   "end": "0xc3f00000",
+   "name": "itop",
+   "size": 134217728,
+   "start": "0xbbf00000"
+  }
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_ASI22XXH_Cze_NP_V1.000.10SZ000.0.R.240724.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI2212H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2212H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Customer_ASI22XXH_Cze_NP_V1.000.10SZ000.0.R.240724.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI2212H-W",
+     "1.00"
+    ],
+    [
+     "ASI2212H-DW",
+     "1.00"
+    ],
+    [
+     "ASI2201H-W",
+     "1.00"
+    ],
+    [
+     "ASI2201H-DW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "Customer_ASI22XXH_Cze_NP_V1.000.10SZ000.0.R.240724.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI2212H-W",
+     "1.00"
+    ],
+    [
+     "ASI2212H-DW",
+     "1.00"
+    ],
+    [
+     "ASI2201H-W",
+     "1.00"
+    ],
+    [
+     "ASI2201H-DW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ASI2212H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2212H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-24",
+    "latest": "2024-07-24"
+   },
+   "firmware": "Customer_ASI22XXH_Cze_NP_V1.000.10SZ000.0.R.240724.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Czechish",
+    "supported_languages": [
+     "Czechish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 806,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1886392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 47288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5108796,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 12998840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2828472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e7824ca617bf6704",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-07-24",
+    "latest": "2024-07-24"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Czechish",
+    "supported_languages": [
+     "Czechish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2828472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a1eed7ae7c686f77",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0a4d087a55eb3e9acd2e17a3d95bb37d4977ddaec873d7a893bca8426faffb04"
+}

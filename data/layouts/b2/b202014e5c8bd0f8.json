@@ -1,0 +1,78 @@
+{
+ "id": "b202014e5c8bd0f8",
+ "partitions": [
+  {
+   "end": "0x80000",
+   "name": "U-Boot",
+   "size": 262144,
+   "start": "0x40000"
+  },
+  {
+   "end": "0xc0000",
+   "name": "updateflag",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "hwid",
+   "size": 262144,
+   "start": "0xc0000"
+  },
+  {
+   "end": "0x110000",
+   "name": "partition",
+   "read_only": true,
+   "size": 65536,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x270000",
+   "name": "Kernel",
+   "size": 1441792,
+   "start": "0x110000"
+  },
+  {
+   "end": "0x3f0000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 1572864,
+   "start": "0x270000"
+  },
+  {
+   "end": "0xe40000",
+   "name": "user",
+   "read_only": true,
+   "size": 10813440,
+   "start": "0x3f0000"
+  },
+  {
+   "end": "0xf40000",
+   "name": "data",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0xe40000"
+  },
+  {
+   "end": "0xf50000",
+   "name": "web",
+   "read_only": true,
+   "size": 65536,
+   "start": "0xf40000"
+  },
+  {
+   "end": "0xfb0000",
+   "name": "config",
+   "read_only": false,
+   "size": 393216,
+   "start": "0xf50000"
+  },
+  {
+   "end": "0x1000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 327680,
+   "start": "0xfb0000"
+  }
+ ]
+}

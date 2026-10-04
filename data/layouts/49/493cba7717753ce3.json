@@ -1,0 +1,41 @@
+{
+ "id": "493cba7717753ce3",
+ "partitions": [
+  {
+   "end": "0x2c0000",
+   "name": "U-Boot",
+   "size": 1572864,
+   "start": "0x140000"
+  },
+  {
+   "end": "0xb40000",
+   "name": "RTOS",
+   "size": 5242880,
+   "start": "0x640000"
+  },
+  {
+   "end": "0x1040000",
+   "name": "Kernel",
+   "size": 5242880,
+   "start": "0xb40000"
+  },
+  {
+   "end": "0x2040000",
+   "name": "romfs",
+   "size": 16777216,
+   "start": "0x1040000"
+  },
+  {
+   "end": "0x2840000",
+   "name": "user",
+   "size": 8388608,
+   "start": "0x2040000"
+  },
+  {
+   "end": "0x6600000",
+   "name": "rofile",
+   "size": 20709376,
+   "start": "0x5240000"
+  }
+ ]
+}

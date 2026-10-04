@@ -1,0 +1,157 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-Mach_MultiLang_PN_V2.860.0000000.3.R.260424.bin",
+   "ids": [
+    "IPC-H3AS",
+    "IPC-H5AS",
+    "IPC-H3JE",
+    "IPC-H5JE",
+    "IPC-H5JP-0360B",
+    "IPC-H5D-5F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-H3AS:01:02:00:FA:83:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:40",
+    "IPC-H5AS:01:02:00:100:83:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:40",
+    "IPC-H3JE:01:02:00:FA:83:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:40",
+    "IPC-H5JE:01:02:00:100:83:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:40",
+    "IPC-H5JP-0360B:01:02:00:100:83:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-H5D-5F:01:02:08:E6:66:00:02:10:01:01:04:3E8:00:02:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-WPT-Mach_MultiLang_PN_V2.860.0000000.3.R.260424.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-Mach_MultiLang_PN_V2.860.0000000.3.R.260424.bin",
+   "ids": [
+    "IPC-H3AS",
+    "IPC-H5AS",
+    "IPC-H3JE",
+    "IPC-H5JE",
+    "IPC-H5JP-0360B",
+    "IPC-H5D-5F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-04-24",
+    "latest": "2026-04-24"
+   },
+   "firmware": "DH_IPC-WPT-Mach_MultiLang_PN_V2.860.0000000.3.R.260424.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 157880,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 288700,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 288700,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1585120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-04-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 12325232,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9697ad9d59fb5ed1",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ssc385"
+     }
+    ],
+    "name": "SSC385",
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V2.860.0000000.3.R.260424"
+  }
+ ],
+ "sha256": "f46044c38089acaed32d12e4f8bcfab04f38e861c541c58e0b7639120b62c588"
+}

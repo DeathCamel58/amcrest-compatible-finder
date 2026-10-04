@@ -1,0 +1,116 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V1.000.0000002.3.R.260618.bin",
+   "ids": [
+    "TS-S6452-48GT4XF",
+    "TS-S6452-48GF4XF",
+    "TS-S6436-24GT8GF4XF",
+    "TS-S6436-24GF8GT4XF",
+    "TS-S5452-48GT4XF-V2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S6452-48GT4XF:02:04:03:01:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:00:02:00",
+    "TS-S6452-48GT4XF:02:04:03:01:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:01:02:00",
+    "TS-S6452-48GF4XF:02:04:03:02:1000:00:00:00:00:00:00:00:00:00:34:00:00:00:00:00:00",
+    "TS-S6436-24GT8GF4XF:02:04:03:03:1000:00:00:00:00:00:00:00:00:18:0C:00:00:00:00:00:00",
+    "TS-S6436-24GF8GT4XF:02:04:03:04:1000:00:00:00:00:00:00:00:00:08:1C:00:00:00:00:00:00",
+    "TS-S5452-48GT4XF-V2:02:04:03:05:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:00:00:00"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V1.000.0000002.3.R.260618.bin",
+   "ids": [
+    "TS-S6452-48GT4XF",
+    "TS-S6452-48GF4XF",
+    "TS-S6436-24GF8GT4XF",
+    "TS-S6436-24GT8GF4XF",
+    "TS-S5452-48GT4XF-V2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S6452-48GT4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6452-48GF4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6436-24GF8GT4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6436-24GT8GF4XF",
+     "1.00"
+    ],
+    [
+     "TS-S5452-48GT4XF-V2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2021.04-svn151058",
+   "build_dates": {
+    "earliest": "2026-06-18",
+    "latest": "2026-06-18"
+   },
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V1.000.0000002.3.R.260618.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-06-18",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uImage",
+     "image_name": "firmware",
+     "image_size": 66707128,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5c3a55414f3b689b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "boot_512M.bin",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V1.000.0000002.3.R.260618"
+  }
+ ],
+ "sha256": "1e44ab756538fd27cbfa67ab9ea0f04d8a4e42a16bb7d3403dde9be81af49b07"
+}

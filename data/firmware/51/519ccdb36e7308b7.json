@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-14",
+    "latest": "2013-01-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "DHVision_General_DVRxx04LF-A_Eng_N_FirstOption_V2.608.0006.0.R.20130114_u-boot.bin.img",
+     "image_name": "linuxboot",
+     "image_size": 148448,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8be10ad5ffad3355",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "519ccdb36e7308b7a5504bc24f54e03553529d912a6700fcbfd0f05f052189cf"
+}

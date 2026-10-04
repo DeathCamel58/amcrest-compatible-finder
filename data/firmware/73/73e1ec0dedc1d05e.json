@@ -1,0 +1,117 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO32XXX-data_EngTurSlkPldHgrFinCzeBul_P_32M_SIP_PART_V4.300.0000004.0.R.20190629.bin",
+   "ids": [
+    "VTO6221",
+    "VTO622X",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO3221D",
+    "VTO3221E",
+    "VTO6221E"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6221",
+     "1.00"
+    ],
+    [
+     "VTO622X",
+     "1.00"
+    ],
+    [
+     "VTO6223B",
+     "1.00"
+    ],
+    [
+     "VTO6223C",
+     "1.00"
+    ],
+    [
+     "VTO3221D",
+     "1.00"
+    ],
+    [
+     "VTO3221E",
+     "1.00"
+    ],
+    [
+     "VTO6221E",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1572864,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e3a35333e1e04abc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTO32XXX-data_EngTurSlkPldHgrFinCzeBul_P_32M_SIP_PART_V4.300.0000004.0.R.20190629.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1572864,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e3a35333e1e04abc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "73e1ec0dedc1d05ee64e853ac6c3ebbacb4083dc14894e5633e08e0fdd35bdda"
+}

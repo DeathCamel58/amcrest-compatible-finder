@@ -1,0 +1,110 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DVRXX04HB-U",
+    "DVR0X04HBU",
+    "DVR0X04HB-U",
+    "DVR1604HBU",
+    "General",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2009-03-20",
+    "latest": "2009-03-20"
+   },
+   "firmware": null,
+   "flash_size": 2155872256,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "DAHUA"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2009-03-20",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "armboot-x.bin.img",
+     "image_name": "uClinux",
+     "image_size": 97166,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2009-03-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2009-03-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 6225920,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2009-03-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 1159168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2009-03-20",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "uClinux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "f5da839cd6b52ece",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "917bda57f774db2721afa380a9a751ca235961b34443435292eb1dca884b901c"
+}

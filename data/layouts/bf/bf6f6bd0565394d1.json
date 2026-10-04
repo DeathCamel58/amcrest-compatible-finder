@@ -1,0 +1,23 @@
+{
+ "id": "bf6f6bd0565394d1",
+ "partitions": [
+  {
+   "end": "0x180000",
+   "name": "uboot",
+   "size": 1572864,
+   "start": "0x0"
+  },
+  {
+   "end": "0x170008",
+   "name": "uVersion",
+   "size": 8,
+   "start": "0x170000"
+  },
+  {
+   "end": "0x300000",
+   "name": "uboot_bk",
+   "size": 1572864,
+   "start": "0x180000"
+  }
+ ]
+}

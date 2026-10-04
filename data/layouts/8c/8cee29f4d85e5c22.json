@@ -1,0 +1,53 @@
+{
+ "id": "8cee29f4d85e5c22",
+ "partitions": [
+  {
+   "end": "0x1a0000",
+   "name": "ipl",
+   "size": 393216,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x200000",
+   "name": "ipl_cust",
+   "size": 393216,
+   "start": "0x1a0000"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x1d00000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x1c00000"
+  },
+  {
+   "end": "0x2100000",
+   "name": "kernel",
+   "size": 3145728,
+   "start": "0x1e00000"
+  },
+  {
+   "end": "0x2b00000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x2100000"
+  },
+  {
+   "end": "0x3000000",
+   "name": "rootfs",
+   "size": 5242880,
+   "start": "0x2b00000"
+  },
+  {
+   "end": "0x5300000",
+   "name": "user",
+   "size": 36700160,
+   "start": "0x3000000"
+  }
+ ]
+}

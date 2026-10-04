@@ -1,0 +1,222 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "NVR1XXX-S3H",
+    "IntelBras",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-27",
+    "latest": "2026-01-27"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o NVD 1400 26-12-2025/u-boot.bin.img",
+     "image_name": "IBNVR1XXX-S3H",
+     "image_size": 2752512,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o NVD 1400 26-12-2025/custom-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o NVD 1400 26-12-2025/web-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 6127616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o NVD 1400 26-12-2025/logo-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 90112,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bfaa3bf5464c70c1",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-27",
+    "latest": "2026-01-27"
+   },
+   "firmware": "update.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IBNVR1XXX-S3H",
+     "image_size": 2752512,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "IBNVR1XXX-S3H",
+     "image_size": 31686656,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 6127616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 90112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-01-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "eusr-x.squashfs.img",
+     "image_name": "NVR1XXX-S3H",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0eaca6e44e5bfb5c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "de1404a606a7311620847d320ba4ddc2e87fd11f9603a388c51d5b9f0a1b04a3"
+}

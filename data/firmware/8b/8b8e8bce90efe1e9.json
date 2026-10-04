@@ -1,0 +1,278 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "XVR4x08-I3-B",
+    "IB_XVR4x08-I3-B"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.07-svn5186",
+   "build_dates": {
+    "earliest": "2024-08-15",
+    "latest": "2024-08-15"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/u-boot.bin.img",
+     "image_name": "IB4x08boot",
+     "image_size": 759276,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 13119488,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 118784,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "52a2011b177d1f39",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98323",
+     "NT98321"
+    ],
+    "evidence": [
+     {
+      "member": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98323"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo de firmware - MHDX 1204 - MHDX 1208 - 15-08-24/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98321"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.07-svn5186",
+   "build_dates": {
+    "earliest": "2024-08-15",
+    "latest": "2024-08-15"
+   },
+   "firmware": "update.bin",
+   "flash_size": 402653184,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_XVR4x08-I3-B"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "IB4x08boot",
+     "image_size": 15970,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IB4x08boot",
+     "image_size": 759276,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "IB4x08romfs",
+     "image_size": 38760448,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 13119488,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 118784,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-08-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 2240512,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "c98fc52eee23e015",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98323",
+     "NT98321"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51068"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51068"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98323"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98321"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   }
+  }
+ ],
+ "sha256": "8b8e8bce90efe1e9653739e3dfdccdbd3f8bc8e3c8b2adb20601909454892098"
+}

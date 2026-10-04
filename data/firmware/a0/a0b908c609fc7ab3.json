@@ -1,0 +1,214 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "UrusMX7_Stream3-CustomPro_V3.140.00KL001.0.R.260129.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "UrusMX7_Stream3-CustomPro_V3.140.00KL001.0.R.260129.bin",
+   "ids": [
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDBW5449R-ASE-LED:01:02:00:B3:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449TP-ASE-LED:01:02:00:B3:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449E-SE-LED:01:02:00:B3:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW5449TM-SE-LED:01:02:00:B3:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2:01:02:02:B3:57:00:01:14:07:03:04:3E8:03:00:02:00:00:01:00:00:400",
+    "IPC-HDW5449HP-ZE-LED-2712-S2:01:02:02:B3:57:00:01:14:07:03:04:3E8:03:00:02:00:00:01:00:00:400",
+    "IPC-HDBW5441E-ZE-HDMI-27135:01:02:00:CE:56:00:01:10:03:01:04:3E8:02:00:00:04:00:01:00:00:400",
+    "IPC-HDBW5441R-ASE-HDMI:01:02:00:CE:56:00:01:10:03:01:04:3E8:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2:01:02:02:D1:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2:01:02:00:D1:56:00:01:14:07:01:04:3E8:03:00:00:00:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "UrusMX7_Stream3-CustomPro_V3.140.00KL001.0.R.260129.bin",
+   "ids": [
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2"
+   ],
+   "member": "hwid",
+   "raw_same_as": 1,
+   "source": "hwid"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-29",
+    "latest": "2026-03-02"
+   },
+   "firmware": "UrusMX7_Stream3-CustomPro_V3.140.00KL001.0.R.260129.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 294836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 223064,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 205076,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 205076,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 110532792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4449464,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 10139832,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 26446008,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4449464,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15026360,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1583288,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e6f8a4475151d703",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.00KL001.0.R.260129"
+  }
+ ],
+ "sha256": "a0b908c609fc7ab37d178a22a8e2ce44f9d93be183016bd9cb8eb47126c38b18"
+}

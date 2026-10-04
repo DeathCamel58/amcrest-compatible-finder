@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2015-06-25",
+    "latest": "2015-06-25"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2015-06-25",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_164211_General_HCVR7xxx(V2.0)_Eng_PN_V3.210.0000.2.R.20150626_romfs-x.cramfs.img",
+     "image_name": "N7",
+     "image_size": 20426752,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6b1f781c5ed93576",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "aa2bae607831069d5bcd3bf186742b22588313826e7ae84b4725ce515b0431e4"
+}

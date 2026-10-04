@@ -1,0 +1,238 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "DH-HY-FT443HF-TD3F4",
+    "DH-HY-FT443HF-TD3F4-A"
+   ],
+   "member": "check.img",
+   "raw": [
+    "DH-HY-FT443HF-TD3F4:01:02:02:F3:69:00:02:14:03:03:04:352:09:00:02:00:00:01:00:00:400",
+    "DH-HY-FT443HF-TD3F4-A:01:02:02:F3:69:00:02:14:03:03:04:352:09:00:02:00:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "DH-HY-FT443HF-TD3F4",
+    "DH-HY-FT443HF-TD3F4-A"
+   ],
+   "member": "check.img",
+   "raw": [
+    "DH-HY-FT443HF-TD3F4:01:02:02:F3:69:00:02:14:03:03:04:352:09:00:02:00:00:01:00:00:400",
+    "DH-HY-FT443HF-TD3F4-A:01:02:02:F3:69:00:02:14:03:03:04:352:09:00:02:00:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-10",
+    "latest": "2026-09-10"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-09-10",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part00.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-10",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part01.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-10",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.part02.img",
+     "image_name": "firmware",
+     "image_size": 17828024,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0c5012ac1f084926",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-10",
+    "latest": "2026-09-10"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian",
+     "Polish"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-10",
+    "latest": "2026-09-10"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian",
+     "Polish"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 21510328,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "aadff01f37e0feb4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1e5e38008fc8113fdb2110c9654d8e91d3fe5d54f7d8584ec51ae80477289b92"
+}

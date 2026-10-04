@@ -1,0 +1,355 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_VTO65XXX_Eng_NP_SIP_V4.300.9806001.0.R.20201122.bin",
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521H-D",
+    "VTO6521F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6541H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6531H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6531F:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6521H:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6521H-D:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6521F:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Customer_VTO65XXX_Eng_NP_SIP_V4.300.9806001.0.R.20201122.bin",
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521F"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6541H",
+     "1.00"
+    ],
+    [
+     "VTO6531H",
+     "1.00"
+    ],
+    [
+     "VTO6531F",
+     "1.00"
+    ],
+    [
+     "VTO6521H",
+     "1.00"
+    ],
+    [
+     "VTO6521F",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "Customer_VTO65XXX_Eng_NP_SIP_V4.300.9806001.0.R.20201122.bin",
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521H-D",
+    "VTO6521F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-11-22",
+    "latest": "2020-11-22"
+   },
+   "firmware": "Customer_VTO65XXX_Eng_NP_SIP_V4.300.9806001.0.R.20201122.bin",
+   "flash_size": 18446744075681923071,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 211312,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3914499,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 28485816,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 6068408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1472696,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2020-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware.img",
+     "image_name": "firmware",
+     "image_size": 113080504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "425e21d5d4c35677",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5246cc3a43fbbf6050826d56a0f0ce5dd665c2bde940a6c0af41f2c38c26d5aa"
+}

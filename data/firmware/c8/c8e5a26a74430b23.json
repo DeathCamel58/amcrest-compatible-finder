@@ -1,0 +1,108 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TS-S5452-48GT4XF-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S5452-48GT4XF",
+    "TS-S5452-48GT4XF-400",
+    "TS-S5452-48GT4XF-750",
+    "TS-S4200-48GT4GF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-S5452-48GT4XF",
+     "1.00"
+    ],
+    [
+     "TS-S5452-48GT4XF-400",
+     "1.00"
+    ],
+    [
+     "TS-S5452-48GT4XF-750",
+     "1.00"
+    ],
+    [
+     "TS-S4200-48GT4GF",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TS-S5452-48GT4XF-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "ids": [
+    "TS-S5452-48GT4XF",
+    "TS-S5452-48GT4XF-400",
+    "TS-S5452-48GT4XF-750",
+    "TS-S4200-48GT4GF"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S5452-48GT4XF:02:04:01:09:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S5452-48GT4XF-400:02:04:01:0C:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S5452-48GT4XF-750:02:04:01:0B:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+    "TS-S4200-48GT4GF:02:04:02:3E:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:156:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2026-01-08",
+    "latest": "2026-01-08"
+   },
+   "firmware": "DH_TS-S5452-48GT4XF-ArtemisC_Eng_Local_V1.001.0000000.29.R.260108.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 891992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-08",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 17824440,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "789b63f8d9c9bd48",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.001.0000000.29.R.260108"
+  }
+ ],
+ "sha256": "c8e5a26a74430b23e86d9ae1df05cd3aefa020d5db9d5f273a6544d9814a2b69"
+}

@@ -1,0 +1,435 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-NormalCloud_V3.211.0000014.4.R.260807.bin",
+   "ids": [
+    "SD-MT2T4000GBS2-A",
+    "SD-MT2T4005GBS2-A",
+    "CA-HZ4032GB1S2-4F-0400-A",
+    "CA-HZ4032GB1S2-4F-0400-B",
+    "CA-HZ4033GA4S2-A",
+    "CA-HZ4033GAS2-A",
+    "CA-HZ4040GBS2-A",
+    "CA-HZ4032GBS2-B",
+    "CA-HZ2032GB1S2-A",
+    "CA-HZ4040GA1S2-4F-0600-A",
+    "CA-HZ4040GA1S2-4F-0600-B",
+    "CA-HZ8040GA1S2-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT2T4000GBS2-A:01:03:04:10B:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800C",
+    "SD-MT2T4005GBS2-A:01:03:04:10B:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800C",
+    "CA-HZ4032GB1S2-4F-0400-A:01:03:04:B3:6A:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:400:FF:8004_8004",
+    "CA-HZ4032GB1S2-4F-0400-B:01:03:04:B3:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:400:FF:8004_8004",
+    "CA-HZ4033GA4S2-A:01:03:04:86:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4033GAS2-A:01:03:04:86:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4040GBS2-A:01:03:04:10C:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4032GBS2-B:01:03:04:10C:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FE:820E",
+    "CA-HZ2032GB1S2-A:01:03:04:124:69:00:01:10:01:03:04:352_352:04:00:00:04:00:03:00:00:400:FE:820E",
+    "CA-HZ4040GA1S2-4F-0600-A:01:03:04:86:6A:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:0000_800E",
+    "CA-HZ4040GA1S2-4F-0600-B:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E",
+    "CA-HZ8040GA1S2-B:01:03:04:F2:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-NormalCloud_V3.211.0000014.4.R.260807.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-NormalCloud_V3.211.0000014.4.R.260807.bin",
+   "ids": [
+    "SD-MT2T4000GBS2-A",
+    "SD-MT2T4005GBS2-A",
+    "CA-HZ4032GB1S2-4F-0400-A",
+    "CA-HZ4032GB1S2-4F-0400-B",
+    "CA-HZ4033GA4S2-A",
+    "CA-HZ4033GAS2-A",
+    "CA-HZ4040GBS2-A",
+    "CA-HZ4032GBS2-B",
+    "CA-HZ2032GB1S2-A",
+    "CA-HZ4040GA1S2-4F-0600-A",
+    "CA-HZ4040GA1S2-4F-0600-B",
+    "CA-HZ8040GA1S2-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD-MT2T4000GBS2-A",
+    "SD-MT2T4005GBS2-A",
+    "CA-HZ4032GB1S2-4F-0400-A",
+    "CA-HZ4032GB1S2-4F-0400-B",
+    "CA-HZ4033GA4S2-A",
+    "CA-HZ4033GAS2-A",
+    "CA-HZ4040GBS2-A",
+    "CA-HZ4032GBS2-B",
+    "CA-HZ2032GB1S2-A",
+    "CA-HZ4040GA1S2-4F-0600-A",
+    "CA-HZ4040GA1S2-4F-0600-B",
+    "CA-HZ8040GA1S2-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SD-MT2T4000GBS2-A:01:03:04:10B:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800C",
+    "SD-MT2T4005GBS2-A:01:03:04:10B:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800C",
+    "CA-HZ4032GB1S2-4F-0400-A:01:03:04:B3:6A:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:400:FF:8004_8004",
+    "CA-HZ4032GB1S2-4F-0400-B:01:03:04:B3:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:400:FF:8004_8004",
+    "CA-HZ4033GA4S2-A:01:03:04:86:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4033GAS2-A:01:03:04:86:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4040GBS2-A:01:03:04:10C:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FF:800E",
+    "CA-HZ4032GBS2-B:01:03:04:10C:69:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:400:FE:820E",
+    "CA-HZ2032GB1S2-A:01:03:04:124:69:00:01:10:01:03:04:352_352:04:00:00:04:00:03:00:00:400:FE:820E",
+    "CA-HZ4040GA1S2-4F-0600-A:01:03:04:86:6A:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:0000_800E",
+    "CA-HZ4040GA1S2-4F-0600-B:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E",
+    "CA-HZ8040GA1S2-B:01:03:04:F2:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SD-MT2T4000GBS2-A",
+    "SD-MT2T4005GBS2-A",
+    "CA-HZ4032GB1S2-4F-0400-A",
+    "CA-HZ4032GB1S2-4F-0400-B",
+    "CA-HZ4033GA4S2-A",
+    "CA-HZ4033GAS2-A",
+    "CA-HZ4040GBS2-A",
+    "CA-HZ4032GBS2-B",
+    "CA-HZ2032GB1S2-A",
+    "CA-HZ4040GA1S2-4F-0600-A",
+    "CA-HZ4040GA1S2-4F-0600-B",
+    "CA-HZ8040GA1S2-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-06",
+    "latest": "2026-08-06"
+   },
+   "firmware": "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-NormalCloud_V3.211.0000014.4.R.260807.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2026-08-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 639672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 31177,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 135600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 5748920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 20506808,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 9035960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_aa.img",
+     "image_name": "romfs",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_ab.img",
+     "image_name": "romfs",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_ac.img",
+     "image_name": "romfs",
+     "image_size": 4737208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 56465592,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "itop-x.ext4_aa.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ab.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ac.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ad.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ae.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_af.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-06",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ag.img",
+     "image_name": "itop",
+     "image_size": 14735544,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7f488fc54c7117b4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hi3519dv500"
+     }
+    ],
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.211.0000014.4.R.260807"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-06",
+    "latest": "2026-08-06"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.211.0000014.4.R.260807"
+  }
+ ],
+ "sha256": "a51fc674e61715d202a20807c2d5cfa2494e48b0ca5cf2f10576859ee6341a49"
+}

@@ -1,0 +1,621 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "5700WVI-H5"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_DAEHC5700WVI-H5_Eng_P_V1.001.0000000.0.R.240326.bin",
+   "ids": [
+    "5700WVI-H5"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "packshop_cut.bin",
+   "ids": [
+    "5700WVI-H5"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn60279",
+   "build_dates": {
+    "earliest": "2024-03-26",
+    "latest": "2024-03-26"
+   },
+   "firmware": null,
+   "flash_size": 83886080,
+   "kernel_version": "4.19.91",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "5700WVI-H5"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 21082,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 733584,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NT98528",
+     "image_size": 2177072,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4100096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhexefs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6963200,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhlibfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 634880,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhdrvfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 225280,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 9023488,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6135808,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 16384,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 15572992,
+     "image_type": "filesystem",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cd979d147716f742",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98529",
+     "NT98528"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51055"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51055"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "NT98529"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98528"
+     },
+     {
+      "member": "algorithm-x.squashfs.img",
+      "source": "image_name",
+      "value": "NT98528"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "LD98529A.bin.img"
+   ]
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn60279",
+   "build_dates": {
+    "earliest": "2024-03-26",
+    "latest": "2024-03-26"
+   },
+   "firmware": "DH_DAEHC5700WVI-H5_Eng_P_V1.001.0000000.0.R.240326.bin",
+   "flash_size": 83886080,
+   "kernel_version": "4.19.91",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "5700WVI-H5"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 21082,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 733584,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NT98528",
+     "image_size": 2177072,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4100096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhexefs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6963200,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhlibfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 634880,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhdrvfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 225280,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 9023488,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6135808,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 16384,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 15572992,
+     "image_type": "filesystem",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cd979d147716f742",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98529",
+     "NT98528"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51055"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51055"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "NT98529"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98528"
+     },
+     {
+      "member": "hwid-x.squashfs.img",
+      "source": "image_name",
+      "value": "NT98528"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "fdt_bak.bin.img",
+    "u-boot_bak.bin.img"
+   ]
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn60279",
+   "build_dates": {
+    "earliest": "2024-03-26",
+    "latest": "2024-03-26"
+   },
+   "firmware": "packshop_cut.bin",
+   "flash_size": 65011712,
+   "kernel_version": "4.19.91",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "5700WVI-H5"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 21082,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "FW98529T_SPINAND",
+     "image_size": 733584,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "NT98528",
+     "image_size": 2177072,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4100096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhexefs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6963200,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhlibfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 634880,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "dhdrvfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 225280,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "userfs-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 9023488,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 6135808,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 4096,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2024-03-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NT98528",
+     "image_size": 16384,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "e6606aa501aec92e",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98529",
+     "NT98528"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51055"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51055"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "NT98529"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98528"
+     },
+     {
+      "member": "hwid-x.squashfs.img",
+      "source": "image_name",
+      "value": "NT98528"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "fdt_bak.bin.img",
+    "u-boot_bak.bin.img"
+   ]
+  }
+ ],
+ "sha256": "1ecbca7e73da7269d722f408dd66a4785792885b6743c95dc6a2a120d1239bdd"
+}

@@ -1,0 +1,95 @@
+{
+ "id": "d3cfc6a892214aa6",
+ "partitions": [
+  {
+   "end": "0x40000",
+   "name": "MinBoot",
+   "size": 262144,
+   "start": "0x0"
+  },
+  {
+   "end": "0xc0000",
+   "name": "U-Boot",
+   "size": 262144,
+   "start": "0x80000"
+  },
+  {
+   "end": "0xe0000",
+   "name": "hwid",
+   "size": 131072,
+   "start": "0xc0000"
+  },
+  {
+   "end": "0xf0000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xe0000"
+  },
+  {
+   "end": "0x270000",
+   "name": "Kernel",
+   "size": 1572864,
+   "start": "0xf0000"
+  },
+  {
+   "end": "0x470000",
+   "name": "romfs",
+   "size": 2097152,
+   "start": "0x270000"
+  },
+  {
+   "end": "0x7c0000",
+   "name": "user",
+   "size": 3473408,
+   "start": "0x470000"
+  },
+  {
+   "end": "0xbc0000",
+   "name": "app",
+   "size": 4194304,
+   "start": "0x7c0000"
+  },
+  {
+   "end": "0xbf0000",
+   "name": "data",
+   "size": 196608,
+   "start": "0xbc0000"
+  },
+  {
+   "end": "0xc20000",
+   "name": "updateflag",
+   "size": 196608,
+   "start": "0xbf0000"
+  },
+  {
+   "end": "0xc80000",
+   "name": "config",
+   "size": 393216,
+   "start": "0xc20000"
+  },
+  {
+   "end": "0xc90000",
+   "name": "product",
+   "size": 65536,
+   "start": "0xc80000"
+  },
+  {
+   "end": "0xcb0000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0xc90000"
+  },
+  {
+   "end": "0xfe0000",
+   "name": "font",
+   "size": 3342336,
+   "start": "0xcb0000"
+  },
+  {
+   "end": "0xff0000",
+   "name": "tx",
+   "size": 65536,
+   "start": "0xfe0000"
+  }
+ ]
+}

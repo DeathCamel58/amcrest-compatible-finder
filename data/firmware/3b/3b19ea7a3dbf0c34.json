@@ -1,0 +1,198 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CE-C100",
+    "CE-C10S"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CE-C100:01:02:0D:1D:11:00:01:08:01:01:04:1B8:00:02:02:04:00:00:00:00:40",
+    "CE-C10S:01:02:0D:1D:11:0E:01:08:01:01:04:1B8:00:02:02:00:04:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "CE-C100",
+    "CE-C10S",
+    "CE-TP1",
+    "CE-TP1B",
+    "CE-TO1",
+    "IPC-C10"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "CE-C100",
+     "1.00"
+    ],
+    [
+     "CE-C10S",
+     "1.00"
+    ],
+    [
+     "CE-TP1",
+     "1.00"
+    ],
+    [
+     "CE-TP1B",
+     "1.00"
+    ],
+    [
+     "CE-TO1",
+     "1.00"
+    ],
+    [
+     "IPC-C10",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CE-C100",
+    "CE-C10S"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2464",
+   "build_dates": {
+    "earliest": "2015-05-06",
+    "latest": "2015-05-06"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.0.8",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": null,
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-05-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 194560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2015-05-06",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-06",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1042228,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 692224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-05-06",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 8871936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "7d3193d589eecda4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Hisilicon"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "HI3518"
+     }
+    ],
+    "name": "Hi3518",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "3b19ea7a3dbf0c346385d575ba8f7159c854b302cdc476addfa5ea7ee21940b1"
+}

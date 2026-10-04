@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1232",
+   "build_dates": {
+    "earliest": "2014-05-23",
+    "latest": "2014-05-23"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2014-05-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "DHVision_General_DVR7xxx_Eng_N_V3.200.0002.2.R.20140523_u-boot.bin.img",
+     "image_name": "N7",
+     "image_size": 394040,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "af417d35dee01bf4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "70132f39554ea85f259596ea041db3fa2e6d8e2fe05a1512a68acbc52dc41426"
+}

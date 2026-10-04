@@ -1,0 +1,208 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-A-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI3103F-W",
+    "ASI3103F-MEW",
+    "ASI3103F-MEP"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI3103F-W:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:02:00:00:08:01:00:01:200:FF",
+    "ASI3103F-MEW:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:02:00:00:08:01:00:01:200:FF",
+    "ASI3103F-MEP:01:04:05:102:4B:00:02:10:01:01:01:4B0:00:00:00:00:00:01:00:01:200:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASIX2XX-A-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI3103F-W",
+    "ASI3103F-MEW",
+    "ASI3103F-MEP"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI3103F-W",
+     "1.00"
+    ],
+    [
+     "ASI3103F-MEW",
+     "1.00"
+    ],
+    [
+     "ASI3103F-MEP",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-A-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "ids": [
+    "ASI3103F-W",
+    "ASI3103F-MEW",
+    "ASI3103F-MEP"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-03",
+    "latest": "2026-09-03"
+   },
+   "firmware": "DH_ASIX2XX-A-Freyja-B2_MultiLang_PN_V3.004.0000005.3.R.260903.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "French",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR",
+     "Thai",
+     "TradChinese",
+     "TradChinese2",
+     "Indonesian",
+     "Malay",
+     "Italian",
+     "Japanese",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 272084,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 223300,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 62648,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 572492,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 8325304,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 194744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5268448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 35969208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 29366456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-03",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "firmware-x.ext4.img",
+     "image_name": "firmware",
+     "image_size": 79628472,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fcd67208b1e936e7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.004.0000005.3.R.260903"
+  }
+ ],
+ "sha256": "688e2a0c0707449427ce6836a4cb6e16213af7186f3574334b1f3ac35a77d19f"
+}

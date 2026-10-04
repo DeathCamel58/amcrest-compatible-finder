@@ -1,0 +1,53 @@
+{
+ "id": "824a78b593926933",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "ubl",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0xd0000",
+   "name": "uboot",
+   "size": 327680,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xf0000"
+  },
+  {
+   "end": "0x180000",
+   "name": "pd",
+   "size": 524288,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x900000",
+   "name": "kernel",
+   "size": 7864320,
+   "start": "0x180000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "user",
+   "size": 5242880,
+   "start": "0x900000"
+  },
+  {
+   "end": "0x1260000",
+   "name": "fpga_gowin",
+   "size": 65536,
+   "start": "0x1250000"
+  },
+  {
+   "end": "0x2000000",
+   "name": "png",
+   "size": 589824,
+   "start": "0x1f70000"
+  }
+ ]
+}

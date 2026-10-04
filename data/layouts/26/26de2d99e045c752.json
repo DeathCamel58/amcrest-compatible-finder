@@ -1,0 +1,134 @@
+{
+ "id": "26de2d99e045c752",
+ "partitions": [
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x7000000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x7100000",
+   "end": "0xb00000",
+   "name": "Kernel",
+   "size": 5242880,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x7600000",
+   "end": "0x5000000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 72351744,
+   "start": "0xb00000"
+  },
+  {
+   "backup_start": "0xbb00000",
+   "end": "0x5400000",
+   "name": "custom",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x5000000"
+  },
+  {
+   "backup_start": "0xbf00000",
+   "end": "0x5800000",
+   "name": "product",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x5400000"
+  },
+  {
+   "backup_start": "0xc300000",
+   "end": "0x7000000",
+   "name": "web",
+   "read_only": true,
+   "size": 25165824,
+   "start": "0x5800000"
+  },
+  {
+   "end": "0xdd00000",
+   "name": "lens",
+   "size": 2097152,
+   "start": "0xdb00000"
+  },
+  {
+   "end": "0x16700000",
+   "name": "ext",
+   "read_only": false,
+   "size": 144703488,
+   "start": "0xdd00000"
+  },
+  {
+   "end": "0x16800000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 1048576,
+   "start": "0x16700000"
+  },
+  {
+   "end": "0x17000000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 8388608,
+   "start": "0x16800000"
+  },
+  {
+   "end": "0x17800000",
+   "name": "config",
+   "read_only": false,
+   "size": 8388608,
+   "start": "0x17000000"
+  },
+  {
+   "end": "0x18000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 8388608,
+   "start": "0x17800000"
+  },
+  {
+   "backup_start": "0x1b200000",
+   "end": "0x1b200000",
+   "name": "fpga",
+   "read_only": true,
+   "size": 52428800,
+   "start": "0x18000000"
+  },
+  {
+   "end": "0x5e400000",
+   "name": "blob",
+   "read_only": true,
+   "size": 1073741824,
+   "start": "0x1e400000"
+  },
+  {
+   "end": "0xf3000000",
+   "name": "appdata",
+   "read_only": false,
+   "size": 2147483648,
+   "start": "0x73000000"
+  }
+ ]
+}

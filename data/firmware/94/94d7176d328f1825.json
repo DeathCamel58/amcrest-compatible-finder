@@ -1,0 +1,248 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTAX5XXG_Eng_NP_V4.300.0000000.6.R.260321.bin",
+   "ids": [
+    "VTA2501G",
+    "VTA2501G-4G",
+    "VTA2502G",
+    "VTA2502G-4G",
+    "VTA2511G",
+    "VTA2511G-4G",
+    "VTA2512G",
+    "VTA2512G-4G",
+    "VTA2501G-E",
+    "VTA2502G-E",
+    "VTA2502G-E-I",
+    "VTA2501G-4G-E",
+    "VTA2511G-4G-E"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTA2501G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2501G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF",
+    "VTA2502G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2502G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF",
+    "VTA2511G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2511G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF",
+    "VTA2512G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2512G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF",
+    "VTA2501G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2502G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2502G-E-I:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
+    "VTA2501G-4G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF",
+    "VTA2511G-4G-E:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTAX5XXG_Eng_NP_V4.300.0000000.6.R.260321.bin",
+   "ids": [
+    "VTA2501G",
+    "VTA2511G",
+    "VTA2502G",
+    "VTA2512G",
+    "VTA2501G-4G",
+    "VTA2511G-4G",
+    "VTA2502G-4G",
+    "VTA2512G-4G",
+    "VTA2501G-E",
+    "VTA2502G-E",
+    "VTA2502G-E-I",
+    "VTA2501G-4G-E",
+    "VTA2511G-4G-E"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTA2501G",
+     "1.00"
+    ],
+    [
+     "VTA2511G",
+     "1.00"
+    ],
+    [
+     "VTA2502G",
+     "1.00"
+    ],
+    [
+     "VTA2512G",
+     "1.00"
+    ],
+    [
+     "VTA2501G-4G",
+     "1.00"
+    ],
+    [
+     "VTA2511G-4G",
+     "1.00"
+    ],
+    [
+     "VTA2502G-4G",
+     "1.00"
+    ],
+    [
+     "VTA2512G-4G",
+     "1.00"
+    ],
+    [
+     "VTA2501G-E",
+     "1.00"
+    ],
+    [
+     "VTA2502G-E",
+     "1.00"
+    ],
+    [
+     "VTA2502G-E-I",
+     "1.00"
+    ],
+    [
+     "VTA2501G-4G-E",
+     "1.00"
+    ],
+    [
+     "VTA2511G-4G-E",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTAX5XXG_Eng_NP_V4.300.0000000.6.R.260321.bin",
+   "ids": [
+    "VTA2501G",
+    "VTA2501G-4G",
+    "VTA2502G",
+    "VTA2502G-4G",
+    "VTA2511G",
+    "VTA2511G-4G",
+    "VTA2512G",
+    "VTA2512G-4G",
+    "VTA2501G-E",
+    "VTA2502G-E",
+    "VTA2502G-E-I",
+    "VTA2501G-4G-E",
+    "VTA2511G-4G-E"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-03-21",
+    "latest": "2026-03-21"
+   },
+   "firmware": "DH_VTAX5XXG_Eng_NP_V4.300.0000000.6.R.260321.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "Arabic",
+     "Vietnamese",
+     "Thai"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-03-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 788664,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 65912,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 8083640,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 125112,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5366664,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 27060408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10569912,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "f1e9ac278f12249e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.300.0000000.6.R.260321"
+  }
+ ],
+ "sha256": "94d7176d328f18257a6b086645c3e05e157e5b19162b06b65745191e95e71efa"
+}

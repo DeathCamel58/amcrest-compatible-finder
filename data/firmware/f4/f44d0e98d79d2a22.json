@@ -1,0 +1,508 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ8040PA-A",
+    "CA-HZ4040PA-A",
+    "CA-HZ4040TA-B",
+    "CA-HZ2040PA-A",
+    "CA-HZ4056PA1-A",
+    "CA-HZ8040PA-B",
+    "CA-HZ4040PA-B",
+    "CA-HZ4040TA-A",
+    "CA-HZ8048PA-A",
+    "CA-HZ2060PA-A",
+    "CA-HZ4048PA-A",
+    "CA-HZ2048PA-A",
+    "CA-HZ2033TA-A",
+    "CA-HZ8033PA-A",
+    "CA-HZ4037PA-A",
+    "CA-HZ2060PA1-A",
+    "CA-HZ8025PA-A",
+    "CA-HZ8040PA1-A",
+    "CA-HZ4040PA1-A",
+    "CA-HZ8040PG-A"
+   ],
+   "member": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628/check.img",
+   "raw": [
+    "CA-HZ8040PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040TA-B:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2040PA-A:01:03:04:42:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4056PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PA-B:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA-B:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040TA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8048PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2060PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4048PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2048PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2033TA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8033PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4037PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2060PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8025PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA1-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PG-A:01:03:04:AB:40:00:01:0F:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628.bin",
+   "ids": [
+    "CA-HZ8040PA-A",
+    "CA-HZ4040PA-A",
+    "CA-HZ4040TA-B",
+    "CA-HZ2040PA-A",
+    "CA-HZ4056PA1-A",
+    "CA-HZ8040PA-B",
+    "CA-HZ4040PA-B",
+    "CA-HZ4040TA-A",
+    "CA-HZ8048PA-A",
+    "CA-HZ2060PA-A",
+    "CA-HZ4048PA-A",
+    "CA-HZ2048PA-A",
+    "CA-HZ2033TA-A",
+    "CA-HZ8033PA-A",
+    "CA-HZ4037PA-A",
+    "CA-HZ2060PA1-A",
+    "CA-HZ8025PA-A",
+    "CA-HZ8040PA1-A",
+    "CA-HZ4040PA1-A",
+    "CA-HZ8040PG-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ8040PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040TA-B:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2040PA-A:01:03:04:42:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4056PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PA-B:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA-B:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040TA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8048PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2060PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4048PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2048PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2033TA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8033PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4037PA-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ2060PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8025PA-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PA1-A:01:03:04:74:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ4040PA1-A:01:03:04:86:40:00:01:0E:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800",
+    "CA-HZ8040PG-A:01:03:04:AB:40:00:01:0F:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Kangle"
+  },
+  {
+   "counted": true,
+   "firmware": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628.bin",
+   "ids": [
+    "CA-HZ8040PA-A",
+    "CA-HZ4040PA-A",
+    "CA-HZ4040TA-B",
+    "CA-HZ2040PA-A",
+    "CA-HZ4056PA1-A",
+    "CA-HZ8040PA-B",
+    "CA-HZ4040PA-B",
+    "CA-HZ4040TA-A",
+    "CA-HZ8048PA-A",
+    "CA-HZ2060PA-A",
+    "CA-HZ4048PA-A",
+    "CA-HZ2048PA-A",
+    "CA-HZ2033TA-A",
+    "CA-HZ8033PA-A",
+    "CA-HZ4037PA-A",
+    "CA-HZ2060PA1-A",
+    "CA-HZ8025PA-A",
+    "CA-HZ8040PA1-A",
+    "CA-HZ4040PA1-A",
+    "CA-HZ8040PG-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn10359",
+   "build_dates": {
+    "earliest": "2023-06-28",
+    "latest": "2023-06-28"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2023-06-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628/dhboot-min.bin.img",
+     "image_name": "miniboot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628/dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 338288,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a38cd24c893d6ec2",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn10359",
+   "build_dates": {
+    "earliest": "2023-06-28",
+    "latest": "2023-06-28"
+   },
+   "firmware": "Espada_Eng_N_Stream3_Control4_V2.821.00KL600.0.R.230628.bin",
+   "flash_size": 7730102272,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Kangle",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-06-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "miniboot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 338288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 84152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1099960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8618680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 12134584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 63187128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-06-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 104859832,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "e680fde413c99acf",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "firmware-x.squashfs_ab.img"
+   ]
+  }
+ ],
+ "sha256": "f44d0e98d79d2a2217d3e80a49be710d43221697a417e621e737d10baf7eb2d4"
+}

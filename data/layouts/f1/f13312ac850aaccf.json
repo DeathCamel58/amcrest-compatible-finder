@@ -1,0 +1,59 @@
+{
+ "id": "f13312ac850aaccf",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x7200000",
+   "name": "custom",
+   "size": 4194304,
+   "start": "0x6e00000"
+  },
+  {
+   "end": "0x8200000",
+   "name": "pd",
+   "size": 16777216,
+   "start": "0x7200000"
+  },
+  {
+   "end": "0x9200000",
+   "name": "kernel",
+   "size": 16777216,
+   "start": "0x8200000"
+  },
+  {
+   "end": "0xd200000",
+   "name": "web",
+   "size": 67108864,
+   "start": "0x9200000"
+  },
+  {
+   "end": "0x15200000",
+   "name": "rootfs",
+   "size": 134217728,
+   "start": "0xd200000"
+  },
+  {
+   "end": "0xcc700000",
+   "name": "firmware",
+   "size": 2147483648,
+   "start": "0x4c700000"
+  }
+ ]
+}

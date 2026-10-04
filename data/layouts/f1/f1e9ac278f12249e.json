@@ -1,0 +1,47 @@
+{
+ "id": "f1e9ac278f12249e",
+ "partitions": [
+  {
+   "end": "0x400000",
+   "name": "dhboot",
+   "size": 1310720,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0x700000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x1f00000",
+   "name": "data",
+   "size": 18874368,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0x2300000",
+   "name": "pd",
+   "size": 4194304,
+   "start": "0x1f00000"
+  },
+  {
+   "end": "0x2b00000",
+   "name": "kernel",
+   "size": 8388608,
+   "start": "0x2300000"
+  },
+  {
+   "end": "0x4f00000",
+   "name": "rootfs",
+   "size": 37748736,
+   "start": "0x2b00000"
+  },
+  {
+   "end": "0x6000000",
+   "name": "web",
+   "size": 17825792,
+   "start": "0x4f00000"
+  }
+ ]
+}

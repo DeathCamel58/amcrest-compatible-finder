@@ -1,0 +1,435 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "CA-HZ4040XB-A",
+    "CA-HZ4045XA-A",
+    "CA-HZ4025XA-A",
+    "CA-HZ2033XA-A",
+    "CA-HZ2037XA-A",
+    "CA-HZ2025XA-A",
+    "CA-HZ4032XB-A",
+    "CA-HZ4030XB-A",
+    "SD-MT1A404XB-GNR-A",
+    "CA-HZ4040XA-A",
+    "CA-HZ4032XA-A",
+    "CA-HZ4033XA-A",
+    "CA-HZ2034XAC-A",
+    "CA-HZ4024XAC-A",
+    "CA-HZ2023XA-A",
+    "CA-HZ2023XA-B",
+    "CA-HZ2025XA1-A",
+    "CA-HZ4023XB-A",
+    "CA-HZ4025XB-A",
+    "CA-HZ2032XA-A"
+   ],
+   "member": "check.img",
+   "raw": [
+    "CA-HZ4040XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4045XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2033XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2037XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4030XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "SD-MT1A404XB-GNR-A:01:03:04:78:36:00:01:10:03:03:04:384_384:00:00:00:00:00:01:00:00:400",
+    "CA-HZ4040XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2034XAC-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4024XAC-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023XA-B:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025XA1-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4023XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2032XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "General_SD-Prometheus_MultiLang_NP_Stream3_V2.800.0000000.17.R.190819.bin",
+   "ids": [
+    "CA-HZ4040XB-A",
+    "CA-HZ4045XA-A",
+    "CA-HZ4025XA-A",
+    "CA-HZ2033XA-A",
+    "CA-HZ2037XA-A",
+    "CA-HZ2025XA-A",
+    "CA-HZ4032XB-A",
+    "CA-HZ4030XB-A",
+    "SD-MT1A404XB-GNR-A",
+    "CA-HZ4040XA-A",
+    "CA-HZ4032XA-A",
+    "CA-HZ4033XA-A",
+    "CA-HZ2034XAC-A",
+    "CA-HZ4024XAC-A",
+    "CA-HZ2023XA-A",
+    "CA-HZ2023XA-B",
+    "CA-HZ2025XA1-A",
+    "CA-HZ4023XB-A",
+    "CA-HZ4025XB-A",
+    "CA-HZ2032XA-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "CA-HZ4040XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4045XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2033XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2037XA-A:01:03:04:42:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4030XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "SD-MT1A404XB-GNR-A:01:03:04:78:36:00:01:10:03:03:04:384_384:00:00:00:00:00:01:00:00:400",
+    "CA-HZ4040XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032XA-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033XA-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2034XAC-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4024XAC-A:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023XA-B:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025XA1-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4023XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025XB-A:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2032XA-A:01:03:04:76:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_SD-Prometheus_MultiLang_NP_Stream3_V2.800.0000000.17.R.190819.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_SD-Prometheus_MultiLang_NP_Stream3_V2.800.0000000.17.R.190819.bin",
+   "ids": [
+    "CA-HZ4040XB-A",
+    "CA-HZ4045XA-A",
+    "CA-HZ4025XA-A",
+    "CA-HZ2033XA-A",
+    "CA-HZ2037XA-A",
+    "CA-HZ2025XA-A",
+    "CA-HZ4032XB-A",
+    "CA-HZ4030XB-A",
+    "SD-MT1A404XB-GNR-A",
+    "CA-HZ4040XA-A",
+    "CA-HZ4032XA-A",
+    "CA-HZ4033XA-A",
+    "CA-HZ2034XAC-A",
+    "CA-HZ4024XAC-A",
+    "CA-HZ2023XA-A",
+    "CA-HZ2023XA-B",
+    "CA-HZ2025XA1-A",
+    "CA-HZ4023XB-A",
+    "CA-HZ4025XB-A",
+    "CA-HZ2032XA-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-08-19",
+    "latest": "2019-08-19"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2019-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 75108,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a38cd24c893d6ec2",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.0",
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-08-19",
+    "latest": "2019-08-19"
+   },
+   "firmware": "General_SD-Prometheus_MultiLang_NP_Stream3_V2.800.0000000.17.R.190819.bin",
+   "flash_size": 3758096384,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3780393,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1226936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1366200,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 164948152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-08-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6428856,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "779c72d84a2a8932",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "3293b6a06c2a70a4caea64fcc1a7545a45bf5369366e8d646d7eaa5d7cca827b"
+}

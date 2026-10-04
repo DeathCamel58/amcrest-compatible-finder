@@ -1,0 +1,120 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI7213X",
+    "ASI7214X",
+    "ASI7223X-A",
+    "ASI7213X-C",
+    "ASI7214X-C",
+    "ASI7213X-T",
+    "ASI7223X-A-T",
+    "ASI7213X-T1",
+    "ASI7223X-A-T1",
+    "ASI7213X-MW4G",
+    "ASI7214X-MW4G",
+    "ASI7213X-CW4G",
+    "ASI7214X-CW4G",
+    "ASI7223X-A-W4G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI7213X",
+     "1.00"
+    ],
+    [
+     "ASI7214X",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A",
+     "1.00"
+    ],
+    [
+     "ASI7213X-C",
+     "1.00"
+    ],
+    [
+     "ASI7214X-C",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T",
+     "1.00"
+    ],
+    [
+     "ASI7213X-T1",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-T1",
+     "1.00"
+    ],
+    [
+     "ASI7213X-MW4G",
+     "1.00"
+    ],
+    [
+     "ASI7214X-MW4G",
+     "1.00"
+    ],
+    [
+     "ASI7213X-CW4G",
+     "1.00"
+    ],
+    [
+     "ASI7214X-CW4G",
+     "1.00"
+    ],
+    [
+     "ASI7223X-A-W4G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 9615544,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "90b49360926cbd20",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dfa798e4438aac3923c2e0937db8a5b80d36dce4912d0145ebe45c87a1f9ea41"
+}

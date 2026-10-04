@@ -1,0 +1,145 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASC320XB_MultiLang_NP_V1.002.0000000.5.R.240417.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASC3202B:01:04:0E:00:42:00:00:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASC320XB_MultiLang_NP_V1.002.0000000.5.R.240417.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASC3202B",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASC320XB_MultiLang_NP_V1.002.0000000.5.R.240417.bin",
+   "ids": [
+    "ASC3202B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-04-17",
+    "latest": "2024-04-17"
+   },
+   "firmware": "DH_ASC320XB_MultiLang_NP_V1.002.0000000.5.R.240417.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-04-17",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 53084,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 706744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5250744,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 23881912,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9676984,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bb201804f180c124",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "457031b4baae1b2589855076c1201705b3fc19fed5e81bf4dfe534d7db811b03"
+}

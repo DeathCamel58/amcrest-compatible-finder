@@ -1,0 +1,363 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "XVR5x16-I3",
+    "IB_General_XVR5x16-I3"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn5971",
+   "build_dates": {
+    "earliest": "2025-12-25",
+    "latest": "2025-12-25"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/loder.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 65536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/fdt.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 18895,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/atf.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 33056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/u-boot.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 891664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/romfs-x.squashfs.img",
+     "image_name": "IB_5x16FW98336Tromfs",
+     "image_size": 46338048,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/minios-x.squashfs.img",
+     "image_name": "IB_5x16FW98336Tromfs",
+     "image_size": 12914688,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 7905280,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 524288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 34996224,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4426a61ff47c09d7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51090"
+     },
+     {
+      "member": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51090"
+     },
+     {
+      "member": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98336"
+     },
+     {
+      "member": "Atualiza\u00e7\u00e3o iMHDX 3116 - 25.12.25/atf.bin.img",
+      "source": "image_name",
+      "value": "IB_5x16FW98336Tboot"
+     }
+    ],
+    "name": "NT98336",
+    "vendor": "Novatek"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn5971",
+   "build_dates": {
+    "earliest": "2025-12-25",
+    "latest": "2025-12-25"
+   },
+   "firmware": "update.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_General_XVR5x16-I3"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 18895,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IB_5x16FW98336Tboot",
+     "image_size": 891664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "IB_5x16FW98336Tromfs",
+     "image_size": 46338048,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "IB_5x16FW98336Tromfs",
+     "image_size": 12914688,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 524288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-12-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 34996224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "310d0864ee1644b0",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51090"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51090"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98336"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "IB_5x16FW98336Tboot"
+     }
+    ],
+    "name": "NT98336",
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "70a8bc60aa7b66e5302589c2d72ad36ff567be3d0b7941b216e47b7ad9a498e1"
+}

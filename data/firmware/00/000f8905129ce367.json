@@ -1,0 +1,154 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-4G-Cauchy_Eng_PN_V2.820.0000000.5.R.250831.bin",
+   "ids": [
+    "IPC-HFW2441DG-4G-SP",
+    "IPC-HFW2441DG-4G-SP-MAX",
+    "IPC-BF4C-4G",
+    "IPC-BF4C-4G-MAX",
+    "IPC-BF4C-4G-K",
+    "IPC-HFW2441DG-MAX-JAPAN"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2441DG-4G-SP:01:02:02:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2441DG-4G-SP-MAX:01:02:02:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-BF4C-4G:01:02:00:112:76:00:01:10:01:03:04:4B0:00:00:00:00:00:01:00:00:80",
+    "IPC-BF4C-4G-MAX:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-BF4C-4G-K:01:02:00:112:76:00:01:10:00:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2441DG-MAX-JAPAN:01:02:02:112:76:00:01:10:01:01:04:3E8:00:00:00:000:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX2XXX-4G-Cauchy_Eng_PN_V2.820.0000000.5.R.250831.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-4G-Cauchy_Eng_PN_V2.820.0000000.5.R.250831.bin",
+   "ids": [
+    "IPC-HFW2441DG-4G-SP",
+    "IPC-HFW2441DG-4G-SP-MAX",
+    "IPC-BF4C-4G",
+    "IPC-BF4C-4G-MAX",
+    "IPC-BF4C-4G-K",
+    "IPC-HFW2441DG-MAX-JAPAN"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-31",
+    "latest": "2025-08-31"
+   },
+   "firmware": "DH_IPC-HX2XXX-4G-Cauchy_Eng_PN_V2.820.0000000.5.R.250831.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 1181880,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rtos.img",
+     "image_name": "RTOS",
+     "image_size": 1715722,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2437034,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-31",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.Ramdisk.img",
+     "image_name": "romfs",
+     "image_size": 14514890,
+     "image_type": "ramdisk",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 6727864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rofiles.bin.img",
+     "image_name": "RO_FILES",
+     "image_size": 5378296,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3754f4fc1fde07c5",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "000f8905129ce36744c480fc0cbe6752863da5a4d77a8f5e94ddd3394be051bb"
+}

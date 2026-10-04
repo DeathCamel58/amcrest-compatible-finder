@@ -1,0 +1,107 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "packetCamera_TPC-NYX2200-MS-BTGW_V1.000.0000000.2.R.20220531.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": "packetCamera_TPC-NYX2200-MS-BTGW_V1.000.0000000.2.R.20220531.bin",
+   "ids": [
+    "TPC-AT2201-TD",
+    "TPC-AT2201-TD-YZ",
+    "TPC-AT5401-TB",
+    "TPC-AT5401-TB-YZP",
+    "TPC-AT2201-TD-YZT",
+    "TPC-AT2201-TD-YZP",
+    "TPC-AT2201-TB-YZ",
+    "TPC-AT2201-TB-YZT",
+    "TPC-AT2201-TB-YZP",
+    "TPC-AT2201-TB-WD",
+    "TPC-AEBF5201-TB"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-AT2201-TD:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TD-YZ:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT5401-TB:01:08:E1:80:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT5401-TB-YZP:01:08:E1:80:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TD-YZT:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TD-YZP:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TB-YZ:01:08:E1:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TB-YZT:01:08:E1:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TB-YZP:01:08:E1:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AT2201-TB-WD:01:08:E1:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400",
+    "TPC-AEBF5201-TB:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-05-31",
+    "latest": "2022-05-31"
+   },
+   "firmware": "packetCamera_TPC-NYX2200-MS-BTGW_V1.000.0000000.2.R.20220531.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-05-31",
+     "compression": "none",
+     "filesystem": null,
+     "image": "camera.img",
+     "image_name": "camera",
+     "image_size": 921968,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24ac81ff56aad56d",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f774ca6747226b4750e9cb0293ada43c797887fa32aee089e445344eab1c832b"
+}

@@ -1,0 +1,134 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "MXVRXX04"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2599",
+   "build_dates": {
+    "earliest": "2019-01-18",
+    "latest": "2019-01-18"
+   },
+   "firmware": null,
+   "flash_size": 90177536,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "MXVRXX04"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "hi3521Dboot",
+     "image_size": 576604,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "hi3521Dromfs",
+     "image_size": 30752768,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "hwid-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "extend-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4497408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2482176,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-01-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "de8c44dcb279069f",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3521D"
+     }
+    ],
+    "name": "Hi3521D",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "19b9c3b980675f464d9ed508d0f80ad6091e130c712988d0a3576840e507e2ca"
+}

@@ -1,0 +1,29 @@
+{
+ "id": "52a2011b177d1f39",
+ "partitions": [
+  {
+   "end": "0xa02c0000",
+   "name": "u-boot",
+   "size": 2097152,
+   "start": "0xa00c0000"
+  },
+  {
+   "end": "0xa3980000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3780000"
+  },
+  {
+   "end": "0xa4880000",
+   "name": "web",
+   "size": 15728640,
+   "start": "0xa3980000"
+  },
+  {
+   "end": "0xa4a80000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa4880000"
+  }
+ ]
+}

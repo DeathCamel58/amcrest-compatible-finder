@@ -1,0 +1,444 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TPC-DF1242-B",
+    "TPC-DF1242-B2F2",
+    "TPC-BF1242-B",
+    "TPC-BF1242-B10F8",
+    "TPC-BF1242-BWIFI",
+    "TPC-BF1242-B10F8WIFI",
+    "TPC-DF1242-TB",
+    "TPC-DF1242-TB2F2",
+    "TPC-BF1242-TB",
+    "TPC-BF1242-TB10F8",
+    "TPC-BF1242-TBWIFI",
+    "TPC-BF1242-TB10F8WIFI",
+    "TPC-CD1241-B-S2",
+    "TPC-CD1241-B2F2-S2",
+    "TPC-CD1241-TB-S2",
+    "TPC-CD1241-TB2F2-S2",
+    "TPC-CB1241-B-S2",
+    "TPC-CB1241-B10F8-S2",
+    "TPC-CB1241-BWIFI-S2",
+    "TPC-CB1241-B10F8WIFI-S2",
+    "TPC-CB1241-TB-S2",
+    "TPC-CB1241-TB10F8-S2",
+    "TPC-CB1241-TBWIFI-S2",
+    "TPC-CB1241-TB10F8WIFI-S2"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-DF1242-B:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1242-B2F2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-B:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-B10F8:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-BWIFI:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-B10F8WIFI:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1242-TB:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-DF1242-TB2F2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-TB:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-TB10F8:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-TBWIFI:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-BF1242-TB10F8WIFI:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CD1241-B-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CD1241-B2F2-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CD1241-TB-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CD1241-TB2F2-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-B-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-B10F8-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-BWIFI-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-B10F8WIFI-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-TB-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-TB10F8-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-TBWIFI-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "TPC-CB1241-TB10F8WIFI-S2:01:08:0C:A5:40:00:02:01:01:01:04:4B0:02:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TPC-DF1242-B",
+    "TPC-DF1242-B2F2",
+    "TPC-BF1242-B",
+    "TPC-BF1242-B10F8",
+    "TPC-BF1242-BWIFI",
+    "TPC-BF1242-B10F8WIFI",
+    "TPC-DF1242-TB",
+    "TPC-DF1242-TB2F2",
+    "TPC-BF1242-TB",
+    "TPC-BF1242-TB10F8",
+    "TPC-BF1242-TBWIFI",
+    "TPC-BF1242-TB10F8WIFI",
+    "TPC-CD1241-B-S2",
+    "TPC-CD1241-B2F2-S2",
+    "TPC-CD1241-TB-S2",
+    "TPC-CD1241-TB2F2-S2",
+    "TPC-CB1241-B-S2",
+    "TPC-CB1241-B10F8-S2",
+    "TPC-CB1241-BWIFI-S2",
+    "TPC-CB1241-B10F8WIFI-S2",
+    "TPC-CB1241-TB-S2",
+    "TPC-CB1241-TB10F8-S2",
+    "TPC-CB1241-TBWIFI-S2",
+    "TPC-CB1241-TB10F8WIFI-S2"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-svn10853",
+   "build_dates": {
+    "earliest": "2024-04-02",
+    "latest": "2024-04-02"
+   },
+   "firmware": null,
+   "flash_size": 3758096384,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Thai"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 170168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 381296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2246840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 358584,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8618680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9332920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 64698552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 92784824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "21ccf5ffe2362769",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "6a6694e2ef5e916b919ffb519010e196874f501fb34665acd5edabd7163284d9"
+}

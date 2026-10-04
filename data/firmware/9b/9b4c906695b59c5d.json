@@ -1,0 +1,205 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1530SP-S6",
+    "IPC-HDBW1530EP-S6",
+    "IPC-HFW1431S1P-A-S4",
+    "IPC-HFW1530V-A-IL"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1530SP-S6:01:02:13:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1530EP-S6:01:02:05:BA:49:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1431S1P-A-S4:01:02:05:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1530V-A-IL:01:02:13:DD:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1530SP-S6",
+    "IPC-HDBW1530EP-S6",
+    "IPC-HFW1431S1P-A-S4",
+    "IPC-HFW1530V-A-IL"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn10443",
+   "build_dates": {
+    "earliest": "2023-01-11",
+    "latest": "2023-01-11"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-01-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 248176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2023-01-11",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1688248,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-11",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 1688248,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 7919800,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "9577212c884136c6",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "romfs-x-aol.squashfs.img",
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "9b4c906695b59c5d69fcacd67d567d05d24e018dc21c9437c4cdd54c2f3f1ccd"
+}

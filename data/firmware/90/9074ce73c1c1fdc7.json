@@ -1,0 +1,394 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_ARCX0XXC-V3_MultiLang_P_V4.004.0000003.0.R.260811.bin",
+   "ids": [
+    "ARC9016C-V3",
+    "ARC9016C-G-V3",
+    "ARC9032C-V3",
+    "ARC2008C-G-V3",
+    "ARC2008C-V3",
+    "ARC1008C-V3",
+    "ARC2016C-G-V3",
+    "ARC2016C-V3",
+    "ARC1016C-V3"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ARC9016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC9016C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC9032C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2008C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2008C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC1008C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2016C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC1016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_ARCX0XXC-V3_MultiLang_P_V4.004.0000003.0.R.260811.bin",
+   "ids": [
+    "ARC9016C-V3",
+    "ARC9016C-G-V3",
+    "ARC9032C-V3",
+    "ARC1008C-V3",
+    "ARC2008C-G-V3",
+    "ARC2008C-V3",
+    "ARC1016C-V3",
+    "ARC2016C-G-V3",
+    "ARC2016C-V3"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC9016C-V3",
+     "1.00"
+    ],
+    [
+     "ARC9016C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC9032C-V3",
+     "1.00"
+    ],
+    [
+     "ARC1008C-V3",
+     "1.00"
+    ],
+    [
+     "ARC2008C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC2008C-V3",
+     "1.00"
+    ],
+    [
+     "ARC1016C-V3",
+     "1.00"
+    ],
+    [
+     "ARC2016C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC2016C-V3",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_ARCX0XXC-V3_MultiLang_P_V4.004.0000003.0.R.260811.bin",
+   "ids": [
+    "ARC9016C-V3",
+    "ARC9016C-G-V3",
+    "ARC9032C-V3",
+    "ARC2008C-G-V3",
+    "ARC2008C-V3",
+    "ARC1008C-V3",
+    "ARC2016C-G-V3",
+    "ARC2016C-V3",
+    "ARC1016C-V3"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC9016C-V3",
+    "ARC9016C-G-V3",
+    "ARC9032C-V3",
+    "ARC1008C-V3",
+    "ARC2008C-G-V3",
+    "ARC2008C-V3",
+    "ARC1016C-V3",
+    "ARC2016C-G-V3",
+    "ARC2016C-V3"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC9016C-V3",
+     "1.00"
+    ],
+    [
+     "ARC9016C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC9032C-V3",
+     "1.00"
+    ],
+    [
+     "ARC1008C-V3",
+     "1.00"
+    ],
+    [
+     "ARC2008C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC2008C-V3",
+     "1.00"
+    ],
+    [
+     "ARC1016C-V3",
+     "1.00"
+    ],
+    [
+     "ARC2016C-G-V3",
+     "1.00"
+    ],
+    [
+     "ARC2016C-V3",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC9016C-V3",
+    "ARC9016C-G-V3",
+    "ARC9032C-V3",
+    "ARC2008C-G-V3",
+    "ARC2008C-V3",
+    "ARC1008C-V3",
+    "ARC2016C-G-V3",
+    "ARC2016C-V3",
+    "ARC1016C-V3"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ARC9016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC9016C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC9032C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2008C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2008C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC1008C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2016C-G-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC2016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF",
+    "ARC1016C-V3:01:04:0D:00:46:00:00:00:00:00:00:4B0_4B0:00:02:00:00:00:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-11",
+    "latest": "2026-08-11"
+   },
+   "firmware": "General_ARCX0XXC-V3_MultiLang_P_V4.004.0000003.0.R.260811.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Russian",
+     "Spanish",
+     "Arabic"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "mini-boot",
+     "image_size": 26808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 818,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 52692,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 1153208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 51384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4604676,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 16234680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2963640,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a9e010f784f445bc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-11",
+    "latest": "2026-08-11"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Russian",
+     "Spanish",
+     "Arabic"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2963640,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bbe56df1340d15a6",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "9074ce73c1c1fdc75b1e5bf36cc323a0d52361df25cd25af456402f4de0b16b1"
+}

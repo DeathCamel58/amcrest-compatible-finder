@@ -1,0 +1,116 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR5x04-S2",
+    "HCVR5x04-V2",
+    "Group"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1807",
+   "build_dates": {
+    "earliest": "2015-07-28",
+    "latest": "2015-07-28"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Group"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-07-28",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "gm8287boot",
+     "image_size": 305456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "gm8287romfs",
+     "image_size": 11829248,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1519616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-07-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 94208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-07-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f7d4599b43ef3bbe7d3bfdd8a6cb64e60f44847d9fda0941260627ed47c1eecf"
+}

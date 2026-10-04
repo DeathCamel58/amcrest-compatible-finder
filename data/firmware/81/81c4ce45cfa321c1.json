@@ -1,0 +1,248 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-D-Kant_MultiLang_PN_V3.120.0000000.21.R.260514.bin",
+   "ids": [
+    "IPC-HUM4231S1P",
+    "IPC-HUM4431S1P"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HUM4231S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80",
+    "IPC-HUM4431S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX2XXX-D-Kant_MultiLang_PN_V3.120.0000000.21.R.260514.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-D-Kant_MultiLang_PN_V3.120.0000000.21.R.260514.bin",
+   "ids": [
+    "IPC-HUM4231S1P",
+    "IPC-HUM4431S1P"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-14",
+    "latest": "2026-05-14"
+   },
+   "firmware": "DH_IPC-HX2XXX-D-Kant_MultiLang_PN_V3.120.0000000.21.R.260514.bin",
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 164168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 46224,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2362564,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7475568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 4276592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 34513264,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8cee29f4d85e5c22",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027A-S01A"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V3.120.0000000.21.R.260514"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-14",
+    "latest": "2026-05-14"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7475568,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "32aac8cc8696cb88",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "81c4ce45cfa321c18a9ffb9cce1f95647adca028bfc922b5e8221cf9deb83030"
+}

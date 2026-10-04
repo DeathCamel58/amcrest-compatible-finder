@@ -1,0 +1,139 @@
+{
+ "id": "8b7fc03623d55dc9",
+ "partitions": [
+  {
+   "end": "0x400000",
+   "name": "mini-Boot",
+   "size": 4194304,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x400000",
+   "end": "0x600000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x700000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x800000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x700000"
+  },
+  {
+   "end": "0x900000",
+   "name": "dgs",
+   "size": 1048576,
+   "start": "0x800000"
+  },
+  {
+   "backup_start": "0x5000000",
+   "end": "0xa00000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x900000"
+  },
+  {
+   "end": "0xb00000",
+   "name": "lens",
+   "size": 1048576,
+   "start": "0xa00000"
+  },
+  {
+   "end": "0xf00000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xb00000"
+  },
+  {
+   "end": "0x1300000",
+   "name": "config",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0xf00000"
+  },
+  {
+   "end": "0x1700000",
+   "name": "backup",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x1300000"
+  },
+  {
+   "end": "0x1b00000",
+   "name": "devconfig",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x1700000"
+  },
+  {
+   "backup_start": "0x5100000",
+   "end": "0x2500000",
+   "name": "Kernel",
+   "size": 4194304,
+   "start": "0x2100000"
+  },
+  {
+   "backup_start": "0x5500000",
+   "end": "0x4100000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 29360128,
+   "start": "0x2500000"
+  },
+  {
+   "backup_start": "0x7100000",
+   "end": "0x4d00000",
+   "name": "web",
+   "read_only": true,
+   "size": 12582912,
+   "start": "0x4100000"
+  },
+  {
+   "backup_start": "0x7d00000",
+   "end": "0x5000000",
+   "name": "product",
+   "read_only": true,
+   "size": 3145728,
+   "start": "0x4d00000"
+  },
+  {
+   "end": "0x5100000",
+   "name": "backpart",
+   "size": 1048576,
+   "start": "0x5000000"
+  },
+  {
+   "end": "0x5500000",
+   "name": "backKernel",
+   "size": 4194304,
+   "start": "0x5100000"
+  },
+  {
+   "end": "0x7100000",
+   "name": "backromfs",
+   "size": 29360128,
+   "start": "0x5500000"
+  },
+  {
+   "end": "0x7d00000",
+   "name": "backweb",
+   "size": 12582912,
+   "start": "0x7100000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "backpd",
+   "size": 3145728,
+   "start": "0x7d00000"
+  }
+ ]
+}

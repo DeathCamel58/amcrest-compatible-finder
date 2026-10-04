@@ -1,0 +1,239 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1220B-V2",
+    "IPC-HFW1220S-V2",
+    "IPC-HDBW1220R-V2",
+    "IPC-HFW1220M-V2",
+    "IPC-HDBW1220R-S-V2",
+    "IPC-HDBW1220R-S2",
+    "IPC-HDBW1220R-S-S2",
+    "IPC-HFW1220M-AS-S2",
+    "IPC-HFW1220M-S-S2",
+    "IPC-HDW1320S-V2",
+    "IPC-HDBW1325R-S-V2",
+    "IPC-HDBW1325R-V2",
+    "IPC-HDBW1320R-S-V2",
+    "IPC-HDBW1320R-V2",
+    "IPC-HFW1320M-AS"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1220B-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1220S-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1220R-V2:01:02:05:55:1C:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW1220M-V2:01:02:02:58:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1220R-S-V2:01:02:05:58:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1220R-S2:01:02:05:65:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1220R-S-S2:01:02:05:65:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1220M-AS-S2:01:02:02:51:1C:00:01:0E:01:01:04:258:08:03:00:00:00:00:00:00:80",
+    "IPC-HFW1220M-S-S2:01:02:02:51:1C:00:01:00:00:00:04:258:00:03:00:00:00:00:00:00:80",
+    "IPC-HDW1320S-V2:01:02:05:1F:1C:00:01:00:00:00:00:190:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1325R-S-V2:01:02:05:1F:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1325R-V2:01:02:05:1F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1320R-S-V2:01:02:05:61:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HDBW1320R-V2:01:02:05:61:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
+    "IPC-HFW1320M-AS:01:02:02:19:1C:00:01:0E:01:01:04:258:08:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW1220B-V2",
+    "IPC-HFW1220S-V2",
+    "IPC-HDBW1220R-V2",
+    "IPC-HFW1220M-V2",
+    "IPC-HDBW1220R-S-V2",
+    "IPC-HDBW1220R-S2",
+    "IPC-HDBW1220R-S-S2",
+    "IPC-HFW1220M-AS-S2",
+    "IPC-HFW1220M-S-S2",
+    "IPC-HDW1320S-V2",
+    "IPC-HDBW1325R-S-V2",
+    "IPC-HDBW1325R-V2",
+    "IPC-HDBW1320R-S-V2",
+    "IPC-HDBW1320R-V2",
+    "IPC-HFW1320M-AS"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn5163",
+   "build_dates": {
+    "earliest": "2022-08-25",
+    "latest": "2022-08-25"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": "3.0.8+",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 169984,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1210164,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 753664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2830336,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 7901184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "458e51365710f3fb",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "bd46189df29ff4a6411124ee132c985fed0f0b0d30aab4a2a3cf072bc0ce6f06"
+}

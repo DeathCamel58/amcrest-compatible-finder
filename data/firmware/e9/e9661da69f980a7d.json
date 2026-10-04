@@ -1,0 +1,220 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Elise_V4.000.00KL501.0.R.211102.bin",
+   "ids": [
+    "NVR4X-4KS2/L",
+    "Kangle"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-11-02",
+    "latest": "2021-11-02"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Elise_V4.000.00KL501.0.R.211102/u-boot.bin.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 2772992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elise_V4.000.00KL501.0.R.211102/custom-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elise_V4.000.00KL501.0.R.211102/web-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 5890048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Elise_V4.000.00KL501.0.R.211102/logo-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bfaa3bf5464c70c1",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-11-02",
+    "latest": "2021-11-02"
+   },
+   "firmware": "Elise_V4.000.00KL501.0.R.211102.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Kangle"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 2772992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 33972224,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 5890048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "eusr-x.squashfs.img",
+     "image_name": "NVR4XXX-4KS2/L",
+     "image_size": 6270976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0eaca6e44e5bfb5c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "3.00"
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e9661da69f980a7d4fdfe82ccb072c1f5cec7781bd393972f9a7e9c598cf6db4"
+}

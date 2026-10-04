@@ -1,0 +1,35 @@
+{
+ "id": "702a490e85136555",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "dhboot-min",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x50000",
+   "name": "bootloader",
+   "size": 196608,
+   "start": "0x20000"
+  },
+  {
+   "end": "0x140000",
+   "name": "bootloader",
+   "size": 196608,
+   "start": "0x110000"
+  },
+  {
+   "end": "0x320000",
+   "name": "kernel",
+   "size": 1900544,
+   "start": "0x150000"
+  },
+  {
+   "end": "0xdc0000",
+   "name": "rootfs",
+   "size": 11141120,
+   "start": "0x320000"
+  }
+ ]
+}

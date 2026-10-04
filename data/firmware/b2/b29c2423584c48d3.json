@@ -1,0 +1,252 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-Joule2_MultiLang_PN_V3.000.0000000.8.R.250626.bin",
+   "ids": [
+    "IPC-HFW2431DGP-4G-SP"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2431DGP-4G-SP:01:02:00:89:60:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX2XXX-Joule2_MultiLang_PN_V3.000.0000000.8.R.250626.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-Joule2_MultiLang_PN_V3.000.0000000.8.R.250626.bin",
+   "ids": [
+    "IPC-HFW2431DGP-4G-SP"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-06-26",
+    "latest": "2025-06-26"
+   },
+   "firmware": "DH_IPC-HX2XXX-Joule2_MultiLang_PN_V3.000.0000000.8.R.250626.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesia"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu.bin.img",
+     "image_name": "mcu",
+     "image_size": 115456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 1575096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 53348,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "misc.bin.img",
+     "image_name": "MISC",
+     "image_size": 8390840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rtos.img",
+     "image_name": "RTOS",
+     "image_size": 2469560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4215216,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.Ramdisk.img",
+     "image_name": "romfs",
+     "image_size": 2394285,
+     "image_type": "ramdisk",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 11167928,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 15190200,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c2415c9d8b88813d",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-06-26",
+    "latest": "2025-06-26"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-06-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 11167928,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bb8911d0d67525f6",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b29c2423584c48d304fdca894410b904c86fbec4dd3ce75fe8a612adf30d7c78"
+}

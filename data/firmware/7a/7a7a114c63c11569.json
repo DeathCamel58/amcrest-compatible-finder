@@ -1,0 +1,541 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-MFW5241T2P-E3-ASE",
+    "IPC-MFW5241T2P-E3-ASE-SLV",
+    "IPC-MFW5643T2-E3-PV",
+    "IPC-MFW5643T2-E3-PV-SLV"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-MFW5241T2P-E3-ASE:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5241T2P-E3-ASE-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX5XXX-E3-single-Riemann_MultiLang_PN_Stream2_V3.142.0000000.6.R.250512.bin",
+   "ids": [
+    "IPC-MFW5241T2P-E3-ASE",
+    "IPC-MFW5241T2P-E3-ASE-SLV",
+    "IPC-MFW5643T2-E3-PV",
+    "IPC-MFW5643T2-E3-PV-SLV"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-MFW5241T2P-E3-ASE:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5241T2P-E3-ASE-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_IPC-HX5XXX-E3-single-Riemann_MultiLang_PN_Stream2_V3.142.0000000.6.R.250512.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX5XXX-E3-single-Riemann_MultiLang_PN_Stream2_V3.142.0000000.6.R.250512.bin",
+   "ids": [
+    "IPC-MFW5241T2P-E3-ASE",
+    "IPC-MFW5241T2P-E3-ASE-SLV",
+    "IPC-MFW5643T2-E3-PV",
+    "IPC-MFW5643T2-E3-PV-SLV"
+   ],
+   "member": "check.img",
+   "raw_same_as": 2,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-MFW5241T2P-E3-ASE",
+    "IPC-MFW5241T2P-E3-ASE-SLV",
+    "IPC-MFW5643T2-E3-PV",
+    "IPC-MFW5643T2-E3-PV-SLV"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-MFW5241T2P-E3-ASE:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5241T2P-E3-ASE-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
+    "IPC-MFW5643T2-E3-PV-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-12",
+    "latest": "2025-05-12"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 28752056,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8f4267a257727034",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.142.0000000.6.R.250512"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-12",
+    "latest": "2025-05-12"
+   },
+   "firmware": "General_IPC-HX5XXX-E3-single-Riemann_MultiLang_PN_Stream2_V3.142.0000000.6.R.250512.bin",
+   "flash_size": 4294967296,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 514232,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 985272,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 550492,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2922680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 13138616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 131152056,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 19519672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "8ac0663796cfd795",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX620A",
+     "AX620"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ax620a"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   },
+   "software_version": "V3.142.0000000.6.R.250512",
+   "unmapped_images": [
+    "partition-x.cramfs.img"
+   ]
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-12",
+    "latest": "2025-05-12"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 19519672,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1a1a59a5a12f39c5",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.142.0000000.6.R.250512"
+  }
+ ],
+ "sha256": "7a7a114c63c11569c8825656ac020c8364aa2c19b5341122a76a9df8a234f81a"
+}

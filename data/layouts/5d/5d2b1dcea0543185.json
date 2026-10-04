@@ -1,0 +1,17 @@
+{
+ "id": "5d2b1dcea0543185",
+ "partitions": [
+  {
+   "end": "0x300000",
+   "name": "bootloader",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x1200000",
+   "name": "kernel",
+   "size": 5242880,
+   "start": "0xd00000"
+  }
+ ]
+}

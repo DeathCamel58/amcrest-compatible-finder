@@ -1,0 +1,77 @@
+{
+ "id": "74fd77925c3d946f",
+ "partitions": [
+  {
+   "end": "0xa0080000",
+   "name": "u-boot_spi",
+   "size": 524288,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0300000",
+   "name": "u-boot",
+   "size": 1048576,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa0700000",
+   "name": "uImage",
+   "size": 4194304,
+   "start": "0xa0300000"
+  },
+  {
+   "end": "0xa2100000",
+   "name": "romfs",
+   "size": 27262976,
+   "start": "0xa0700000"
+  },
+  {
+   "end": "0xa2200000",
+   "name": "u-boot_slave",
+   "size": 1048576,
+   "start": "0xa2100000"
+  },
+  {
+   "end": "0xa2500000",
+   "name": "uImage_slave",
+   "size": 3145728,
+   "start": "0xa2200000"
+  },
+  {
+   "end": "0xa3300000",
+   "name": "romfs_slave",
+   "size": 14680064,
+   "start": "0xa2500000"
+  },
+  {
+   "end": "0xa3a00000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3800000"
+  },
+  {
+   "end": "0xa3c00000",
+   "name": "logo",
+   "size": 2097152,
+   "start": "0xa3a00000"
+  },
+  {
+   "end": "0xa3f40000",
+   "name": "575S_PMX",
+   "size": 262144,
+   "start": "0xa3f00000"
+  },
+  {
+   "end": "0xa5400000",
+   "name": "web",
+   "size": 20971520,
+   "start": "0xa4000000"
+  },
+  {
+   "end": "0xa7200000",
+   "name": "romfs2",
+   "size": 31457280,
+   "start": "0xa5400000"
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531H-SH",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521H-D",
+    "VTO6521F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6541H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6531H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6531H-SH:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6531F:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:00:00:400:FF",
+    "VTO6521H:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6521H-D:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6521F:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:00:00:400:FF",
+    "VTO6541H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:01:00:400:FF",
+    "VTO6531H:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:01:00:400:FF",
+    "VTO6531H-SH:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:01:00:400:FF",
+    "VTO6531F:01:04:01:98:36:00:02:10:01:01:04:384_384:00:00:00:06:00:01:01:00:400:FF",
+    "VTO6521H:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:01:00:400:FF",
+    "VTO6521H-D:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:01:00:400:FF",
+    "VTO6521F:01:04:01:98:36:00:01:10:01:01:04:384_384:00:00:00:06:00:00:01:00:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521H-D",
+    "VTO6521F",
+    "VTO6531H-SH"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6541H",
+     "1.00"
+    ],
+    [
+     "VTO6531H",
+     "1.00"
+    ],
+    [
+     "VTO6531F",
+     "1.00"
+    ],
+    [
+     "VTO6521H",
+     "1.00"
+    ],
+    [
+     "VTO6521H-D",
+     "1.00"
+    ],
+    [
+     "VTO6521F",
+     "1.00"
+    ],
+    [
+     "VTO6531H-SH",
+     "1.00"
+    ],
+    [
+     "VTO6541H",
+     "1.10"
+    ],
+    [
+     "VTO6531H",
+     "1.10"
+    ],
+    [
+     "VTO6531F",
+     "1.10"
+    ],
+    [
+     "VTO6521H",
+     "1.10"
+    ],
+    [
+     "VTO6521H-D",
+     "1.10"
+    ],
+    [
+     "VTO6521F",
+     "1.10"
+    ],
+    [
+     "VTO6531H-SH",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531H-SH",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521H-D",
+    "VTO6521F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-04-28",
+    "latest": "2024-04-28"
+   },
+   "firmware": null,
+   "flash_size": 18446744075681923071,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 209264,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4014776,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 33175736,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 14477496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3479736,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-04-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware.img",
+     "image_name": "firmware",
+     "image_size": 107231416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "94c8f771e9867a25",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": ""
+    },
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1514111134b390004841cff4796b4595f4e361bc77554065b0f287079de2aefc"
+}

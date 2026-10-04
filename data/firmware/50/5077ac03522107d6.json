@@ -1,0 +1,390 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX3(2)XXX-Ohm_MultiLang_NP_V2.800.0000000.23.R.250822.bin",
+   "ids": [
+    "IPC-HFW2233M",
+    "IPC-HDW2233C-A",
+    "IPC-HDBW2233R-S",
+    "IPC-HFW2233M-AS",
+    "IPC-HFW4233M-LED",
+    "IPC-HFW4233M-AS-LED",
+    "IPC-HDW4233T-A-LED",
+    "IPC-HUM7236-S2",
+    "IPC-HFW2233DM-4G-AS-I2",
+    "IPC-HFW3233M-SG",
+    "IPC-HFW2233M-A-IL"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2233M:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW2233C-A:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW2233R-S:01:02:05:6A:38:00:01:00:00:00:04:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2233M-AS:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80",
+    "IPC-HFW4233M-LED:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW4233M-AS-LED:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80",
+    "IPC-HDW4233T-A-LED:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HUM7236-S2:01:02:0C:6A:38:00:01:10:01:01:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2233DM-4G-AS-I2:01:02:02:6A:38:00:01:10:03:01:04:384:08:02:00:00:00:01:00:00:80",
+    "IPC-HFW3233M-SG:01:02:13:B4:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2233M-A-IL:01:02:13:B4:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX3(2)XXX-Ohm_MultiLang_NP_V2.800.0000000.23.R.250822.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX3(2)XXX-Ohm_MultiLang_NP_V2.800.0000000.23.R.250822.bin",
+   "ids": [
+    "IPC-HFW2233M",
+    "IPC-HDW2233C-A",
+    "IPC-HDBW2233R-S",
+    "IPC-HFW2233M-AS",
+    "IPC-HFW4233M-LED",
+    "IPC-HFW4233M-AS-LED",
+    "IPC-HDW4233T-A-LED",
+    "IPC-HUM7236-S2",
+    "IPC-HFW2233DM-4G-AS-I2",
+    "IPC-HFW3233M-SG",
+    "IPC-HFW2233M-A-IL"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-22",
+    "latest": "2025-08-22"
+   },
+   "firmware": "DH_IPC-HX3(2)XXX-Ohm_MultiLang_NP_V2.800.0000000.23.R.250822.bin",
+   "flash_size": 134217728,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 95072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 203120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1484984,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3213124,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7968952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 19806392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "aewb-x.squashfs.img",
+     "image_name": "aewb",
+     "image_size": 612536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "779f93ead9c70e0f",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-08-22",
+    "latest": "2025-08-22"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-08-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 92840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-08-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7968952,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d41882dfc7c51559",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5077ac03522107d638dac09c7bf27f52a9e7ada442fb8b1a26b6ae0f2a2e42b8"
+}

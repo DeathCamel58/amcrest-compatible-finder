@@ -1,0 +1,306 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PFW83240-A180-G-DC12AC24V",
+    "IPC-PFW83242P-A180-DC12AC24V",
+    "IPC-PFW83240-A180-GNF-S2",
+    "IPC-PSDW83249M-A360-B25D440-S3A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PFW83240-A180-G-DC12AC24V:01:02:00:87:5E:00:01:14:03:01:04:960:09:00:02:04:00:01:00:00:1000",
+    "IPC-PFW83242P-A180-DC12AC24V:01:02:00:87:5E:00:01:14:03:01:04:960:09:00:00:04:00:01:00:00:1000",
+    "IPC-PFW83240-A180-GNF-S2:01:02:00:87:5E:00:01:14:01:01:04:960:09:00:02:04:03:01:00:00:1000",
+    "IPC-PSDW83249M-A360-B25D440-S3A:01:02:00:86:5E:00:01:14:03:03:04:960:0A:00:02:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-PFW83240-A180-G-DC12AC24V",
+    "IPC-PFW83242P-A180-DC12AC24V",
+    "IPC-PFW83240-A180-GNF-S2",
+    "IPC-PSDW83249M-A360-B25D440-S3A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2017.09-svn10825",
+   "build_dates": {
+    "earliest": "2023-12-26",
+    "latest": "2023-12-26"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 2132152,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 4982968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 494292,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 3369144,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 13612728,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 95848632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 22415544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 42207416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "blob.img",
+     "image_name": "blob",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7d81e44d6dc4672d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "RK3588",
+     "RK3399",
+     "RK3036",
+     "RK3568",
+     "RK1808",
+     "RK3308",
+     "RV1126",
+     "RK3128",
+     "RK3328",
+     "RK3368",
+     "RV1108",
+     "RK3066",
+     "RK3188",
+     "RK3228",
+     "RK3288",
+     "RK3126",
+     "RK3366"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3588"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3399"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3036"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3568"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk1808"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3308"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rv1126"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3128"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3328"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3368"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rv1108"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3066"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3188"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3228"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3288"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3126"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "rk3366"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V3.000.0000000.13.R.231226"
+  }
+ ],
+ "sha256": "48806b2cdf87ad427871b3eff783faa22b1949eaa07da1d060c903179774abd0"
+}

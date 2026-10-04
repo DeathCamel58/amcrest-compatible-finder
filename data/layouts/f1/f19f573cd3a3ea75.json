@@ -1,0 +1,65 @@
+{
+ "id": "f19f573cd3a3ea75",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x4a00000",
+   "name": "pd",
+   "size": 8388608,
+   "start": "0x4200000"
+  },
+  {
+   "end": "0x5600000",
+   "name": "kernel",
+   "size": 12582912,
+   "start": "0x4a00000"
+  },
+  {
+   "end": "0x7600000",
+   "name": "web",
+   "size": 33554432,
+   "start": "0x5600000"
+  },
+  {
+   "end": "0xd600000",
+   "name": "rootfs",
+   "size": 100663296,
+   "start": "0x7600000"
+  },
+  {
+   "end": "0x32b00000",
+   "name": "firmware",
+   "size": 402653184,
+   "start": "0x1ab00000"
+  },
+  {
+   "end": "0x32b00000",
+   "name": "firmware",
+   "size": 268435456,
+   "start": "0x22b00000"
+  },
+  {
+   "end": "0x32b00000",
+   "name": "firmware",
+   "size": 134217728,
+   "start": "0x2ab00000"
+  }
+ ]
+}

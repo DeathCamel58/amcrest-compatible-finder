@@ -1,0 +1,323 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_SD-Faraday_MultiLang_PN_Stream3-LingxiTraffic_V3.200.0000009.3.R.250311.bin",
+   "ids": [
+    "SDT5X425-4Z4-FA-2812-A",
+    "SDT5X425-4Z4-FA1-2812-A",
+    "SDT5X425-4Z4-FA1-0832-A",
+    "SDT5X425-4Z4-FA1-0832-B",
+    "SDT5X2437-4Z4-FA-0832-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT5X425-4Z4-FA-2812-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-2812-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-0832-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-0832-B:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X2437-4Z4-FA-0832-B:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_SD-Faraday_MultiLang_PN_Stream3-LingxiTraffic_V3.200.0000009.3.R.250311.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_SD-Faraday_MultiLang_PN_Stream3-LingxiTraffic_V3.200.0000009.3.R.250311.bin",
+   "ids": [
+    "SDT5X425-4Z4-FA-2812-A",
+    "SDT5X425-4Z4-FA1-2812-A",
+    "SDT5X425-4Z4-FA1-0832-A",
+    "SDT5X425-4Z4-FA1-0832-B",
+    "SDT5X2437-4Z4-FA-0832-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT5X425-4Z4-FA-2812-A",
+    "SDT5X425-4Z4-FA1-2812-A",
+    "SDT5X425-4Z4-FA1-0832-A",
+    "SDT5X425-4Z4-FA1-0832-B",
+    "SDT5X2437-4Z4-FA-0832-B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT5X425-4Z4-FA-2812-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-2812-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-0832-A:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X425-4Z4-FA1-0832-B:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000",
+    "SDT5X2437-4Z4-FA-0832-B:01:03:04:86:52:00:02:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT5X425-4Z4-FA-2812-A",
+    "SDT5X425-4Z4-FA1-2812-A",
+    "SDT5X425-4Z4-FA1-0832-A",
+    "SDT5X425-4Z4-FA1-0832-B",
+    "SDT5X2437-4Z4-FA-0832-B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-03-11",
+    "latest": "2025-03-11"
+   },
+   "firmware": "DH_SD-Faraday_MultiLang_PN_Stream3-LingxiTraffic_V3.200.0000009.3.R.250311.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2025-03-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 516440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 516440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 38680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 2595000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1386680,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12878592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 18151608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 97581240,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.ext4_aa.img",
+     "image_name": "firmware",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-03-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.ext4_ab.img",
+     "image_name": "firmware",
+     "image_size": 36702392,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bc06765992bb8162",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.200.0000009.3.R.250311"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-03-11",
+    "latest": "2025-03-11"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkey",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesia",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.0000009.3.R.250311"
+  }
+ ],
+ "sha256": "d0e3d71252260470a3ab48cd5a0ae7020f10eafdb517e7ce099b2d0c8785e796"
+}

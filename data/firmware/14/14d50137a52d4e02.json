@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-29",
+    "latest": "2013-01-29"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-29",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVR0404LF-AS_3104H_Eng_N_FirstOption_V2.608.0000.0.R.20130129_user-x.cramfs.img",
+     "image_name": "810Xuser",
+     "image_size": 6291456,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cbc4b98eb9a85912",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "14d50137a52d4e020015420f5d437012c1f92827f33a84706ea761ccd8fd77a2"
+}

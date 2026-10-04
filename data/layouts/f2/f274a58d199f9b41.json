@@ -1,0 +1,59 @@
+{
+ "id": "f274a58d199f9b41",
+ "partitions": [
+  {
+   "end": "0xa0100000",
+   "name": "boot_b1",
+   "size": 1048576,
+   "start": "0xa0000000"
+  },
+  {
+   "end": "0xa0200000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0xa0100000"
+  },
+  {
+   "end": "0xa0300000",
+   "name": "boot_bl2",
+   "size": 1048576,
+   "start": "0xa0200000"
+  },
+  {
+   "end": "0xa0b00000",
+   "name": "uImage",
+   "size": 8388608,
+   "start": "0xa0300000"
+  },
+  {
+   "end": "0xa1300000",
+   "name": "rootfs",
+   "size": 8388608,
+   "start": "0xa0b00000"
+  },
+  {
+   "end": "0xa3600000",
+   "name": "user",
+   "size": 36700160,
+   "start": "0xa1300000"
+  },
+  {
+   "end": "0xa3800000",
+   "name": "custom",
+   "size": 2097152,
+   "start": "0xa3600000"
+  },
+  {
+   "end": "0xa3b00000",
+   "name": "config",
+   "size": 3145728,
+   "start": "0xa3800000"
+  },
+  {
+   "end": "0xa4000000",
+   "name": "log",
+   "size": 5242880,
+   "start": "0xa3b00000"
+  }
+ ]
+}

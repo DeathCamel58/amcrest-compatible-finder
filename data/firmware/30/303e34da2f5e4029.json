@@ -1,0 +1,380 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ARC3800H_MultiLang_PN_868_V2.000.0000011.1.R.260807.bin",
+   "ids": [
+    "ARC3800H-FW2-868",
+    "ARC3800H-FW2-915",
+    "ARC3800H-FW2",
+    "ARC3800H-FW2SD-868",
+    "ARC3800H-FW2SD-915",
+    "ARC3800H-FW2SD",
+    "ARC3800H-W2-868",
+    "ARC3800H-W2-915",
+    "ARC3800H-W2",
+    "ARC3800H-W2SD-868",
+    "ARC3800H-W2SD-915",
+    "ARC3800H-W2SD"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ARC3800H-FW2-868:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2-915:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD-868:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD-915:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-W2-868:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2-915:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD-868:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD-915:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ARC3800H_MultiLang_PN_868_V2.000.0000011.1.R.260807.bin",
+   "ids": [
+    "ARC3800H-W2",
+    "ARC3800H-W2-868",
+    "ARC3800H-W2-915",
+    "ARC3800H-FW2",
+    "ARC3800H-FW2-868",
+    "ARC3800H-FW2-915",
+    "ARC3800H-W2SD",
+    "ARC3800H-W2SD-868",
+    "ARC3800H-W2SD-915",
+    "ARC3800H-FW2SD",
+    "ARC3800H-FW2SD-868",
+    "ARC3800H-FW2SD-915"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC3800H-W2",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD-915",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ARC3800H_MultiLang_PN_868_V2.000.0000011.1.R.260807.bin",
+   "ids": [
+    "ARC3800H-FW2-868",
+    "ARC3800H-FW2-915",
+    "ARC3800H-FW2",
+    "ARC3800H-FW2SD-868",
+    "ARC3800H-FW2SD-915",
+    "ARC3800H-FW2SD",
+    "ARC3800H-W2-868",
+    "ARC3800H-W2-915",
+    "ARC3800H-W2",
+    "ARC3800H-W2SD-868",
+    "ARC3800H-W2SD-915",
+    "ARC3800H-W2SD"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC3800H-W2",
+    "ARC3800H-W2-868",
+    "ARC3800H-W2-915",
+    "ARC3800H-FW2",
+    "ARC3800H-FW2-868",
+    "ARC3800H-FW2-915",
+    "ARC3800H-W2SD",
+    "ARC3800H-W2SD-868",
+    "ARC3800H-W2SD-915",
+    "ARC3800H-FW2SD",
+    "ARC3800H-FW2SD-868",
+    "ARC3800H-FW2SD-915"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ARC3800H-W2",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-W2SD-915",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD-868",
+     "1.00"
+    ],
+    [
+     "ARC3800H-FW2SD-915",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ARC3800H-FW2-868",
+    "ARC3800H-FW2-915",
+    "ARC3800H-FW2",
+    "ARC3800H-FW2SD-868",
+    "ARC3800H-FW2SD-915",
+    "ARC3800H-FW2SD",
+    "ARC3800H-W2-868",
+    "ARC3800H-W2-915",
+    "ARC3800H-W2",
+    "ARC3800H-W2SD-868",
+    "ARC3800H-W2SD-915",
+    "ARC3800H-W2SD"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ARC3800H-FW2-868:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2-915:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2:01:04:0D:00:67:00:00:1D:00:03:00:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD-868:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD-915:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-FW2SD:01:04:0D:00:67:00:00:1D:00:03:01:4B0:00:03:00:00:0B:00:00:00:100:FF",
+    "ARC3800H-W2-868:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2-915:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2:01:04:0D:00:67:00:00:10:00:01:00:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD-868:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD-915:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF",
+    "ARC3800H-W2SD:01:04:0D:00:67:00:00:10:00:01:01:4B0:00:03:00:00:08:00:00:00:100:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-07",
+    "latest": "2026-08-07"
+   },
+   "firmware": "DH_ARC3800H_MultiLang_PN_868_V2.000.0000011.1.R.260807.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "MultiLang"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 52452,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4434104,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 18616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5191352,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 22001848,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "48c9b47f9214816d",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-07",
+    "latest": "2026-08-07"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "MultiLang"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bbe56df1340d15a6",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "303e34da2f5e40292098ccb706627c02cc396415372f4ca8269441d982530ef2"
+}

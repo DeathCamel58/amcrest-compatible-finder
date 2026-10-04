@@ -1,0 +1,322 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "IntelBras_IPC-WPT-Kant_PrtEngSpn_NP_V2.860.00IB004.0.T.260814.bin",
+   "ids": [
+    "IPC-F3DP-IL",
+    "IPC-T3DP-IL",
+    "IPC-C3AP-IB",
+    "IPC-F5DP-IL",
+    "IPC-T5DP-IL",
+    "IPC-H5AP-IB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-F3DP-IL:01:02:00:CF:66:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:80",
+    "IPC-T3DP-IL:01:02:00:CF:66:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:80",
+    "IPC-C3AP-IB:01:02:00:FA:66:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-F5DP-IL:01:02:00:BF:66:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:80",
+    "IPC-T5DP-IL:01:02:00:BF:66:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:80",
+    "IPC-H5AP-IB:01:02:00:E6:66:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "IntelBras_IPC-WPT-Kant_PrtEngSpn_NP_V2.860.00IB004.0.T.260814.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "IntelBras_IPC-WPT-Kant_PrtEngSpn_NP_V2.860.00IB004.0.T.260814.bin",
+   "ids": [
+    "IPC-F3DP-IL",
+    "IPC-T3DP-IL",
+    "IPC-C3AP-IB",
+    "IPC-F5DP-IL",
+    "IPC-T5DP-IL",
+    "IPC-H5AP-IB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-14",
+    "latest": "2026-08-14"
+   },
+   "firmware": "IntelBras_IPC-WPT-Kant_PrtEngSpn_NP_V2.860.00IB004.0.T.260814.bin",
+   "flash_size": 134217728,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "Portuguese",
+     "English",
+     "Spanish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 198840,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 164072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 46995,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2328308,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5366128,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1466736,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 19714416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "566363ade8a8eba4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027A-S01A"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "199e51b98bc93911a4cfba7c1c1341ca675c22181ac63d1674012958ac86b91d"
+}

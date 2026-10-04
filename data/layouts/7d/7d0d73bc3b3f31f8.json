@@ -1,0 +1,115 @@
+{
+ "id": "7d0d73bc3b3f31f8",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "mini-Boot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "end": "0x600000",
+   "name": "dgs",
+   "read_only": false,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "end": "0x2600000",
+   "name": "config",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x4600000",
+   "name": "backup",
+   "read_only": false,
+   "size": 33554432,
+   "start": "0x2600000"
+  },
+  {
+   "end": "0x5600000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 16777216,
+   "start": "0x4600000"
+  },
+  {
+   "backup_start": "0x13700000",
+   "end": "0x5700000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x5600000"
+  },
+  {
+   "backup_start": "0x13800000",
+   "end": "0x6700000",
+   "name": "Kernel",
+   "size": 16777216,
+   "start": "0x5700000"
+  },
+  {
+   "backup_start": "0x14800000",
+   "end": "0x13700000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 218103808,
+   "start": "0x6700000"
+  },
+  {
+   "end": "0x13800000",
+   "name": "bakpart",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x13700000"
+  },
+  {
+   "end": "0x14800000",
+   "name": "backkernel",
+   "size": 16777216,
+   "start": "0x13800000"
+  },
+  {
+   "end": "0x21800000",
+   "name": "backromfs",
+   "read_only": true,
+   "size": 218103808,
+   "start": "0x14800000"
+  },
+  {
+   "end": "0x41800000",
+   "name": "firmware",
+   "read_only": false,
+   "size": 536870912,
+   "start": "0x21800000"
+  },
+  {
+   "end": "0x100000000417fffff",
+   "name": "appdata",
+   "read_only": false,
+   "size": 18446744073709551615,
+   "start": "0x41800000"
+  }
+ ]
+}

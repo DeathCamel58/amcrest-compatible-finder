@@ -1,0 +1,324 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_ASA4214F_Eng_V1.000.0000001.1.R.20180724.bin",
+   "ids": [
+    "ASA4214F"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASA4214F",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_ASA4214F_Eng_V1.000.0000001.1.R.20180724.language.bin",
+   "ids": [
+    "ASA4214F"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASA4214F",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn3214",
+   "build_dates": {
+    "earliest": "2018-07-24",
+    "latest": "2018-07-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "3.0.8",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3521boot",
+     "image_size": 213296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2252140,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2420736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 3555328,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 26505216,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "gui-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 573440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uboot_nor.bin.img",
+     "image_name": "3521boot",
+     "image_size": 219144,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6b0472bd7e307593",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "data-x.cramfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3521boot"
+     }
+    ],
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn3214",
+   "build_dates": {
+    "earliest": "2018-07-24",
+    "latest": "2018-07-24"
+   },
+   "firmware": "General_ASA4214F_Eng_V1.000.0000001.1.R.20180724.bin",
+   "flash_size": null,
+   "kernel_version": "3.0.8",
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3521boot",
+     "image_size": 213296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2252140,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 2420736,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 3555328,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 26505216,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "gui-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 573440,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8f85d9c9b634792a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3521boot"
+     },
+     {
+      "member": "kernel-x.cramfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     }
+    ],
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-07-24",
+    "latest": "2018-07-24"
+   },
+   "firmware": "General_ASA4214F_Eng_V1.000.0000001.1.R.20180724.language.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-07-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "3521romfs",
+     "image_size": 3555328,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9e0383df2db0df7a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "data-x.cramfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     }
+    ],
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "47242eeae806258ded94b5ac3916daea156d41ea7d37afb6063fbc6d6efe3f4b"
+}

@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-11-27",
+    "latest": "2013-11-27"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-11-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "DHVision_General_SD6XXX-Brynhil_Eng_N_V2.213.0000.0.R.20131127_user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 6127616,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "10f3331836bcd043",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8625c2cb22854bf671553ac3afa4fc22b5f0433276e723db2c6f7d2313c9e8d3"
+}

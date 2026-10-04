@@ -1,0 +1,358 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PDBW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8843-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8843-A180-E4-F:01:02:05:6A:34:00:04:01:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX8XXX-Four-Nobel_MultiLang_NP_Stream3_V3.000.0000000.2.R.210712.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-PDBW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8843-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8843-A180-E4-F:01:02:05:6A:34:00:04:01:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "General_IPC-HX8XXX-Four-Nobel_MultiLang_NP_Stream3_V3.000.0000000.2.R.210712.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_IPC-HX8XXX-Four-Nobel_MultiLang_NP_Stream3_V3.000.0000000.2.R.210712.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "check.img",
+   "raw_same_as": 2,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-PDBW8843-A180-E4",
+    "IPC-PDBW8840P-A180-E4",
+    "IPC-PDBW8843-A180-E4-F",
+    "IPC-PDBW8840P-A180-E4-F",
+    "IPC-PFW8843-A180-E4",
+    "IPC-PFW8840P-A180-E4",
+    "IPC-PFW8843-A180-E4-F",
+    "IPC-PFW8840P-A180-E4-F"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-PDBW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PDBW8843-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PDBW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8843-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8840P-A180-E4:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-PFW8843-A180-E4-F:01:02:05:6A:34:00:04:01:01:01:01:4B0:08:00:00:04:03:01:00:00:800",
+    "IPC-PFW8840P-A180-E4-F:01:02:05:6A:34:00:01:10:01:01:01:4B0:08:00:00:04:03:01:00:00:800"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-11",
+    "latest": "2021-07-11"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 29325496,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "518ec82107d57982",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-11",
+    "latest": "2021-07-11"
+   },
+   "firmware": "General_IPC-HX8XXX-Four-Nobel_MultiLang_NP_Stream3_V3.000.0000000.2.R.210712.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.37",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Polish",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Turkish",
+     "Ukrainian",
+     "Hebrew",
+     "Hungarian",
+     "Romanian",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 241680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 268656,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 44672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 2595000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5521436,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 82319544,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10930360,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3519av100"
+     }
+    ],
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-11",
+    "latest": "2021-07-11"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10930360,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "08bb9993a7e5af7c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "734dd12374fdd20c9dc4b8e7806589b2b470f33d681f3eb4fe4869c3d136acd4"
+}

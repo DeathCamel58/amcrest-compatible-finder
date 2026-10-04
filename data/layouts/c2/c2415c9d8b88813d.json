@@ -1,0 +1,65 @@
+{
+ "id": "c2415c9d8b88813d",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "mini-Boot",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x20000",
+   "name": "mcu",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x380000",
+   "name": "U-Boot",
+   "size": 2359296,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x680000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x580000"
+  },
+  {
+   "end": "0x1e80000",
+   "name": "MISC",
+   "size": 11534336,
+   "start": "0x1380000"
+  },
+  {
+   "end": "0x21c0000",
+   "name": "RTOS",
+   "size": 3407872,
+   "start": "0x1e80000"
+  },
+  {
+   "end": "0x26c0000",
+   "name": "Kernel",
+   "size": 5242880,
+   "start": "0x21c0000"
+  },
+  {
+   "end": "0x2ac0000",
+   "name": "romfs",
+   "size": 4194304,
+   "start": "0x26c0000"
+  },
+  {
+   "end": "0x5000000",
+   "name": "web",
+   "size": 12582912,
+   "start": "0x4400000"
+  },
+  {
+   "end": "0x6c00000",
+   "name": "user",
+   "size": 16777216,
+   "start": "0x5c00000"
+  }
+ ]
+}

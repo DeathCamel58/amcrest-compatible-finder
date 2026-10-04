@@ -1,0 +1,47 @@
+{
+ "id": "b9db311b200b69c6",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_16M",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2260000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x23e0000",
+   "name": "web",
+   "size": 1572864,
+   "start": "0x2260000"
+  },
+  {
+   "end": "0x26e0000",
+   "name": "romfs",
+   "size": 3145728,
+   "start": "0x23e0000"
+  },
+  {
+   "end": "0x26f0000",
+   "name": "pd",
+   "size": 65536,
+   "start": "0x26e0000"
+  },
+  {
+   "end": "0x2da0000",
+   "name": "user",
+   "size": 7012352,
+   "start": "0x26f0000"
+  },
+  {
+   "end": "0x2ec0000",
+   "name": "data",
+   "size": 1179648,
+   "start": "0x2da0000"
+  }
+ ]
+}

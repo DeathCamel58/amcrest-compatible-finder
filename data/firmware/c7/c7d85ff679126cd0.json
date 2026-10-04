@@ -1,0 +1,45 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DHI_IVSS71XXAI-I_MultiLang_V3.005.0000004.1.R.260819.BIN",
+   "ids": [
+    "IVSS",
+    "General",
+    "Dahua"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-19",
+    "latest": "2026-08-19"
+   },
+   "firmware": "DHI_IVSS71XXAI-I_MultiLang_V3.005.0000004.1.R.260819.BIN",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "Dahua"
+   ],
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c7d85ff679126cd0dd26f696e75d3a7c1c880e8a00fae1858e90d39b1ccb91a7"
+}

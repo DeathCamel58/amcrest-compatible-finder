@@ -1,0 +1,17 @@
+{
+ "id": "e4de8ae796899c09",
+ "partitions": [
+  {
+   "end": "0x2e0000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0xe0000"
+  },
+  {
+   "end": "0xe00000",
+   "name": "rootfs",
+   "size": 11665408,
+   "start": "0x2e0000"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "a1213a1e2e2bd0a6",
+ "partitions": [
+  {
+   "end": "0x680000",
+   "name": "dhdtb",
+   "size": 1048576,
+   "start": "0x580000"
+  },
+  {
+   "end": "0x1f80000",
+   "name": "MISC",
+   "size": 11534336,
+   "start": "0x1480000"
+  },
+  {
+   "end": "0x2480000",
+   "name": "RTOS",
+   "size": 5242880,
+   "start": "0x1f80000"
+  }
+ ]
+}

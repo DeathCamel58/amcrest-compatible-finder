@@ -1,0 +1,218 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Elan-S3_Eng_V4.003.00KL502.0.R.251126.bin",
+   "ids": [
+    "NVR4X-4KS3"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-git6a42",
+   "build_dates": {
+    "earliest": "2025-11-26",
+    "latest": "2025-11-26"
+   },
+   "firmware": "Elan-S3_Eng_V4.003.00KL502.0.R.251126.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "loader.bin.img",
+     "image_name": "nt98632boot",
+     "image_size": 65536,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "nt98632boot",
+     "image_size": 74920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "nt98632boot",
+     "image_size": 881752,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "nt98632",
+     "image_size": 3856104,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "nt98632romfs",
+     "image_size": 42319872,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "nt98632",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "nt98632",
+     "image_size": 9211904,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "nt98632",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "nt98632",
+     "image_size": 7348224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2633545c60f69e99",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "NT98331",
+     "NT98632"
+    ],
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51103"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51103"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98331"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "nt98632"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "nt98632boot"
+     },
+     {
+      "member": "uImage.img",
+      "source": "image_name",
+      "value": "nt98632"
+     },
+     {
+      "member": "romfs-x.squashfs.img",
+      "source": "image_name",
+      "value": "nt98632romfs"
+     }
+    ],
+    "name": null,
+    "vendor": "Novatek"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "70fdd0b7c426a50c2245cb68069d6bf18d9f924f05040758733250e5afbf9cc2"
+}

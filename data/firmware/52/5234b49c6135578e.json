@@ -1,0 +1,399 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.700.0000000.2.R.240929.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF",
+    "VTH5X41G:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "VTHX4X1:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH8641KMG-A:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:0E:08:00:00:00:80:FF",
+    "VTH864X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTHX62X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH262X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.700.0000000.2.R.240929.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH8641KMG-A:",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH8641KMG-A:",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.700.0000000.2.R.240929.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH8641KMG-A:",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH8641KMG-A:",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF",
+    "VTH5X41G:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "VTHX4X1:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH8641KMG-A:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:0E:08:00:00:00:80:FF",
+    "VTH864X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTHX62X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH262X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-09-29",
+    "latest": "2024-09-29"
+   },
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_EMEA_V4.700.0000000.2.R.240929.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Hebrew"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "mini-boot",
+     "image_size": 24248,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 818,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 51908,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 616632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5109432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 15947960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2799800,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "308decc0b35dd95e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-09-29",
+    "latest": "2024-09-29"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Portuguese",
+     "Russian",
+     "Spanish",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Hebrew"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2799800,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c80738175b285fc7",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.3"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.3",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "5234b49c6135578ea8cc8e818f680f7e739694c8c87c6bbfa3d4e74ca2d7a512"
+}

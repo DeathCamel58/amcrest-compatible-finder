@@ -1,0 +1,344 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-B-H-SIV_MultiLang_EMEA_NP_V3.004.0000000.1.R.260126.bin",
+   "ids": [
+    "ASI1212M",
+    "ASI1201M-ME",
+    "ASI1212M-W",
+    "ASI1212M-DW",
+    "ASI1201M-MEW",
+    "ASA2212GL",
+    "ASA2212GL-D",
+    "ASA2212GL-MEW",
+    "ASI20L-KF",
+    "ASI20L-MWK",
+    "ASI20L-MWKF",
+    "ASI20H-MK",
+    "ASI20H-MWK",
+    "ASI20H-MWKF"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI1212M:01:04:05:00:46:00:00:10:00:01:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASI1201M-ME:01:04:05:00:46:00:00:10:00:01:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASI1212M-W:01:04:05:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI1212M-DW:01:04:05:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI1201M-MEW:01:04:05:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASA2212GL:01:04:06:00:46:00:00:10:00:01:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASA2212GL-D:01:04:06:00:46:00:00:10:00:01:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASA2212GL-MEW:01:04:06:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI20L-KF:01:04:05:00:46:00:00:00:00:00:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASI20L-MWK:01:04:05:00:46:00:00:00:00:00:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI20L-MWKF:01:04:05:00:46:00:00:00:00:00:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI20H-MK:01:04:05:00:46:00:00:10:00:01:01:4B0:00:00:00:00:00:00:00:00:80:FF",
+    "ASI20H-MWK:01:04:05:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF",
+    "ASI20H-MWKF:01:04:05:00:46:00:00:10:00:01:01:4B0:00:03:00:00:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASIX2XX-B-H-SIV_MultiLang_EMEA_NP_V3.004.0000000.1.R.260126.bin",
+   "ids": [
+    "ASI1212M-ME",
+    "ASI1201M-ME",
+    "ASI1212M-MEW",
+    "ASI1201M-MEW",
+    "ASI1212M",
+    "ASI1212M-W",
+    "ASI1212M-DW",
+    "ASI1212M-P",
+    "ASI1201M-MEP",
+    "ASI1212M-MEP",
+    "ASA2212GL",
+    "ASA2212GL-D",
+    "ASA2212GL-MEW",
+    "ASI20L-KF",
+    "ASI20L-MWK",
+    "ASI20L-MWKF",
+    "ASI20H-MK",
+    "ASI20H-MWK",
+    "ASI20H-MWKF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI1212M-ME",
+     "1.00"
+    ],
+    [
+     "ASI1201M-ME",
+     "1.00"
+    ],
+    [
+     "ASI1212M-MEW",
+     "1.00"
+    ],
+    [
+     "ASI1201M-MEW",
+     "1.00"
+    ],
+    [
+     "ASI1212M",
+     "1.00"
+    ],
+    [
+     "ASI1212M-W",
+     "1.00"
+    ],
+    [
+     "ASI1212M-DW",
+     "1.00"
+    ],
+    [
+     "ASI1212M-P",
+     "1.00"
+    ],
+    [
+     "ASI1201M-MEP",
+     "1.00"
+    ],
+    [
+     "ASI1212M-MEP",
+     "1.00"
+    ],
+    [
+     "ASA2212GL",
+     "1.00"
+    ],
+    [
+     "ASA2212GL-D",
+     "1.00"
+    ],
+    [
+     "ASA2212GL-MEW",
+     "1.00"
+    ],
+    [
+     "ASI20L-KF",
+     "1.00"
+    ],
+    [
+     "ASI20L-MWK",
+     "1.00"
+    ],
+    [
+     "ASI20L-MWKF",
+     "1.00"
+    ],
+    [
+     "ASI20H-MK",
+     "1.00"
+    ],
+    [
+     "ASI20H-MWK",
+     "1.00"
+    ],
+    [
+     "ASI20H-MWKF",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-B-H-SIV_MultiLang_EMEA_NP_V3.004.0000000.1.R.260126.bin",
+   "ids": [
+    "ASI1212M",
+    "ASI1201M-ME",
+    "ASI1212M-W",
+    "ASI1212M-DW",
+    "ASI1201M-MEW",
+    "ASA2212GL",
+    "ASA2212GL-D",
+    "ASA2212GL-MEW",
+    "ASI20L-KF",
+    "ASI20L-MWK",
+    "ASI20L-MWKF",
+    "ASI20H-MK",
+    "ASI20H-MWK",
+    "ASI20H-MWKF"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-26",
+    "latest": "2026-01-26"
+   },
+   "firmware": "DH_ASIX2XX-B-H-SIV_MultiLang_EMEA_NP_V3.004.0000000.1.R.260126.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Russian",
+     "Arabic",
+     "PortugalBR",
+     "French",
+     "SpanishEU",
+     "Spanish",
+     "Portuguese",
+     "Italian"
+    ],
+    "video_standard": "None"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 26808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 3050,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 653496,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 657592,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 204672,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 3385528,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 157880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5115576,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 17950904,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 71964,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-01-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5908664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "61caecf9f207d036",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   },
+   "software_version": "V3.004.0000000.1.R.260126"
+  }
+ ],
+ "sha256": "dded8f161d194aec2ac70895a5f4dc992cfbd773d539f57d8e908adc11bb3405"
+}

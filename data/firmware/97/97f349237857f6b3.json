@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-12-24",
+    "latest": "2013-12-24"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-12-24",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_IPC-HX3(2)XXX_Eng_N_V2.212.0001.0.R.20131224_kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1925120,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5b04bf698ea03b05",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "97f349237857f6b3255a1bda22e9f25ec2e67267e79f9bc7efb5832f6be39e30"
+}

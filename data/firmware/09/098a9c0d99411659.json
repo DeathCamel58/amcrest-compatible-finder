@@ -1,0 +1,164 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-08-26",
+    "latest": "2020-08-26"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Ukrainian",
+    "supported_languages": [
+     "English",
+     "Russian",
+     "Ukrainian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-08-26",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "env-x.cramfs.img",
+     "image_name": "env",
+     "image_size": 67768,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2486056,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2484408,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "bootlogo",
+     "image_size": 6627,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 981176,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 592056,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "usr-x.cramfs.img",
+     "image_name": "usr",
+     "image_size": 7076024,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-08-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 10424,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bc08dc94d58826ed",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.0"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "098a9c0d994116594de2262997742feee38847214e7f435cc2846baa29f383cc"
+}

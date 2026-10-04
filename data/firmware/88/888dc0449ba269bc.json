@@ -1,0 +1,398 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX4XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HFW4241T-AS",
+    "IPC-HFW4241T-ZAS",
+    "IPC-HDBW4241E-AS",
+    "IPC-HDBW4241R-ZAS",
+    "IPC-HFW4241E-AS",
+    "IPC-HDW4241T-ZS",
+    "IPC-HDW4241EM-S",
+    "IPC-HFW4441T-AS",
+    "IPC-HFW4441T-ZAS",
+    "IPC-HDBW4441E-AS",
+    "IPC-HDBW4441R-ZAS",
+    "IPC-HFW4441E-AS",
+    "IPC-HDW4441T-ZS",
+    "IPC-HDW4441EM-S",
+    "IPC-HDBW4441R-AS",
+    "IPC-HFW4441TP-AS-0210B",
+    "IPC-HFW4541T-AS",
+    "IPC-HFW4541T-ZAS",
+    "IPC-HDBW4541E-AS",
+    "IPC-HDBW4541R-ZAS",
+    "IPC-HFW4541E-AS",
+    "IPC-HDW4541T-ZS",
+    "IPC-HDW4541EM-S",
+    "IPC-HFW4841T-AS",
+    "IPC-HFW4841T-ZAS",
+    "IPC-HDBW4841E-AS",
+    "IPC-HDBW4841R-ZAS",
+    "IPC-HFW4841E-AS",
+    "IPC-HDW4841T-ZS",
+    "IPC-HDW4841EM-S"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW4241T-AS:01:02:00:B4:57:00:01:10:03:01:04:3E8:03:00:00:00:00:00:00:00:200",
+    "IPC-HFW4241T-ZAS:01:02:00:B4:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW4241E-AS:01:02:00:B4:57:00:01:10:03:01:04:3E8:03:00:00:00:00:00:00:00:200",
+    "IPC-HDBW4241R-ZAS:01:02:00:B4:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW4241E-AS:01:02:00:B4:57:00:01:10:03:01:04:3E8:03:00:00:00:00:00:00:00:200",
+    "IPC-HDW4241T-ZS:01:02:00:B4:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW4241EM-S:01:02:00:B4:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW4441T-AS:01:02:00:CE:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW4441T-ZAS:01:02:00:CE:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW4441E-AS:01:02:00:CE:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW4441R-ZAS:01:02:00:CE:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW4441E-AS:01:02:00:CE:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HDW4441T-ZS:01:02:00:CE:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW4441EM-S:01:02:00:CE:57:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW4441R-AS:01:02:00:C8:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW4441TP-AS-0210B:01:02:00:C8:57:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW4541T-AS:01:02:00:63:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW4541T-ZAS:01:02:00:63:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW4541E-AS:01:02:00:63:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW4541R-ZAS:01:02:00:63:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW4541E-AS:01:02:00:63:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW4541T-ZS:01:02:00:63:56:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW4541EM-S:01:02:00:63:56:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW4841T-AS:01:02:00:8F:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW4841T-ZAS:01:02:00:8F:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW4841E-AS:01:02:00:8F:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW4841R-ZAS:01:02:00:8F:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW4841E-AS:01:02:00:8F:56:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW4841T-ZS:01:02:00:8F:56:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW4841EM-S:01:02:00:8F:56:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX4XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX4XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "ids": [
+    "IPC-HFW4241T-AS",
+    "IPC-HFW4241T-ZAS",
+    "IPC-HDBW4241E-AS",
+    "IPC-HDBW4241R-ZAS",
+    "IPC-HFW4241E-AS",
+    "IPC-HDW4241T-ZS",
+    "IPC-HDW4241EM-S",
+    "IPC-HFW4441T-AS",
+    "IPC-HFW4441T-ZAS",
+    "IPC-HDBW4441E-AS",
+    "IPC-HDBW4441R-ZAS",
+    "IPC-HFW4441E-AS",
+    "IPC-HDW4441T-ZS",
+    "IPC-HDW4441EM-S",
+    "IPC-HDBW4441R-AS",
+    "IPC-HFW4441TP-AS-0210B",
+    "IPC-HFW4541T-AS",
+    "IPC-HFW4541T-ZAS",
+    "IPC-HDBW4541E-AS",
+    "IPC-HDBW4541R-ZAS",
+    "IPC-HFW4541E-AS",
+    "IPC-HDW4541T-ZS",
+    "IPC-HDW4541EM-S",
+    "IPC-HFW4841T-AS",
+    "IPC-HFW4841T-ZAS",
+    "IPC-HDBW4841E-AS",
+    "IPC-HDBW4841R-ZAS",
+    "IPC-HFW4841E-AS",
+    "IPC-HDW4841T-ZS",
+    "IPC-HDW4841EM-S"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "DH_IPC-HX4XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 294836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 229224,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 263120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 263120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 28965048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4150968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 12683448,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 29915320,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4150968,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15079608,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1476792,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c80bec02a0dbb8bf",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.0000000.35.R.250519"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "firmware-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 28965048,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3d560077dd7cf25f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-05-19",
+    "latest": "2025-05-19"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-05-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15079608,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "aedec2c717a56aaf",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "888dc0449ba269bc3fde1c3878f3393c4f477f58dfdbea61a0d9fa6a8887a46b"
+}

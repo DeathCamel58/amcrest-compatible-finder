@@ -1,0 +1,191 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC413-PW4D-Z1",
+    "ITC413-PW4D-Z3",
+    "ITC413-PW4D-IZ1",
+    "ITC413-PW4D-IZ3",
+    "ITC416-PL8I-IZ",
+    "ITC436-PW9H-IZ",
+    "ITC413-PM4D-Z1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC413-PW4D-Z1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-Z3",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ1",
+     "1.00"
+    ],
+    [
+     "ITC413-PW4D-IZ3",
+     "1.00"
+    ],
+    [
+     "ITC416-PL8I-IZ",
+     "1.00"
+    ],
+    [
+     "ITC436-PW9H-IZ",
+     "1.00"
+    ],
+    [
+     "ITC413-PM4D-Z1",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-09-17",
+    "latest": "2025-09-17"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-09-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 33460,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot_V2",
+     "image_size": 202960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 55823,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4177080,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 2672824,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 30701752,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 1464504,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 44619960,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 23759032,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 54941880,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-09-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "plugin-x.squashfs.img",
+     "image_name": "plugin",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "837ec4cf1b8f51bd",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V5.004.0000000.1.R.250917"
+  }
+ ],
+ "sha256": "2e11b58c33782d54d8019c0d04e7427b34a8031e0f94d1957dadb0a0d5f4c1e3"
+}

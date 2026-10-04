@@ -1,0 +1,127 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "HCVR5x04-S2-32M",
+    "Lorex_HCVR5x04-S2-32M",
+    "Flir_HCVR5x04-S2-32M"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn2178",
+   "build_dates": {
+    "earliest": "2019-07-02",
+    "latest": "2019-07-02"
+   },
+   "firmware": null,
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "Lorex_HCVR5x04-S2-32M",
+    "Flir_HCVR5x04-S2-32M"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "32Mgm8287boot",
+     "image_size": 301408,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "32Mgm8287romfs",
+     "image_size": 13082624,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1540096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-07-02",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "extend-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "12fee231e0099f10",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b08f3508711630796f3edfc238079cecb7fe27d14af5540d276f6118841b6f67"
+}

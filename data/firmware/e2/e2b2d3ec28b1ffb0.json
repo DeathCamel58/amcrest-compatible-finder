@@ -1,0 +1,224 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-Hugo_MultiLang_PN_V3.120.0000000.21.R.250718.bin",
+   "ids": [
+    "IPC-HFW2449M-A-LED",
+    "IPC-HFW2449M-AS-LED",
+    "IPC-HFW2449M-ST-L8",
+    "IPC-HFW2449TL-S-LED-PRO",
+    "IPC-HFW2449TL-S-LED-PRO-QH",
+    "IPC-HFW2449TL-S-PRO-QH-K",
+    "IPC-HFW2449M-LED-B-PRO",
+    "IPC-HFW2249TL-S-LED-PRO",
+    "IPC-HFW2449M-S-PV"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2449M-A-LED:01:02:02:B3:73:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449M-AS-LED:01:02:02:B3:73:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449M-ST-L8:01:02:00:B3:73:00:01:10:05:01:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449TL-S-LED-PRO:01:02:00:B3:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449TL-S-LED-PRO-QH:01:02:00:12C:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449TL-S-PRO-QH-K:01:02:00:12C:73:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449M-LED-B-PRO:01:02:00:B3:73:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2249TL-S-LED-PRO:01:02:00:116:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2449M-S-PV:01:02:00:B3:73:00:01:10:05:01:04:3E8:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX2XXX-Hugo_MultiLang_PN_V3.120.0000000.21.R.250718.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX2XXX-Hugo_MultiLang_PN_V3.120.0000000.21.R.250718.bin",
+   "ids": [
+    "IPC-HFW2449M-A-LED",
+    "IPC-HFW2449M-AS-LED",
+    "IPC-HFW2449M-ST-L8",
+    "IPC-HFW2449TL-S-LED-PRO",
+    "IPC-HFW2449TL-S-LED-PRO-QH",
+    "IPC-HFW2449TL-S-PRO-QH-K",
+    "IPC-HFW2449M-LED-B-PRO",
+    "IPC-HFW2249TL-S-LED-PRO",
+    "IPC-HFW2449M-S-PV"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2020.04-svn17747",
+   "build_dates": {
+    "earliest": "2025-07-17",
+    "latest": "2025-07-17"
+   },
+   "firmware": "DH_IPC-HX2XXX-Hugo_MultiLang_PN_V3.120.0000000.21.R.250718.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.125",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 868545,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 868545,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2983352,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 79470960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 2575488,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 7205232,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c602c9bebce0f5de",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX620E",
+     "AX620Q",
+     "AX630C",
+     "AX620X"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620E"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX620Q"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "AX630C"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ax620x"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   },
+   "software_version": "V3.120.0000000.21.R.250718"
+  }
+ ],
+ "sha256": "e2b2d3ec28b1ffb0317e03dafde036c2da30e39774d8fb6f8ac43c544651d667"
+}

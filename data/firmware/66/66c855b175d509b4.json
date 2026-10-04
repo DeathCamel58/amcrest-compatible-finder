@@ -1,0 +1,461 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-B-H-Tagore-B4_MultiLang_NP_V3.002.0000002.3.R.260825.bin",
+   "ids": [
+    "ASI30E-M-V0",
+    "ASI30E-MF-V0",
+    "ASI30E-MW-V0",
+    "ASI30E-MFW-V0",
+    "ASI30EL-M-V0",
+    "ASI30EL-MF-V0",
+    "ASI3214E-W-V0",
+    "ASI3214E-DW-V0",
+    "ASI3214E-V0",
+    "ASI3213E-W-V0",
+    "ASI3213E-DW-V0",
+    "ASI3213E-V0",
+    "ASI30EL-MW-V0",
+    "ASI30EL-MFW-V0"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30E-MF-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30E-MW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI30E-MFW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI30EL-M-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MF-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI3214E-W-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3214E-DW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3214E-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI3213E-W-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3213E-DW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3213E-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MW-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MFW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASIX2XX-B-H-Tagore-B4_MultiLang_NP_V3.002.0000002.3.R.260825.bin",
+   "ids": [
+    "ASI30E-M-V0",
+    "ASI30E-MF-V0",
+    "ASI30E-MW-V0",
+    "ASI30E-MFW-V0",
+    "ASI30EL-M-V0",
+    "ASI30EL-MF-V0",
+    "ASI3214E-W-V0",
+    "ASI3214E-DW-V0",
+    "ASI3214E-V0",
+    "ASI3213E-W-V0",
+    "ASI3213E-DW-V0",
+    "ASI3213E-V0",
+    "ASI30EL-MW-V0",
+    "ASI30EL-MFW-V0"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI30E-M-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MF-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MFW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-M-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MF-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-W-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-DW-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-W-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-DW-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MFW-V0",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASIX2XX-B-H-Tagore-B4_MultiLang_NP_V3.002.0000002.3.R.260825.bin",
+   "ids": [
+    "ASI30E-M-V0",
+    "ASI30E-MF-V0",
+    "ASI30E-MW-V0",
+    "ASI30E-MFW-V0",
+    "ASI30EL-M-V0",
+    "ASI30EL-MF-V0",
+    "ASI3214E-W-V0",
+    "ASI3214E-DW-V0",
+    "ASI3214E-V0",
+    "ASI3213E-W-V0",
+    "ASI3213E-DW-V0",
+    "ASI3213E-V0",
+    "ASI30EL-MW-V0",
+    "ASI30EL-MFW-V0"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "ASI30E-M-V0",
+    "ASI30E-MF-V0",
+    "ASI30E-MW-V0",
+    "ASI30E-MFW-V0",
+    "ASI30EL-M-V0",
+    "ASI30EL-MF-V0",
+    "ASI3214E-W-V0",
+    "ASI3214E-DW-V0",
+    "ASI3214E-V0",
+    "ASI3213E-W-V0",
+    "ASI3213E-DW-V0",
+    "ASI3213E-V0",
+    "ASI30EL-MW-V0",
+    "ASI30EL-MFW-V0"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30E-MF-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30E-MW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI30E-MFW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI30EL-M-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MF-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI3214E-W-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3214E-DW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3214E-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI3213E-W-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3213E-DW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF",
+    "ASI3213E-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MW-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
+    "ASI30EL-MFW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware-x.bin",
+   "ids": [
+    "ASI30E-M-V0",
+    "ASI30E-MF-V0",
+    "ASI30E-MW-V0",
+    "ASI30E-MFW-V0",
+    "ASI30EL-M-V0",
+    "ASI30EL-MF-V0",
+    "ASI3214E-W-V0",
+    "ASI3214E-DW-V0",
+    "ASI3214E-V0",
+    "ASI3213E-W-V0",
+    "ASI3213E-DW-V0",
+    "ASI3213E-V0",
+    "ASI30EL-MW-V0",
+    "ASI30EL-MFW-V0"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI30E-M-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MF-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30E-MFW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-M-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MF-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-W-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-DW-V0",
+     "1.00"
+    ],
+    [
+     "ASI3214E-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-W-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-DW-V0",
+     "1.00"
+    ],
+    [
+     "ASI3213E-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MW-V0",
+     "1.00"
+    ],
+    [
+     "ASI30EL-MFW-V0",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2016.11-00121-geeb624fc1b-dirty",
+   "build_dates": {
+    "earliest": "2026-08-25",
+    "latest": "2026-08-25"
+   },
+   "firmware": "DH_ASIX2XX-B-H-Tagore-B4_MultiLang_NP_V3.002.0000002.3.R.260825.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "French",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR",
+     "Thai",
+     "Indonesian",
+     "Malay"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 4249016,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 306680,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 150600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 39132,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 3868856,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5582520,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 30406840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 18618552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 14137528,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "82fb754f57b24228",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.002.0000002.3.R.260825"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-25",
+    "latest": "2026-08-25"
+   },
+   "firmware": "firmware-x.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "French",
+     "Arabic",
+     "Vietnamese",
+     "SpanishEU",
+     "PortugalBR",
+     "Thai",
+     "Indonesian",
+     "Malay"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-25",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 14137528,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "55abd9abf90afa17",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "66c855b175d509b435cacc2a52fd4c734ce1a4e22a7fcfa63610e1c6c2d83053"
+}

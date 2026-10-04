@@ -1,0 +1,205 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Firmware_VIPW_1220_D_FC(PLUS)_28_11_24.bin",
+   "ids": [
+    "IPC-HFW1239DT-LED-SAW",
+    "IPC-HFW1239DT-IL-PV-STW",
+    "IPC-HDW1239DT-IL-PV-STW",
+    "IPC-HFW1439DT-LED-SAW",
+    "IPC-HFW1439DT-IL-PV-STW",
+    "IPC-HDW1439DT-IL-PV-STW",
+    "IPC-HFW1439DTP-LED-SAW",
+    "IPC-HFW1439DTP-IL-PV-STW",
+    "IPC-HDW1439DTP-IL-PV-STW"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW1239DT-LED-SAW:01:02:02:E4:61:00:01:10:01:00:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1239DT-IL-PV-STW:01:02:02:E4:61:00:01:10:01:01:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HDW1239DT-IL-PV-STW:01:02:02:E4:61:00:01:10:01:01:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1439DT-LED-SAW:01:02:02:E6:61:00:01:10:01:00:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1439DT-IL-PV-STW:01:02:02:E6:61:00:01:10:01:01:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HDW1439DT-IL-PV-STW:01:02:02:E6:61:00:01:10:01:01:04:3E8:00:02:00:00:00:01:00:00:40",
+    "IPC-HFW1439DTP-LED-SAW:01:02:02:E6:61:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW1439DTP-IL-PV-STW:01:02:02:E6:61:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW1439DTP-IL-PV-STW:01:02:02:E6:61:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Firmware_VIPW_1220_D_FC(PLUS)_28_11_24.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Firmware_VIPW_1220_D_FC(PLUS)_28_11_24.bin",
+   "ids": [
+    "IPC-HFW1239DT-LED-SAW",
+    "IPC-HFW1239DT-IL-PV-STW",
+    "IPC-HDW1239DT-IL-PV-STW",
+    "IPC-HFW1439DT-LED-SAW",
+    "IPC-HFW1439DT-IL-PV-STW",
+    "IPC-HDW1439DT-IL-PV-STW",
+    "IPC-HFW1439DTP-LED-SAW",
+    "IPC-HFW1439DTP-IL-PV-STW",
+    "IPC-HDW1439DTP-IL-PV-STW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2020.04-svn12133",
+   "build_dates": {
+    "earliest": "2024-11-28",
+    "latest": "2024-11-28"
+   },
+   "firmware": "Firmware_VIPW_1220_D_FC(PLUS)_28_11_24.bin",
+   "flash_size": null,
+   "kernel_version": "3.10.108",
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "Portuguese",
+     "English",
+     "Spanish"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-11-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 305548,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 22133,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1192088,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 1192088,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4896952,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 1044848,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x-aol.squashfs.img",
+     "image_name": "user-aol",
+     "image_size": 1931448,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1294704,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 7157944,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d12a1152f9a8ff4f",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   }
+  }
+ ],
+ "sha256": "a35dd79610748e7b4a7f8489f7f1143f663ece5e2c1fc014be3fea089edc62bd"
+}

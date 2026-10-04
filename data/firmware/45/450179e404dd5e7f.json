@@ -1,0 +1,354 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW8249E-ZFDI-0832",
+    "IPC-HF8249F-FDI",
+    "IPC-HF8249F-FDI-WS",
+    "IPC-HFW8249E-ZFDI-IRA-0832",
+    "IPC-HFW8249E-ZFDI-IRA-67134",
+    "IPC-HFW8249K-ZFDI-LED-0832",
+    "IPC-HF8241FP",
+    "IPC-HDBW8241EP-0735",
+    "IPC-HDBW8241EP-27135",
+    "IPC-HFW8241EP-Z-0735",
+    "IPC-HFW8241EP-Z-27135",
+    "IPC-HF7243F-PC",
+    "IPC-HDBW7243E-ZPC-0735",
+    "IPC-HDBW7243E-ZPC-27135",
+    "IPC-HFW7243K-ZPC-I4-0735",
+    "IPC-HFW7243K-ZPC-I4-27135"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW8249E-ZFDI-0832:01:02:05:1E:32:00:01:10:03:01:04:4B0:09:00:00:08:00:01:00:00:800",
+    "IPC-HF8249F-FDI:01:02:02:1E:32:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
+    "IPC-HF8249F-FDI-WS:01:02:01:1E:32:00:01:10:07:01:03:4B0:08:02:00:08:00:01:00:00:800",
+    "IPC-HFW8249E-ZFDI-IRA-0832:01:02:02:1E:32:00:01:10:01:01:04:4B0:09:00:00:08:00:01:00:00:800",
+    "IPC-HFW8249E-ZFDI-IRA-67134:01:02:02:1E:32:00:01:10:01:01:04:4B0:09:00:00:08:00:01:00:00:800",
+    "IPC-HFW8249K-ZFDI-LED-0832:01:02:02:1E:32:00:01:10:01:01:04:4B0:09:00:00:08:00:01:00:00:800",
+    "IPC-HF8241FP:01:02:01:76:32:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8241EP-0735:01:02:05:76:32:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HDBW8241EP-27135:01:02:05:76:32:00:01:10:01:01:04:4B0:03:00:00:04:00:01:00:00:400",
+    "IPC-HFW8241EP-Z-0735:01:02:02:76:32:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HFW8241EP-Z-27135:01:02:02:76:32:00:01:10:01:01:04:4B0:02:00:00:04:00:01:00:00:400",
+    "IPC-HF7243F-PC:01:02:01:76:32:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:400",
+    "IPC-HDBW7243E-ZPC-0735:01:02:05:76:32:00:01:10:03:01:04:4B0:09:00:00:08:00:01:00:00:400",
+    "IPC-HDBW7243E-ZPC-27135:01:02:05:76:32:00:01:10:03:01:04:4B0:09:00:00:08:00:01:00:00:400",
+    "IPC-HFW7243K-ZPC-I4-0735:01:02:02:76:32:00:01:10:01:01:04:4B0:09:00:00:08:00:01:00:00:400",
+    "IPC-HFW7243K-ZPC-I4-27135:01:02:02:76:32:00:01:10:01:01:04:4B0:09:00:00:08:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW8249E-ZFDI-0832",
+    "IPC-HF8249F-FDI",
+    "IPC-HF8249F-FDI-WS",
+    "IPC-HFW8249E-ZFDI-IRA-0832",
+    "IPC-HFW8249E-ZFDI-IRA-67134",
+    "IPC-HFW8249K-ZFDI-LED-0832",
+    "IPC-HF8241FP",
+    "IPC-HDBW8241EP-0735",
+    "IPC-HDBW8241EP-27135",
+    "IPC-HFW8241EP-Z-0735",
+    "IPC-HFW8241EP-Z-27135",
+    "IPC-HF7243F-PC",
+    "IPC-HDBW7243E-ZPC-0735",
+    "IPC-HDBW7243E-ZPC-27135",
+    "IPC-HFW7243K-ZPC-I4-0735",
+    "IPC-HFW7243K-ZPC-I4-27135"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6032",
+   "build_dates": {
+    "earliest": "2018-09-21",
+    "latest": "2018-09-21"
+   },
+   "firmware": null,
+   "flash_size": 4076863488,
+   "kernel_version": "3.18.20",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "French"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2018-09-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 251904,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3596524,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 38035456,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 225280,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 212992,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 9699328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "cd95b9ab733de128",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3519V101"
+     }
+    ],
+    "name": "Hi3519V101",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "450179e404dd5e7fd20ca3e2726e586ea312d82ba27e52485a76674f18da7427"
+}

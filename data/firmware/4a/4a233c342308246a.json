@@ -1,0 +1,234 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "XVR4x04-I",
+    "IB_General_XVR4x04-I"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-06-11",
+    "latest": "2025-06-11"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u00e3o de Firmware - MHDX 1104-C - 11-06-2025/u-boot.bin.img",
+     "image_name": "IBSSR920_64M",
+     "image_size": 281068,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o de Firmware - MHDX 1104-C - 11-06-2025/custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o de Firmware - MHDX 1104-C - 11-06-2025/web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6680576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u00e3o de Firmware - MHDX 1104-C - 11-06-2025/logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 106496,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "07b7aafdde831c49",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-06-11",
+    "latest": "2025-06-11"
+   },
+   "firmware": "update.bin",
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IB_General_XVR4x04-I"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "GCIS.bin.img",
+     "image_name": "IBSSR920_64M",
+     "image_size": 24064,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "IBSSR920_64M",
+     "image_size": 281068,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "IBSSR920_64M",
+     "image_size": 3718416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "IBSSR920_64M",
+     "image_size": 28016640,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6680576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 106496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-06-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1703936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "304dc5a582dc6ddd",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "IPL.bin.img",
+    "IPL_CUST.bin.img"
+   ]
+  }
+ ],
+ "sha256": "4a233c342308246ab3bd046ae08078ce4920451fc886bdadff7a22cf7a0cd55b"
+}

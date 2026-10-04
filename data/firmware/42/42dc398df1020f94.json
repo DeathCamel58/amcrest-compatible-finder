@@ -1,0 +1,171 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-S42F-LC",
+    "IPC-S42F-imou",
+    "IPC-TF42-LC",
+    "IPC-F42-imou",
+    "IPC-F42F-LC",
+    "IPC-F42F-imou",
+    "IPC-F42FE-LC",
+    "IPC-F42FE-imou"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-S42F-LC:01:02:00:BC:3C:00:01:10:01:01:04:320:00:02:00:00:08:01:00:00:40",
+    "IPC-S42F-imou:01:02:00:BC:3C:00:01:10:01:01:04:320:00:02:00:00:08:01:00:00:40",
+    "IPC-TF42-LC:01:02:03:BC:3C:00:01:10:01:00:04:320:00:02:00:00:00:01:00:01:40",
+    "IPC-F42-imou:01:02:03:BC:3C:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40",
+    "IPC-F42F-LC:01:02:03:BC:3C:00:01:10:01:00:04:320:00:02:00:00:00:01:00:01:40",
+    "IPC-F42F-imou:01:02:03:BC:3C:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40",
+    "IPC-F42FE-LC:01:02:03:BC:3C:00:01:10:01:01:04:320:00:02:00:00:00:01:00:01:40",
+    "IPC-F42FE-imou:01:02:03:BC:3C:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-S42F-LC",
+    "IPC-S42F-imou",
+    "IPC-TF42-LC",
+    "IPC-F42-imou",
+    "IPC-F42F-LC",
+    "IPC-F42F-imou",
+    "IPC-F42FE-LC",
+    "IPC-F42FE-imou"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-09-29",
+    "latest": "2021-09-29"
+   },
+   "firmware": null,
+   "flash_size": 8388608,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 164608,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-09-29",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1271376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-29",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 6207672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "598bf471e1e45f26",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "SIGMASTAR"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "42dc398df1020f946c45a0931e3e8f70801e8ba03e05c585611ea4e00046a02f"
+}

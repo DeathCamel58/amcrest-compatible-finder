@@ -1,0 +1,77 @@
+{
+ "id": "7980af533b5b6d70",
+ "partitions": [
+  {
+   "end": "0x140000",
+   "name": "mini-boot",
+   "size": 1310720,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1000",
+   "name": "CmdScript",
+   "size": 4096,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "ipl",
+   "size": 786432,
+   "start": "0x140000"
+  },
+  {
+   "end": "0x2c0000",
+   "name": "ipl_cust",
+   "size": 786432,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "U-Boot",
+   "size": 1310720,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0x800000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x700000"
+  },
+  {
+   "end": "0x6100000",
+   "name": "data",
+   "size": 47185920,
+   "start": "0x3400000"
+  },
+  {
+   "end": "0x6300000",
+   "name": "pd",
+   "size": 2097152,
+   "start": "0x6100000"
+  },
+  {
+   "end": "0x6a00000",
+   "name": "kernel",
+   "size": 7340032,
+   "start": "0x6300000"
+  },
+  {
+   "end": "0x8d00000",
+   "name": "rootfs",
+   "size": 36700160,
+   "start": "0x6a00000"
+  },
+  {
+   "end": "0x8e00000",
+   "name": "logo",
+   "size": 1048576,
+   "start": "0x8d00000"
+  },
+  {
+   "end": "0x9a00000",
+   "name": "web",
+   "size": 12582912,
+   "start": "0x8e00000"
+  }
+ ]
+}

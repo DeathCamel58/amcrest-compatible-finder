@@ -1,0 +1,344 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTHX421L_MultiLang_SIP_V4.410.0000000.4.R.20200221.bin",
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTHX421L_MultiLang_SIP_V4.410.0000000.4.R.20200221.language.bin",
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 262144,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "env-x.cramfs.img",
+     "image_name": "env",
+     "image_size": 65536,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2481664,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "linux",
+     "image_size": 2481664,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2482176,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "bootlogo",
+     "image_size": 6627,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1040384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 692224,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "usr-x.cramfs.img",
+     "image_name": "usr",
+     "image_size": 7000064,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a815086236b17408",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "General_VTHX421L_MultiLang_SIP_V4.410.0000000.4.R.20200221.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 262144,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "env-x.cramfs.img",
+     "image_name": "env",
+     "image_size": 65536,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "kernel-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2481664,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "romfs",
+     "image_size": 2482176,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "bootlogo",
+     "image_size": 6627,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "web",
+     "image_size": 1040384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 692224,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "usr-x.cramfs.img",
+     "image_name": "usr",
+     "image_size": 7000064,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "pd-x.cramfs.img",
+     "image_name": "product",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bc08dc94d58826ed",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-02-21",
+    "latest": "2020-02-21"
+   },
+   "firmware": "General_VTHX421L_MultiLang_SIP_V4.410.0000000.4.R.20200221.language.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-02-21",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 692224,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "62c9e028ec00dae9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "9537c4f8f9ca9dd60eea155de3f2804d397dc7767470330c6be4711e5f4e50df"
+}

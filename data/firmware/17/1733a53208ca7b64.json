@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-28",
+    "latest": "2013-01-28"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04LF-AS_31xxH_Eng_N_FirstOption_V2.608.0000.0.R.20130128_romfs-x.cramfs.img",
+     "image_name": "810Xromfs",
+     "image_size": 3149824,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "99c14d14b90e769c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1733a53208ca7b64d4eebc77adeab01b27463dd8edc1488a4ab7f975e94383b1"
+}

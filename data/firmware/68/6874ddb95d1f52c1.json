@@ -1,0 +1,121 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn2947",
+   "build_dates": {
+    "earliest": "2021-07-28",
+    "latest": "2021-07-28"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "3.10.0-SVN",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2021-07-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "u-boot_nand.bin.img",
+     "image_name": "3521boot",
+     "image_size": 334076,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uImage.bin.img",
+     "image_name": "kernel",
+     "image_size": 2345960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "3521romfs",
+     "image_size": 1507328,
+     "image_type": "filesystem",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom.squashfs.img",
+     "image_name": "3521romfs",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web.squashfs.img",
+     "image_name": "3521romfs",
+     "image_size": 516096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data.squashfs.img",
+     "image_name": "3521romfs",
+     "image_size": 61440,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-28",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user.squashfs.img",
+     "image_name": "3521romfs",
+     "image_size": 5275648,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a8279c2a092cef95",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot_nand.bin.img",
+      "source": "bootloader",
+      "value": "Hi3531A"
+     },
+     {
+      "member": "custom.squashfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
+     },
+     {
+      "member": "u-boot_nand.bin.img",
+      "source": "image_name",
+      "value": "3521boot"
+     }
+    ],
+    "name": "Hi3531A",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "6874ddb95d1f52c144356c33d1a64a211fcbd7c6f616df321d45b1c123b3db2b"
+}

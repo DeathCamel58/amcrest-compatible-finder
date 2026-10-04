@@ -1,0 +1,194 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "EZIP_IPC-XXBXX-Leto_EngSpnPrt_P_V2.680.0000000.2.R.190301.bin",
+   "ids": [
+    "IPC-HFW2130M",
+    "IPC-HDW2130C-A",
+    "IPC-D1B20",
+    "IPC-D1B20-L",
+    "IPC-B1B20",
+    "IPC-B1B20-L",
+    "IPC-HFW1230MO",
+    "IPC-HDW1230C-AO",
+    "IPC-HFW1230M",
+    "IPC-HDW1230C-A",
+    "IPC-B2B20-ZS",
+    "IPC-B2B20-L-ZS"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW2130C-A:01:02:02:38:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-D1B20-L:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B1B20-L:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230MO:01:02:02:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-AO:01:02:05:60:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HFW1230M:01:02:02:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-HDW1230C-A:01:02:05:77:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40",
+    "IPC-B2B20-L-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "EZIP_IPC-XXBXX-Leto_EngSpnPrt_P_V2.680.0000000.2.R.190301.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "EZIP"
+  },
+  {
+   "counted": true,
+   "firmware": "EZIP_IPC-XXBXX-Leto_EngSpnPrt_P_V2.680.0000000.2.R.190301.bin",
+   "ids": [
+    "IPC-HFW2130M",
+    "IPC-HDW2130C-A",
+    "IPC-D1B20",
+    "IPC-D1B20-L",
+    "IPC-B1B20",
+    "IPC-B1B20-L",
+    "IPC-HFW1230MO",
+    "IPC-HDW1230C-AO",
+    "IPC-HFW1230M",
+    "IPC-HDW1230C-A",
+    "IPC-B2B20-ZS",
+    "IPC-B2B20-L-ZS"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2019-03-01",
+    "latest": "2019-03-01"
+   },
+   "firmware": "EZIP_IPC-XXBXX-Leto_EngSpnPrt_P_V2.680.0000000.2.R.190301.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "EZIP",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-03-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 80486,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "ubootbak",
+     "image_size": 159928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 159928,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 67768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5385098,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 3803320,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-03-01",
+     "compression": "gzip",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 788664,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6cf7073fb561e9aa",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "49e1f27eaa326af0a2087ade23d1e838ae5e11d27d9a344bb4c828684d2e7ba0"
+}

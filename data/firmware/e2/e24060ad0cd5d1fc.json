@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-11-05",
+    "latest": "2020-11-05"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2020-11-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "mcu-Xmoderm1K3.bin.img",
+     "image_name": "mcu-Xmoderm1K3",
+     "image_size": 64012,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a1c125a651a076cc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e24060ad0cd5d1fc1c12086ca1132aca62c3ec63954cf642611d967847ff4237"
+}

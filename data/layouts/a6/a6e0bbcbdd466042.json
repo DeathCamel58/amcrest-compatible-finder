@@ -1,0 +1,90 @@
+{
+ "id": "a6e0bbcbdd466042",
+ "partitions": [
+  {
+   "backup_start": "0x380000",
+   "end": "0x380000",
+   "name": "U-Boot",
+   "size": 786432,
+   "start": "0x2c0000"
+  },
+  {
+   "end": "0x4a0000",
+   "name": "hwid",
+   "size": 393216,
+   "start": "0x440000"
+  },
+  {
+   "end": "0x500000",
+   "name": "Logo",
+   "size": 393216,
+   "start": "0x4a0000"
+  },
+  {
+   "end": "0x560000",
+   "name": "updateflag",
+   "size": 393216,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x35c0000",
+   "end": "0x5c0000",
+   "name": "partition",
+   "read_only": true,
+   "size": 393216,
+   "start": "0x560000"
+  },
+  {
+   "backup_start": "0x3620000",
+   "end": "0xac0000",
+   "name": "Kernel",
+   "size": 5242880,
+   "start": "0x5c0000"
+  },
+  {
+   "backup_start": "0x3b20000",
+   "end": "0x2cc0000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 35651584,
+   "start": "0xac0000"
+  },
+  {
+   "backup_start": "0x5d20000",
+   "end": "0x31c0000",
+   "name": "data",
+   "read_only": true,
+   "size": 5242880,
+   "start": "0x2cc0000"
+  },
+  {
+   "backup_start": "0x6220000",
+   "end": "0x35c0000",
+   "name": "web",
+   "read_only": true,
+   "size": 4194304,
+   "start": "0x31c0000"
+  },
+  {
+   "end": "0x6c20000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x6620000"
+  },
+  {
+   "end": "0x7620000",
+   "name": "config",
+   "read_only": false,
+   "size": 10485760,
+   "start": "0x6c20000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 10354688,
+   "start": "0x7620000"
+  }
+ ]
+}

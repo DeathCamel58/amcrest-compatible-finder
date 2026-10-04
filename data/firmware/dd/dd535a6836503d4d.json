@@ -1,0 +1,361 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_CEE-Nordic_V4.600.0000000.3.R.230303.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF",
+    "VTH5X41G:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "VTHX4X1:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH8641KMG-A:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:0E:08:00:00:00:80:FF",
+    "VTH864X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTHX62X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH262X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_CEE-Nordic_V4.600.0000000.3.R.230303.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH8641KMG-A:",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH8641KMG-A:",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_CEE-Nordic_V4.600.0000000.3.R.230303.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH8641KMG-A:",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH8641KMG-A:",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTH5X41G",
+    "VTHX4X1",
+    "VTH8641KMG-A",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X"
+   ],
+   "member": "check.img",
+   "raw": [
+    "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
+    "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF",
+    "VTH5X41G:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "VTHX4X1:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH8641KMG-A:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:0E:08:00:00:00:80:FF",
+    "VTH864X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTHX62X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF",
+    "VTH262X:01:04:02:00:46:00:00:10:01:01:04:4B0_4B0:00:02:00:06:08:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-03-03",
+    "latest": "2023-03-03"
+   },
+   "firmware": "DH_VTHX6XXX-SX_MultiLang_SIP_CEE-Nordic_V4.600.0000000.3.R.230303.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "Hebrew"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-03-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 818,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 51404,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 633016,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 141496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5103288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 15489208,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1685688,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a80b11507646f4a7",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-03-03",
+    "latest": "2023-03-03"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "Hebrew"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-03-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1685688,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "c80738175b285fc7",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "dd535a6836503d4dc5f8e2570cc147e72892c4e9cc60b2e16b94e80ebeb50f81"
+}

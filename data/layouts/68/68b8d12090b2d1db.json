@@ -1,0 +1,53 @@
+{
+ "id": "68b8d12090b2d1db",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "ubl",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0xd0000",
+   "name": "uboot",
+   "size": 327680,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x100000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xf0000"
+  },
+  {
+   "end": "0x180000",
+   "name": "pd",
+   "size": 524288,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x1180000",
+   "name": "kernel",
+   "size": 16777216,
+   "start": "0x180000"
+  },
+  {
+   "end": "0x1470000",
+   "name": "user",
+   "size": 2097152,
+   "start": "0x1270000"
+  },
+  {
+   "end": "0x1e70000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x1470000"
+  },
+  {
+   "end": "0x1e70000",
+   "name": "web",
+   "size": 10485760,
+   "start": "0x1470000"
+  }
+ ]
+}

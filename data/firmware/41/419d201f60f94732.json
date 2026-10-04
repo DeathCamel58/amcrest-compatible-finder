@@ -1,0 +1,281 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR11XX-X",
+    "IntelBras_NVR1xxx"
+   ],
+   "member": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "NVR11XX-X",
+    "IntelBras_NVR1xxx"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1604",
+   "build_dates": {
+    "earliest": "2016-11-14",
+    "latest": "2017-03-09"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_NVR1xxx"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/u-boot.bin.img",
+     "image_name": "3520Dboot",
+     "image_size": 219344,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/romfs-x.cramfs.img",
+     "image_name": "3520Dromfs",
+     "image_size": 12759040,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1413120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3520Dromfs"
+     },
+     {
+      "member": "Atualiza\u00e7\u255eo_NV D_1108_-_09_03_2017/u-boot.bin.img",
+      "source": "image_name",
+      "value": "3520Dboot"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1604",
+   "build_dates": {
+    "earliest": "2016-11-14",
+    "latest": "2017-03-09"
+   },
+   "firmware": "update.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "IntelBras_NVR1xxx"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3520Dboot",
+     "image_size": 219344,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-03-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3520Dromfs",
+     "image_size": 12759040,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1413120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-11-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 40960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3520Dboot"
+     },
+     {
+      "member": "romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3520Dromfs"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "419d201f60f9473258b8f31c49e8178363a7fbac1bf8c7eae9162da48dd0830b"
+}

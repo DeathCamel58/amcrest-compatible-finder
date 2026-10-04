@@ -1,0 +1,154 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_ITRTSC-036B_MultiLang_P_Oversea_V2.630.0000000.0.R.250122.bin",
+   "ids": [
+    "ITRTSC-036B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITRTSC-036B",
+     "1.00"
+    ],
+    [
+     "ITRTSC-036B",
+     "3.00"
+    ],
+    [
+     "ITRTSC-036B",
+     "4.00"
+    ],
+    [
+     "ITRTSC-036B",
+     "5.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01.01-svn837",
+   "build_dates": {
+    "earliest": "2025-01-22",
+    "latest": "2025-01-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "MLO.byteswap.img",
+     "image_name": "boot_V3",
+     "image_size": 90101,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "u-boot.img.img",
+     "image_name": "boot_V3",
+     "image_size": 405312,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga.bin.img",
+     "image_name": "Fpga",
+     "image_size": 526520,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "fpga-pg.bin.img",
+     "image_name": "Fpga-pg",
+     "image_size": 616140,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "ccb14ec070d4e854",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-01-22",
+    "latest": "2025-01-22"
+   },
+   "firmware": "General_ITRTSC-036B_MultiLang_P_Oversea_V2.630.0000000.0.R.250122.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-01-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "Update.img",
+     "image_name": "Update",
+     "image_size": 20733440,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "Fpga.bin.img",
+     "image_name": "Fpga",
+     "image_size": 528816,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-01-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "Fpga-pg.bin.img",
+     "image_name": "Fpga-pg",
+     "image_size": 618436,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "10266281ec33104f",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "ea851d0d950e39efe6c48062b540078b134f76123a39147dcfdd438927e85458"
+}

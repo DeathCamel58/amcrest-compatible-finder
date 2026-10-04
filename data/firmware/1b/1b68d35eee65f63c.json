@@ -1,0 +1,232 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2541SP-S",
+    "IPC-HFW2541TP-AS",
+    "IPC-HFW2541TP-ZS",
+    "IPC-HFW2541TP-ZAS",
+    "IPC-HFW2549SP-S-IL",
+    "IPC-HFW2549TP-AS-IL",
+    "IPC-HFW2841SP-S",
+    "IPC-HFW2841TP-AS",
+    "IPC-HFW2841TP-ZS",
+    "IPC-HFW2841TP-ZAS",
+    "IPC-HFW2849SP-S-IL",
+    "IPC-HFW2849TP-AS-IL",
+    "IPC-HFW3633M-AS-IL",
+    "IPC-HFW2633M-A-IL"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2541SP-S:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-AS:01:02:04:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-ZS:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2541TP-ZAS:01:02:04:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2549SP-S-IL:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2549TP-AS-IL:01:02:02:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841SP-S:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-AS:01:02:04:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-ZS:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2841TP-ZAS:01:02:04:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2849SP-S-IL:01:02:04:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2849TP-AS-IL:01:02:02:DE:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW3633M-AS-IL:01:02:13:C8:62:00:01:10:03:01:04:4B0:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2633M-A-IL:01:02:13:C8:62:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HFW2541SP-S",
+    "IPC-HFW2541TP-AS",
+    "IPC-HFW2541TP-ZS",
+    "IPC-HFW2541TP-ZAS",
+    "IPC-HFW2549SP-S-IL",
+    "IPC-HFW2549TP-AS-IL",
+    "IPC-HFW2841SP-S",
+    "IPC-HFW2841TP-AS",
+    "IPC-HFW2841TP-ZS",
+    "IPC-HFW2841TP-ZAS",
+    "IPC-HFW2849SP-S-IL",
+    "IPC-HFW2849TP-AS-IL",
+    "IPC-HFW3633M-AS-IL",
+    "IPC-HFW2633M-A-IL"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-08-30",
+    "latest": "2023-08-30"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": "5.10.61",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesia"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL.bin.img",
+     "image_name": "IPL",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "IPL_CUST.bin.img",
+     "image_name": "IPL_CUST",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 172400,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 62201,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2330036,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7989432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 4268400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-08-30",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 31148216,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8cee29f4d85e5c22",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "sstar,infinity6c"
+     },
+     {
+      "member": "dhdtb.bin.img",
+      "source": "device_tree",
+      "value": "INFINITY6C SSC027D-S01A"
+     }
+    ],
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  }
+ ],
+ "sha256": "1b68d35eee65f63c8e920946ea89818e9ebe9a7c3a7d87988df966c7b1dab19d"
+}

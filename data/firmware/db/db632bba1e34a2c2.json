@@ -1,0 +1,214 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-A42-D-LC",
+    "IPC-A42-D-imou",
+    "IPC-TA42-D-imou",
+    "IPC-A22E-K-LC",
+    "IPC-A22E-K-imou",
+    "IPC-G42F-D-LC",
+    "IPC-TA46L-D-LC",
+    "IPC-A46L-D-imou",
+    "IPC-S41F-LC",
+    "IPC-S41F-imou"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-A42-D-LC:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:01:40",
+    "IPC-A42-D-imou:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:00:40",
+    "IPC-TA42-D-imou:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:0A:01:00:00:40",
+    "IPC-A22E-K-LC:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:01:40",
+    "IPC-A22E-K-imou:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:00:40",
+    "IPC-G42F-D-LC:01:02:02:C0:4F:00:01:10:01:00:04:2B8:00:02:00:00:08:01:00:01:40",
+    "IPC-TA46L-D-LC:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:00:40",
+    "IPC-A46L-D-imou:01:02:08:C0:4F:00:01:10:01:01:04:2B8:00:02:00:00:08:01:00:00:40",
+    "IPC-S41F-LC:01:02:00:C2:4F:00:01:10:01:00:04:2B8:00:02:00:00:08:01:00:00:40",
+    "IPC-S41F-imou:01:02:00:C2:4F:00:01:10:01:00:04:2B8:00:02:00:00:08:01:00:00:40"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-A42-D-LC",
+    "IPC-A42-D-imou",
+    "IPC-TA42-D-imou",
+    "IPC-A22E-K-LC",
+    "IPC-A22E-K-imou",
+    "IPC-G42F-D-LC",
+    "IPC-TA46L-D-LC",
+    "IPC-A46L-D-imou",
+    "IPC-S41F-LC",
+    "IPC-S41F-imou"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06",
+   "build_dates": {
+    "earliest": "2022-07-07",
+    "latest": "2022-07-07"
+   },
+   "firmware": null,
+   "flash_size": 8388608,
+   "kernel_version": "4.9.129",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 297656,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2022-07-07",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 6328,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-07",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1260896,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-07",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 5318840,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2002992334a68d21",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "FH8852",
+     "FH8856",
+     "FH8852V200",
+     "FH8856V200",
+     "FH8858V200"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8852"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8856"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8852V200"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8856V200"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8858V200"
+     }
+    ],
+    "name": null,
+    "vendor": "Fullhan"
+   }
+  }
+ ],
+ "sha256": "db632bba1e34a2c2d453d6ff555d209da0a7dc8194e338160b2ca4a0d177d4d5"
+}

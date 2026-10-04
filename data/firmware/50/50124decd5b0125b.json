@@ -1,0 +1,246 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Intelbras_VIP-5430-TL-IA_260710.bin",
+   "ids": [
+    "IPC-HFW3849T1-AS-PV-S5",
+    "IPC-HDW3849H-AS-PV-S5",
+    "IPC-HFW3849T1-ZAS-PV-27135-S5",
+    "IPC-HDW3849H-ZAS-PV-S5",
+    "IPC-HDBW3849R1-ZAS-PV-S5",
+    "IPC-HFW3649T1-AS-PV-S5",
+    "IPC-HDW3649H-AS-PV-S5",
+    "IPC-HFW3649T1-ZAS-PV-27135-S5",
+    "IPC-HDW3649H-ZAS-PV-S5",
+    "IPC-HDBW3649R1-ZAS-PV-27135-S5",
+    "IPC-HFW3549T1-AS-PV-S5",
+    "IPC-HDW3549H-AS-PV-S5",
+    "IPC-HFW3549T1-ZAS-PV-27135-S5",
+    "IPC-HDW3549H-ZAS-PV-S5",
+    "IPC-HDBW3549R1-ZAS-PV-S5",
+    "IPC-HFW3449T1-AS-PV-S5",
+    "IPC-HDW3449H-AS-PV-S5",
+    "IPC-HFW3449T1-ZAS-PV-27135-S5",
+    "IPC-HDW3449H-ZAS-PV-S5",
+    "IPC-HDBW3449R1-ZAS-PV-S5"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW3849T1-AS-PV-S5:01:02:00:8F:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HDW3849H-AS-PV-S5:01:02:00:8F:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW3849T1-ZAS-PV-27135-S5:01:02:02:8F:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:800",
+    "IPC-HDW3849H-ZAS-PV-S5:01:02:00:8F:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HDBW3849R1-ZAS-PV-S5:01:02:05:8F:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:800",
+    "IPC-HFW3649T1-AS-PV-S5:01:02:00:7C:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HDW3649H-AS-PV-S5:01:02:00:7C:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW3649T1-ZAS-PV-27135-S5:01:02:02:7C:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:800",
+    "IPC-HDW3649H-ZAS-PV-S5:01:02:00:7C:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HDBW3649R1-ZAS-PV-27135-S5:01:02:05:7C:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:800",
+    "IPC-HFW3549T1-AS-PV-S5:01:02:00:C8:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3549H-AS-PV-S5:01:02:00:C8:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3549T1-ZAS-PV-27135-S5:01:02:02:C8:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:400",
+    "IPC-HDW3549H-ZAS-PV-S5:01:02:00:C8:56:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW3549R1-ZAS-PV-S5:01:02:05:C8:56:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:400",
+    "IPC-HFW3449T1-AS-PV-S5:01:02:00:C8:57:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3449H-AS-PV-S5:01:02:00:C8:57:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3449T1-ZAS-PV-27135-S5:01:02:02:C8:57:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:400",
+    "IPC-HDW3449H-ZAS-PV-S5:01:02:00:C8:57:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDBW3449R1-ZAS-PV-S5:01:02:05:C8:57:00:01:1A:07:03:04:3E8:03:00:00:00:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Intelbras_VIP-5430-TL-IA_260710.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "IntelBras"
+  },
+  {
+   "counted": true,
+   "firmware": "Intelbras_VIP-5430-TL-IA_260710.bin",
+   "ids": [
+    "IPC-HFW3849T1-AS-PV-S5",
+    "IPC-HDW3849H-AS-PV-S5",
+    "IPC-HFW3849T1-ZAS-PV-27135-S5",
+    "IPC-HDW3849H-ZAS-PV-S5",
+    "IPC-HDBW3849R1-ZAS-PV-S5",
+    "IPC-HFW3649T1-AS-PV-S5",
+    "IPC-HDW3649H-AS-PV-S5",
+    "IPC-HFW3649T1-ZAS-PV-27135-S5",
+    "IPC-HDW3649H-ZAS-PV-S5",
+    "IPC-HDBW3649R1-ZAS-PV-27135-S5",
+    "IPC-HFW3549T1-AS-PV-S5",
+    "IPC-HDW3549H-AS-PV-S5",
+    "IPC-HFW3549T1-ZAS-PV-27135-S5",
+    "IPC-HDW3549H-ZAS-PV-S5",
+    "IPC-HDBW3549R1-ZAS-PV-S5",
+    "IPC-HFW3449T1-AS-PV-S5",
+    "IPC-HDW3449H-AS-PV-S5",
+    "IPC-HFW3449T1-ZAS-PV-27135-S5",
+    "IPC-HDW3449H-ZAS-PV-S5",
+    "IPC-HDBW3449R1-ZAS-PV-S5"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-07-10",
+    "latest": "2026-07-10"
+   },
+   "firmware": "Intelbras_VIP-5430-TL-IA_260710.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Portuguese",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Portuguese"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "IntelBras",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 294836,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 229224,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 249808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb-bak.bin.img",
+     "image_name": "dtb",
+     "image_size": 249808,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 97487032,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel-aol.img",
+     "image_name": "kernel-aol",
+     "image_size": 4458168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x-aol.squashfs.img",
+     "image_name": "romfs-aol",
+     "image_size": 10725560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 26900664,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4458168,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 15071416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-07-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1489080,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e6f8a4475151d703",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.140.00IB003.0.R.260710"
+  }
+ ],
+ "sha256": "50124decd5b0125b3d39d641cd8a5ed069b685784ee29098b68d1dcbd4856431"
+}

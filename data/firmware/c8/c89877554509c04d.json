@@ -1,0 +1,153 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_EVS3224S-SMR_MultiLang_V5.002.0000001.1.R.250909.bin",
+   "ids": [
+    "General",
+    "Dahua"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm64",
+   "bootloader_version": "U-Boot 2020.04-svn8289",
+   "build_dates": {
+    "earliest": "2025-09-09",
+    "latest": "2025-09-09"
+   },
+   "firmware": "DH_EVS3224S-SMR_MultiLang_V5.002.0000001.1.R.250909.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General",
+    "Dahua"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "17a4b0901d1f0251",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "AX650",
+     "AX650X",
+     "AX650A",
+     "AX650N",
+     "AX650C"
+    ],
+    "evidence": [
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "AX650"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "AX650X"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "AX650A"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "AX650N"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "AX650C"
+     }
+    ],
+    "name": null,
+    "vendor": "Axera"
+   }
+  }
+ ],
+ "sha256": "c89877554509c04d7581b6ac4d19aa9634ed21e2aaece3b27bf38cdbb0f2d493"
+}

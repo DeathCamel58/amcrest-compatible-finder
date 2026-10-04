@@ -1,0 +1,107 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HFW4239TC1-S-IL",
+    "IPC-HFW4439TC1-S-IL",
+    "IPC-HFW4639TC1-S-IL",
+    "IPC-HFW4839TC1-S-IL"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW4239TC1-S-IL:01:02:00:116:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:80",
+    "IPC-HFW4439TC1-S-IL:01:02:00:10C:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:80",
+    "IPC-HFW4639TC1-S-IL:01:02:00:12A:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:100",
+    "IPC-HFW4839TC1-S-IL:01:02:00:113:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-08-20",
+    "latest": "2026-08-20"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "Arabic",
+     "Czechish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Korean",
+     "Poland",
+     "Portugal",
+     "SpanishEU",
+     "Romanian",
+     "Hungarian",
+     "Turkey",
+     "Hebrew",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "Ukrainian",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-08-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3580272,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "603e546c4ff3c49f",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.4"
+    },
+    "encrypted": false,
+    "security_baseline": "V2.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f0d58abac36dc42a9b6638954f6f1f6b06e15b524ae8a496690a05be35e23d03"
+}

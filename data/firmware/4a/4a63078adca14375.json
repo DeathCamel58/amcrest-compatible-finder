@@ -1,0 +1,414 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX25(8)XX-Molec_MultiLang_PN_V2.820.0000000.36.R.210723.bin",
+   "ids": [
+    "IPC-HFW2531SP-S",
+    "IPC-HDW2531TP-AS",
+    "IPC-HFW2531TP-ZS-27135-S2",
+    "IPC-HFW2531TP-ZAS-27135-S2",
+    "IPC-HFW2531TP-AS-S2",
+    "IPC-HDW2633T-A",
+    "IPC-HFW2831SP-S-S2",
+    "IPC-HDW2831TP-AS-S2",
+    "IPC-HFW2831TP-ZS-27135-S2",
+    "IPC-HFW2831TP-ZAS-27135-S2",
+    "IPC-HFW2831TP-AS-S2",
+    "IPC-B2A80-SA",
+    "IPC-HFW2431TP-ZS-27135-S2DZ",
+    "IPC-HFW2431TP-ZAS-27135-S2DZ",
+    "IPC-HFW2431SP-SDZ",
+    "IPC-HDW2431TP-ASDZ"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HFW2531SP-S:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2531TP-AS:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2531TP-ZS-27135-S2:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2531TP-ZAS-27135-S2:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2531TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-HDW2633T-A:01:02:05:7C:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100",
+    "IPC-HFW2831SP-S-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2831TP-AS-S2:01:02:05:9E:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2831TP-ZS-27135-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2831TP-ZAS-27135-S2:01:02:02:9E:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2831TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-B2A80-SA:01:02:13:A2:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2431TP-ZS-27135-S2DZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2431TP-ZAS-27135-S2DZ:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW2431SP-SDZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW2431TP-ASDZ:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HX25(8)XX-Molec_MultiLang_PN_V2.820.0000000.36.R.210723.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HX25(8)XX-Molec_MultiLang_PN_V2.820.0000000.36.R.210723.bin",
+   "ids": [
+    "IPC-HFW2531SP-S",
+    "IPC-HDW2531TP-AS",
+    "IPC-HFW2531TP-ZS-27135-S2",
+    "IPC-HFW2531TP-ZAS-27135-S2",
+    "IPC-HFW2531TP-AS-S2",
+    "IPC-HDW2633T-A",
+    "IPC-HFW2831SP-S-S2",
+    "IPC-HDW2831TP-AS-S2",
+    "IPC-HFW2831TP-ZS-27135-S2",
+    "IPC-HFW2831TP-ZAS-27135-S2",
+    "IPC-HFW2831TP-AS-S2",
+    "IPC-B2A80-SA",
+    "IPC-HFW2431TP-ZS-27135-S2DZ",
+    "IPC-HFW2431TP-ZAS-27135-S2DZ",
+    "IPC-HFW2431SP-SDZ",
+    "IPC-HDW2431TP-ASDZ"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn8930",
+   "build_dates": {
+    "earliest": "2021-07-23",
+    "latest": "2021-07-23"
+   },
+   "firmware": "DH_IPC-HX25(8)XX-Molec_MultiLang_PN_V2.820.0000000.36.R.210723.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkish",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czech",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 1602156,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 315576,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-23",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8560,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-07-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2557760,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7452856,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 19171512,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "80341d12c8a2ae73",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "SSC328",
+     "SSC325"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc328"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "ssc325"
+     }
+    ],
+    "name": null,
+    "vendor": "SigmaStar"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-07-23",
+    "latest": "2021-07-23"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-07-23",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 7452856,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "193ecaa504bf31b4",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "4a63078adca143754d739c9d36977ea55375a4aa2210c8ea77c4c573a3497fce"
+}

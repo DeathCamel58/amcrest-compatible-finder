@@ -1,0 +1,47 @@
+{
+ "id": "1a23c4ddd51b4030",
+ "partitions": [
+  {
+   "end": "0x30000",
+   "name": "ubl",
+   "size": 196608,
+   "start": "0x0"
+  },
+  {
+   "end": "0x70000",
+   "name": "dhboot-bak",
+   "size": 262144,
+   "start": "0x30000"
+  },
+  {
+   "end": "0xd0000",
+   "name": "bootloader",
+   "size": 327680,
+   "start": "0x80000"
+  },
+  {
+   "end": "0xe0000",
+   "name": "partition",
+   "size": 65536,
+   "start": "0xd0000"
+  },
+  {
+   "end": "0x100000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0xe0000"
+  },
+  {
+   "end": "0x5d0000",
+   "name": "kernel",
+   "size": 5046272,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x760000",
+   "name": "user",
+   "size": 1638400,
+   "start": "0x5d0000"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "017f2a005fec7b5f",
+ "partitions": [
+  {
+   "end": "0x80000",
+   "name": "mini-boot",
+   "size": 524288,
+   "start": "0x0"
+  },
+  {
+   "end": "0x1000",
+   "name": "CmdScript",
+   "size": 4096,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "bootloader",
+   "size": 1572864,
+   "start": "0x80000"
+  },
+  {
+   "end": "0x380000",
+   "name": "boot-bak",
+   "size": 1572864,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x480000",
+   "name": "smc",
+   "size": 1048576,
+   "start": "0x380000"
+  },
+  {
+   "end": "0x1f80000",
+   "name": "kernel",
+   "size": 4718592,
+   "start": "0x1b00000"
+  },
+  {
+   "end": "0x3680000",
+   "name": "web",
+   "size": 24117248,
+   "start": "0x1f80000"
+  },
+  {
+   "end": "0x6a80000",
+   "name": "rootfs",
+   "size": 54525952,
+   "start": "0x3680000"
+  },
+  {
+   "end": "0x8d80000",
+   "name": "firmware",
+   "size": 36700160,
+   "start": "0x6a80000"
+  }
+ ]
+}

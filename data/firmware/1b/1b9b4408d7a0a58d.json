@@ -1,0 +1,273 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_ASI22XXH_Eng_NP_V1.000.0000000.1.R.220727.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "hwid",
+   "raw": [
+    "ASI2212H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2212H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_ASI22XXH_Eng_NP_V1.000.0000000.1.R.220727.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI2212H-W",
+     "1.00"
+    ],
+    [
+     "ASI2212H-DW",
+     "1.00"
+    ],
+    [
+     "ASI2201H-W",
+     "1.00"
+    ],
+    [
+     "ASI2201H-DW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_ASI22XXH_Eng_NP_V1.000.0000000.1.R.220727.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI2212H-W",
+     "1.00"
+    ],
+    [
+     "ASI2212H-DW",
+     "1.00"
+    ],
+    [
+     "ASI2201H-W",
+     "1.00"
+    ],
+    [
+     "ASI2201H-DW",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "ASI2212H-W",
+    "ASI2212H-DW",
+    "ASI2201H-W",
+    "ASI2201H-DW"
+   ],
+   "member": "check.img",
+   "raw": [
+    "ASI2212H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2212H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-W:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF",
+    "ASI2201H-DW:01:04:05:00:46:00:00:10:01:01:01:4B0_4B0:00:02:00:06:00:00:00:00:80:FF"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-27",
+    "latest": "2022-07-27"
+   },
+   "firmware": "DH_ASI22XXH_Eng_NP_V1.000.0000000.1.R.220727.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 3541176,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "CmdScript.img",
+     "image_name": "CmdScript",
+     "image_size": 806,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 49296,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2304184,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 35000,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5103288,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 13002936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2828472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e7824ca617bf6704",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2022-07-27",
+    "latest": "2022-07-27"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-07-27",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 2828472,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a1eed7ae7c686f77",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.1"
+    },
+    "encrypted": true,
+    "security_baseline": "V2.1",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1b9b4408d7a0a58d1b61ce213dfa87dfa7d6011dbbca5655a9f30a68c2db6dd6"
+}

@@ -1,0 +1,90 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH5421H",
+    "VTH5422H",
+    "VTHX4X1",
+    "VTH8641KMG-A:",
+    "VTH864X",
+    "VTHX62X",
+    "VTH262X",
+    "VTH5X41G"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH5421H",
+     "1.00"
+    ],
+    [
+     "VTH5422H",
+     "1.00"
+    ],
+    [
+     "VTHX4X1",
+     "1.00"
+    ],
+    [
+     "VTH8641KMG-A:",
+     "1.00"
+    ],
+    [
+     "VTH864X",
+     "1.00"
+    ],
+    [
+     "VTHX62X",
+     "1.00"
+    ],
+    [
+     "VTH262X",
+     "1.00"
+    ],
+    [
+     "VTH5X41G",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 649400,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0e6d732bfe8b7136",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "736caa67e53a2830f57ba0a039e337dc98d521140f5c6a7ec8bdd0b741515210"
+}

@@ -1,0 +1,241 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HDPWXXX-Joule2_Eng_N_V2.820.0000000.3.R.20240223.bin",
+   "ids": [
+    "IPC-HDPW1130P-ARDM"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-HDPWXXX-Joule2_Eng_N_V2.820.0000000.3.R.20240223.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-HDPWXXX-Joule2_Eng_N_V2.820.0000000.3.R.20240223.bin",
+   "ids": [
+    "IPC-HDPW1130P-ARDM"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "rtos-x_V2.820.0000000.3.R.240223.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "rtos-x_V2.820.0000000.3.R.240223.bin",
+   "ids": [
+    "IPC-HDPW1130P-ARDM"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-02-23",
+    "latest": "2024-08-29"
+   },
+   "firmware": "DH_IPC-HDPWXXX-Joule2_Eng_N_V2.820.0000000.3.R.20240223.bin",
+   "flash_size": null,
+   "kernel_version": "4.9.84",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-08-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-08-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 1575096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 52772,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "misc.bin.img",
+     "image_name": "MISC",
+     "image_size": 2099384,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rtos.img",
+     "image_name": "RTOS",
+     "image_size": 2388456,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3908016,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.Ramdisk.img",
+     "image_name": "romfs",
+     "image_size": 8009430,
+     "image_type": "ramdisk",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8922b8b445099976",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-02-23",
+    "latest": "2024-02-23"
+   },
+   "firmware": "rtos-x_V2.820.0000000.3.R.240223.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 52772,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "misc.bin.img",
+     "image_name": "MISC",
+     "image_size": 2099384,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-02-23",
+     "compression": "none",
+     "filesystem": null,
+     "image": "rtos.img",
+     "image_name": "RTOS",
+     "image_size": 2388456,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a1213a1e2e2bd0a6",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V1.4"
+    },
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "753ed6140196c49b1ee905f59e7adc3cb8700df7fc6d540d66ce4541c4ae9c79"
+}

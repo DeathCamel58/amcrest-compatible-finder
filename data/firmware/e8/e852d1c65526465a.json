@@ -1,0 +1,365 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Urus_V2.820.00KL000.0.R.230113.bin",
+   "ids": [
+    "LX-CA432A1-A",
+    "CA-HZ4033GA-B",
+    "CA-HZ2040GA-A",
+    "CA-HZ4040GA-B",
+    "CA-HZ4033GA-C",
+    "CA-HZ4040GA-C",
+    "CA-HZ4025GA-B",
+    "CA-HZ2023GB1-B",
+    "CA-HZ4025GB-B",
+    "CA-HZ4032GB-A",
+    "CA-HZ4032GB-C",
+    "CA-HZ2025GB-A",
+    "CA-HZ2032GB-A",
+    "CA-HZ2023GB-A",
+    "CA-HZ2040GA-B",
+    "CA-HZ4033GA-D",
+    "SD-MT1A14004GB-A",
+    "CA-HZ2040GA2-A",
+    "CA-HZ2049GA-A",
+    "CA-HZ4025GA-C",
+    "CA-HZ8025GA-A",
+    "CA-HZ8040GB-A",
+    "SD-MT2C18000GB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "LX-CA432A1-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4040GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4040GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023GB1-B:01:03:04:75:56:00:01:10:01:03:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GB-B:01:03:04:78:56:00:01:10:01:03:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032GB-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032GB-C:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2032GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-D:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "SD-MT1A14004GB-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA2-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2049GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8025GA-A:01:03:04:74:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8040GB-A:01:03:04:8F:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "SD-MT2C18000GB-A:01:03:04:8F:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "Urus_V2.820.00KL000.0.R.230113.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Kangle"
+  },
+  {
+   "counted": true,
+   "firmware": "Urus_V2.820.00KL000.0.R.230113.bin",
+   "ids": [
+    "LX-CA432A1-A",
+    "CA-HZ4033GA-B",
+    "CA-HZ2040GA-A",
+    "CA-HZ4040GA-B",
+    "CA-HZ4033GA-C",
+    "CA-HZ4040GA-C",
+    "CA-HZ4025GA-B",
+    "CA-HZ2023GB1-B",
+    "CA-HZ4025GB-B",
+    "CA-HZ4032GB-A",
+    "CA-HZ4032GB-C",
+    "CA-HZ2025GB-A",
+    "CA-HZ2032GB-A",
+    "CA-HZ2023GB-A",
+    "CA-HZ2040GA-B",
+    "CA-HZ4033GA-D",
+    "SD-MT1A14004GB-A",
+    "CA-HZ2040GA2-A",
+    "CA-HZ2049GA-A",
+    "CA-HZ4025GA-C",
+    "CA-HZ8025GA-A",
+    "CA-HZ8040GB-A",
+    "SD-MT2C18000GB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "LX-CA432A1-A",
+    "CA-HZ4033GA-B",
+    "CA-HZ2040GA-A",
+    "CA-HZ4040GA-B",
+    "CA-HZ4033GA-C",
+    "CA-HZ4040GA-C",
+    "CA-HZ4025GA-B",
+    "CA-HZ2023GB1-B",
+    "CA-HZ4025GB-B",
+    "CA-HZ4032GB-A",
+    "CA-HZ4032GB-C",
+    "CA-HZ2025GB-A",
+    "CA-HZ2032GB-A",
+    "CA-HZ2023GB-A",
+    "CA-HZ2040GA-B",
+    "CA-HZ4033GA-D",
+    "SD-MT1A14004GB-A",
+    "CA-HZ2040GA2-A",
+    "CA-HZ2049GA-A",
+    "CA-HZ4025GA-C",
+    "CA-HZ8025GA-A",
+    "CA-HZ8040GB-A",
+    "SD-MT2C18000GB-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "LX-CA432A1-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4040GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4040GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023GB1-B:01:03:04:75:56:00:01:10:01:03:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GB-B:01:03:04:78:56:00:01:10:01:03:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032GB-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4032GB-C:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2025GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2032GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2023GB-A:01:03:04:75:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA-B:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4033GA-D:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "SD-MT1A14004GB-A:01:03:04:78:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2040GA2-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ2049GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ4025GA-C:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8025GA-A:01:03:04:74:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "CA-HZ8040GB-A:01:03:04:8F:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400",
+    "SD-MT2C18000GB-A:01:03:04:8F:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Kangle"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "LX-CA432A1-A",
+    "CA-HZ4033GA-B",
+    "CA-HZ2040GA-A",
+    "CA-HZ4040GA-B",
+    "CA-HZ4033GA-C",
+    "CA-HZ4040GA-C",
+    "CA-HZ4025GA-B",
+    "CA-HZ2023GB1-B",
+    "CA-HZ4025GB-B",
+    "CA-HZ4032GB-A",
+    "CA-HZ4032GB-C",
+    "CA-HZ2025GB-A",
+    "CA-HZ2032GB-A",
+    "CA-HZ2023GB-A",
+    "CA-HZ2040GA-B",
+    "CA-HZ4033GA-D",
+    "SD-MT1A14004GB-A",
+    "CA-HZ2040GA2-A",
+    "CA-HZ2049GA-A",
+    "CA-HZ4025GA-C",
+    "CA-HZ8025GA-A",
+    "CA-HZ8040GB-A",
+    "SD-MT2C18000GB-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-01-13",
+    "latest": "2023-01-13"
+   },
+   "firmware": "Urus_V2.820.00KL000.0.R.230113.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Kangle",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2023-01-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 33364,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 200280,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 26128,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 690360,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 4171960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13260984,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 47659192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.ext4_aa.img",
+     "image_name": "firmware",
+     "image_size": 134219960,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2023-01-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.ext4_ab.img",
+     "image_name": "firmware",
+     "image_size": 133171384,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "332d502f1c4aa7bc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-01-13",
+    "latest": "2023-01-13"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "Kangle",
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "e852d1c65526465af7875f3f05cbd8bc14cbb642430fcbec46ce3c5d0be5e4a5"
+}

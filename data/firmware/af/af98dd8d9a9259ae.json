@@ -1,0 +1,76 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-01-16",
+    "latest": "2024-01-16"
+   },
+   "firmware": "General_TPC-NYX2200-MS-ATGW_V1.001.0000000.3.R.20240116.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2024-01-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "General_TPC-NYX2200-MS-ATGW_V1.001.0000000.3.R.20240116.bin",
+     "image_name": "CamType:A5",
+     "image_size": 919672,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "38aa21bc9b3f8088",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-01-16",
+    "latest": "2024-01-16"
+   },
+   "firmware": "ThermalCore.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2024-01-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "ThermalCore.img",
+     "image_name": "fpga",
+     "image_size": 788664,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "4478943eba569eec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "af98dd8d9a9259ae7283c8f4431439b217a4fe60c534227135c1f7a9adaef7b4"
+}

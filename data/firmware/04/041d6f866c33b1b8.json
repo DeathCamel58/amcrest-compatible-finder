@@ -1,0 +1,178 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_EEC400(300V2)_Internal_PN_V1.000.0000003.0.R.260601.bin",
+   "ids": [
+    "EEC300V2",
+    "DH_EEC300"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-05-31",
+    "latest": "2026-05-31"
+   },
+   "firmware": "DH_EEC400(300V2)_Internal_PN_V1.000.0000003.0.R.260601.bin",
+   "flash_size": 268435456,
+   "kernel_version": "4.19.90",
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "DH_EEC300"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "ss528V100",
+     "image_size": 332568,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "ss528V100",
+     "image_size": 14266880,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "ss528V100",
+     "image_size": 32948224,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "ss528V100",
+     "image_size": 13496320,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 24576,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 10887168,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-05-31",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "algorithm-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 20606976,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a9cd634950f253e9",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "ss528V100"
+     }
+    ],
+    "name": "SS528V100",
+    "vendor": "HiSilicon"
+   },
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "041d6f866c33b1b8e315120ab5dfeff6d3d6bb6fc7cbc5d6eab4ecfcd8543267"
+}

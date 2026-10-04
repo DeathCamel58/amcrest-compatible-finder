@@ -1,0 +1,59 @@
+{
+ "id": "7d18fde3873725f1",
+ "partitions": [
+  {
+   "end": "0x2040000",
+   "name": "dm365_ubl_boot_spi",
+   "size": 262144,
+   "start": "0x2000000"
+  },
+  {
+   "end": "0x2080000",
+   "name": "custom",
+   "size": 131072,
+   "start": "0x2060000"
+  },
+  {
+   "end": "0x2280000",
+   "name": "kernel",
+   "size": 2097152,
+   "start": "0x2080000"
+  },
+  {
+   "end": "0x2580000",
+   "name": "romfs",
+   "size": 3145728,
+   "start": "0x2280000"
+  },
+  {
+   "end": "0x2780000",
+   "name": "gui",
+   "size": 2097152,
+   "start": "0x2580000"
+  },
+  {
+   "end": "0x2900000",
+   "name": "web",
+   "size": 1572864,
+   "start": "0x2780000"
+  },
+  {
+   "end": "0x2920000",
+   "name": "pd",
+   "size": 131072,
+   "start": "0x2900000"
+  },
+  {
+   "end": "0x2f20000",
+   "name": "user",
+   "size": 6291456,
+   "start": "0x2920000"
+  },
+  {
+   "end": "0x3200000",
+   "name": "data",
+   "size": 3014656,
+   "start": "0x2f20000"
+  }
+ ]
+}

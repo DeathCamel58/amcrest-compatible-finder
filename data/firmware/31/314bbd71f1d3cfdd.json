@@ -1,0 +1,65 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO4202F-P-S2",
+    "VTO2202F-P-S2",
+    "VTO2201F-P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO4202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2202F-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO2201F-P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4679864,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "0e6d732bfe8b7136",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "314bbd71f1d3cfdd76db7389aaf2b9c4d55249cfd8eb8de5f47c4e229757e4bb"
+}

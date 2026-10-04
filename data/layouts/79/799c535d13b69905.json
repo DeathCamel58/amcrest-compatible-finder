@@ -1,0 +1,77 @@
+{
+ "id": "799c535d13b69905",
+ "partitions": [
+  {
+   "end": "0x100000",
+   "name": "miniBoot",
+   "size": 1048576,
+   "start": "0x0"
+  },
+  {
+   "end": "0x200000",
+   "name": "UBoot",
+   "size": 1048576,
+   "start": "0x100000"
+  },
+  {
+   "end": "0x300000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "partition",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x800000",
+   "name": "Kernel",
+   "size": 4194304,
+   "start": "0x400000"
+  },
+  {
+   "end": "0x4000000",
+   "name": "romfs",
+   "size": 58720256,
+   "start": "0x800000"
+  },
+  {
+   "end": "0x4100000",
+   "name": "custom",
+   "size": 1048576,
+   "start": "0x4000000"
+  },
+  {
+   "end": "0x4200000",
+   "name": "logo",
+   "size": 1048576,
+   "start": "0x4100000"
+  },
+  {
+   "end": "0x4800000",
+   "name": "config",
+   "size": 6291456,
+   "start": "0x4200000"
+  },
+  {
+   "end": "0x5000000",
+   "name": "syslog",
+   "size": 8388608,
+   "start": "0x4800000"
+  },
+  {
+   "end": "0x5100000",
+   "name": "backpart",
+   "size": 1048576,
+   "start": "0x5000000"
+  },
+  {
+   "end": "0x5500000",
+   "name": "backkernel",
+   "size": 4194304,
+   "start": "0x5100000"
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-6P-GBS2-0280-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
+    "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004",
+    "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C",
+    "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E",
+    "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E",
+    "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C",
+    "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C",
+    "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-6P-GBS2-0280-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-6P-GBS2-0280-A"
+   ],
+   "member": "hwid",
+   "raw": [
+    "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
+    "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004",
+    "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C",
+    "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E",
+    "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E",
+    "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C",
+    "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C",
+    "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "check.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "check.bin",
+   "ids": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-6P-GBS2-0280-A"
+   ],
+   "member": "check.img",
+   "raw_same_as": 3,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-11-14",
+    "latest": "2025-11-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dhsp",
+   "partition_images": [
+    {
+     "built": "2025-11-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 631992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 31177,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 135600,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 4655288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 20117688,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 8776376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_aa.img",
+     "image_name": "romfs",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "romfs-x.squashfs_ab.img",
+     "image_name": "romfs",
+     "image_size": 61020344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_aa.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ab.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ac.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ad.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_ae.img",
+     "image_name": "firmware",
+     "image_size": 67111096,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "firmware-x.squashfs_af.img",
+     "image_name": "firmware",
+     "image_size": 34273464,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": "ext4",
+     "image": "itop-x.ext4_aa.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ab.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ac.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ad.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ae.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_af.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ag.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ah.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ai.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_aj.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ak.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_al.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_am.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_an.img",
+     "image_name": "itop",
+     "image_size": 67111096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-11-14",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "itop-x.ext4_ao.img",
+     "image_name": "itop",
+     "image_size": 42244280,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "6f8a633831e1e1f9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "hi3519dv500"
+     }
+    ],
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   },
+   "software_version": "V3.200.10EX001.0.R.251114"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-11-14",
+    "latest": "2025-11-14"
+   },
+   "firmware": "check.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "TradChinese",
+     "Italian",
+     "Spanish",
+     "Japanese",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Turkey",
+     "Poland",
+     "Romanian",
+     "Hungarian",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Ukrainian",
+     "Vietnamese",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Thai",
+     "Indonesian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.10EX001.0.R.251114"
+  }
+ ],
+ "sha256": "91cf3e1051e8f0b05ba72707582f24de2e97ef66d18f3f08ca526140d4f8c1f5"
+}

@@ -1,0 +1,395 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW3241F-AS-M",
+    "IPC-HDW3241T-AS",
+    "IPC-HDW3241T-ZAS",
+    "IPC-HDBW3241R-ZS",
+    "IPC-HDBW3241R-ZAS",
+    "IPC-HDBW3241E-S",
+    "IPC-HDBW3241E-AS",
+    "IPC-HFW3241T-ZS",
+    "IPC-HFW3241T-ZAS",
+    "IPC-HFW3241E-SA",
+    "IPC-HFW3241M-AS",
+    "IPC-HFW3241E-AS",
+    "IPC-HFW3241TP-Z-27135-Anaveo",
+    "IPC-HDBW3241RP-Z-27135-Anaveo",
+    "IPC-HDBW3249E-AS-NI",
+    "IPC-HFW3249E-AS-NI",
+    "IPC-HFW3249E-AS-LED",
+    "IPC-HDW3249TM-AS-NI",
+    "IPC-HDW3249TM-AS-LED"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HDBW3241F-AS-M:01:02:04:6A:3A:00:01:0F:01:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW3241T-AS:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HDW3241T-ZAS:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW3241R-ZS:01:02:05:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW3241R-ZAS:01:02:05:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-HDBW3241E-S:01:02:05:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW3241E-AS:01:02:05:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW3241T-ZS:01:02:02:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW3241T-ZAS:01:02:02:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-HFW3241E-SA:01:02:02:6A:3A:00:01:0F:01:00:04:320:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW3241M-AS:01:02:02:6A:3A:00:01:0F:01:01:04:320:08:00:00:00:00:01:00:00:100",
+    "IPC-HFW3241E-AS:01:02:02:6A:3A:00:01:0F:03:01:04:320:03:00:00:00:00:01:00:00:100",
+    "IPC-HDBW3241F-AS-M:01:02:04:6A:3A:00:01:0F:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3241T-AS:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3241T-ZAS:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3241R-ZS:01:02:05:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3241R-ZAS:01:02:05:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3241E-S:01:02:05:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDBW3241E-AS:01:02:05:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241T-ZS:01:02:02:6A:3A:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241T-ZAS:01:02:02:6A:3A:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241E-SA:01:02:02:6A:3A:00:01:0F:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241M-AS:01:02:02:6A:3A:00:01:0F:01:01:04:320:08:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241E-AS:01:02:02:6A:3A:00:01:0F:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3241TP-Z-27135-Anaveo:01:02:02:6A:3A:00:01:00:00:00:00:320:00:00:00:04:00:00:00:00:100",
+    "IPC-HDBW3241RP-Z-27135-Anaveo:01:02:05:6A:3A:00:01:00:00:00:00:320:00:00:00:04:00:00:00:00:100",
+    "IPC-HDBW3249E-AS-NI:01:02:04:6A:3A:00:01:14:01:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3249E-AS-NI:01:02:02:6A:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HFW3249E-AS-LED:01:02:02:6A:3A:00:01:14:03:01:04:320:03:00:00:00:00:01:00:00:200",
+    "IPC-HDW3249TM-AS-NI:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:200",
+    "IPC-HDW3249TM-AS-LED:01:02:00:6A:3A:00:01:0E:01:00:04:320:00:00:00:00:00:01:00:00:200"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDBW3241F-AS-M",
+    "IPC-HDW3241T-AS",
+    "IPC-HDW3241T-ZAS",
+    "IPC-HDBW3241R-ZS",
+    "IPC-HDBW3241R-ZAS",
+    "IPC-HDBW3241E-S",
+    "IPC-HDBW3241E-AS",
+    "IPC-HFW3241T-ZS",
+    "IPC-HFW3241T-ZAS",
+    "IPC-HFW3241E-SA",
+    "IPC-HFW3241M-AS",
+    "IPC-HFW3241E-AS",
+    "IPC-HFW3241TP-Z-27135-Anaveo",
+    "IPC-HDBW3241RP-Z-27135-Anaveo",
+    "IPC-HDBW3249E-AS-NI",
+    "IPC-HFW3249E-AS-NI",
+    "IPC-HFW3249E-AS-LED",
+    "IPC-HDW3249TM-AS-NI",
+    "IPC-HDW3249TM-AS-LED"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn12183",
+   "build_dates": {
+    "earliest": "2024-06-12",
+    "latest": "2024-06-12"
+   },
+   "firmware": null,
+   "flash_size": 133693440,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portugal",
+     "Poland",
+     "Korean",
+     "Czechish",
+     "Dutch",
+     "Arabic",
+     "SpanishEU",
+     "Hebrew",
+     "Hungarian",
+     "Indonesia",
+     "Japanese",
+     "Romanian",
+     "Thai",
+     "TradChinese",
+     "Turkey",
+     "Ukrainian",
+     "Vietnamese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-06-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 395448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 278896,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 14520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 4724920,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 215224,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1796792,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 25761976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 5925048,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernelslv.img",
+     "image_name": "kernelslv",
+     "image_size": 1010360,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user2-x.squashfs.img",
+     "image_name": "user2",
+     "image_size": 4020408,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2024-06-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user1-x.squashfs.img",
+     "image_name": "user1",
+     "image_size": 3635384,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "02af7ae767910fa4",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "119eafacf3f53fd3e51c750346b173b3445aa65ca9c6b66206675f55c2f01fe8"
+}

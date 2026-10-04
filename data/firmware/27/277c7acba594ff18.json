@@ -1,0 +1,70 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH",
+    "VTH1560B-S"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH2421A",
+     "0.00"
+    ],
+    [
+     "VTH2421CH",
+     "0.00"
+    ],
+    [
+     "VTH5421CH",
+     "0.00"
+    ],
+    [
+     "VTH1560B-S",
+     "0.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 761856,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "62c9e028ec00dae9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "277c7acba594ff18918806c565e9a593bfc6f9f373cc5dce52310af51ac6da4a"
+}

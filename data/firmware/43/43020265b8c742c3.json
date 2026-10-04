@@ -1,0 +1,108 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTOXXXXD-G-data_MultiLang_Eng_PN_128M_SIP_PART_V4.500.0000009.0.R.20210527.bin",
+   "ids": [
+    "VTO2202F",
+    "VTO4202F",
+    "VTO4202F-MA",
+    "VTA2302A",
+    "VTO2111D-P-S2",
+    "VTO1101D-P",
+    "VTO2211G-WP",
+    "VTO2211G-P",
+    "VTO1201G-P",
+    "VTO3211D-P-S2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F",
+     "1.00"
+    ],
+    [
+     "VTO4202F-MA",
+     "1.00"
+    ],
+    [
+     "VTA2302A",
+     "1.00"
+    ],
+    [
+     "VTO2111D-P-S2",
+     "1.00"
+    ],
+    [
+     "VTO1101D-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-WP",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.00"
+    ],
+    [
+     "VTO2211G-P",
+     "1.10"
+    ],
+    [
+     "VTO1201G-P",
+     "1.00"
+    ],
+    [
+     "VTO1201G-P",
+     "1.10"
+    ],
+    [
+     "VTO3211D-P-S2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTOXXXXD-G-data_MultiLang_Eng_PN_128M_SIP_PART_V4.500.0000009.0.R.20210527.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 4683960,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "cb8e8c01f130e897",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "43020265b8c742c3282d5eabaac0f7b6af9cadd0aa2d17f5209394e30a620494"
+}

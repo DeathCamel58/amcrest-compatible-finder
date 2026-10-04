@@ -1,0 +1,41 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2013-01-14",
+    "latest": "2013-01-14"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2013-01-14",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "DHVision_General_DVRxx04L(H)E-SL(AX)(DVR3116E)_Eng_N_FirstOption_V2.608.0000.0.R.20130105_user-x.cramfs.img",
+     "image_name": "user",
+     "image_size": 5885952,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "dc9575eb84041df8",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f2befa4f40dd9c3726e24884f2d042579f53b9df8948d6fcce68c02acef5a568"
+}

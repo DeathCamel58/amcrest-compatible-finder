@@ -1,0 +1,105 @@
+{
+ "id": "8837fd74c3e3266c",
+ "partitions": [
+  {
+   "backup_start": "0x100000",
+   "end": "0x300000",
+   "name": "U-Boot",
+   "size": 1048576,
+   "start": "0x200000"
+  },
+  {
+   "end": "0x400000",
+   "name": "hwid",
+   "size": 1048576,
+   "start": "0x300000"
+  },
+  {
+   "end": "0x500000",
+   "name": "updateflag",
+   "size": 1048576,
+   "start": "0x400000"
+  },
+  {
+   "backup_start": "0x4300000",
+   "end": "0x600000",
+   "name": "partition",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x500000"
+  },
+  {
+   "backup_start": "0x4400000",
+   "end": "0x780000",
+   "name": "custom",
+   "read_only": true,
+   "size": 1572864,
+   "start": "0x600000"
+  },
+  {
+   "backup_start": "0x4580000",
+   "end": "0x880000",
+   "name": "product",
+   "read_only": true,
+   "size": 1048576,
+   "start": "0x780000"
+  },
+  {
+   "backup_start": "0x4680000",
+   "end": "0xd80000",
+   "name": "Kernel",
+   "size": 5242880,
+   "start": "0x880000"
+  },
+  {
+   "backup_start": "0x4b80000",
+   "end": "0x1780000",
+   "name": "web",
+   "read_only": true,
+   "size": 10485760,
+   "start": "0xd80000"
+  },
+  {
+   "backup_start": "0x5580000",
+   "end": "0x3200000",
+   "name": "romfs",
+   "read_only": true,
+   "size": 27787264,
+   "start": "0x1780000"
+  },
+  {
+   "end": "0x4300000",
+   "name": "ext",
+   "read_only": true,
+   "size": 17825792,
+   "start": "0x3200000"
+  },
+  {
+   "end": "0x7400000",
+   "name": "syslog",
+   "read_only": false,
+   "size": 4194304,
+   "start": "0x7000000"
+  },
+  {
+   "end": "0x7a00000",
+   "name": "config",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x7400000"
+  },
+  {
+   "end": "0x8000000",
+   "name": "backup",
+   "read_only": false,
+   "size": 6291456,
+   "start": "0x7a00000"
+  },
+  {
+   "end": "0x28000000",
+   "name": "fpga",
+   "size": 134217728,
+   "start": "0x20000000"
+  }
+ ]
+}

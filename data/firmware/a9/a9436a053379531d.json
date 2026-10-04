@@ -1,0 +1,119 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "CVR_Firmware_Type1A_20171018.bin",
+   "ids": [
+    "DVRxx04HD-X",
+    "General_N6",
+    "General",
+    "OEM_TYPE"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": "U-Boot 1.3.1",
+   "build_dates": {
+    "earliest": "2017-10-18",
+    "latest": "2017-10-18"
+   },
+   "firmware": "CVR_Firmware_Type1A_20171018.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N6",
+    "General",
+    "OEM_TYPE"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-10-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "N6II",
+     "image_size": 204380,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 17633280,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 1810432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 102400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-18",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "N6II",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "6e7dc8cf754df3dd",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "a9436a053379531d7fd2682abcb6e0705a652f9ba5161f7efd7a117566ee3de1"
+}

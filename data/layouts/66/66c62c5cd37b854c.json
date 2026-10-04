@@ -1,0 +1,41 @@
+{
+ "id": "66c62c5cd37b854c",
+ "partitions": [
+  {
+   "end": "0x700000",
+   "name": "dtb",
+   "size": 1048576,
+   "start": "0x600000"
+  },
+  {
+   "end": "0x1500000",
+   "name": "data",
+   "size": 8388608,
+   "start": "0xd00000"
+  },
+  {
+   "end": "0x1600000",
+   "name": "pd",
+   "size": 1048576,
+   "start": "0x1500000"
+  },
+  {
+   "end": "0x1c00000",
+   "name": "kernel",
+   "size": 6291456,
+   "start": "0x1600000"
+  },
+  {
+   "end": "0x3800000",
+   "name": "rootfs",
+   "size": 29360128,
+   "start": "0x1c00000"
+  },
+  {
+   "end": "0x3e00000",
+   "name": "web",
+   "size": 6291456,
+   "start": "0x3800000"
+  }
+ ]
+}

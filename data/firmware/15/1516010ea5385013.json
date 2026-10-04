@@ -1,0 +1,184 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TPC-AEBF5X01-TB_Eng_PN_V2.632.0000000.6.R.250719.bin",
+   "ids": [
+    "TPC-AEBF5201-TB"
+   ],
+   "member": "hwid",
+   "raw": [
+    "TPC-AEBF5201-TB:01:08:E1:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TPC-AEBF5X01-TB_Eng_PN_V2.632.0000000.6.R.250719.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-AEBF5X01-TB_Eng_PN_V2.632.0000000.6.R.250719.bin",
+   "ids": [
+    "TPC-AEBF5201-TB"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2025-07-19",
+    "latest": "2025-07-19"
+   },
+   "firmware": "DH_TPC-AEBF5X01-TB_Eng_PN_V2.632.0000000.6.R.250719.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "ubl",
+     "image_size": 80096,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "uboot",
+     "image_size": 190832,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "partition.img",
+     "image_name": "partition",
+     "image_size": 6344,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "pd-x.jffs2.img",
+     "image_name": "pd",
+     "image_size": 264376,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 6892716,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "user-x.jffs2.img",
+     "image_name": "user",
+     "image_size": 1509560,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel_aol.img",
+     "image_name": "kernel",
+     "image_size": 2374312,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2025-07-19",
+     "compression": "none",
+     "filesystem": "jffs2",
+     "image": "web-x.jffs2.img",
+     "image_name": "web",
+     "image_size": 8194232,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "68b8d12090b2d1db",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V2.2"
+    },
+    "encrypted": null,
+    "security_baseline": "V2.2",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "hi3516ev300"
+     }
+    ],
+    "name": "Hi3516EV300",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "1516010ea53850133e537a24468149d90b38f9b977b42debec579a2d4c8593f2"
+}

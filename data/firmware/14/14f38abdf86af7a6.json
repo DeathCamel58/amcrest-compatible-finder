@@ -1,0 +1,144 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "TS-IS5500-24GT4GF-DPWR",
+    "TS-IS5500-16GT4GF-DPWR",
+    "TS-IS5500-2GT2GF-DPWR",
+    "TS-IS5500-5GT2GF-DPWR",
+    "TS-IS5500-8GT2GF-DPWR",
+    "TS-IS5500-6GT4GF-DPWR",
+    "TS-IS5500-6GT4GF",
+    "TS-IS5500-8GT2GF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "TS-IS5500-24GT4GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-16GT4GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-2GT2GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-5GT2GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-8GT2GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-6GT4GF-DPWR",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-6GT4GF",
+     "1.10"
+    ],
+    [
+     "TS-IS5500-8GT2GF",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "TS-IS5500-2GT2GF-DPWR",
+    "TS-IS5500-5GT2GF-DPWR",
+    "TS-IS5500-6GT4GF-DPWR",
+    "TS-IS5500-6GT4GF",
+    "TS-IS5500-8GT2GF-DPWR",
+    "TS-IS5500-8GT2GF",
+    "TS-IS5500-16GT4GF-DPWR"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-IS5500-2GT2GF-DPWR:02:04:02:02:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-5GT2GF-DPWR:02:04:02:03:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-6GT4GF-DPWR:02:04:02:05:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-6GT4GF:02:04:02:10:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-8GT2GF-DPWR:02:04:02:04:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-8GT2GF:02:04:02:0F:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00",
+    "TS-IS5500-16GT4GF-DPWR:02:04:02:01:500:00:00:00:00:00:00:00:00:00:00:00:00:00:01:00:00"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "mips",
+   "bootloader_version": "U-Boot 2011.12.",
+   "build_dates": {
+    "earliest": "2023-12-29",
+    "latest": "2023-12-29"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2023-12-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "boot.bin.img",
+     "image_name": "boot",
+     "image_size": 803636,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs.bin.img",
+     "image_name": "firmware",
+     "image_size": 12695224,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2023-12-29",
+     "compression": "none",
+     "filesystem": null,
+     "image": "krootfs_backup.bin.img",
+     "image_name": "firmware",
+     "image_size": 12695224,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e93c8778017a0515",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000000.21.R.231229"
+  }
+ ],
+ "sha256": "14f38abdf86af7a6b6b04232437408ee82af124618281d9a92111a074eb416bd"
+}
