@@ -28,6 +28,8 @@ PERMANENT_HTTP_STATUSES = {403, 404, 410}
 SLOW_ATTEMPTS_BEFORE_WAYBACK = 2
 # A slow download that's still making progress resumes this many times without using up its attempts
 MAX_SLOW_RESUMES = 50
+# A .part file left by an earlier run is resumed if it was written within this many seconds
+RESUME_PART_MAX_AGE = 2 * 24 * 3600
 # Minimum download rates (bytes/s) for servers that are slow but steady; others use the default in util.http.
 # Eltrox sends 35-45 KB/s per connection, just under the default, so every download was aborted as too slow
 MIN_RATE_BY_HOST = {'ftp.eltrox.pl': 10_000, 'ftp.cifra.cv.ua': 4_000}
@@ -286,8 +288,9 @@ def _note_mega_quota(err, url):
 
 
 def _download_to(url, file_name, part_name, downloader):
-    # Only attempts of this call resume a .part; one left by an earlier run may be of an older version of the file
-    if os.path.exists(part_name):
+    # A .part left by a recent run (e.g. one restarted mid-download) is resumed; an older one may be of a version of
+    # the file the server has since replaced, so it starts over
+    if os.path.exists(part_name) and time.time() - os.path.getmtime(part_name) > RESUME_PART_MAX_AGE:
         os.remove(part_name)
     empty_responses = 0
     slow_attempts = 0
@@ -324,6 +327,13 @@ def _download_to(url, file_name, part_name, downloader):
                 print(f'\tFile name too long, not retrying: {err}')
                 break
             print(f'\tAn error occurred (attempt {attempt}/{DOWNLOAD_ATTEMPTS}): {err}')
+            # A dropped connection on a big file (requests' errors are OSErrors): carry on from where it got to
+            # without using up an attempt
+            if os.path.exists(part_name) and os.path.getsize(part_name) > progress and slow_resumes < MAX_SLOW_RESUMES:
+                slow_resumes += 1
+                attempt -= 1
+                time.sleep(10)
+                continue
             if attempt < DOWNLOAD_ATTEMPTS:
                 time.sleep(10 * attempt)
         except Exception as err:
@@ -335,6 +345,13 @@ def _download_to(url, file_name, part_name, downloader):
                 break
             if _mega_quota_exceeded.is_set() and is_mega(url):
                 break
+            # A dropped connection on a big file: carry on from where it got to without using up an attempt
+            if (not isinstance(err, http.SlowDownloadError) and os.path.exists(part_name)
+                    and os.path.getsize(part_name) > progress and slow_resumes < MAX_SLOW_RESUMES):
+                slow_resumes += 1
+                attempt -= 1
+                time.sleep(10)
+                continue
             if isinstance(err, http.SlowDownloadError):
                 slow_attempts += 1
                 if slow_attempts >= SLOW_ATTEMPTS_BEFORE_WAYBACK and not wayback_tried:

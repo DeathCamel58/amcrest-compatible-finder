@@ -1,5 +1,6 @@
 import json
 import os
+import time
 import threading
 
 import pytest
@@ -287,6 +288,8 @@ def test_retry_starts_over_when_server_ignores_range(tmp_path, monkeypatch):
 def test_stale_part_from_an_earlier_run_is_not_resumed(tmp_path, monkeypatch):
     from util import download_firmware as dl
     (tmp_path / "f.bin.part").write_bytes(b"old data")
+    old = time.time() - dl.RESUME_PART_MAX_AGE - 60
+    os.utime(tmp_path / "f.bin.part", (old, old))
     calls = []
 
     def downloader(url, part_name):
@@ -402,3 +405,21 @@ def test_per_host_minimum_rate(monkeypatch, tmp_path):
     monkeypatch.setattr(dl.http, "iter_content_with_min_rate", fake_min_rate)
     dl._http_download("https://ftp.eltrox.pl/a.bin", str(tmp_path / "a.part"))
     assert seen["rate"] == dl.MIN_RATE_BY_HOST["ftp.eltrox.pl"]
+
+
+def test_recent_part_and_dropped_connections_keep_progress(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    monkeypatch.setattr(dl.time, "sleep", lambda s: None)
+    (tmp_path / "f.bin.part").write_bytes(b"x" * 10)  # left by a run that was restarted a moment ago
+    calls = []
+
+    def flaky(url, part_name):
+        calls.append(os.path.getsize(part_name))
+        with open(part_name, "ab") as f:
+            f.write(b"x" * 10)
+        if len(calls) < 7:
+            raise ConnectionError("Connection broken: IncompleteRead")
+
+    target = str(tmp_path / "f.bin")
+    assert dl._download_to("https://big.example/f.bin", target, target + ".part", flaky) == target
+    assert calls == [10, 20, 30, 40, 50, 60, 70]
