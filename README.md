@@ -23,6 +23,12 @@ pre-commit hook once per clone: `git config core.hooksPath scripts/hooks`
 
 See `docs/` for example output and the field reference.
 
+### Firmware we're still looking for
+`wanted.json` lists firmware we've seen referenced (in datasets, forums, release notes, other vendors' listings) but
+don't have yet. Every enrich run marks entries found once they're downloaded. Add a reference with
+`python -m util.wanted add --name <file name> --source "<where it was seen>" [--url <link>]` (or `--version <version>
+--model <model>` when only the version is known), and see what's missing with `python -m util.wanted status`.
+
 Every downloaded firmware is also uploaded to the Internet Archive (needs `ia configure` once).
 
 ### Running some stages only

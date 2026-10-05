@@ -259,6 +259,13 @@ storing each once keeps the data small. A package with no partition table has `"
 - Use `hardware.models` and `hardware.boards` for search; `hardware.hwids` only identify a board, and
   `hardware.ignored` aren't models at all.
 
+## `wanted.json`: firmware known to exist that we don't have
+
+Keyed by `name:<file name without extension, copy-number prefix or case>` or `version:<version>[@models]`. Each entry
+has `name` or `version` (+ `models`), `references` (`source`, `url`, `note`, `noted` date: where it was seen) and
+`found` (`{file, date}` once downloaded, else `null`). Useful for a "help us find these" page: anyone who has one of
+the missing files can contribute it.
+
 ## Suggested site model
 
 1. **Firmware pages**: one per key that has no `duplicate_of`, combining both files and the listings of its

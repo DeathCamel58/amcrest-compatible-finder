@@ -68,6 +68,7 @@ from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
 from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
                                       process_firmware_threaded)
+from util.wanted import refresh_file as refresh_wanted
 from util.analysis_store import join_result, remove_unreferenced, split_result, write_detail
 from util.json_tools import (CAMERAS_JSON, JsonFileLock, get_cameras_json, save_cameras_json, get_firmware_json,
                              save_firmware_json, json_lock)
@@ -960,6 +961,10 @@ def enrich_firmwares():
         save_cameras_json(cameras_json)
     print(f'Found {duplicates} firmwares that are identical to another file')
     print(f'Found {truncated} truncated firmwares')
+    # Firmware we know exists but haven't got (wanted.json): mark what's been downloaded since
+    wanted = refresh_wanted(get_cameras_json())
+    if wanted:
+        print(f'Wanted firmwares: {wanted[0]} found this run, {wanted[1]} still missing (python -m util.wanted status)')
 
 
 def mirror_duplicate_results():
