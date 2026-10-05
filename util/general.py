@@ -18,7 +18,8 @@ def normalize_firmware_url(url):
         bucket, _, key = url[len("s3://"):].partition("/")
         # A "+" in a raw S3 key is literal, but S3 reads "+" in an https path as a space
         return f"https://{bucket}.s3.amazonaws.com/{key.replace('+', '%2B')}"
-    if not url.startswith(("http://", "https://")):
+    # ftp:// only from modules that download it themselves (brands/Winco.py)
+    if not url.startswith(("http://", "https://", "ftp://")):
         return None
 
     return url

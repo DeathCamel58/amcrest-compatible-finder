@@ -23,7 +23,7 @@ def test_merge_unique_text_custom_ignored():
     ("N/A", None),
     ("", None),
     (None, None),
-    ("ftp://example.com/a.bin", None),
+    ("ftp://example.com/a.bin", "ftp://example.com/a.bin"),
     ("  https://example.com/a+b.bin  ", "https://example.com/a+b.bin"),
     ("http://example.com/a.bin", "http://example.com/a.bin"),
 ])

@@ -46,13 +46,16 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
 `python main.py --help` lists every stage and option.
 
 ## OEM Support
- - [X] Dahua (dahuawiki.com and the official download center API across all regional sites)
+ - [X] Dahua (dahuawiki.com, the official download center API across all regional sites, the China support portal's
+   Chinese-language builds, and files the old dahuasecurity.com product pages linked)
 
 ### Mirrors and archives
  - [ ] archive.cop-eu.com - **NOTE:** Gone
  - [X] ASM (ftp.asm.cz) - Czech Dahua distributor's file server (cameras, recorders, intercoms, access control)
+ - [X] BITS (bits.com.ec) - Ecuadorian distributor's downloads page (its XiongMai builds are skipped)
  - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
  - [X] Dahua France (france.dahuatech.com) - Dahua France's document centre: about 300 firmwares from 2015-2021 with MD5s and release notes
+ - [X] Dahua India builds (indiafix.in) - Google Drive links to IndiaDahua_ recorder builds
  - [ ] drivers.softpedia.com - **NOTE:** Mirrors many Dahua recorder firmwares, but returns 403 to scripts
  - [X] Eltrox (ftp.eltrox.pl) - Polish distributor's file server, including the Kenik, EasyCam, Notis, Zeus, Irbis and
    Konig rebrands. Crawled slowly and cached, since it rate limits
@@ -60,18 +63,28 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [X] files.dahuatech.support - Dahua support file server
  - [ ] ftp.tdtorus.ru - **NOTE:** Gone
  - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net
+ - [X] Global DS (Hungary) - distributor's public Google Drive folder, mostly CEE/Nordic intercom builds
  - [ ] i.botox.bz - **NOTE:** Gone
+ - [X] ip-phone-forum.de - a thread collecting Dahua VTO/VTH firmware, on MediaFire
+ - [X] ipcamtalk - a MediaFire folder and a Dropbox folder shared on the forum
  - [ ] pliki.dahuawiki.pl - **NOTE:** Same tree as files.dahua.support
  - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
+ - [X] Santronic (service.santronic.ch) - Swiss distributor's firmware page
  - [ ] secpoint.it - **NOTE:** Open index of Dahua NVR, XVR and intercom firmware, but Cloudflare blocks scripted access (try from an EU IP)
  - [ ] share.dahuasecurity.com - **NOTE:** Gone
  - [ ] share.dahuaservice.it (Dahua Italy) - **NOTE:** Returns HTTP 500 (checked 2026-10-05); forum posts link intercom firmware there
  - [ ] smartsd.com - **NOTE:** Gone
  - [X] SNR (snr.systems) - Russian distributor's file server: Dahua recorders, cameras and intercoms from 2015-2018
  - [ ] support.dahuafrance.fr - **NOTE:** Gone (france.dahuatech.com is covered)
+ - [X] Sveistrup (sveistrup.dk) - Danish distributor's firmware pages (about a fifth of its links are dead)
+ - [X] TVC Mexico (soporte.tvc.mx) - listed from its forum's download page; the server has been down since
+   2026-10-05, so only Wayback copies download
  - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
+ - [ ] Vidimost (vidimost.com) - **NOTE:** Ukrainian distributor with about 240 firmware pages, but downloads need a
+   registered account; its public Wayback captures could be used
  - [X] Wayback Machine - recovers firmwares from dahuawiki, Dahua's file storage, Amcrest, Lorex, Rhino and others
    that are no longer served anywhere else
+ - [X] Winco (ftp.winco.com.hk) - Hong Kong distributor's anonymous FTP
 
 ### Current
  - [ ] 2M CCTV - **NOTE:** Now Hikvision-based; downloads are apps/tools only
@@ -114,6 +127,7 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [X] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware. This currently uses the PDFs that I've found on their website
  - [ ] Luma - **NOTE:** Hikvision firmware, not Dahua
  - [ ] Lumixen - **NOTE:** Domain parked
+ - [X] Lupus Electronics - German Dahua OEM (cameras and recorders)
  - [ ] Maxron - **NOTE:** Domain parked
  - [X] Montavue - Classic line only (Nexus is not Dahua)
  - [ ] Oco - **NOTE:** Cloud cameras; support by email only

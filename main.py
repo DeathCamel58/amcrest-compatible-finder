@@ -52,6 +52,19 @@ from brands import Viatec
 from brands import Cifra
 from brands import DahuaFrance
 from brands import SNRSystems
+from brands import DahuaAssetUpload
+from brands import DahuaChina
+from brands import GlobalDS
+from brands import Lupus
+from brands import IndiaFix
+from brands import IPPhoneForum
+from brands import MediaFireFolder
+from brands import Sveistrup
+from brands import BitsEcuador
+from brands import Santronic
+from brands import Winco
+from brands import IPCamTalkDropbox
+from brands import TVCMexico
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -112,6 +125,19 @@ oem_modules = [
     Cifra,
     DahuaFrance,
     SNRSystems,
+    DahuaAssetUpload,
+    DahuaChina,
+    GlobalDS,
+    Lupus,
+    IndiaFix,
+    IPPhoneForum,
+    MediaFireFolder,
+    Sveistrup,
+    BitsEcuador,
+    Santronic,
+    Winco,
+    IPCamTalkDropbox,
+    TVCMexico,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]

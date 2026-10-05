@@ -40,6 +40,8 @@ SOURCES = [
     ("files.dahuatech.support/Firmwares/", "Dahua", True),
     # Dahua's older sites' upload folders, for firmware removed from the current download center
     ("www.dahuasecurity.com/asset/upload/", "Dahua", True),
+    # Lupus Electronics (a German Dahua OEM): builds removed from its downloads page
+    ("www.lupus-electronics.de/shop/documents/", "Lupus Electronics", True),
     ("us.dahuasecurity.com/wp-content/uploads/", "Dahua", True),
     ("www.dahuatech.com/upload/", "Dahua", True),
     ("www1.dahuatech.com/File/", "Dahua", True),

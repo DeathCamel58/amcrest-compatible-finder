@@ -238,3 +238,15 @@ def test_dahua_france_page():
     assert files[1][2] is None and files[1][3] is None
     assert DahuaFrance.get_model("DH_HCVR5x04-S2_Eng_P_V3.200.0004.13.R.20171021.bin") == "HCVR5x04-S2"
     assert DahuaFrance.get_model("DH_ASI72XXX_FrnEng_NP_V1.000.9999003.0.R.201126.bin") == "ASI72XXX"
+
+
+def test_dahua_asset_upload_filters_and_known_urls(monkeypatch):
+    from brands import DahuaAssetUpload as m
+    monkeypatch.setattr(m, "wayback_urls", lambda: [
+        "https://www.dahuasecurity.com/asset/upload/uploads/soft/20190227/DH_IC-A5051MU545_V1.000.0000.0.R.20180921.zip",
+        "https://www.dahuasecurity.com/asset/upload/uploads/soft/20190227/datasheet.pdf"])
+    firmwares = m.get_firmwares()
+    names = [f["firmware_latest"].rsplit("/", 1)[-1] for f in firmwares]
+    assert "datasheet.pdf" not in names
+    assert "DH_IC-A5051MU545_V1.000.0000.0.R.20180921.zip" in names
+    assert len(firmwares) >= 50
