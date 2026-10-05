@@ -32,7 +32,7 @@ MAX_SLOW_RESUMES = 50
 RESUME_PART_MAX_AGE = 2 * 24 * 3600
 # Minimum download rates (bytes/s) for servers that are slow but steady; others use the default in util.http.
 # Eltrox sends 35-45 KB/s per connection, just under the default, so every download was aborted as too slow
-MIN_RATE_BY_HOST = {'ftp.eltrox.pl': 10_000, 'ftp.cifra.cv.ua': 4_000}
+MIN_RATE_BY_HOST = {'ftp.eltrox.pl': 10_000, 'ftp.cifra.cv.ua': 4_000, 'snr.systems': 8_000}
 # A dead URL's Wayback copy is looked for again after this many days
 WAYBACK_RECHECK_DAYS = 30
 # Servers that throttle us to a few KB/s: their files are fetched from the Wayback Machine's copy first, when it has

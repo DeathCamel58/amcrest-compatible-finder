@@ -51,6 +51,7 @@ from brands import Eltrox
 from brands import Viatec
 from brands import Cifra
 from brands import DahuaFrance
+from brands import SNRSystems
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -109,6 +110,7 @@ oem_modules = [
     Viatec,
     Cifra,
     DahuaFrance,
+    SNRSystems,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]
@@ -646,6 +648,7 @@ HOST_CAPS = {
     'ftp.viatec.ua': 4,
     'files.dahua.support': 3,
     'ftp.asm.cz': 4,
+    'snr.systems': 3,
     # Throttles each connection to about 40 KB/s; it blocked us for fast listing, not for a few downloads
     'ftp.eltrox.pl': 3,
 }

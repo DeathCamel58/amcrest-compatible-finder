@@ -51,6 +51,7 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
    Konig rebrands. Crawled slowly and cached, since it rate limits
  - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
  - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
+ - [X] SNR (snr.systems) - Russian distributor's file server: Dahua recorders, cameras and intercoms from 2015-2018
  - [X] Wayback Machine - recovers firmwares from dahuawiki, Dahua's file storage, Amcrest, Lorex, Rhino and others
    that are no longer served anywhere else
  - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net
