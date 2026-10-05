@@ -1,0 +1,143 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "SD6XXX",
+    "HF3210-F",
+    "HF3211-F",
+    "HF321X-F",
+    "SD65XX-HN",
+    "IPC-F728WP",
+    "IPC-HF3110",
+    "IPC-HF3300",
+    "IPC-HX3XXX",
+    "IPC-HDB3110",
+    "IPC-HFW3110",
+    "IPC-HDB3200C",
+    "IPC-HDBW3110",
+    "IPC-HDBW3300P"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "HF3210-F",
+     "1.00"
+    ],
+    [
+     "HF3211-F",
+     "1.00"
+    ],
+    [
+     "HF321X-F",
+     "1.00"
+    ],
+    [
+     "SD65XX-HN",
+     "1.00"
+    ],
+    [
+     "IPC-F728WP",
+     "1.00"
+    ],
+    [
+     "IPC-HF3110",
+     "1.00"
+    ],
+    [
+     "IPC-HF3110",
+     "1.20"
+    ],
+    [
+     "IPC-HF3300",
+     "1.00"
+    ],
+    [
+     "IPC-HF3300",
+     "1.10"
+    ],
+    [
+     "IPC-HF3300",
+     "1.20"
+    ],
+    [
+     "IPC-HF3300",
+     "1.30"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HDB3110",
+     "1.10"
+    ],
+    [
+     "IPC-HFW3110",
+     "1.10"
+    ],
+    [
+     "IPC-HDB3200C",
+     "1.40"
+    ],
+    [
+     "IPC-HDBW3110",
+     "1.00"
+    ],
+    [
+     "IPC-HDBW3300P",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-01-11",
+    "latest": "2016-01-11"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "Russian",
+    "supported_languages": null,
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2016-01-11",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "custom",
+     "image_size": 81920,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5f7ec8214cb144cb",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "0095c2d95607d2aba038763a5927bafd18338cc37fa3ce40fd14afa1eae256ae"
+}
