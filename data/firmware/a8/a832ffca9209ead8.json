@@ -1,0 +1,120 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR4x04-V2",
+    "General_XVR4x04-V2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2017.09-svn5578",
+   "build_dates": {
+    "earliest": "2022-01-13",
+    "latest": "2022-01-13"
+   },
+   "firmware": null,
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR4x04-V2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2022-01-13",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "mc6630",
+     "image_size": 349569,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "mc6630",
+     "image_size": 13713408,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1703936,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-13",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2022-01-13",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "ef346bcb3ed8ec53",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "mc6630"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "mc6630"
+     }
+    ],
+    "name": "MC6630",
+    "vendor": "Molchip"
+   }
+  }
+ ],
+ "sha256": "a832ffca9209ead8d6beaef4071f90a0d2c1aecd1351a7c9a4033f2914716a7f"
+}

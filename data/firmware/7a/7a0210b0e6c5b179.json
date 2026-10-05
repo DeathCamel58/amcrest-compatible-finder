@@ -1,0 +1,179 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR2X-S3",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-11-26",
+    "latest": "2021-11-26"
+   },
+   "firmware": null,
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR2X-S3",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 221448,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 36749312,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "minios-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 9125888,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-11-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "NVR2XXX-S3H",
+     "image_size": 32768,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "c1769efa4eb29e28",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": "V1.4",
+    "signed": true,
+    "upgrade_security_version": "2.10"
+   },
+   "soc": null,
+   "unmapped_images": [
+    "web-x.squashfs.img"
+   ]
+  }
+ ],
+ "sha256": "7a0210b0e6c5b1794d5700dce35ae84e87a006d07a15d73728c5f5e43a572c23"
+}

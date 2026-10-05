@@ -1,0 +1,185 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR4x08-T-I3-V2",
+    "General_XVR4x08-I3-V2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2019.04-svn9814",
+   "build_dates": {
+    "earliest": "2026-03-04",
+    "latest": "2026-03-04"
+   },
+   "firmware": null,
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR4x08-I3-V2"
+   ],
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "fdt.bin.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 65286,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 881296,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "64MFW98331Tromfs",
+     "image_size": 34619392,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 5791744,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "64MFW98331Tboot",
+     "image_size": 5083136,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0825c7d1ea6e15bc",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "2.00"
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "novatek,na51103"
+     },
+     {
+      "member": "fdt.bin.img",
+      "source": "device_tree",
+      "value": "Novatek NA51103"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "FW98331"
+     }
+    ],
+    "name": "NT98331",
+    "vendor": "Novatek"
+   }
+  }
+ ],
+ "sha256": "b9965120330ae3bd65b4eae1073f552ebc6f7f078648a435b6d38c95b18f59a2"
+}

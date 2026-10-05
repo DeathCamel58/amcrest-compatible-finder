@@ -1,0 +1,275 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "hwid",
+   "raw": [
+    "VTO6521F-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6531F-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6521H-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6531H-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6541H-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6531H-SH-V1:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6533H:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:00:00:06:00:01:00:01:400:FF",
+    "VTO6521K-S2:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF",
+    "VTO6521H-D-V1:01:04:01:B4:4B:00:01:10:01:01:00:4B0:00:00:00:06:00:00:00:01:400:FF"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6521F-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531F-V1",
+     "1.00"
+    ],
+    [
+     "VTO6521H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6541H-V1",
+     "1.00"
+    ],
+    [
+     "VTO6531H-SH-V1",
+     "1.00"
+    ],
+    [
+     "VTO6533H",
+     "1.00"
+    ],
+    [
+     "VTO6521K-S2",
+     "1.00"
+    ],
+    [
+     "VTO6521H-D-V1",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO6521F-V1",
+    "VTO6531F-V1",
+    "VTO6521H-V1",
+    "VTO6531H-V1",
+    "VTO6541H-V1",
+    "VTO6531H-SH-V1",
+    "VTO6533H",
+    "VTO6521K-S2",
+    "VTO6521H-D-V1"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2024-11-22",
+    "latest": "2024-11-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "BritishEnglish",
+     "Italian",
+     "Spanish",
+     "Russian",
+     "French",
+     "German",
+     "Portuguese",
+     "Turkey",
+     "Dutch",
+     "Ukrainian",
+     "Arabic",
+     "SpanishEU",
+     "PortugalBR",
+     "Polish",
+     "Romanian",
+     "Hungarian",
+     "Finnish",
+     "Dansk",
+     "Czechish",
+     "Bulgaria",
+     "Slovakian",
+     "Slovenia",
+     "Greek",
+     "Serbian",
+     "Lithuanian",
+     "Latvian",
+     "Hebrew",
+     "TradChinese",
+     "TradChinese2",
+     "Japanese",
+     "Korean",
+     "Vietnamese",
+     "Thai",
+     "Kazakh"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2024-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 270120,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 221336,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 318924,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "logo.bin.img",
+     "image_name": "logo",
+     "image_size": 420404,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 11667640,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 137400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 5080128,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 33351864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 29407416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2024-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 100853944,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "1540e2ab4d4df0d0",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.800.0000000.0.R.241122"
+  }
+ ],
+ "sha256": "b5c98a4c692eea96e1fed740996e5e65cd9d04f16ffe8b0e357f4b356351a4d6"
+}

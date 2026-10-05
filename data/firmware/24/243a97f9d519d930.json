@@ -1,0 +1,178 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASI7213Y-V3",
+    "ASI7214Y-V3",
+    "ASI7223Y-A-V3",
+    "ASI4214Y",
+    "ASI4213Y",
+    "ASI4213Y-ZSH",
+    "ASI3203Y",
+    "ASI7213Y-V3-S-HD",
+    "ASI7213Y-C-V3",
+    "ASI7214Y-C-V3",
+    "ASI7213YO-V3",
+    "ASI7214YO-V3",
+    "ASI7223YO-A-V3",
+    "ASI7213Y-V3-T",
+    "ASI4213YO-V3",
+    "ASI4223YO-A-V3",
+    "ASI7213YO-V3-T1",
+    "ASI7223YO-A-V3-T1",
+    "ASI7213Y-V3-T1",
+    "ASI7223Y-A-V3-T1",
+    "ASI3203YO-A-V3",
+    "ASI7213Y-V3-T0",
+    "ASI7213YO-V3-T0"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASI7213Y-V3",
+     "1.00"
+    ],
+    [
+     "ASI7214Y-V3",
+     "1.00"
+    ],
+    [
+     "ASI7223Y-A-V3",
+     "1.00"
+    ],
+    [
+     "ASI4214Y",
+     "1.00"
+    ],
+    [
+     "ASI4213Y",
+     "1.00"
+    ],
+    [
+     "ASI4213Y-ZSH",
+     "1.00"
+    ],
+    [
+     "ASI3203Y",
+     "1.00"
+    ],
+    [
+     "ASI7213Y-V3-S-HD",
+     "1.00"
+    ],
+    [
+     "ASI7213Y-C-V3",
+     "1.00"
+    ],
+    [
+     "ASI7214Y-C-V3",
+     "1.00"
+    ],
+    [
+     "ASI7213YO-V3",
+     "1.00"
+    ],
+    [
+     "ASI7214YO-V3",
+     "1.00"
+    ],
+    [
+     "ASI7223YO-A-V3",
+     "1.00"
+    ],
+    [
+     "ASI7213Y-V3-T",
+     "1.00"
+    ],
+    [
+     "ASI4213YO-V3",
+     "1.00"
+    ],
+    [
+     "ASI4223YO-A-V3",
+     "1.00"
+    ],
+    [
+     "ASI7213YO-V3-T1",
+     "1.00"
+    ],
+    [
+     "ASI7223YO-A-V3-T1",
+     "1.00"
+    ],
+    [
+     "ASI7213Y-V3-T1",
+     "1.00"
+    ],
+    [
+     "ASI7223Y-A-V3-T1",
+     "1.00"
+    ],
+    [
+     "ASI3203YO-A-V3",
+     "1.00"
+    ],
+    [
+     "ASI7213Y-V3-T0",
+     "1.00"
+    ],
+    [
+     "ASI7213YO-V3-T0",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-09-03",
+    "latest": "2020-09-03"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 32127160,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2020-09-03",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 4421816,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "24a1fb253fd3adcc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "243a97f9d519d9308703cb4a10e3ad60daf4ec17130638cfd78adf21645f9005"
+}

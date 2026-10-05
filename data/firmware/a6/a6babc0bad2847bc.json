@@ -1,0 +1,234 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "IndiaDahua_XVR4x08-I_Eng_P_128M_V4.001.001E000.2.R.210918.bin",
+   "ids": [
+    "XVR4x08-I",
+    "General_XVR4x08-I"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-09-18",
+    "latest": "2021-09-18"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "SSR920",
+     "image_size": 277976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6660096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d02729e6be0438e5",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-09-18",
+    "latest": "2021-09-18"
+   },
+   "firmware": "IndiaDahua_XVR4x08-I_Eng_P_128M_V4.001.001E000.2.R.210918.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR4x08-I"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "GCIS.bin.img",
+     "image_name": "SSR920",
+     "image_size": 24064,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "SSR920",
+     "image_size": 277976,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "SSR920",
+     "image_size": 3707772,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "SSR920",
+     "image_size": 34414592,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6660096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-09-18",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1851392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "f481269233e84ef3",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "IPL.bin.img",
+    "IPL_CUST.bin.img"
+   ]
+  }
+ ],
+ "sha256": "a6babc0bad2847bcd2f465dc2381c83be52ed4b4cce6fc38ae9f7120bd9a0870"
+}
