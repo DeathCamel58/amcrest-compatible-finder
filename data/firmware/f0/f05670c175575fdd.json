@@ -1,0 +1,101 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_General_AHB7004T-MH-V2_V4.03.R11.7601.Nat.OnvifC.20181122.bin",
+   "ids": [
+    "linux"
+   ],
+   "member": "u-boot.bin.img",
+   "source": "uboot"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-11-22",
+    "latest": "2018-11-22"
+   },
+   "firmware": "General_General_AHB7004T-MH-V2_V4.03.R11.7601.Nat.OnvifC.20181122.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 129580,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 3313664,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 5197824,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1409024,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2748416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2018-11-22",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "bb5884065bd5aa95",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f05670c175575fdd8d3f4bfebec79ae14ea3e090cd103f774da2c60ecc318aaa"
+}

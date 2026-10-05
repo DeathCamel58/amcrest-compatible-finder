@@ -1,0 +1,149 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_NVR4XXX-4KS2L-Custom_RTSP_001W0-221115_PART_V4.002.0000002.0.R.230105.bin",
+   "ids": [
+    "NVR4X-4KS2/L",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_NVR4XXX-4KS2L-Custom_RTSP_001W0-221115_PART_V4.002.0000002.0.R.230105.bin",
+   "flash_size": 134217728,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0eaca6e44e5bfb5c",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "3.00"
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "7f44dcd51629e54f598a0c570e1e4aa4d01ab88aa051d2f5ee74b87bd41ee73b"
+}

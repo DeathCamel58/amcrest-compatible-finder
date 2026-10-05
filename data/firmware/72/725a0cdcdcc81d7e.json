@@ -1,0 +1,188 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_NVR5XXX-EI-Custom_MultiLang_RTSP_1BT00-230620_PART_V4.000.000000G.0.R.230720.bin",
+   "ids": [
+    "NVR5X-4KS3"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_NVR5XXX-EI-Custom_MultiLang_RTSP_1BT00-230620_PART_V4.000.000000G.0.R.230720.bin",
+   "flash_size": 688805380096,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "091358453bd3536f",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": "2.00"
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "725a0cdcdcc81d7e366df4d4585254270ca07a9fdd3f6f77463b95b0ced109a6"
+}

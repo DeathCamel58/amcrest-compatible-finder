@@ -1,0 +1,41 @@
+{
+ "id": "bb5884065bd5aa95",
+ "partitions": [
+  {
+   "end": "0x3f800",
+   "name": "u-boot",
+   "size": 260096,
+   "start": "0x0"
+  },
+  {
+   "end": "0x430000",
+   "name": "romfs",
+   "size": 4063232,
+   "start": "0x50000"
+  },
+  {
+   "end": "0xb20000",
+   "name": "user",
+   "size": 7274496,
+   "start": "0x430000"
+  },
+  {
+   "end": "0xca0000",
+   "name": "web",
+   "size": 1572864,
+   "start": "0xb20000"
+  },
+  {
+   "end": "0xf60000",
+   "name": "custom",
+   "size": 2883584,
+   "start": "0xca0000"
+  },
+  {
+   "end": "0xf80000",
+   "name": "logo",
+   "size": 131072,
+   "start": "0xf60000"
+  }
+ ]
+}

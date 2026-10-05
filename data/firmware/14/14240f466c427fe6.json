@@ -1,0 +1,181 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-02-05",
+    "latest": "2018-02-05"
+   },
+   "firmware": "custom-x.cramfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2018-02-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 3096576,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "580675df2015dd27",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-02-05",
+    "latest": "2018-02-05"
+   },
+   "firmware": "logo-x.cramfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2018-02-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "9729e8fb38854171",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-02-05",
+    "latest": "2018-02-05"
+   },
+   "firmware": "romfs-x.cramfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2018-02-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4009984,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "78b356734fdcb19a",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-02-05",
+    "latest": "2018-02-05"
+   },
+   "firmware": "user-x.cramfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2018-02-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 5013504,
+     "image_type": "kernel",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "070b71fc4db652f3",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2018-02-05",
+    "latest": "2018-02-05"
+   },
+   "firmware": "web-x.cramfs.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2018-02-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1363968,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d8c2b97155e6ba82",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "14240f466c427fe69371efe80f4298f527c84df810e476a04a218412c1cad5e2"
+}

@@ -1,0 +1,125 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "NT-838CH_9832_V4.202.0011.0.R.20150112.bin",
+   "ids": [
+    "HCVR5x08-SANK",
+    "General_HCVR5x08-SANK"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn1535",
+   "build_dates": {
+    "earliest": "2015-01-12",
+    "latest": "2015-01-12"
+   },
+   "firmware": "NT-838CH_9832_V4.202.0011.0.R.20150112.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_HCVR5x08-SANK"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "gm8210boot",
+     "image_size": 319304,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "gm8210romfs",
+     "image_size": 11595776,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pic-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 274432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1363968,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 700416,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2015-01-12",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "db2975b31a1b51bc",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c0b5a5cd6a046d31a56b961bbe83947d2bbaaeef8ec62425819125e574079e7d"
+}

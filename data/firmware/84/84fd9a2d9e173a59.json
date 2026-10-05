@@ -1,0 +1,104 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO65XXX-data_PldEng_PN_128M_SIP_PART_V4.300.0000003.0.R.20210412.bin",
+   "ids": [
+    "VTO6541H",
+    "VTO6531H",
+    "VTO6531F",
+    "VTO6521H",
+    "VTO6521F",
+    "VTO6531H-SH"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6541H",
+     "1.00"
+    ],
+    [
+     "VTO6531H",
+     "1.00"
+    ],
+    [
+     "VTO6531F",
+     "1.00"
+    ],
+    [
+     "VTO6521H",
+     "1.00"
+    ],
+    [
+     "VTO6521F",
+     "1.00"
+    ],
+    [
+     "VTO6531H-SH",
+     "1.00"
+    ],
+    [
+     "VTO6541H",
+     "1.10"
+    ],
+    [
+     "VTO6531H",
+     "1.10"
+    ],
+    [
+     "VTO6531F",
+     "1.10"
+    ],
+    [
+     "VTO6521H",
+     "1.10"
+    ],
+    [
+     "VTO6521F",
+     "1.10"
+    ],
+    [
+     "VTO6531H-SH",
+     "1.10"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTO65XXX-data_PldEng_PN_128M_SIP_PART_V4.300.0000003.0.R.20210412.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 2234552,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "7bbf507b585bc922",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "84fd9a2d9e173a5915c8fa288dc027cc35c66db37235a34d38a5823bf9c8c6e5"
+}

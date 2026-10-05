@@ -1,0 +1,101 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_HZXM_IPC_HI3518E_50H10L_S38_V4.02.R12.Nat.OnvifS.20160304_ALL.bin",
+   "ids": [
+    "linux"
+   ],
+   "member": "u-boot.bin.img",
+   "source": "uboot"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06",
+   "build_dates": {
+    "earliest": "2016-03-04",
+    "latest": "2016-03-04"
+   },
+   "firmware": "General_HZXM_IPC_HI3518E_50H10L_S38_V4.02.R12.Nat.OnvifS.20160304_ALL.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_images": [
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "linux",
+     "image_size": 60752,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.env.img",
+     "image_name": "linux",
+     "image_size": 65536,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 3088384,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 2433024,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1298432,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2016-03-04",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 28672,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3efc735e3fe86e53",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8e5d06cdd80a2e939432605d823e223373840d7cd974b75c424384879faf4f89"
+}

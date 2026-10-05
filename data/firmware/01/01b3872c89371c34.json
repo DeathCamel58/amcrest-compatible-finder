@@ -1,0 +1,60 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_VTO2000A-2-data_EngTurSlkPldHgrFinCzeBul_P_16M_SIP_PART_V4.300.0000003.0.R.20190621.bin",
+   "ids": [
+    "VTO2000A",
+    "VTO2000A-2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A-2",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTO2000A-2-data_EngTurSlkPldHgrFinCzeBul_P_16M_SIP_PART_V4.300.0000003.0.R.20190621.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.cramfs.img",
+     "image_name": "data",
+     "image_size": 946176,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "8fc72a70bd20347c",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "01b3872c89371c343cfa82364fd704a2560f9ef6cbad8cdd5b24e9e2d7b25520"
+}
