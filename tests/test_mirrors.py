@@ -250,3 +250,11 @@ def test_dahua_asset_upload_filters_and_known_urls(monkeypatch):
     assert "datasheet.pdf" not in names
     assert "DH_IC-A5051MU545_V1.000.0000.0.R.20180921.zip" in names
     assert len(firmwares) >= 50
+
+
+def test_secpoint_models_and_local_names():
+    from brands import SecPoint as m
+    assert m.model_from_folder("Tvcc/DAHUA/DVR HDCVI/XVR5X04-X _ XVR5X08-X con wifi e 4G/a.zip") == ["XVR5X04-X", "XVR5X08-X"]
+    assert m.model_from_folder("Videocitofonia Dahua/ServerSIP VTH-VTO/VTO1210C-X_SIP.zip") == ["VTO1210C-X"]
+    assert m.local_name("Videocitofonia Dahua/ServerSIP VTH-VTO/VTH_SIP.zip") == "SecPoint_ServerSIP_VTH-VTO_VTH_SIP.zip"
+    assert m.local_name("Tvcc/DAHUA/NVR/NVR1600/General_NVR5xxx_Eng_P_V2.616.0000.0.R.20140110.bin") is None

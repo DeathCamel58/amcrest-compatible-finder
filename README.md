@@ -70,7 +70,8 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [ ] pliki.dahuawiki.pl - **NOTE:** Same tree as files.dahua.support
  - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
  - [X] Santronic (service.santronic.ch) - Swiss distributor's firmware page
- - [ ] secpoint.it - **NOTE:** Open index of Dahua NVR, XVR and intercom firmware, but Cloudflare blocks scripted access (try from an EU IP)
+ - [X] SecPoint (secpoint.it) - Italian distributor's open index (Dahua recorders, a Videotrend build, and Italian
+   SIP/multipush intercom builds). Cloudflare only lets it through from EU addresses
  - [ ] share.dahuasecurity.com - **NOTE:** Gone
  - [ ] share.dahuaservice.it (Dahua Italy) - **NOTE:** Returns HTTP 500 (checked 2026-10-05); forum posts link intercom firmware there
  - [ ] smartsd.com - **NOTE:** Gone
