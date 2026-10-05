@@ -66,6 +66,7 @@ from brands import Winco
 from brands import IPCamTalkDropbox
 from brands import TVCMexico
 from brands import SecPoint
+from brands import DahuaOldBuilds
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -140,6 +141,7 @@ oem_modules = [
     IPCamTalkDropbox,
     TVCMexico,
     SecPoint,
+    DahuaOldBuilds,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]

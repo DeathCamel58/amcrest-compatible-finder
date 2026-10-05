@@ -47,7 +47,8 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
 
 ## OEM Support
  - [X] Dahua (dahuawiki.com, the official download center API across all regional sites, the China support portal's
-   Chinese-language builds, and files the old dahuasecurity.com product pages linked)
+   Chinese-language builds, files the old dahuasecurity.com product pages linked, and earlier builds the download
+   center replaced but left on its file server, found from release-note version histories)
 
 ### Mirrors and archives
  - [ ] archive.cop-eu.com - **NOTE:** Gone

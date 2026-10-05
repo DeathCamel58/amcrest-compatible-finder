@@ -252,4 +252,4 @@ def test_only_and_skip(module_filters, monkeypatch):
     monkeypatch.setattr(main, "ONLY_MODULES", {"dahua"})
     monkeypatch.setattr(main, "SKIP_MODULES", {"dahuaofficial"})
     assert [short(m) for m in main.selected_modules()] == ["Dahua", "Dahua_FileDirectory", "DahuaTechSupport", "DahuaPoland", "DahuaFrance", "DahuaAssetUpload",
-                                                                 "DahuaChina"]
+                                                                 "DahuaChina", "DahuaOldBuilds"]
