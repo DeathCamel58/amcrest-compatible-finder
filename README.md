@@ -49,24 +49,35 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [X] Dahua (dahuawiki.com and the official download center API across all regional sites)
 
 ### Mirrors and archives
+ - [ ] archive.cop-eu.com - **NOTE:** Gone
  - [X] ASM (ftp.asm.cz) - Czech Dahua distributor's file server (cameras, recorders, intercoms, access control)
- - [X] files.dahuatech.support - Dahua support file server
- - [X] files.dahua.support - Dahua Poland's file server (firmware and solutions)
+ - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
  - [X] Dahua France (france.dahuatech.com) - Dahua France's document centre: about 300 firmwares from 2015-2021 with MD5s and release notes
+ - [ ] drivers.softpedia.com - **NOTE:** Mirrors many Dahua recorder firmwares, but returns 403 to scripts
  - [X] Eltrox (ftp.eltrox.pl) - Polish distributor's file server, including the Kenik, EasyCam, Notis, Zeus, Irbis and
    Konig rebrands. Crawled slowly and cached, since it rate limits
- - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
- - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
+ - [X] files.dahua.support - Dahua Poland's file server (firmware and solutions)
+ - [X] files.dahuatech.support - Dahua support file server
+ - [ ] ftp.tdtorus.ru - **NOTE:** Gone
+ - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net
+ - [ ] i.botox.bz - **NOTE:** Gone
+ - [ ] pliki.dahuawiki.pl - **NOTE:** Same tree as files.dahua.support
+ - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
+ - [ ] secpoint.it - **NOTE:** Open index of Dahua NVR, XVR and intercom firmware, but Cloudflare blocks scripted access (try from an EU IP)
+ - [ ] share.dahuasecurity.com - **NOTE:** Gone
+ - [ ] share.dahuaservice.it (Dahua Italy) - **NOTE:** Returns HTTP 500 (checked 2026-10-05); forum posts link intercom firmware there
+ - [ ] smartsd.com - **NOTE:** Gone
  - [X] SNR (snr.systems) - Russian distributor's file server: Dahua recorders, cameras and intercoms from 2015-2018
+ - [ ] support.dahuafrance.fr - **NOTE:** Gone (france.dahuatech.com is covered)
+ - [X] Viatec (ftp.viatec.ua) - Ukrainian distributor's file server
  - [X] Wayback Machine - recovers firmwares from dahuawiki, Dahua's file storage, Amcrest, Lorex, Rhino and others
    that are no longer served anywhere else
- - [ ] ftp.wintel.fi - **NOTE:** Server is gone; only a list of file names survives on mmnt.net
- - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
 
 ### Current
  - [ ] 2M CCTV - **NOTE:** Now Hikvision-based; downloads are apps/tools only
  - [ ] Activecam - **NOTE:** Site unreachable outside Russia, nothing archived
  - [ ] Advidia - **NOTE:** Hikvision firmware (digicap.dav); domain parked
+ - [ ] Alibi - **NOTE:** Hikvision and Uniview firmware, not Dahua
  - [ ] Altoros - **NOTE:** Not a CCTV brand (software consultancy)
  - [X] Amcrest
  - [ ] Ameta - **NOTE:** Public Drive folders hold no firmware; support form only
@@ -76,25 +87,32 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [ ] BV Security - **NOTE:** Hikvision and other platforms, not Dahua
  - [ ] CCTV Security Pros - **NOTE:** No firmware links; their Blue Line is GSS
  - [ ] CCTV Star - **NOTE:** Domains parked or for sale
- - [X] CP Plus - Dahua-made recorders only; live API is empty, so archived API answers and files are used
+ - [ ] ClareVision - **NOTE:** Hikvision firmware, not Dahua
+ - [ ] Comelit - **NOTE:** TVT, Uniview and others, not Dahua
+ - [X] CP Plus - Dahua-made recorders only (its UNR line isn't Dahua); live API is empty, so archived API answers and files are used
  - [ ] Dax Networks - **NOTE:** Networking company; only old network drivers
  - [X] DH Vision - recovered from the Wayback Machine
- - [ ] eLine - **NOTE:** Software only; firmware via support
  - [X] Eastern CCTV / ENS Security - Diamond line (public Google Drive)
+ - [ ] eLine - **NOTE:** Software only; firmware via support
  - [X] EmpireTech (Andy) - MEGA links; anonymous MEGA downloads have a transfer quota
- - [X] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware. This currently uses the PDFs that I've found on their website
  - [ ] Gess Technologies - **NOTE:** Domain now belongs to an unrelated company
+ - [ ] Goliath / Avaloid - **NOTE:** Rebadged Dahua intercoms, but its firmware files are gone
  - [X] GSS
- - [ ] Honeywell (a few of their product lines) - **NOTE:** Requires a Honeywell Discover login; line discontinued 2022
  - [ ] Heivision - **NOTE:** Distributor; no downloads
+ - [ ] Hiltron - **NOTE:** Software only
+ - [ ] Honeywell (a few of their product lines) - **NOTE:** Requires a Honeywell Discover login; line discontinued 2022
+ - [ ] Hunt - **NOTE:** Hikvision firmware, not Dahua
  - [X] IC Realtime - public S3 bucket (the firmware page needs a login)
  - [ ] Ikegami - **NOTE:** No CCTV firmware published
+ - [ ] Imou - **NOTE:** Dahua's consumer brand; firmware only updates through the app
  - [X] Inaxsys - STORM line (public SharePoint)
  - [ ] IndigoVision - **NOTE:** Firmware behind the Avigilon support login
  - [ ] Infinity CCTV - **NOTE:** Domain parked; only 2006 software archived
  - [ ] Innekt - **NOTE:** Domain hijacked; nothing archived
  - [X] Intelbras - behind Cloudflare; every product page and download goes through the browser (first run is slow, then cached)
  - [X] KBVision - listing only: downloads are private SharePoint links
+ - [X] Lorex - **NOTE:** They require that you contact support to get firmware. Ref: https://help.lorextechnology.com/link/portal/57356/57366/Article/1451/Client-Software-Manually-updating-DVR-NVR-firmware. This currently uses the PDFs that I've found on their website
+ - [ ] Luma - **NOTE:** Hikvision firmware, not Dahua
  - [ ] Lumixen - **NOTE:** Domain parked
  - [ ] Maxron - **NOTE:** Domain parked
  - [X] Montavue - Classic line only (Nexus is not Dahua)
@@ -103,18 +121,22 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [ ] Panasonic (in certain countries only) - **NOTE:** Product pages only have manuals
  - [ ] People Fu - **NOTE:** Domain gone; only client software archived
  - [ ] Platinum CCTV - **NOTE:** Software only (own AVM VMS)
+ - [ ] Qvis (UK) - **NOTE:** TVT firmware, not Dahua
  - [ ] RedSpeed - **NOTE:** Not a camera vendor (photo enforcement)
  - [X] Rhino Co - old 2013-2016 builds, plus their file library (`/file/display/{id}`)
  - [ ] Rhodium - **NOTE:** No site found; distributor only offers CMS software
  - [X] RVI - Dahua entries only, from the firmware page and the download ID library
- - [ ] Saxco - **NOTE:** Not a CCTV brand
  - [ ] SavvyTech - **NOTE:** No site found
+ - [ ] Saxco - **NOTE:** Not a CCTV brand
  - [ ] Security Camera King - **NOTE:** Downloads are software only; firmware via support tickets
+ - [ ] setik.biz - **NOTE:** Needs a registration
  - [ ] Space Technology - **NOTE:** No site found
  - [X] Speco - only a few of their recorders and cameras are Dahua (release notes and the WordPress media library)
  - [ ] ToughDog - **NOTE:** Support needs a customer ID
+ - [ ] TSS Group - **NOTE:** firmware.tssgroup.support folders can't be listed
  - [ ] Unisight - **NOTE:** Only PDFs published
  - [X] VIP Vision
+ - [ ] Visiotech - **NOTE:** Needs a login
  - [ ] Watchnet - **NOTE:** No firmware in their downloads
  - [X] Winic - Dahua lines only (the rest is Hikvision)
  - [X] Zuum - public Dropbox folder

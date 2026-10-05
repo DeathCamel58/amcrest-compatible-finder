@@ -35,3 +35,29 @@ def test_references_are_merged():
     assert w.add(data, name="A.zip", source="forum") == key
     w.add(data, name="a.bin", source="dataset", url="https://x")
     assert [r["source"] for r in data[key]["references"]] == ["dataset", "forum"]
+
+
+def test_double_extensions_build_and_download_suffixes():
+    assert w.name_key("1DH_X_V2.R.20180920.63540 (1).bin.zip") == w.name_key("DH_X_V2.R.20180920.bin")
+    assert w.name_key("X.bin.zip") == w.name_key("X")
+    # A version's own last number isn't a build suffix
+    assert w.name_key("General_A_V4.300.0000000.1.R.190305.bin") == "general_a_v4.300.0000000.1.r.190305"
+
+
+def test_found_by_the_firmware_inside_a_zip():
+    data = {}
+    w.add(data, name="DH_IPC-Inner_V2.800.0000000.1.R.200101.bin", source="dataset")
+    cameras = {"Vendor_Wrapper_Release.zip": dict(HAVE)}
+    assert w.refresh(data, cameras) == (0, 1)
+    inner = {"DH_IPC-Inner_V2.800.0000000.1.R.200101.bin": "Vendor_Wrapper_Release.zip"}
+    assert w.refresh(data, cameras, inner_names=inner) == (1, 0)
+
+
+def test_rekey_merges_entries_that_now_match():
+    old = {"name:a.20180920.63540": {"name": "a.20180920.63540.zip", "version": None, "models": [],
+                                     "references": [{"source": "x"}], "found": None},
+           "name:a.20180920": {"name": "a.20180920.bin", "version": None, "models": [],
+                               "references": [{"source": "y"}], "found": None}}
+    merged = w.rekey(old)
+    assert list(merged) == ["name:a.20180920"]
+    assert [r["source"] for r in merged["name:a.20180920"]["references"]] == ["x", "y"]

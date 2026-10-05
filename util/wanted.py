@@ -23,11 +23,40 @@ NAME_PREFIX = re.compile(r"^(\d{1,7}[_.]?)(?=[A-Za-z])")
 EXTENSION = re.compile(r"\.(bin|zip|rar|7z|img|dav|tar|gz)$", re.IGNORECASE)
 
 
+# " (1)", "(2)", "-copy": what browsers and people add to downloaded file names
+DOWNLOAD_SUFFIX = re.compile(r"\s*(\(\d+\)|-copy|_copy)$", re.IGNORECASE)
+# ".20180920.63540": a build number after the date, which some servers add (the files inside don't have it)
+BUILD_SUFFIX = re.compile(r"(?<=\.\d{6})\.\d{3,6}$|(?<=\.\d{8})\.\d{3,6}$")
+
+
 def name_key(name):
-    """A name without its extension, copy-number prefix and case, so renamed copies match."""
-    name = EXTENSION.sub("", name.strip())
+    """A name without its extensions, copy-number prefix, download or build suffix and case, so renamed copies
+    match: "1DH_X_V2.R.20180920.63540 (1).bin.zip" and "DH_X_V2.R.20180920.bin" are the same firmware."""
+    name = name.strip()
+    while True:
+        stripped = DOWNLOAD_SUFFIX.sub("", EXTENSION.sub("", name))
+        if stripped == name:
+            break
+        name = stripped
+    name = BUILD_SUFFIX.sub("", name)
     name = NAME_PREFIX.sub("", name)
     return name.casefold()
+
+
+def rekey(wanted):
+    """Re-key entries after name_key changes, merging entries that now share a key."""
+    rekeyed = {}
+    for entry in wanted.values():
+        key = entry_key(entry.get("name"), entry.get("version"), entry.get("models") or ())
+        existing = rekeyed.get(key)
+        if existing is None:
+            rekeyed[key] = entry
+            continue
+        for reference in entry.get("references") or []:
+            if reference not in existing["references"]:
+                existing["references"].append(reference)
+        existing["found"] = existing.get("found") or entry.get("found")
+    return rekeyed
 
 
 def entry_key(name=None, version=None, models=()):
@@ -40,7 +69,7 @@ def entry_key(name=None, version=None, models=()):
 def load(path=WANTED_JSON):
     try:
         with open(path) as f:
-            return json.load(f)
+            return rekey(json.load(f))
     except FileNotFoundError:
         return {}
 
@@ -79,13 +108,36 @@ def find(entry, by_name, by_version):
     return None
 
 
-def refresh(wanted, cameras_json, today=None):
-    """Mark entries found that cameras.json now has. Returns (newly found, still missing)."""
+def inner_firmware_names(compat_index):
+    """{inner firmware name: outer file name} from the analysis detail files: the firmwares inside zips and bundles
+    (a wanted name is sometimes the .bin inside a zip we have under another name)."""
+    inner = {}
+    for file_name, result in (compat_index or {}).items():
+        path = result.get("detail")
+        if not path or not os.path.exists(path):
+            continue
+        try:
+            with open(path) as f:
+                packages = json.load(f).get("packages") or []
+        except (OSError, ValueError):
+            continue
+        for package in packages:
+            if package.get("firmware"):
+                inner.setdefault(package["firmware"], file_name)
+    return inner
+
+
+def refresh(wanted, cameras_json, today=None, inner_names=None):
+    """Mark entries found that cameras.json now has (also by the firmwares inside its zips, when inner_names is
+    given). Returns (newly found, still missing)."""
     by_name, by_version = {}, {}
+    for inner, file_name in (inner_names or {}).items():
+        if (cameras_json.get(file_name) or {}).get("file_hashes"):
+            by_name.setdefault(name_key(inner), file_name)
     for file_name, entry in cameras_json.items():
         if not entry.get("file_hashes"):
             continue  # listed somewhere but not downloaded: still wanted
-        by_name.setdefault(name_key(file_name), file_name)
+        by_name[name_key(file_name)] = file_name
         if entry.get("firmware_version"):
             version = re.sub(r"\.\d{6,8}$", "", entry["firmware_version"]).casefold()
             models = {m.casefold() for m in (entry.get("camera_name") or []) + (entry.get("series") or [])}
@@ -108,8 +160,9 @@ def refresh_file(cameras_json, path=WANTED_JSON):
     """Refresh wanted.json against cameras.json, if it exists. Returns (newly found, still missing) or None."""
     if not os.path.exists(path):
         return None
+    from util.json_tools import get_firmware_json
     wanted = load(path)
-    result = refresh(wanted, cameras_json)
+    result = refresh(wanted, cameras_json, inner_names=inner_firmware_names(get_firmware_json()))
     save(wanted, path)
     return result
 
@@ -128,16 +181,17 @@ def main(argv):
     commands.add_parser("status", help="refresh against cameras.json and print what's still missing")
     args = parser.parse_args(argv)
 
-    from util.json_tools import get_cameras_json
+    from util.json_tools import get_cameras_json, get_firmware_json
     wanted = load()
+    inner = inner_firmware_names(get_firmware_json())
     if args.command == "add":
         key = add(wanted, args.name, args.version, args.model, args.source, args.url, args.note)
-        found, missing = refresh(wanted, get_cameras_json())
+        found, missing = refresh(wanted, get_cameras_json(), inner_names=inner)
         save(wanted)
         print(f"{key}: {'already have it (' + wanted[key]['found']['file'] + ')' if wanted[key]['found'] else 'wanted'}"
               f"; {missing} still missing")
     else:
-        found, missing = refresh(wanted, get_cameras_json())
+        found, missing = refresh(wanted, get_cameras_json(), inner_names=inner)
         save(wanted)
         print(f"{len(wanted)} wanted firmwares: {len(wanted) - missing} found ({found} just now), {missing} missing")
         by_source = {}
