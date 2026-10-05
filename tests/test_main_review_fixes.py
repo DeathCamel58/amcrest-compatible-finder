@@ -343,3 +343,19 @@ def test_camera_updates_are_batched_and_keep_other_writers_changes(monkeypatch):
     assert result["b.bin"]["vendors"] == ["B", "B2"]
     # Outside a batch, reads come from disk again
     assert main.cameras_for_update() == result
+
+
+def test_archive_refusal_is_recorded_and_not_retried(monkeypatch, tmp_path):
+    from util.json_tools import get_cameras_json, save_cameras_json
+    (tmp_path / "firmware").mkdir()
+    (tmp_path / "firmware" / "enc.zip").write_bytes(b"x")
+    save_cameras_json({"enc.zip": {"vendors": ["X"]}})
+
+    def refuse(path, entry, analysis, aliases):
+        raise Exception("Uploaded content is unacceptable. - archive files are not allowed to contain encrypted content")
+
+    monkeypatch.setattr(main, "archive_firmware", refuse)
+    main.archive_stop.clear()
+    main.archive_firmware_thread("enc.zip")
+    assert "encrypted content" in get_cameras_json()["enc.zip"]["archive_refused"]
+    assert not main.archive_stop.is_set()  # other files carry on

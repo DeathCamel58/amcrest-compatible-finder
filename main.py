@@ -1151,6 +1151,9 @@ ARCHIVE_UPLOAD_PAUSE = 45
 # after one of these risks the account, so the whole archive stage stops instead
 ARCHIVE_PUSHBACK = re.compile(r"reduce your request rate|appears to be spam|SlowDown|\b(429|503)\b", re.IGNORECASE)
 archive_stop = threading.Event()
+# archive.org's answer when it refuses a file for its content; such a file isn't tried again
+ARCHIVE_REFUSED = re.compile(r"archive files are not allowed to contain encrypted content|Uploaded content is unacceptable[^']*",
+                             re.IGNORECASE)
 
 
 def archive_firmware_thread(firmware_file):
@@ -1183,6 +1186,14 @@ def archive_firmware_thread(firmware_file):
                 print('archive.org asked to slow down or flagged the upload; stopping the archive stage. '
                       'Run it again later.')
             archive_stop.set()
+        elif ARCHIVE_REFUSED.search(str(err)):
+            # archive.org won't take this file (e.g. a zip with encrypted members), so don't try again every run
+            reason = ARCHIVE_REFUSED.search(str(err)).group(0)
+            with camera_json_lock:
+                cameras_json = get_cameras_json()
+                if firmware_file in cameras_json:
+                    cameras_json[firmware_file]['archive_refused'] = reason
+                    save_cameras_json(cameras_json)
         return
 
     with camera_json_lock:
@@ -1237,6 +1248,8 @@ def archive_all_firmwares():
             continue
         # Don't put an incomplete file on the archive. One that's already there keeps its item, which gets updated
         # to say the file is incomplete
+        if entry.get('archive_refused'):
+            continue  # archive.org refused it (see archive_refused)
         if (entry.get('integrity') or {}).get('status') == 'truncated' and not entry.get('archive_url'):
             skipped_truncated.append(firmware_file)
             continue

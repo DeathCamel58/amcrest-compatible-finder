@@ -413,6 +413,11 @@
         "downloaded_from": {
           "description": "Set when the file couldn't be downloaded from its listed URL (dead, or too slow) and the Wayback Machine's capture of that URL was downloaded instead: the capture's raw download URL",
           "$ref": "#/$defs/url"
+        },
+        "archive_refused": {
+          "description": "Why archive.org refused to take this file (e.g. a zip with encrypted members); it isn't uploaded",
+          "type": "string",
+          "minLength": 1
         }
       },
       "dependentRequired": {
