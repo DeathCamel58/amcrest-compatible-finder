@@ -16,6 +16,9 @@ IDENTIFIER_PREFIX = "cctv-firmware-"
 # collection, so the 14 items uploaded there before 2026-10-04 need archive.org staff to move them
 COLLECTION = "opensource_media"
 MEDIATYPE = "data"
+# (connect, read) seconds for an upload. After a large file arrives, archive.org can take minutes to answer; the
+# library's default 120 s read timeout gave up on uploads that were still being processed
+UPLOAD_TIMEOUT = (60, 900)
 # Every item gets this tag so the whole archive is one search away, until there's a dedicated collection
 # (only archive.org staff can create those)
 PROJECT_TAG = "amcrest-compatible-finder"
@@ -329,6 +332,7 @@ def archive_firmware(path, entry, analysis, alias_entries):
         retries=10,
         retries_sleep=60,
         queue_derive=False,
+        request_kwargs={"timeout": UPLOAD_TIMEOUT},
     )
     for response in responses:
         response.raise_for_status()
