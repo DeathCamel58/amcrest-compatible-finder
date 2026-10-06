@@ -1857,6 +1857,63 @@
   "processed_at": "2026-10-03T16:19:19+00:00",
   "status": "no_ids"
  },
+ "153937_DH_IPC-HX1100_Eng_N_P2P_V2.420.0000.0.R.20150601.zip": {
+  "detail": "data/firmware/45/4524461a7da3e737.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HD1100C",
+    "IPC-HD1100C-A",
+    "IPC-HD1100C-W",
+    "IPC-HDBW1100E",
+    "IPC-HDW1100S",
+    "IPC-HDW1100S-A",
+    "IPC-HFW1100B-C",
+    "IPC-HFW1100S-W",
+    "IPC-IPVM2011F",
+    "IPC-IPVM2131F",
+    "IPC-IPVM2150F",
+    "IPC-IPVM2151F",
+    "IPC-KW10",
+    "IPC-KW10-A",
+    "IPC-KW12",
+    "IPC-KW12-A"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HD1100C",
+   "IPC-HD1100C-A",
+   "IPC-HD1100C-W",
+   "IPC-HDBW1100E",
+   "IPC-HDW1100S",
+   "IPC-HDW1100S-A",
+   "IPC-HFW1100B-C",
+   "IPC-HFW1100S-W",
+   "IPC-HX3XXX",
+   "IPC-IPVM2011F",
+   "IPC-IPVM2131F",
+   "IPC-IPVM2150F",
+   "IPC-IPVM2151F",
+   "IPC-KW10",
+   "IPC-KW10-A",
+   "IPC-KW12",
+   "IPC-KW12-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T14:11:29+00:00",
+  "socs": [
+   {
+    "name": "Hi3518",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "1543854_DH_NVR2XXX-S3_MultiLang_V4.000.0000000.1.R.230214.zip": {
   "detail": "data/firmware/78/78a85a0586e5ee26.json",
   "extractor_version": 5,
@@ -25864,7 +25921,7 @@
   "status": "extract_failed"
  },
  "Customer_ASA1222G_APP_Eng_V1.000.00NS000.0.R.20200901.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "Customer_ASA1222G_APP_Eng_V1.000.00NS000.0.R.20200901.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -25875,7 +25932,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:48+00:00",
+  "processed_at": "2026-10-06T14:11:42+00:00",
   "status": "extract_failed"
  },
  "Customer_ASA2212A_PolEng_V3.002.106F000.0.R.20191114.bin": {
@@ -86469,6 +86526,45 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX3(2)XXX_Eng_NP_8M_V2.212.0000.4.R.20140307.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "status": "no_ids"
+ },
+ "DH_IPC-HX3(2)XXX_Eng_NP_8M_V2.212.0000.5.R.20140326.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "status": "no_ids"
+ },
+ "DH_IPC-HX3(2)XXX_Eng_NP_8M_V2.212.0000.6.R.20140419.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "status": "no_ids"
+ },
  "DH_IPC-HX3(2)XXX_Eng_NP_V2.420.0000.0.R.20161208.zip": {
   "detail": "data/firmware/9b/9b5fd6bf65cf0785.json",
   "extractor_version": 5,
@@ -86639,6 +86735,149 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:29:36+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX3(2)XXX_Eng_N_V2.420.0000.0.R.20140414.zip": {
+  "detail": "data/firmware/72/72970fc1af3174b7.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [
+    "0050425126c18422",
+    "080000000530002d",
+    "080000000530002e",
+    "080000400530002f",
+    "080002400531842b",
+    "0800025006118428",
+    "080002560681842a",
+    "0800425346118427",
+    "0800425346718427",
+    "0800425346718431",
+    "0800425346a18427",
+    "0800425346f18427",
+    "080202400531842b",
+    "0802025006118428",
+    "0802025006818428",
+    "0802425006818426",
+    "0802425346118427",
+    "0802425346718431",
+    "080402400531842b",
+    "0804025006818428",
+    "0804425006818426",
+    "0804425346118427",
+    "0804425346718431",
+    "0806025006718428",
+    "0806025006818428",
+    "0806425006818426",
+    "0808025006f18428",
+    "0808425006818426",
+    "080E00000530002d",
+    "080c00000530002d",
+    "8040025606718436",
+    "8040025606f18432",
+    "8040025606f18436",
+    "8040025646718438",
+    "8040025646f18435",
+    "8040425126c18423",
+    "8040425646718437",
+    "8042025606718436",
+    "8042025606f18432",
+    "8042025646718438",
+    "804E025646f18435",
+    "8310425126c18423"
+   ],
+   "ignored": [],
+   "models": [
+    "IPC-HDB3101A",
+    "IPC-HDB3301A",
+    "IPC-HDBW3101A",
+    "IPC-HDBW3200",
+    "IPC-HDBW3301A",
+    "IPC-HDW2200S",
+    "IPC-HDW3100",
+    "IPC-HDW3200",
+    "IPC-HDW3200S",
+    "IPC-HDW3300S",
+    "IPC-HF3201",
+    "IPC-HF3301",
+    "IPC-HFW3100D",
+    "IPC-HFW3101CA",
+    "IPC-HFW3200D",
+    "IPC-HFW3200S",
+    "IPC-HFW3301C",
+    "IPC-IPVM3150F",
+    "IPC-K100",
+    "IPC-K100A",
+    "IPC-K100W"
+   ]
+  },
+  "hardware_ids": [
+   "0050425126c18422",
+   "080000000530002d",
+   "080000000530002e",
+   "080000400530002f",
+   "080002400531842b",
+   "0800025006118428",
+   "080002560681842a",
+   "0800425346118427",
+   "0800425346718427",
+   "0800425346718431",
+   "0800425346a18427",
+   "0800425346f18427",
+   "080202400531842b",
+   "0802025006118428",
+   "0802025006818428",
+   "0802425006818426",
+   "0802425346118427",
+   "0802425346718431",
+   "080402400531842b",
+   "0804025006818428",
+   "0804425006818426",
+   "0804425346118427",
+   "0804425346718431",
+   "0806025006718428",
+   "0806025006818428",
+   "0806425006818426",
+   "0808025006f18428",
+   "0808425006818426",
+   "080E00000530002d",
+   "080c00000530002d",
+   "8040025606718436",
+   "8040025606f18432",
+   "8040025606f18436",
+   "8040025646718438",
+   "8040025646f18435",
+   "8040425126c18423",
+   "8040425646718437",
+   "8042025606718436",
+   "8042025606f18432",
+   "8042025646718438",
+   "804E025646f18435",
+   "8310425126c18423",
+   "IPC-HDB3101A",
+   "IPC-HDB3301A",
+   "IPC-HDBW3101A",
+   "IPC-HDBW3200",
+   "IPC-HDBW3301A",
+   "IPC-HDW2200S",
+   "IPC-HDW3100",
+   "IPC-HDW3200",
+   "IPC-HDW3200S",
+   "IPC-HDW3300S",
+   "IPC-HF3201",
+   "IPC-HF3301",
+   "IPC-HFW3100D",
+   "IPC-HFW3101CA",
+   "IPC-HFW3200D",
+   "IPC-HFW3200S",
+   "IPC-HFW3301C",
+   "IPC-IPVM3150F",
+   "IPC-K100",
+   "IPC-K100A",
+   "IPC-K100W"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "ok"
  },
  "DH_IPC-HX3(2)XXX_Eng_N_V2.420.0000.2.R.20161208.bin": {
@@ -109896,6 +110135,45 @@
   "processed_at": "2026-10-03T16:15:07+00:00",
   "status": "ok"
  },
+ "DH_IPC-HX5(4)XXX_Eng_NP_V2.210.0000.12.R.20140225.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:38+00:00",
+  "status": "no_ids"
+ },
+ "DH_IPC-HX5(4)XXX_Eng_NP_V2.210.0000.16.R.20140421.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:37+00:00",
+  "status": "no_ids"
+ },
+ "DH_IPC-HX5(4)XXX_Eng_NP_V2.210.0000.18.R.20140429.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:37+00:00",
+  "status": "no_ids"
+ },
  "DH_IPC-HX5(4)XXX_Eng_N_Stream3_IVS_V2.420.0000.11.R.20150907.bin": {
   "detail": "data/firmware/51/51f4a1c83da45953.json",
   "extractor_version": 5,
@@ -110056,6 +110334,19 @@
    }
   ],
   "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX_Eng_N_Stream3_V2.420.0000.0.R.20140419.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:37+00:00",
+  "status": "no_ids"
  },
  "DH_IPC-HX5(4)XXX_Eng_P_Stream3_IVS_V2.420.0000.11.R.20150907.bin": {
   "detail": "data/firmware/99/99faea09d40ee513.json",
@@ -110857,6 +111148,96 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:06:15+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX54XXX-Taurus-3.zip": {
+  "detail": "data/firmware/25/2582e8bffb81889c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW4443DR-SA-0210B",
+    "IPC-HDBW4443R-AS-0210B",
+    "IPC-HDBW5443DR-SA-0210B",
+    "IPC-HDBW5443R-AS-0210B",
+    "IPC-HDBW5443R1-AST-KZJC",
+    "IPC-HDBW5443R1-ZAST-0624-KZJC",
+    "IPC-HDBW5443R1-ZAST-27135-KZJC",
+    "IPC-HDW4849H-AS-LED",
+    "IPC-HDW5849H-YL-AS-LED",
+    "IPC-HDW5849HP-ASE-LED",
+    "IPC-HFE4243S-AS-LED",
+    "IPC-HFE4443S-AS-LED",
+    "IPC-HFE4843S-AS-LED",
+    "IPC-HFW4443DT-SA-0210B",
+    "IPC-HFW4443T-AS-0210B",
+    "IPC-HFW4849F1-PV-AS-LED",
+    "IPC-HFW5443DT-SA-0210B",
+    "IPC-HFW5443F1-ZAST-0624-KZJC",
+    "IPC-HFW5443F1-ZAST-27135-KZJC",
+    "IPC-HFW5443M1-AST-KZJC",
+    "IPC-HFW5443T-AS-0210B",
+    "IPC-HFW5449F1-ZAST-G4G-DGH",
+    "IPC-HFW5849F1-YL-PV-AS-LED",
+    "IPC-PDW4449-A180-E2-AST-0360B",
+    "IPC-PDW4849-A180-E2-AST",
+    "IPC-PDW5449-A180-E2-AST-0360B",
+    "IPC-PDW5849-A180-E2-AST",
+    "IPC-PDW5849-A180-E2-ASTE",
+    "IPC-PFW4449-A180-E2-AST-0360B",
+    "IPC-PFW4849-A180-E2-AST",
+    "IPC-PFW5449-A180-E2-AST-0360B",
+    "IPC-PFW5449-A180-E2-ST-0360B",
+    "IPC-PFW5849-A180-E2-AST",
+    "IPC-PFW5849-A180-E2-ST",
+    "IPC-PFW5849P-A180-E2-ASTE",
+    "IPC-PFW5849P-A180-E2-ASTE-M",
+    "IPC-PFW5849P-A180-E2-ASTE-PV"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW4443DR-SA-0210B",
+   "IPC-HDBW4443R-AS-0210B",
+   "IPC-HDBW5443DR-SA-0210B",
+   "IPC-HDBW5443R-AS-0210B",
+   "IPC-HDBW5443R1-AST-KZJC",
+   "IPC-HDBW5443R1-ZAST-0624-KZJC",
+   "IPC-HDBW5443R1-ZAST-27135-KZJC",
+   "IPC-HDW4849H-AS-LED",
+   "IPC-HDW5849H-YL-AS-LED",
+   "IPC-HDW5849HP-ASE-LED",
+   "IPC-HFE4243S-AS-LED",
+   "IPC-HFE4443S-AS-LED",
+   "IPC-HFE4843S-AS-LED",
+   "IPC-HFW4443DT-SA-0210B",
+   "IPC-HFW4443T-AS-0210B",
+   "IPC-HFW4849F1-PV-AS-LED",
+   "IPC-HFW5443DT-SA-0210B",
+   "IPC-HFW5443F1-ZAST-0624-KZJC",
+   "IPC-HFW5443F1-ZAST-27135-KZJC",
+   "IPC-HFW5443M1-AST-KZJC",
+   "IPC-HFW5443T-AS-0210B",
+   "IPC-HFW5449F1-ZAST-G4G-DGH",
+   "IPC-HFW5849F1-YL-PV-AS-LED",
+   "IPC-PDW4449-A180-E2-AST-0360B",
+   "IPC-PDW4849-A180-E2-AST",
+   "IPC-PDW5449-A180-E2-AST-0360B",
+   "IPC-PDW5849-A180-E2-AST",
+   "IPC-PDW5849-A180-E2-ASTE",
+   "IPC-PFW4449-A180-E2-AST-0360B",
+   "IPC-PFW4849-A180-E2-AST",
+   "IPC-PFW5449-A180-E2-AST-0360B",
+   "IPC-PFW5449-A180-E2-ST-0360B",
+   "IPC-PFW5849-A180-E2-AST",
+   "IPC-PFW5849-A180-E2-ST",
+   "IPC-PFW5849P-A180-E2-ASTE",
+   "IPC-PFW5849P-A180-E2-ASTE-M",
+   "IPC-PFW5849P-A180-E2-ASTE-PV"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T14:11:36+00:00",
   "status": "ok"
  },
  "DH_IPC-HX5X2X-Themis_EngSpn_N_Stream3_V2.400.0000.21.R.20151104.bin": {
@@ -187616,6 +187997,19 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX8XXX_Eng_NP_V2.400.0000.2.R.20140506.rar": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T14:11:39+00:00",
+  "status": "no_ids"
+ },
  "DH_IPC-K(A)W12W_Eng_P_P2P_V2.420.0000.2.R.20150925.bin": {
   "detail": "data/firmware/ef/efc075469cb4e963.json",
   "extractor_version": 5,
@@ -202475,7 +202869,7 @@
   "status": "extract_failed"
  },
  "DH_NVR6XXX-I_MultiLang_V4.005.0000000.1.R.251202-195a43ba.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "DH_NVR6XXX-I_MultiLang_V4.005.0000000.1.R.251202.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -202486,7 +202880,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:10:12+00:00",
+  "processed_at": "2026-10-06T14:11:32+00:00",
   "status": "extract_failed"
  },
  "DH_NVR6XXX-I_MultiLang_V4.005.0000000.1.R.251202.bin": {
@@ -338856,7 +339250,7 @@
   "status": "extract_failed"
  },
  "General_IPSpeaker-VCS_Eng_V2.000.0000000.0.R.250219_From1.0.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "General_IPSpeaker-VCS_Eng_V2.000.0000000.0.R.250219_From1.0.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -338867,7 +339261,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:33+00:00",
+  "processed_at": "2026-10-06T14:11:42+00:00",
   "status": "extract_failed"
  },
  "General_IPSpeaker-VCS_Eng_V2.000.0000001.0.R.250710.bin": {
@@ -358429,7 +358823,7 @@
   "status": "extract_failed"
  },
  "General_SD29XXX-GN-MAIN_MCU_V2.200.0000000.9.R.171219.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "General_SD29XXX-GN-MAIN_MCU_V2.200.0000000.9.R.171219.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -358440,7 +358834,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:50+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_SD29XXX-HN-MT_MCU_V2.401.0000001.76.R.230810.zip": {
@@ -371380,7 +371774,7 @@
   "status": "ok"
  },
  "General_VTH15X0CH-6_ENG_MCU_STM8S003K3_V8.000.0000.0.R.170825.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTH15X0CH-6_ENG_MCU_STM8S003K3_V8.000.0000.0.R.170825.bin: binwalk found nothing to extract; General_VTH15X0CH-6_ENG_MCU_STM8S003K3_V8.000.0000.0.R.170825.hex: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -371391,7 +371785,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:51+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTH2020DW_MCU_V1.000.0000000.6.R.20190411.zip": {
@@ -372941,7 +373335,7 @@
   "status": "ok"
  },
  "General_VTH52X1D_EFM32ZG110_MCU_V1.003.0000.0.R.20170714.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTH52X1D_ALL_EFM32ZG110_MCU_V1.003.0000.0.R.20170714.bin: binwalk found nothing to extract; General_VTH52X1D_APP_EFM32ZG110_MCU_V1.003.0000.0.R.20170714.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -372952,7 +373346,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:50+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTH52X1D_EngItlFreGerDutSpaPor_P_V3.200.0000000.1.R.20180330.bin": {
@@ -375393,7 +375787,7 @@
   "status": "extract_failed"
  },
  "General_VTO2000A-Master_MCU_V3.000.0000.0.R.20170515.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTO2000A-Master_MCU_V3.000.0000.0.R.20170515.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -375404,7 +375798,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:51+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTO2000A_Eng_P_SIP_V1.000.00.0.R.20150611.bin": {
@@ -375444,7 +375838,7 @@
   "status": "ok"
  },
  "General_VTO2000A_MCU_V3.000.0000.0.R.20180316.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTO2000A-Slave_MCU_V3.000.0000.0.R.20180316.hex: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -375455,7 +375849,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:51+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTO2101E-data_EngTurSlkPldHgrFinCzeBul_P_16M_SIP_PART_V4.300.0000005.0.R.20190708.bin": {
@@ -375763,7 +376157,7 @@
   "status": "extract_failed"
  },
  "General_VTO2111D-W_EFM32ZG110_MCU_V1.104.0000.0.R.20170826.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTO2111D-W_ALL_EFM32ZG110_MCU_V1.104.0000.0.R.20170826.bin: binwalk found nothing to extract; General_VTO2111D-W_APP_EFM32ZG110_MCU_V1.104.0000.0.R.20170826.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -375774,7 +376168,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:50+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTO2111D-data_EngDthFrnGerItlPorSpa_P_16M_SIP_PART_V4.300.0000003.0.R.20190530.bin": {
@@ -377886,7 +378280,7 @@
   "status": "ok"
  },
  "General_VTO6210B_STM8S003K3_MCU_V4.000.0000.0.R.150831.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTO6210B_STM8S003K3_MCU_V4.000.0000.0.R.150831.bin: binwalk found nothing to extract; General_VTO6210B_STM8S003K3_MCU_V4.000.0000.0.R.150831.hex: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -377897,7 +378291,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:51+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "General_VTO64XXF_Eng_P_128M_SIP_V1.000.0000001.0.R.20190517.bin": {
@@ -401244,6 +401638,20 @@
   ],
   "status": "ok"
  },
+ "Intelbras_2025-02_Firmware_VIP_1220_G2_30-09-18.zip": {
+  "duplicate_of": "Intelbras_VIP_1220_B_G2_Firmware_VIP_1220_G2_30-09-18.zip",
+  "extractor_version": 3,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "platform": "unknown",
+  "processed_at": "2026-10-03T13:58:53+00:00",
+  "status": "duplicate"
+ },
  "Intelbras_BCM_1035_bodycam_upgrade.BCM1035.20250717_0.zip": {
   "extractor_version": 3,
   "hardware": {
@@ -416553,6 +416961,120 @@
   ],
   "status": "ok"
  },
+ "LE202v3_GerEng_PN_V2.800.1005002.1.R.240926.bin": {
+  "detail": "data/firmware/f4/f44b8e6118df9c78.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-B1A20-PV-V2",
+    "IPC-B1A20-W-B-V2",
+    "IPC-B1A20-WT-B-V2",
+    "IPC-B1A20-WT-PV-B-V2A",
+    "IPC-B1A40-PV-V2",
+    "IPC-B1A40-WT-B-V2",
+    "IPC-B1A40-WT-PV-B-V2",
+    "IPC-B3A40-WT",
+    "IPC-HDBW1230DE-SW",
+    "IPC-HDBW1430DE-SW",
+    "IPC-HDW1230DT-SAW",
+    "IPC-HDW1430DT-SAW",
+    "IPC-HFW1230DS-SAW",
+    "IPC-HFW1230DS1-SAW",
+    "IPC-HFW1430DS-SAW",
+    "IPC-HFW1430DS1-SAW",
+    "IPC-WD22",
+    "IPC-WD42",
+    "IPC-WF22",
+    "IPC-WF42"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-B1A20-PV-V2",
+   "IPC-B1A20-W-B-V2",
+   "IPC-B1A20-WT-B-V2",
+   "IPC-B1A20-WT-PV-B-V2A",
+   "IPC-B1A40-PV-V2",
+   "IPC-B1A40-WT-B-V2",
+   "IPC-B1A40-WT-PV-B-V2",
+   "IPC-B3A40-WT",
+   "IPC-HDBW1230DE-SW",
+   "IPC-HDBW1430DE-SW",
+   "IPC-HDW1230DT-SAW",
+   "IPC-HDW1430DT-SAW",
+   "IPC-HFW1230DS-SAW",
+   "IPC-HFW1230DS1-SAW",
+   "IPC-HFW1430DS-SAW",
+   "IPC-HFW1430DS1-SAW",
+   "IPC-WD22",
+   "IPC-WD42",
+   "IPC-WF22",
+   "IPC-WF42"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T14:11:45+00:00",
+  "socs": [
+   {
+    "name": "SSC335",
+    "vendor": "SigmaStar"
+   }
+  ],
+  "status": "ok"
+ },
+ "LE20x_v2_GerEng_P_V2.680.1005002.14.R.211127.bin": {
+  "detail": "data/firmware/93/93f41e6c79888aa4.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-D42P-IMOU",
+    "IPC-G42MP-0280B",
+    "IPC-G42P-IMOU"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-D42P-IMOU",
+   "IPC-G42MP-0280B",
+   "IPC-G42P-IMOU"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "status": "ok"
+ },
+ "LE22x_GerEng_P_V2.800.1005005.12.R.220704.bin": {
+  "detail": "data/firmware/97/97b61a667f6950ed.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW1831R",
+    "IPC-HDBW1831R-S",
+    "IPC-HDBW2831R-ZAS-3711",
+    "IPC-HDBW2831R-ZS-3711",
+    "IPC-HFW1831E",
+    "IPC-HFW2831T-ZAS-3711",
+    "IPC-HFW2831T-ZS-3711"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW1831R",
+   "IPC-HDBW1831R-S",
+   "IPC-HDBW2831R-ZAS-3711",
+   "IPC-HDBW2831R-ZS-3711",
+   "IPC-HFW1831E",
+   "IPC-HFW2831T-ZAS-3711",
+   "IPC-HFW2831T-ZS-3711"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "status": "ok"
+ },
  "LH0316(D9116SKE(DM-136)_P2P_LOREX_MLANG_V5.2.0.4-20140827_10640.rar": {
   "extractor_version": 3,
   "hardware": {
@@ -422976,7 +423498,7 @@
   "status": "ok"
  },
  "NVR2X-4KS3_MultiLang_V4.000.0000000.1.R.231025.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR2X-4KS3_MultiLang_V4.000.0000000.1.R.231025.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -422987,7 +423509,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:17:59+00:00",
+  "processed_at": "2026-10-06T14:11:41+00:00",
   "status": "extract_failed"
  },
  "NVR2X-S2-Custom_PldEng_P_General-03081-171013_PART_V3.205.000000E.0.T.20190201.zip": {
@@ -424694,7 +425216,7 @@
   "status": "ok"
  },
  "NVR4x-4KS3_MultiLang_V4.003.0000000.0.R.240312.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR4x-4KS3_MultiLang_V4.003.0000000.0.R.240312.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424705,11 +425227,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:17:49+00:00",
+  "processed_at": "2026-10-06T14:11:39+00:00",
   "status": "extract_failed"
  },
  "NVR4x-4KS3_MultiLang_V4.005.0000000.1.R.240925.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR4x-4KS3_MultiLang_V4.005.0000000.1.R.240925.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424720,11 +425242,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:17:58+00:00",
+  "processed_at": "2026-10-06T14:11:37+00:00",
   "status": "extract_failed"
  },
  "NVR4x-4KS3_MultiLang_V4.006.0000000.4.R.251229.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "NVR4x-4KS3_MultiLang_V4.006.0000000.4.R.251229.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424735,11 +425257,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:17:52+00:00",
+  "processed_at": "2026-10-06T14:11:35+00:00",
   "status": "extract_failed"
  },
  "NVR4x-EI_MultiLang_V4.001.0000000.2.R.230621.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR4x-EI_MultiLang_V4.001.0000000.2.R.230621.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424750,11 +425272,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:17:24+00:00",
+  "processed_at": "2026-10-06T14:11:33+00:00",
   "status": "extract_failed"
  },
  "NVR4x-EI_MultiLang_V4.003.0000000.0.R.240328.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR4x-EI_MultiLang_V4.003.0000000.0.R.240328.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424765,11 +425287,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:16:51+00:00",
+  "processed_at": "2026-10-06T14:11:27+00:00",
   "status": "extract_failed"
  },
  "NVR4x-EI_MultiLang_V4.005.0000001.0.R.240716.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR4x-EI_MultiLang_V4.005.0000001.0.R.240716.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424780,11 +425302,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:16:42+00:00",
+  "processed_at": "2026-10-06T14:11:25+00:00",
   "status": "extract_failed"
  },
  "NVR4x-EI_MultiLang_V4.005.0000001.6.R.251219.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "NVR4x-EI_MultiLang_V4.005.0000001.6.R.251219.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -424795,7 +425317,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:16:58+00:00",
+  "processed_at": "2026-10-06T14:11:38+00:00",
   "status": "extract_failed"
  },
  "NVR4xxx_Eng_P_MultiLang_V3.203.0000.0.R.20171219.zip": {
@@ -425763,7 +426285,7 @@
   "status": "ok"
  },
  "NVR5XXX-EI_MultiLang_V4.000.0000000.2.R.230928.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR5XXX-EI_MultiLang_V4.000.0000000.2.R.230928.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -425774,7 +426296,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:15:39+00:00",
+  "processed_at": "2026-10-06T14:11:46+00:00",
   "status": "extract_failed"
  },
  "NVR5XXX-EI_MultiLang_V4.003.0000000.1.R.240223.zip": {
@@ -425791,7 +426313,7 @@
   "status": "no_ids"
  },
  "NVR5XXX-EI_MultiLang_V4.005.0000000.2.R.240830.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "DH_NVR5XXX-EI_MultiLang_V4.005.0000000.2.R.240830.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -425802,11 +426324,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:15:24+00:00",
+  "processed_at": "2026-10-06T14:11:50+00:00",
   "status": "extract_failed"
  },
  "NVR5XXX-EI_MultiLang_V5.001.0000000.0.R.251220.zip": {
-  "attempts": 2,
+  "attempts": 3,
   "error": "NVR5XXX-EI_MultiLang_V5.001.0000000.0.R.251220.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -425817,7 +426339,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:13:17+00:00",
+  "processed_at": "2026-10-06T14:11:49+00:00",
   "status": "extract_failed"
  },
  "NVR5XXX-IL_MultiLang_V4.002.0000000.0.R.210526.zip": {
@@ -426254,7 +426776,7 @@
   "status": "ok"
  },
  "NVR5XXX-XI-Pro_MultiLang_V5.000.0000000.2.R.260113.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "NVR5XXX-XI-Pro_MultiLang_V5.000.0000000.2.R.260113.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -426265,7 +426787,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:18:28+00:00",
+  "processed_at": "2026-10-06T14:11:59+00:00",
   "status": "extract_failed"
  },
  "NVR5XXX-XI_MultiLang_BASELINE_General_V4.005.1DS4000.0.R.250401.bin": {
@@ -426284,7 +426806,7 @@
   "status": "extract_failed"
  },
  "NVR5XXX-XI_MultiLang_V4.000.0000000.1.R.240312.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "DH_NVR5XXX-XI_MultiLang_V4.000.0000000.1.R.240312.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -426295,11 +426817,11 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:12:48+00:00",
+  "processed_at": "2026-10-06T14:12:04+00:00",
   "status": "extract_failed"
  },
  "NVR5XXX-XI_MultiLang_V4.000.0000000.4.R.241022.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "DH_NVR5XXX-XI_MultiLang_V4.000.0000000.4.R.241022.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -426310,7 +426832,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:12:53+00:00",
+  "processed_at": "2026-10-06T14:12:02+00:00",
   "status": "extract_failed"
  },
  "NVR608-XX-4KS2.zip": {
@@ -426471,7 +426993,7 @@
   "status": "duplicate"
  },
  "NVR6XXX-I_MultiLang_V4.000.0000000.5.R.231228.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "DH_NVR6XXX-I_MultiLang_V4.000.0000000.5.R.231228.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -426482,7 +427004,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T12:12:01+00:00",
+  "processed_at": "2026-10-06T14:11:56+00:00",
   "status": "extract_failed"
  },
  "NVR8PRO2_NVR5xxx_Eng_P_V2.610.0000.6.R.20130713.zip": {
@@ -453032,6 +453554,34 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-05T21:47:29+00:00",
+  "status": "ok"
+ },
+ "le213_GerEng_PN_V2.860.1005000.1.R.250930.zip": {
+  "detail": "data/firmware/2b/2bdf97dcc05919c3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-P3AEP-PV-S2",
+    "IPC-P3AEP-PV-S2-LUPUS",
+    "IPC-P5AEP-PV-S2"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-P3AEP-PV-S2",
+   "IPC-P3AEP-PV-S2-LUPUS",
+   "IPC-P5AEP-PV-S2"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T14:11:41+00:00",
+  "socs": [
+   {
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  ],
   "status": "ok"
  },
  "le213_GerEng_PN_V2.860.1005000.3.R.260130.bin": {
