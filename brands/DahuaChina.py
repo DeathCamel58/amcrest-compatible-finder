@@ -1,11 +1,10 @@
-import hashlib
 import re
 import threading
 import time
 from urllib.parse import parse_qs, urlparse
 
 from util import http
-from util.download_firmware import check_published_md5
+from util.download_firmware import download_checked
 from util.oem_helpers import parse_dahua_version
 
 name = "Dahua China support portal (support.dahuatech.com)"
@@ -111,13 +110,6 @@ def fresh_url(url):
 def download_file(url, part_name):
     item_id = item_ids.get(url)
     listed_url = url
-    md5 = hashlib.md5()
-    # HEAD requests to this host hang, so only GET is used
-    with http.get(fresh_url(url), stream=True) as r:
-        r.raise_for_status()
-        with open(part_name, "wb") as f:
-            for chunk in http.iter_content_with_min_rate(r):
-                f.write(chunk)
-                md5.update(chunk)
-    # Keyed by the listed URL, so a mismatch is recognised as the same across a refreshed link
-    check_published_md5(listed_url, md5.hexdigest(), md5_by_id.get(item_id))
+    # HEAD requests to this host hang, so only GET is used. Keyed by the listed URL, so a mismatch is recognised as
+    # the same across a refreshed link
+    download_checked(listed_url, part_name, md5_by_id.get(item_id), fetch_url=fresh_url(url))

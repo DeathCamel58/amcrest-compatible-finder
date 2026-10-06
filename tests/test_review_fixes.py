@@ -423,3 +423,21 @@ def test_recent_part_and_dropped_connections_keep_progress(tmp_path, monkeypatch
     target = str(tmp_path / "f.bin")
     assert dl._download_to("https://big.example/f.bin", target, target + ".part", flaky) == target
     assert calls == [10, 20, 30, 40, 50, 60, 70]
+
+
+def test_download_checked_resumes_and_verifies(tmp_path, monkeypatch):
+    import hashlib
+    import pytest
+    from util import download_firmware as dl
+    part = tmp_path / "f.bin.part"
+    part.write_bytes(b"hello ")
+    monkeypatch.setattr(dl.http, "get", lambda url, stream=True, headers=None: RangeResponse(206, b"world", "bytes 6-10/11"))
+    dl.download_checked("https://x/f.bin", str(part), hashlib.md5(b"hello world").hexdigest())
+    assert part.read_bytes() == b"hello world"
+
+    # A mismatch removes the .part, so the retry downloads afresh instead of resuming into the bad file
+    part.write_bytes(b"hello ")
+    monkeypatch.setattr(dl, "check_published_md5", lambda url, actual, expected: (_ for _ in ()).throw(ValueError("md5")))
+    with pytest.raises(ValueError):
+        dl.download_checked("https://x/f.bin", str(part), "0" * 32)
+    assert not part.exists()

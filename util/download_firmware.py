@@ -1,4 +1,5 @@
 import errno
+import hashlib
 import json
 import os
 import re
@@ -156,6 +157,24 @@ def _permanent_failure(err):
     return None
 
 
+def download_checked(url, part_name, expected_md5, fetch_url=None, headers=None):
+    """For modules whose sources publish MD5s: download like the default downloader (so a dropped connection resumes
+    the .part instead of starting over), then check the finished file against the published MD5. url is the listed
+    URL (what mismatches are remembered by); fetch_url is what to request, when it differs (e.g. a freshly signed
+    link)."""
+    _http_download(fetch_url or url, part_name, headers=headers)
+    md5 = hashlib.md5()
+    with open(part_name, 'rb') as f:
+        for chunk in iter(lambda: f.read(4 * 1024 * 1024), b''):
+            md5.update(chunk)
+    try:
+        check_published_md5(url, md5.hexdigest(), expected_md5)
+    except Exception:
+        # A mismatch is checked again with a fresh download, not by resuming into the same file
+        os.remove(part_name)
+        raise
+
+
 def wayback_capture(url):
     """The Wayback Machine's most recent capture of url that isn't an HTML page, as a raw (id_) download URL, or
     None. MEGA and Google Drive links aren't captured usefully, so they aren't looked up."""
@@ -259,12 +278,14 @@ def resume_offset(response, have):
     return have if match and int(match.group(1)) == have else 0
 
 
-def _http_download(url, part_name):
+def _http_download(url, part_name, headers=None):
     """Download url to part_name. A retry continues the .part an earlier attempt left (an HTTP Range request) when
     the server supports it, so a slow server's big file isn't restarted from zero every time."""
     have = os.path.getsize(part_name) if os.path.exists(part_name) else 0
-    headers = {"Range": f"bytes={have}-", "Accept-Encoding": "identity"} if have else {}
-    with http.get(url, stream=True, headers=headers) as r:
+    request_headers = dict(headers or {})
+    if have:
+        request_headers.update({"Range": f"bytes={have}-", "Accept-Encoding": "identity"})
+    with http.get(url, stream=True, headers=request_headers) as r:
         if have and r.status_code == 416:
             return  # the .part already holds the whole file
         r.raise_for_status()

@@ -1,4 +1,3 @@
-import hashlib
 import math
 import re
 from concurrent.futures import ThreadPoolExecutor
@@ -6,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 from requests import HTTPError
 
 from util import http
-from util.download_firmware import check_published_md5
+from util.download_firmware import download_checked
 
 name = "Dahua Download Center"
 vendor = "Dahua"
@@ -106,12 +105,4 @@ def get_firmwares():
 
 
 def download_file(url, part_name):
-    md5 = hashlib.md5()
-    with http.get(url, stream=True) as r:
-        r.raise_for_status()
-        with open(part_name, 'wb') as f:
-            for chunk in r.iter_content(chunk_size=1024 * 1024):
-                f.write(chunk)
-                md5.update(chunk)
-
-    check_published_md5(url, md5.hexdigest(), md5_by_url.get(url))
+    download_checked(url, part_name, md5_by_url.get(url))

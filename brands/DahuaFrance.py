@@ -1,10 +1,9 @@
-import hashlib
 import html
 import re
 from urllib.parse import unquote, urljoin
 
 from util import http
-from util.download_firmware import check_published_md5
+from util.download_firmware import download_checked
 from util.file_type import classify_file_type
 from util.oem_helpers import make_firmware
 
@@ -69,11 +68,5 @@ def get_firmwares():
 
 
 def download_file(url, part_name):
-    md5 = hashlib.md5()
-    with http.get(url, stream=True) as r:
-        r.raise_for_status()
-        with open(part_name, "wb") as f:
-            for chunk in http.iter_content_with_min_rate(r):
-                f.write(chunk)
-                md5.update(chunk)
-    check_published_md5(url, md5.hexdigest(), md5_by_url.get(url))
+    # Resumable: Dahua France's server drops connections partway through large files
+    download_checked(url, part_name, md5_by_url.get(url))
