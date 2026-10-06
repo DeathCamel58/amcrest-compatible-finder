@@ -42,6 +42,8 @@ SOURCES = [
     ("www.dahuasecurity.com/asset/upload/", "Dahua", True),
     # Lupus Electronics (a German Dahua OEM): builds removed from its downloads page
     ("www.lupus-electronics.de/shop/documents/", "Lupus Electronics", True),
+    # TVC Mexico's file server (down since 2026-10-05): older IPC builds its forum page no longer links
+    ("soporte.tvc.mx/Ingenieria/DAHUA/FIRMWARE/", "TVC", True),
     ("us.dahuasecurity.com/wp-content/uploads/", "Dahua", True),
     ("www.dahuatech.com/upload/", "Dahua", True),
     ("www1.dahuatech.com/File/", "Dahua", True),
