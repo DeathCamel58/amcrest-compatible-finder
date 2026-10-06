@@ -11140,7 +11140,7 @@
   "status": "ok"
  },
  "621777_General_VTO2000A_MCU_V3.000.0000.0.R.20180316.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTO2000A-Slave_MCU_V3.000.0000.0.R.20180316.hex: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -11151,7 +11151,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed"
  },
  "642344_DH_NKB5000_Eng_V3.211.10SA000.0.R.180511.BIN": {
@@ -31912,6 +31912,36 @@
   "processed_at": "2026-10-03T18:57:51+00:00",
   "status": "ok"
  },
+ "Customer_VTO3211D_EngCze_PN_SIP_V4.400.1501000.0.R.20220322.bin": {
+  "detail": "data/firmware/08/082c9a9e3af63f51.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO3221D",
+    "VTO3221E",
+    "VTO6221",
+    "VTO6221E",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO622X"
+   ]
+  },
+  "hardware_ids": [
+   "VTO3221D",
+   "VTO3221E",
+   "VTO6221",
+   "VTO6221E",
+   "VTO6223B",
+   "VTO6223C",
+   "VTO622X"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:26+00:00",
+  "status": "ok"
+ },
  "Customer_VTO3211D_Eng_P_32M_SIP_V3.200.10M7000.0.T.20181116.bin": {
   "detail": "data/firmware/60/6073b35b247b8c3c.json",
   "extractor_version": 5,
@@ -31952,6 +31982,42 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-05T12:18:34+00:00",
+  "socs": [
+   {
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "Customer_VTO3211D_Eng_P_SIP_V4.300.1004003.0.R.20210811.zip": {
+  "detail": "data/firmware/bb/bbbc980a705951f6.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO3221D",
+    "VTO3221E",
+    "VTO6221",
+    "VTO6221E",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO622X"
+   ]
+  },
+  "hardware_ids": [
+   "VTO3221D",
+   "VTO3221E",
+   "VTO6221",
+   "VTO6221E",
+   "VTO6223B",
+   "VTO6223C",
+   "VTO622X"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:30+00:00",
   "socs": [
    {
     "name": "Hi3516A",
@@ -35681,6 +35747,34 @@
   "package_format": "zip",
   "processed_at": "2026-10-05T12:18:50+00:00",
   "status": "extract_failed"
+ },
+ "DHI_IVD31XXAI-I_MultiLang_V3.005.0000004.0.R.260606.zip": {
+  "detail": "data/firmware/50/50b0a9ac3c1cfdcb.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [
+    "Dahua",
+    "General"
+   ],
+   "models": [
+    "IVD500-M-V2"
+   ]
+  },
+  "hardware_ids": [
+   "Dahua",
+   "General",
+   "IVD500-M-V2"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:08:03+00:00",
+  "socs": [
+   {
+    "vendor": "Axera"
+   }
+  ],
+  "status": "ok"
  },
  "DHI_IVD31XXAI-I_MultiLang_V3.005.0000004.1.R.260819.zip": {
   "detail": "data/firmware/aa/aaada64cfe0037f4.json",
@@ -42957,6 +43051,26 @@
   ],
   "status": "no_ids"
  },
+ "DH_ASC2204C_Eng_V1.001.0000001.0.R.20210728.bin": {
+  "detail": "data/firmware/fa/fa0bfd28ae67a439.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T22:07:41+00:00",
+  "socs": [
+   {
+    "name": "Hi3531A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "no_ids"
+ },
  "DH_ASC320XB_MultiLang_NP_V1.002.0000000.5.R.240417.zip": {
   "detail": "data/firmware/45/457031b4baae1b25.json",
   "extractor_version": 5,
@@ -47296,6 +47410,26 @@
   "processed_at": "2026-10-03T15:56:01+00:00",
   "status": "ok"
  },
+ "DH_EVS71XX_MultiLang_V5.002.0000001.2.R.260528.zip": {
+  "detail": "data/firmware/b8/b87fb385b841b506.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [
+    "Dahua",
+    "General"
+   ],
+   "models": []
+  },
+  "hardware_ids": [
+   "Dahua",
+   "General"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:05:57+00:00",
+  "status": "ok"
+ },
  "DH_EVS71XX_MultiLang_V5.002.0000002.1.R.260627.zip": {
   "detail": "data/firmware/44/442cfb3d15971f82.json",
   "extractor_version": 5,
@@ -47470,6 +47604,33 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-03T16:47:25+00:00",
+  "socs": [
+   {
+    "name": "Hi3531",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_HCVR42xx-S2_Eng_P_V3.200.0004.34.R.20171021.bin": {
+  "detail": "data/firmware/e7/e78bfb801014e42f.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "HCVR42xx-V3",
+    "HCVR42xx-V3.1"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_HCVR42xx-V3",
+   "HCVR42xx-V3",
+   "HCVR42xx-V3.1"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:26+00:00",
   "socs": [
    {
     "name": "Hi3531",
@@ -48104,6 +48265,28 @@
   "processed_at": "2026-10-03T16:38:08+00:00",
   "status": "ok"
  },
+ "DH_HCVR5x08-S2_Eng_P_V3.200.0004.13.R.20171021.bin": {
+  "detail": "data/firmware/52/524808b23b4d0f1f.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "HCVR5x08-S2",
+    "HCVR5x08-V2"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_HCVR5x08-S2",
+   "General_HCVR5x08-V2",
+   "HCVR5x08-S2",
+   "HCVR5x08-V2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:31+00:00",
+  "status": "ok"
+ },
  "DH_HCVR5x08-S2_Eng_P_V3.200.0004.6.R.20151123.bin": {
   "detail": "data/firmware/66/661f47c1eb171769.json",
   "extractor_version": 5,
@@ -48578,6 +48761,28 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-03T16:38:04+00:00",
+  "status": "ok"
+ },
+ "DH_HCVR5x16-S2_Eng_P_V3.200.0004.13.R.20171021.bin": {
+  "detail": "data/firmware/85/855d2a3dc8b50218.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "HCVR5x16-S2",
+    "HCVR5x16-V2"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_HCVR5x16-S2",
+   "General_HCVR5x16-V2",
+   "HCVR5x16-S2",
+   "HCVR5x16-V2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "ok"
  },
  "DH_HCVR5x16-S2_SpnEng_NP_V3.200.0004.11.R.20170417.bin": {
@@ -50146,6 +50351,30 @@
   "processed_at": "2026-10-03T16:52:07+00:00",
   "status": "ok"
  },
+ "DH_HCVR7xxx(V2.0)_Eng_P_V3.210.0001.1.R.20171020.bin": {
+  "detail": "data/firmware/c1/c19d90c3e2b05dc9.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "HCVR7xxx"
+   ],
+   "hwids": [],
+   "ignored": [
+    "Dahua"
+   ],
+   "models": [
+    "N7"
+   ]
+  },
+  "hardware_ids": [
+   "Dahua",
+   "General_N7",
+   "HCVR7xxx"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:21+00:00",
+  "status": "ok"
+ },
  "DH_HCVR7xxx(V2.0)_Eng_P_V3.210.0001.4.R.20180113.bin": {
   "detail": "data/firmware/11/1117a9d6a6be62d8.json",
   "extractor_version": 5,
@@ -50589,6 +50818,32 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-04T15:39:00+00:00",
+  "status": "ok"
+ },
+ "DH_HCVRxx04HG(P)-X_Eng_P_V3.200.0001.19.R.20170929.bin": {
+  "detail": "data/firmware/90/90aa9c0b23908474.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "DVRxx04HD-X"
+   ],
+   "hwids": [],
+   "ignored": [
+    "General"
+   ],
+   "models": [
+    "N6",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DVRxx04HD-X",
+   "General",
+   "General_N6",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:23+00:00",
   "status": "ok"
  },
  "DH_HCVRxx04HG(P)-X_Eng_P_V3.200.0001.19.R.20171018.bin": {
@@ -54202,6 +54457,32 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-C10_Eng_PN_V2.400.0000.0.R.150506.bin": {
+  "detail": "data/firmware/2e/2ea19080dc173d70.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CE-C100",
+    "CE-C10S"
+   ]
+  },
+  "hardware_ids": [
+   "CE-C100",
+   "CE-C10S"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:38+00:00",
+  "socs": [
+   {
+    "name": "Hi3518",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-Consumer-Chou-Rhea_Eng_P_V2.460.0000.3.R.20170628.bin": {
   "detail": "data/firmware/65/65423995f09be7b2.json",
   "extractor_version": 5,
@@ -54454,6 +54735,72 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-04T15:40:49+00:00",
+  "socs": [
+   {
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-Consumer-Chou-Rhea_Eng_P_V2.622.0000000.9.R.180914.bin": {
+  "detail": "data/firmware/03/030df0da666ddec2.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-A26",
+    "IPC-A26-Diamond",
+    "IPC-A26G",
+    "IPC-A26Z",
+    "IPC-A46",
+    "IPC-A46G",
+    "IPC-A46L",
+    "IPC-A46L-OEM",
+    "IPC-A46Z",
+    "IPC-C26",
+    "IPC-C46",
+    "IPC-C46L",
+    "IPC-HDBW1230E-AW",
+    "IPC-HDBW1235E-W",
+    "IPC-HDBW1430E-AW",
+    "IPC-HDBW1435E-W",
+    "IPC-HFW1235S-W",
+    "IPC-HFW1435S-W",
+    "IPC-K26",
+    "IPC-K46",
+    "IPC-K46L",
+    "IPC-K86"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-A26",
+   "IPC-A26-Diamond",
+   "IPC-A26G",
+   "IPC-A26Z",
+   "IPC-A46",
+   "IPC-A46G",
+   "IPC-A46L",
+   "IPC-A46L-OEM",
+   "IPC-A46Z",
+   "IPC-C26",
+   "IPC-C46",
+   "IPC-C46L",
+   "IPC-HDBW1230E-AW",
+   "IPC-HDBW1235E-W",
+   "IPC-HDBW1430E-AW",
+   "IPC-HDBW1435E-W",
+   "IPC-HFW1235S-W",
+   "IPC-HFW1435S-W",
+   "IPC-K26",
+   "IPC-K46",
+   "IPC-K46L",
+   "IPC-K86"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:24+00:00",
   "socs": [
    {
     "name": "S3L",
@@ -57697,6 +58044,52 @@
   "socs": [
    {
     "name": "Hi3559AV100",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HFW11XX_Eng_P_V2.210.0000.0.R.20151211.bin": {
+  "detail": "data/firmware/42/42a43417000d5216.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HD1100C",
+    "IPC-HD1100C-A",
+    "IPC-HD1100C-W",
+    "IPC-HDBW1100E",
+    "IPC-HDW1100S",
+    "IPC-HDW1100S-A",
+    "IPC-HFW1100B-C",
+    "IPC-HFW1100S-W",
+    "IPC-KW10",
+    "IPC-KW10-A",
+    "IPC-KW12",
+    "IPC-KW12-A"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HD1100C",
+   "IPC-HD1100C-A",
+   "IPC-HD1100C-W",
+   "IPC-HDBW1100E",
+   "IPC-HDW1100S",
+   "IPC-HDW1100S-A",
+   "IPC-HFW1100B-C",
+   "IPC-HFW1100S-W",
+   "IPC-KW10",
+   "IPC-KW10-A",
+   "IPC-KW12",
+   "IPC-KW12-A"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:40+00:00",
+  "socs": [
+   {
+    "name": "Hi3518",
     "vendor": "HiSilicon"
    }
   ],
@@ -61193,6 +61586,99 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX1X2X-Themis_Eng_P_V2.802.000008.0.R.250912.zip": {
+  "detail": "data/firmware/fc/fc9276891d2d30a2.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HD1320C",
+    "IPC-HDBW2120R-ZS",
+    "IPC-HDBW2121R-VFS-V2",
+    "IPC-HDBW2121R-ZS",
+    "IPC-HDBW2121R-ZS-V2",
+    "IPC-HDBW2220R-ZS",
+    "IPC-HDBW2221R-VFS",
+    "IPC-HDBW2221R-ZS",
+    "IPC-HDBW2320R-ZAS",
+    "IPC-HDBW2320R-ZS",
+    "IPC-HDBW2421R-ZS",
+    "IPC-HDPW1220FP-S",
+    "IPC-HDPW1420F",
+    "IPC-HDW1320S",
+    "IPC-HDW2120R-Z",
+    "IPC-HDW2220R-Z",
+    "IPC-HDW2320R-Z",
+    "IPC-HFW1220R",
+    "IPC-HFW1420R",
+    "IPC-HFW2120R-VFS",
+    "IPC-HFW2120R-ZS",
+    "IPC-HFW2121R-VFS",
+    "IPC-HFW2121R-VFS-V2",
+    "IPC-HFW2121R-ZS",
+    "IPC-HFW2121R-ZS-V2",
+    "IPC-HFW2220R-VFS",
+    "IPC-HFW2220R-ZS",
+    "IPC-HFW2221R-VFS",
+    "IPC-HFW2221R-ZS",
+    "IPC-HFW2320R-VFS",
+    "IPC-HFW2320R-Z",
+    "IPC-HFW2320R-ZS",
+    "IPC-HFW2420R-VFS",
+    "IPC-HFW2420R-ZS",
+    "IPC-HFW2421R-VFS",
+    "IPC-HFW2421R-ZS"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HD1320C",
+   "IPC-HDBW2120R-ZS",
+   "IPC-HDBW2121R-VFS-V2",
+   "IPC-HDBW2121R-ZS",
+   "IPC-HDBW2121R-ZS-V2",
+   "IPC-HDBW2220R-ZS",
+   "IPC-HDBW2221R-VFS",
+   "IPC-HDBW2221R-ZS",
+   "IPC-HDBW2320R-ZAS",
+   "IPC-HDBW2320R-ZS",
+   "IPC-HDBW2421R-ZS",
+   "IPC-HDPW1220FP-S",
+   "IPC-HDPW1420F",
+   "IPC-HDW1320S",
+   "IPC-HDW2120R-Z",
+   "IPC-HDW2220R-Z",
+   "IPC-HDW2320R-Z",
+   "IPC-HFW1220R",
+   "IPC-HFW1420R",
+   "IPC-HFW2120R-VFS",
+   "IPC-HFW2120R-ZS",
+   "IPC-HFW2121R-VFS",
+   "IPC-HFW2121R-VFS-V2",
+   "IPC-HFW2121R-ZS",
+   "IPC-HFW2121R-ZS-V2",
+   "IPC-HFW2220R-VFS",
+   "IPC-HFW2220R-ZS",
+   "IPC-HFW2221R-VFS",
+   "IPC-HFW2221R-ZS",
+   "IPC-HFW2320R-VFS",
+   "IPC-HFW2320R-Z",
+   "IPC-HFW2320R-ZS",
+   "IPC-HFW2420R-VFS",
+   "IPC-HFW2420R-ZS",
+   "IPC-HFW2421R-VFS",
+   "IPC-HFW2421R-ZS"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:30+00:00",
+  "socs": [
+   {
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-HX1X2X-Themis_HDBW1X2X_EngSpnFrn_N_V2.600.0005.0.R.20170421.bin": {
   "detail": "data/firmware/46/46a7fae6cac0fa13.json",
   "extractor_version": 5,
@@ -63230,6 +63716,41 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:55:02+00:00",
+  "socs": [
+   {
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX1XXX-Kant_EngSpnRusUkr_PN_V2.880.0000000.20.R.260312.zip": {
+  "detail": "data/firmware/9d/9d37fed48a80ad43.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW1639E1-IL",
+    "IPC-HDBW1839E1-IL",
+    "IPC-HFW1530B-A-IL",
+    "IPC-HFW1639TC-A-IL",
+    "IPC-HFW1839TC-A-IL"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW1639E1-IL",
+   "IPC-HDBW1839E1-IL",
+   "IPC-HFW1530B-A-IL",
+   "IPC-HFW1639TC-A-IL",
+   "IPC-HFW1839TC-A-IL",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:00+00:00",
   "socs": [
    {
     "name": "Infinity6C",
@@ -66202,6 +66723,36 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:41:09+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX2(1)XXX-Sag_EngSpnFrn_PN_V2.622.0000000.18.R.190109.bin": {
+  "detail": "data/firmware/8a/8a4210d18229cd52.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW1831R",
+    "IPC-HDBW1831R-S",
+    "IPC-HDBW2831R-ZAS-3711",
+    "IPC-HDBW2831R-ZS-3711",
+    "IPC-HFW1831E",
+    "IPC-HFW2831T-ZAS-3711",
+    "IPC-HFW2831T-ZS-3711"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW1831R",
+   "IPC-HDBW1831R-S",
+   "IPC-HDBW2831R-ZAS-3711",
+   "IPC-HDBW2831R-ZS-3711",
+   "IPC-HFW1831E",
+   "IPC-HFW2831T-ZAS-3711",
+   "IPC-HFW2831T-ZS-3711"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
   "status": "ok"
  },
  "DH_IPC-HX2(1)XXX-Sag_EngSpnFrn_PN_V2.622.0000000.23.R.191101.bin": {
@@ -77443,6 +77994,24 @@
   "processed_at": "2026-10-03T16:47:29+00:00",
   "status": "ok"
  },
+ "DH_IPC-HX2XXX-AOV-Hugo_Eng_PN_V2.820.0000000.11.R.260414.zip": {
+  "detail": "data/firmware/d8/d8c0297989788734.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HFW2449DGP-ZAS-PV-4G"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HFW2449DGP-ZAS-PV-4G"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:06:56+00:00",
+  "status": "ok"
+ },
  "DH_IPC-HX2XXX-AOV-Hugo_Eng_PN_V2.820.0000000.12.R.260520.zip": {
   "detail": "data/firmware/5e/5eb89e831f21a7d0.json",
   "extractor_version": 5,
@@ -78844,6 +79413,89 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:54:56+00:00",
+  "socs": [
+   {
+    "name": "Infinity6C",
+    "vendor": "SigmaStar"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX2XXX-Kant_MultiLang_PN_V2.880.0000000.20.R.260312.zip": {
+  "detail": "data/firmware/4c/4c3a3de1d8e9b9f2.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW2549E-S-IL",
+    "IPC-HDBW2649E-S-IL",
+    "IPC-HDBW2649E-S-IL-K",
+    "IPC-HDW2549T-ZS-IL",
+    "IPC-HDW2649T-ZS-IL",
+    "IPC-HDW2649T-ZS-IL-K",
+    "IPC-HDW2849TP-ZS-IL",
+    "IPC-HFW2541SP-S",
+    "IPC-HFW2541TP-AS",
+    "IPC-HFW2541TP-ZAS",
+    "IPC-HFW2541TP-ZS",
+    "IPC-HFW2549SP-S-IL",
+    "IPC-HFW2549T-ZAS-IL",
+    "IPC-HFW2549TLP-S-PV",
+    "IPC-HFW2549TP-AS-IL",
+    "IPC-HFW2649T-AS-IL",
+    "IPC-HFW2649T-ZAS-IL",
+    "IPC-HFW2649T-ZAS-IL-K",
+    "IPC-HFW2841SP-S",
+    "IPC-HFW2841TP-AS",
+    "IPC-HFW2841TP-ZAS",
+    "IPC-HFW2841TP-ZS",
+    "IPC-HFW2849SP-S-IL",
+    "IPC-HFW2849TP-AS-IL",
+    "IPC-HFW2849TP-ZAS-IL",
+    "IPC-HFW3233F-ZAS-IL-27135",
+    "IPC-HFW3233F-ZSA-IL-27135",
+    "IPC-HFW3433F-ZAS-IL-27135",
+    "IPC-HFW3433F-ZSA-IL-27135"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW2549E-S-IL",
+   "IPC-HDBW2649E-S-IL",
+   "IPC-HDBW2649E-S-IL-K",
+   "IPC-HDW2549T-ZS-IL",
+   "IPC-HDW2649T-ZS-IL",
+   "IPC-HDW2649T-ZS-IL-K",
+   "IPC-HDW2849TP-ZS-IL",
+   "IPC-HFW2541SP-S",
+   "IPC-HFW2541TP-AS",
+   "IPC-HFW2541TP-ZAS",
+   "IPC-HFW2541TP-ZS",
+   "IPC-HFW2549SP-S-IL",
+   "IPC-HFW2549T-ZAS-IL",
+   "IPC-HFW2549TLP-S-PV",
+   "IPC-HFW2549TP-AS-IL",
+   "IPC-HFW2649T-AS-IL",
+   "IPC-HFW2649T-ZAS-IL",
+   "IPC-HFW2649T-ZAS-IL-K",
+   "IPC-HFW2841SP-S",
+   "IPC-HFW2841TP-AS",
+   "IPC-HFW2841TP-ZAS",
+   "IPC-HFW2841TP-ZS",
+   "IPC-HFW2849SP-S-IL",
+   "IPC-HFW2849TP-AS-IL",
+   "IPC-HFW2849TP-ZAS-IL",
+   "IPC-HFW3233F-ZAS-IL-27135",
+   "IPC-HFW3233F-ZSA-IL-27135",
+   "IPC-HFW3433F-ZAS-IL-27135",
+   "IPC-HFW3433F-ZSA-IL-27135",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:56+00:00",
   "socs": [
    {
     "name": "Infinity6C",
@@ -89483,6 +90135,24 @@
   "processed_at": "2026-10-05T12:15:34+00:00",
   "status": "extract_failed"
  },
+ "DH_IPC-HX3XXX-Goethe_MultiLang_PN_Stream3_V3.140.0000000.26.R.260401.zip": {
+  "detail": "data/firmware/3b/3b554fdd3d8ce5f6.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "IPC-HX3XXX"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:06:04+00:00",
+  "status": "ok"
+ },
  "DH_IPC-HX3XXX-Goethe_MultiLang_PN_Stream3_V3.140.0000000.29.R.260529.bin": {
   "attempts": 3,
   "error": "binwalk found nothing to extract",
@@ -99706,6 +100376,37 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX4X2X-Themis_Eng_P_Stream3_Wifi_V2.620.0000002.0.R.170830.bin": {
+  "detail": "data/firmware/ee/ee295bd167e9b756.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDPW4120FP-W",
+    "IPC-HDPW4120FP-W-0280B-V2",
+    "IPC-HDPW4120FP-W-V2",
+    "IPC-HDPW4220FP-W",
+    "IPC-HDPW4221FP-W"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDPW4120FP-W",
+   "IPC-HDPW4120FP-W-0280B-V2",
+   "IPC-HDPW4120FP-W-V2",
+   "IPC-HDPW4220FP-W",
+   "IPC-HDPW4221FP-W"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:36+00:00",
+  "socs": [
+   {
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-HX4X2X-Themis_Eng_P_Stream3_Wifi_V2.620.0000004.0.R.191130.bin": {
   "detail": "data/firmware/1a/1a6daa2f8f2599f7.json",
   "extractor_version": 5,
@@ -99997,6 +100698,140 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX4X3X-Rhea_Eng_P_Stream3_V2.460.0000.2.R.20161216.bin": {
+  "detail": "data/firmware/d3/d39ba6fefe732255.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-EW4431-ASW",
+    "IPC-EW4431-S",
+    "IPC-EW4431-SW",
+    "IPC-EW5431-ASW",
+    "IPC-EW5431-S",
+    "IPC-EW5431-SW",
+    "IPC-HDB4231C-AS",
+    "IPC-HDB4231C-M12",
+    "IPC-HDB4231G",
+    "IPC-HDB4431C-AS",
+    "IPC-HDB4431C-M12",
+    "IPC-HDB4431G",
+    "IPC-HDBW4231E-AS",
+    "IPC-HDBW4231F-AS",
+    "IPC-HDBW4231F-M12",
+    "IPC-HDBW4233R-S2",
+    "IPC-HDBW4431E-AS",
+    "IPC-HDBW4431F-AS",
+    "IPC-HDBW4431F-M12",
+    "IPC-HDBW4431R-S2",
+    "IPC-HDBW4830EP-AS",
+    "IPC-HDP4231G",
+    "IPC-HDP4431G",
+    "IPC-HDW4231C-S2",
+    "IPC-HDW4231EM",
+    "IPC-HDW4231M",
+    "IPC-HDW4233C-S2",
+    "IPC-HDW4431C-S2",
+    "IPC-HDW4431EM",
+    "IPC-HDW4431M",
+    "IPC-HDW4530C",
+    "IPC-HDW4530EM",
+    "IPC-HDW4830EM",
+    "IPC-HFW4231B-BAS",
+    "IPC-HFW4231D-BAS",
+    "IPC-HFW4231E-S",
+    "IPC-HFW4231M",
+    "IPC-HFW4231M-AS",
+    "IPC-HFW4231S-S2",
+    "IPC-HFW4431B-BAS",
+    "IPC-HFW4431D-BAS",
+    "IPC-HFW4431E-S",
+    "IPC-HFW4431K-AS-I6-S2",
+    "IPC-HFW4431K-I6-S2",
+    "IPC-HFW4431KM-AS-S2",
+    "IPC-HFW4431KM-S2",
+    "IPC-HFW4431S-S2",
+    "IPC-HFW4530E-S",
+    "IPC-HFW4830EP-S",
+    "IPC-HUM7230-E1",
+    "IPC-HUM8230P-E1",
+    "IPC-HUM8231",
+    "IPC-MBW4231-H",
+    "IPC-MBW4431-H",
+    "IPC-MBW7233-H",
+    "IPC-MBW7431-H"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-EW4431-ASW",
+   "IPC-EW4431-S",
+   "IPC-EW4431-SW",
+   "IPC-EW5431-ASW",
+   "IPC-EW5431-S",
+   "IPC-EW5431-SW",
+   "IPC-HDB4231C-AS",
+   "IPC-HDB4231C-M12",
+   "IPC-HDB4231G",
+   "IPC-HDB4431C-AS",
+   "IPC-HDB4431C-M12",
+   "IPC-HDB4431G",
+   "IPC-HDBW4231E-AS",
+   "IPC-HDBW4231F-AS",
+   "IPC-HDBW4231F-M12",
+   "IPC-HDBW4233R-S2",
+   "IPC-HDBW4431E-AS",
+   "IPC-HDBW4431F-AS",
+   "IPC-HDBW4431F-M12",
+   "IPC-HDBW4431R-S2",
+   "IPC-HDBW4830EP-AS",
+   "IPC-HDP4231G",
+   "IPC-HDP4431G",
+   "IPC-HDW4231C-S2",
+   "IPC-HDW4231EM",
+   "IPC-HDW4231M",
+   "IPC-HDW4233C-S2",
+   "IPC-HDW4431C-S2",
+   "IPC-HDW4431EM",
+   "IPC-HDW4431M",
+   "IPC-HDW4530C",
+   "IPC-HDW4530EM",
+   "IPC-HDW4830EM",
+   "IPC-HFW4231B-BAS",
+   "IPC-HFW4231D-BAS",
+   "IPC-HFW4231E-S",
+   "IPC-HFW4231M",
+   "IPC-HFW4231M-AS",
+   "IPC-HFW4231S-S2",
+   "IPC-HFW4431B-BAS",
+   "IPC-HFW4431D-BAS",
+   "IPC-HFW4431E-S",
+   "IPC-HFW4431K-AS-I6-S2",
+   "IPC-HFW4431K-I6-S2",
+   "IPC-HFW4431KM-AS-S2",
+   "IPC-HFW4431KM-S2",
+   "IPC-HFW4431S-S2",
+   "IPC-HFW4530E-S",
+   "IPC-HFW4830EP-S",
+   "IPC-HUM7230-E1",
+   "IPC-HUM8230P-E1",
+   "IPC-HUM8231",
+   "IPC-MBW4231-H",
+   "IPC-MBW4431-H",
+   "IPC-MBW7233-H",
+   "IPC-MBW7431-H"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:26+00:00",
+  "socs": [
+   {
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-HX4XXX-Eos4_EngSpnFrn_N_Stream3_V2.680.0000000.9.R.250828.zip": {
   "detail": "data/firmware/81/8129e5bfc35cb644.json",
   "extractor_version": 5,
@@ -100166,6 +101001,180 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:47:52+00:00",
+  "socs": [
+   {
+    "name": "Hi3516CV300",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX4XXX-Eos4_Eng_P_Stream3_V2.622.0000000.19.R.181126.bin": {
+  "detail": "data/firmware/86/86648fa6905a7967.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW4130R-VFAS-27135",
+    "IPC-HDBW4130R-VFAS-X-27135",
+    "IPC-HDBW4130R-VFS-27135",
+    "IPC-HDBW4130R-ZAS-27135",
+    "IPC-HDBW4130R-ZAS-X-27135",
+    "IPC-HDBW4130R-ZS-27135",
+    "IPC-HDBW4231RP-AS",
+    "IPC-HDBW4233R-ASW",
+    "IPC-HDBW4233R-S-V3",
+    "IPC-HDBW4233R-SW",
+    "IPC-HDBW4233R-VFAS-27135",
+    "IPC-HDBW4233R-VFAS-X-27135",
+    "IPC-HDBW4233R-VFS-27135",
+    "IPC-HDBW4233R-W",
+    "IPC-HDBW4233R-ZAS-27135",
+    "IPC-HDBW4233R-ZAS-X-27135",
+    "IPC-HDBW4233R-ZS-27135",
+    "IPC-HDBW4238R-VFAS-27135",
+    "IPC-HDW4131C-A",
+    "IPC-HDW4131C-AS",
+    "IPC-HDW4131R-ZA",
+    "IPC-HDW4131R-ZAS",
+    "IPC-HDW4231CP-A",
+    "IPC-HDW4233C-A-S2",
+    "IPC-HDW4233C-A-S3",
+    "IPC-HDW4233C-A-V3",
+    "IPC-HDW4233C-AS-S3",
+    "IPC-HDW4233R-ZA",
+    "IPC-HDW4233R-ZAS",
+    "IPC-HFW4130F-VFAS-27135",
+    "IPC-HFW4130F-VFAS-X-27135",
+    "IPC-HFW4130F-VFS-27135",
+    "IPC-HFW4130F-ZAS-27135",
+    "IPC-HFW4130F-ZAS-X-27135",
+    "IPC-HFW4130F-ZS-27135",
+    "IPC-HFW4131M",
+    "IPC-HFW4131M-AS",
+    "IPC-HFW4131M-S",
+    "IPC-HFW4131R-VF",
+    "IPC-HFW4131R-VFAS",
+    "IPC-HFW4131R-VFS",
+    "IPC-HFW4131R-Z",
+    "IPC-HFW4131R-ZAS",
+    "IPC-HFW4131R-ZS",
+    "IPC-HFW4231MP-AS",
+    "IPC-HFW4233F-VFAS-27135",
+    "IPC-HFW4233F-VFAS-X-27135",
+    "IPC-HFW4233F-VFS-27135",
+    "IPC-HFW4233F-ZAS-27135",
+    "IPC-HFW4233F-ZAS-X-27135",
+    "IPC-HFW4233F-ZS-27135",
+    "IPC-HFW4233K-AS-I6-S2",
+    "IPC-HFW4233K-AS-I6-V3",
+    "IPC-HFW4233K-AS-I6-X-S2",
+    "IPC-HFW4233K-AS-LED",
+    "IPC-HFW4233K-AS-NI",
+    "IPC-HFW4233K-I6-S2",
+    "IPC-HFW4233K-I6-V3",
+    "IPC-HFW4233M-AS-S2",
+    "IPC-HFW4233M-AS-V3",
+    "IPC-HFW4233M-AS-X-S2",
+    "IPC-HFW4233M-S-S2",
+    "IPC-HFW4233M-S2",
+    "IPC-HFW4233M-V3",
+    "IPC-HFW4233R-VF",
+    "IPC-HFW4233R-VFAS",
+    "IPC-HFW4233R-VFS",
+    "IPC-HFW4233R-Z",
+    "IPC-HFW4233R-ZAS",
+    "IPC-HFW4233R-ZS",
+    "IPC-HFW4238K-LED",
+    "IPC-HFW4238K-NI",
+    "IPC-HMW4230",
+    "IPC-HMW7230",
+    "IPC-HUM4231",
+    "IPC-HUM7236"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW4130R-VFAS-27135",
+   "IPC-HDBW4130R-VFAS-X-27135",
+   "IPC-HDBW4130R-VFS-27135",
+   "IPC-HDBW4130R-ZAS-27135",
+   "IPC-HDBW4130R-ZAS-X-27135",
+   "IPC-HDBW4130R-ZS-27135",
+   "IPC-HDBW4231RP-AS",
+   "IPC-HDBW4233R-ASW",
+   "IPC-HDBW4233R-S-V3",
+   "IPC-HDBW4233R-SW",
+   "IPC-HDBW4233R-VFAS-27135",
+   "IPC-HDBW4233R-VFAS-X-27135",
+   "IPC-HDBW4233R-VFS-27135",
+   "IPC-HDBW4233R-W",
+   "IPC-HDBW4233R-ZAS-27135",
+   "IPC-HDBW4233R-ZAS-X-27135",
+   "IPC-HDBW4233R-ZS-27135",
+   "IPC-HDBW4238R-VFAS-27135",
+   "IPC-HDW4131C-A",
+   "IPC-HDW4131C-AS",
+   "IPC-HDW4131R-ZA",
+   "IPC-HDW4131R-ZAS",
+   "IPC-HDW4231CP-A",
+   "IPC-HDW4233C-A-S2",
+   "IPC-HDW4233C-A-S3",
+   "IPC-HDW4233C-A-V3",
+   "IPC-HDW4233C-AS-S3",
+   "IPC-HDW4233R-ZA",
+   "IPC-HDW4233R-ZAS",
+   "IPC-HFW4130F-VFAS-27135",
+   "IPC-HFW4130F-VFAS-X-27135",
+   "IPC-HFW4130F-VFS-27135",
+   "IPC-HFW4130F-ZAS-27135",
+   "IPC-HFW4130F-ZAS-X-27135",
+   "IPC-HFW4130F-ZS-27135",
+   "IPC-HFW4131M",
+   "IPC-HFW4131M-AS",
+   "IPC-HFW4131M-S",
+   "IPC-HFW4131R-VF",
+   "IPC-HFW4131R-VFAS",
+   "IPC-HFW4131R-VFS",
+   "IPC-HFW4131R-Z",
+   "IPC-HFW4131R-ZAS",
+   "IPC-HFW4131R-ZS",
+   "IPC-HFW4231MP-AS",
+   "IPC-HFW4233F-VFAS-27135",
+   "IPC-HFW4233F-VFAS-X-27135",
+   "IPC-HFW4233F-VFS-27135",
+   "IPC-HFW4233F-ZAS-27135",
+   "IPC-HFW4233F-ZAS-X-27135",
+   "IPC-HFW4233F-ZS-27135",
+   "IPC-HFW4233K-AS-I6-S2",
+   "IPC-HFW4233K-AS-I6-V3",
+   "IPC-HFW4233K-AS-I6-X-S2",
+   "IPC-HFW4233K-AS-LED",
+   "IPC-HFW4233K-AS-NI",
+   "IPC-HFW4233K-I6-S2",
+   "IPC-HFW4233K-I6-V3",
+   "IPC-HFW4233M-AS-S2",
+   "IPC-HFW4233M-AS-V3",
+   "IPC-HFW4233M-AS-X-S2",
+   "IPC-HFW4233M-S-S2",
+   "IPC-HFW4233M-S2",
+   "IPC-HFW4233M-V3",
+   "IPC-HFW4233R-VF",
+   "IPC-HFW4233R-VFAS",
+   "IPC-HFW4233R-VFS",
+   "IPC-HFW4233R-Z",
+   "IPC-HFW4233R-ZAS",
+   "IPC-HFW4233R-ZS",
+   "IPC-HFW4238K-LED",
+   "IPC-HFW4238K-NI",
+   "IPC-HMW4230",
+   "IPC-HMW7230",
+   "IPC-HUM4231",
+   "IPC-HUM7236"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:20+00:00",
   "socs": [
    {
     "name": "Hi3516CV300",
@@ -100842,6 +101851,24 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:55:15+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX4XXX-Sag_EngSpnFrn_PN_Stream3_V2.800.00VD000.0.T.200622.bin": {
+  "detail": "data/firmware/6a/6a24abbb90e3a78b.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HD4140X-3D"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HD4140X-3D"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:04+00:00",
   "status": "ok"
  },
  "DH_IPC-HX4XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.35.R.250519.zip": {
@@ -109063,6 +110090,75 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX5(4)XXX-DT256-Taurus_MultiLang_PN_Stream3_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/08/08e9e6be6096ceb8.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDPW5441CP-AS-PV",
+    "IPC-HDPW5443C-PV-DTFX-MP"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDPW5441CP-AS-PV",
+   "IPC-HDPW5443C-PV-DTFX-MP",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:32+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-DT256-Taurus_MultiLang_PN_Stream3_V3.140.0000000.62.R.260114.zip": {
+  "detail": "data/firmware/5c/5cb009bbcda781b3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDPW5441CP-AS-PV",
+    "IPC-HDPW5443C-PV-DTFX-MP"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDPW5441CP-AS-PV",
+   "IPC-HDPW5443C-PV-DTFX-MP",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:25+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-DT256-Taurus_MultiLang_PN_Stream3_V3.140.0000000.71.R.260210.zip": {
+  "detail": "data/firmware/e0/e01ae66cd567d0a3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDPW5441CP-AS-PV",
+    "IPC-HDPW5443C-PV-DTFX-MP"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDPW5441CP-AS-PV",
+   "IPC-HDPW5443C-PV-DTFX-MP",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:31+00:00",
+  "status": "ok"
+ },
  "DH_IPC-HX5(4)XXX-DT256-Taurus_MultiLang_PN_Stream3_V3.140.0000000.81.R.260508.zip": {
   "detail": "data/firmware/e9/e9123841f934e425.json",
   "extractor_version": 5,
@@ -109123,6 +110219,84 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T15:57:03+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/ff/ff27014a7269cfea.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HFW5443DK1-ZYH-PV-5G-0735",
+    "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+    "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+    "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-2712"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HFW5443DK1-ZYH-PV-5G-0735",
+   "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+   "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+   "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+   "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+   "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+   "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+   "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+   "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+   "IPC-HFW5843DK1-ZYH-PV-5G-X-2712",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:49+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.62.R.260114.zip": {
+  "detail": "data/firmware/17/17b1501a2de0d31d.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HFW5443DK1-ZYH-PV-5G-0735",
+    "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+    "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+    "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+    "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+    "IPC-HFW5843DK1-ZYH-PV-5G-X-2712"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HFW5443DK1-ZYH-PV-5G-0735",
+   "IPC-HFW5443DK1-ZYH-PV-5G-27135",
+   "IPC-HFW5842DK1P-Z-5G-FM16-0832",
+   "IPC-HFW5842DK1P-Z-5G-FM16-2712",
+   "IPC-HFW5842DK1P-Z-5G-FM65-0832",
+   "IPC-HFW5842DK1P-Z-5G-FM65-2712",
+   "IPC-HFW5843DK1-ZYH-PV-5G-0832",
+   "IPC-HFW5843DK1-ZYH-PV-5G-2712",
+   "IPC-HFW5843DK1-ZYH-PV-5G-X-0832",
+   "IPC-HFW5843DK1-ZYH-PV-5G-X-2712",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:02+00:00",
   "status": "ok"
  },
  "DH_IPC-HX5(4)XXX-EMMC-Taurus_MultiLang_PN_Stream3_V3.140.0000000.81.R.260508.zip": {
@@ -109326,6 +110500,97 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:20:45+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-Taurus_MultiLang_NP_Stream3-USA_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/d9/d9828d49585074ba.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW4443DR-SA-0210B",
+    "IPC-HDBW4443R-AS-0210B",
+    "IPC-HDBW5443DR-SA-0210B",
+    "IPC-HDBW5443R-AS-0210B",
+    "IPC-HDBW5443R1-AST-KZJC",
+    "IPC-HDBW5443R1-ZAST-0624-KZJC",
+    "IPC-HDBW5443R1-ZAST-27135-KZJC",
+    "IPC-HDW4849H-AS-LED",
+    "IPC-HDW5849H-YL-AS-LED",
+    "IPC-HDW5849HP-ASE-LED",
+    "IPC-HFE4243S-AS-LED",
+    "IPC-HFE4443S-AS-LED",
+    "IPC-HFE4843S-AS-LED",
+    "IPC-HFW4443DT-SA-0210B",
+    "IPC-HFW4443T-AS-0210B",
+    "IPC-HFW4849F1-PV-AS-LED",
+    "IPC-HFW5443DT-SA-0210B",
+    "IPC-HFW5443F1-ZAST-0624-KZJC",
+    "IPC-HFW5443F1-ZAST-27135-KZJC",
+    "IPC-HFW5443M1-AST-KZJC",
+    "IPC-HFW5443T-AS-0210B",
+    "IPC-HFW5449F1-ZAST-G4G-DGH",
+    "IPC-HFW5849F1-YL-PV-AS-LED",
+    "IPC-PDW4449-A180-E2-AST-0360B",
+    "IPC-PDW4849-A180-E2-AST",
+    "IPC-PDW5449-A180-E2-AST-0360B",
+    "IPC-PDW5849-A180-E2-AST",
+    "IPC-PDW5849-A180-E2-ASTE",
+    "IPC-PFW4449-A180-E2-AST-0360B",
+    "IPC-PFW4849-A180-E2-AST",
+    "IPC-PFW5449-A180-E2-AST-0360B",
+    "IPC-PFW5449-A180-E2-ST-0360B",
+    "IPC-PFW5849-A180-E2-AST",
+    "IPC-PFW5849-A180-E2-ST",
+    "IPC-PFW5849P-A180-E2-ASTE",
+    "IPC-PFW5849P-A180-E2-ASTE-M"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW4443DR-SA-0210B",
+   "IPC-HDBW4443R-AS-0210B",
+   "IPC-HDBW5443DR-SA-0210B",
+   "IPC-HDBW5443R-AS-0210B",
+   "IPC-HDBW5443R1-AST-KZJC",
+   "IPC-HDBW5443R1-ZAST-0624-KZJC",
+   "IPC-HDBW5443R1-ZAST-27135-KZJC",
+   "IPC-HDW4849H-AS-LED",
+   "IPC-HDW5849H-YL-AS-LED",
+   "IPC-HDW5849HP-ASE-LED",
+   "IPC-HFE4243S-AS-LED",
+   "IPC-HFE4443S-AS-LED",
+   "IPC-HFE4843S-AS-LED",
+   "IPC-HFW4443DT-SA-0210B",
+   "IPC-HFW4443T-AS-0210B",
+   "IPC-HFW4849F1-PV-AS-LED",
+   "IPC-HFW5443DT-SA-0210B",
+   "IPC-HFW5443F1-ZAST-0624-KZJC",
+   "IPC-HFW5443F1-ZAST-27135-KZJC",
+   "IPC-HFW5443M1-AST-KZJC",
+   "IPC-HFW5443T-AS-0210B",
+   "IPC-HFW5449F1-ZAST-G4G-DGH",
+   "IPC-HFW5849F1-YL-PV-AS-LED",
+   "IPC-HX3XXX",
+   "IPC-PDW4449-A180-E2-AST-0360B",
+   "IPC-PDW4849-A180-E2-AST",
+   "IPC-PDW5449-A180-E2-AST-0360B",
+   "IPC-PDW5849-A180-E2-AST",
+   "IPC-PDW5849-A180-E2-ASTE",
+   "IPC-PFW4449-A180-E2-AST-0360B",
+   "IPC-PFW4849-A180-E2-AST",
+   "IPC-PFW5449-A180-E2-AST-0360B",
+   "IPC-PFW5449-A180-E2-ST-0360B",
+   "IPC-PFW5849-A180-E2-AST",
+   "IPC-PFW5849-A180-E2-ST",
+   "IPC-PFW5849P-A180-E2-ASTE",
+   "IPC-PFW5849P-A180-E2-ASTE-M"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:21+00:00",
   "status": "ok"
  },
  "DH_IPC-HX5(4)XXX-Taurus_MultiLang_NP_Stream3-USA_V3.140.0000000.62.R.260114.zip": {
@@ -109863,6 +111128,97 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:15:14+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(4)XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/ff/fff172226f5ff957.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW4443DR-SA-0210B",
+    "IPC-HDBW4443R-AS-0210B",
+    "IPC-HDBW5443DR-SA-0210B",
+    "IPC-HDBW5443R-AS-0210B",
+    "IPC-HDBW5443R1-AST-KZJC",
+    "IPC-HDBW5443R1-ZAST-0624-KZJC",
+    "IPC-HDBW5443R1-ZAST-27135-KZJC",
+    "IPC-HDW4849H-AS-LED",
+    "IPC-HDW5849H-YL-AS-LED",
+    "IPC-HDW5849HP-ASE-LED",
+    "IPC-HFE4243S-AS-LED",
+    "IPC-HFE4443S-AS-LED",
+    "IPC-HFE4843S-AS-LED",
+    "IPC-HFW4443DT-SA-0210B",
+    "IPC-HFW4443T-AS-0210B",
+    "IPC-HFW4849F1-PV-AS-LED",
+    "IPC-HFW5443DT-SA-0210B",
+    "IPC-HFW5443F1-ZAST-0624-KZJC",
+    "IPC-HFW5443F1-ZAST-27135-KZJC",
+    "IPC-HFW5443M1-AST-KZJC",
+    "IPC-HFW5443T-AS-0210B",
+    "IPC-HFW5449F1-ZAST-G4G-DGH",
+    "IPC-HFW5849F1-YL-PV-AS-LED",
+    "IPC-PDW4449-A180-E2-AST-0360B",
+    "IPC-PDW4849-A180-E2-AST",
+    "IPC-PDW5449-A180-E2-AST-0360B",
+    "IPC-PDW5849-A180-E2-AST",
+    "IPC-PDW5849-A180-E2-ASTE",
+    "IPC-PFW4449-A180-E2-AST-0360B",
+    "IPC-PFW4849-A180-E2-AST",
+    "IPC-PFW5449-A180-E2-AST-0360B",
+    "IPC-PFW5449-A180-E2-ST-0360B",
+    "IPC-PFW5849-A180-E2-AST",
+    "IPC-PFW5849-A180-E2-ST",
+    "IPC-PFW5849P-A180-E2-ASTE",
+    "IPC-PFW5849P-A180-E2-ASTE-M"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW4443DR-SA-0210B",
+   "IPC-HDBW4443R-AS-0210B",
+   "IPC-HDBW5443DR-SA-0210B",
+   "IPC-HDBW5443R-AS-0210B",
+   "IPC-HDBW5443R1-AST-KZJC",
+   "IPC-HDBW5443R1-ZAST-0624-KZJC",
+   "IPC-HDBW5443R1-ZAST-27135-KZJC",
+   "IPC-HDW4849H-AS-LED",
+   "IPC-HDW5849H-YL-AS-LED",
+   "IPC-HDW5849HP-ASE-LED",
+   "IPC-HFE4243S-AS-LED",
+   "IPC-HFE4443S-AS-LED",
+   "IPC-HFE4843S-AS-LED",
+   "IPC-HFW4443DT-SA-0210B",
+   "IPC-HFW4443T-AS-0210B",
+   "IPC-HFW4849F1-PV-AS-LED",
+   "IPC-HFW5443DT-SA-0210B",
+   "IPC-HFW5443F1-ZAST-0624-KZJC",
+   "IPC-HFW5443F1-ZAST-27135-KZJC",
+   "IPC-HFW5443M1-AST-KZJC",
+   "IPC-HFW5443T-AS-0210B",
+   "IPC-HFW5449F1-ZAST-G4G-DGH",
+   "IPC-HFW5849F1-YL-PV-AS-LED",
+   "IPC-HX3XXX",
+   "IPC-PDW4449-A180-E2-AST-0360B",
+   "IPC-PDW4849-A180-E2-AST",
+   "IPC-PDW5449-A180-E2-AST-0360B",
+   "IPC-PDW5849-A180-E2-AST",
+   "IPC-PDW5849-A180-E2-ASTE",
+   "IPC-PFW4449-A180-E2-AST-0360B",
+   "IPC-PFW4849-A180-E2-AST",
+   "IPC-PFW5449-A180-E2-AST-0360B",
+   "IPC-PFW5449-A180-E2-ST-0360B",
+   "IPC-PFW5849-A180-E2-AST",
+   "IPC-PFW5849-A180-E2-ST",
+   "IPC-PFW5849P-A180-E2-ASTE",
+   "IPC-PFW5849P-A180-E2-ASTE-M"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:21+00:00",
   "status": "ok"
  },
  "DH_IPC-HX5(4)XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.62.R.260114.zip": {
@@ -111109,6 +112465,84 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:06:05+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/70/708e7796fdb42626.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW5441E-ZE-HDMI-27135",
+   "IPC-HDBW5441R-ASE-HDMI",
+   "IPC-HDBW5449R-ASE-LED",
+   "IPC-HDW5449HP-ZE-LED-2712-S2",
+   "IPC-HDW5449TM-SE-LED",
+   "IPC-HDW5849HP-ASE-LED-0280B-S2",
+   "IPC-HFW5449E-SE-LED",
+   "IPC-HFW5449T1P-ZE-LED-2712-S2",
+   "IPC-HFW5449TP-ASE-LED",
+   "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:09+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.62.R.260114.zip": {
+  "detail": "data/firmware/21/210705b7d20ff15f.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW5441E-ZE-HDMI-27135",
+    "IPC-HDBW5441R-ASE-HDMI",
+    "IPC-HDBW5449R-ASE-LED",
+    "IPC-HDW5449HP-ZE-LED-2712-S2",
+    "IPC-HDW5449TM-SE-LED",
+    "IPC-HDW5849HP-ASE-LED-0280B-S2",
+    "IPC-HFW5449E-SE-LED",
+    "IPC-HFW5449T1P-ZE-LED-2712-S2",
+    "IPC-HFW5449TP-ASE-LED",
+    "IPC-HFW5849T1P-ASE-LED-0280B-S2"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW5441E-ZE-HDMI-27135",
+   "IPC-HDBW5441R-ASE-HDMI",
+   "IPC-HDBW5449R-ASE-LED",
+   "IPC-HDW5449HP-ZE-LED-2712-S2",
+   "IPC-HDW5449TM-SE-LED",
+   "IPC-HDW5849HP-ASE-LED-0280B-S2",
+   "IPC-HFW5449E-SE-LED",
+   "IPC-HFW5449T1P-ZE-LED-2712-S2",
+   "IPC-HFW5449TP-ASE-LED",
+   "IPC-HFW5849T1P-ASE-LED-0280B-S2",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:10+00:00",
   "status": "ok"
  },
  "DH_IPC-HX5(7)XXX-Meta-Taurus_MultiLang_PN_Stream3_V3.140.0000000.81.R.260508.zip": {
@@ -114030,6 +115464,256 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-05T21:47:29+00:00",
+  "socs": [
+   {
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX5X3X-HDMI-Rhea_Eng_P_Stream3_V2.622.0000000.31.R.180813.bin": {
+  "detail": "data/firmware/b2/b2c8df43bcde0008.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-EB5531",
+    "IPC-EB5531-AS",
+    "IPC-EB5531-M",
+    "IPC-EB5531-M12",
+    "IPC-EB5531P",
+    "IPC-EW4431-ASW",
+    "IPC-EW4431-S",
+    "IPC-EW4431-SW",
+    "IPC-EW5431-ASW",
+    "IPC-EW5431-S",
+    "IPC-EW5431-SW",
+    "IPC-HDB4231C-AS",
+    "IPC-HDB4231C-M12",
+    "IPC-HDB4231F-M12PC",
+    "IPC-HDB4231F-MPC",
+    "IPC-HDB4231G",
+    "IPC-HDB4431C-AS",
+    "IPC-HDB4431C-M12",
+    "IPC-HDB4431G",
+    "IPC-HDB5331E-0185B",
+    "IPC-HDB5331EP-0185B",
+    "IPC-HDB7330R-AS",
+    "IPC-HDB8331E-0185B-S2",
+    "IPC-HDBW4231E-AS",
+    "IPC-HDBW4231F-AS",
+    "IPC-HDBW4231F-M12",
+    "IPC-HDBW4231F-MPC",
+    "IPC-HDBW4233R-S2",
+    "IPC-HDBW4239R-ASE-NI",
+    "IPC-HDBW4431E-AS",
+    "IPC-HDBW4431F-AS",
+    "IPC-HDBW4431F-M12",
+    "IPC-HDBW4431R-S2",
+    "IPC-HDBW4631E-AS",
+    "IPC-HDBW4631R-VFAS-27135",
+    "IPC-HDBW4631R-VFS-27135",
+    "IPC-HDBW4631R-ZAS-27135",
+    "IPC-HDBW4631R-ZS-27135",
+    "IPC-HDBW4830EP-AS",
+    "IPC-HDBW5231EP-ZE-HDMI-27135",
+    "IPC-HDBW5331E-0185B",
+    "IPC-HDBW5631R-AS",
+    "IPC-HDBW5631R-AS-B4",
+    "IPC-HDBW5631R-S",
+    "IPC-HDBW8331E-0185B",
+    "IPC-HDP4231G",
+    "IPC-HDP4431G",
+    "IPC-HDPW4233-PT-SA",
+    "IPC-HDPW4238-WPT-SA",
+    "IPC-HDPW4431-PT-SA",
+    "IPC-HDPW4436-WPT-SA",
+    "IPC-HDW4231C-S2",
+    "IPC-HDW4231EM",
+    "IPC-HDW4231M",
+    "IPC-HDW4233C-S2",
+    "IPC-HDW4431C-S2",
+    "IPC-HDW4431EM",
+    "IPC-HDW4431M",
+    "IPC-HDW4530C",
+    "IPC-HDW4530EM",
+    "IPC-HDW4631EM",
+    "IPC-HDW4830EM",
+    "IPC-HDW5631C",
+    "IPC-HFW4231B-BAS",
+    "IPC-HFW4231D-BAS",
+    "IPC-HFW4231E-S",
+    "IPC-HFW4231M",
+    "IPC-HFW4231M-AS",
+    "IPC-HFW4231S-S2",
+    "IPC-HFW4231T-AS",
+    "IPC-HFW4239T-ASE-NI",
+    "IPC-HFW4431B-BAS",
+    "IPC-HFW4431D-BAS",
+    "IPC-HFW4431E-S",
+    "IPC-HFW4431K-AS-I6-S2",
+    "IPC-HFW4431K-I6-S2",
+    "IPC-HFW4431KM-AS-S2",
+    "IPC-HFW4431KM-S2",
+    "IPC-HFW4431S-S2",
+    "IPC-HFW4431T-AS",
+    "IPC-HFW4530E-S",
+    "IPC-HFW4631EP-S",
+    "IPC-HFW4631F-VFAS-27135",
+    "IPC-HFW4631F-ZAS-27135",
+    "IPC-HFW4631MK",
+    "IPC-HFW4631T-AS",
+    "IPC-HFW4636K-I6",
+    "IPC-HFW4830EP-S",
+    "IPC-HFW4831T-AS",
+    "IPC-HFW5631K-AS-I6",
+    "IPC-HFW5631MK-AS",
+    "IPC-HFW5631MK-AS-B4",
+    "IPC-HMW7335-A",
+    "IPC-HMW7335-AS",
+    "IPC-HMW7335-SA-0210B-SHDT",
+    "IPC-HUM7230-E1",
+    "IPC-HUM7233-E1",
+    "IPC-HUM7431-E1",
+    "IPC-HUM8230P-E1",
+    "IPC-HUM8231",
+    "IPC-HUM8231P-E1",
+    "IPC-HUM8431P-E1",
+    "IPC-MBW4231-H",
+    "IPC-MBW4231-H-AS",
+    "IPC-MBW4231-H-M12",
+    "IPC-MBW4431-H",
+    "IPC-MBW4431-H-AS",
+    "IPC-MBW4431-H-M12",
+    "IPC-MBW7233-H",
+    "IPC-MBW7233-H-AS",
+    "IPC-MBW7431-H",
+    "IPC-MBW7431-H-AS",
+    "IPC-MDW4230P-M12",
+    "IPC-MDW4330P-M12"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-EB5531",
+   "IPC-EB5531-AS",
+   "IPC-EB5531-M",
+   "IPC-EB5531-M12",
+   "IPC-EB5531P",
+   "IPC-EW4431-ASW",
+   "IPC-EW4431-S",
+   "IPC-EW4431-SW",
+   "IPC-EW5431-ASW",
+   "IPC-EW5431-S",
+   "IPC-EW5431-SW",
+   "IPC-HDB4231C-AS",
+   "IPC-HDB4231C-M12",
+   "IPC-HDB4231F-M12PC",
+   "IPC-HDB4231F-MPC",
+   "IPC-HDB4231G",
+   "IPC-HDB4431C-AS",
+   "IPC-HDB4431C-M12",
+   "IPC-HDB4431G",
+   "IPC-HDB5331E-0185B",
+   "IPC-HDB5331EP-0185B",
+   "IPC-HDB7330R-AS",
+   "IPC-HDB8331E-0185B-S2",
+   "IPC-HDBW4231E-AS",
+   "IPC-HDBW4231F-AS",
+   "IPC-HDBW4231F-M12",
+   "IPC-HDBW4231F-MPC",
+   "IPC-HDBW4233R-S2",
+   "IPC-HDBW4239R-ASE-NI",
+   "IPC-HDBW4431E-AS",
+   "IPC-HDBW4431F-AS",
+   "IPC-HDBW4431F-M12",
+   "IPC-HDBW4431R-S2",
+   "IPC-HDBW4631E-AS",
+   "IPC-HDBW4631R-VFAS-27135",
+   "IPC-HDBW4631R-VFS-27135",
+   "IPC-HDBW4631R-ZAS-27135",
+   "IPC-HDBW4631R-ZS-27135",
+   "IPC-HDBW4830EP-AS",
+   "IPC-HDBW5231EP-ZE-HDMI-27135",
+   "IPC-HDBW5331E-0185B",
+   "IPC-HDBW5631R-AS",
+   "IPC-HDBW5631R-AS-B4",
+   "IPC-HDBW5631R-S",
+   "IPC-HDBW8331E-0185B",
+   "IPC-HDP4231G",
+   "IPC-HDP4431G",
+   "IPC-HDPW4233-PT-SA",
+   "IPC-HDPW4238-WPT-SA",
+   "IPC-HDPW4431-PT-SA",
+   "IPC-HDPW4436-WPT-SA",
+   "IPC-HDW4231C-S2",
+   "IPC-HDW4231EM",
+   "IPC-HDW4231M",
+   "IPC-HDW4233C-S2",
+   "IPC-HDW4431C-S2",
+   "IPC-HDW4431EM",
+   "IPC-HDW4431M",
+   "IPC-HDW4530C",
+   "IPC-HDW4530EM",
+   "IPC-HDW4631EM",
+   "IPC-HDW4830EM",
+   "IPC-HDW5631C",
+   "IPC-HFW4231B-BAS",
+   "IPC-HFW4231D-BAS",
+   "IPC-HFW4231E-S",
+   "IPC-HFW4231M",
+   "IPC-HFW4231M-AS",
+   "IPC-HFW4231S-S2",
+   "IPC-HFW4231T-AS",
+   "IPC-HFW4239T-ASE-NI",
+   "IPC-HFW4431B-BAS",
+   "IPC-HFW4431D-BAS",
+   "IPC-HFW4431E-S",
+   "IPC-HFW4431K-AS-I6-S2",
+   "IPC-HFW4431K-I6-S2",
+   "IPC-HFW4431KM-AS-S2",
+   "IPC-HFW4431KM-S2",
+   "IPC-HFW4431S-S2",
+   "IPC-HFW4431T-AS",
+   "IPC-HFW4530E-S",
+   "IPC-HFW4631EP-S",
+   "IPC-HFW4631F-VFAS-27135",
+   "IPC-HFW4631F-ZAS-27135",
+   "IPC-HFW4631MK",
+   "IPC-HFW4631T-AS",
+   "IPC-HFW4636K-I6",
+   "IPC-HFW4830EP-S",
+   "IPC-HFW4831T-AS",
+   "IPC-HFW5631K-AS-I6",
+   "IPC-HFW5631MK-AS",
+   "IPC-HFW5631MK-AS-B4",
+   "IPC-HMW7335-A",
+   "IPC-HMW7335-AS",
+   "IPC-HMW7335-SA-0210B-SHDT",
+   "IPC-HUM7230-E1",
+   "IPC-HUM7233-E1",
+   "IPC-HUM7431-E1",
+   "IPC-HUM8230P-E1",
+   "IPC-HUM8231",
+   "IPC-HUM8231P-E1",
+   "IPC-HUM8431P-E1",
+   "IPC-MBW4231-H",
+   "IPC-MBW4231-H-AS",
+   "IPC-MBW4231-H-M12",
+   "IPC-MBW4431-H",
+   "IPC-MBW4431-H-AS",
+   "IPC-MBW4431-H-M12",
+   "IPC-MBW7233-H",
+   "IPC-MBW7233-H-AS",
+   "IPC-MBW7431-H",
+   "IPC-MBW7431-H-AS",
+   "IPC-MDW4230P-M12",
+   "IPC-MDW4330P-M12"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:23+00:00",
   "socs": [
    {
     "name": "S3L",
@@ -139646,6 +141330,678 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:45:24+00:00",
+  "socs": [
+   {
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX5X3X-Rhea_MultiLang_PN_Stream3_V2.800.0000019.0.R.210714.bin": {
+  "detail": "data/firmware/68/6852c682d0472743.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-EB5531",
+    "IPC-EB5531-AS",
+    "IPC-EB5531-M",
+    "IPC-EB5531-M12",
+    "IPC-EB5531P",
+    "IPC-EW4431-ASW",
+    "IPC-EW4431-S",
+    "IPC-EW4431-SW",
+    "IPC-EW5431-ASW",
+    "IPC-EW5431-S",
+    "IPC-EW5431-SW",
+    "IPC-EW5531-AS",
+    "IPC-HDB4231C-AS",
+    "IPC-HDB4231C-M12",
+    "IPC-HDB4231F-M12PC",
+    "IPC-HDB4231F-MPC",
+    "IPC-HDB4231G",
+    "IPC-HDB4431C-AS",
+    "IPC-HDB4431C-M12",
+    "IPC-HDB4431G",
+    "IPC-HDB5233E-Z-27135",
+    "IPC-HDB5233E-Z-X1-27135",
+    "IPC-HDB5238E-Z-27135-S2",
+    "IPC-HDB5238E-Z-X1-27135-S2",
+    "IPC-HDB5331E-0185B",
+    "IPC-HDB5331EP-0185B",
+    "IPC-HDB5433E-Z-27135",
+    "IPC-HDB5433E-Z-X1-27135",
+    "IPC-HDB5438E-Z-27135-S2",
+    "IPC-HDB5438E-Z-X1-27135-S2",
+    "IPC-HDB5631E-Z-0735",
+    "IPC-HDB5631E-Z-27135",
+    "IPC-HDB5631E-Z-X-0735",
+    "IPC-HDB5631E-Z-X-27135",
+    "IPC-HDB7330R-AS",
+    "IPC-HDB8331E-0185B-S2",
+    "IPC-HDB8331E-A2-0200B",
+    "IPC-HDBW4231E-AS",
+    "IPC-HDBW4231E-AS-S4",
+    "IPC-HDBW4231E-Z-S4",
+    "IPC-HDBW4231F-AS",
+    "IPC-HDBW4231F-M12",
+    "IPC-HDBW4231F-MPC",
+    "IPC-HDBW4233R-S2",
+    "IPC-HDBW4239R-ASE-NI",
+    "IPC-HDBW4431E-AS",
+    "IPC-HDBW4431E-AS-S4",
+    "IPC-HDBW4431E-Z-S4",
+    "IPC-HDBW4431F-AS",
+    "IPC-HDBW4431F-M12",
+    "IPC-HDBW4431R-S2",
+    "IPC-HDBW4631E-AS",
+    "IPC-HDBW4631R-VFAS-27135",
+    "IPC-HDBW4631R-VFAS-X-27135",
+    "IPC-HDBW4631R-VFS-27135",
+    "IPC-HDBW4631R-ZAS-27135",
+    "IPC-HDBW4631R-ZAS-X-27135",
+    "IPC-HDBW4631R-ZS-27135",
+    "IPC-HDBW4830EP-AS",
+    "IPC-HDBW5231E-Z-0735-S2",
+    "IPC-HDBW5231E-Z-S2",
+    "IPC-HDBW5231EP-Z-0735-S2",
+    "IPC-HDBW5231EP-Z-0735-S3",
+    "IPC-HDBW5231EP-Z-S2",
+    "IPC-HDBW5231EP-Z-S2-2713",
+    "IPC-HDBW5231EP-ZH-0735-S2",
+    "IPC-HDBW5231EP-ZH-0735-S3",
+    "IPC-HDBW5231EP-ZH-S2",
+    "IPC-HDBW5231EP-ZH-S2-2713",
+    "IPC-HDBW5231GP-Z-0735-S3",
+    "IPC-HDBW5231GP-Z-27135-S3",
+    "IPC-HDBW5231R-Z",
+    "IPC-HDBW5231RP-Z-27135-S3",
+    "IPC-HDBW5233E-Z-27135",
+    "IPC-HDBW5233E-Z-X1-27135",
+    "IPC-HDBW5238E-Z-27135-S2",
+    "IPC-HDBW5238E-Z-X1-27135-S2",
+    "IPC-HDBW5331E-0185B",
+    "IPC-HDBW5431E-Z-0735-S2",
+    "IPC-HDBW5431E-Z-S2",
+    "IPC-HDBW5431EP-Z-0735-S2",
+    "IPC-HDBW5431EP-Z-0735-S3",
+    "IPC-HDBW5431EP-Z-S2",
+    "IPC-HDBW5431EP-Z-S2-2713",
+    "IPC-HDBW5431EP-ZH-0735-S2",
+    "IPC-HDBW5431EP-ZH-0735-S3",
+    "IPC-HDBW5431EP-ZH-S2",
+    "IPC-HDBW5431EP-ZH-S2-2713",
+    "IPC-HDBW5431GP-Z-0735-S3",
+    "IPC-HDBW5431GP-Z-27135-S3",
+    "IPC-HDBW5431R-Z",
+    "IPC-HDBW5431RP-Z-27135-S3",
+    "IPC-HDBW5433E-Z-27135",
+    "IPC-HDBW5433E-Z-X1-27135",
+    "IPC-HDBW5438E-Z-27135",
+    "IPC-HDBW5438E-Z-X1-27135-S2",
+    "IPC-HDBW5631E-Z",
+    "IPC-HDBW5631E-Z-0735",
+    "IPC-HDBW5631E-Z-2713",
+    "IPC-HDBW5631E-Z-27135",
+    "IPC-HDBW5631E-Z-X-0735",
+    "IPC-HDBW5631E-Z-X-27135",
+    "IPC-HDBW5631EP-Z-0735-S2",
+    "IPC-HDBW5631EP-Z-S2",
+    "IPC-HDBW5631EP-Z-S2-2713",
+    "IPC-HDBW5631EP-ZH-0735-S2",
+    "IPC-HDBW5631EP-ZH-S2",
+    "IPC-HDBW5631EP-ZH-S2-2713",
+    "IPC-HDBW5631GP-Z-0735-S3",
+    "IPC-HDBW5631GP-Z-27135-S3",
+    "IPC-HDBW5631R-AS",
+    "IPC-HDBW5631R-AS-B4",
+    "IPC-HDBW5631R-S",
+    "IPC-HDBW5631R-VFAS",
+    "IPC-HDBW5631R-VFS",
+    "IPC-HDBW5631R-ZAS",
+    "IPC-HDBW5631R-ZAS-2713",
+    "IPC-HDBW5631R-ZS",
+    "IPC-HDBW5631R-ZS-2713",
+    "IPC-HDBW5631RP-Z",
+    "IPC-HDBW5631RP-Z-2713",
+    "IPC-HDBW5830E-Z-0735-S2",
+    "IPC-HDBW5830E-Z-S2",
+    "IPC-HDBW5830E-ZH-0735-S2",
+    "IPC-HDBW5830E-ZH-S2",
+    "IPC-HDBW5830EP-Z-0735-S2",
+    "IPC-HDBW5830EP-Z-0735-S3",
+    "IPC-HDBW5830EP-Z-S2",
+    "IPC-HDBW5830EP-Z-S2-2713",
+    "IPC-HDBW5830EP-Z-S3",
+    "IPC-HDBW5830EP-ZH-0735-S2",
+    "IPC-HDBW5830EP-ZH-0735-S3",
+    "IPC-HDBW5830EP-ZH-S2",
+    "IPC-HDBW5830EP-ZH-S2-2713",
+    "IPC-HDBW5830EP-ZH-S3",
+    "IPC-HDBW5830R",
+    "IPC-HDBW5831GP-Z-0735-S3",
+    "IPC-HDBW5831GP-Z-2712-S3",
+    "IPC-HDBW8331E-0185B",
+    "IPC-HDBW8331E-A2-0200B",
+    "IPC-HDP4231G",
+    "IPC-HDP4431G",
+    "IPC-HDPW4233-PT-SA",
+    "IPC-HDPW4238-WPT-SA",
+    "IPC-HDPW4431-PT-SA",
+    "IPC-HDPW4436-WPT-SA",
+    "IPC-HDW4231C-S2",
+    "IPC-HDW4231EM",
+    "IPC-HDW4231EM-AS-S4",
+    "IPC-HDW4231M",
+    "IPC-HDW4231T-Z-S4",
+    "IPC-HDW4233C-S2",
+    "IPC-HDW4431C-S2",
+    "IPC-HDW4431EM",
+    "IPC-HDW4431EM-AS-S4",
+    "IPC-HDW4431M",
+    "IPC-HDW4431T-Z-S4",
+    "IPC-HDW4530C",
+    "IPC-HDW4530EM",
+    "IPC-HDW4631EM",
+    "IPC-HDW4830EM",
+    "IPC-HDW5231R-Z",
+    "IPC-HDW5231R-Z-2713",
+    "IPC-HDW5431R-Z",
+    "IPC-HDW5431R-Z-2713",
+    "IPC-HDW5631C",
+    "IPC-HDW5631RP-Z-S2",
+    "IPC-HDW5631RP-Z-S2-2713",
+    "IPC-HDW5830R-Z",
+    "IPC-HDW5830RP-Z-S2",
+    "IPC-HF5231E",
+    "IPC-HF5233E",
+    "IPC-HF5233E-E",
+    "IPC-HF5431E",
+    "IPC-HF5433E",
+    "IPC-HF5433E-E",
+    "IPC-HF5631F",
+    "IPC-HFW4231B-BAS",
+    "IPC-HFW4231D-BAS",
+    "IPC-HFW4231E-S",
+    "IPC-HFW4231E-S-S4",
+    "IPC-HFW4231EP-Z-S4",
+    "IPC-HFW4231M",
+    "IPC-HFW4231M-AS",
+    "IPC-HFW4231S-S2",
+    "IPC-HFW4231T-AS",
+    "IPC-HFW4239T-ASE-NI",
+    "IPC-HFW4431B-BAS",
+    "IPC-HFW4431D-BAS",
+    "IPC-HFW4431E-S",
+    "IPC-HFW4431E-S-S4",
+    "IPC-HFW4431EP-Z-S4",
+    "IPC-HFW4431K-AS-I6-S2",
+    "IPC-HFW4431K-I6-S2",
+    "IPC-HFW4431KM-AS-S2",
+    "IPC-HFW4431KM-S2",
+    "IPC-HFW4431S-S2",
+    "IPC-HFW4431T-AS",
+    "IPC-HFW4530E-S",
+    "IPC-HFW4631EP-S",
+    "IPC-HFW4631F-VFAS-27135",
+    "IPC-HFW4631F-VFAS-X-27135",
+    "IPC-HFW4631F-VFS-27135",
+    "IPC-HFW4631F-ZAS-27135",
+    "IPC-HFW4631F-ZAS-X-27135",
+    "IPC-HFW4631F-ZS-27135",
+    "IPC-HFW4631MK",
+    "IPC-HFW4631R-VFAS",
+    "IPC-HFW4631R-VFS",
+    "IPC-HFW4631R-ZAS",
+    "IPC-HFW4631R-ZAS-2713",
+    "IPC-HFW4631R-ZS",
+    "IPC-HFW4631R-ZS-2713",
+    "IPC-HFW4631T-AS",
+    "IPC-HFW4636K-I6",
+    "IPC-HFW4830EP-S",
+    "IPC-HFW4831T-AS",
+    "IPC-HFW5231E-Z",
+    "IPC-HFW5231E-Z-0560-S3",
+    "IPC-HFW5231E-Z-0735",
+    "IPC-HFW5231E-Z-0735-S3",
+    "IPC-HFW5231E-Z-2713",
+    "IPC-HFW5231E-Z12-S2",
+    "IPC-HFW5231E-ZH",
+    "IPC-HFW5231E-ZH-0735-S3",
+    "IPC-HFW5231E-ZH-2713",
+    "IPC-HFW5231EP-ZH-0735-S2",
+    "IPC-HFW5233E-Z-27135",
+    "IPC-HFW5233E-Z-IRA-X1-0560",
+    "IPC-HFW5233E-Z-X1-27135",
+    "IPC-HFW5233K-Z-I2-27135",
+    "IPC-HFW5233K-Z-I2-X1-27135",
+    "IPC-HFW5233K-Z-I4-X1-0735",
+    "IPC-HFW5238E-Z-27135-S2",
+    "IPC-HFW5238E-Z-X1-27135-S2",
+    "IPC-HFW5431E-Z",
+    "IPC-HFW5431E-Z-0735",
+    "IPC-HFW5431E-Z-0735-S3",
+    "IPC-HFW5431E-Z-2713",
+    "IPC-HFW5431E-ZH",
+    "IPC-HFW5431E-ZH-0735-S3",
+    "IPC-HFW5431E-ZH-2713",
+    "IPC-HFW5431EP-ZH-0735-S2",
+    "IPC-HFW5433E-Z-27135",
+    "IPC-HFW5433E-Z-IRA-X1-0560",
+    "IPC-HFW5433E-Z-X1-27135",
+    "IPC-HFW5433K-Z-I2-27135",
+    "IPC-HFW5433K-Z-I2-X1-27135",
+    "IPC-HFW5433K-Z-I4-X1-0735",
+    "IPC-HFW5438E-Z-27135-S2",
+    "IPC-HFW5438E-Z-X1-27135-S2",
+    "IPC-HFW5631E-Z",
+    "IPC-HFW5631E-Z-0735",
+    "IPC-HFW5631E-Z-0735-AC24V",
+    "IPC-HFW5631E-Z-0735-S3",
+    "IPC-HFW5631E-Z-2713",
+    "IPC-HFW5631E-Z-27135",
+    "IPC-HFW5631E-Z-27135-AC24V",
+    "IPC-HFW5631E-Z-27135-S3",
+    "IPC-HFW5631E-Z-IRA",
+    "IPC-HFW5631E-Z-IRA-0735",
+    "IPC-HFW5631E-Z-IRA-0735-AC24V",
+    "IPC-HFW5631E-Z-IRA-2713",
+    "IPC-HFW5631E-Z-IRA-27135",
+    "IPC-HFW5631E-Z-IRA-27135-AC24V",
+    "IPC-HFW5631E-Z-IRA-X-0735",
+    "IPC-HFW5631E-Z-IRA-X-0735-24V",
+    "IPC-HFW5631E-Z-IRA-X-27135",
+    "IPC-HFW5631E-Z-IRA-X-27135-24V",
+    "IPC-HFW5631E-Z-IRA-X1-0735-AC24V",
+    "IPC-HFW5631E-Z-IRA-X1-27135",
+    "IPC-HFW5631E-Z-IRA-X1-27135-AC24V",
+    "IPC-HFW5631E-Z-X-0735",
+    "IPC-HFW5631E-Z-X-27135",
+    "IPC-HFW5631E-Z-X1-0735-AC24V",
+    "IPC-HFW5631E-Z-X1-27135-AC24V",
+    "IPC-HFW5631E-ZH",
+    "IPC-HFW5631E-ZH-0735",
+    "IPC-HFW5631E-ZH-0735-S3",
+    "IPC-HFW5631E-ZH-2713",
+    "IPC-HFW5631E-ZH-27135-S3",
+    "IPC-HFW5631K-AS-I6",
+    "IPC-HFW5631K-Z-I4",
+    "IPC-HFW5631K-Z-I4-0735",
+    "IPC-HFW5631K-Z-I4-0735-AC24V",
+    "IPC-HFW5631K-Z-I4-2713",
+    "IPC-HFW5631K-Z-I4-27135",
+    "IPC-HFW5631K-Z-I4-27135-AC24V",
+    "IPC-HFW5631K-Z-I4-X-0735",
+    "IPC-HFW5631K-Z-I4-X-0735-AC24V",
+    "IPC-HFW5631K-Z-I4-X-27135",
+    "IPC-HFW5631K-Z-I4-X-27135-AC24V",
+    "IPC-HFW5631MK-AS",
+    "IPC-HFW5631MK-AS-B4",
+    "IPC-HFW5830E-Z",
+    "IPC-HFW5830E-Z-0735",
+    "IPC-HFW5830E-Z-0735-S3",
+    "IPC-HFW5830E-Z-S3",
+    "IPC-HFW5830E-ZH",
+    "IPC-HFW5830E-ZH-0735",
+    "IPC-HFW5830E-ZH-0735-S3",
+    "IPC-HFW5830E-ZH-S3",
+    "IPC-HMW7335-A",
+    "IPC-HMW7335-AS",
+    "IPC-HMW7335-SA-0210B-SHDT",
+    "IPC-HUM7230-E1",
+    "IPC-HUM7233-E1",
+    "IPC-HUM7431-E1",
+    "IPC-HUM8230P-E1",
+    "IPC-HUM8231",
+    "IPC-HUM8231P-E1",
+    "IPC-HUM8431P-E1",
+    "IPC-MBW4231-H",
+    "IPC-MBW4231-H-AS",
+    "IPC-MBW4231-H-M12",
+    "IPC-MBW4431-H",
+    "IPC-MBW4431-H-AS",
+    "IPC-MBW4431-H-AS-SV",
+    "IPC-MBW4431-H-M12",
+    "IPC-MBW7233-H",
+    "IPC-MBW7233-H-AS",
+    "IPC-MBW7431-H",
+    "IPC-MBW7431-H-AS",
+    "IPC-MDW4230P-M12",
+    "IPC-MDW4330P-M12"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-EB5531",
+   "IPC-EB5531-AS",
+   "IPC-EB5531-M",
+   "IPC-EB5531-M12",
+   "IPC-EB5531P",
+   "IPC-EW4431-ASW",
+   "IPC-EW4431-S",
+   "IPC-EW4431-SW",
+   "IPC-EW5431-ASW",
+   "IPC-EW5431-S",
+   "IPC-EW5431-SW",
+   "IPC-EW5531-AS",
+   "IPC-HDB4231C-AS",
+   "IPC-HDB4231C-M12",
+   "IPC-HDB4231F-M12PC",
+   "IPC-HDB4231F-MPC",
+   "IPC-HDB4231G",
+   "IPC-HDB4431C-AS",
+   "IPC-HDB4431C-M12",
+   "IPC-HDB4431G",
+   "IPC-HDB5233E-Z-27135",
+   "IPC-HDB5233E-Z-X1-27135",
+   "IPC-HDB5238E-Z-27135-S2",
+   "IPC-HDB5238E-Z-X1-27135-S2",
+   "IPC-HDB5331E-0185B",
+   "IPC-HDB5331EP-0185B",
+   "IPC-HDB5433E-Z-27135",
+   "IPC-HDB5433E-Z-X1-27135",
+   "IPC-HDB5438E-Z-27135-S2",
+   "IPC-HDB5438E-Z-X1-27135-S2",
+   "IPC-HDB5631E-Z-0735",
+   "IPC-HDB5631E-Z-27135",
+   "IPC-HDB5631E-Z-X-0735",
+   "IPC-HDB5631E-Z-X-27135",
+   "IPC-HDB7330R-AS",
+   "IPC-HDB8331E-0185B-S2",
+   "IPC-HDB8331E-A2-0200B",
+   "IPC-HDBW4231E-AS",
+   "IPC-HDBW4231E-AS-S4",
+   "IPC-HDBW4231E-Z-S4",
+   "IPC-HDBW4231F-AS",
+   "IPC-HDBW4231F-M12",
+   "IPC-HDBW4231F-MPC",
+   "IPC-HDBW4233R-S2",
+   "IPC-HDBW4239R-ASE-NI",
+   "IPC-HDBW4431E-AS",
+   "IPC-HDBW4431E-AS-S4",
+   "IPC-HDBW4431E-Z-S4",
+   "IPC-HDBW4431F-AS",
+   "IPC-HDBW4431F-M12",
+   "IPC-HDBW4431R-S2",
+   "IPC-HDBW4631E-AS",
+   "IPC-HDBW4631R-VFAS-27135",
+   "IPC-HDBW4631R-VFAS-X-27135",
+   "IPC-HDBW4631R-VFS-27135",
+   "IPC-HDBW4631R-ZAS-27135",
+   "IPC-HDBW4631R-ZAS-X-27135",
+   "IPC-HDBW4631R-ZS-27135",
+   "IPC-HDBW4830EP-AS",
+   "IPC-HDBW5231E-Z-0735-S2",
+   "IPC-HDBW5231E-Z-S2",
+   "IPC-HDBW5231EP-Z-0735-S2",
+   "IPC-HDBW5231EP-Z-0735-S3",
+   "IPC-HDBW5231EP-Z-S2",
+   "IPC-HDBW5231EP-Z-S2-2713",
+   "IPC-HDBW5231EP-ZH-0735-S2",
+   "IPC-HDBW5231EP-ZH-0735-S3",
+   "IPC-HDBW5231EP-ZH-S2",
+   "IPC-HDBW5231EP-ZH-S2-2713",
+   "IPC-HDBW5231GP-Z-0735-S3",
+   "IPC-HDBW5231GP-Z-27135-S3",
+   "IPC-HDBW5231R-Z",
+   "IPC-HDBW5231RP-Z-27135-S3",
+   "IPC-HDBW5233E-Z-27135",
+   "IPC-HDBW5233E-Z-X1-27135",
+   "IPC-HDBW5238E-Z-27135-S2",
+   "IPC-HDBW5238E-Z-X1-27135-S2",
+   "IPC-HDBW5331E-0185B",
+   "IPC-HDBW5431E-Z-0735-S2",
+   "IPC-HDBW5431E-Z-S2",
+   "IPC-HDBW5431EP-Z-0735-S2",
+   "IPC-HDBW5431EP-Z-0735-S3",
+   "IPC-HDBW5431EP-Z-S2",
+   "IPC-HDBW5431EP-Z-S2-2713",
+   "IPC-HDBW5431EP-ZH-0735-S2",
+   "IPC-HDBW5431EP-ZH-0735-S3",
+   "IPC-HDBW5431EP-ZH-S2",
+   "IPC-HDBW5431EP-ZH-S2-2713",
+   "IPC-HDBW5431GP-Z-0735-S3",
+   "IPC-HDBW5431GP-Z-27135-S3",
+   "IPC-HDBW5431R-Z",
+   "IPC-HDBW5431RP-Z-27135-S3",
+   "IPC-HDBW5433E-Z-27135",
+   "IPC-HDBW5433E-Z-X1-27135",
+   "IPC-HDBW5438E-Z-27135",
+   "IPC-HDBW5438E-Z-X1-27135-S2",
+   "IPC-HDBW5631E-Z",
+   "IPC-HDBW5631E-Z-0735",
+   "IPC-HDBW5631E-Z-2713",
+   "IPC-HDBW5631E-Z-27135",
+   "IPC-HDBW5631E-Z-X-0735",
+   "IPC-HDBW5631E-Z-X-27135",
+   "IPC-HDBW5631EP-Z-0735-S2",
+   "IPC-HDBW5631EP-Z-S2",
+   "IPC-HDBW5631EP-Z-S2-2713",
+   "IPC-HDBW5631EP-ZH-0735-S2",
+   "IPC-HDBW5631EP-ZH-S2",
+   "IPC-HDBW5631EP-ZH-S2-2713",
+   "IPC-HDBW5631GP-Z-0735-S3",
+   "IPC-HDBW5631GP-Z-27135-S3",
+   "IPC-HDBW5631R-AS",
+   "IPC-HDBW5631R-AS-B4",
+   "IPC-HDBW5631R-S",
+   "IPC-HDBW5631R-VFAS",
+   "IPC-HDBW5631R-VFS",
+   "IPC-HDBW5631R-ZAS",
+   "IPC-HDBW5631R-ZAS-2713",
+   "IPC-HDBW5631R-ZS",
+   "IPC-HDBW5631R-ZS-2713",
+   "IPC-HDBW5631RP-Z",
+   "IPC-HDBW5631RP-Z-2713",
+   "IPC-HDBW5830E-Z-0735-S2",
+   "IPC-HDBW5830E-Z-S2",
+   "IPC-HDBW5830E-ZH-0735-S2",
+   "IPC-HDBW5830E-ZH-S2",
+   "IPC-HDBW5830EP-Z-0735-S2",
+   "IPC-HDBW5830EP-Z-0735-S3",
+   "IPC-HDBW5830EP-Z-S2",
+   "IPC-HDBW5830EP-Z-S2-2713",
+   "IPC-HDBW5830EP-Z-S3",
+   "IPC-HDBW5830EP-ZH-0735-S2",
+   "IPC-HDBW5830EP-ZH-0735-S3",
+   "IPC-HDBW5830EP-ZH-S2",
+   "IPC-HDBW5830EP-ZH-S2-2713",
+   "IPC-HDBW5830EP-ZH-S3",
+   "IPC-HDBW5830R",
+   "IPC-HDBW5831GP-Z-0735-S3",
+   "IPC-HDBW5831GP-Z-2712-S3",
+   "IPC-HDBW8331E-0185B",
+   "IPC-HDBW8331E-A2-0200B",
+   "IPC-HDP4231G",
+   "IPC-HDP4431G",
+   "IPC-HDPW4233-PT-SA",
+   "IPC-HDPW4238-WPT-SA",
+   "IPC-HDPW4431-PT-SA",
+   "IPC-HDPW4436-WPT-SA",
+   "IPC-HDW4231C-S2",
+   "IPC-HDW4231EM",
+   "IPC-HDW4231EM-AS-S4",
+   "IPC-HDW4231M",
+   "IPC-HDW4231T-Z-S4",
+   "IPC-HDW4233C-S2",
+   "IPC-HDW4431C-S2",
+   "IPC-HDW4431EM",
+   "IPC-HDW4431EM-AS-S4",
+   "IPC-HDW4431M",
+   "IPC-HDW4431T-Z-S4",
+   "IPC-HDW4530C",
+   "IPC-HDW4530EM",
+   "IPC-HDW4631EM",
+   "IPC-HDW4830EM",
+   "IPC-HDW5231R-Z",
+   "IPC-HDW5231R-Z-2713",
+   "IPC-HDW5431R-Z",
+   "IPC-HDW5431R-Z-2713",
+   "IPC-HDW5631C",
+   "IPC-HDW5631RP-Z-S2",
+   "IPC-HDW5631RP-Z-S2-2713",
+   "IPC-HDW5830R-Z",
+   "IPC-HDW5830RP-Z-S2",
+   "IPC-HF5231E",
+   "IPC-HF5233E",
+   "IPC-HF5233E-E",
+   "IPC-HF5431E",
+   "IPC-HF5433E",
+   "IPC-HF5433E-E",
+   "IPC-HF5631F",
+   "IPC-HFW4231B-BAS",
+   "IPC-HFW4231D-BAS",
+   "IPC-HFW4231E-S",
+   "IPC-HFW4231E-S-S4",
+   "IPC-HFW4231EP-Z-S4",
+   "IPC-HFW4231M",
+   "IPC-HFW4231M-AS",
+   "IPC-HFW4231S-S2",
+   "IPC-HFW4231T-AS",
+   "IPC-HFW4239T-ASE-NI",
+   "IPC-HFW4431B-BAS",
+   "IPC-HFW4431D-BAS",
+   "IPC-HFW4431E-S",
+   "IPC-HFW4431E-S-S4",
+   "IPC-HFW4431EP-Z-S4",
+   "IPC-HFW4431K-AS-I6-S2",
+   "IPC-HFW4431K-I6-S2",
+   "IPC-HFW4431KM-AS-S2",
+   "IPC-HFW4431KM-S2",
+   "IPC-HFW4431S-S2",
+   "IPC-HFW4431T-AS",
+   "IPC-HFW4530E-S",
+   "IPC-HFW4631EP-S",
+   "IPC-HFW4631F-VFAS-27135",
+   "IPC-HFW4631F-VFAS-X-27135",
+   "IPC-HFW4631F-VFS-27135",
+   "IPC-HFW4631F-ZAS-27135",
+   "IPC-HFW4631F-ZAS-X-27135",
+   "IPC-HFW4631F-ZS-27135",
+   "IPC-HFW4631MK",
+   "IPC-HFW4631R-VFAS",
+   "IPC-HFW4631R-VFS",
+   "IPC-HFW4631R-ZAS",
+   "IPC-HFW4631R-ZAS-2713",
+   "IPC-HFW4631R-ZS",
+   "IPC-HFW4631R-ZS-2713",
+   "IPC-HFW4631T-AS",
+   "IPC-HFW4636K-I6",
+   "IPC-HFW4830EP-S",
+   "IPC-HFW4831T-AS",
+   "IPC-HFW5231E-Z",
+   "IPC-HFW5231E-Z-0560-S3",
+   "IPC-HFW5231E-Z-0735",
+   "IPC-HFW5231E-Z-0735-S3",
+   "IPC-HFW5231E-Z-2713",
+   "IPC-HFW5231E-Z12-S2",
+   "IPC-HFW5231E-ZH",
+   "IPC-HFW5231E-ZH-0735-S3",
+   "IPC-HFW5231E-ZH-2713",
+   "IPC-HFW5231EP-ZH-0735-S2",
+   "IPC-HFW5233E-Z-27135",
+   "IPC-HFW5233E-Z-IRA-X1-0560",
+   "IPC-HFW5233E-Z-X1-27135",
+   "IPC-HFW5233K-Z-I2-27135",
+   "IPC-HFW5233K-Z-I2-X1-27135",
+   "IPC-HFW5233K-Z-I4-X1-0735",
+   "IPC-HFW5238E-Z-27135-S2",
+   "IPC-HFW5238E-Z-X1-27135-S2",
+   "IPC-HFW5431E-Z",
+   "IPC-HFW5431E-Z-0735",
+   "IPC-HFW5431E-Z-0735-S3",
+   "IPC-HFW5431E-Z-2713",
+   "IPC-HFW5431E-ZH",
+   "IPC-HFW5431E-ZH-0735-S3",
+   "IPC-HFW5431E-ZH-2713",
+   "IPC-HFW5431EP-ZH-0735-S2",
+   "IPC-HFW5433E-Z-27135",
+   "IPC-HFW5433E-Z-IRA-X1-0560",
+   "IPC-HFW5433E-Z-X1-27135",
+   "IPC-HFW5433K-Z-I2-27135",
+   "IPC-HFW5433K-Z-I2-X1-27135",
+   "IPC-HFW5433K-Z-I4-X1-0735",
+   "IPC-HFW5438E-Z-27135-S2",
+   "IPC-HFW5438E-Z-X1-27135-S2",
+   "IPC-HFW5631E-Z",
+   "IPC-HFW5631E-Z-0735",
+   "IPC-HFW5631E-Z-0735-AC24V",
+   "IPC-HFW5631E-Z-0735-S3",
+   "IPC-HFW5631E-Z-2713",
+   "IPC-HFW5631E-Z-27135",
+   "IPC-HFW5631E-Z-27135-AC24V",
+   "IPC-HFW5631E-Z-27135-S3",
+   "IPC-HFW5631E-Z-IRA",
+   "IPC-HFW5631E-Z-IRA-0735",
+   "IPC-HFW5631E-Z-IRA-0735-AC24V",
+   "IPC-HFW5631E-Z-IRA-2713",
+   "IPC-HFW5631E-Z-IRA-27135",
+   "IPC-HFW5631E-Z-IRA-27135-AC24V",
+   "IPC-HFW5631E-Z-IRA-X-0735",
+   "IPC-HFW5631E-Z-IRA-X-0735-24V",
+   "IPC-HFW5631E-Z-IRA-X-27135",
+   "IPC-HFW5631E-Z-IRA-X-27135-24V",
+   "IPC-HFW5631E-Z-IRA-X1-0735-AC24V",
+   "IPC-HFW5631E-Z-IRA-X1-27135",
+   "IPC-HFW5631E-Z-IRA-X1-27135-AC24V",
+   "IPC-HFW5631E-Z-X-0735",
+   "IPC-HFW5631E-Z-X-27135",
+   "IPC-HFW5631E-Z-X1-0735-AC24V",
+   "IPC-HFW5631E-Z-X1-27135-AC24V",
+   "IPC-HFW5631E-ZH",
+   "IPC-HFW5631E-ZH-0735",
+   "IPC-HFW5631E-ZH-0735-S3",
+   "IPC-HFW5631E-ZH-2713",
+   "IPC-HFW5631E-ZH-27135-S3",
+   "IPC-HFW5631K-AS-I6",
+   "IPC-HFW5631K-Z-I4",
+   "IPC-HFW5631K-Z-I4-0735",
+   "IPC-HFW5631K-Z-I4-0735-AC24V",
+   "IPC-HFW5631K-Z-I4-2713",
+   "IPC-HFW5631K-Z-I4-27135",
+   "IPC-HFW5631K-Z-I4-27135-AC24V",
+   "IPC-HFW5631K-Z-I4-X-0735",
+   "IPC-HFW5631K-Z-I4-X-0735-AC24V",
+   "IPC-HFW5631K-Z-I4-X-27135",
+   "IPC-HFW5631K-Z-I4-X-27135-AC24V",
+   "IPC-HFW5631MK-AS",
+   "IPC-HFW5631MK-AS-B4",
+   "IPC-HFW5830E-Z",
+   "IPC-HFW5830E-Z-0735",
+   "IPC-HFW5830E-Z-0735-S3",
+   "IPC-HFW5830E-Z-S3",
+   "IPC-HFW5830E-ZH",
+   "IPC-HFW5830E-ZH-0735",
+   "IPC-HFW5830E-ZH-0735-S3",
+   "IPC-HFW5830E-ZH-S3",
+   "IPC-HMW7335-A",
+   "IPC-HMW7335-AS",
+   "IPC-HMW7335-SA-0210B-SHDT",
+   "IPC-HUM7230-E1",
+   "IPC-HUM7233-E1",
+   "IPC-HUM7431-E1",
+   "IPC-HUM8230P-E1",
+   "IPC-HUM8231",
+   "IPC-HUM8231P-E1",
+   "IPC-HUM8431P-E1",
+   "IPC-MBW4231-H",
+   "IPC-MBW4231-H-AS",
+   "IPC-MBW4231-H-M12",
+   "IPC-MBW4431-H",
+   "IPC-MBW4431-H-AS",
+   "IPC-MBW4431-H-AS-SV",
+   "IPC-MBW4431-H-M12",
+   "IPC-MBW7233-H",
+   "IPC-MBW7233-H-AS",
+   "IPC-MBW7431-H",
+   "IPC-MBW7431-H-AS",
+   "IPC-MDW4230P-M12",
+   "IPC-MDW4330P-M12"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:23+00:00",
   "socs": [
    {
     "name": "S3L",
@@ -176203,6 +178559,120 @@
   "processed_at": "2026-10-03T16:07:58+00:00",
   "status": "ok"
  },
+ "DH_IPC-HX7(8)XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.43.R.251212.zip": {
+  "detail": "data/firmware/fa/fad846c2364d7706.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDEW8243R-ZAS-27135-304-S2",
+    "IPC-HDEW8441RP-Z-27135-316-S2",
+    "IPC-HDEW8443R-ZAS-27135-304-S2",
+    "IPC-HDEW8841RP-Z-27135-316-S2",
+    "IPC-HDEW8843R-ZAS-27135-304-S2",
+    "IPC-HFE7243S-AS",
+    "IPC-HFE7243S-AS-LED",
+    "IPC-HFE7443M-AS",
+    "IPC-HFE7443M-AS-LED",
+    "IPC-HFE7443M-ZAS-27135",
+    "IPC-HFE7443S-AS",
+    "IPC-HFE7443S-AS-LED",
+    "IPC-HFE7843M-AS",
+    "IPC-HFE7843M-AS-LED",
+    "IPC-HFE7843M-ZAS-27135",
+    "IPC-HFE7843S-AS",
+    "IPC-HFE7843S-AS-LED",
+    "IPC-HFE8441RP-Z-27135",
+    "IPC-HFE8841RP-Z-27135"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDEW8243R-ZAS-27135-304-S2",
+   "IPC-HDEW8441RP-Z-27135-316-S2",
+   "IPC-HDEW8443R-ZAS-27135-304-S2",
+   "IPC-HDEW8841RP-Z-27135-316-S2",
+   "IPC-HDEW8843R-ZAS-27135-304-S2",
+   "IPC-HFE7243S-AS",
+   "IPC-HFE7243S-AS-LED",
+   "IPC-HFE7443M-AS",
+   "IPC-HFE7443M-AS-LED",
+   "IPC-HFE7443M-ZAS-27135",
+   "IPC-HFE7443S-AS",
+   "IPC-HFE7443S-AS-LED",
+   "IPC-HFE7843M-AS",
+   "IPC-HFE7843M-AS-LED",
+   "IPC-HFE7843M-ZAS-27135",
+   "IPC-HFE7843S-AS",
+   "IPC-HFE7843S-AS-LED",
+   "IPC-HFE8441RP-Z-27135",
+   "IPC-HFE8841RP-Z-27135",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:25+00:00",
+  "status": "ok"
+ },
+ "DH_IPC-HX7(8)XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.62.R.260114.zip": {
+  "detail": "data/firmware/c7/c7780ab328164061.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "IPC-HX3XXX"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDEW8243R-ZAS-27135-304-S2",
+    "IPC-HDEW8441RP-Z-27135-316-S2",
+    "IPC-HDEW8443R-ZAS-27135-304-S2",
+    "IPC-HDEW8841RP-Z-27135-316-S2",
+    "IPC-HDEW8843R-ZAS-27135-304-S2",
+    "IPC-HFE7243S-AS",
+    "IPC-HFE7243S-AS-LED",
+    "IPC-HFE7443M-AS",
+    "IPC-HFE7443M-AS-LED",
+    "IPC-HFE7443M-ZAS-27135",
+    "IPC-HFE7443S-AS",
+    "IPC-HFE7443S-AS-LED",
+    "IPC-HFE7843M-AS",
+    "IPC-HFE7843M-AS-LED",
+    "IPC-HFE7843M-ZAS-27135",
+    "IPC-HFE7843S-AS",
+    "IPC-HFE7843S-AS-LED",
+    "IPC-HFE8441RP-Z-27135",
+    "IPC-HFE8841RP-Z-27135"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDEW8243R-ZAS-27135-304-S2",
+   "IPC-HDEW8441RP-Z-27135-316-S2",
+   "IPC-HDEW8443R-ZAS-27135-304-S2",
+   "IPC-HDEW8841RP-Z-27135-316-S2",
+   "IPC-HDEW8843R-ZAS-27135-304-S2",
+   "IPC-HFE7243S-AS",
+   "IPC-HFE7243S-AS-LED",
+   "IPC-HFE7443M-AS",
+   "IPC-HFE7443M-AS-LED",
+   "IPC-HFE7443M-ZAS-27135",
+   "IPC-HFE7443S-AS",
+   "IPC-HFE7443S-AS-LED",
+   "IPC-HFE7843M-AS",
+   "IPC-HFE7843M-AS-LED",
+   "IPC-HFE7843M-ZAS-27135",
+   "IPC-HFE7843S-AS",
+   "IPC-HFE7843S-AS-LED",
+   "IPC-HFE8441RP-Z-27135",
+   "IPC-HFE8841RP-Z-27135",
+   "IPC-HX3XXX"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:25+00:00",
+  "status": "ok"
+ },
  "DH_IPC-HX7(8)XXX-Taurus_MultiLang_PN_Stream3_V3.140.0000000.81.R.260508.zip": {
   "detail": "data/firmware/55/55d46f2ad015733f.json",
   "extractor_version": 5,
@@ -177117,6 +179587,38 @@
   "processed_at": "2026-10-03T16:43:41+00:00",
   "status": "ok"
  },
+ "DH_IPC-HX8(5)XXX-Sag_EngSpnFrn_PN_V2.622.0000000.12.R.180918.bin": {
+  "detail": "data/firmware/b1/b1f6559a4bf797b8.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-PDBW8408-B180",
+    "IPC-PDBW8608-B270",
+    "IPC-PDBW8801-B360",
+    "IPC-PDBW8808-B360",
+    "IPC-PSD5231-B120",
+    "IPC-PSD5631-B360",
+    "IPC-PSD8238-B120",
+    "IPC-PSD8638-B360"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-PDBW8408-B180",
+   "IPC-PDBW8608-B270",
+   "IPC-PDBW8801-B360",
+   "IPC-PDBW8808-B360",
+   "IPC-PSD5231-B120",
+   "IPC-PSD5631-B360",
+   "IPC-PSD8238-B120",
+   "IPC-PSD8638-B360"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:15+00:00",
+  "status": "ok"
+ },
  "DH_IPC-HX8(5)XXX-Sag_EngSpnFrn_PN_V2.800.0000000.11.R.230626.bin": {
   "detail": "data/firmware/c7/c7b680debd42bd82.json",
   "extractor_version": 5,
@@ -177863,6 +180365,62 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:54:36+00:00",
+  "socs": [
+   {
+    "name": "Hi3519V101",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_IPC-HX8X4X-Warpway2_EngSpnFrn_PN_Stream3_V2.680.0000000.1.R.190223.bin": {
+  "detail": "data/firmware/e4/e4a0f2a41abd209c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW7243E-ZPC-0735",
+    "IPC-HDBW7243E-ZPC-27135",
+    "IPC-HDBW8241EP-0735",
+    "IPC-HDBW8241EP-27135",
+    "IPC-HDBW8249E-ZFDI-0832",
+    "IPC-HF7243F-PC",
+    "IPC-HF8241FP",
+    "IPC-HF8249F-FDI",
+    "IPC-HF8249F-FDI-WS",
+    "IPC-HFS7249-WGS-4G-LED-0832",
+    "IPC-HFW7243K-ZPC-I4-0735",
+    "IPC-HFW7243K-ZPC-I4-27135",
+    "IPC-HFW8241EP-Z-0735",
+    "IPC-HFW8241EP-Z-27135",
+    "IPC-HFW8249E-ZFDI-IRA-0832",
+    "IPC-HFW8249E-ZFDI-IRA-67134",
+    "IPC-HFW8249K-ZFDI-LED-0832"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW7243E-ZPC-0735",
+   "IPC-HDBW7243E-ZPC-27135",
+   "IPC-HDBW8241EP-0735",
+   "IPC-HDBW8241EP-27135",
+   "IPC-HDBW8249E-ZFDI-0832",
+   "IPC-HF7243F-PC",
+   "IPC-HF8241FP",
+   "IPC-HF8249F-FDI",
+   "IPC-HF8249F-FDI-WS",
+   "IPC-HFS7249-WGS-4G-LED-0832",
+   "IPC-HFW7243K-ZPC-I4-0735",
+   "IPC-HFW7243K-ZPC-I4-27135",
+   "IPC-HFW8241EP-Z-0735",
+   "IPC-HFW8241EP-Z-27135",
+   "IPC-HFW8249E-ZFDI-IRA-0832",
+   "IPC-HFW8249E-ZFDI-IRA-67134",
+   "IPC-HFW8249K-ZFDI-LED-0832"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:01+00:00",
   "socs": [
    {
     "name": "Hi3519V101",
@@ -183392,6 +185950,38 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX8XXX-Nobel_MultiLang_PN_Stream5_V2.800.106F004.0.R.200903.bin": {
+  "detail": "data/firmware/77/7708bf8ba6feb439.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2",
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW8343XP-3D-S2"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDW7343X-B-E2-S2",
+   "IPC-HDW7343X-E2-S2",
+   "IPC-HDW7343X-PC-M-E2",
+   "IPC-HDW8343X-B-3D",
+   "IPC-HDW8343XP-3D-S2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:40+00:00",
+  "socs": [
+   {
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-HX8XXX-Nobel_MultiLang_PN_V2.800.0000000.14.R.210720.zip": {
   "detail": "data/firmware/ef/ef295f0f5caec1ea.json",
   "extractor_version": 5,
@@ -187458,6 +190048,108 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-HX8XXX-Nova_MultiLang_PN_Stream3_V2.640.0000004.0.R.190118.bin": {
+  "detail": "data/firmware/0f/0f17e89e8f2c7156.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW81230E-Z",
+    "IPC-HDBW81230E-ZH",
+    "IPC-HDBW8231EP-ZH-0735-S2",
+    "IPC-HDBW8231EP-ZH-FD-S2",
+    "IPC-HDBW8231EP-ZH-S2",
+    "IPC-HDBW8231EP-ZH-S4",
+    "IPC-HDBW8232EP-ZH-S2",
+    "IPC-HDBW8232EP-ZH-SL-S2",
+    "IPC-HDBW8331E-ZH-S2",
+    "IPC-HDBW8331EP-ZH-0735-S2",
+    "IPC-HDBW8630E-Z",
+    "IPC-HDBW8630E-Z-3512",
+    "IPC-HDBW8630EP-ZH-S2",
+    "IPC-HF81230E",
+    "IPC-HF8231F-S2",
+    "IPC-HF8231FP-S2",
+    "IPC-HF8232F-S2",
+    "IPC-HF8232FP-S2",
+    "IPC-HF8331F",
+    "IPC-HF8331F-S2",
+    "IPC-HF8630FP-S2",
+    "IPC-HFW81230E-Z",
+    "IPC-HFW81230E-Z-IRA",
+    "IPC-HFW81230EP-ZH-S3",
+    "IPC-HFW8231EP-ZH-0735-S2",
+    "IPC-HFW8231EP-ZH-0735-S3",
+    "IPC-HFW8231EP-ZH-S2",
+    "IPC-HFW8231EP-ZH-S3",
+    "IPC-HFW8231EP-ZH-S4",
+    "IPC-HFW8231EP-ZH-S5",
+    "IPC-HFW8232EP-ZH-S2",
+    "IPC-HFW8232EP-ZH-S3",
+    "IPC-HFW8331E-ZH-S2",
+    "IPC-HFW8331EP-ZH-0735-S2",
+    "IPC-HFW8331EP-ZH-0735-S3",
+    "IPC-HFW8331EP-ZH-S3",
+    "IPC-HFW8630EP-ZH-S2",
+    "IPC-HFW8630EP-ZH-S3",
+    "IPC-HFW8630K-Z-I4",
+    "IPC-HFW8630K-Z-I4-3512"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW81230E-Z",
+   "IPC-HDBW81230E-ZH",
+   "IPC-HDBW8231EP-ZH-0735-S2",
+   "IPC-HDBW8231EP-ZH-FD-S2",
+   "IPC-HDBW8231EP-ZH-S2",
+   "IPC-HDBW8231EP-ZH-S4",
+   "IPC-HDBW8232EP-ZH-S2",
+   "IPC-HDBW8232EP-ZH-SL-S2",
+   "IPC-HDBW8331E-ZH-S2",
+   "IPC-HDBW8331EP-ZH-0735-S2",
+   "IPC-HDBW8630E-Z",
+   "IPC-HDBW8630E-Z-3512",
+   "IPC-HDBW8630EP-ZH-S2",
+   "IPC-HF81230E",
+   "IPC-HF8231F-S2",
+   "IPC-HF8231FP-S2",
+   "IPC-HF8232F-S2",
+   "IPC-HF8232FP-S2",
+   "IPC-HF8331F",
+   "IPC-HF8331F-S2",
+   "IPC-HF8630FP-S2",
+   "IPC-HFW81230E-Z",
+   "IPC-HFW81230E-Z-IRA",
+   "IPC-HFW81230EP-ZH-S3",
+   "IPC-HFW8231EP-ZH-0735-S2",
+   "IPC-HFW8231EP-ZH-0735-S3",
+   "IPC-HFW8231EP-ZH-S2",
+   "IPC-HFW8231EP-ZH-S3",
+   "IPC-HFW8231EP-ZH-S4",
+   "IPC-HFW8231EP-ZH-S5",
+   "IPC-HFW8232EP-ZH-S2",
+   "IPC-HFW8232EP-ZH-S3",
+   "IPC-HFW8331E-ZH-S2",
+   "IPC-HFW8331EP-ZH-0735-S2",
+   "IPC-HFW8331EP-ZH-0735-S3",
+   "IPC-HFW8331EP-ZH-S3",
+   "IPC-HFW8630EP-ZH-S2",
+   "IPC-HFW8630EP-ZH-S3",
+   "IPC-HFW8630K-Z-I4",
+   "IPC-HFW8630K-Z-I4-3512"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:15+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-HX8XXX-Nova_MultiLang_PN_Stream3_V2.640.0000006.0.R.190627.bin": {
   "detail": "data/firmware/dd/dd6c618f5a644210.json",
   "extractor_version": 5,
@@ -189026,6 +191718,58 @@
   ],
   "status": "ok"
  },
+ "DH_IPC-PFW8XXX-Nova_Eng_P_Stream3_V2.622.0000000.3.R.181201.bin": {
+  "detail": "data/firmware/3e/3ea206915fcf728a.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-PDBW8801-H-A180-E4",
+    "IPC-PDBW8802-A180-E4",
+    "IPC-PDBW8808-A180-E4",
+    "IPC-PDBW8809-A180-E4",
+    "IPC-PFW83200P-H-A180-E4",
+    "IPC-PFW8601-H-A180-E3",
+    "IPC-PFW8601P-H-A180-E3-S2",
+    "IPC-PFW8601P-H-A180-E3-S2-V2",
+    "IPC-PFW8608-H-A180-E3",
+    "IPC-PFW8608-H-A180-E3-S2",
+    "IPC-PFW8608-H-A180-E3-S2-V2",
+    "IPC-PFW8801-H-A180-E4",
+    "IPC-PFW8802-A180-E4",
+    "IPC-PFW8808-H-A180-E4",
+    "IPC-PFW8809-A180-E4"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-PDBW8801-H-A180-E4",
+   "IPC-PDBW8802-A180-E4",
+   "IPC-PDBW8808-A180-E4",
+   "IPC-PDBW8809-A180-E4",
+   "IPC-PFW83200P-H-A180-E4",
+   "IPC-PFW8601-H-A180-E3",
+   "IPC-PFW8601P-H-A180-E3-S2",
+   "IPC-PFW8601P-H-A180-E3-S2-V2",
+   "IPC-PFW8608-H-A180-E3",
+   "IPC-PFW8608-H-A180-E3-S2",
+   "IPC-PFW8608-H-A180-E3-S2-V2",
+   "IPC-PFW8801-H-A180-E4",
+   "IPC-PFW8802-A180-E4",
+   "IPC-PFW8808-H-A180-E4",
+   "IPC-PFW8809-A180-E4"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:15+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_IPC-PFW8XXX-Nova_Eng_P_Stream3_V2.622.0000000.4.R.190813.bin": {
   "detail": "data/firmware/f9/f99520ad9e19eaa8.json",
   "extractor_version": 5,
@@ -190418,6 +193162,24 @@
   "package_format": "zip",
   "processed_at": "2026-10-05T12:18:31+00:00",
   "status": "extract_failed"
+ },
+ "DH_IPC-WDB-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.zip": {
+  "detail": "data/firmware/b1/b1789905280bde2b.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DB43BP-BTR"
+   ]
+  },
+  "hardware_ids": [
+   "DB43BP-BTR"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:15+00:00",
+  "status": "ok"
  },
  "DH_IPC-WDB-Cauchy_Eng_PN_V2.820.0000000.18.R.260714.zip": {
   "detail": "data/firmware/e6/e630dca2ab742e00.json",
@@ -193125,6 +195887,31 @@
   ],
   "status": "ok"
  },
+ "DH_MNVR1104_Eng_PN_V3.210.0000000.0.R.171212.bin": {
+  "detail": "data/firmware/35/35560a7cf347ad36.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "MED",
+    "MNVR1104"
+   ]
+  },
+  "hardware_ids": [
+   "General_MED",
+   "MNVR1104"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:31+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_MNVR8XXX_Eng_P_V4.003.0000000.0.R.201127.bin": {
   "detail": "data/firmware/16/166da02978e53c3c.json",
   "extractor_version": 5,
@@ -193944,6 +196731,21 @@
   ],
   "status": "no_ids"
  },
+ "DH_NVR2X-4KS3_MultiLang_V4.005.0000000.6.R.260304.zip": {
+  "attempts": 1,
+  "error": "DH_NVR2X-4KS3_MultiLang_V4.005.0000000.6.R.260304.bin: binwalk found nothing to extract",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:06:56+00:00",
+  "status": "extract_failed"
+ },
  "DH_NVR2X-4KS3_MultiLang_V4.005.0000000.7.R.260616.bin": {
   "attempts": 3,
   "error": "binwalk found nothing to extract",
@@ -194538,6 +197340,32 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:40:14+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_NVR2XXX-4KS2_MultiLang_V4.001.0000003.0.R.200727.bin": {
+  "detail": "data/firmware/9f/9fad447038b5c414.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "NVR2X-4KS3"
+   ],
+   "hwids": [],
+   "ignored": [
+    "DAHUA"
+   ],
+   "models": []
+  },
+  "hardware_ids": [
+   "DAHUA",
+   "NVR2X-4KS3"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:57+00:00",
   "socs": [
    {
     "vendor": "HiSilicon"
@@ -197996,7 +200824,7 @@
   "status": "extract_failed"
  },
  "DH_NVR4x-4KS3I_Chn_V4.005.0000001.0.R.240716.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -198007,11 +200835,11 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:46:23+00:00",
+  "processed_at": "2026-10-06T22:06:40+00:00",
   "status": "extract_failed"
  },
  "DH_NVR4x-4KS3_Chn_V4.003.0000000.0.R.240312.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -198022,7 +200850,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:46:36+00:00",
+  "processed_at": "2026-10-06T22:06:51+00:00",
   "status": "extract_failed"
  },
  "DH_NVR4x-4KS3_MultiLang_V4.001.0000000.1.R.231025.bin": {
@@ -199454,6 +202282,33 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:39:01+00:00",
+  "socs": [
+   {
+    "name": "Hi3536",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_NVR5XXX-4KS2_MultiLang_PeopleFlowControl_V4.001.9999001.0.D.201202.bin": {
+  "detail": "data/firmware/53/53f9b96dd54ba6ed.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "NVR5X-4K"
+   ],
+   "hwids": [],
+   "ignored": [
+    "DAHUA"
+   ],
+   "models": []
+  },
+  "hardware_ids": [
+   "DAHUA",
+   "NVR5X-4K"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:56+00:00",
   "socs": [
    {
     "name": "Hi3536",
@@ -201092,7 +203947,7 @@
   "status": "duplicate"
  },
  "DH_NVR5XXX-EI_MultiLang_V5.000.0000000.1.R.250917.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -201103,7 +203958,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:46:08+00:00",
+  "processed_at": "2026-10-06T22:06:17+00:00",
   "status": "extract_failed"
  },
  "DH_NVR5XXX-EI_MultiLang_V5.000.0000000.1.R.250917.zip": {
@@ -202183,6 +205038,30 @@
   ],
   "status": "ok"
  },
+ "DH_NVR5xxx_Eng_P_V2.616.0000.0.R.20170922.bin": {
+  "detail": "data/firmware/a5/a52add4606c1c1ef.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "DVRxx04HF-X"
+   ],
+   "hwids": [],
+   "ignored": [
+    "General"
+   ],
+   "models": [
+    "N6"
+   ]
+  },
+  "hardware_ids": [
+   "DVRxx04HF-X",
+   "General",
+   "General_N6"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:21+00:00",
+  "status": "ok"
+ },
  "DH_NVR5xxx_Eng_P_V2.616.0000.0.R.20171102.bin": {
   "detail": "data/firmware/7f/7fc878ced1c565ac.json",
   "extractor_version": 5,
@@ -202647,7 +205526,7 @@
   "status": "no_ids"
  },
  "DH_NVR6XXX-4KS3-I_Chn_V4.000.0000000.6.R.240721.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -202658,7 +205537,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:46:04+00:00",
+  "processed_at": "2026-10-06T22:06:14+00:00",
   "status": "extract_failed"
  },
  "DH_NVR6XXX-I_MultiLang_V4.000.0000000.2.R.221123.bin": {
@@ -202718,7 +205597,7 @@
   "status": "extract_failed"
  },
  "DH_NVR6XXX-I_MultiLang_V4.000.0000000.4.R.230831.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "detail": "data/firmware/fe/fe7096d36c0760cd.json",
   "error": "truncated: the intact part has no hardware IDs",
   "extractor_version": 5,
@@ -202730,7 +205609,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T21:46:04+00:00",
+  "processed_at": "2026-10-06T22:06:09+00:00",
   "socs": [
    {
     "name": "RK3588",
@@ -203278,6 +206157,34 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Chen-Gauss_MultiLang_PN_Stream3-xiaobei-NumberStat_V3.201.0000006.0.R.251219.zip": {
+  "detail": "data/firmware/52/5241811b1709efe5.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD-MT1A2004DB1-A",
+    "SD-MT1A4004DB1-A",
+    "SD-MT1A4004DB1-B"
+   ]
+  },
+  "hardware_ids": [
+   "SD-MT1A2004DB1-A",
+   "SD-MT1A4004DB1-A",
+   "SD-MT1A4004DB1-B"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:51+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Chen-Gauss_MultiLang_PN_Stream3-xiaobei-NumberStat_V3.201.0000006.1.R.260107.zip": {
   "detail": "data/firmware/19/196bb09f90f84b5d.json",
   "extractor_version": 5,
@@ -203306,6 +206213,34 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Chen-Gauss_MultiLang_PN_Stream3-xiaobei-NumberStat_V3.201.0000007.0.R.260129.zip": {
+  "detail": "data/firmware/56/56daf772ca492b5f.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD-MT1A2004DB1-A",
+    "SD-MT1A4004DB1-A",
+    "SD-MT1A4004DB1-B"
+   ]
+  },
+  "hardware_ids": [
+   "SD-MT1A2004DB1-A",
+   "SD-MT1A4004DB1-A",
+   "SD-MT1A4004DB1-B"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:48+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Chen-Gauss_MultiLang_PN_Stream3-xiaobei-NumberStat_V3.201.0000007.1.R.260413.zip": {
   "detail": "data/firmware/a1/a1e44e9dab39755e.json",
   "extractor_version": 5,
@@ -203326,6 +206261,70 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:30:43+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Chen-Gauss_MultiLang_PN_Stream3_V3.201.0000004.0.R.251110.zip": {
+  "detail": "data/firmware/ef/ef17ea07bd725b3e.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ2020DB1-A",
+    "CA-HZ2023DB1-A",
+    "CA-HZ2023DB4-A",
+    "CA-HZ2023DB5-A",
+    "CA-HZ2023DB6-A",
+    "CA-HZ2023DBC-A",
+    "CA-HZ2032DBC-A",
+    "CA-HZ4004DAC-A",
+    "CA-HZ4020DB-A",
+    "CA-HZ4023DBC-A",
+    "CA-HZ4025DB-B",
+    "CA-HZ4032DBC-A",
+    "SD49220DB1-A",
+    "SD49225DB1-B",
+    "SD49225DB3-A",
+    "SD49420DB-A",
+    "SD49425DB-B",
+    "SD6C3223DB5-A",
+    "SD6C3432DB-A",
+    "SD6C4223DB-A",
+    "SD6C4425DB-A"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ2020DB1-A",
+   "CA-HZ2023DB1-A",
+   "CA-HZ2023DB4-A",
+   "CA-HZ2023DB5-A",
+   "CA-HZ2023DB6-A",
+   "CA-HZ2023DBC-A",
+   "CA-HZ2032DBC-A",
+   "CA-HZ4004DAC-A",
+   "CA-HZ4020DB-A",
+   "CA-HZ4023DBC-A",
+   "CA-HZ4025DB-B",
+   "CA-HZ4032DBC-A",
+   "SD49220DB1-A",
+   "SD49225DB1-B",
+   "SD49225DB3-A",
+   "SD49420DB-A",
+   "SD49425DB-B",
+   "SD6C3223DB5-A",
+   "SD6C3432DB-A",
+   "SD6C4223DB-A",
+   "SD6C4425DB-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:43+00:00",
   "socs": [
    {
     "name": "NT98560",
@@ -204564,6 +207563,68 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Chen-Nova_MultiLang_PN_Stream3_V2.800.0000000.4.R.190416.bin": {
+  "detail": "data/firmware/b0/b0df0f6f61bc50a5.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ2026V",
+    "CA-HZ2030V",
+    "CA-HZ2037TV",
+    "CA-HZ2037V",
+    "CA-HZ2040VA",
+    "CA-HZ2042V",
+    "CA-HZ2046V",
+    "CA-HZ2048V",
+    "CA-HZ8030VA",
+    "CA-HZ8046V",
+    "CA-HZ8048V",
+    "PTZ-HZ2032V",
+    "PTZ-HZ2032VA",
+    "PTZ-HZ2033-NOVA-B",
+    "PTZ-HZ2033V",
+    "PTZ-HZ2034V",
+    "PTZ-HZ2036V",
+    "PTZ-HZ2060V",
+    "PTZ-HZ2060VA",
+    "PTZ-HZ2060VB"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ2026V",
+   "CA-HZ2030V",
+   "CA-HZ2037TV",
+   "CA-HZ2037V",
+   "CA-HZ2040VA",
+   "CA-HZ2042V",
+   "CA-HZ2046V",
+   "CA-HZ2048V",
+   "CA-HZ8030VA",
+   "CA-HZ8046V",
+   "CA-HZ8048V",
+   "PTZ-HZ2032V",
+   "PTZ-HZ2032VA",
+   "PTZ-HZ2033-NOVA-B",
+   "PTZ-HZ2033V",
+   "PTZ-HZ2034V",
+   "PTZ-HZ2036V",
+   "PTZ-HZ2060V",
+   "PTZ-HZ2060VA",
+   "PTZ-HZ2060VB"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Chen-Nova_MultiLang_PN_Stream3_V2.801.0000000Z.0.R.210926.zip": {
   "detail": "data/firmware/db/dbb28b54bf32aaef.json",
   "extractor_version": 5,
@@ -205086,6 +208147,62 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:41:04+00:00",
+  "status": "ok"
+ },
+ "DH_SD-Eos-Civil_MultiLang_PN_Stream3_V2.623.0000000.22.R.190409.bin": {
+  "detail": "data/firmware/c8/c83e051c4e5ae927.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "PTZ-MT1B200UE-GN",
+    "PTZ-MT1B203UE-GN",
+    "PTZ-MT2000UA-0360-A",
+    "PTZ-MT2000UA-0600-A",
+    "PTZ-NT203UE-A",
+    "SD-MT12200UE-GN-28-EOS",
+    "SD-MT12200UE-GN-36-EOS",
+    "SD-MT12203UE-GN-EOS",
+    "SD-MT22204UE-GN-A",
+    "SD12200UE-GN-36-EOS",
+    "SD12203UE-GN-EOS",
+    "SD29204UE-GN-A",
+    "SD49D216UE-GN-D",
+    "SD49D220UE-HN-D",
+    "SD6C80FB-GN-A",
+    "SD6C82FB-GN-EOS-A",
+    "SD6C82FB-GN-EOS-B"
+   ]
+  },
+  "hardware_ids": [
+   "PTZ-MT1B200UE-GN",
+   "PTZ-MT1B203UE-GN",
+   "PTZ-MT2000UA-0360-A",
+   "PTZ-MT2000UA-0600-A",
+   "PTZ-NT203UE-A",
+   "SD-MT12200UE-GN-28-EOS",
+   "SD-MT12200UE-GN-36-EOS",
+   "SD-MT12203UE-GN-EOS",
+   "SD-MT22204UE-GN-A",
+   "SD12200UE-GN-36-EOS",
+   "SD12203UE-GN-EOS",
+   "SD29204UE-GN-A",
+   "SD49D216UE-GN-D",
+   "SD49D220UE-HN-D",
+   "SD6C80FB-GN-A",
+   "SD6C82FB-GN-EOS-A",
+   "SD6C82FB-GN-EOS-B"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:15+00:00",
+  "socs": [
+   {
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  ],
   "status": "ok"
  },
  "DH_SD-Eos-Civil_MultiLang_PN_Stream3_V2.800.0000000.7.R.191113.bin": {
@@ -208975,6 +212092,168 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:55:34+00:00",
+  "socs": [
+   {
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Eos_MultiLang_PN_Stream3_V2.623.0000000.21.R.190320.bin": {
+  "detail": "data/firmware/7f/7fb5ee6752e83da3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ1020U",
+    "CA-HZ1020U1",
+    "CA-HZ1023MU",
+    "CA-HZ1023U",
+    "CA-HZ1023U1",
+    "CA-HZ1023U1-A",
+    "CA-HZ1023UA",
+    "CA-HZ1023UBC",
+    "CA-HZ1023UC1-A",
+    "CA-HZ1023UD1-A",
+    "CA-HZ1030U",
+    "CA-HZ1031MU",
+    "CA-HZ1031U",
+    "CA-HZ1031U1",
+    "CA-HZ1031U1-A",
+    "CA-HZ1031UA",
+    "CA-HZ1031UD1-A",
+    "CA-HZ2020U",
+    "CA-HZ2020U1",
+    "CA-HZ2023MU",
+    "CA-HZ2023U",
+    "CA-HZ2023U1",
+    "CA-HZ2023U1-A",
+    "CA-HZ2023UA",
+    "CA-HZ2023UBC",
+    "CA-HZ2023UC1-A",
+    "CA-HZ2023UD1-A",
+    "CA-HZ2025U",
+    "CA-HZ2025U1",
+    "CA-HZ2025U1-A",
+    "CA-HZ2026-EOS-A",
+    "CA-HZ2026U",
+    "CA-HZ2030DU",
+    "CA-HZ2030DUA",
+    "CA-HZ2030MU",
+    "CA-HZ2030U-FI",
+    "CA-HZ2030U1",
+    "CA-HZ2030U2",
+    "CA-HZ2030U3",
+    "CA-HZ2030UAC",
+    "CA-HZ2030UB",
+    "CA-HZ2030UB-B",
+    "CA-HZ2030UBC",
+    "CA-HZ2030UE-B",
+    "CA-HZ2036U",
+    "CA-HZ2037UA-A",
+    "CA-HZ2040U",
+    "CA-HZ2040U1-A",
+    "CA-HZ2045U",
+    "CA-HZ2045U1-A",
+    "CA-HZ2045UC-A",
+    "CA-HZ4026U",
+    "CA-HZ4030U",
+    "CA-HZ4030UA",
+    "CA-HZ4030UB-A",
+    "CA-HZ4030UBC",
+    "CA-HZ4040UA-A",
+    "CA-HZ5030UB-A",
+    "CA-HZ5045UA-A",
+    "CA-HZ6030U",
+    "CA-HZ6030UAC",
+    "SD42D204U-HN",
+    "SD42D210U-HN",
+    "SD6C80FA-GN",
+    "SD6C80FA-GN-A",
+    "SD6C80FA-GNX",
+    "SD6C82FA-GN",
+    "SD6C82FA-GNX",
+    "SD6C90FA-GN",
+    "SD6C90FA-GNX"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ1020U",
+   "CA-HZ1020U1",
+   "CA-HZ1023MU",
+   "CA-HZ1023U",
+   "CA-HZ1023U1",
+   "CA-HZ1023U1-A",
+   "CA-HZ1023UA",
+   "CA-HZ1023UBC",
+   "CA-HZ1023UC1-A",
+   "CA-HZ1023UD1-A",
+   "CA-HZ1030U",
+   "CA-HZ1031MU",
+   "CA-HZ1031U",
+   "CA-HZ1031U1",
+   "CA-HZ1031U1-A",
+   "CA-HZ1031UA",
+   "CA-HZ1031UD1-A",
+   "CA-HZ2020U",
+   "CA-HZ2020U1",
+   "CA-HZ2023MU",
+   "CA-HZ2023U",
+   "CA-HZ2023U1",
+   "CA-HZ2023U1-A",
+   "CA-HZ2023UA",
+   "CA-HZ2023UBC",
+   "CA-HZ2023UC1-A",
+   "CA-HZ2023UD1-A",
+   "CA-HZ2025U",
+   "CA-HZ2025U1",
+   "CA-HZ2025U1-A",
+   "CA-HZ2026-EOS-A",
+   "CA-HZ2026U",
+   "CA-HZ2030DU",
+   "CA-HZ2030DUA",
+   "CA-HZ2030MU",
+   "CA-HZ2030U-FI",
+   "CA-HZ2030U1",
+   "CA-HZ2030U2",
+   "CA-HZ2030U3",
+   "CA-HZ2030UAC",
+   "CA-HZ2030UB",
+   "CA-HZ2030UB-B",
+   "CA-HZ2030UBC",
+   "CA-HZ2030UE-B",
+   "CA-HZ2036U",
+   "CA-HZ2037UA-A",
+   "CA-HZ2040U",
+   "CA-HZ2040U1-A",
+   "CA-HZ2045U",
+   "CA-HZ2045U1-A",
+   "CA-HZ2045UC-A",
+   "CA-HZ4026U",
+   "CA-HZ4030U",
+   "CA-HZ4030UA",
+   "CA-HZ4030UB-A",
+   "CA-HZ4030UBC",
+   "CA-HZ4040UA-A",
+   "CA-HZ5030UB-A",
+   "CA-HZ5045UA-A",
+   "CA-HZ6030U",
+   "CA-HZ6030UAC",
+   "SD42D204U-HN",
+   "SD42D210U-HN",
+   "SD6C80FA-GN",
+   "SD6C80FA-GN-A",
+   "SD6C80FA-GNX",
+   "SD6C82FA-GN",
+   "SD6C82FA-GNX",
+   "SD6C90FA-GN",
+   "SD6C90FA-GNX"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
   "socs": [
    {
     "name": "Hi3516A",
@@ -213423,6 +216702,30 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Fourier_MultiLang_PN_Stream3-ITOP-RapidXVR_V3.200.0000009.2.R.260606.zip": {
+  "detail": "data/firmware/53/537475caccf7bce4.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT4E425-4F-MBS2-0400-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT4E425-4F-MBS2-0400-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:08:14+00:00",
+  "socs": [
+   {
+    "name": "NT98539",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Fourier_MultiLang_PN_Stream3-ITOP-RapidXVR_V3.200.0000010.2.R.260807.zip": {
   "detail": "data/firmware/72/72573a3619cc8f94.json",
   "extractor_version": 5,
@@ -213517,6 +216820,84 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:30:49+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss-Civil_MultiLang_PN_Stream3-xiaobei_V3.201.0000006.0.R.251219.zip": {
+  "detail": "data/firmware/11/11e5add7de2f3a23.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD22204DB-A",
+    "SD22204DB1-A"
+   ]
+  },
+  "hardware_ids": [
+   "SD22204DB-A",
+   "SD22204DB1-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:52+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss-Civil_MultiLang_PN_Stream3-xiaobei_V3.201.0000007.0.R.260129.zip": {
+  "detail": "data/firmware/88/88c6116cbb6fdc9c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD22204DB-A",
+    "SD22204DB1-A"
+   ]
+  },
+  "hardware_ids": [
+   "SD22204DB-A",
+   "SD22204DB1-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:48+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss-Civil_MultiLang_PN_Stream3-xiaobei_V3.201.0000007.1.R.260413.zip": {
+  "detail": "data/firmware/27/27ff5136a37d9d98.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD22204DB-A",
+    "SD22204DB1-A"
+   ]
+  },
+  "hardware_ids": [
+   "SD22204DB-A",
+   "SD22204DB1-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:46+00:00",
   "socs": [
    {
     "name": "NT98560",
@@ -213667,6 +217048,54 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:30:51+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss-Civil_MultiLang_PN_Stream3_V3.201.0000007.0.R.260129.zip": {
+  "detail": "data/firmware/df/df694ccc8289aa98.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ2023DB3-A",
+    "SD49216DB-A",
+    "SD49220DB-A",
+    "SD49223DB-A",
+    "SD49223DB1-A",
+    "SD49225DB-A",
+    "SD49225DB2-A",
+    "SD6C3120DB-A",
+    "SD6C3220DB-A",
+    "SD6C3220DB1-A",
+    "SD6C3223DB-A",
+    "SD6C3223DB1-B",
+    "SD6C3223DB4-A"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ2023DB3-A",
+   "SD49216DB-A",
+   "SD49220DB-A",
+   "SD49223DB-A",
+   "SD49223DB1-A",
+   "SD49225DB-A",
+   "SD49225DB2-A",
+   "SD6C3120DB-A",
+   "SD6C3220DB-A",
+   "SD6C3220DB1-A",
+   "SD6C3223DB-A",
+   "SD6C3223DB1-B",
+   "SD6C3223DB4-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:44+00:00",
   "socs": [
    {
     "name": "NT98560",
@@ -214191,6 +217620,90 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Gauss_MultiLang_PN_Stream3-xiaobei_V3.201.0000006.0.R.251219.zip": {
+  "detail": "data/firmware/dc/dc24da3c75e63b76.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD-MT2A4000DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4010DB-A",
+    "SD22404DB-A"
+   ]
+  },
+  "hardware_ids": [
+   "SD-MT2A4000DB-A",
+   "SD-MT3A4004DB-A",
+   "SD-MT3E2005DB-A",
+   "SD-MT3E2005DB-B",
+   "SD-MT3E2005DB-C",
+   "SD-MT3E4005DB-A",
+   "SD-MT3E4005DB-B",
+   "SD-MT3E4005DB-C",
+   "SD-MT3E4010DB-A",
+   "SD22404DB-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:41+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss_MultiLang_PN_Stream3-xiaobei_V3.201.0000007.0.R.260129.zip": {
+  "detail": "data/firmware/64/64fe4094e4597dc1.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD-MT2A4000DB-A",
+    "SD-MT3A4004DB-A",
+    "SD-MT3E2005DB-A",
+    "SD-MT3E2005DB-B",
+    "SD-MT3E2005DB-C",
+    "SD-MT3E4005DB-A",
+    "SD-MT3E4005DB-B",
+    "SD-MT3E4005DB-C",
+    "SD-MT3E4010DB-A",
+    "SD22404DB-A"
+   ]
+  },
+  "hardware_ids": [
+   "SD-MT2A4000DB-A",
+   "SD-MT3A4004DB-A",
+   "SD-MT3E2005DB-A",
+   "SD-MT3E2005DB-B",
+   "SD-MT3E2005DB-C",
+   "SD-MT3E4005DB-A",
+   "SD-MT3E4005DB-B",
+   "SD-MT3E4005DB-C",
+   "SD-MT3E4010DB-A",
+   "SD22404DB-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:40+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Gauss_MultiLang_PN_Stream3-xiaobei_V3.201.0000007.1.R.260413.zip": {
   "detail": "data/firmware/45/456f9c2104654971.json",
   "extractor_version": 5,
@@ -214617,6 +218130,104 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:23:48+00:00",
+  "socs": [
+   {
+    "name": "NT98560",
+    "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Gauss_MultiLang_PN_Stream3_V3.201.0000007.0.R.260129.zip": {
+  "detail": "data/firmware/a1/a11f1673561f8efc.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ2016DB-A",
+    "CA-HZ2020DB-A",
+    "CA-HZ2023DB-A",
+    "CA-HZ2023DB-B",
+    "CA-HZ2023DB2-A",
+    "CA-HZ2025DB-A",
+    "CA-HZ2032DB-A",
+    "CA-HZ2032DB-B",
+    "CA-HZ2032DB1-A",
+    "CA-HZ2032DB1-B",
+    "CA-HZ2040DB-A",
+    "CA-HZ4023DB-A",
+    "CA-HZ4023DB1-A",
+    "CA-HZ4025DB-A",
+    "CA-HZ4032DB-A",
+    "CA-HZ4032DB1-A",
+    "CA-HZ4040DB-A",
+    "SD-MT3A2004DB-A",
+    "SD-MT3A4000DA-A",
+    "SD-MT3A4000DA-B",
+    "SD-MT3A4004DB-B",
+    "SD-MT3A4004DB-C",
+    "SD3A2004DB-A",
+    "SD3A4004DB-A",
+    "SD3A4004DB-B",
+    "SD3C3005DB-A",
+    "SD49216DB-A",
+    "SD49225DB-A",
+    "SD49405DB-A",
+    "SD49423DB-A",
+    "SD49425DB-A",
+    "SD49425DB1-A",
+    "SD6C3223DB-A",
+    "SD6C3223DB2-A",
+    "SD6C3223DB4-A",
+    "SD6C3423DB-A",
+    "SD6C3423DB1-A",
+    "SD6C3423DB2-A"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ2016DB-A",
+   "CA-HZ2020DB-A",
+   "CA-HZ2023DB-A",
+   "CA-HZ2023DB-B",
+   "CA-HZ2023DB2-A",
+   "CA-HZ2025DB-A",
+   "CA-HZ2032DB-A",
+   "CA-HZ2032DB-B",
+   "CA-HZ2032DB1-A",
+   "CA-HZ2032DB1-B",
+   "CA-HZ2040DB-A",
+   "CA-HZ4023DB-A",
+   "CA-HZ4023DB1-A",
+   "CA-HZ4025DB-A",
+   "CA-HZ4032DB-A",
+   "CA-HZ4032DB1-A",
+   "CA-HZ4040DB-A",
+   "SD-MT3A2004DB-A",
+   "SD-MT3A4000DA-A",
+   "SD-MT3A4000DA-B",
+   "SD-MT3A4004DB-B",
+   "SD-MT3A4004DB-C",
+   "SD3A2004DB-A",
+   "SD3A4004DB-A",
+   "SD3A4004DB-B",
+   "SD3C3005DB-A",
+   "SD49216DB-A",
+   "SD49225DB-A",
+   "SD49405DB-A",
+   "SD49423DB-A",
+   "SD49425DB-A",
+   "SD49425DB1-A",
+   "SD6C3223DB-A",
+   "SD6C3223DB2-A",
+   "SD6C3223DB4-A",
+   "SD6C3423DB-A",
+   "SD6C3423DB1-A",
+   "SD6C3423DB2-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:36+00:00",
   "socs": [
    {
     "name": "NT98560",
@@ -217265,6 +220876,44 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Mao-Nova_MultiLang_PN_Stream3_V2.800.0000000.4.R.190416.bin": {
+  "detail": "data/firmware/5c/5c7d71966dc95bd3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ8004V",
+    "CA-HZ8030U-I",
+    "SD-46A230U-HNI",
+    "SD-E46B230U-HN",
+    "SD-E46B230U-HNI",
+    "SD-P46B230U-HNI",
+    "SDE56E220-HNI-NOVA-A",
+    "SDE56E220-HNI-NOVA-B"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ8004V",
+   "CA-HZ8030U-I",
+   "SD-46A230U-HNI",
+   "SD-E46B230U-HN",
+   "SD-E46B230U-HNI",
+   "SD-P46B230U-HNI",
+   "SDE56E220-HNI-NOVA-A",
+   "SDE56E220-HNI-NOVA-B"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Mao-Nova_MultiLang_PN_Stream3_V2.800.1382001.0.R.190701.bin": {
   "detail": "data/firmware/f4/f488ac854280748e.json",
   "extractor_version": 5,
@@ -217919,6 +221568,66 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T18:56:15+00:00",
+  "socs": [
+   {
+    "name": "S3L",
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Mao-Rhea_Eng_P_Stream3_IVS_V2.623.0000000.2.R.180913.bin": {
+  "detail": "data/firmware/18/185eba0931c7733a.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "CA-HZ1023UT",
+    "CA-HZ1031UT",
+    "CA-HZ2012T-S2",
+    "CA-HZ2023T-S2",
+    "CA-HZ2023UT",
+    "CA-HZ2025T-S2",
+    "CA-HZ2030T-S2",
+    "CA-HZ4012T-S2",
+    "CA-HZ4023T-S2",
+    "CA-HZ4025T-S2",
+    "PTZ1204T-GN-S2",
+    "SD12200T-GN-28-S2",
+    "SD12200T-GN-36-S2",
+    "SD12203T-GN-S2",
+    "SD22204T-GN-HK-S2",
+    "SD22206T-GN-S2",
+    "SD22404T-GN-S2",
+    "SD29D206T-HNG-D-S2",
+    "SD29D404T-HNG-D-S2"
+   ]
+  },
+  "hardware_ids": [
+   "CA-HZ1023UT",
+   "CA-HZ1031UT",
+   "CA-HZ2012T-S2",
+   "CA-HZ2023T-S2",
+   "CA-HZ2023UT",
+   "CA-HZ2025T-S2",
+   "CA-HZ2030T-S2",
+   "CA-HZ4012T-S2",
+   "CA-HZ4023T-S2",
+   "CA-HZ4025T-S2",
+   "PTZ1204T-GN-S2",
+   "SD12200T-GN-28-S2",
+   "SD12200T-GN-36-S2",
+   "SD12203T-GN-S2",
+   "SD22204T-GN-HK-S2",
+   "SD22206T-GN-S2",
+   "SD22404T-GN-S2",
+   "SD29D206T-HNG-D-S2",
+   "SD29D404T-HNG-D-S2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:15+00:00",
   "socs": [
    {
     "name": "S3L",
@@ -227787,6 +231496,56 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM-Acupick_V3.211.0000007.1.R.260206.zip": {
+  "detail": "data/firmware/a7/a70b4b3860633d4c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-4F-GBS2-0400-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-4F-GBS2-0400-A",
+    "SDT7C1432-6P-GBS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT3E410-8P-GBS2-0280-A",
+   "SDT4E425-4F-GBS2-0280-A",
+   "SDT4E425-8P-MB-0280-A",
+   "SDT6E425-8P-MB-0280-A",
+   "SDT6E432-8P-MB-0280-A",
+   "SDT7C1223-6P-GBS2-0280-A",
+   "SDT7C1425-4F-GBS2-0400-A",
+   "SDT7C1425-6P-GBS2-0280-A",
+   "SDT7C1432-4F-GBS2-0400-A",
+   "SDT7C1432-6P-GBS2-0280-A",
+   "SDT8C1425-6P-GAS2-0280-A",
+   "SDT8C1433-6P-GAS2-0280-A",
+   "SDT8C1440-6P-GAS2-0280-A",
+   "SDT8C2433-4Z4-GAS2-0832-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:06:19+00:00",
+  "socs": [
+   {
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM-Acupick_V3.211.0000016.0.R.260822.zip": {
   "detail": "data/firmware/18/18810aa96142c82c.json",
   "extractor_version": 5,
@@ -227851,6 +231610,56 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T15:47:56+00:00",
+  "socs": [
+   {
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLMMUL-Acupick_V3.211.0000012.1.R.260527.zip": {
+  "detail": "data/firmware/12/128fd19c48ddb68a.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-4F-GBS2-0400-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-4F-GBS2-0400-A",
+    "SDT7C1432-6P-GBS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT3E410-8P-GBS2-0280-A",
+   "SDT4E425-4F-GBS2-0280-A",
+   "SDT4E425-8P-MB-0280-A",
+   "SDT6E425-8P-MB-0280-A",
+   "SDT6E432-8P-MB-0280-A",
+   "SDT7C1223-6P-GBS2-0280-A",
+   "SDT7C1425-4F-GBS2-0400-A",
+   "SDT7C1425-6P-GBS2-0280-A",
+   "SDT7C1432-4F-GBS2-0400-A",
+   "SDT7C1432-6P-GBS2-0280-A",
+   "SDT8C1425-6P-GAS2-0280-A",
+   "SDT8C1433-6P-GAS2-0280-A",
+   "SDT8C1440-6P-GAS2-0280-A",
+   "SDT8C2433-4Z4-GAS2-0832-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:05:47+00:00",
   "socs": [
    {
     "name": "Hi3519DV500",
@@ -228069,6 +231878,56 @@
   ],
   "status": "ok"
  },
+ "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000007.1.R.260206.zip": {
+  "detail": "data/firmware/1c/1cb5d963ada739a9.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-4F-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A",
+    "SDT6E425-8P-MB-0280-A",
+    "SDT6E432-8P-MB-0280-A",
+    "SDT7C1223-6P-GBS2-0280-A",
+    "SDT7C1425-4F-GBS2-0400-A",
+    "SDT7C1425-6P-GBS2-0280-A",
+    "SDT7C1432-4F-GBS2-0400-A",
+    "SDT7C1432-6P-GBS2-0280-A",
+    "SDT8C1425-6P-GAS2-0280-A",
+    "SDT8C1433-6P-GAS2-0280-A",
+    "SDT8C1440-6P-GAS2-0280-A",
+    "SDT8C2433-4Z4-GAS2-0832-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT3E410-8P-GBS2-0280-A",
+   "SDT4E425-4F-GBS2-0280-A",
+   "SDT4E425-8P-MB-0280-A",
+   "SDT6E425-8P-MB-0280-A",
+   "SDT6E432-8P-MB-0280-A",
+   "SDT7C1223-6P-GBS2-0280-A",
+   "SDT7C1425-4F-GBS2-0400-A",
+   "SDT7C1425-6P-GBS2-0280-A",
+   "SDT7C1432-4F-GBS2-0400-A",
+   "SDT7C1432-6P-GBS2-0280-A",
+   "SDT8C1425-6P-GAS2-0280-A",
+   "SDT8C1433-6P-GAS2-0280-A",
+   "SDT8C1440-6P-GAS2-0280-A",
+   "SDT8C2433-4Z4-GAS2-0832-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:11+00:00",
+  "socs": [
+   {
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000012.1.R.260527.zip": {
   "detail": "data/firmware/eb/ebf092f9aeb8308e.json",
   "extractor_version": 5,
@@ -228145,6 +232004,48 @@
    }
   ],
   "status": "duplicate"
+ },
+ "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000016.0.R.260822-2955f564.zip": {
+  "attempts": 1,
+  "error": "truncated: the intact part has no hardware IDs",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:06:09+00:00",
+  "status": "extract_failed",
+  "truncated": true
+ },
+ "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000016.0.R.260822.bin": {
+  "detail": "data/firmware/b6/b69fde0d8a45b58c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT3E410-8P-GBS2-0280-A",
+   "SDT4E425-8P-MB-0280-A"
+  ],
+  "package_format": "dhsp",
+  "processed_at": "2026-10-06T22:07:16+00:00",
+  "socs": [
+   {
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
  },
  "DH_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000016.0.R.260822.zip": {
   "detail": "data/firmware/3a/3a2bf283a977ae3b.json",
@@ -230039,6 +233940,52 @@
   ],
   "status": "ok"
  },
+ "DH_TPC-BF1241-TB_MultiLang_PN_V2.630.0000000.6.R.210707.bin": {
+  "detail": "data/firmware/50/500baba7f42b8194.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "TPC-BF1241-B",
+    "TPC-BF1241-B10F8",
+    "TPC-BF1241-B10F8WIFI",
+    "TPC-BF1241-BWIFI",
+    "TPC-BF1241-TB",
+    "TPC-BF1241-TB10F8",
+    "TPC-BF1241-TB10F8WIFI",
+    "TPC-BF1241-TBWIFI",
+    "TPC-DF1241-B",
+    "TPC-DF1241-B2F2",
+    "TPC-DF1241-TB",
+    "TPC-DF1241-TB2F2"
+   ]
+  },
+  "hardware_ids": [
+   "TPC-BF1241-B",
+   "TPC-BF1241-B10F8",
+   "TPC-BF1241-B10F8WIFI",
+   "TPC-BF1241-BWIFI",
+   "TPC-BF1241-TB",
+   "TPC-BF1241-TB10F8",
+   "TPC-BF1241-TB10F8WIFI",
+   "TPC-BF1241-TBWIFI",
+   "TPC-DF1241-B",
+   "TPC-DF1241-B2F2",
+   "TPC-DF1241-TB",
+   "TPC-DF1241-TB2F2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:52+00:00",
+  "socs": [
+   {
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_TPC-BF1241-TB_MultiLang_PN_V2.630.0000000.7.R.211012.bin": {
   "detail": "data/firmware/83/83fb8a3fb009b348.json",
   "extractor_version": 5,
@@ -230330,6 +234277,30 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:38:43+00:00",
+  "socs": [
+   {
+    "name": "Hi3519AV100",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_TPC-BF2221-B_MultiLang_PN_V2.630.0000000.8.R.200702.bin": {
+  "detail": "data/firmware/67/678d5c2a7bb55054.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "TPC-BF2221-B"
+   ]
+  },
+  "hardware_ids": [
+   "TPC-BF2221-B"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:56+00:00",
   "socs": [
    {
     "name": "Hi3519AV100",
@@ -238138,6 +242109,35 @@
   "processed_at": "2026-10-03T16:44:22+00:00",
   "status": "duplicate"
  },
+ "DH_VTH26XXL_L_MultiLang_SIP_Asia_V4.810.0000000.1.R.250915.zip": {
+  "detail": "data/firmware/69/698ca153bd5f15c8.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTH2611L",
+    "VTH2612L",
+    "VTH2612L-W",
+    "VTH2621L"
+   ]
+  },
+  "hardware_ids": [
+   "VTH2611L",
+   "VTH2612L",
+   "VTH2612L-W",
+   "VTH2621L"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:16+00:00",
+  "socs": [
+   {
+    "vendor": "SigmaStar"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_VTH26XXL_L_MultiLang_SIP_Asia_V4.810.0000000.4.R.260527.zip": {
   "detail": "data/firmware/99/99cca129f8c82966.json",
   "extractor_version": 5,
@@ -238189,6 +242189,35 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:50:58+00:00",
+  "socs": [
+   {
+    "vendor": "SigmaStar"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_VTH26XXL_L_MultiLang_SIP_CEE-Nordic_V4.810.0000000.1.R.250915.zip": {
+  "detail": "data/firmware/ea/ea36401e64237384.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTH2611L",
+    "VTH2612L",
+    "VTH2612L-W",
+    "VTH2621L"
+   ]
+  },
+  "hardware_ids": [
+   "VTH2611L",
+   "VTH2612L",
+   "VTH2612L-W",
+   "VTH2621L"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:23+00:00",
   "socs": [
    {
     "vendor": "SigmaStar"
@@ -238489,6 +242518,42 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:57:40+00:00",
+  "status": "ok"
+ },
+ "DH_VTHX421H_MultiLang_SIP_Asia_V4.810.0000000.3.R.260410.zip": {
+  "detail": "data/firmware/06/06cdb86ef354927d.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTH2421F",
+    "VTH2421FS-SH",
+    "VTH2421F_R",
+    "VTH5221D-S",
+    "VTH5221D-S-SH",
+    "VTH5241D-S",
+    "VTH5241D-S-SH",
+    "VTH5421CH",
+    "VTH5421E-H",
+    "VTH5441G"
+   ]
+  },
+  "hardware_ids": [
+   "VTH2421F",
+   "VTH2421FS-SH",
+   "VTH2421F_R",
+   "VTH5221D-S",
+   "VTH5221D-S-SH",
+   "VTH5241D-S",
+   "VTH5241D-S-SH",
+   "VTH5421CH",
+   "VTH5421E-H",
+   "VTH5441G"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:03+00:00",
   "status": "ok"
  },
  "DH_VTHX421H_MultiLang_SIP_Asia_V4.810.0000000.4.R.260527.zip": {
@@ -238886,6 +242951,42 @@
   ],
   "package_format": "bundle",
   "processed_at": "2026-10-03T16:42:36+00:00",
+  "status": "ok"
+ },
+ "DH_VTHX421H_MultiLang_SIP_CEE-Nordic_V4.810.0000000.3.R.260410.zip": {
+  "detail": "data/firmware/c2/c2931e596d16990c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTH2421F",
+    "VTH2421FS-SH",
+    "VTH2421F_R",
+    "VTH5221D-S",
+    "VTH5221D-S-SH",
+    "VTH5241D-S",
+    "VTH5241D-S-SH",
+    "VTH5421CH",
+    "VTH5421E-H",
+    "VTH5441G"
+   ]
+  },
+  "hardware_ids": [
+   "VTH2421F",
+   "VTH2421FS-SH",
+   "VTH2421F_R",
+   "VTH5221D-S",
+   "VTH5221D-S-SH",
+   "VTH5241D-S",
+   "VTH5241D-S-SH",
+   "VTH5421CH",
+   "VTH5421E-H",
+   "VTH5441G"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:01+00:00",
   "status": "ok"
  },
  "DH_VTHX421H_MultiLang_SIP_CEE-Nordic_V4.810.0000000.4.R.260527.zip": {
@@ -239814,7 +243915,7 @@
   "status": "ok"
  },
  "DH_VTHX421L_MultiLang_SIP_V4.500.0000001.0.R.210714.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "truncated: the intact part has no hardware IDs",
   "extractor_version": 5,
   "hardware": {
@@ -239825,7 +243926,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T21:47:40+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed",
   "truncated": true
  },
@@ -239899,6 +244000,30 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-03T16:54:57+00:00",
+  "status": "ok"
+ },
+ "DH_VTHX421L_MultiLang_SIP_V4.510.0000000.2.R.260716.zip": {
+  "detail": "data/firmware/3a/3a2e9899c31b9398.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTH1560B-S",
+    "VTH2421A",
+    "VTH2421CH",
+    "VTH5421CH"
+   ]
+  },
+  "hardware_ids": [
+   "VTH1560B-S",
+   "VTH2421A",
+   "VTH2421CH",
+   "VTH5421CH"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "ok"
  },
  "DH_VTHX521_Eng_SIP_V4.400.0000001.0.R.20210715.bin": {
@@ -240991,6 +245116,19 @@
   "processed_at": "2026-10-03T15:57:55+00:00",
   "status": "no_ids"
  },
+ "DH_VTHXAX1_MultiLang_SIP_V4.400.0000001.3.R.20260728.zip": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:40+00:00",
+  "status": "no_ids"
+ },
  "DH_VTHXXX4_MultiLang_SIP_Asia_V4.700.0000000.4.R.260203.zip": {
   "detail": "data/firmware/08/08dcfa464a61cab0.json",
   "extractor_version": 5,
@@ -241299,6 +245437,32 @@
   "processed_at": "2026-10-03T18:57:05+00:00",
   "status": "ok"
  },
+ "DH_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin": {
+  "detail": "data/firmware/02/0280a6a0a790cc55.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO4202F",
+    "VTO4202F-MA"
+   ]
+  },
+  "hardware_ids": [
+   "VTO4202F",
+   "VTO4202F-MA"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:21+00:00",
+  "socs": [
+   {
+    "name": "Hi3516CV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_VTO4202F-P_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.zip": {
   "detail": "data/firmware/d3/d396b947942abbe2.json",
   "extractor_version": 5,
@@ -241399,6 +245563,40 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-03T16:14:47+00:00",
+  "status": "ok"
+ },
+ "DH_VTO65XXX-C-H-Freyja-A3_MultiLang_PN_V4.810.0000000.2.R.260612.zip": {
+  "detail": "data/firmware/87/876ff97a51d037fb.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO6521F-V1",
+    "VTO6521H-D-V1",
+    "VTO6521H-V1",
+    "VTO6521K-S2",
+    "VTO6531F-V1",
+    "VTO6531H-SH-V1",
+    "VTO6531H-V1",
+    "VTO6533H",
+    "VTO6541H-V1"
+   ]
+  },
+  "hardware_ids": [
+   "VTO6521F-V1",
+   "VTO6521H-D-V1",
+   "VTO6521H-V1",
+   "VTO6521K-S2",
+   "VTO6531F-V1",
+   "VTO6531H-SH-V1",
+   "VTO6531H-V1",
+   "VTO6533H",
+   "VTO6541H-V1"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:06:17+00:00",
   "status": "ok"
  },
  "DH_VTO65XXX_Eng_PN_SIP_V4.511.0000000.0.R.211106(1).zip": {
@@ -242946,6 +247144,62 @@
   ],
   "package_format": "zip",
   "processed_at": "2026-10-03T16:43:48+00:00",
+  "status": "ok"
+ },
+ "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_EMEA_V4.810.0000000.2.R.260414.zip": {
+  "detail": "data/firmware/39/39dbc68693b357ff.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO0301R-W",
+    "VTO1301R-W",
+    "VTO2101E-P-338",
+    "VTO2111D-P-S3",
+    "VTO2201F-P-S2",
+    "VTO2202F-P-S3",
+    "VTO2211G-P-S2",
+    "VTO2211G-P-V1",
+    "VTO2211G-WP-S2",
+    "VTO2301R-P",
+    "VTO2311R-WP",
+    "VTO3222E-P",
+    "VTO3311Q-P",
+    "VTO3311Q-WP",
+    "VTO3312Q-P",
+    "VTO4201F-P",
+    "VTO4201F-P1",
+    "VTO4202F-P-S3",
+    "VTO4202F-P1",
+    "VTO6222E-P"
+   ]
+  },
+  "hardware_ids": [
+   "VTO0301R-W",
+   "VTO1301R-W",
+   "VTO2101E-P-338",
+   "VTO2111D-P-S3",
+   "VTO2201F-P-S2",
+   "VTO2202F-P-S3",
+   "VTO2211G-P-S2",
+   "VTO2211G-P-V1",
+   "VTO2211G-WP-S2",
+   "VTO2301R-P",
+   "VTO2311R-WP",
+   "VTO3222E-P",
+   "VTO3311Q-P",
+   "VTO3311Q-WP",
+   "VTO3312Q-P",
+   "VTO4201F-P",
+   "VTO4201F-P1",
+   "VTO4202F-P-S3",
+   "VTO4202F-P1",
+   "VTO6222E-P"
+  ],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:03+00:00",
   "status": "ok"
  },
  "DH_VTOVilla_Vale_MultiLang_PN_128M_SIP_EMEA_V4.810.0000000.3.R.260528.zip": {
@@ -244713,6 +248967,19 @@
   "processed_at": "2026-10-03T15:52:11+00:00",
   "status": "no_ids"
  },
+ "DH_VTSXA40X_MultiLang_V4.800.0000000.1.R.260723.zip": {
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "zip",
+  "processed_at": "2026-10-06T22:07:51+00:00",
+  "status": "no_ids"
+ },
  "DH_XVR1B04-IT_MultiLang_V4.004.0000002.0.R.260430.zip": {
   "attempts": 3,
   "error": "DH_XVR1B04-IT_MultiLang_V4.004.0000002.0.R.260430.bin: binwalk found nothing to extract; webplugin.exe: binwalk found nothing to extract",
@@ -245274,6 +249541,30 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-05T21:47:31+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_XVR5x04-4M_EngSpnFrn_NP_V3.218.0000002.3.R.180601.bin": {
+  "detail": "data/firmware/d8/d8ae9de10108dcf3.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR5x04-4M"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR5x04-4M",
+   "XVR5x04-4M"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:23+00:00",
   "socs": [
    {
     "vendor": "HiSilicon"
@@ -246066,6 +250357,30 @@
   ],
   "status": "ok"
  },
+ "DH_XVR5x04-S2_EngSpnFrn_NP_V3.218.0000002.4.R.180625.bin": {
+  "detail": "data/firmware/f0/f000ac39f4113fde.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR5x04-S2"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR5x04-S2",
+   "XVR5x04-S2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:28+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_XVR5x04-S2_Eng_P_V3.218.0000002.5.R.190301.bin": {
   "detail": "data/firmware/a9/a9d641ad2c2f1902.json",
   "extractor_version": 5,
@@ -246707,6 +251022,30 @@
    {
     "name": "NT98336",
     "vendor": "Novatek"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_XVR5x08-4KL_EngSpnFrn_NP_V3.218.0000002.3.R.180601.bin": {
+  "detail": "data/firmware/1a/1a17789e6253e507.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR7x08-4KL"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR7x08-4KL",
+   "XVR7x08-4KL"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:21+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
    }
   ],
   "status": "ok"
@@ -248755,6 +253094,30 @@
   ],
   "status": "ok"
  },
+ "DH_XVR5x16-4KL_EngSpnFrn_NP_V3.218.0000002.3.R.180601.bin": {
+  "detail": "data/firmware/6b/6b2ad9d2b9c2eec2.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR7x16-4KL"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR7x16-4KL",
+   "XVR7x16-4KL"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:17+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "DH_XVR5x16-4KL_EngSpnFrn_PN_V4.000.0000000.2.R.210923.zip": {
   "detail": "data/firmware/b0/b072ab2a4426d285.json",
   "extractor_version": 5,
@@ -249589,6 +253952,30 @@
   "socs": [
    {
     "name": "Hi3531D",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "DH_XVR5x16-S2_EngSpnFrn_NP_V3.218.0000002.3.R.180601.bin": {
+  "detail": "data/firmware/01/016662bf4f233a4f.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR5x16-S2"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR5x16-S2",
+   "XVR5x16-S2"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:24+00:00",
+  "socs": [
+   {
     "vendor": "HiSilicon"
    }
   ],
@@ -251735,6 +256122,33 @@
   "package_format": "zip",
   "processed_at": "2026-10-05T12:15:57+00:00",
   "status": "extract_failed"
+ },
+ "DH_XVR7x16-X-LP_Internal_NP_V4.000.0000001.10.R.180919.bin": {
+  "detail": "data/firmware/98/98f14e24064b23bd.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "XVR7x16-X",
+    "XVR7x16-X-LP"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [
+   "General_XVR7x16-X",
+   "XVR7x16-X",
+   "XVR7x16-X-LP"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:06:56+00:00",
+  "socs": [
+   {
+    "name": "Hi3531D",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
  },
  "DH_XVR7x16-X_Internal_NP_V4.000.0000001.12.R.181127.bin": {
   "detail": "data/firmware/c6/c6b93fa5fd89bdd1.json",
@@ -267087,6 +271501,37 @@
   ],
   "status": "ok"
  },
+ "General_DVR5x04_Eng_PN_V3.200.0001.24.R.20170929.bin": {
+  "detail": "data/firmware/2a/2aaf85a8190cbfd7.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "5x00",
+    "DVR5x00_A"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DH",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DH",
+   "DVR5x00_A",
+   "General_5x00",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:31+00:00",
+  "socs": [
+   {
+    "name": "Hi3520A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "General_DVR5x04_Eng_PN_V3.200.0001.28.R.20170802.bin": {
   "detail": "data/firmware/c8/c804c4ecd93add78.json",
   "extractor_version": 5,
@@ -267207,6 +271652,37 @@
   ],
   "status": "duplicate"
  },
+ "General_DVR5x08_Eng_PN_V3.200.0001.24.R.20170929.bin": {
+  "detail": "data/firmware/a4/a48395f91cba1631.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "5x00",
+    "DVR5x00_B"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DH",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DH",
+   "DVR5x00_B",
+   "General_5x00",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:31+00:00",
+  "socs": [
+   {
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "General_DVR5x08_Eng_PN_V3.200.0001.28.R.20170802.bin": {
   "detail": "data/firmware/41/413fb066ea5a894e.json",
   "extractor_version": 5,
@@ -267288,6 +271764,37 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:55:12+00:00",
+  "socs": [
+   {
+    "name": "Hi3531",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "General_DVR5x16_Eng_PN_V3.200.0001.24.R.20170929.bin": {
+  "detail": "data/firmware/4d/4dac4e2ca3cfcb54.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "5x00",
+    "DVR5x00_C"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DH",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DH",
+   "DVR5x00_C",
+   "General_5x00",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:30+00:00",
   "socs": [
    {
     "name": "Hi3531",
@@ -267608,6 +272115,32 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:54:24+00:00",
+  "status": "ok"
+ },
+ "General_DVRxx04HD-X(V2.0)_Eng_P_V2.616.0001.15.R.20170929.bin": {
+  "detail": "data/firmware/ae/aebde522d5345546.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "DVRxx04HD-X"
+   ],
+   "hwids": [],
+   "ignored": [
+    "DAHUA"
+   ],
+   "models": [
+    "N6",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DAHUA",
+   "DVRxx04HD-X",
+   "General_N6",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:30+00:00",
   "status": "ok"
  },
  "General_DVRxx04HF-X-E(V2.0)_Eng_N_V2.616.0001.0.R.20130930.bin": {
@@ -268741,6 +273274,37 @@
   ],
   "status": "ok"
  },
+ "General_HCVR5104H_Eng_P_V3.200.0001.32.R.20170929.bin": {
+  "detail": "data/firmware/3e/3ea84d97614623fb.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "5x00",
+    "DVR5x00_B"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DH",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DH",
+   "DVR5x00_B",
+   "General_5x00",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:30+00:00",
+  "socs": [
+   {
+    "name": "Hi3521",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "General_HCVR5104H_Eng_P_V3.200.0005.1.R.20140427.zip": {
   "detail": "data/firmware/5d/5dc9b75aec1ada25.json",
   "extractor_version": 5,
@@ -268816,6 +273380,37 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:54:21+00:00",
+  "socs": [
+   {
+    "name": "Hi3531",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "General_HCVR5108H_Eng_P_V3.200.0001.32.R.20170929.bin": {
+  "detail": "data/firmware/7e/7e14b8f0d248c5fe.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "5x00",
+    "DVR5x00_C"
+   ],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "DH",
+    "OEM_TYPE"
+   ]
+  },
+  "hardware_ids": [
+   "DH",
+   "DVR5x00_C",
+   "General_5x00",
+   "OEM_TYPE"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:30+00:00",
   "socs": [
    {
     "name": "Hi3531",
@@ -296174,6 +300769,162 @@
   ],
   "package_format": "dh",
   "processed_at": "2026-10-03T16:41:01+00:00",
+  "status": "ok"
+ },
+ "General_IPC-HX5(4)(3)XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.20.R.201124.bin": {
+  "detail": "data/firmware/2a/2ac0d2ebd5c54bd9.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW3249E-AS-NI",
+    "IPC-HDBW3441E-AS",
+    "IPC-HDBW3441E-AS-DZ",
+    "IPC-HDBW3441E-S",
+    "IPC-HDBW3441E-S-DZ",
+    "IPC-HDBW3441F-AS-M",
+    "IPC-HDBW3441F-AS-M-DZ",
+    "IPC-HDBW3441R-ZAS",
+    "IPC-HDBW3441R-ZAS-DZ",
+    "IPC-HDBW3441R-ZS",
+    "IPC-HDBW3441R-ZS-DZ",
+    "IPC-HDBW3441RP-Z-27135-Anaveo",
+    "IPC-HDBW3449E-AS-NI",
+    "IPC-HDBW3541E-AS",
+    "IPC-HDBW3541E-S",
+    "IPC-HDBW3541F-AS-M",
+    "IPC-HDBW3541R-ZAS",
+    "IPC-HDBW3541R-ZS",
+    "IPC-HDBW3549E-AS-NI",
+    "IPC-HDBW5443DR",
+    "IPC-HDBW5443DR-AS",
+    "IPC-HDBW5443R",
+    "IPC-HDBW5443R-AS",
+    "IPC-HDBW5443R-AS-X",
+    "IPC-HDW3249TM-AS-LED",
+    "IPC-HDW3249TM-AS-NI",
+    "IPC-HDW3441T-AS",
+    "IPC-HDW3441T-AS-DZ",
+    "IPC-HDW3441T-ZAS",
+    "IPC-HDW3441T-ZAS-DZ",
+    "IPC-HDW3449HP-AS-PV-S2",
+    "IPC-HDW3449TM-AS-LED",
+    "IPC-HDW3449TM-AS-NI",
+    "IPC-HDW3541T-AS",
+    "IPC-HDW3541T-ZAS",
+    "IPC-HDW3549HP-AS-PV-S2",
+    "IPC-HDW3549TM-AS-LED",
+    "IPC-HDW3549TM-AS-NI",
+    "IPC-HDW4443T-A",
+    "IPC-HFW3249E-AS-LED",
+    "IPC-HFW3249E-AS-NI",
+    "IPC-HFW3441E-AS",
+    "IPC-HFW3441E-AS-DZ",
+    "IPC-HFW3441E-SA",
+    "IPC-HFW3441E-SA-DZ",
+    "IPC-HFW3441M-AS",
+    "IPC-HFW3441T-ZAS",
+    "IPC-HFW3441T-ZAS-DZ",
+    "IPC-HFW3441T-ZS",
+    "IPC-HFW3441T-ZS-DZ",
+    "IPC-HFW3441TP-Z-27135-Anaveo",
+    "IPC-HFW3449E-AS-LED",
+    "IPC-HFW3449E-AS-NI",
+    "IPC-HFW3449T1P-AS-PV-S2",
+    "IPC-HFW3541E-AS",
+    "IPC-HFW3541E-SA",
+    "IPC-HFW3541T-ZAS",
+    "IPC-HFW3541T-ZS",
+    "IPC-HFW3549E-AS-LED",
+    "IPC-HFW3549E-AS-NI",
+    "IPC-HFW3549T1P-AS-PV-S2",
+    "IPC-HFW5443DK",
+    "IPC-HFW5443DK-AS",
+    "IPC-HFW5443DM",
+    "IPC-HFW5443DM-AS",
+    "IPC-HFW5443K",
+    "IPC-HFW5443K-AS",
+    "IPC-HFW5443K-AS-X",
+    "IPC-HFW5443M",
+    "IPC-HFW5443M-AS"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW3249E-AS-NI",
+   "IPC-HDBW3441E-AS",
+   "IPC-HDBW3441E-AS-DZ",
+   "IPC-HDBW3441E-S",
+   "IPC-HDBW3441E-S-DZ",
+   "IPC-HDBW3441F-AS-M",
+   "IPC-HDBW3441F-AS-M-DZ",
+   "IPC-HDBW3441R-ZAS",
+   "IPC-HDBW3441R-ZAS-DZ",
+   "IPC-HDBW3441R-ZS",
+   "IPC-HDBW3441R-ZS-DZ",
+   "IPC-HDBW3441RP-Z-27135-Anaveo",
+   "IPC-HDBW3449E-AS-NI",
+   "IPC-HDBW3541E-AS",
+   "IPC-HDBW3541E-S",
+   "IPC-HDBW3541F-AS-M",
+   "IPC-HDBW3541R-ZAS",
+   "IPC-HDBW3541R-ZS",
+   "IPC-HDBW3549E-AS-NI",
+   "IPC-HDBW5443DR",
+   "IPC-HDBW5443DR-AS",
+   "IPC-HDBW5443R",
+   "IPC-HDBW5443R-AS",
+   "IPC-HDBW5443R-AS-X",
+   "IPC-HDW3249TM-AS-LED",
+   "IPC-HDW3249TM-AS-NI",
+   "IPC-HDW3441T-AS",
+   "IPC-HDW3441T-AS-DZ",
+   "IPC-HDW3441T-ZAS",
+   "IPC-HDW3441T-ZAS-DZ",
+   "IPC-HDW3449HP-AS-PV-S2",
+   "IPC-HDW3449TM-AS-LED",
+   "IPC-HDW3449TM-AS-NI",
+   "IPC-HDW3541T-AS",
+   "IPC-HDW3541T-ZAS",
+   "IPC-HDW3549HP-AS-PV-S2",
+   "IPC-HDW3549TM-AS-LED",
+   "IPC-HDW3549TM-AS-NI",
+   "IPC-HDW4443T-A",
+   "IPC-HFW3249E-AS-LED",
+   "IPC-HFW3249E-AS-NI",
+   "IPC-HFW3441E-AS",
+   "IPC-HFW3441E-AS-DZ",
+   "IPC-HFW3441E-SA",
+   "IPC-HFW3441E-SA-DZ",
+   "IPC-HFW3441M-AS",
+   "IPC-HFW3441T-ZAS",
+   "IPC-HFW3441T-ZAS-DZ",
+   "IPC-HFW3441T-ZS",
+   "IPC-HFW3441T-ZS-DZ",
+   "IPC-HFW3441TP-Z-27135-Anaveo",
+   "IPC-HFW3449E-AS-LED",
+   "IPC-HFW3449E-AS-NI",
+   "IPC-HFW3449T1P-AS-PV-S2",
+   "IPC-HFW3541E-AS",
+   "IPC-HFW3541E-SA",
+   "IPC-HFW3541T-ZAS",
+   "IPC-HFW3541T-ZS",
+   "IPC-HFW3549E-AS-LED",
+   "IPC-HFW3549E-AS-NI",
+   "IPC-HFW3549T1P-AS-PV-S2",
+   "IPC-HFW5443DK",
+   "IPC-HFW5443DK-AS",
+   "IPC-HFW5443DM",
+   "IPC-HFW5443DM-AS",
+   "IPC-HFW5443K",
+   "IPC-HFW5443K-AS",
+   "IPC-HFW5443K-AS-X",
+   "IPC-HFW5443M",
+   "IPC-HFW5443M-AS"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:04+00:00",
   "status": "ok"
  },
  "General_IPC-HX5(4)(3)XXX-Leo_MultiLang_PN_Stream3_V2.800.0000000.29.R.210630.bin": {
@@ -340828,6 +345579,47 @@
   ],
   "status": "no_ids"
  },
+ "General_ITC237-PU1B-IR(IRZ)(L)_Eng_PN_Oversea_Europe_V2.622.0000000.1.R.190805.bin": {
+  "detail": "data/firmware/20/205f6c18b105b802.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T22:07:03+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "no_ids"
+ },
+ "General_ITC237-PW1B-IR(IRZ)(L)_Eng_PN_Oversea_Europe_V2.622.0000000.1.R.190805.bin": {
+  "detail": "data/firmware/20/205f6c18b105b802.json",
+  "duplicate_of": "General_ITC237-PU1B-IR(IRZ)(L)_Eng_PN_Oversea_Europe_V2.622.0000000.1.R.190805.bin",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": "other",
+  "processed_at": "2026-10-06T22:07:03+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "duplicate"
+ },
  "General_ITC237-PW6M-IRLZF(LZF)_Eng_PN_Oversea_ITCPUSH_America_V2.623.10BE000.0.R.200630.bin": {
   "detail": "data/firmware/f6/f6c0d55d0f94caaa.json",
   "extractor_version": 5,
@@ -347709,6 +352501,21 @@
   "hardware_ids": [],
   "package_format": null,
   "processed_at": "2026-10-04T15:30:47+00:00",
+  "status": "extract_failed"
+ },
+ "General_NVR5XXX-XI_MultiLang_V4.005.0000000.2.R.251218.bin": {
+  "attempts": 1,
+  "error": "binwalk found nothing to extract",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": []
+  },
+  "hardware_ids": [],
+  "package_format": null,
+  "processed_at": "2026-10-06T22:06:40+00:00",
   "status": "extract_failed"
  },
  "General_NVR5XXX_EI_Custom_MultiLang_RTSP_1BT00_230620_PART_V4_000.bin": {
@@ -358327,6 +363134,33 @@
   ],
   "status": "ok"
  },
+ "General_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000016.0.R.260822.zip": {
+  "detail": "data/firmware/37/3735bde82cd671e1.json",
+  "duplicate_of": "General_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.0000016.0.R.260822 (1).zip",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SDT3E410-8P-GBS2-0280-A",
+    "SDT4E425-8P-MB-0280-A"
+   ]
+  },
+  "hardware_ids": [
+   "SDT3E410-8P-GBS2-0280-A",
+   "SDT4E425-8P-MB-0280-A"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-03T15:50:07+00:00",
+  "socs": [
+   {
+    "name": "Hi3519DV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "duplicate"
+ },
  "General_SD-Vodka_MultiLang_PN_Stream3-ITOP-ShuangPinXVRLLM_V3.211.15OG000.0.T.260529.bin": {
   "detail": "data/firmware/3d/3d90e72cc279fa03.json",
   "extractor_version": 5,
@@ -358691,6 +363525,46 @@
   "package_format": "other",
   "processed_at": "2026-10-03T16:50:25+00:00",
   "status": "no_ids"
+ },
+ "General_SD-Yin-Demeter_FrnEng_P_Stream3_Intelligent_V2.640.11V7001.0.R.201123.bin": {
+  "detail": "data/firmware/7f/7f3e58a6d20d039e.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "SD-PTZ81240-N2",
+    "SD-PTZ81240-S2",
+    "SD60A230-HNI",
+    "SD65A230F-HNI",
+    "SD65F230DF-HNS",
+    "SD65F230F-HNI-S",
+    "SD6A8240-HNI",
+    "SD6A8240-HNI-4G",
+    "SD6A9130-HNI",
+    "SD6A9230DF-HNS",
+    "SD6A9230F-HNI-HJ",
+    "SD6C1230-HN"
+   ]
+  },
+  "hardware_ids": [
+   "SD-PTZ81240-N2",
+   "SD-PTZ81240-S2",
+   "SD60A230-HNI",
+   "SD65A230F-HNI",
+   "SD65F230DF-HNS",
+   "SD65F230F-HNI-S",
+   "SD6A8240-HNI",
+   "SD6A8240-HNI-4G",
+   "SD6A9130-HNI",
+   "SD6A9230DF-HNS",
+   "SD6A9230F-HNI-HJ",
+   "SD6C1230-HN"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:03+00:00",
+  "status": "ok"
  },
  "General_SD-Yin-Demeter_Internal_PN_Stream3_Intelligent_V2.640.0000000.0.R.180502.bin": {
   "detail": "data/firmware/e0/e0fd1de0e834128d.json",
@@ -371884,7 +376758,7 @@
   "status": "ok"
  },
  "General_VTH5221D-MCU_V1.105.0000001.0.R.20181217.zip": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "General_VTH5221D_ALL_EFM32HG110_MCU_V1.105.0000001.0.R.20181217.bin: binwalk found nothing to extract; General_VTH5221D_APP_EFM32HG110_MCU_V1.105.0000001.0.R.20181217.bin: binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -371895,7 +376769,7 @@
   },
   "hardware_ids": [],
   "package_format": "zip",
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed"
  },
  "General_VTH5221D_ALL_EFM32HG110_MCU_V1.105.0000001.0.R.20181217.bin": {
@@ -375756,6 +380630,39 @@
   ],
   "status": "ok"
  },
+ "General_VTO2000A-C-2_Eng_P_32M_V4.000.9999000.0.R.20181224.zip": {
+  "detail": "data/firmware/8b/8bb8a39777e12333.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO2202A",
+    "VTO3221D",
+    "VTO6221",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO622X"
+   ]
+  },
+  "hardware_ids": [
+   "VTO2202A",
+   "VTO3221D",
+   "VTO6221",
+   "VTO6223B",
+   "VTO6223C",
+   "VTO622X"
+  ],
+  "package_format": "bundle",
+  "processed_at": "2026-10-06T22:07:00+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "General_VTO2000A-MCU_APP_V3.000.0000000.0.R.20181123.bin": {
   "attempts": 3,
   "error": "binwalk found nothing to extract",
@@ -376869,6 +381776,30 @@
   "processed_at": "2026-10-05T21:47:50+00:00",
   "status": "ok"
  },
+ "General_VTO2202F_MultiLang_PN_SIP_V4.400.0000000.2.R.20190919.bin": {
+  "detail": "data/firmware/ec/ec5a8b3ec75a6e31.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "VTO2202F"
+   ]
+  },
+  "hardware_ids": [
+   "VTO2202F"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:23+00:00",
+  "socs": [
+   {
+    "name": "Hi3516CV500",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "General_VTO2202F_MultiLang_PN_SIP_V4.410.0000000.4.R.20200221.bin": {
   "detail": "data/firmware/3d/3d4d0558e05c47f9.json",
   "extractor_version": 5,
@@ -376894,7 +381825,7 @@
   "status": "ok"
  },
  "General_VTO3-6-MCU_App_V1.001.0000000.0.R.191010.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -376905,7 +381836,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed"
  },
  "General_VTO3-6-MCU_V1.000.0000000.1.R.20181107.zip": {
@@ -378247,7 +383178,7 @@
   "status": "ok"
  },
  "General_VTO4202F_App_MCU_V4.500.0000000.4.R.201029.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -378258,7 +383189,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed"
  },
  "General_VTO6210B_Eng_P_SIP_V2.001.00.0.R.20150407.zip": {
@@ -378383,7 +383314,7 @@
   "status": "ok"
  },
  "General_VTO6531H-MCU_App_V1.001.0000000.0.R.210908.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -378394,7 +383325,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:31+00:00",
   "status": "extract_failed"
  },
  "General_VTO6531H-MCU_V1.001.0000000.0.R.210908.zip": {
@@ -381373,7 +386304,7 @@
   "status": "extract_failed"
  },
  "General_Wiegand_V2.626.0000000.0.R.221027.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -381384,7 +386315,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:47:52+00:00",
+  "processed_at": "2026-10-06T22:07:33+00:00",
   "status": "extract_failed"
  },
  "General_XL-ICA-1602M2_Eng_P_V1.013.0000.0.R.20111101.bin.zip": {
@@ -452349,6 +457280,83 @@
   "processed_at": "2026-10-03T18:58:46+00:00",
   "status": "not_dahua"
  },
+ "dh_ipc-ac12xx-eos3_eng_p_v2.421.0000000.9.r.20180117.bin": {
+  "detail": "data/firmware/40/40249ba200c7210c.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-A12",
+    "IPC-A22",
+    "IPC-C12-YYS",
+    "IPC-C22-YYS"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-A12",
+   "IPC-A22",
+   "IPC-C12-YYS",
+   "IPC-C22-YYS"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:38+00:00",
+  "socs": [
+   {
+    "name": "Hi3518EV200",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "dh_ipc-hfw1xxx-alps_eng_p_v2.622.0000000.31.r.171229.bin": {
+  "detail": "data/firmware/a1/a1ea37411c262eb6.json",
+  "duplicate_of": "DH_IPC-HFW1XXX-Alps_Eng_P_V2.622.0000000.31.R.171229.bin",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW1220R-S-S2",
+    "IPC-HDBW1220R-S-V2",
+    "IPC-HDBW1220R-S2",
+    "IPC-HDBW1220R-V2",
+    "IPC-HDBW1320R-S-V2",
+    "IPC-HDBW1320R-V2",
+    "IPC-HDBW1325R-S-V2",
+    "IPC-HDBW1325R-V2",
+    "IPC-HDW1320S-V2",
+    "IPC-HFW1220B-V2",
+    "IPC-HFW1220M-AS-S2",
+    "IPC-HFW1220M-S-S2",
+    "IPC-HFW1220M-V2",
+    "IPC-HFW1220S-V2",
+    "IPC-HFW1320M-AS"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW1220R-S-S2",
+   "IPC-HDBW1220R-S-V2",
+   "IPC-HDBW1220R-S2",
+   "IPC-HDBW1220R-V2",
+   "IPC-HDBW1320R-S-V2",
+   "IPC-HDBW1320R-V2",
+   "IPC-HDBW1325R-S-V2",
+   "IPC-HDBW1325R-V2",
+   "IPC-HDW1320S-V2",
+   "IPC-HFW1220B-V2",
+   "IPC-HFW1220M-AS-S2",
+   "IPC-HFW1220M-S-S2",
+   "IPC-HFW1220M-V2",
+   "IPC-HFW1220S-V2",
+   "IPC-HFW1320M-AS"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-03T18:58:16+00:00",
+  "status": "duplicate"
+ },
  "dh_ipc-hx12xx-eos3_eng_p_v2.420.0000.11.r.20170620.bin": {
   "detail": "data/firmware/51/51ecf6a1eae2bd7f.json",
   "duplicate_of": "DH_IPC-HX12XX-Eos3_Eng_P_V2.420.0000.11.R.20170620.bin",
@@ -452382,6 +457390,250 @@
   ],
   "status": "duplicate"
  },
+ "dh_ipc-hx4xxx-eos_eng_p_stream3_v2.622.0000000.31.r.171214.bin": {
+  "detail": "data/firmware/6c/6cae3cdf64bad666.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW4231R-VF",
+    "IPC-HDBW4231R-VFAS",
+    "IPC-HDBW4231R-Z",
+    "IPC-HDBW4231R-ZAS",
+    "IPC-HDBW4233R",
+    "IPC-HDBW4233R-AS-S4",
+    "IPC-HDBW4233R-AS-X-S4",
+    "IPC-HDBW4233R-S-S4",
+    "IPC-HDBW4233R-VFAS-27135",
+    "IPC-HDBW4233R-VFAS-X1-27135",
+    "IPC-HDBW4233R-VFS-27135",
+    "IPC-HDBW4233R-ZAS-27135",
+    "IPC-HDBW4233R-ZAS-X1-27135",
+    "IPC-HDBW4233R-ZS-27135",
+    "IPC-HDBW4431R-AS-V3",
+    "IPC-HDBW4431R-AS-X-V3",
+    "IPC-HDBW4431R-S-V3",
+    "IPC-HDBW4431R-VF",
+    "IPC-HDBW4431R-VFAS",
+    "IPC-HDBW4431R-VFAS-27135",
+    "IPC-HDBW4431R-VFAS-X1-27135",
+    "IPC-HDBW4431R-VFS-27135",
+    "IPC-HDBW4431R-Z",
+    "IPC-HDBW4431R-ZAS",
+    "IPC-HDBW4431R-ZAS-27135",
+    "IPC-HDBW4431R-ZAS-X1-27135",
+    "IPC-HDBW4431R-ZS-27135",
+    "IPC-HDW4231C",
+    "IPC-HDW4233C",
+    "IPC-HDW4233C-A-S4",
+    "IPC-HDW4431C",
+    "IPC-HDW4431C-A-V3",
+    "IPC-HF4231",
+    "IPC-HF4431",
+    "IPC-HFW4231B",
+    "IPC-HFW4231B-AS",
+    "IPC-HFW4231B-I6",
+    "IPC-HFW4231B-N2-AS",
+    "IPC-HFW4231K-AS-I6",
+    "IPC-HFW4231K-I6",
+    "IPC-HFW4231KM",
+    "IPC-HFW4231KM-AS",
+    "IPC-HFW4231R-VF",
+    "IPC-HFW4231R-VFAS",
+    "IPC-HFW4231R-Z",
+    "IPC-HFW4233F-VFAS-27135",
+    "IPC-HFW4233F-VFAS-X1-27135",
+    "IPC-HFW4233F-VFS-27135",
+    "IPC-HFW4233F-ZAS-27135",
+    "IPC-HFW4233F-ZAS-X1-27135",
+    "IPC-HFW4233F-ZS-27135",
+    "IPC-HFW4233K-AS-I6-X1-S4",
+    "IPC-HFW4233K-I6-S4",
+    "IPC-HFW4233MK-AS-S4",
+    "IPC-HFW4233MK-AS-X1-S4",
+    "IPC-HFW4233MK-S4",
+    "IPC-HFW4238K-AS-I6",
+    "IPC-HFW4238K-AS-I6-S4",
+    "IPC-HFW4238K-I6",
+    "IPC-HFW4238KM",
+    "IPC-HFW4238KM-AS",
+    "IPC-HFW4431B",
+    "IPC-HFW4431B-AS",
+    "IPC-HFW4431F-VFAS-27135",
+    "IPC-HFW4431F-VFAS-X1-27135",
+    "IPC-HFW4431F-VFS-27135",
+    "IPC-HFW4431F-ZAS-27135",
+    "IPC-HFW4431F-ZAS-X1-27135",
+    "IPC-HFW4431F-ZS-27135",
+    "IPC-HFW4431K-AS-I6",
+    "IPC-HFW4431K-AS-I6-V3",
+    "IPC-HFW4431K-AS-I6-X1-S4",
+    "IPC-HFW4431K-I6",
+    "IPC-HFW4431K-I6-V3",
+    "IPC-HFW4431KM",
+    "IPC-HFW4431KM-AS",
+    "IPC-HFW4431MK-AS-V3",
+    "IPC-HFW4431MK-AS-X1-S4",
+    "IPC-HFW4431MK-V3",
+    "IPC-HFW4431R-VF",
+    "IPC-HFW4431R-VFAS",
+    "IPC-HFW4431R-Z",
+    "IPC-HFW7231B-AS-JMHSY",
+    "IPC-HFW7233M-AS",
+    "IPC-K4231-JR"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW4231R-VF",
+   "IPC-HDBW4231R-VFAS",
+   "IPC-HDBW4231R-Z",
+   "IPC-HDBW4231R-ZAS",
+   "IPC-HDBW4233R",
+   "IPC-HDBW4233R-AS-S4",
+   "IPC-HDBW4233R-AS-X-S4",
+   "IPC-HDBW4233R-S-S4",
+   "IPC-HDBW4233R-VFAS-27135",
+   "IPC-HDBW4233R-VFAS-X1-27135",
+   "IPC-HDBW4233R-VFS-27135",
+   "IPC-HDBW4233R-ZAS-27135",
+   "IPC-HDBW4233R-ZAS-X1-27135",
+   "IPC-HDBW4233R-ZS-27135",
+   "IPC-HDBW4431R-AS-V3",
+   "IPC-HDBW4431R-AS-X-V3",
+   "IPC-HDBW4431R-S-V3",
+   "IPC-HDBW4431R-VF",
+   "IPC-HDBW4431R-VFAS",
+   "IPC-HDBW4431R-VFAS-27135",
+   "IPC-HDBW4431R-VFAS-X1-27135",
+   "IPC-HDBW4431R-VFS-27135",
+   "IPC-HDBW4431R-Z",
+   "IPC-HDBW4431R-ZAS",
+   "IPC-HDBW4431R-ZAS-27135",
+   "IPC-HDBW4431R-ZAS-X1-27135",
+   "IPC-HDBW4431R-ZS-27135",
+   "IPC-HDW4231C",
+   "IPC-HDW4233C",
+   "IPC-HDW4233C-A-S4",
+   "IPC-HDW4431C",
+   "IPC-HDW4431C-A-V3",
+   "IPC-HF4231",
+   "IPC-HF4431",
+   "IPC-HFW4231B",
+   "IPC-HFW4231B-AS",
+   "IPC-HFW4231B-I6",
+   "IPC-HFW4231B-N2-AS",
+   "IPC-HFW4231K-AS-I6",
+   "IPC-HFW4231K-I6",
+   "IPC-HFW4231KM",
+   "IPC-HFW4231KM-AS",
+   "IPC-HFW4231R-VF",
+   "IPC-HFW4231R-VFAS",
+   "IPC-HFW4231R-Z",
+   "IPC-HFW4233F-VFAS-27135",
+   "IPC-HFW4233F-VFAS-X1-27135",
+   "IPC-HFW4233F-VFS-27135",
+   "IPC-HFW4233F-ZAS-27135",
+   "IPC-HFW4233F-ZAS-X1-27135",
+   "IPC-HFW4233F-ZS-27135",
+   "IPC-HFW4233K-AS-I6-X1-S4",
+   "IPC-HFW4233K-I6-S4",
+   "IPC-HFW4233MK-AS-S4",
+   "IPC-HFW4233MK-AS-X1-S4",
+   "IPC-HFW4233MK-S4",
+   "IPC-HFW4238K-AS-I6",
+   "IPC-HFW4238K-AS-I6-S4",
+   "IPC-HFW4238K-I6",
+   "IPC-HFW4238KM",
+   "IPC-HFW4238KM-AS",
+   "IPC-HFW4431B",
+   "IPC-HFW4431B-AS",
+   "IPC-HFW4431F-VFAS-27135",
+   "IPC-HFW4431F-VFAS-X1-27135",
+   "IPC-HFW4431F-VFS-27135",
+   "IPC-HFW4431F-ZAS-27135",
+   "IPC-HFW4431F-ZAS-X1-27135",
+   "IPC-HFW4431F-ZS-27135",
+   "IPC-HFW4431K-AS-I6",
+   "IPC-HFW4431K-AS-I6-V3",
+   "IPC-HFW4431K-AS-I6-X1-S4",
+   "IPC-HFW4431K-I6",
+   "IPC-HFW4431K-I6-V3",
+   "IPC-HFW4431KM",
+   "IPC-HFW4431KM-AS",
+   "IPC-HFW4431MK-AS-V3",
+   "IPC-HFW4431MK-AS-X1-S4",
+   "IPC-HFW4431MK-V3",
+   "IPC-HFW4431R-VF",
+   "IPC-HFW4431R-VFAS",
+   "IPC-HFW4431R-Z",
+   "IPC-HFW7231B-AS-JMHSY",
+   "IPC-HFW7233M-AS",
+   "IPC-K4231-JR"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:36+00:00",
+  "socs": [
+   {
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "dh_ipc-hx5xxx-eos_eng_p_128m_stream3_v2.622.0000000.31.r.171214.bin": {
+  "detail": "data/firmware/93/93f89bea04bf3da0.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW5231EP-Z",
+    "IPC-HDBW5231RP-Z",
+    "IPC-HDBW5431EP-Z",
+    "IPC-HDBW5431R-Z",
+    "IPC-HDBW5431RP-Z",
+    "IPC-HF5231EP",
+    "IPC-HF5431EP",
+    "IPC-HFW5231DP-Z",
+    "IPC-HFW5231EP-Z",
+    "IPC-HFW5231EP-Z-IRA",
+    "IPC-HFW5431-IRA",
+    "IPC-HFW5431-IRA-AS",
+    "IPC-HFW5431DP-Z",
+    "IPC-HFW5431EP-Z",
+    "IPC-HFW5431EP-Z-IRA"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW5231EP-Z",
+   "IPC-HDBW5231RP-Z",
+   "IPC-HDBW5431EP-Z",
+   "IPC-HDBW5431R-Z",
+   "IPC-HDBW5431RP-Z",
+   "IPC-HF5231EP",
+   "IPC-HF5431EP",
+   "IPC-HFW5231DP-Z",
+   "IPC-HFW5231EP-Z",
+   "IPC-HFW5231EP-Z-IRA",
+   "IPC-HFW5431-IRA",
+   "IPC-HFW5431-IRA-AS",
+   "IPC-HFW5431DP-Z",
+   "IPC-HFW5431EP-Z",
+   "IPC-HFW5431EP-Z-IRA"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
+  "socs": [
+   {
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
  "dh_ipc-hx7xxx-e2-nova2_eng_p_stream3_v2.622.0000001.3.r.171214.bin": {
   "detail": "data/firmware/5b/5bd81bd2146d7f93.json",
   "extractor_version": 5,
@@ -452413,6 +457665,197 @@
   ],
   "status": "ok"
  },
+ "dh_ipc-hx8xxx-3519-nova_eng_p_stream3_v2.420.0001.8.t.20170330.bin": {
+  "detail": "data/firmware/6c/6c94baf6f3c730bc.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW81230E-Z",
+    "IPC-HDBW81230E-ZH",
+    "IPC-HDBW8231EP-ZH-0735-S2",
+    "IPC-HDBW8231EP-ZH-FD-S2",
+    "IPC-HDBW8231EP-ZH-S2",
+    "IPC-HDBW8232EP-ZH-S2",
+    "IPC-HDBW8232EP-ZH-SL-S2",
+    "IPC-HDBW8331E-ZH-S2",
+    "IPC-HDBW8331EP-ZH-0735-S2",
+    "IPC-HDBW8630E-Z",
+    "IPC-HDBW8630EP-ZH-S2",
+    "IPC-HF81230E",
+    "IPC-HF81235FP",
+    "IPC-HF81239F",
+    "IPC-HF8231FP-S2",
+    "IPC-HF8232FP-S2",
+    "IPC-HF8331F-S2",
+    "IPC-HF8630FP-S2",
+    "IPC-HFW81230E-Z",
+    "IPC-HFW81230E-Z-IRA",
+    "IPC-HFW8231EP-ZH-0735-S2",
+    "IPC-HFW8231EP-ZH-S2",
+    "IPC-HFW8232EP-ZH-S2",
+    "IPC-HFW8331E-ZH-S2",
+    "IPC-HFW8331EP-ZH-0735-S2",
+    "IPC-HFW8630EP-ZH-S2",
+    "IPC-HFW8630K-Z-I4"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW81230E-Z",
+   "IPC-HDBW81230E-ZH",
+   "IPC-HDBW8231EP-ZH-0735-S2",
+   "IPC-HDBW8231EP-ZH-FD-S2",
+   "IPC-HDBW8231EP-ZH-S2",
+   "IPC-HDBW8232EP-ZH-S2",
+   "IPC-HDBW8232EP-ZH-SL-S2",
+   "IPC-HDBW8331E-ZH-S2",
+   "IPC-HDBW8331EP-ZH-0735-S2",
+   "IPC-HDBW8630E-Z",
+   "IPC-HDBW8630EP-ZH-S2",
+   "IPC-HF81230E",
+   "IPC-HF81235FP",
+   "IPC-HF81239F",
+   "IPC-HF8231FP-S2",
+   "IPC-HF8232FP-S2",
+   "IPC-HF8331F-S2",
+   "IPC-HF8630FP-S2",
+   "IPC-HFW81230E-Z",
+   "IPC-HFW81230E-Z-IRA",
+   "IPC-HFW8231EP-ZH-0735-S2",
+   "IPC-HFW8231EP-ZH-S2",
+   "IPC-HFW8232EP-ZH-S2",
+   "IPC-HFW8331E-ZH-S2",
+   "IPC-HFW8331EP-ZH-0735-S2",
+   "IPC-HFW8630EP-ZH-S2",
+   "IPC-HFW8630K-Z-I4"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:08+00:00",
+  "socs": [
+   {
+    "name": "Hi3519",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "dh_ipc-hx8xxx-cavlir_eng_p_stream3_v2.400.0000.8.r.20161227.bin": {
+  "detail": "data/firmware/74/74526de658540519.json",
+  "duplicate_of": "DH_IPC-HX8XXX-Cavlir_Eng_P_Stream3_V2.400.0000.8.R.20161227.bin",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-EB1200",
+    "IPC-EB1201",
+    "IPC-EB600",
+    "IPC-EBW1200",
+    "IPC-EBW1201",
+    "IPC-EBW600",
+    "IPC-EBW600-IMM",
+    "IPC-HDBW81200E-Z",
+    "IPC-HDBW81200EP-Z",
+    "IPC-HDBW8600-Z",
+    "IPC-HF81200E",
+    "IPC-HF81220E",
+    "IPC-HF8600E",
+    "IPC-HFW81200E-Z",
+    "IPC-HFW81200E-Z-IRA",
+    "IPC-HFW8321E",
+    "IPC-HFW8600D",
+    "IPC-HFW8600D-Z",
+    "IPC-HFW8600E-Z-IRA"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-EB1200",
+   "IPC-EB1201",
+   "IPC-EB600",
+   "IPC-EBW1200",
+   "IPC-EBW1201",
+   "IPC-EBW600",
+   "IPC-EBW600-IMM",
+   "IPC-HDBW81200E-Z",
+   "IPC-HDBW81200EP-Z",
+   "IPC-HDBW8600-Z",
+   "IPC-HF81200E",
+   "IPC-HF81220E",
+   "IPC-HF8600E",
+   "IPC-HFW81200E-Z",
+   "IPC-HFW81200E-Z-IRA",
+   "IPC-HFW8321E",
+   "IPC-HFW8600D",
+   "IPC-HFW8600D-Z",
+   "IPC-HFW8600E-Z-IRA"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-03T16:44:07+00:00",
+  "socs": [
+   {
+    "vendor": "Ambarella"
+   }
+  ],
+  "status": "duplicate"
+ },
+ "dh_ipc-hx8xxx-demeter_eng_p_v2.400.0000.10.r.20160314.bin": {
+  "detail": "data/firmware/33/33921c202b37d054.json",
+  "duplicate_of": "DH_IPC-HX8XXX-Demeter_Eng_P_V2.400.0000.10.R.20160314.bin",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HDBW8281-PC",
+    "IPC-HDBW8281-Z",
+    "IPC-HF8101",
+    "IPC-HF8201",
+    "IPC-HF8281",
+    "IPC-HF8291E-4GT",
+    "IPC-HF8301",
+    "IPC-HF8351E-4GT",
+    "IPC-HFW8101",
+    "IPC-HFW8106",
+    "IPC-HFW8201",
+    "IPC-HFW8206",
+    "IPC-HFW8281",
+    "IPC-HFW8281E-IRA",
+    "IPC-HFW8286",
+    "IPC-HFW8301",
+    "IPC-HFW8306",
+    "IPC-HUM8101",
+    "IPC-HUM8101-0280B"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HDBW8281-PC",
+   "IPC-HDBW8281-Z",
+   "IPC-HF8101",
+   "IPC-HF8201",
+   "IPC-HF8281",
+   "IPC-HF8291E-4GT",
+   "IPC-HF8301",
+   "IPC-HF8351E-4GT",
+   "IPC-HFW8101",
+   "IPC-HFW8106",
+   "IPC-HFW8201",
+   "IPC-HFW8206",
+   "IPC-HFW8281",
+   "IPC-HFW8281E-IRA",
+   "IPC-HFW8286",
+   "IPC-HFW8301",
+   "IPC-HFW8306",
+   "IPC-HUM8101",
+   "IPC-HUM8101-0280B"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-03T16:49:19+00:00",
+  "status": "duplicate"
+ },
  "dh_ipc-hx8xxx-warpway_eng_p_stream3_snell_v2.622.0000000.3.r.20180129.bin": {
   "detail": "data/firmware/48/482f7baced9af835.json",
   "extractor_version": 5,
@@ -452434,6 +457877,31 @@
   "socs": [
    {
     "name": "Hi3519V101",
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "ok"
+ },
+ "dh_ipc-hx8xxx-wei-nova2_eng_p_stream3_v2.621.0000001.2.r.20170914.bin": {
+  "detail": "data/firmware/de/de88df71c9e08b1d.json",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [],
+   "hwids": [],
+   "ignored": [],
+   "models": [
+    "IPC-HF81239F",
+    "IPC-HF8835F"
+   ]
+  },
+  "hardware_ids": [
+   "IPC-HF81239F",
+   "IPC-HF8835F"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-06T22:07:10+00:00",
+  "socs": [
+   {
     "vendor": "HiSilicon"
    }
   ],
@@ -452467,6 +457935,36 @@
    }
   ],
   "status": "ok"
+ },
+ "dh_nvr2x-s2_eng_p_v3.205.0000000.0.r.171013.bin": {
+  "detail": "data/firmware/47/47481fe6c84deec4.json",
+  "duplicate_of": "DH_NVR2X-S2_Eng_P_V3.205.0000000.0.R.171013.bin",
+  "extractor_version": 5,
+  "hardware": {
+   "boards": [
+    "NVR2X-S"
+   ],
+   "hwids": [],
+   "ignored": [
+    "DAHUA"
+   ],
+   "models": [
+    "N6"
+   ]
+  },
+  "hardware_ids": [
+   "DAHUA",
+   "General_N6",
+   "NVR2X-S"
+  ],
+  "package_format": "dh",
+  "processed_at": "2026-10-03T16:54:49+00:00",
+  "socs": [
+   {
+    "vendor": "HiSilicon"
+   }
+  ],
+  "status": "duplicate"
  },
  "dh_sd-adreia_eng_p_v2.212.0000.0.r.20151023.zip": {
   "detail": "data/firmware/63/630f914068b17ae9.json",
@@ -454306,7 +459804,7 @@
   "status": "ok"
  },
  "le9xx_MultiLang_PN_LUPUS_V4.005.1005000.2.R.250911.bin": {
-  "attempts": 1,
+  "attempts": 2,
   "error": "binwalk found nothing to extract",
   "extractor_version": 5,
   "hardware": {
@@ -454317,7 +459815,7 @@
   },
   "hardware_ids": [],
   "package_format": null,
-  "processed_at": "2026-10-05T21:46:23+00:00",
+  "processed_at": "2026-10-06T22:06:31+00:00",
   "status": "extract_failed"
  },
  "nvr2xxx-i2_mul_dh_v4.002.10im001.0.t.250427_vto.bin": {
