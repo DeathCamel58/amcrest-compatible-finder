@@ -14,8 +14,10 @@ vendor = "Dahua"
 # MD5, mostly 2015-2021 builds that Dahua's main download centre no longer lists
 firmware_page = "https://france.dahuatech.com/DocThird?cId=648"
 
-BLOCK = re.compile(r'<a class="title" href="(?P<href>[^"]+)"[^>]*>.*?</a>\s*<div class="wenben">(?P<text>.*?)</div>',
+BLOCK = re.compile(r'<a class="title" href="(?P<href>[^"]+)"[^>]*>(?P<title>.*?)</a>\s*<div class="wenben">(?P<text>.*?)</div>',
                    re.DOTALL)
+# Some files are stored under an upload ID ("/upload/202204/04/202204042151287146.zip"); the link text names them
+NUMERIC_NAME = re.compile(r"^\d{10,}\.[A-Za-z0-9]+$")
 RELEASE_DATE = re.compile(r"Release date:\s*(\d{4}-\d{2}-\d{2})")
 MD5 = re.compile(r"Checksum \(md5\):\s*([0-9a-fA-F]{32})")
 RELEASE_NOTES = re.compile(r'<a href="([^"]+\.pdf)"', re.IGNORECASE)
@@ -27,7 +29,7 @@ md5_by_url = {}
 
 
 def parse_page(page):
-    """[(url, release date, md5, release notes URL)] for every linked file, in page order."""
+    """[(url, release date, md5, release notes URL, link text)] for every linked file, in page order."""
     files = []
     for match in BLOCK.finditer(page):
         text = match.group("text")
@@ -36,8 +38,18 @@ def parse_page(page):
         notes = RELEASE_NOTES.search(text)
         files.append((urljoin(firmware_page, html.unescape(match.group("href")).strip()),
                       date.group(1) if date else None, md5.group(1).lower() if md5 else None,
-                      urljoin(firmware_page, html.unescape(notes.group(1))) if notes else None))
+                      urljoin(firmware_page, html.unescape(notes.group(1))) if notes else None,
+                      re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", match.group("title")))).strip()))
     return files
+
+
+def local_name(url, title):
+    """The name to store a file under: its own name, or the link text when the URL only has an upload ID."""
+    file_name = unquote(url.rsplit("/", 1)[-1])
+    if NUMERIC_NAME.match(file_name) and title and not NUMERIC_NAME.match(title):
+        extension = file_name.rsplit(".", 1)[-1]
+        return title if title.lower().endswith(f".{extension.lower()}") else f"{title}.{extension}"
+    return None
 
 
 def get_model(file_name):
@@ -51,13 +63,14 @@ def get_firmwares():
     files = parse_page(response.text)
 
     firmwares = []
-    for url, release_date, md5, release_notes in files:
-        file_name = unquote(url.rsplit("/", 1)[-1])
+    for url, release_date, md5, release_notes, title in files:
+        file_name = local_name(url, title) or unquote(url.rsplit("/", 1)[-1])
         # Apps and tools are listed too, but aren't firmware
         if classify_file_type(file_name, url) != "firmware":
             continue
         model = get_model(file_name)
-        firmware = make_firmware([model] if model else [], url, release_date=release_date)
+        firmware = make_firmware([model] if model else [], url, file_name=local_name(url, title),
+                                 release_date=release_date)
         if release_notes:
             firmware["firmware_changelog"] = f"Release notes: {release_notes}"
         if md5:
