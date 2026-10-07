@@ -402,8 +402,12 @@ def _download_to(url, file_name, part_name, downloader):
             clear_failed_download(url)
             return result
 
-    if os.path.exists(part_name):
+    # Keep what was downloaded so a later run (within RESUME_PART_MAX_AGE) resumes it: on a flaky server a big file
+    # can take several runs. An empty .part is useless, and download_checked removes one that failed its MD5 check
+    if os.path.exists(part_name) and os.path.getsize(part_name) == 0:
         os.remove(part_name)
+    elif os.path.exists(part_name):
+        print(f'\tKeeping {os.path.basename(part_name)} ({os.path.getsize(part_name) // 1048576} MB) to resume next run')
 
     return None
 

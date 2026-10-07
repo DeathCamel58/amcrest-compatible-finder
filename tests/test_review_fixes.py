@@ -441,3 +441,20 @@ def test_download_checked_resumes_and_verifies(tmp_path, monkeypatch):
     with pytest.raises(ValueError):
         dl.download_checked("https://x/f.bin", str(part), "0" * 32)
     assert not part.exists()
+
+
+def test_giving_up_keeps_a_partial_download_for_the_next_run(tmp_path, monkeypatch):
+    from util import download_firmware as dl
+    monkeypatch.setattr(dl.time, "sleep", lambda s: None)
+    calls = []
+
+    def stalls_after_some_data(url, part_name):
+        calls.append(1)
+        if len(calls) == 1:
+            with open(part_name, "ab") as f:
+                f.write(b"x" * 100)
+        raise ConnectionError("Connection broken")  # later attempts make no progress
+
+    target = str(tmp_path / "big.bin")
+    assert dl._download_to("https://flaky.example/big.bin", target, target + ".part", stalls_after_some_data) is None
+    assert os.path.getsize(target + ".part") == 100
