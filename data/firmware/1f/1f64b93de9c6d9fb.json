@@ -1,0 +1,280 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HF8249F-FD",
+    "IPC-HF8249F-FR",
+    "IPC-HF8640F-FD",
+    "IPC-HF8640F-FR",
+    "IPC-HF8242FP-FD",
+    "IPC-HF8242FP-FR",
+    "IPC-HF8249F-FD-S2",
+    "IPC-HF8249F-FR-S2",
+    "IPC-HF8841F-FD",
+    "IPC-HF8841F-FR",
+    "IPC-HF8248F-FD",
+    "IPC-HF81249F-FR"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-HF8249F-FD:01:02:01:1E:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
+    "IPC-HF8249F-FR:01:02:01:1E:23:00:01:10:07:01:04:4B0:08:00:02:08:00:01:00:00:800",
+    "IPC-HF8640F-FD:01:02:01:21:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
+    "IPC-HF8640F-FR:01:02:01:21:23:00:01:10:07:01:04:4B0:08:00:02:08:00:01:00:00:800",
+    "IPC-HF8242FP-FD:01:02:01:1E:23:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:800",
+    "IPC-HF8242FP-FR:01:02:01:1E:23:00:01:10:07:01:04:4B0:08:00:02:04:00:01:00:00:800",
+    "IPC-HF8249F-FD-S2:01:02:01:6E:23:00:01:10:07:01:04:4B0:08:00:02:08:00:01:00:00:800",
+    "IPC-HF8249F-FR-S2:01:02:01:6E:23:00:01:10:07:01:04:4B0:08:00:02:08:00:01:00:00:800",
+    "IPC-HF8841F-FD:01:02:01:64:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
+    "IPC-HF8841F-FR:01:02:01:64:23:00:01:10:07:01:04:4B0:08:00:02:08:00:01:00:00:800",
+    "IPC-HF8248F-FD:01:02:01:4A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
+    "IPC-HF81249F-FR:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HF8249F-FD",
+    "IPC-HF8249F-FR",
+    "IPC-HF8640F-FD",
+    "IPC-HF8640F-FR",
+    "IPC-HF8242FP-FD",
+    "IPC-HF8242FP-FR",
+    "IPC-HF8249F-FD-S2",
+    "IPC-HF8249F-FR-S2",
+    "IPC-HF8841F-FD",
+    "IPC-HF8841F-FR",
+    "IPC-HF8248F-FD",
+    "IPC-HF81249F-FR"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn5163",
+   "build_dates": {
+    "earliest": "2017-12-09",
+    "latest": "2017-12-09"
+   },
+   "firmware": null,
+   "flash_size": 4076863488,
+   "kernel_version": "3.18.20",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-12-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 212992,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 3396432,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 32919552,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 77824,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-12-09",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 10649600,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ext4",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "77f904d5bf83c250",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3519V101"
+     }
+    ],
+    "name": "Hi3519V101",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "1f64b93de9c6d9fb670e045ac7f0a2e42d99252aedd1d6ab6f9e211a849d8011"
+}
