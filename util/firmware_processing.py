@@ -1,5 +1,6 @@
 import atexit
 import os
+import re
 import shutil
 import signal
 import struct
@@ -10,12 +11,14 @@ import time
 import zipfile
 import zlib
 from datetime import datetime, timedelta, timezone
+from urllib.parse import unquote, urlsplit
 
 # CHIP_IMAGE_NAME and uimage_name are re-exported for older callers and tests
 from util.firmware_metadata import (CHIP_IMAGE_NAME, UIMAGE_MAGIC, FileMember, Member, PackageReader, combine,  # noqa: F401
-                                    members_in_directory, uimage_name)
+                                    SOFTWARE_VERSION, members_in_directory, metadata_member_name, uimage_name,
+                                    unreadable_format)
 from util.hardware import classify_hardware_ids
-from util.analysis_store import split_result, write_detail
+from util.analysis_store import join_result, split_result, write_detail
 from util.file_identity import hash_file
 from util.json_tools import save_firmware_json, get_firmware_json
 
@@ -27,7 +30,9 @@ firmware_processing_lock = threading.Lock()
 # 4: read the hardware lists straight out of zip-style firmwares (including nested ones and Dahua's "DHSP" PTZ
 #    variant), which finds IDs in some files binwalk didn't
 # 5: hardware IDs by source (with the full hwid entries), SoC, partition layout, security, locale and versions
-EXTRACTOR_VERSION = 5
+# 6: Install files with // comments, DHI7 headers, Android OTA devices, rar and 7z archives, renamed metadata files
+#    (DH Vision's "<folder>_check.img"), and the encrypted / mcu statuses for firmwares with nothing to read
+EXTRACTOR_VERSION = 6
 # Results from before this version lack the per-source / package fields, so even "ok" ones are redone
 METADATA_VERSION = 5
 # Failed extractions are retried on later runs up to this many times per extractor version
@@ -111,25 +116,57 @@ def read_extracted_firmware(path):
         shutil.rmtree(zip_parent_path)
     return combine([PackageReader(members_in_directory(path))], 'other')
 
-def extract_if_zip(path):
-    """If path is a zip that unzip can open, extract it into its own folder under tmp/ and return
-    (member paths, folder). Returns ([], None) for anything else, so it gets handed to binwalk."""
+RAR_MAGIC = b'Rar!\x1a\x07'
+SEVEN_ZIP_MAGIC = b"7z\xbc\xaf\x27\x1c"
+# How long unpacking one archive may take
+ARCHIVE_TIMEOUT = 30 * 60
+
+
+def archive_format(path):
+    """"zip", "rar" or "7z" for an archive the system tools can unpack, else None."""
+    with open(path, 'rb') as f:
+        head = f.read(8)
+    if head.startswith(RAR_MAGIC):
+        return 'rar'
+    if head.startswith(SEVEN_ZIP_MAGIC):
+        return '7z'
     file_type = subprocess.run(['file', '-b', path], capture_output=True).stdout.decode('utf-8', 'replace')
-    if "Zip archive" not in file_type:
-        return [], None
+    return 'zip' if "Zip archive" in file_type else None
+
+
+def extract_if_zip(path):
+    """If path is a zip (or rar or 7z) archive the system tools can open, extract it into its own folder under tmp/
+    and return (member paths, folder, format). Returns ([], None, None) for anything else, so it gets handed to
+    binwalk. Raises ExtractionError for an archive that can't be unpacked (e.g. password-protected)."""
+    kind = archive_format(path)
+    if kind is None:
+        return [], None, None
 
     os.makedirs('tmp', exist_ok=True)
-    extraction_path = tempfile.mkdtemp(prefix='zip_', dir='tmp')
-
-    # Exit code 1 means warnings only; the files were still extracted
-    zip_process = subprocess.run(['unzip', '-o', '-qq', path, '-d', extraction_path], capture_output=True)
-    if zip_process.returncode not in (0, 1):
-        # Dahua .bin files are zips with "DH" in place of "PK", which unzip can't open but binwalk can
+    extraction_path = tempfile.mkdtemp(prefix=f'{kind}_', dir='tmp')
+    commands = {
+        'zip': ['unzip', '-o', '-qq', path, '-d', extraction_path],
+        # -p-: never prompt for a password (an encrypted archive fails instead of hanging)
+        'rar': ['unrar', 'x', '-o+', '-p-', '-inul', path, extraction_path + os.sep],
+        '7z': ['7z', 'x', '-y', '-p', f'-o{extraction_path}', path],
+    }
+    try:
+        process = subprocess.run(commands[kind], capture_output=True, stdin=subprocess.DEVNULL,
+                                 timeout=ARCHIVE_TIMEOUT)
+    except subprocess.TimeoutExpired as err:
         clean_tmp(extraction_path)
-        return [], None
+        raise ExtractionError(f"unpacking the {kind} archive timed out") from err
 
     files = [os.path.join(root, name) for root, _, names in os.walk(extraction_path) for name in sorted(names)]
-    return files, extraction_path
+    # unzip's exit code 1 means warnings only; the files were still extracted
+    if kind == 'zip' and process.returncode not in (0, 1):
+        # Dahua .bin files are zips with "DH" in place of "PK", which unzip can't open but binwalk can
+        clean_tmp(extraction_path)
+        return [], None, None
+    if kind != 'zip' and (process.returncode != 0 or not files):
+        clean_tmp(extraction_path)
+        raise ExtractionError(f"couldn't unpack the {kind} archive (exit code {process.returncode})")
+    return files, extraction_path, kind
 
 
 def extract_complete_entries(path, destination):
@@ -380,7 +417,7 @@ def read_hardware_ids(path):
     return None if extraction is None else extraction['hardware_ids']
 
 
-def analysis(hardware_ids, status, error=None, extraction=None):
+def analysis(hardware_ids, status, error=None, extraction=None, detected_format=None):
     extraction = extraction or {}
     return {
         'hardware_ids': sorted(hardware_ids),
@@ -389,6 +426,7 @@ def analysis(hardware_ids, status, error=None, extraction=None):
         'hardware_sources': extraction.get('hardware_sources') or [],
         'packages': extraction.get('packages') or [],
         'package_format': extraction.get('package_format'),
+        'detected_format': detected_format,
     }
 
 
@@ -422,20 +460,20 @@ def analyze_truncated_firmware(file_path):
 
 
 def analyze_slowly(file_path):
-    """Unzip (standard zips) or binwalk (everything else) the firmware and read what it holds."""
+    """Unzip (zip, rar, 7z) or binwalk (everything else) the firmware and read what it holds."""
     try:
-        zip_files, extraction_path = extract_if_zip(file_path)
+        zip_files, extraction_path, kind = extract_if_zip(file_path)
     except ExtractionError as err:
         return analysis([], "extract_failed", str(err))
 
     if extraction_path is not None:
-        # A zip can hold several firmwares; combine what each one supports
-        hardware_ids, statuses, errors, sources, packages = set(), [], [], [], []
+        # An archive can hold several firmwares; combine what each one supports
+        hardware_ids, members, errors, sources, packages = set(), [], [], [], []
         try:
             for file in zip_files:
                 member = label_inner(analyze_firmware(file), os.path.relpath(file, extraction_path))
                 hardware_ids.update(member['hardware_ids'])
-                statuses.append(member['status'])
+                members.append(member)
                 sources += member['hardware_sources']
                 packages += member['packages']
                 if member['error']:
@@ -444,9 +482,16 @@ def analyze_slowly(file_path):
             clean_tmp(extraction_path)
 
         extraction = {'hardware_sources': sources, 'packages': packages,
-                      'package_format': 'bundle' if len(packages) >= 2 else 'zip'}
+                      'package_format': 'bundle' if len(packages) >= 2 else kind}
         if hardware_ids:
             return analysis(hardware_ids, "ok", None, extraction)
+        statuses = [member['status'] for member in members]
+        # An encrypted firmware in the archive is why there's nothing to read; microcontroller firmware only when
+        # nothing else in it (an OS image) could have had a hardware list
+        for status in ('encrypted', 'mcu'):
+            found = [m for m in members if m['status'] == status]
+            if found and (status == 'encrypted' or not any(m['packages'] for m in members)):
+                return analysis([], status, None, extraction, found[0]['detected_format'])
         if statuses and all(status == "extract_failed" for status in statuses):
             return analysis([], "extract_failed", "; ".join(errors), extraction)
         return analysis([], "no_ids", None, extraction)
@@ -464,6 +509,13 @@ def analyze_firmware(file_path, integrity=None):
     if integrity and integrity.get("status") == "truncated":
         return analyze_truncated_firmware(file_path)
 
+    # Encrypted and microcontroller firmwares have nothing to read, so don't spend time unpacking them
+    with open(file_path, 'rb') as f:
+        head = f.read(4096)
+    unreadable = unreadable_format(head, os.path.basename(file_path))
+    if unreadable:
+        return analysis([], unreadable[0], None, None, unreadable[1])
+
     # Most firmwares are zip-style, with the hardware list in small members that can be read directly. Anything
     # else, or a container where that finds nothing, is unpacked the slow way
     try:
@@ -473,6 +525,12 @@ def analyze_firmware(file_path, integrity=None):
         extraction = None
     if extraction and extraction['hardware_ids']:
         return analysis(extraction['hardware_ids'], "ok", None, extraction)
+    if extraction is None:
+        # Not a container: a single file can still say what it's for (a DHI7 header, or a metadata file stored on
+        # its own, like DH Vision's "<folder>_check.img")
+        single = read_single_file(file_path)
+        if single['hardware_ids']:
+            return analysis(single['hardware_ids'], "ok", None, single)
 
     result = analyze_slowly(file_path)
     if extraction and not result['packages']:
@@ -481,7 +539,19 @@ def analyze_firmware(file_path, integrity=None):
         result['package_format'] = extraction['package_format']
     if not result['packages']:
         result['packages'] = single_image_packages(file_path)
+    if not result['hardware_ids'] and result['status'] in ('no_ids', 'extract_failed') and result['packages'] and all(
+            (package.get('security') or {}).get('encrypted') for package in result['packages']):
+        # The container is readable but every image in it is encrypted (Dahua's ".Plain" builds)
+        result.update(status='encrypted', detected_format='images', error=None)
     return result
+
+
+def read_single_file(file_path):
+    """combine() output for a file read as a one-member package."""
+    with open(file_path, 'rb') as f:
+        head = f.read(4)
+    reader = PackageReader([FileMember(file_path, os.path.basename(file_path))])
+    return combine([reader], 'dhi7' if head == b'DHI7' else 'other')
 
 
 def single_image_packages(file_path):
@@ -551,6 +621,8 @@ def process_firmware_threaded(firmware_file, file_path, previous=None, integrity
         "packages": found['packages'],
         "package_format": found['package_format'],
     }
+    if found.get('detected_format'):
+        result["detected_format"] = found['detected_format']
     if integrity and integrity.get("status") == "truncated":
         # Partial result: the file is incomplete, so this is only what its intact part shows
         result["truncated"] = True
@@ -564,6 +636,63 @@ def process_firmware_threaded(firmware_file, file_path, previous=None, integrity
         sha256 = hash_file(file_path)[1]
     save_result(firmware_file, result, sha256)
     return result
+
+
+WAYBACK_PREFIX = re.compile(r'^https?://web\.archive\.org/web/[^/]+/', re.IGNORECASE)
+
+
+def url_folder(url):
+    """The folder a file was published in ("dh-vision.com/main/firmware/IPC/<firmware>"), the same for every capture
+    of it in the Wayback Machine, or None."""
+    if not url:
+        return None
+    parts = urlsplit(WAYBACK_PREFIX.sub('', url))
+    host = (parts.hostname or '').lower().removeprefix('www.')
+    folder = unquote(parts.path).rsplit('/', 1)[0]
+    return f"{host}{folder}" if host and folder else None
+
+
+def inherit_folder_results(cameras_json):
+    """Some mirrors publish a firmware unpacked, one file per member (DH Vision: check.img, kernel.img, romfs, ...).
+    The partition images say nothing about the hardware, but the folder's metadata file does, so they get its
+    hardware IDs, as a "folder" source naming the file they came from. Returns how many firmwares got them."""
+    firmware_json = get_firmware_json()
+    folders = {}
+    for firmware_file, entry in cameras_json.items():
+        folder = url_folder(entry.get('url'))
+        if folder and firmware_file in firmware_json:
+            folders.setdefault(folder, []).append(firmware_file)
+
+    inherited = 0
+    for names in folders.values():
+        donors = [name for name in names if metadata_member_name(name)
+                  and firmware_json[name].get('status') == 'ok'
+                  and not any(s.get('source') == 'folder'
+                              for s in join_result(firmware_json[name]).get('hardware_sources') or [])]
+        if not donors or len(names) < 2:
+            continue
+        ids = sorted({i for name in donors for i in firmware_json[name]['hardware_ids']})
+        for name in names:
+            index_entry = firmware_json[name]
+            if name in donors or index_entry.get('status') not in ('no_ids', 'extract_failed', 'ok'):
+                continue
+            result = join_result(index_entry)
+            own = [s for s in result.get('hardware_sources') or [] if s.get('source') != 'folder']
+            if index_entry['status'] == 'ok' and own:
+                continue  # it has hardware IDs of its own
+            sources = own + [{'source': 'folder', 'member': donor, 'firmware': None,
+                              'ids': firmware_json[donor]['hardware_ids'], 'counted': True} for donor in donors]
+            if index_entry['status'] == 'ok' and index_entry['hardware_ids'] == ids and \
+                    result.get('hardware_sources') == sources:
+                continue
+            result.update({'hardware_ids': ids, 'hardware': classify_hardware_ids(ids), 'status': 'ok',
+                           'hardware_sources': sources})
+            for key in ('error', 'attempts'):
+                result.pop(key, None)
+            save_result(name, result, (cameras_json[name].get('file_hashes') or {}).get('sha256'))
+            inherited += 1
+    flush_results()
+    return inherited
 
 
 def mark_not_dahua(firmware_file, platform):
@@ -599,8 +728,11 @@ def needs_processing(result, platform):
         return True
     status = result.get("status")
     if status == "ok":
-        # Results from before the per-source and package fields were added are redone to fill them in
-        return result.get("extractor_version", 1) < METADATA_VERSION
+        # Results from before the per-source and package fields were added are redone to fill them in, and so are
+        # results from before version 6 that took an ITC Install's software version for a device
+        return result.get("extractor_version", 1) < METADATA_VERSION or (
+            result.get("extractor_version", 1) < 6
+            and any(SOFTWARE_VERSION.match(i) for i in result.get("hardware_ids") or []))
     if status == "not_dahua":
         # Only if platform detection has since changed its mind
         return platform == "dahua"

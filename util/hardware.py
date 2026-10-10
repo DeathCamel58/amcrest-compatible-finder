@@ -13,6 +13,9 @@ FAMILY_PATTERNS = [
     re.compile(r"\(\d\)"),                              # IPC-HX3(2)XXX
 ]
 
+# Board names from Android builds ("px30_evb", "t7_an400"): lower case with an underscore, unlike Dahua's models
+ANDROID_BOARD = re.compile(r"^[a-z0-9]+_[a-z0-9_]+$")
+
 # Tokens installer scripts use that aren't models (vendor names, RVI's "Group")
 IGNORED_IDS = {"dahua", "group", "general", "default", "oem"}
 
@@ -36,7 +39,7 @@ def classify_hardware_ids(hardware_ids):
             name = raw
         elif HWID.match(name):
             group = "hwids"
-        elif is_family_name(name):
+        elif is_family_name(name) or ANDROID_BOARD.match(name):
             group = "boards"
         else:
             group = "models"

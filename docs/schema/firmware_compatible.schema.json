@@ -74,6 +74,8 @@
           "enum": [
             "ok",
             "no_ids",
+            "encrypted",
+            "mcu",
             "extract_failed",
             "not_dahua",
             "duplicate"
@@ -111,9 +113,24 @@
             "zip",
             "dh",
             "dhsp",
+            "dhi7",
+            "rar",
+            "7z",
             "bundle",
             "other",
             null
+          ]
+        },
+        "detected_format": {
+          "description": "Why an encrypted or mcu firmware has nothing to read. encrypted: SS, SE or DHPD (Dahua's encrypted firmware headers), or images (a readable container whose every image is encrypted). mcu: DH-UPMCU (Dahua's microcontroller header), cortex_m (a bare ARM Cortex-M image) or intel_hex",
+          "enum": [
+            "SS",
+            "SE",
+            "DHPD",
+            "images",
+            "DH-UPMCU",
+            "cortex_m",
+            "intel_hex"
           ]
         },
         "socs": {
@@ -182,6 +199,8 @@
               "status": {
                 "enum": [
                   "no_ids",
+                  "encrypted",
+                  "mcu",
                   "extract_failed",
                   "not_dahua"
                 ]
@@ -287,12 +306,14 @@
           }
         },
         {
-          "description": "Truncated files are analysed from their intact part, which gives ok or extract_failed, never no_ids or not_dahua",
+          "description": "Truncated files are analysed from their intact part, which gives ok or extract_failed, never no_ids, encrypted, mcu or not_dahua",
           "if": {
             "properties": {
               "status": {
                 "enum": [
                   "no_ids",
+                  "encrypted",
+                  "mcu",
                   "not_dahua"
                 ]
               }
@@ -302,6 +323,41 @@
             "properties": {
               "truncated": {
                 "not": {}
+              }
+            }
+          }
+        },
+        {
+          "description": "detected_format is only on encrypted and mcu (or a duplicate of one), and always on them",
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "encrypted",
+                  "mcu"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "detected_format"
+            ]
+          },
+          "else": {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "duplicate"
+                }
+              }
+            },
+            "then": true,
+            "else": {
+              "properties": {
+                "detected_format": {
+                  "not": {}
+                }
               }
             }
           }

@@ -37,6 +37,9 @@ COMPRESSION_NAMES = {0: 'none', 1: 'gzip', 2: 'bzip2', 3: 'lzma', 4: 'lzo', 5: '
 # these aren't hardware IDs, but they are SoC evidence
 CHIP_IMAGE_NAME = re.compile(r"^(hi|ss|ssr|rk|nt|ax|gk|sc|mc|fh)?\d{3,}[a-z0-9_]*$|boot$", re.IGNORECASE)
 
+# A Dahua software version ("V2.625.001W000.0.R.210112"), not a device
+SOFTWARE_VERSION = re.compile(r'^V\d+\.\d{2,3}\.[0-9A-Z]+\.\d+\.[A-Z]\.\d{6,8}$')
+
 # Anything in check.img / Install / Install.lua that looks like a security, baseline or rollback setting
 SECURITY_KEY = re.compile(r"security|rollback|baseline|min_?version|lowest_?version|downgrade", re.IGNORECASE)
 
@@ -272,7 +275,7 @@ SOC_PATTERNS = [
     # Novatek's internal codes (NA51089) don't say which NT part it is, so they only give the vendor
     (re.compile(r'novatek,(?:nvt-)?na5\d{4}', re.I),
      lambda m: (None, 'Novatek')),
-    (re.compile(r'(?<![a-z0-9])(rk3\d{3}|rv1\d{3}|rk1\d{3})(?![0-9])', re.I),
+    (re.compile(r'(?<![a-z0-9])(rk3\d{3}|rv1\d{3}|rk1\d{3}|px30)(?![0-9])', re.I),
      lambda m: (m.group(1).upper(), 'Rockchip')),
     (re.compile(r'(?<![a-z0-9])fh(8\d{3}[a-z]?(?:v\d{3})?)(?![a-z0-9])', re.I),
      lambda m: (_upper_suffix('FH', m.group(1)), 'Fullhan')),
@@ -361,17 +364,48 @@ def choose_soc(evidence):
 
 # --- check.img, hwid, Install, Install.lua -----------------------------------------------------------------------
 
+def strip_json_comments(text):
+    """text without // and /* */ comments outside strings (Install files comment out lines: //"burn mcu...")."""
+    out, i, in_string = [], 0, False
+    while i < len(text):
+        c = text[i]
+        if in_string:
+            out.append(c)
+            if c == '\\' and i + 1 < len(text):
+                out.append(text[i + 1])
+                i += 1
+            elif c == '"':
+                in_string = False
+        elif c == '"':
+            in_string = True
+            out.append(c)
+        elif text.startswith('//', i):
+            end = text.find('\n', i)
+            i = len(text) if end < 0 else end
+            continue
+        elif text.startswith('/*', i):
+            end = text.find('*/', i + 2)
+            i = len(text) if end < 0 else end + 2
+            continue
+        else:
+            out.append(c)
+        i += 1
+    return ''.join(out)
+
+
 def parse_json_object(data):
-    """The first JSON object in data (bytes or str), tolerating headers before it and comments after it."""
+    """The first JSON object in data (bytes or str), tolerating headers before it and comments in and after it."""
     text = data.decode('utf-8', 'replace') if isinstance(data, bytes) else data
     start = text.find('{')
     if start < 0:
         return None
-    try:
-        value, _ = json.JSONDecoder(strict=False).raw_decode(text[start:])
-        return value if isinstance(value, dict) else None
-    except ValueError:
-        pass
+    decoder = json.JSONDecoder(strict=False)
+    for candidate in (text[start:], strip_json_comments(text[start:])):
+        try:
+            value, _ = decoder.raw_decode(candidate)
+            return value if isinstance(value, dict) else None
+        except ValueError:
+            pass
     # Older parser's fallback: the text between the last "{" and the next "}"
     inner = text[text.rfind('{') + 1:]
     inner = inner[:inner.find('}')] if '}' in inner else inner
@@ -410,6 +444,106 @@ def parse_install(data):
         'market_area': value.get('MarketArea') if isinstance(value.get('MarketArea'), list) else None,
         'security': {k: v for k, v in value.items() if SECURITY_KEY.search(k)},
     }
+
+
+def metadata_member_name(name):
+    """Which metadata file a member is: its own name, or the name a mirror renamed it to (DH Vision stores a
+    firmware's folder as "DHVision_<folder>_check.img"). None for anything else."""
+    if name in METADATA_MEMBERS:
+        return name
+    for metadata in METADATA_MEMBERS:
+        if name.endswith('_' + metadata):
+            return metadata
+    return None
+
+
+# --- DHI7 headers (x86 recorders, keyboards and servers: NVR6000, NVR6XX-4KS2, NKB5000, EVS70XX, DSS7016) --------
+
+DHI7_MAGIC = b'DHI7'
+DHI7_FIRST_IMAGE = 0x54
+DHI7_IMAGE_SIZE = 0x128
+DHI7_MAX_IMAGES = 8
+
+
+def _c_string(data):
+    return data.split(b'\0', 1)[0].decode('latin-1').strip()
+
+
+def parse_dhi7_header(data):
+    """The header of a DHI7 firmware: version, variant, vendor, device type (what the update checks the device
+    against), language, and the images it holds (name, version, offset and size in the file, install path).
+    None if data doesn't start with one."""
+    if len(data) < DHI7_FIRST_IMAGE or data[:4] != DHI7_MAGIC:
+        return None
+    header = {
+        'format': 'DHI7',
+        'version': _c_string(data[4:0x14]) or None,
+        'variant': _c_string(data[0x14:0x24]) or None,
+        'vendor': _c_string(data[0x24:0x34]) or None,
+        'device': _c_string(data[0x34:0x44]) or None,
+        'language': _c_string(data[0x44:0x54]) or None,
+        'images': [],
+    }
+    position = DHI7_FIRST_IMAGE
+    while len(header['images']) < DHI7_MAX_IMAGES and position + DHI7_IMAGE_SIZE <= len(data):
+        name = _c_string(data[position + 16:position + 32])
+        if not name or not name.isprintable() or not re.match(r'^[\w.\-]+$', name):
+            break
+        offset, size = struct.unpack('<II', data[position + 32:position + 40])
+        header['images'].append({'name': name, 'version': _c_string(data[position:position + 16]) or None,
+                                 'offset': offset, 'size': size,
+                                 'path': _c_string(data[position + 40:position + DHI7_IMAGE_SIZE]) or None})
+        position += DHI7_IMAGE_SIZE
+    if not header['device'] or not header['device'].isprintable():
+        return None
+    return header
+
+
+# --- Android OTA packages (Android-based door stations and DeepHub) -----------------------------------------------
+
+ANDROID_METADATA = 'META-INF/com/android/metadata'
+
+
+def parse_android_metadata(data):
+    """An OTA package's META-INF/com/android/metadata: the device it's for (pre-device, the build's
+    ro.product.device), the build it installs, and the OTA type."""
+    values = {}
+    for line in data.decode('utf-8', 'replace').splitlines():
+        key, _, value = line.partition('=')
+        if value:
+            values[key.strip()] = value.strip()
+    devices = [d.strip() for d in values.get('pre-device', '').split(',') if d.strip()]
+    return {
+        'devices': devices,
+        'post_build': values.get('post-build'),
+        'ota_type': values.get('ota-type'),
+    }
+
+
+# --- Firmwares that can't hold hardware IDs we can read ---------------------------------------------------------
+
+# Dahua's encrypted firmware headers: "SS\x01\x01" (NVR4/5 EI, XI), "SE" (XVR AstonDB, NVR6 I), "DHPD" (IVSS)
+ENCRYPTED_MAGICS = ((b'SS\x01\x01', 'SS'), (b'DHPD', 'DHPD'))
+
+
+def unreadable_format(head, name=''):
+    """("encrypted" or "mcu", format) for a file whose content can't list hardware: an encrypted Dahua firmware, or
+    microcontroller firmware (no OS, so no hardware list). None for anything else."""
+    for magic, label in ENCRYPTED_MAGICS:
+        if head.startswith(magic):
+            return 'encrypted', label
+    if head[:2] == b'SE' and len(head) >= 1024 and entropy(head[2:4096]) > 7.5:
+        return 'encrypted', 'SE'
+    if head.startswith(b'DH-UPMCU'):
+        return 'mcu', 'DH-UPMCU'
+    if len(head) >= 8:
+        stack, reset = struct.unpack('<II', head[:8])
+        # A Cortex-M vector table: the initial stack pointer in SRAM, the reset handler (Thumb, so odd) in flash
+        if 0x20000000 <= stack <= 0x20100000 and reset & 1 and (0x08000000 <= reset < 0x08400000 or reset < 0x00200000):
+            return 'mcu', 'cortex_m'
+    if re.match(rb'^:[0-9A-Fa-f]{10,}\r?\n:', head) or name.lower().endswith('.hex') and head[:1] == b':':
+        return 'mcu', 'intel_hex'
+    return None
 
 
 def strip_lua_comments(text):
@@ -655,6 +789,8 @@ class PackageReader:
         self.table_name, self.table, self.table_variants = None, [], []
         self.kernel_version = self.bootloader_version = None
         self.payload_kinds = {}
+        self.container_header = None   # a DHI7 firmware's header
+        self.android_ota = None        # an Android OTA package's metadata
         self.read()
 
     def add_evidence(self, rank, source, member, value):
@@ -686,15 +822,24 @@ class PackageReader:
 
     def read_member(self, member):
         name = member.name
-        if name in METADATA_MEMBERS:
+        metadata = metadata_member_name(name)
+        if metadata:
             data = member.read()
             if data is not None:
-                self.read_metadata(member, name, data)
-            if name != 'check.img':
+                self.read_metadata(member, metadata, data)
+            if metadata != 'check.img':
                 return
+        if member.path.endswith(ANDROID_METADATA) and member.size <= MAX_SMALL_MEMBER:
+            data = member.read()
+            if data:
+                self.read_android_metadata(member, data)
+            return
         if member.size < 64:
             return
         head = member.head()
+        if head[:4] == DHI7_MAGIC:
+            self.read_dhi7(member, head)
+            return
         header = parse_uimage_header(head)
         payload_head = head[64:] if header else head
         kind = payload_kind(payload_head)
@@ -765,8 +910,10 @@ class PackageReader:
         elif name == 'Install':
             self.install = parse_install(data)
             if self.install['devices']:
+                # ITC traffic cameras list their software version among the devices ("V2.625.001W000.0.R.210112")
                 entry = {'source': 'install', 'member': member.path, 'firmware': firmware,
-                         'ids': unique(d[0] for d in self.install['devices']), 'raw': self.install['devices']}
+                         'ids': unique(d[0] for d in self.install['devices'] if not SOFTWARE_VERSION.match(d[0])),
+                         'raw': self.install['devices']}
                 if self.install['vendor']:
                     entry['vendor'] = self.install['vendor']
                 self.sources.append(entry)
@@ -775,6 +922,28 @@ class PackageReader:
             if self.install_lua['ids']:
                 self.sources.append({'source': 'install_lua', 'member': member.path, 'firmware': firmware,
                                      'ids': unique(self.install_lua['ids'])})
+
+    def read_dhi7(self, member, head):
+        header = parse_dhi7_header(head)
+        if not header:
+            return
+        self.container_header = header
+        entry = {'source': 'dhi7', 'member': member.path, 'firmware': self.firmware, 'ids': [header['device']]}
+        if header['vendor']:
+            entry['vendor'] = header['vendor']
+        self.sources.append(entry)
+
+    def read_android_metadata(self, member, data):
+        ota = parse_android_metadata(data)
+        self.android_ota = ota
+        if ota['devices']:
+            self.sources.append({'source': 'android_ota', 'member': member.path, 'firmware': self.firmware,
+                                 'ids': unique(ota['devices'])})
+            for device in ota['devices']:
+                # Rockchip board names ("px30_evb", "rk3568_r") name the chip
+                hits = [hit for hit in soc_strings(device.encode()) if hit[0]]
+                if len({hit[0] for hit in hits}) == 1:
+                    self.add_evidence(3, 'android_device', member.path, hits[0][2])
 
     # --- assembling the package ---
 
@@ -894,7 +1063,8 @@ class PackageReader:
         return result
 
     def has_content(self):
-        return bool(self.sources or self.uboot or self.images or self.install or self.install_lua or self.check)
+        return bool(self.sources or self.uboot or self.images or self.install or self.install_lua or self.check
+                    or self.container_header or self.android_ota)
 
     def package(self):
         source, partitions, unmapped = self.partitions()
@@ -949,6 +1119,15 @@ class PackageReader:
             package['software_version'] = self.install['software_version']
         if self.install and self.install.get('market_area'):
             package['market_area'] = self.install['market_area']
+        if self.container_header:
+            package['container_header'] = self.container_header
+            if self.container_header['version']:
+                package.setdefault('software_version', self.container_header['version'])
+            if not package['architecture'] and any((image['path'] or '').endswith('bzImage')
+                                                   for image in self.container_header['images']):
+                package['architecture'] = 'x86'
+        if self.android_ota:
+            package['android_ota'] = self.android_ota
         return package
 
 
@@ -958,8 +1137,9 @@ def unique(values):
 
 # Within one folder of one firmware, only the most specific list counts towards hardware_ids: an exact hwid list
 # (e.g. IPC-HFW2541SP-S) beats Install's board family (IPC-HX3XXX, which Dahua puts in IPC-HX2XXX firmwares too),
-# which beats Install.lua's board and vendor names
-SOURCE_PRECEDENCE = (('hwid', 'check_img'), ('install',), ('install_lua',), ('uboot',))
+# which beats Install.lua's board and vendor names. A DHI7 header names the one device type it installs on, as
+# exactly as a hwid list; an Android OTA's device is a board name, so it only beats u-boot's
+SOURCE_PRECEDENCE = (('hwid', 'check_img', 'dhi7'), ('install',), ('install_lua',), ('android_ota',), ('uboot',))
 
 
 def mark_counted_sources(sources):

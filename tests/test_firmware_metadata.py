@@ -411,7 +411,7 @@ def test_process_saves_index_and_detail(write_file):
     path = write_file("ipc.bin", ipc_firmware())
     result = firmware_processing.process_firmware_threaded("ipc.bin", path, sha256="ab" * 32)
     firmware_processing.flush_results()
-    assert result["status"] == "ok" and result["extractor_version"] == 5
+    assert result["status"] == "ok" and result["extractor_version"] == firmware_processing.EXTRACTOR_VERSION
     assert result["package_format"] == "dh"
     assert result["hardware_sources"] and result["packages"][0]["partitions"]
 
@@ -435,7 +435,10 @@ def test_process_saves_index_and_detail(write_file):
     ({"status": "ok", "extractor_version": 5}, "dahua", False),
     ({"status": "not_dahua", "extractor_version": 4}, "hikvision", False),
     ({"status": "no_ids", "extractor_version": 4}, "dahua", True),
-    ({"status": "extract_failed", "extractor_version": 5, "attempts": 3}, "dahua", False),
+    ({"status": "extract_failed", "extractor_version": 6, "attempts": 3}, "dahua", False),
+    ({"status": "no_ids", "extractor_version": 5}, "dahua", True),
+    ({"status": "encrypted", "extractor_version": 6}, "dahua", False),
+    ({"status": "mcu", "extractor_version": 5}, "dahua", True),
 ])
 def test_needs_processing(result, platform, expected):
     assert needs_processing(result, platform) is expected

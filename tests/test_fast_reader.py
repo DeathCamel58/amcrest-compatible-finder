@@ -66,7 +66,7 @@ def test_container_without_ids_falls_back_to_binwalk(write_file, monkeypatch):
     calls = []
     monkeypatch.setattr(firmware_processing, "extract_firmware", lambda path: calls.append(path) or {
         "hardware_ids": ["FROM-BINWALK"], "hardware_sources": [], "packages": [], "package_format": "other"})
-    monkeypatch.setattr(firmware_processing, "extract_if_zip", lambda path: ([], None))
+    monkeypatch.setattr(firmware_processing, "extract_if_zip", lambda path: ([], None, None))
     path = write_file("x.bin", to_dh_variant(make_zip_bytes({"romfs.img": b"data"})))
     result = analyze_firmware(path)
     assert (result["hardware_ids"], result["status"]) == (["FROM-BINWALK"], "ok")

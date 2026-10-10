@@ -81,8 +81,8 @@ from util.file_type import classify_file, classify_file_content, classify_file_t
 from util.hardware import split_model_names
 from util.oem_helpers import parse_dahua_version
 from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
-from util.firmware_processing import (firmware_processing_lock, flush_results, mark_not_dahua, needs_processing,
-                                      process_firmware_threaded)
+from util.firmware_processing import (firmware_processing_lock, flush_results, inherit_folder_results, mark_not_dahua,
+                                      needs_processing, process_firmware_threaded)
 from util.wanted import refresh_file as refresh_wanted
 from util.analysis_store import join_result, remove_unreferenced, split_result, write_detail
 from util.json_tools import (CAMERAS_JSON, JsonFileLock, get_cameras_json, save_cameras_json, get_firmware_json,
@@ -967,7 +967,8 @@ def enrich_firmwares():
             path = f'firmware/{firmware_file}'
             # Entries from older data may lack these
             entry['firmware_size'] = os.path.getsize(path)
-            if not entry.get('platform'):
+            # "unknown" is detected again: detection learns new formats
+            if entry.get('platform') in (None, 'unknown'):
                 entry['platform'] = detect_platform(path)
             # Catch downloads that were cut off (or vendors serving cut-off files) before they're analysed or archived
             integrity = check_integrity(path)
@@ -1028,7 +1029,9 @@ def process_firmware(firmware_file, cameras_json=None, firmware_json=None):
     previous = (firmware_json if firmware_json is not None else get_firmware_json()).get(firmware_file)
     if previous and previous.get('status') == 'duplicate':
         previous = None
-    platform = entry.get('platform') or detect_platform(file_path)
+    platform = entry.get('platform')
+    if platform in (None, 'unknown'):
+        platform = detect_platform(file_path)
     integrity = entry.get('integrity') or check_integrity(file_path)
     truncated = integrity.get('status') == 'truncated'
 
@@ -1127,6 +1130,9 @@ def process_all_firmwares():
         list(pool.map(process_one, firmware_files))
     flush_results()
 
+    inherited = inherit_folder_results(get_cameras_json())
+    if inherited:
+        print(f'{inherited} firmwares published unpacked got the hardware IDs of their folder\'s metadata file')
     mirror_duplicate_results()
     removed = remove_unreferenced(get_firmware_json())
     if removed:
@@ -1134,7 +1140,7 @@ def process_all_firmwares():
 
 
 def with_platform(entry, path):
-    if entry.get('platform'):
+    if entry.get('platform') not in (None, 'unknown'):
         return entry
     return {**entry, 'platform': detect_platform(path)}
 
@@ -1208,6 +1214,11 @@ def archive_firmware_thread(firmware_file):
         else:
             stored.pop('archive_pending', None)
         stored.update({**archive_fields, 'platform': entry['platform']})
+        if stored.get('duplicate_of'):
+            # It became a copy of another entry while this upload ran (enrich found the identical file): copies
+            # keep no upload bookkeeping of their own (see link_duplicate_archives)
+            for field in ('archive_md5', 'archive_record_hash'):
+                stored.pop(field, None)
         save_cameras_json(cameras_json)
     print(f'\tArchived {firmware_file}: {cameras_json[firmware_file]["archive_item"]}'
           + (' (still processing at archive.org)' if archive_fields.get('archive_pending') else ''))

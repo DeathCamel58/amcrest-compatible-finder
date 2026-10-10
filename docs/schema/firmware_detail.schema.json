@@ -45,7 +45,7 @@
       "pattern": "^0x[0-9a-f]+$"
     },
     "hardwareSource": {
-      "description": "One place in the firmware that lists hardware it installs on",
+      "description": "One place in the firmware that lists hardware it installs on. dhi7: a DHI7 header's device type. android_ota: an Android OTA package's pre-device (the board's ro.product.device). folder: inherited from the metadata file (check.img, hwid, Install) published in the same folder, for mirrors that publish firmwares unpacked",
       "type": "object",
       "required": [
         "source",
@@ -61,11 +61,14 @@
             "check_img",
             "install",
             "install_lua",
+            "dhi7",
+            "android_ota",
+            "folder",
             "uboot"
           ]
         },
         "member": {
-          "description": "Path of the member inside its container",
+          "description": "Path of the member inside its container. For a folder source: the file name of the metadata file published next to this one",
           "type": "string",
           "minLength": 1
         },
@@ -97,11 +100,11 @@
           }
         },
         "vendor": {
-          "description": "Install's Vendor",
+          "description": "Install's Vendor, or a DHI7 header's vendor",
           "type": "string"
         },
         "counted": {
-          "description": "Whether these IDs are in hardware_ids. Within one folder of one firmware only the most specific list counts: hwid/check_img, then install, then install_lua, then uboot",
+          "description": "Whether these IDs are in hardware_ids. Within one folder of one firmware only the most specific list counts: hwid/check_img/dhi7, then install, then install_lua, then android_ota, then uboot. A folder source always counts (it's only added to firmwares with no IDs of their own)",
           "type": "boolean"
         },
         "raw_same_as": {
@@ -157,7 +160,8 @@
                   "device_tree",
                   "bootloader",
                   "image_name",
-                  "kernel"
+                  "kernel",
+                  "android_device"
                 ]
               },
               "member": {
@@ -276,6 +280,7 @@
             "zip",
             "dh",
             "dhsp",
+            "dhi7",
             "other"
           ]
         },
@@ -492,6 +497,124 @@
           "description": "Only present (empty) when no partition table was found",
           "type": "array",
           "maxItems": 0
+        },
+        "container_header": {
+          "description": "A DHI7 firmware's header (x86 recorders, keyboards and servers): the device type it installs on, its version, variant, vendor and language, and the images it holds, with their offset and size in the file and the path they're installed to",
+          "type": "object",
+          "required": [
+            "format",
+            "version",
+            "variant",
+            "vendor",
+            "device",
+            "language",
+            "images"
+          ],
+          "properties": {
+            "format": {
+              "const": "DHI7"
+            },
+            "version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "variant": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "vendor": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "device": {
+              "type": "string",
+              "minLength": 1
+            },
+            "language": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "images": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "version",
+                  "offset",
+                  "size",
+                  "path"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "version": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "offset": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "size": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "path": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "android_ota": {
+          "description": "An Android OTA package's META-INF/com/android/metadata: the devices it's for (pre-device), the build it installs (post-build) and the OTA type (BLOCK or AB)",
+          "type": "object",
+          "required": [
+            "devices",
+            "post_build",
+            "ota_type"
+          ],
+          "properties": {
+            "devices": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "post_build": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ota_type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
         }
       },
       "additionalProperties": false,
