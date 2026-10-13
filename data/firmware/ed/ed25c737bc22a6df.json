@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "x301"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "x301"
+    ],
+    "ota_type": "BLOCK",
+    "post_build": "Droidlogic/x301/x301:9/PPR1.180610.011/20230822:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "ed25c737bc22a6dff8dcc9b3f403756482bc64d603788dc7bd769812bbe945b7"
+}

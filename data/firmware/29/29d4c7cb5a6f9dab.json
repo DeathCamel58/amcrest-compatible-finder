@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVD0105"
+   ],
+   "member": "General_NVD0105_Eng_V3.200.0000.0.R.171128.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVD0105",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 2732,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6680400,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6683132,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 83695140,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": "V3.200.0000.0.R"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.200.0000.0.R"
+  }
+ ],
+ "sha256": "29d4c7cb5a6f9dab85f8a539d8680c87c6154bc8e28fe0bd7cf6a9ba20693072"
+}

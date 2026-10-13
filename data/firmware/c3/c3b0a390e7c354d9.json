@@ -1,0 +1,69 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DSCON2100_TGL"
+   ],
+   "member": "General_DSCON2100_Eng_SDA_V3.210.0000000.0.R.240918.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "DSCON2100_TGL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "fpga_in",
+      "offset": 9836,
+      "path": "/mnt/mtd/General_DSCON2100_IN_V3.210.0000000.0.R.231106.bin",
+      "size": 4159240,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "fpga_out",
+      "offset": 4169076,
+      "path": "/mnt/mtd/General_DSCON2100_OUT_V3.210.0000000.0.R.231012.bin",
+      "size": 4271048,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "dom",
+      "offset": 8440124,
+      "path": "/dev/sda",
+      "size": 544210944,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "dahua",
+    "version": "V3.210.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.210.0000000.0"
+  }
+ ],
+ "sha256": "c3b0a390e7c354d9de978813bdb44972cd872b3286c001743d85c4710f93598d"
+}

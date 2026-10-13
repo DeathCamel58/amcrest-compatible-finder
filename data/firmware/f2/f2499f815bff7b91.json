@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVD"
+   ],
+   "member": "General_VideoNexus_Chn_NVD2.5U_SDA_V3.200.0000000.5.R.190418.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVD",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "sda",
+      "offset": 9836,
+      "path": "/dev/mmcblk0",
+      "size": 320785920,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "fpga",
+      "offset": 320795756,
+      "path": "/var/cap_a7_mix.bin",
+      "size": 7710916,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Chn",
+    "variant": "Chn",
+    "vendor": "dahua",
+    "version": "V3.201.0000000.4"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.201.0000000.4"
+  }
+ ],
+ "sha256": "f2499f815bff7b9168a2d94370a463dec1ea936f3fb3a57c62673cb5b1c03e7f"
+}

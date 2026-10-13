@@ -1,0 +1,68 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "M80_ALL"
+   ],
+   "member": "General_VideoNexus_M80-8U-5U_ALL_MCU_V4.007.0000001.0.R.260620.bin",
+   "source": "dhi7"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "M80_ALL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "HOST",
+      "offset": 9836,
+      "path": "/mnt/mtd/General_VideoNexus_M80-8U_MCU_V1.000.0000000.0.R.240515.bin",
+      "size": 83332,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "SWITCH",
+      "offset": 93168,
+      "path": "/mnt/mtd/General_VideoNexus_M80-8U_S_MCU_V1.000.0000000.0.R.240515.bin",
+      "size": 111368,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "CODEC",
+      "offset": 204536,
+      "path": "/mnt/mtd/General_VideoNexus_M80-8U_CODEC_MCU_V1.000.0000000.0.R.240515.bin",
+      "size": 83332,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Chn",
+    "variant": "Chn",
+    "vendor": null,
+    "version": "V4.007.0000001.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.007.0000001.0"
+  }
+ ],
+ "sha256": "9fafcbcc9363870ec04eb5c943510cf5af1ec70d91f82eb46e3b8f3825e6330c"
+}

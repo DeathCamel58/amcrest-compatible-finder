@@ -1,0 +1,61 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR6000"
+   ],
+   "member": "168806_CONFIG_General_RusEng_P_General_WebRusEng_General_V3.2.3.5_Dahua_DahuaDDNS_NVR6xx-4K_V3.210.0002.0.R.150717.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVR6000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "bin",
+      "offset": 956,
+      "path": "/mnt/dom_bin/web.res",
+      "size": 6380731,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "bin",
+      "offset": 6381687,
+      "path": "/mnt/dom_bin/custom.res",
+      "size": 82817,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": null
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c2a7f57ead5771fa558dd2140b35f8c6d3d0346c4f94529b0a0a7ca7f43954bc"
+}

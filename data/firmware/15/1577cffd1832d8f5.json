@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.zip",
+   "ids": [
+    "LDM-A(T982)"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "LDM-A(T982)"
+    ],
+    "ota_type": "AB",
+    "post_build": "Droidlogic/LDM-A(T982)/LDM-A(T982):11/RQ3A.210805.001.A1/eng.ys-an1.20251127.091045:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "update.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "1577cffd1832d8f5247a9563fdfcabff58aa5417604cc8a5ee4ad9e984d17408"
+}

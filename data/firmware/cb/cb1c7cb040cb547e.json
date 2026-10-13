@@ -1,5 +1,36 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC352-RF2D",
+    "ITC352-RF2D-IR",
+    "ITC952-RF2D",
+    "ITC952-RF2D-IR"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC352-RF2D",
+     "1.00"
+    ],
+    [
+     "ITC352-RF2D-IR",
+     "1.00"
+    ],
+    [
+     "ITC952-RF2D",
+     "1.00"
+    ],
+    [
+     "ITC952-RF2D-IR",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +43,11 @@
    "flash_size": 2684354560,
    "kernel_version": "3.18.20",
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2019-03-21",

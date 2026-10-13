@@ -1,5 +1,26 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_XL-ICA-1602M2_Eng_P_V1.013.0000.0.R.20111101.bin",
+   "ids": [
+    "IPC-F725",
+    "IPC-F725B"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-F725",
+     "1.20"
+    ],
+    [
+     "IPC-F725B",
+     "1.20"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -13,7 +34,7 @@
    "kernel_version": null,
    "locale": null,
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2011-11-01",
@@ -76,7 +97,7 @@
      "upgraded": true
     }
    ],
-   "partition_layout": "aa389a4dfe1efcf4",
+   "partition_layout": "5a25cbc13f8c1e09",
    "partition_source": "image_headers",
    "security": {
     "encrypted": false,

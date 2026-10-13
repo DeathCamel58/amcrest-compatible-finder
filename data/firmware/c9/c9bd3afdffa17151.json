@@ -1,0 +1,163 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.bin",
+   "ids": [
+    "rk3568_r"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "rk3568_r"
+    ],
+    "ota_type": "BLOCK",
+    "post_build": "rockchip/rk3568_r/rk3568_r:11/RQ2A.210505.003/434:userdebug/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": "U-Boot 2017.09-g1c3a605-dirty",
+   "build_dates": null,
+   "firmware": "update.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "RK3568",
+     "PX30",
+     "RV1126",
+     "RK3036",
+     "RK3399",
+     "RK3566",
+     "RK1808",
+     "RK3308",
+     "RK3128",
+     "RK3328",
+     "RK3368",
+     "RV1108",
+     "RK3066",
+     "RK3188",
+     "RK3228",
+     "RK3288",
+     "RK3126",
+     "RK3366"
+    ],
+    "evidence": [
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3568"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "px30"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rv1126"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3036"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3399"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3566"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk1808"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3308"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3128"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3328"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3368"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rv1108"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3066"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3188"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3228"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3288"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3126"
+     },
+     {
+      "member": "uboot.img",
+      "source": "bootloader",
+      "value": "rk3366"
+     },
+     {
+      "member": "META-INF/com/android/metadata",
+      "source": "android_device",
+      "value": "rk3568"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   }
+  }
+ ],
+ "sha256": "c9bd3afdffa17151de3524fe63a81767d1840cfc56f3fb1f1588ea3191778d5a"
+}

@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "update.zip",
+   "ids": [
+    "t7_an400"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "t7_an400"
+    ],
+    "ota_type": "AB",
+    "post_build": "Amlogic/t7_an400/t7_an400:14/UP1A.231105.001.B2/625:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "update.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "f9021db12e3bde33bbdc5376ccba30c21155be8bd5aa0fc08d854e089044c989"
+}

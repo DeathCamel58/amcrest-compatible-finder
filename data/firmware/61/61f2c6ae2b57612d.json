@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_MPT230(N4)_MultiLang_V1.000.0000004.0.R.260513.zip",
+   "ids": [
+    "MPT230"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "MPT230"
+    ],
+    "ota_type": "AB",
+    "post_build": "TLSJ/MPT230/MPT230:11/RP1A.200720.011/466:userdebug/dev-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DH_MPT230(N4)_MultiLang_V1.000.0000004.0.R.260513.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "61f2c6ae2b57612da75b84ec7e301fad252384050063bd75f86dcaa7e49a313e"
+}

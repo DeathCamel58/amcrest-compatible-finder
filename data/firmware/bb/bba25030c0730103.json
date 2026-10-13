@@ -1,5 +1,74 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC237-PW6M-LZF",
+    "ITC237-PW6M-IRLZF",
+    "ITC215-PW6M-LZF",
+    "ITC215-PW6M-IRLZF",
+    "ITC215-PW6M-RLZF",
+    "ITC215-PW6M-RIRLZF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "V2.625.0000000.0.R.201105",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-LZF",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-IRLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-LZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-IRLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-RLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-RIRLZF",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-LZF",
+     "2.00"
+    ],
+    [
+     "ITC237-PW6M-IRLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-LZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-IRLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-RLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-RIRLZF",
+     "2.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +81,11 @@
    "flash_size": 4294967296,
    "kernel_version": null,
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2020-11-05",
@@ -235,7 +307,8 @@
     ],
     "name": "Hi3519AV100",
     "vendor": "HiSilicon"
-   }
+   },
+   "software_version": "V2.625.0000000.0.R.201105"
   }
  ],
  "sha256": "bba25030c0730103e4747965f563b3ffa263d4396ffd41305826dd8f52b3fbf0"

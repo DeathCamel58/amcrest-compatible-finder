@@ -1,0 +1,103 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DSCON8000_ALL"
+   ],
+   "member": "General_DSCON8000_ALL_Eng_V2.000.0000000.0.R.260911.bin",
+   "source": "dhi7"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "DSCON8000_ALL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "DSCON8U_BACK",
+      "offset": 9836,
+      "path": "/opt/upgrade/CC_X_fpga_DC8000_8U.bin",
+      "size": 53448316,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_DEC",
+      "offset": 53458152,
+      "path": "/opt/upgrade/SC_36_in_dec_fpga_DC8000.bin",
+      "size": 23620184,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_PRE",
+      "offset": 77078336,
+      "path": "/opt/upgrade/SC_echo_fpga_DC8000.bin",
+      "size": 23620184,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_BACK",
+      "offset": 100698520,
+      "path": "/opt/upgrade/CC_fpga_DC8000.bin",
+      "size": 8760920,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_VS20NV",
+      "offset": 109459440,
+      "path": "/opt/upgrade/SC_nv_fpga_DC8000.bin",
+      "size": 5475967,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "VI0401EH",
+      "offset": 114935407,
+      "path": "/opt/upgrade/SC_high_in_fpga_DC8000.bin",
+      "size": 5421954,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "VI0801",
+      "offset": 120357361,
+      "path": "/opt/upgrade/SC_high_in_fpga_DC8000.bin",
+      "size": 5421954,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_VI0201",
+      "offset": 125779315,
+      "path": "/opt/upgrade/SC_2_in_4k_fpga_DC8000.bin",
+      "size": 2001395,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": null,
+    "version": "V2.000.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.000.0000000.0"
+  }
+ ],
+ "sha256": "b41c44c98d2c932be5aacf945a0a310c555f6043f4c3ea822868f163c729eb13"
+}

@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NKB5000"
+   ],
+   "member": "General_NKB5000_All_V3.211.10SA000.1.R.181204.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NKB5000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 956,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6586640,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6587596,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 92184331,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "All",
+    "variant": "All",
+    "vendor": "dahua",
+    "version": "V3.211.10SA000.1"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.211.10SA000.1"
+  }
+ ],
+ "sha256": "dea2686c81aef37a66e0a5fc8718ccb2be0600d3e5a2c8673780e283b5fd3055"
+}

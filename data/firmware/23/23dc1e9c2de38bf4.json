@@ -1,5 +1,40 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTH1510",
+    "VTH1510CH",
+    "VTH1660CH",
+    "VTH5221D"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH1510",
+     "1.10"
+    ],
+    [
+     "VTH1510",
+     "1.20"
+    ],
+    [
+     "VTH1510CH",
+     "1.10"
+    ],
+    [
+     "VTH1660CH",
+     "1.10"
+    ],
+    [
+     "VTH5221D",
+     "1.10"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": null,
@@ -10,7 +45,7 @@
    "kernel_version": null,
    "locale": null,
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": null,

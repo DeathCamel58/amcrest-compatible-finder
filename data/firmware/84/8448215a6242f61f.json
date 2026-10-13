@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DahuaTreeBoard-ClassicH1_MultiLang_V1.001.0000000.0.R.230522.bin",
+   "ids": [
+    "t7_an400"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "t7_an400"
+    ],
+    "ota_type": "AB",
+    "post_build": "Amlogic/t7_an400/t7_an400:11/RQ3A.210805.001.A1/756:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DH_DahuaTreeBoard-ClassicH1_MultiLang_V1.001.0000000.0.R.230522.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "8448215a6242f61f13edc0a65a1681c2da5f30a98776ff566ccdab74990b78f6"
+}

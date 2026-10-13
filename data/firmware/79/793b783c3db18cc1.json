@@ -1,0 +1,79 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_MPT320_ChnEng_V1.015.0000001.6.R_Increment_V1.015.0000001.7.R.240730.zip",
+   "ids": [
+    "msm8953_64"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  },
+  {
+   "counted": true,
+   "firmware": "General_MPT320_ChnEng_V1.015.0000001.7.R_OTA.zip",
+   "ids": [
+    "msm8953_64"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "msm8953_64"
+    ],
+    "ota_type": "BLOCK",
+    "post_build": "DAHUA/msm8953_64/msm8953_64:9/PKQ1.190202.001/V1.015.0000001.7.R:userdebug/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_MPT320_ChnEng_V1.015.0000001.6.R_Increment_V1.015.0000001.7.R.240730.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "android_ota": {
+    "devices": [
+     "msm8953_64"
+    ],
+    "ota_type": "BLOCK",
+    "post_build": "DAHUA/msm8953_64/msm8953_64:9/PKQ1.190202.001/V1.015.0000001.7.R:userdebug/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_MPT320_ChnEng_V1.015.0000001.7.R_OTA.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "793b783c3db18cc1952918acb66439a2b36fe490343ef7f73736f0306d15ec44"
+}

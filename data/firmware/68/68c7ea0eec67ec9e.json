@@ -1,5 +1,21 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ASC2204C-H"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ASC2204C-H",
+     "0.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -13,7 +29,7 @@
    "kernel_version": "3.10.0-SVN",
    "locale": null,
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2017-10-26",
@@ -86,7 +102,7 @@
      "upgraded": true
     }
    ],
-   "partition_layout": "a8279c2a092cef95",
+   "partition_layout": "e87025220dbea613",
    "partition_source": "image_headers",
    "security": {
     "encrypted": false,
@@ -102,14 +118,14 @@
       "value": "Hi3531A"
      },
      {
-      "member": "custom.squashfs.img",
-      "source": "image_name",
-      "value": "3521romfs"
-     },
-     {
       "member": "u-boot_nand.bin.img",
       "source": "image_name",
       "value": "3521boot"
+     },
+     {
+      "member": "romfs-x.squashfs.img",
+      "source": "image_name",
+      "value": "3521romfs"
      }
     ],
     "name": "Hi3531A",

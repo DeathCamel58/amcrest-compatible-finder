@@ -1,5 +1,31 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC237-PW1B-IRZ",
+    "ITC237-PU1B-IR",
+    "ITC237-PU1B-L"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC237-PW1B-IRZ",
+     "1.00"
+    ],
+    [
+     "ITC237-PU1B-IR",
+     "1.00"
+    ],
+    [
+     "ITC237-PU1B-L",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +38,11 @@
    "flash_size": 134217728,
    "kernel_version": null,
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": null,

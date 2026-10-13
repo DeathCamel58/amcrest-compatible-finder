@@ -1,5 +1,16 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "CONFIG_General_CzeEng_ASM_DahuaDDNS_NVR4X-4K_V3.210.0005.0.R.20160603.bin",
+   "ids": [
+    "NVR4K",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -8,7 +19,106 @@
     "earliest": "2016-06-03",
     "latest": "2016-06-03"
    },
-   "firmware": null,
+   "firmware": "CONFIG_General_CzeEng_ASM_DahuaDDNS_NVR4X-4K_V3.210.0005.0.R.20160603.bin",
+   "flash_size": 33554432,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "NVR4K",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2016-06-03",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "NVR4K",
+     "image_size": 106496,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "fef7544d4308eb37",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2016-06-03",
+    "latest": "2016-06-03"
+   },
+   "firmware": "custom-x.cramfs.img",
    "flash_size": null,
    "kernel_version": null,
    "locale": null,
@@ -19,7 +129,7 @@
      "built": "2016-06-03",
      "compression": "gzip",
      "filesystem": "cramfs",
-     "image": "0/custom-x.cramfs.img",
+     "image": "custom-x.cramfs.img",
      "image_name": "NVR4K",
      "image_size": 106496,
      "image_type": "standalone",

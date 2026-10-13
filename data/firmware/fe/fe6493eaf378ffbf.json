@@ -1,0 +1,82 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IL-S1000"
+   ],
+   "member": "General_IL-S1000_Eng_BIOS_V1.000.0000000.1.R.210907.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IL-S1000"
+   ],
+   "member": "General_IL-S1000_Eng_SDA_V1.000.0000000.6.R.210907.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  },
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IL-S1000"
+   ],
+   "member": "General_IL-S1000_Eng_V1.000.0000000.6.R.210907.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "IL-S1000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 9836,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6856272,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6866108,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 57453050,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "dahua",
+    "version": "V1.000.0000000.6"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000000.6"
+  }
+ ],
+ "sha256": "fe6493eaf378ffbfa7b60e75edf473bc15a65b0780a832f37ee182cb701ae8f7"
+}

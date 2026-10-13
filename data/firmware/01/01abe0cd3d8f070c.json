@@ -1,5 +1,96 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "VTO1210A-X",
+    "VTO1220A",
+    "VTO1220B",
+    "VTO6110B",
+    "VTO6000C",
+    "VTO6100C",
+    "VTO1210B-X",
+    "VTNC1000B",
+    "VTO1210C-X",
+    "VTO2000A",
+    "VTO2000A-2",
+    "VTO6210B",
+    "VTT201",
+    "VTO2111D",
+    "VTO12XX",
+    "VTO6XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO1210A-X",
+     "1.00"
+    ],
+    [
+     "VTO1220A",
+     "1.00"
+    ],
+    [
+     "VTO1220B",
+     "1.00"
+    ],
+    [
+     "VTO6110B",
+     "1.00"
+    ],
+    [
+     "VTO6000C",
+     "1.00"
+    ],
+    [
+     "VTO6100C",
+     "1.00"
+    ],
+    [
+     "VTO1210B-X",
+     "1.00"
+    ],
+    [
+     "VTNC1000B",
+     "1.00"
+    ],
+    [
+     "VTO1210C-X",
+     "1.00"
+    ],
+    [
+     "VTO2000A",
+     "1.00"
+    ],
+    [
+     "VTO2000A-2",
+     "1.00"
+    ],
+    [
+     "VTO6210B",
+     "1.00"
+    ],
+    [
+     "VTT201",
+     "1.00"
+    ],
+    [
+     "VTO2111D",
+     "1.00"
+    ],
+    [
+     "VTO12XX",
+     "1.00"
+    ],
+    [
+     "VTO6XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": null,
@@ -10,7 +101,7 @@
    "kernel_version": null,
    "locale": null,
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": null,

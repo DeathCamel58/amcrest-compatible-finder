@@ -1,0 +1,55 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPSpeaker-VCS"
+   ],
+   "member": "General_IPSpeaker-VCS_Eng_V2.000.0000000.0.R.241228.bin",
+   "source": "dhi7",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "IPSpeaker-VCS",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "sonia",
+      "offset": 9836,
+      "path": null,
+      "size": 19326243,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "General",
+    "version": "V2.000.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.000.0000000.0"
+  }
+ ],
+ "sha256": "c4ac60c23ee15656bda97a1fff739e7f9841af0037bd02e3613978bb47a66011"
+}

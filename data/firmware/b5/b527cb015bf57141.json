@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DeepHubBasic_MulChn_V3.010.0000001.0.R.240130.bin",
+   "ids": [
+    "x301"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "x301"
+    ],
+    "ota_type": "BLOCK",
+    "post_build": "Droidlogic/x301/x301:9/PPR1.180610.011/20240130:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DH_DeepHubBasic_MulChn_V3.010.0000001.0.R.240130.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "b527cb015bf57141bacd0f84c1eb5c53ec32be3777b61456545109fe10f6f9c8"
+}

@@ -1,5 +1,74 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC237-PW6M-LZF",
+    "ITC237-PW6M-IRLZF",
+    "ITC215-PW6M-LZF",
+    "ITC215-PW6M-IRLZF",
+    "ITC215-PW6M-RLZF",
+    "ITC215-PW6M-RIRLZF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "V2.625.0000000.0.R.201105",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-LZF",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-IRLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-LZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-IRLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-RLZF",
+     "1.00"
+    ],
+    [
+     "ITC215-PW6M-RIRLZF",
+     "1.00"
+    ],
+    [
+     "ITC237-PW6M-LZF",
+     "2.00"
+    ],
+    [
+     "ITC237-PW6M-IRLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-LZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-IRLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-RLZF",
+     "2.00"
+    ],
+    [
+     "ITC215-PW6M-RIRLZF",
+     "2.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +81,11 @@
    "flash_size": null,
    "kernel_version": null,
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2020-11-05",
@@ -34,7 +106,8 @@
     "signed": true,
     "upgrade_security_version": null
    },
-   "soc": null
+   "soc": null,
+   "software_version": "V2.625.0000000.0.R.201105"
   }
  ],
  "sha256": "e24060ad0cd5d1fc1c12086ca1132aca62c3ec63954cf642611d967847ff4237"

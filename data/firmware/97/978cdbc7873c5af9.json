@@ -1,0 +1,55 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "M60_HYGON"
+   ],
+   "member": "General_VideoNexus_Eng_M60_HYGON_SDA_V3.207.0000000.0.R.240621.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "M60_HYGON",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "dom",
+      "offset": 9836,
+      "path": "/dev/nvme0n1",
+      "size": 544210944,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "dahua",
+    "version": "V3.207.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.207.0000000.0"
+  }
+ ],
+ "sha256": "978cdbc7873c5af95a52ec48b6e39ba53820d3a22c2c15221ffaaa8f97f763c0"
+}

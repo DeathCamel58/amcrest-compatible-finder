@@ -1,0 +1,55 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVD0105"
+   ],
+   "member": "General_VideoNexus_Eng_NVD0105_SDA_V3.203.0000000.5.R.191021.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVD0105",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "dom",
+      "offset": 9836,
+      "path": "/dev/mmcblk0",
+      "size": 320785920,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "dahua",
+    "version": "V3.203.0000000.5"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.203.0000000.5"
+  }
+ ],
+ "sha256": "b94c7975a191285d77e695c6e2fcebb7b7e3722fd5bd922b587f8b64b1433b66"
+}

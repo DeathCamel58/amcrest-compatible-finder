@@ -1,0 +1,97 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVD"
+   ],
+   "member": "General_VideoNexus_Eng_NVD_V3.207.0000000.0.R.240621.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVD",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 9836,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6686128,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6695964,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 103324672,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "kernel",
+      "offset": 110020636,
+      "path": "/mnt/dom_bin/pxe/bzImage_s",
+      "size": 6686128,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "fpga",
+      "offset": 116706764,
+      "path": "/var/cap_a7_mix.bin",
+      "size": 7706928,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "kernel",
+      "offset": 124413692,
+      "path": "/mnt/dom_bin/HI3559A/bzImage",
+      "size": 0,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 124413692,
+      "path": "/mnt/dom_bin/HI3559A/svr_image.gz",
+      "size": 0,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "uboot",
+      "offset": 124413692,
+      "path": "/mnt/dom_bin/HI3559A/uboot",
+      "size": 0,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": "dahua",
+    "version": "V3.207.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.207.0000000.0"
+  }
+ ],
+ "sha256": "97a9442528fd4c68c236f12e4df71158fc076786f4d7481aba8a057f2c681a5f"
+}

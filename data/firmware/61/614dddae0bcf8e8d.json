@@ -1,5 +1,26 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC217-PW1B-IRLZ",
+    "ITC217-PW1B-IRLZ10"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC217-PW1B-IRLZ",
+     "1.20"
+    ],
+    [
+     "ITC217-PW1B-IRLZ10",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +33,11 @@
    "flash_size": 132120576,
    "kernel_version": "3.10.50",
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2018-04-26",

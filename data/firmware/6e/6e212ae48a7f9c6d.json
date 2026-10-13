@@ -1,0 +1,75 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DSCON8000_ALL"
+   ],
+   "member": "General_DSCON8000_ALL_MCU_GSV2712_V2.000.0000000.0.R.260911.bin",
+   "source": "dhi7"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "DSCON8000_ALL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "HMCU",
+      "offset": 9836,
+      "path": "/opt/upgrade/General_VideoNexus_DSCON8000_MCU_V1.000.0000000.0.R.250115.bin",
+      "size": 123012,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DMCU",
+      "offset": 132848,
+      "path": "/opt/upgrade/General_VideoNexus_DSCON8000_DEC_MCU_V1.000.0000000.0.R.250115.bin",
+      "size": 83844,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "DSCON_VI0201",
+      "offset": 216692,
+      "path": "/opt/upgrade/DSCON_2712.bin",
+      "size": 169533,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "VI0401EH",
+      "offset": 386225,
+      "path": "/opt/upgrade/DSCON_2712.bin",
+      "size": 169533,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Chn",
+    "variant": "Chn",
+    "vendor": null,
+    "version": "V2.000.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.000.0000000.0"
+  }
+ ],
+ "sha256": "6e212ae48a7f9c6da6be7542c257f5a29e09cda1481693e6872d861cd6d5e4f9"
+}

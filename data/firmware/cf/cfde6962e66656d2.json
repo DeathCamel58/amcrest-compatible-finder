@@ -1,0 +1,135 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HFW2443M-A-IL4",
+    "IPC-HFW2443M-AS-IL4",
+    "IPC-HDW2443T-A-IL2",
+    "IPC-HDBW2249R-ZAS-IL-S2",
+    "IPC-HDBW2449R-ZAS-IL-S2",
+    "IPC-HFW2449MP-AS-LED-S2",
+    "IPC-HFW3249M3-A-L-Lite",
+    "IPC-HFW3449M3-A-L-Lite",
+    "IPC-HDW3249TLQ-A-L-Lite",
+    "IPC-HDW3449TLQ-A-L-Lite",
+    "IPC-HFW2643M-A-IL4",
+    "IPC-HFW2643M-AS-IL4",
+    "IPC-HDW2643T-A-IL2",
+    "IPC-HFW2843M-A-IL4",
+    "IPC-HFW2843M-AS-IL4",
+    "IPC-HDW2843T-A-IL2",
+    "IPC-HDBW2649R-ZAS-IL-S2",
+    "IPC-HDBW2849R-ZAS-IL-S2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW2443M-A-IL4:01:02:00:10B:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2443M-AS-IL4:01:02:00:10B:82:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:80",
+    "IPC-HDW2443T-A-IL2:01:02:00:10B:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HDBW2249R-ZAS-IL-S2:01:02:00:116:82:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:80",
+    "IPC-HDBW2449R-ZAS-IL-S2:01:02:00:10C:82:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:80",
+    "IPC-HFW2449MP-AS-LED-S2:01:02:00:10B:82:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:80",
+    "IPC-HFW3249M3-A-L-Lite:01:02:00:116:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW3449M3-A-L-Lite:01:02:00:10B:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW3249TLQ-A-L-Lite:01:02:00:116:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HDW3449TLQ-A-L-Lite:01:02:00:10B:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-HFW2643M-A-IL4:01:02:00:12A:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2643M-AS-IL4:01:02:00:12A:82:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100",
+    "IPC-HDW2643T-A-IL2:01:02:00:12A:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2843M-A-IL4:01:02:00:113:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HFW2843M-AS-IL4:01:02:00:113:82:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100",
+    "IPC-HDW2843T-A-IL2:01:02:00:113:82:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
+    "IPC-HDBW2649R-ZAS-IL-S2:01:02:00:12A:82:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:100",
+    "IPC-HDBW2849R-ZAS-IL-S2:01:02:00:11F:82:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:100"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-21",
+    "latest": "2026-09-21"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian",
+     "Arabic",
+     "Czechish",
+     "Dutch",
+     "French",
+     "German",
+     "Italian",
+     "Korean",
+     "Poland",
+     "Portugal",
+     "SpanishEU",
+     "Romanian",
+     "Hungarian",
+     "Turkey",
+     "Hebrew",
+     "Thai",
+     "Indonesian",
+     "Vietnamese",
+     "Ukrainian",
+     "TradChinese",
+     "Japanese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-21",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3600752,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "603e546c4ff3c49f",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V4.0"
+    },
+    "encrypted": false,
+    "security_baseline": "V4.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "cfde6962e66656d23767aa59acd702d5b50747e9dc5cb1a4d2d2dcaa2438ba3a"
+}

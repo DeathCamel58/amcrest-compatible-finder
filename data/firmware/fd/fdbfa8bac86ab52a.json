@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DahuaDeepHubLiteBasicS2_ChnEng_V3.010.0000001.0.R.240129.bin",
+   "ids": [
+    "t982_ar301"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "t982_ar301"
+    ],
+    "ota_type": "AB",
+    "post_build": "Droidlogic/t982_ar301/t982_ar301:11/RQ3A.210805.001.A1/106:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DH_DahuaDeepHubLiteBasicS2_ChnEng_V3.010.0000001.0.R.240129.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "fdbfa8bac86ab52a527b5fbefc305bbe6b2c2cb2810db3b6b214217a55fa83d0"
+}

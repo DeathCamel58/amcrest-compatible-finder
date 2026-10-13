@@ -1,0 +1,76 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "EVS5000"
+   ],
+   "member": "482947_DH_EVS5000_Eng_V3.230.0000.8.R.170307.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "EVS5000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "bootloader",
+      "offset": 1548,
+      "path": "/dev/mtdblock0/bootloader/bootloader",
+      "size": 106088,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "firmware",
+      "offset": 107636,
+      "path": "/dev/mtdblock0/firmware/firmware",
+      "size": 731848,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "kernel",
+      "offset": 839484,
+      "path": "/dev/mtdblock0/linux-dev/vmlinuz",
+      "size": 5266516,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6106000,
+      "path": "/mnt/dom_bin/evs_image.tar.gz",
+      "size": 56968819,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": "V3.230.0000.8.R"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.230.0000.8.R"
+  }
+ ],
+ "sha256": "ed784b9f11ea90b197f2d6d39b1aa298396749d117fdc4575655b5d3815f7083"
+}

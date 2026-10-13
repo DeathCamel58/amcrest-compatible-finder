@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_DeepHubBasicS2_MultiLang_V3.011.0000000.3.R.250730.bin",
+   "ids": [
+    "t982_ar301"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "t982_ar301"
+    ],
+    "ota_type": "AB",
+    "post_build": "Amlogic/t982_ar301/t982_ar301:14/UP1A.231105.001.B2/748:userdebug/test-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DH_DeepHubBasicS2_MultiLang_V3.011.0000000.3.R.250730.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "017d6c91745cdbe71b6dca52c7db400fedffbfe47f2b546b95e5315843ee2c75"
+}

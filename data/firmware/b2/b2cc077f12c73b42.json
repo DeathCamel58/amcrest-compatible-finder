@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "N70_ALL"
+   ],
+   "member": "General_VideoNexus_N70_ALL_Eng_SDA_V4.004.0000000.0.R.260323.bin",
+   "source": "dhi7",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "N70_ALL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "HOST",
+      "offset": 9836,
+      "path": "/opt/upgrade/General_VideoNexus_N70_MAIN_Eng_SDA_V4.004.0000000.0.R.260323.bin",
+      "size": 483788676,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "CODEC",
+      "offset": 483798512,
+      "path": "/opt/upgrade/General_VideoNexus_N70_CODEC_Eng_SDA_V4.004.0000000.0.R.260323.bin",
+      "size": 483788676,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": ".R",
+    "vendor": "General",
+    "version": "V4.004.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.004.0000000.0"
+  }
+ ],
+ "sha256": "b2cc077f12c73b42bd64d114db192b3b9b83ec88d485d152e754bf1e139b9c74"
+}

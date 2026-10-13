@@ -1,0 +1,75 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "M80_ALL"
+   ],
+   "member": "General_VideoNexus_M80-8U_ALL_Eng_SDA_V1.000.0000000.0.R.250422.bin",
+   "source": "dhi7"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "M80_ALL",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "HOST",
+      "offset": 9836,
+      "path": "/opt/upgrade/General_VideoNexus_M80_Eng_SDA_V1.000.0000000.0.R.240325.bin",
+      "size": 453904260,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "SWITCH",
+      "offset": 453914096,
+      "path": "/opt/upgrade/General_VideoNexus_Switch_SDA_Chn_V1.000.0000000.0.R.240329.bin",
+      "size": 49557386,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "CODEC",
+      "offset": 503471482,
+      "path": "/opt/upgrade/General_VideoNexus_Eng_TGL_SDA_V1.000.0000000.0.R.240315.bin",
+      "size": 561670604,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "TOUCH",
+      "offset": 1065142086,
+      "path": "/opt/upgrade/TouchScreen.apk",
+      "size": 81235120,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": "Eng",
+    "vendor": null,
+    "version": "V1.000.0000000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V1.000.0000000.0"
+  }
+ ],
+ "sha256": "28687f8db77817771e5966d30ce241808e9ac55ee2311f6fbc332b2c3efeea0e"
+}

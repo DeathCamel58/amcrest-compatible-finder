@@ -1,0 +1,43 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DHI_DeepHubClassicSeriesS3_MultiLang_V3.012.0000000.1.R.260722.bin",
+   "ids": [
+    "Smart-Interactive-Whiteboard"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "Smart-Interactive-Whiteboard"
+    ],
+    "ota_type": "AB",
+    "post_build": "DeepHub/S3_470/Smart-Interactive-Whiteboard:16/BP2A.250605.031.A3/20260722:user/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DHI_DeepHubClassicSeriesS3_MultiLang_V3.012.0000000.1.R.260722.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c6dcf5aceaabcea5546decf29e50dbd2be6fac3de9303eef6cbda7f539e0d55a"
+}

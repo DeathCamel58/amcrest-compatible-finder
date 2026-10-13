@@ -1,5 +1,51 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC114-PH1B",
+    "ITC314-PH1B",
+    "ITC114-PH1C",
+    "ITC314-PH1C",
+    "ITC214-PH2A",
+    "ITC314-PH2A",
+    "ITC314-PH2A-TF2"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC114-PH1B",
+     "1.00"
+    ],
+    [
+     "ITC314-PH1B",
+     "1.00"
+    ],
+    [
+     "ITC114-PH1C",
+     "1.00"
+    ],
+    [
+     "ITC314-PH1C",
+     "1.00"
+    ],
+    [
+     "ITC214-PH2A",
+     "1.00"
+    ],
+    [
+     "ITC314-PH2A",
+     "1.00"
+    ],
+    [
+     "ITC314-PH2A-TF2",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +58,11 @@
    "flash_size": 132120576,
    "kernel_version": "3.10.50",
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2018-04-18",

@@ -176,6 +176,7 @@
      "RK3399",
      "RV1126",
      "RK3036",
+     "PX30",
      "RK1808",
      "RK3308",
      "RK3128",
@@ -214,6 +215,11 @@
       "member": "u-boot.bin.img",
       "source": "bootloader",
       "value": "rk3036"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "px30"
      },
      {
       "member": "u-boot.bin.img",

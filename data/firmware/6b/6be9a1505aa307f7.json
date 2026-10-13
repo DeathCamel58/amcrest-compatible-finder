@@ -1,0 +1,83 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "DSS7016"
+   ],
+   "member": "General_OverseasDSS7016S2_Eng_Basic_V1.001.0000000.0.T.20190416.bin",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "DSS7016",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 1844,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 8133696,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 8135540,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 93006252,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "bin",
+      "offset": 101141792,
+      "path": "/mnt/dom_bin/ospatch_image",
+      "size": 46342144,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "bin",
+      "offset": 147483936,
+      "path": "/mnt/dom_bin/osservice_image",
+      "size": 331811840,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "bin",
+      "offset": 479295776,
+      "path": "/mnt/dom_bin/dss_image",
+      "size": 1150020608,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": "V3.00.008.R"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.00.008.R"
+  }
+ ],
+ "sha256": "6be9a1505aa307f7bc6a25aae43464659c1aa6c42119a8d0f4ff6baa179fd156"
+}

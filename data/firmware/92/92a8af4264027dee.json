@@ -1,5 +1,41 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "ITC215-PW4I-XXX",
+    "ITC215-PW4I-LZF27135",
+    "ITC215-PW4I-RLZ27135",
+    "ITC215-PW4I-RIRLZ27135",
+    "ITC215-PW4I-IRLZF27135"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "ITC215-PW4I-XXX",
+     "1.00"
+    ],
+    [
+     "ITC215-PW4I-LZF27135",
+     "1.00"
+    ],
+    [
+     "ITC215-PW4I-RLZ27135",
+     "1.00"
+    ],
+    [
+     "ITC215-PW4I-RIRLZ27135",
+     "1.00"
+    ],
+    [
+     "ITC215-PW4I-IRLZF27135",
+     "1.00"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": "arm",
@@ -12,8 +48,11 @@
    "flash_size": 1119879168,
    "kernel_version": null,
    "locale": null,
+   "market_area": [
+    "Oversea"
+   ],
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": "2019-08-20",

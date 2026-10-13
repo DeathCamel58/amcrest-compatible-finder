@@ -1,5 +1,55 @@
 {
- "hardware_sources": [],
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Config_General_VTH52X1D_EngBulCzeFinHgrPolSloSvn_P_32M_V1.000.00.0.R_20170505.data.bin",
+   "ids": [
+    "VTH1510",
+    "VTH1510CH",
+    "VTH1660CH",
+    "VTH5221D",
+    "VTH5241D",
+    "VTH52X1D",
+    "VTH151X"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTH1510",
+     "1.10"
+    ],
+    [
+     "VTH1510",
+     "1.20"
+    ],
+    [
+     "VTH1510CH",
+     "1.10"
+    ],
+    [
+     "VTH1660CH",
+     "1.10"
+    ],
+    [
+     "VTH5221D",
+     "1.10"
+    ],
+    [
+     "VTH5241D",
+     "1.10"
+    ],
+    [
+     "VTH52X1D",
+     "1.10"
+    ],
+    [
+     "VTH151X",
+     "1.10"
+    ]
+   ],
+   "source": "install"
+  }
+ ],
  "packages": [
   {
    "architecture": null,
@@ -10,7 +60,7 @@
    "kernel_version": null,
    "locale": null,
    "oem_vendor": null,
-   "package_format": "other",
+   "package_format": "dh",
    "partition_images": [
     {
      "built": null,
