@@ -136,6 +136,54 @@ def test_amcrest_clean_download_link(href, expected):
     assert clean_download_link(href) == expected
 
 
+# brands/Amcrest.py: the Shopify firmware page (October 2026), whose table classes end in random block IDs
+
+AMCREST_SHOPIFY_PAGE = """
+<table class="ai-table-abc123"><thead><tr><th>Products</th><th>Update Version/Build No.</th><th>Size</th>
+<th>Attention</th><th>Change Log</th><th>Previous Firmware Version</th><th>Latest Firmware Version</th></tr></thead>
+<tbody>
+<tr><td><div><img src="x.jpg"/><span class="ai-prod-sku-abc123">IP2M-866W</span></div></td>
+<td>V2.623.00AC005.R<br/><span>8/13/21</span></td><td>28.6 MB</td><td>For IP2M-866W only</td>
+<td><a href="https://amcrest-firmwares.s3.amazonaws.com/Curent+firmware/IP2M-866W/log.txt">c</a></td><td>N/A</td>
+<td><a href="https://amcrest-firmwares.s3.amazonaws.com/Curent+firmware/IP2M-866W/Amcrest_SD.bin">l</a></td></tr>
+<tr><td><div><img src="Liquid%20error"/><span></span></div></td><td>V4.000.AC000</td><td>45.2MB</td>
+<td>Only for NV5208E</td><td><a href="No%20Change%20Log%20Available">c</a></td><td>-</td>
+<td><a href="https://amcrest-firmwares.s3.amazonaws.com/Curent+firmware/NV5000+Series/Customer_NVR.bin">l</a></td></tr>
+<tr><td><span></span></td><td>V1</td><td>1 MB</td><td>Only for current model</td><td>-</td><td>-</td>
+<td><a href="https://amcrest-firmwares.s3.amazonaws.com/Organized/NV4416E-AI/V1/fw.bin">l</a></td></tr>
+</tbody></table>
+<table><tr><th>Something else</th></tr><tr><td>not firmware</td></tr></table>
+"""
+
+
+def test_amcrest_shopify_page():
+    from brands.Amcrest import find_firmware_tables, parse_firmwares
+    tables = find_firmware_tables(AMCREST_SHOPIFY_PAGE)
+    assert len(tables) == 1
+    rows = parse_firmwares(tables[0])
+    assert [row["camera_name"] for row in rows] == ["IP2M-866W", "NV5208E", "NV4416E-AI"]
+    assert rows[0]["firmware_version"] == "V2.623.00AC005.R"
+    assert rows[0]["release_date"] == "2021-08-13"
+    assert rows[0]["firmware_changelog"].endswith("/log.txt")
+    assert rows[0]["firmware_previous"] is None
+    assert rows[1]["firmware_changelog"] is None
+    assert rows[1]["firmware_latest"].endswith("/Customer_NVR.bin")
+
+
+@pytest.mark.parametrize("notes, links, expected", [
+    ("Only for NV5232", [], "NV5232"),
+    ("For IP2M-866W only", [], "IP2M-866W"),
+    ("Only for current model", ["https://b.s3.amazonaws.com/Firmware/NV5216E-8P/fw.bin"], "NV5216E-8P"),
+    ("", ["https://b.s3.amazonaws.com/Organized/NV4XXX-EI+Series/V1/fw.bin"], "NV4XXX-EI Series"),
+    ("", ["https://b.s3.amazonaws.com/Organized/V1/fw.bin"], None),
+    ("", ["https://b.s3.amazonaws.com/fw.bin"], None),
+    ("", [None, "https://b.s3.amazonaws.com/Curent+firmware/NV5000+Series/fw.bin"], "NV5000 Series"),
+])
+def test_amcrest_fallback_camera_name(notes, links, expected):
+    from brands.Amcrest import fallback_camera_name
+    assert fallback_camera_name(notes, *links) == expected
+
+
 # util/http.py: minimum-rate guard for streamed downloads
 
 class FakeResponse:
