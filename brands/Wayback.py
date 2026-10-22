@@ -61,6 +61,8 @@ SOURCES = [
         "drop": r"logo_?change",
         "name_prefix": "DHVision",
     }),
+    # CCTV App (Vietnam, the KBVision distributor's download host), gone since October 2026
+    ("files.cctvapp.net/Firmware/", "CCTV App", True),
     # Intelbras' file host also serves routers, ONTs and phones, so only keep CCTV files
     ("backend.intelbras.com/sites/default/files/", "Intelbras", False, {
         # CCTV product lines: VIP cameras, MHDX/iMHDX/VHD analog, NVD recorders, XVR/DVR/IPC, SS face/access readers

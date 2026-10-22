@@ -88,7 +88,7 @@ def link_info(link):
     return " ".join(text.split()) or None
 
 
-def crawl_index(start_url, max_depth=8, is_directory=None, headers=None, skip_directories=(), delay=0,
+def crawl_index(start_url, max_depth=16, is_directory=None, headers=None, skip_directories=(), delay=0,
                 max_failures=None, timeout=None, cache_file=None, cache_days=14, save_every=20, offline=False):
     """Recursively crawl a web server directory index (Apache, IIS, ...).
     Returns a list of (file_url, directory_url) for every file found below start_url.

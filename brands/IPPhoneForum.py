@@ -1,5 +1,5 @@
 from util import http, mediafire
-from util.mirror import is_firmware_file
+from util.mirror import is_firmware_upload
 from util.oem_helpers import make_firmware
 
 name = "ip-phone-forum.de (Dahua VTO/VTH firmware collection)"
@@ -14,7 +14,7 @@ def parse_thread(html):
     """MediaFire file links in the thread that look like Dahua firmware: [(file name, page url)]."""
     found = []
     for key, file_name, page_url in mediafire.file_links(html):
-        if file_name and is_firmware_file(file_name, page_url):
+        if file_name and is_firmware_upload(file_name, page_url):
             found.append((file_name, page_url))
     return found
 

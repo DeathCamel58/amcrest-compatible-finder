@@ -57,9 +57,14 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [X] Cifra (ftp.cifra.cv.ua) - Ukrainian distributor's file server (a copy of Viatec's tree)
  - [X] Dahua France (france.dahuatech.com) - Dahua France's document centre: about 300 firmwares from 2015-2021 with MD5s and release notes
  - [X] Dahua India builds (indiafix.in) - Google Drive links to IndiaDahua_ recorder builds
- - [ ] drivers.softpedia.com - **NOTE:** Mirrors many Dahua recorder firmwares, but returns 403 to scripts
+ - [X] drivers.softpedia.com - 2013-2016 Dahua recorders and Amcrest/Lorex builds. Behind Cloudflare with expiring
+   links, so each download gets a fresh link through a stealth browser (its RaySharp Amcrest DVRs, Hikvision Lorex
+   LNRs and non-Dahua action cameras are left out)
  - [X] Eltrox (ftp.eltrox.pl) - Polish distributor's file server, including the Kenik, EasyCam, Notis, Zeus, Irbis and
    Konig rebrands. Crawled slowly and cached, since it rate limits
+ - [X] Dahua's old download center (material.dahuasecurity.com) - 2016-2018 download files, still served under their
+   old paths. There's no listing, so the files were found from Wayback copies of the old download pages and release
+   notes (brands/data/dahua_old_download_files.json)
  - [X] files.dahua.support - Dahua Poland's file server (firmware and solutions)
  - [X] files.dahuatech.support - Dahua support file server
  - [ ] ftp.tdtorus.ru - **NOTE:** Gone
@@ -71,10 +76,16 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [ ] pliki.dahuawiki.pl - **NOTE:** Same tree as files.dahua.support
  - [ ] previous.dahuasecurity.com - **NOTE:** Same catalog as the current Dahua download center, so nothing new
  - [X] Santronic (service.santronic.ch) - Swiss distributor's firmware page
+ - [X] Sapsan (sapsan.org) - Russian/Ukrainian installer's firmware pages: 2014-2018 IPC, NVR, HCVR/XVR and intercom
+   builds, many with Russian language packs
  - [X] SecPoint (secpoint.it) - Italian distributor's open index (Dahua recorders, a Videotrend build, and Italian
    SIP/multipush intercom builds). Cloudflare only lets it through from EU addresses
  - [ ] share.dahuasecurity.com - **NOTE:** Gone
  - [ ] share.dahuaservice.it (Dahua Italy) - **NOTE:** Returns HTTP 500 (checked 2026-10-05); forum posts link intercom firmware there
+ - [X] Shared links - firmware people shared on forums (mostly ipcamtalk) through Yandex Disk, Google Drive,
+   OneDrive, MEGA, Dropbox and support tickets (ipcamtalk, dahuacctv.com, khangvinhpg.vn, Kabe Group), and single
+   files on small distributor sites (Invision, JJ Digital, Hybrone, Vidimost links posted on forums), found by hand
+   and listed in brands/data/shared_links.json
  - [ ] smartsd.com - **NOTE:** Gone
  - [X] SNR (snr.systems) - Russian distributor's file server: Dahua recorders, cameras and intercoms from 2015-2018
  - [ ] support.dahuafrance.fr - **NOTE:** Gone (france.dahuatech.com is covered)
@@ -141,7 +152,8 @@ python main.py download --only EmpireTech   # one source (--skip leaves sources 
  - [ ] RedSpeed - **NOTE:** Not a camera vendor (photo enforcement)
  - [X] Rhino Co - old 2013-2016 builds, plus their file library (`/file/display/{id}`)
  - [ ] Rhodium - **NOTE:** No site found; distributor only offers CMS software
- - [X] RVI - Dahua entries only, from the firmware page and the download ID library
+ - [X] RVI - Dahua entries only, from the firmware page and the download ID library, plus the old file server
+   (ftp.rvi-cctv.ru/TFTP/, 2012-2018 upgrade files per model)
  - [ ] SavvyTech - **NOTE:** No site found
  - [ ] Saxco - **NOTE:** Not a CCTV brand
  - [ ] Security Camera King - **NOTE:** Downloads are software only; firmware via support tickets

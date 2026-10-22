@@ -38,6 +38,7 @@ from brands import ASM
 from brands import DahuaTechSupport
 from brands import RhinoFiles
 from brands import RVI_Files
+from brands import RVI_FTP
 from brands import ICRealtime
 from brands import SecurityTronix
 from brands import Bosch_DIVAR
@@ -64,9 +65,13 @@ from brands import BitsEcuador
 from brands import Santronic
 from brands import Winco
 from brands import IPCamTalkDropbox
+from brands import SharedLinks
+from brands import Sapsan
+from brands import Softpedia
 from brands import TVCMexico
 from brands import SecPoint
 from brands import DahuaOldBuilds
+from brands import DahuaOldDownloads
 from brands import Wayback
 from util.scheduler import HostScheduler
 from util.archive import archive_firmware, needs_refresh, refresh_archive
@@ -80,7 +85,7 @@ from util.general import merge_unique_text, normalize_firmware_url
 from util.file_type import classify_file, classify_file_content, classify_file_type
 from util.hardware import split_model_names
 from util.oem_helpers import parse_dahua_version
-from util.file_identity import assign_duplicates, get_file_hashes, needs_hashing
+from util.file_identity import assign_duplicates, assign_truncated_copies, get_file_hashes, needs_hashing
 from util.firmware_processing import (firmware_processing_lock, flush_results, inherit_folder_results, mark_not_dahua,
                                       needs_processing, process_firmware_threaded)
 from util.wanted import refresh_file as refresh_wanted
@@ -113,6 +118,7 @@ oem_modules = [
     DahuaTechSupport,
     RhinoFiles,
     RVI_Files,
+    RVI_FTP,
     ICRealtime,
     SecurityTronix,
     Bosch_DIVAR,
@@ -139,9 +145,13 @@ oem_modules = [
     Santronic,
     Winco,
     IPCamTalkDropbox,
+    SharedLinks,
+    Sapsan,
+    Softpedia,
     TVCMexico,
     SecPoint,
     DahuaOldBuilds,
+    DahuaOldDownloads,
     # Last, so it only recovers what no live source still has
     Wayback,
 ]
@@ -985,13 +995,16 @@ def enrich_firmwares():
                     entry.pop('vendor_md5_mismatch', None)
             truncated += integrity['status'] == 'truncated'
 
+        # After the integrity checks, so files downloaded this run are included
+        truncated_copies = assign_truncated_copies(cameras_json, firmware_files, lambda name: f'firmware/{name}')
+
         # Apply the current clean-up rules to every entry, including ones stored by older versions
         for firmware_file, entry in cameras_json.items():
             tidy_entry(firmware_file, entry, inspect_content=True)
 
         save_cameras_json(cameras_json)
     print(f'Found {duplicates} firmwares that are identical to another file')
-    print(f'Found {truncated} truncated firmwares')
+    print(f'Found {truncated} truncated firmwares ({truncated_copies} of them cut-off copies of a complete file)')
     # Firmware we know exists but haven't got (wanted.json): mark what's been downloaded since
     wanted = refresh_wanted(get_cameras_json())
     if wanted:

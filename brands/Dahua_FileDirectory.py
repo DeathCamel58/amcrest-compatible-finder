@@ -1,9 +1,6 @@
-from urllib.parse import unquote, urljoin
+from urllib.parse import unquote
 
-from bs4 import BeautifulSoup
-
-from util import http
-from util.oem_helpers import FIRMWARE_EXTENSIONS
+from util.oem_helpers import FIRMWARE_EXTENSIONS, crawl_index
 
 name = "DahuaFileDirectory"
 vendor = "Dahua"
@@ -11,25 +8,21 @@ vendor = "Dahua"
 firmware_site = "https://dahuawiki.com/images/Files/Firmware/"
 
 
-def get_links():
-    # Download and parse the Dahua firmware directory listing
-    # NOTE: This does not search other directories
-    page = http.get(firmware_site)
-    soup = BeautifulSoup(page.content, "html.parser")
+# Subfolders that hold no firmware
+SKIP_DIRECTORIES = ("Release Notes",)
 
-    return soup.find_all("a", href=True)
+
+def get_links():
+    """URLs of every file in the directory listing and its subfolders (General_Temp, Custom Firmware, ...)"""
+    return [file_url for file_url, _ in crawl_index(firmware_site, skip_directories=SKIP_DIRECTORIES, delay=1,
+                                                 max_failures=5, cache_file="tmp/dahuawiki_index.json")]
 
 
 def parse_firmwares(links):
     firmwares = []
 
-    for link in links:
-        href = link["href"]
-        # Skip sort links, parent/sub directories and anything outside this directory
-        if href.startswith(("?", "/")) or href.endswith("/"):
-            continue
-
-        file_name = unquote(href.split("/")[-1])
+    for url in links:
+        file_name = unquote(url.split("/")[-1])
         # Dahua uses .bin, .BIN, .zip and .img; this is Dahua's own file server, so every firmware here counts
         if not file_name.lower().endswith(FIRMWARE_EXTENSIONS):
             continue
@@ -41,7 +34,7 @@ def parse_firmwares(links):
             "firmware_notes": None,
             "firmware_changelog": None,
             "firmware_previous": None,
-            "firmware_latest": urljoin(firmware_site, href),
+            "firmware_latest": url,
             # The URL is percent-encoded (spaces, brackets), so give the real file name explicitly
             "firmware_latest_file_name": file_name,
         }

@@ -1,3 +1,5 @@
+import os
+
 import pytest
 
 from util.file_identity import COPY_MARKERS, assign_duplicates, get_file_hashes, needs_hashing
@@ -68,3 +70,23 @@ def test_get_file_hashes_and_needs_hashing(tmp_path):
     assert hashes["size"] == 3
     assert not needs_hashing({"file_hashes": hashes}, str(path))
     assert needs_hashing({}, str(path))
+
+
+def test_truncated_copy_becomes_duplicate_of_complete_file(tmp_path):
+    from util.file_identity import HEAD_BYTES, assign_truncated_copies
+    complete = os.urandom(HEAD_BYTES * 3)
+    files = {"full.bin": complete, "cut.bin": complete[:HEAD_BYTES * 2], "other_cut.bin": os.urandom(HEAD_BYTES * 2)}
+    cameras = {}
+    for name, data in files.items():
+        (tmp_path / name).write_bytes(data)
+        cameras[name] = {"file_hashes": {"size": len(data)}}
+    cameras["cut.bin"]["integrity"] = {"status": "truncated"}
+    cameras["other_cut.bin"]["integrity"] = {"status": "truncated"}
+
+    marked = assign_truncated_copies(cameras, list(files), lambda name: str(tmp_path / name))
+
+    assert marked == 1
+    assert cameras["cut.bin"]["duplicate_of"] == "full.bin" and cameras["cut.bin"]["truncated_copy"]
+    assert cameras["full.bin"]["aliases"] == ["cut.bin"]
+    assert "duplicate_of" not in cameras["other_cut.bin"]
+    assert "head_md5" in cameras["full.bin"]["file_hashes"]

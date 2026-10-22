@@ -3,7 +3,8 @@ from urllib.parse import unquote
 
 from util.file_type import classify_file_type
 from util.hardware import FIRMWARE_LIKE
-from util.oem_helpers import DAHUA_VERSION, crawl_index, is_dahua_firmware_name, make_firmware
+from util.oem_helpers import (DAHUA_VERSION, FIRMWARE_EXTENSIONS, NOT_FIRMWARE, crawl_index, is_dahua_firmware_name,
+                              make_firmware)
 
 # Folder names that organise files rather than name a model (languages, old/new builds, years, ...)
 GENERIC_FOLDER = re.compile(
@@ -50,6 +51,13 @@ def get_models_from_path(relative_directory, category_folders=(), generic_folder
 def is_firmware_file(file_name, url=None):
     """A Dahua style firmware name that isn't software or a document."""
     return is_dahua_firmware_name(file_name) and classify_file_type(file_name, url) == "firmware"
+
+
+def is_firmware_upload(file_name, url=None):
+    """A firmware file in a place that only holds Dahua firmware (a firmware thread, a distributor's firmware folder),
+    so its name needn't look like Dahua's: intercom builds like "VTO2000A(-C)_MultiLang_20190221.zip" have no version"""
+    return (file_name.lower().endswith(FIRMWARE_EXTENSIONS) and not NOT_FIRMWARE.search(file_name)
+            and classify_file_type(file_name, url) == "firmware")
 
 
 def get_mirror_firmwares(start_url, headers=None, skip_directories=(), category_folders=(), generic_folder=None,

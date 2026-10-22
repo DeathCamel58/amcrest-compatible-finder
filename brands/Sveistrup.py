@@ -6,7 +6,7 @@ from urllib.parse import unquote, urljoin
 from bs4 import BeautifulSoup
 
 from util import http
-from util.mirror import is_firmware_file
+from util.mirror import is_firmware_upload
 from util.oem_helpers import make_firmware
 
 name = "Sveistrup (sveistrup.dk)"
@@ -54,7 +54,7 @@ def get_firmwares():
             continue
         for url, model, release_date in parse_page(page.text, page_url):
             file_name = unquote(url.rsplit("/", 1)[-1])
-            if url in firmwares or not is_firmware_file(file_name, url):
+            if url in firmwares or not is_firmware_upload(file_name, url):
                 continue
             firmwares[url] = make_firmware([model] if model else [], url, release_date=release_date)
         time.sleep(1)

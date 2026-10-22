@@ -69,3 +69,65 @@ def assign_duplicates(cameras_json, file_names, analysed_names=()):
         duplicates += len(others)
 
     return duplicates
+
+
+# How much of a file's start is hashed to find the complete copy of a truncated file
+HEAD_BYTES = 64 * 1024
+
+
+def head_md5(path):
+    with open(path, "rb") as f:
+        return hashlib.md5(f.read(HEAD_BYTES)).hexdigest()
+
+
+def is_prefix(short_path, long_path, chunk_size=4 * 1024 * 1024):
+    """Whether the file at short_path is the start of the one at long_path."""
+    with open(short_path, "rb") as short, open(long_path, "rb") as long:
+        for chunk in iter(lambda: short.read(chunk_size), b""):
+            if long.read(len(chunk)) != chunk:
+                return False
+    return True
+
+
+def assign_truncated_copies(cameras_json, file_names, path_for):
+    """Make each truncated file that is the start of a complete file (the same download cut off, saved under another
+    name) a duplicate of it, marked "truncated_copy". Run after assign_duplicates. The start of each file is hashed
+    once and kept in its file_hashes as "head_md5". Returns the number of files marked."""
+    def head(name):
+        hashes = cameras_json[name].get("file_hashes") or {}
+        if "head_md5" not in hashes and hashes:
+            hashes["head_md5"] = head_md5(path_for(name))
+        return hashes.get("head_md5")
+
+    def is_truncated(name):
+        return (cameras_json[name].get("integrity") or {}).get("status") == "truncated"
+
+    truncated = [name for name in file_names
+                 if is_truncated(name) and not cameras_json[name].get("duplicate_of")
+                 and not cameras_json[name].get("aliases")]
+    for name in file_names:
+        cameras_json[name].pop("truncated_copy", None)
+    if not truncated:
+        return 0
+
+    sizes = {name: (cameras_json[name].get("file_hashes") or {}).get("size") or 0 for name in file_names}
+    by_head = {}
+    for name in file_names:
+        if not is_truncated(name) and not cameras_json[name].get("duplicate_of") and sizes[name] > HEAD_BYTES:
+            by_head.setdefault(head(name), []).append(name)
+
+    marked = 0
+    for name in truncated:
+        if sizes[name] < HEAD_BYTES:
+            continue
+        candidates = [other for other in by_head.get(head(name), []) if sizes[other] > sizes[name]]
+        main = next((other for other in sorted(candidates, key=lambda other: sizes[other])
+                     if is_prefix(path_for(name), path_for(other))), None)
+        if main:
+            cameras_json[name]["duplicate_of"] = main
+            cameras_json[name]["truncated_copy"] = True
+            aliases = cameras_json[main].setdefault("aliases", [])
+            if name not in aliases:
+                aliases.append(name)
+            marked += 1
+    return marked

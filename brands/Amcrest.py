@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 from util import http
 from util.general import get_href_if_exists
+from util.oem_helpers import parse_dahua_version
 
 name = "Amcrest"
 vendor = "Amcrest"
@@ -137,6 +138,38 @@ def parse_firmwares(firmware_box):
     return firmwares
 
 
+# Builds in Amcrest's S3 buckets that the firmware page doesn't link (older builds it replaced, or ones only a
+# changelog names), found by trying names in the folders it does link: (URL, models, notes)
+UNLINKED_FILES = [
+    ("https://s3.amazonaws.com/amcrest-files/Firmware/General_IPC-HX1X2X-Themis_Eng_N_V2.400.0000.15.R.20160906.bin",
+     ["IP3M-954E", "IP3M-956E"], "Named in https://s3.amazonaws.com/amcrest-files/Firmware/Changelog/"
+                                 "IP3M-954E_IP3M-956E_Changelog_4-26-17.txt"),
+    ("https://s3.amazonaws.com/amcrest-files/Firmware/General_IPC-HX4X2X-Themis_Eng_N_V2.400.0000.15.R.20160906.bin",
+     ["IP4M-1025E"], "Named in https://s3.amazonaws.com/amcrest-files/Firmware/IP4M-1025E_Changelog_8-10-17.txt"),
+    ("https://amcrest-firmwares.s3.us-east-1.amazonaws.com/Amcrest+Organized+Firmwares/NV5XXX-EI+Series/"
+     "Amcrest_NVR5XXX-EI_MultiLang_NP_V4.000.00AC001.0.R.240910.bin", ["NV5XXX-EI Series"], None),
+    ("https://amcrest-firmwares.s3.amazonaws.com/Curent+firmware/IP5M-1190W/"
+     "Amcrest_SD-Hertz_Eng_NP_V2.810.00AC000.0.R.211218.bin", ["IP5M-1190W"], None),
+]
+
+
+def unlinked_firmwares():
+    firmwares = []
+    for url, models, notes in UNLINKED_FILES:
+        version, release_date = parse_dahua_version(unquote_plus(url.rsplit("/", 1)[-1]))
+        firmwares.append({
+            "camera_name": models,
+            "firmware_version": version,
+            "release_date": release_date,
+            "firmware_size": None,
+            "firmware_notes": " ".join(filter(None, ["Not linked from the firmware page.", notes])),
+            "firmware_changelog": None,
+            "firmware_previous": None,
+            "firmware_latest": url,
+        })
+    return firmwares
+
+
 def get_firmwares():
     firmware_boxes = get_firmware_boxes()
 
@@ -147,4 +180,4 @@ def get_firmwares():
         for parsed_firmware in parsed_firmware_box:
             parsed_firmwares.append(parsed_firmware)
 
-    return parsed_firmwares
+    return parsed_firmwares + unlinked_firmwares()

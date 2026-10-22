@@ -262,3 +262,19 @@ def test_secpoint_models_and_local_names():
     assert m.model_from_folder("Videocitofonia Dahua/ServerSIP VTH-VTO/VTO1210C-X_SIP.zip") == ["VTO1210C-X"]
     assert m.local_name("Videocitofonia Dahua/ServerSIP VTH-VTO/VTH_SIP.zip") == "SecPoint_ServerSIP_VTH-VTO_VTH_SIP.zip"
     assert m.local_name("Tvcc/DAHUA/NVR/NVR1600/General_NVR5xxx_Eng_P_V2.616.0000.0.R.20140110.bin") is None
+
+
+def test_yandex_file_urls_round_trip():
+    from util import yandex
+    url = yandex.file_url("https://yadi.sk/d/MdA8ghyjQI8-nQ", "/General_IPC-HX2(1)XXX-Sag.bin")
+    assert url == "https://yadi.sk/d/MdA8ghyjQI8-nQ/General_IPC-HX2%281%29XXX-Sag.bin"
+    assert yandex.split_url(url) == ("https://yadi.sk/d/MdA8ghyjQI8-nQ", "/General_IPC-HX2(1)XXX-Sag.bin")
+    assert yandex.split_url("https://yadi.sk/d/pM25tSY4b4kVPg") == ("https://yadi.sk/d/pM25tSY4b4kVPg", None)
+
+
+def test_firmware_upload_names_without_dahua_versions():
+    from util.mirror import is_firmware_upload
+    assert is_firmware_upload("VTO2000A(-C)_MultiLang_20190221.zip")
+    assert is_firmware_upload("5SERIES_S3_WITH_EXACQVISION.zip")
+    assert not is_firmware_upload("SmartPSS_Win64_V2.003.zip")
+    assert not is_firmware_upload("VTO2000A_Manual.pdf")

@@ -95,7 +95,10 @@ def get_record(file_name, size, md5, entry, analysis, alias_entries):
     aliases = []
     for alias, alias_entry in sorted(alias_entries.items()):
         aliases.append({"file_name": alias, "url": alias_entry.get("url"),
-                        "listings": stable_listings(alias_entry.get("listings"))})
+                        "listings": stable_listings(alias_entry.get("listings")),
+                        # A cut-off download of this file, kept under its own name (only set when true, so other
+                        # records don't change)
+                        **({"truncated": True} if alias_entry.get("truncated_copy") else {})})
     if aliases:
         record["aliases"] = aliases
 
@@ -225,13 +228,20 @@ def get_metadata(record):
             lines.append(f"Note: {esc(note)}")
 
     # Identical copies published under other names
-    if aliases:
-        lines.append("<b>Also published under these names</b> (byte-for-byte identical)")
-        for alias in aliases:
+    def alias_lines(heading, group):
+        if not group:
+            return
+        lines.append(heading)
+        for alias in group:
             sources = [f"{esc(l['vendor'])}: {link(l['url'])}" for l in alias.get("listings") or [] if l.get("url")]
             if not sources and alias.get("url"):
                 sources = [link(alias["url"])]
             lines.append(f" - {esc(alias['file_name'])}" + (f" ({'; '.join(sources)})" if sources else ""))
+
+    alias_lines("<b>Also published under these names</b> (byte-for-byte identical)",
+                [alias for alias in aliases if not alias.get("truncated")])
+    alias_lines("<b>Incomplete copies under other names</b> (the start of this file, cut off)",
+                [alias for alias in aliases if alias.get("truncated")])
 
     # What was found by unpacking it
     lines.append("<b>Firmware details</b>")
