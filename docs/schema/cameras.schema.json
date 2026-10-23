@@ -82,6 +82,11 @@
         },
         "mtime": {
           "type": "integer"
+        },
+        "head_md5": {
+          "description": "MD5 of the first 64 KiB, kept for files compared with truncated ones",
+          "type": "string",
+          "pattern": "^[0-9a-f]{32}$"
         }
       },
       "additionalProperties": false
@@ -388,6 +393,10 @@
         },
         "duplicate_of": {
           "$ref": "#/$defs/fileName"
+        },
+        "truncated_copy": {
+          "description": "A truncated file that is the start of the complete file in duplicate_of",
+          "const": true
         },
         "listings": {
           "type": "array",

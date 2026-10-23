@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "NVR6XX-4KS2"
+   ],
+   "member": "Customer_NVR6XX-4KS2_MultiLang_DH_AlarmCenter_V4.002.10BE000.0.T.230304.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVR6XX-4KS2",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 956,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6997824,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6998780,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 121840761,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "MultiLang",
+    "variant": "MultiLang",
+    "vendor": "dahua",
+    "version": "V4.002.10BE000.0"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V4.002.10BE000.0"
+  }
+ ],
+ "sha256": "2795b3f273969079db6ff9a3ded37a04bafc4092c75764ee581577500d5a89c4"
+}

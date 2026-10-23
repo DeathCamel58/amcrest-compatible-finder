@@ -1,0 +1,174 @@
+{
+ "hardware_sources": [],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06",
+   "build_dates": {
+    "earliest": "2024-01-16",
+    "latest": "2024-01-16"
+   },
+   "firmware": "dhboot.bin.img",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": "2024-01-16",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 298296,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "34562ecb919da081",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "FH8852",
+     "FH8856",
+     "FH8852V200",
+     "FH8856V200",
+     "FH8858V200"
+    ],
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8852"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8856"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8852V200"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8856V200"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "FH8858V200"
+     }
+    ],
+    "name": null,
+    "vendor": "Fullhan"
+   }
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2023-07-08",
+    "latest": "2023-07-08"
+   },
+   "firmware": "update.img",
+   "flash_size": 8388608,
+   "kernel_version": "4.9.129",
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "cramfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "squashfs",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "jffs2",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "2002992334a68d21",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "c4a9259d7b16ca07b55c7fa2a4cdf449a2d65b355e3e3fff661da695344b543d"
+}

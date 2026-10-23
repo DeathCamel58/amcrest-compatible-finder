@@ -1,0 +1,260 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "CONFIG_General_EngRus_P_General_WebEngRus_General_N5_V2.610.0.R.151117.bin",
+   "ids": [
+    "DVRxx04LE-A",
+    "General",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "General_NVR2x0x_Eng_P_V2.616.0000.0.R.20140110.bin",
+   "ids": [
+    "DVRxx04HF-X-4H",
+    "General_N6",
+    "DAHUA"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "CONFIG_General_EngRus_P_General_WebEngRus_General_N5_V2.610.0.R.151117.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 110592,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "08488e9dce330e4a",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn950",
+   "build_dates": {
+    "earliest": "2014-01-10",
+    "latest": "2014-01-10"
+   },
+   "firmware": "General_NVR2x0x_Eng_P_V2.616.0000.0.R.20140110.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_N6",
+    "DAHUA"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3520Aboot",
+     "image_size": 251624,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3520Aromfs",
+     "image_size": 12816384,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1548288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2014-01-10",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hisilicon"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "image_name",
+      "value": "3520Aboot"
+     },
+     {
+      "member": "romfs-x.cramfs.img",
+      "source": "image_name",
+      "value": "3520Aromfs"
+     }
+    ],
+    "name": "Hi3520A",
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "17683a5bebbf475b754ac6b8938abe2cd3aac3dd9612f1028a497be170c58f3a"
+}

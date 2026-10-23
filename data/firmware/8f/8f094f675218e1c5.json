@@ -1,0 +1,109 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "429935_CONFIG_General_EngRus_General_DahuaDDNS_NVR6xx-4KS2_V3.210.0003.0.R.160708.BIN",
+   "ids": [
+    "NVR6000"
+   ],
+   "member": "429935_CONFIG_General_EngRus_General_DahuaDDNS_NVR6xx-4KS2_V3.210.0003.0.R.160708.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_NVR6XX-4KS2_Eng_V3.210.0003.0.R.160714.BIN",
+   "ids": [
+    "NVR6XX-4KS2"
+   ],
+   "member": "DH_NVR6XX-4KS2_Eng_V3.210.0003.0.R.160714.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVR6000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "bin",
+      "offset": 956,
+      "path": "/mnt/dom_bin/custom.res",
+      "size": 111270,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": null
+   },
+   "firmware": "429935_CONFIG_General_EngRus_General_DahuaDDNS_NVR6xx-4KS2_V3.210.0003.0.R.160708.BIN",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVR6XX-4KS2",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 956,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 6503088,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 6504044,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 93386164,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": "V3.210.0004.0.R"
+   },
+   "firmware": "DH_NVR6XX-4KS2_Eng_V3.210.0003.0.R.160714.BIN",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.210.0004.0.R"
+  }
+ ],
+ "sha256": "8f094f675218e1c5ac0d5c20cda16724d3f6ed3b817a290ec86adefb96f106f7"
+}

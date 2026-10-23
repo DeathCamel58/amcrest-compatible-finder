@@ -1,0 +1,169 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "XVR4x04-I",
+    "General_XVR4x04-I"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2021-10-15",
+    "latest": "2021-10-15"
+   },
+   "firmware": null,
+   "flash_size": 67108864,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_XVR4x04-I"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "GCIS.bin.img",
+     "image_name": "SSR910_64M",
+     "image_size": 24064,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "SSR910_64M",
+     "image_size": 277820,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "uImage.img",
+     "image_name": "SSR910_64M",
+     "image_size": 3711808,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "SSR910_64M",
+     "image_size": 31240192,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 6561792,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "logo-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2021-10-15",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "ext_usr-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1851392,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "304dc5a582dc6ddd",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "unmapped_images": [
+    "IPL.bin.img",
+    "IPL_CUST.bin.img"
+   ]
+  }
+ ],
+ "sha256": "cca65f0f7bb86468e17b1aa52b68780b10cd49ac0ec93dc7afd2be4439d1c4d7"
+}

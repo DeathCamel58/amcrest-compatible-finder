@@ -1,0 +1,601 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DHI_DeepHubUltimateS2_MultiLang_V3.012.0000001.3.R_Increment_V3.012.0000001.4.R.260908.zip",
+   "ids": [
+    "Smart-Interactive-Whiteboard"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-MFW88449-ZCHH-20800832-S3:01:02:00:64:52:00:02:10:03:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-20800832-S3:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-0856-S3:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:04:03:01:00:00:1000",
+    "IPC-MFW88449-ZCHH-2080-S3:01:02:00:D1:52:00:02:10:03:01:04:4B0:0A:00:02:04:03:01:00:00:1000",
+    "IPC-MFW88849-ZCHH-E3-2080-S3:01:02:00:64:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88849-ZCHH-E3-1050-S3:01:02:00:64:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84849-ZCHH-E3-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZCHM-08560832-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88443-ZCHM-08560832-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZHM-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88443-ZHM-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-08560832-CSTC:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:0D:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3:01:02:00:D1:52:00:02:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3:01:02:00:D1:52:00:01:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV:01:02:00:86:52:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-S3:01:02:00:D1:52:00:02:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-S3:01:02:00:D1:52:00:01:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-SLV:01:02:00:D1:52:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:1000",
+    "IPC-MC480-U3C52M:01:02:00:87:52:00:03:10:03:01:04:4B0:09:00:02:03:00:01:00:00:1000"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-MFW88449-ZCHH-20800832-S3:01:02:00:64:52:00:02:10:03:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-20800832-S3:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-0856-S3:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:04:03:01:00:00:1000",
+    "IPC-MFW88449-ZCHH-2080-S3:01:02:00:D1:52:00:02:10:03:01:04:4B0:0A:00:02:04:03:01:00:00:1000",
+    "IPC-MFW88849-ZCHH-E3-2080-S3:01:02:00:64:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88849-ZCHH-E3-1050-S3:01:02:00:64:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84849-ZCHH-E3-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZCHM-08560832-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88443-ZCHM-08560832-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZHM-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW88443-ZHM-0856-S3:01:02:00:86:52:00:02:10:03:01:04:708:0A:00:00:04:03:01:00:00:1000",
+    "IPC-MFW84449-ZCHH-08560832-CSTC:01:02:00:86:52:00:02:10:03:01:04:4B0:0A:00:02:0D:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3:01:02:00:D1:52:00:02:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3:01:02:00:D1:52:00:01:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV:01:02:00:86:52:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-S3:01:02:00:D1:52:00:02:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-S3:01:02:00:D1:52:00:01:10:07:01:04:4B0:0A:00:02:04:00:01:00:00:1000",
+    "IPC-MFW88849-ZHH-D2-0856-SLV:01:02:00:D1:52:00:01:00:00:00:00:4B0:00:00:00:00:00:01:00:00:1000",
+    "IPC-MC480-U3C52M:01:02:00:87:52:00:03:10:03:01:04:4B0:09:00:02:03:00:01:00:00:1000"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DHI_DeepHubUltimateS2_MultiLang_V3.012.0000001.4.R.260908.bin",
+   "ids": [
+    "Smart-Interactive-Whiteboard"
+   ],
+   "member": "META-INF/com/android/metadata",
+   "source": "android_ota"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "hwid",
+   "raw_same_as": 1,
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw_same_as": 2,
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "check.img",
+   "raw_same_as": 1,
+   "source": "check_img"
+  },
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-MFW88449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-20800832-S3",
+    "IPC-MFW84449-ZCHH-0856-S3",
+    "IPC-MFW88449-ZCHH-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-2080-S3",
+    "IPC-MFW88849-ZCHH-E3-1050-S3",
+    "IPC-MFW84849-ZCHH-E3-0856-S3",
+    "IPC-MFW84449-ZCHM-08560832-S3",
+    "IPC-MFW88443-ZCHM-08560832-S3",
+    "IPC-MFW84449-ZHM-0856-S3",
+    "IPC-MFW88443-ZHM-0856-S3",
+    "IPC-MFW84449-ZCHH-08560832-CSTC",
+    "IPC-MFW88849-ZHH-D2E3-0856-S3",
+    "IPC-MFW88849-ZHH-D2E3-0856-SLV",
+    "IPC-MFW88849-ZHH-D2-0856-S3",
+    "IPC-MFW88849-ZHH-D2-0856-SLV",
+    "IPC-MC480-U3C52M"
+   ],
+   "member": "check.img",
+   "raw_same_as": 4,
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw_same_as": 5,
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "android_ota": {
+    "devices": [
+     "Smart-Interactive-Whiteboard"
+    ],
+    "ota_type": "AB",
+    "post_build": "DeepHub/ultimate/Smart-Interactive-Whiteboard:15/AP4A.250205.002.C1/20260908:user/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DHI_DeepHubUltimateS2_MultiLang_V3.012.0000001.3.R_Increment_V3.012.0000001.4.R.260908.zip",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-01",
+    "latest": "2026-09-01"
+   },
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "SimpChinese",
+    "supported_languages": [
+     "SimpChinese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 512616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 512616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 47472,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1042616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12899072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 110921912,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13088952,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-20",
+    "latest": "2026-01-20"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 132434104,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fabb43fa445e16c9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "android_ota": {
+    "devices": [
+     "Smart-Interactive-Whiteboard"
+    ],
+    "ota_type": "AB",
+    "post_build": "DeepHub/ultimate/Smart-Interactive-Whiteboard:15/AP4A.250205.002.C1/20260908:user/release-keys"
+   },
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "DHI_DeepHubUltimateS2_MultiLang_V3.012.0000001.4.R.260908.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "zip",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-01",
+    "latest": "2026-09-01"
+   },
+   "firmware": "DH_DeepHub-MC480-U3C52M_Chn_NP_V3.012.0000000.0.R.260901.bin",
+   "flash_size": null,
+   "kernel_version": "4.19.90",
+   "locale": {
+    "default_language": "SimpChinese",
+    "supported_languages": [
+     "SimpChinese"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 512616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 512616,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "dhdtb.bin.img",
+     "image_name": "dtb",
+     "image_size": 47472,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 1042616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 12899072,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 110921912,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-01",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 13088952,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "a6c7ee1d9d5405ec",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-01-20",
+    "latest": "2026-01-20"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-01-20",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 132434104,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "fabb43fa445e16c9",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "96f6f969da416f7fddbcaa94284032eeab55c9a04b656dc16267c62b002a5043"
+}

@@ -1,0 +1,288 @@
+{
+ "hardware_sources": [
+  {
+   "counted": false,
+   "firmware": "DH_TPC-PT8X20M_Eng_NP_V2.403.0000.0.R.20170810.bin",
+   "ids": [
+    "SD6XXX",
+    "IPC-HX3XXX",
+    "IPC-HX4XXX",
+    "IPC-HX5XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "SD6XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX4XXX",
+     "1.00"
+    ],
+    [
+     "IPC-HX5XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_TPC-PT8X20M_Eng_NP_V2.403.0000.0.R.20170810.bin",
+   "ids": [
+    "TPC-PT8320M-T",
+    "TPC-PT8620M-T",
+    "TPC-PT8320M",
+    "TPC-PT8620M",
+    "TPC-AEPT8X20-T",
+    "TPC-AEPT8X20",
+    "TPC-AEBF5X00-T",
+    "TPC-AEBF5X00"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TPC-PT8320M-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8320M:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8320M-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8320M:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-PT8620M:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEPT8X20-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEPT8X20:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEPT8X20-T:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEPT8X20:01:08:01:30:15:00:02:06:01:01:04:330_330:08:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00-T:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00-T:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-AEBF5X00:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-AEBF5X00-T:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:00:00:400",
+    "TPC-AEBF5X00-T:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400",
+    "TPC-AEBF5X00:01:08:03:30:15:00:01:06:01:01:04:330:02:00:00:04:00:01:01:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn4806",
+   "build_dates": {
+    "earliest": "2017-08-10",
+    "latest": "2017-08-10"
+   },
+   "firmware": "DH_TPC-PT8X20M_Eng_NP_V2.403.0000.0.R.20170810.bin",
+   "flash_size": 132120576,
+   "kernel_version": "3.10.50",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "NTSC"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-min.bin.img",
+     "image_name": "boot",
+     "image_size": 407845,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 296960,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 49152,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 303104,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1768800,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1445888,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 3141632,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 17391616,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-08-10",
+     "compression": "none",
+     "filesystem": null,
+     "image": "slave-x.ramdisk.gz.img",
+     "image_name": "slave",
+     "image_size": 14651395,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "d344d9ed9d780b0f",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot-min.bin.img",
+      "source": "bootloader",
+      "value": "ambarella,s2l"
+     },
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Ambarella"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "ambarella,s2l"
+     }
+    ],
+    "name": "S2L",
+    "vendor": "Ambarella"
+   }
+  }
+ ],
+ "sha256": "9c26cd5fba0891707fc5d17abb94a8b3b8d507621194fdd4848901d0d4bff27e"
+}

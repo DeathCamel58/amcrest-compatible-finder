@@ -1,0 +1,53 @@
+{
+ "id": "941665f138a9ca59",
+ "partitions": [
+  {
+   "end": "0x20000",
+   "name": "dhboot-min",
+   "size": 131072,
+   "start": "0x0"
+  },
+  {
+   "end": "0x50000",
+   "name": "bootloader",
+   "size": 196608,
+   "start": "0x20000"
+  },
+  {
+   "end": "0x1a0000",
+   "name": "dtb",
+   "size": 196608,
+   "start": "0x170000"
+  },
+  {
+   "end": "0x370000",
+   "name": "kernel",
+   "size": 1900544,
+   "start": "0x1a0000"
+  },
+  {
+   "end": "0xbb0000",
+   "name": "rootfs",
+   "size": 8650752,
+   "start": "0x370000"
+  },
+  {
+   "end": "0xd40000",
+   "name": "firmware",
+   "size": 1638400,
+   "start": "0xbb0000"
+  },
+  {
+   "end": "0xfc0000",
+   "name": "firmware",
+   "size": 4259840,
+   "start": "0xbb0000"
+  },
+  {
+   "end": "0xfc0000",
+   "name": "firmware",
+   "size": 2621440,
+   "start": "0xd40000"
+  }
+ ]
+}

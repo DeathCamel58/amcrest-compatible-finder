@@ -213,7 +213,11 @@ def data_problems(cameras, compat, root, jsonschema):
                                             f'{len(package.get("partition_images") or [])} images for '
                                             f'{len(rows.get("partitions") or [])} rows of layout {layout}'))
         detail = checked_details.get(path)
-        file_sha = ((cameras.get(key) or {}).get('file_hashes') or {}).get('sha256')
+        camera_entry = cameras.get(key) or {}
+        # A cut-off copy repeats its complete file's result, detail and all
+        if camera_entry.get('truncated_copy'):
+            camera_entry = cameras.get(camera_entry.get('duplicate_of')) or {}
+        file_sha = (camera_entry.get('file_hashes') or {}).get('sha256')
         if detail and file_sha and detail.get('sha256') != file_sha:
             problems.append(Problem('both', key, 'data: detail is for different content',
                                     f'cameras.json has sha256 {file_sha}, {path} is for {detail.get("sha256")}'))

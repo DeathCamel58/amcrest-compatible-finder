@@ -1,0 +1,157 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V2.000.0000000.0.R.260920.bin",
+   "ids": [
+    "TS-S6452-48GT4XF",
+    "TS-S6452-48GF4XF",
+    "TS-S6436-24GT8GF4XF",
+    "TS-S6436-24GF8GT4XF",
+    "TS-S5452-48GT4XF-V2",
+    "DH-NS5300-48GT4XF-APWR",
+    "DH-S5900C-48GT4XF-525",
+    "DH-S5900C-48GT4XF-845",
+    "DH-S5452-48GT4XF-840",
+    "S5452-48GT4XF-840",
+    "DH-S5900C-24GT8GF4XF-525",
+    "DH-NS5300-24GT8GF4XF-APWR",
+    "DH-S5436-24GT8GF4XF-840",
+    "S5436-24GT8GF4XF-840",
+    "DH-NS5300-48GT2XF",
+    "DH-S5900C-48GT2XF",
+    "DH-S5452-48GT2XF",
+    "S5452-48GT2XF"
+   ],
+   "member": "check.img",
+   "raw": [
+    "TS-S6452-48GT4XF:02:04:03:01:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:00:02:00",
+    "TS-S6452-48GT4XF:02:04:03:01:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:01:02:00",
+    "TS-S6452-48GF4XF:02:04:03:02:1000:00:00:00:00:00:00:00:00:00:34:00:00:00:00:00:00",
+    "TS-S6436-24GT8GF4XF:02:04:03:03:1000:00:00:00:00:00:00:00:00:18:0C:00:00:00:00:00:00",
+    "TS-S6436-24GF8GT4XF:02:04:03:04:1000:00:00:00:00:00:00:00:00:08:1C:00:00:00:00:00:00",
+    "TS-S5452-48GT4XF-V2:02:04:03:05:1000:00:00:00:00:00:00:00:00:30:04:00:00:00:00:00:00",
+    "DH-NS5300-48GT4XF-APWR:02:04:03:06:1000:00:00:00:00:00:00:00:00:30:04:00:30:34D:00:04:00",
+    "DH-S5900C-48GT4XF-525:02:04:03:06:1000:00:00:00:00:00:00:00:00:30:04:00:30:20D:00:05:00",
+    "DH-S5900C-48GT4XF-845:02:04:03:06:1000:00:00:00:00:00:00:00:00:30:04:00:30:34D:00:05:00",
+    "DH-S5452-48GT4XF-840:02:04:03:06:1000:00:00:00:00:00:00:00:00:30:04:00:30:34D:00:02:00",
+    "S5452-48GT4XF-840:02:04:03:06:1000:00:00:00:00:00:00:00:00:30:04:00:30:34D:00:02:00",
+    "DH-S5900C-24GT8GF4XF-525:02:04:03:07:1000:00:00:00:00:00:00:00:00:18:0C:00:18:20D:00:05:00",
+    "DH-NS5300-24GT8GF4XF-APWR:02:04:03:07:1000:00:00:00:00:00:00:00:00:18:0C:00:18:34D:00:04:00",
+    "DH-S5436-24GT8GF4XF-840:02:04:03:07:1000:00:00:00:00:00:00:00:00:18:0C:00:18:34D:00:02:00",
+    "S5436-24GT8GF4XF-840:02:04:03:07:1000:00:00:00:00:00:00:00:00:18:0C:00:18:34D:00:02:00",
+    "DH-NS5300-48GT2XF:02:04:03:08:1000:00:00:00:00:00:00:00:00:30:02:00:00:00:00:05:00",
+    "DH-S5900C-48GT2XF:02:04:03:08:1000:00:00:00:00:00:00:00:00:30:02:00:00:00:00:04:00",
+    "DH-S5452-48GT2XF:02:04:03:08:1000:00:00:00:00:00:00:00:00:30:02:00:00:00:00:02:00",
+    "S5452-48GT2XF:02:04:03:08:1000:00:00:00:00:00:00:00:00:30:02:00:00:00:00:02:00"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V2.000.0000000.0.R.260920.bin",
+   "ids": [
+    "DH-S5436-24GT8GF4XF-840",
+    "DH-S5452-48GT2XF",
+    "DH-S5452-48GT4XF-840",
+    "TS-S5452-48GT4XF-V2",
+    "TS-S6436-24GF8GT4XF",
+    "TS-S6436-24GT8GF4XF",
+    "TS-S6452-48GF4XF",
+    "TS-S6452-48GT4XF"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "DH-S5436-24GT8GF4XF-840",
+     "1.00"
+    ],
+    [
+     "DH-S5452-48GT2XF",
+     "1.00"
+    ],
+    [
+     "DH-S5452-48GT4XF-840",
+     "1.00"
+    ],
+    [
+     "TS-S5452-48GT4XF-V2",
+     "1.00"
+    ],
+    [
+     "TS-S6436-24GF8GT4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6436-24GT8GF4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6452-48GF4XF",
+     "1.00"
+    ],
+    [
+     "TS-S6452-48GT4XF",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2021.04-svn170861",
+   "build_dates": {
+    "earliest": "2026-09-20",
+    "latest": "2026-09-20"
+   },
+   "firmware": "DH_TS-SXXXX-CronusA_Eng_Local_V2.000.0000000.0.R.260920.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-20",
+     "compression": "none",
+     "filesystem": null,
+     "image": "uImage",
+     "image_name": "firmware",
+     "image_size": 58807044,
+     "image_type": "firmware",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "5c3a55414f3b689b",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "boot_512M.bin",
+      "source": "bootloader",
+      "value": "Rockchip"
+     }
+    ],
+    "name": null,
+    "vendor": "Rockchip"
+   },
+   "software_version": "V2.000.0000000.0.R.260920"
+  }
+ ],
+ "sha256": "3e3050ded2f5b000563567337a147ff7fe07cfc8e7f5c64cb261b5a7d4a79983"
+}

@@ -1,0 +1,58 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2017-07-19",
+    "latest": "2017-07-19"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-07-19",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 90112,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "606d4b1780205981",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "aa71345267277807a5d0f2936968f827e0d4850cfc27e5c5e8e094da4a2c63e1"
+}

@@ -1,0 +1,136 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "General_iDVR21xx_Eng_P_V3.200.0001.15.R.20171021.bin",
+   "ids": [
+    "iDVR21xx",
+    "General_21xx",
+    "DH"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn1393",
+   "build_dates": {
+    "earliest": "2017-10-26",
+    "latest": "2017-10-26"
+   },
+   "firmware": "General_iDVR21xx_Eng_P_V3.200.0001.15.R.20171021.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_21xx",
+    "DH"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-10-26",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "3520DbootIdvr",
+     "image_size": 219300,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "3520DromfsIdvr",
+     "image_size": 13062144,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-26",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1482752,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 102400,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-10-26",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "candidates": [
+     "Hi3520D",
+     "Hi3515A"
+    ],
+    "evidence": [
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3520D"
+     },
+     {
+      "member": "u-boot.bin.img",
+      "source": "bootloader",
+      "value": "hi3515A"
+     }
+    ],
+    "name": null,
+    "vendor": "HiSilicon"
+   }
+  }
+ ],
+ "sha256": "bea9577e1c3546e099e16f1155fcb027068a3e16eef1e55b1724be1b3a09c1f1"
+}

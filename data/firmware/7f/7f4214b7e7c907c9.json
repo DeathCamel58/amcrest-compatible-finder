@@ -1,0 +1,308 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "Customer_VTO2000A-C-2_Eng_P_32M_V4.000.9999001.0.R.20190505.bin",
+   "ids": [
+    "VTO6221",
+    "VTO622X",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO3221D",
+    "VTO2202A"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6221",
+     "1.00"
+    ],
+    [
+     "VTO622X",
+     "1.00"
+    ],
+    [
+     "VTO6223B",
+     "1.00"
+    ],
+    [
+     "VTO6223C",
+     "1.00"
+    ],
+    [
+     "VTO3221D",
+     "1.00"
+    ],
+    [
+     "VTO2202A",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "General_VTO2000A-C-2-data_EngDthFrnGerItlPorSpa_P_32M_PART_V4.000.0000002.0.R.20190304.bin",
+   "ids": [
+    "VTO6221",
+    "VTO622X",
+    "VTO6223B",
+    "VTO6223C",
+    "VTO3221D",
+    "VTO2202A"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "VTO6221",
+     "1.00"
+    ],
+    [
+     "VTO622X",
+     "1.00"
+    ],
+    [
+     "VTO6223B",
+     "1.00"
+    ],
+    [
+     "VTO6223C",
+     "1.00"
+    ],
+    [
+     "VTO3221D",
+     "1.00"
+    ],
+    [
+     "VTO2202A",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2010.06-svn6134",
+   "build_dates": {
+    "earliest": "2019-05-05",
+    "latest": "2019-05-05"
+   },
+   "firmware": "Customer_VTO2000A-C-2_Eng_P_32M_V4.000.9999001.0.R.20190505.bin",
+   "flash_size": 132120576,
+   "kernel_version": "3.4.35",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2019-05-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 272384,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "partition-x.cramfs.img",
+     "image_name": "partition",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "custom-x.squashfs.img",
+     "image_name": "custom",
+     "image_size": 20480,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "pd-x.squashfs.img",
+     "image_name": "pd",
+     "image_size": 8192,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 2702824,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 1286144,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 1413120,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "data",
+     "image_size": 864256,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2019-05-05",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "user-x.squashfs.img",
+     "image_name": "user",
+     "image_size": 10219520,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": "ubi",
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "abfc1ec423bd9671",
+   "partition_source": "partition_table",
+   "partition_table": "partitionV2.txt",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": {
+    "evidence": [
+     {
+      "member": "dhboot.bin.img",
+      "source": "bootloader",
+      "value": "Hi3516A"
+     },
+     {
+      "member": "kernel.img",
+      "source": "kernel",
+      "value": "HI3516A"
+     }
+    ],
+    "name": "Hi3516A",
+    "vendor": "HiSilicon"
+   }
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "General_VTO2000A-C-2-data_EngDthFrnGerItlPorSpa_P_32M_PART_V4.000.0000002.0.R.20190304.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "data-x.squashfs.img",
+     "image_name": "linux",
+     "image_size": 1462272,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "e3a35333e1e04abc",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "7f4214b7e7c907c912848645050e98f20191bdcfd4cad58b5c3457d6a0d26f81"
+}

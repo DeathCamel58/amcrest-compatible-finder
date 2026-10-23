@@ -1,0 +1,62 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_NVR6000_Eng_V3.210.0003.0.R.160714.BIN",
+   "ids": [
+    "NVR6000"
+   ],
+   "member": "DH_NVR6000_Eng_V3.210.0003.0.R.160714.BIN",
+   "source": "dhi7",
+   "vendor": "dahua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "x86",
+   "bootloader_version": null,
+   "build_dates": null,
+   "container_header": {
+    "device": "NVR6000",
+    "format": "DHI7",
+    "images": [
+     {
+      "name": "kernel",
+      "offset": 956,
+      "path": "/mnt/dom_bin/bzImage",
+      "size": 5981296,
+      "version": "V1.000.0000.0"
+     },
+     {
+      "name": "rootfs",
+      "offset": 5982252,
+      "path": "/mnt/dom_bin/svr_image.gz",
+      "size": 91618527,
+      "version": "V1.000.0000.0"
+     }
+    ],
+    "language": "Eng",
+    "variant": null,
+    "vendor": "dahua",
+    "version": "V3.210.0004.0.R"
+   },
+   "firmware": "DH_NVR6000_Eng_V3.210.0003.0.R.160714.BIN",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "other",
+   "partition_source": null,
+   "partitions": [],
+   "security": {
+    "encrypted": null,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.210.0004.0.R"
+  }
+ ],
+ "sha256": "e3dcf116c2887c728c996f5dd11c963fb6930184d14f04790033d07100b32818"
+}

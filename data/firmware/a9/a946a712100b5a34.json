@@ -1,0 +1,259 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HFW31659E-AS-IL",
+    "IPC-HFW31659E-S-IL",
+    "IPC-HFW31659T-AS-IL",
+    "IPC-HFW31659T-S-IL",
+    "IPC-HFW31659T-ZAS-IL",
+    "IPC-HFW31659T-ZS-IL",
+    "IPC-HDW31659H-ZS-IL",
+    "IPC-HFW3659T1-AS-PV-PROX",
+    "IPC-HDW3659H-AS-PV-PROX",
+    "IPC-HFW3859T1-AS-PV-PROX",
+    "IPC-HDW3859H-AS-PV-PROX",
+    "IPC-HFW3859T1-AS-PV-PROX1",
+    "IPC-HDW3859H-AS-PV-PROX1",
+    "IPC-HFW3453E-S-IL",
+    "IPC-HFW3453E-AS-IL",
+    "IPC-HFW3453T-AS-IL",
+    "IPC-HFW3453T-S-IL",
+    "IPC-HFW3453T-ZAS-IL",
+    "IPC-HFW3453T-ZS-IL",
+    "IPC-HDW3453H-ZS-IL",
+    "IPC-HFW3653E-S-IL",
+    "IPC-HFW3653E-AS-IL",
+    "IPC-HFW3653T-AS-IL",
+    "IPC-HFW3653T-S-IL",
+    "IPC-HFW3653T-ZAS-IL",
+    "IPC-HFW3653T-ZS-IL",
+    "IPC-HFW3853E-S-IL",
+    "IPC-HFW3853E-AS-IL",
+    "IPC-HFW3853T-AS-IL",
+    "IPC-HFW3853T-S-IL",
+    "IPC-HFW3853T-ZAS-IL",
+    "IPC-HFW3853T-ZS-IL"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW31659E-AS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659E-S-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-AS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-S-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-ZAS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-ZS-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HDW31659H-ZS-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW3659T1-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3659H-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3859T1-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3859H-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3859T1-AS-PV-PROX1:01:02:00:D1:7E:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3859H-AS-PV-PROX1:01:02:00:D1:7E:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453E-S-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-AS-IL:01:02:00:145:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-S-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-ZAS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-ZS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW3453H-ZS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653E-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-ZAS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-ZS-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853E-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-S-IL:01:02:00:11A:7E:00:01:00:00:00:00:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-ZAS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-ZS-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": "firmware.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": false,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "Dahua"
+  },
+  {
+   "counted": true,
+   "firmware": "web-x.squashfs.bin",
+   "ids": [
+    "IPC-HFW31659E-AS-IL",
+    "IPC-HFW31659E-S-IL",
+    "IPC-HFW31659T-AS-IL",
+    "IPC-HFW31659T-S-IL",
+    "IPC-HFW31659T-ZAS-IL",
+    "IPC-HFW31659T-ZS-IL",
+    "IPC-HDW31659H-ZS-IL",
+    "IPC-HFW3659T1-AS-PV-PROX",
+    "IPC-HDW3659H-AS-PV-PROX",
+    "IPC-HFW3859T1-AS-PV-PROX",
+    "IPC-HDW3859H-AS-PV-PROX",
+    "IPC-HFW3859T1-AS-PV-PROX1",
+    "IPC-HDW3859H-AS-PV-PROX1",
+    "IPC-HFW3453E-S-IL",
+    "IPC-HFW3453E-AS-IL",
+    "IPC-HFW3453T-AS-IL",
+    "IPC-HFW3453T-S-IL",
+    "IPC-HFW3453T-ZAS-IL",
+    "IPC-HFW3453T-ZS-IL",
+    "IPC-HDW3453H-ZS-IL",
+    "IPC-HFW3653E-S-IL",
+    "IPC-HFW3653E-AS-IL",
+    "IPC-HFW3653T-AS-IL",
+    "IPC-HFW3653T-S-IL",
+    "IPC-HFW3653T-ZAS-IL",
+    "IPC-HFW3653T-ZS-IL",
+    "IPC-HFW3853E-S-IL",
+    "IPC-HFW3853E-AS-IL",
+    "IPC-HFW3853T-AS-IL",
+    "IPC-HFW3853T-S-IL",
+    "IPC-HFW3853T-ZAS-IL",
+    "IPC-HFW3853T-ZS-IL"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HFW31659E-AS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659E-S-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-AS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-S-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-ZAS-IL:01:02:00:144:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:800",
+    "IPC-HFW31659T-ZS-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HDW31659H-ZS-IL:01:02:00:144:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:800",
+    "IPC-HFW3659T1-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3659H-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3859T1-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3859H-AS-PV-PROX:01:02:00:141:7E:00:01:10:07:03:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3859T1-AS-PV-PROX1:01:02:00:D1:7E:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HDW3859H-AS-PV-PROX1:01:02:00:D1:7E:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453E-S-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-AS-IL:01:02:00:145:7E:00:01:10:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-S-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-ZAS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3453T-ZS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HDW3453H-ZS-IL:01:02:00:145:7E:00:01:00:00:00:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653E-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-ZAS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3653T-ZS-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853E-S-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853E-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-AS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-S-IL:01:02:00:11A:7E:00:01:00:00:00:00:3E8:00:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-ZAS-IL:01:02:00:11A:7E:00:01:00:07:01:04:3E8:03:00:00:00:00:01:00:00:400",
+    "IPC-HFW3853T-ZS-IL:01:02:00:11A:7E:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:400"
+   ],
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-14",
+    "latest": "2026-09-14"
+   },
+   "firmware": "firmware.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 74250424,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "3ca774a7add2257e",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.146.0000000.14.R.260914"
+  },
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-14",
+    "latest": "2026-09-14"
+   },
+   "firmware": "web-x.squashfs.bin",
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "Dahua",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-14",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.squashfs.img",
+     "image_name": "web",
+     "image_size": 11511992,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "2c7b5aafaf574e60",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": true,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V3.146.0000000.14.R.260914"
+  }
+ ],
+ "sha256": "a946a712100b5a343c0f80063b781f42ec3e0a2eb26430e516ceb172343ccb0a"
+}

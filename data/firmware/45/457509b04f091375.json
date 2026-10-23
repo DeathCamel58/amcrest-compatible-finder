@@ -1,0 +1,131 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-Ampere_MultiLang_PN_V2.820.0000000.2.R.260924.bin",
+   "ids": [
+    "IPC-P5XP-PV-0360B",
+    "IPC-P3XP-PV-0280B",
+    "IPC-P8XP-PV-0360B",
+    "IPC-H8JEP-0280B"
+   ],
+   "member": "hwid",
+   "raw": [
+    "IPC-P5XP-PV-0360B:01:02:00:100:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-P3XP-PV-0280B:01:02:00:FA:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-P8XP-PV-0360B:01:02:00:113:8C:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80",
+    "IPC-H8JEP-0280B:01:02:00:113:8C:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80"
+   ],
+   "source": "hwid"
+  },
+  {
+   "counted": false,
+   "firmware": "DH_IPC-WPT-Ampere_MultiLang_PN_V2.820.0000000.2.R.260924.bin",
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  },
+  {
+   "counted": true,
+   "firmware": "DH_IPC-WPT-Ampere_MultiLang_PN_V2.820.0000000.2.R.260924.bin",
+   "ids": [
+    "IPC-P5XP-PV-0360B",
+    "IPC-P3XP-PV-0280B",
+    "IPC-P8XP-PV-0360B",
+    "IPC-H8JEP-0280B"
+   ],
+   "member": "check.img",
+   "raw_same_as": 0,
+   "source": "check_img"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2026-09-24",
+    "latest": "2026-09-24"
+   },
+   "firmware": "DH_IPC-WPT-Ampere_MultiLang_PN_V2.820.0000000.2.R.260924.bin",
+   "flash_size": null,
+   "kernel_version": "4.14.249",
+   "locale": {
+    "default_language": "English",
+    "supported_languages": [
+     "English",
+     "Spanish",
+     "Russian"
+    ],
+    "video_standard": "PAL"
+   },
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2026-09-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot.bin.img",
+     "image_name": "boot",
+     "image_size": 243398,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "dhboot-bak.bin.img",
+     "image_name": "boot",
+     "image_size": 243398,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-24",
+     "compression": "none",
+     "filesystem": null,
+     "image": "kernel.img",
+     "image_name": "kernel",
+     "image_size": 1979400,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2026-09-24",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.squashfs.img",
+     "image_name": "romfs",
+     "image_size": 12261560,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "d9dd325b026b6c17",
+   "partition_source": "image_headers",
+   "security": {
+    "checks": {
+     "SecurityBaselineVersion": "V4.0"
+    },
+    "encrypted": false,
+    "security_baseline": "V4.0",
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null,
+   "software_version": "V2.820.0000000.2.R.260924"
+  }
+ ],
+ "sha256": "457509b04f0913754bd31e566733838f2772382ebff8fa5ca6f5c2e30ffb15b5"
+}

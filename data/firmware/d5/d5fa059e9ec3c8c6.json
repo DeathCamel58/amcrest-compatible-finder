@@ -1,0 +1,221 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": "DH_HCVR5x04-S2_Eng_P_V3.200.0004.11.R.20170417.bin",
+   "ids": [
+    "HCVR5x04-S2",
+    "HCVR5x04-V2",
+    "General_HCVR5x04-S2",
+    "General_HCVR5x04-V2"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  },
+  {
+   "counted": true,
+   "firmware": "rus-config/CONFIG_General_RusEng_P_General_WebRusEng_General_DAHUADDNS_DVR5X_V3.200.0.R.150728.bin",
+   "ids": [
+    "DVR5x00_C",
+    "General",
+    "General_5x00"
+   ],
+   "member": "Install.lua",
+   "source": "install_lua"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": "U-Boot 2013.01-svn2018",
+   "build_dates": {
+    "earliest": "2017-04-17",
+    "latest": "2017-04-17"
+   },
+   "firmware": "DH_HCVR5x04-S2_Eng_P_V3.200.0004.11.R.20170417.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "oem_vendor_checks": [
+    "General_HCVR5x04-S2",
+    "General_HCVR5x04-V2"
+   ],
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": null,
+     "image": "u-boot.bin.img",
+     "image_name": "gm8287boot",
+     "image_size": 302064,
+     "image_type": "firmware",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "romfs-x.cramfs.img",
+     "image_name": "gm8287romfs",
+     "image_size": 12099584,
+     "image_type": "kernel",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "web-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 1572864,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 4096,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": "2017-04-17",
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "logo-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 12288,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "4be610918fb4a3fa",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  },
+  {
+   "architecture": null,
+   "bootloader_version": null,
+   "build_dates": null,
+   "firmware": "rus-config/CONFIG_General_RusEng_P_General_WebRusEng_General_DAHUADDNS_DVR5X_V3.200.0.R.150728.bin",
+   "flash_size": 16777216,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": null,
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": "gzip",
+     "filesystem": "cramfs",
+     "image": "custom-x.cramfs.img",
+     "image_name": "linux",
+     "image_size": 118784,
+     "image_type": "standalone",
+     "upgraded": true
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    },
+    {
+     "built": null,
+     "compression": null,
+     "filesystem": null,
+     "image": null,
+     "image_name": null,
+     "image_size": null,
+     "image_type": null,
+     "upgraded": false
+    }
+   ],
+   "partition_layout": "0da1a331aa572b65",
+   "partition_source": "install_lua",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": false,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "d5fa059e9ec3c8c6a8652ebe4915f23d210b134353d61689101a60ba72058225"
+}

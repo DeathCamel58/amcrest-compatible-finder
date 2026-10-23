@@ -1,0 +1,78 @@
+{
+ "hardware_sources": [
+  {
+   "counted": true,
+   "firmware": null,
+   "ids": [
+    "IPC-HDW8343X-B-3D",
+    "IPC-HDW7343X-B-E2-S2",
+    "IPC-HDW8343XP-3D-S2",
+    "IPC-HDW7343X-E2-S2",
+    "IPC-HDW7343X-PC-M-E2"
+   ],
+   "member": "check.img",
+   "raw": [
+    "IPC-HDW8343X-B-3D:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-B-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW8343XP-3D-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-E2-S2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800",
+    "IPC-HDW7343X-PC-M-E2:01:02:00:9F:34:00:01:10:07:03:04:4B0_4B0:08:00:00:0D:00:01:00:00:800"
+   ],
+   "source": "check_img"
+  },
+  {
+   "counted": false,
+   "firmware": null,
+   "ids": [
+    "IPC-HX3XXX"
+   ],
+   "member": "Install",
+   "raw": [
+    [
+     "IPC-HX3XXX",
+     "1.00"
+    ]
+   ],
+   "source": "install",
+   "vendor": "General"
+  }
+ ],
+ "packages": [
+  {
+   "architecture": "arm",
+   "bootloader_version": null,
+   "build_dates": {
+    "earliest": "2020-10-22",
+    "latest": "2020-10-22"
+   },
+   "firmware": null,
+   "flash_size": null,
+   "kernel_version": null,
+   "locale": null,
+   "oem_vendor": "General",
+   "package_format": "dh",
+   "partition_images": [
+    {
+     "built": "2020-10-22",
+     "compression": "gzip",
+     "filesystem": "squashfs",
+     "image": "firmware-x.squashfs.img",
+     "image_name": "firmware",
+     "image_size": 138025144,
+     "image_type": "standalone",
+     "upgraded": true
+    }
+   ],
+   "partition_layout": "518ec82107d57982",
+   "partition_source": "image_headers",
+   "security": {
+    "encrypted": false,
+    "security_baseline": null,
+    "signed": true,
+    "upgrade_security_version": null
+   },
+   "soc": null
+  }
+ ],
+ "sha256": "564daa58cc98458900020bfc5e050e5af170ab2c28c72503e667ea732dd00952"
+}
