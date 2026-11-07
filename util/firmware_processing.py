@@ -652,6 +652,23 @@ def url_folder(url):
     return f"{host}{folder}" if host and folder else None
 
 
+def folder_source(donor, donor_entry):
+    """The "folder" source a firmware published unpacked gets from its folder's metadata file: the file's hardware
+    IDs, and its hwid / check.img lines (as raw) when it has them, so they can be decoded like the file's own."""
+    source = {'source': 'folder', 'member': donor, 'firmware': None, 'ids': donor_entry['hardware_ids'],
+              'counted': True}
+    raw = []
+    for donor_source in join_result(donor_entry).get('hardware_sources') or []:
+        if donor_source.get('source') not in ('hwid', 'check_img'):
+            continue
+        for line in donor_source.get('raw') or []:
+            if isinstance(line, str) and line not in raw:
+                raw.append(line)
+    if raw:
+        source['raw'] = raw
+    return source
+
+
 def inherit_folder_results(cameras_json):
     """Some mirrors publish a firmware unpacked, one file per member (DH Vision: check.img, kernel.img, romfs, ...).
     The partition images say nothing about the hardware, but the folder's metadata file does, so they get its
@@ -680,8 +697,7 @@ def inherit_folder_results(cameras_json):
             own = [s for s in result.get('hardware_sources') or [] if s.get('source') != 'folder']
             if index_entry['status'] == 'ok' and own:
                 continue  # it has hardware IDs of its own
-            sources = own + [{'source': 'folder', 'member': donor, 'firmware': None,
-                              'ids': firmware_json[donor]['hardware_ids'], 'counted': True} for donor in donors]
+            sources = own + [folder_source(donor, firmware_json[donor]) for donor in donors]
             if index_entry['status'] == 'ok' and index_entry['hardware_ids'] == ids and \
                     result.get('hardware_sources') == sources:
                 continue

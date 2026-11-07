@@ -32,14 +32,15 @@ don't have yet. Every enrich run marks entries found once they're downloaded. Ad
 Every downloaded firmware is also uploaded to the Internet Archive (needs `ia configure` once).
 
 ### Running some stages only
-`python main.py` runs every stage: download, enrich, process, archive and validate. Name stages to run only those
+`python main.py` runs every stage: download, enrich, process, decode, archive and validate. Name stages to run only those
 (they always run in pipeline order), or use a group or range:
 ```
 python main.py archive                      # upload to archive.org only
 python main.py download process             # download, then process
-python main.py analyse                      # enrich, process, validate: no network
+python main.py analyse                      # enrich, process, decode, validate: no network
 python main.py --no-archive                 # the full run without uploading (same as: python main.py update)
-python main.py --from process               # process, archive, validate
+python main.py --from process               # process, decode, archive, validate
+python main.py decode validate              # re-decode the hardware ID lines (e.g. after adding a sensor code)
 python main.py check-links                  # check whether vendor links still work (not part of a full run)
 python main.py download --only EmpireTech   # one source (--skip leaves sources out; --list-sources names them)
 ```

@@ -184,7 +184,7 @@ def test_duplicates_default_order_unchanged():
 
 # --- #21 parse_args ----------------------------------------------------------------------------------------------
 
-ALL = ["download", "enrich", "process", "archive", "validate"]
+ALL = ["download", "enrich", "process", "decode", "archive", "validate"]
 
 
 def test_parse_args():
@@ -200,13 +200,13 @@ def test_parse_args_stages_run_in_pipeline_order():
 
 
 def test_parse_args_groups_and_ranges():
-    assert main.parse_args(["analyse"])[0] == ["enrich", "process", "validate"]
-    assert main.parse_args(["update"])[0] == ["download", "enrich", "process", "validate"]
-    assert main.parse_args(["--from", "process"])[0] == ["process", "archive", "validate"]
+    assert main.parse_args(["analyse"])[0] == ["enrich", "process", "decode", "validate"]
+    assert main.parse_args(["update"])[0] == ["download", "enrich", "process", "decode", "validate"]
+    assert main.parse_args(["--from", "process"])[0] == ["process", "decode", "archive", "validate"]
     assert main.parse_args(["--to", "enrich"])[0] == ["download", "enrich"]
     assert main.parse_args(["all", "check-links", "--from", "archive"])[0] == ["archive", "check-links", "validate"]
-    assert main.parse_args(["--no-archive"])[0] == ["download", "enrich", "process", "validate"]
-    assert main.parse_args(["--from", "process", "--no-archive"])[0] == ["process", "validate"]
+    assert main.parse_args(["--no-archive"])[0] == ["download", "enrich", "process", "decode", "validate"]
+    assert main.parse_args(["--from", "process", "--no-archive"])[0] == ["process", "decode", "validate"]
 
 
 @pytest.mark.parametrize("argv", [["download", "--only"], ["--skip"], ["--only", "--skip", "x"], ["bogus"],

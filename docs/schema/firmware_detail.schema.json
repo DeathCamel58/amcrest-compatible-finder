@@ -15,6 +15,11 @@
       "type": "string",
       "pattern": "^[0-9a-f]{64}$"
     },
+    "schemaVersion": {
+      "description": "What the file holds, so readers can feature-detect: 2 adds hardware_sources[].lines. A file without it is version 1",
+      "type": "integer",
+      "minimum": 2
+    },
     "hardware_sources": {
       "description": "Where each hardware ID was read from",
       "type": "array",
@@ -111,6 +116,13 @@
           "description": "Set instead of raw when this source lists exactly the same entries as an earlier source of the same firmware (its hwid file and check.img usually do): that source's position in hardware_sources (0-based)",
           "type": "integer",
           "minimum": 0
+        },
+        "lines": {
+          "description": "hwid, check_img and folder sources: each raw line decoded (raw_same_as resolved). Made from raw by the pipeline, so it's always in step with it",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hwidLine"
+          }
         }
       },
       "additionalProperties": false
@@ -636,6 +648,123 @@
           ]
         }
       ]
+    },
+    "hwidCode": {
+      "type": "object",
+      "required": [
+        "code",
+        "name"
+      ],
+      "properties": {
+        "code": {
+          "description": "The field's value, upper-case hex",
+          "type": "string",
+          "pattern": "^[0-9A-F]{2,}$"
+        },
+        "name": {
+          "description": "What the code means, or null for a code that isn't mapped yet",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "hwidLine": {
+      "description": "One hardware ID line (MODEL:f1:f2:...) decoded; see docs/FIRMWARE_DATA.md for the fields and how sure each one is",
+      "type": "object",
+      "required": [
+        "model",
+        "raw",
+        "layout",
+        "fieldCount",
+        "decoded"
+      ],
+      "properties": {
+        "model": {
+          "description": "Field 0, the model name",
+          "type": "string"
+        },
+        "raw": {
+          "description": "The line as the firmware gives it",
+          "type": "string"
+        },
+        "layout": {
+          "description": "Field 1 (HWID_VERSION) when it's the camera layout (1), else null: switches, the NKB1000 and bare board IDs aren't decoded",
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "fieldCount": {
+          "description": "Fields after the model name (21, 22 or 23 on most lines)",
+          "type": "integer",
+          "minimum": 0
+        },
+        "decoded": {
+          "description": "The fields known well enough to show; a field that's absent or unreadable is left out. Empty unless layout is 1",
+          "type": "object",
+          "properties": {
+            "category": {
+              "description": "Field 2 (CATEGORY): product type",
+              "$ref": "#/$defs/hwidCode"
+            },
+            "formFactor": {
+              "description": "Field 3 (SUB_CATEGORY), IP cameras only",
+              "$ref": "#/$defs/hwidCode"
+            },
+            "sensor": {
+              "description": "Field 4 (FVIDEO_CHIP): image sensor",
+              "$ref": "#/$defs/hwidCode"
+            },
+            "soc": {
+              "description": "Field 5 (DSP_CHIP): SoC. A package's own soc is more reliable",
+              "$ref": "#/$defs/hwidCode"
+            },
+            "videoChannels": {
+              "description": "Field 7 (VIDEO_CHANNEL)",
+              "type": "integer",
+              "minimum": 0
+            },
+            "audioIn": {
+              "description": "Field 9 (AUDIO_IN_CHANNEL); left out for values other than 00/01",
+              "type": "boolean"
+            },
+            "audioOut": {
+              "description": "Field 10 (AUDIO_OUT_CHANNEL)",
+              "type": "boolean"
+            },
+            "microSD": {
+              "description": "Field 11 (STORE_INTERFACE): has a microSD slot",
+              "type": "boolean"
+            },
+            "cpuMhz": {
+              "description": "Field 12 (CPU_COUNT): CPU clock in MHz per core or cluster",
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "wifi": {
+              "description": "Field 14 (WIRELESS_INTERFACE); left out for values other than 00/02",
+              "type": "boolean"
+            },
+            "videoOut": {
+              "description": "Field 16 (VD_INTERFACE): video output",
+              "$ref": "#/$defs/hwidCode"
+            },
+            "ramMiB": {
+              "description": "Field 21 (PHY_MEMSIZE): RAM in MiB",
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

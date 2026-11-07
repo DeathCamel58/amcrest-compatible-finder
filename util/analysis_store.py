@@ -15,10 +15,16 @@ import json
 import os
 import tempfile
 
+from util.hwid_lines import with_lines
+
 DATA_DIR = "data"
 DETAIL_DIR = os.path.join(DATA_DIR, "firmware")
 LAYOUT_DIR = os.path.join(DATA_DIR, "layouts")
 ID_LENGTH = 16
+# A detail file's schemaVersion, so readers can tell what it holds. Increase when a derived field is added or changes
+# shape; upgrade_details() then rewrites the stored files from what they already hold, without the firmware.
+# 2: hardware_sources[].lines, the decoded hardware ID lines (files without schemaVersion are version 1)
+DETAIL_SCHEMA_VERSION = 2
 
 # What stays in the index; everything else in a result goes to its detail file
 DETAIL_FIELDS = ("hardware_sources", "packages")
@@ -94,7 +100,8 @@ def dedupe_sources(sources):
 def expand_sources(sources):
     result = []
     for source in sources or []:
-        source = dict(source)
+        # lines are derived from raw, and made again when the detail is stored
+        source = {key: value for key, value in source.items() if key != "lines"}
         same_as = source.pop("raw_same_as", None)
         if same_as is not None:
             source["raw"] = [list(item) if isinstance(item, list) else item for item in result[same_as]["raw"]]
@@ -144,7 +151,8 @@ def split_result(result, sha256):
     packages, layouts = split_packages(result.get("packages"))
     detail = {
         "sha256": sha256.lower(),
-        "hardware_sources": dedupe_sources(result.get("hardware_sources")),
+        "schemaVersion": DETAIL_SCHEMA_VERSION,
+        "hardware_sources": with_lines(dedupe_sources(result.get("hardware_sources"))),
         "packages": packages,
     }
     socs = socs_summary(result.get("packages"))
@@ -161,6 +169,22 @@ def write_detail(detail, layouts):
         if not os.path.exists(path):
             _write_json(path, {"id": layout, "partitions": rows})
     _write_json(detail_path(detail["sha256"]), detail)
+
+
+def upgrade_details():
+    """Bring every stored detail file up to the current schemaVersion and decoder (e.g. after a sensor code is added)
+    from what it already holds, without reading the firmware. Only files that change are written, so it can run on
+    every pass. Returns (files rewritten, hardware ID lines decoded in all files)."""
+    rewritten = lines = 0
+    for path in sorted(stored_files(DETAIL_DIR)):
+        detail = _read_json(path)
+        upgraded = dict(detail, schemaVersion=DETAIL_SCHEMA_VERSION,
+                        hardware_sources=with_lines(detail.get("hardware_sources")))
+        lines += sum(len(source.get("lines") or []) for source in upgraded["hardware_sources"])
+        if upgraded != detail:
+            _write_json(path, upgraded)
+            rewritten += 1
+    return rewritten, lines
 
 
 def load_layout(layout):

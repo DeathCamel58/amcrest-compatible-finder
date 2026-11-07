@@ -249,8 +249,12 @@ def test_files_published_unpacked_inherit_their_folders_ids(write_file):
     assert index["Other_kernel.img"]["status"] != "ok"  # a different folder
     with open(index["DHVision_X_kernel.img"]["detail"]) as f:
         detail = json.load(f)
-    assert detail["hardware_sources"] == [{"source": "folder", "member": "DHVision_X_check.img", "firmware": None,
-                                           "ids": ["IPC-HF5200"], "counted": True}]
+    # It also carries the metadata file's hardware ID lines, decoded like the file's own
+    assert detail["hardware_sources"] == [{
+        "source": "folder", "member": "DHVision_X_check.img", "firmware": None, "ids": ["IPC-HF5200"],
+        "counted": True, "raw": ["IPC-HF5200:01:02"],
+        "lines": [{"model": "IPC-HF5200", "raw": "IPC-HF5200:01:02", "layout": 1, "fieldCount": 2,
+                   "decoded": {"category": {"code": "02", "name": "IP camera"}}}]}]
     assert detail["packages"]  # its own package (the kernel image) is kept
     # Running it again changes nothing
     assert firmware_processing.inherit_folder_results(cameras) == 0

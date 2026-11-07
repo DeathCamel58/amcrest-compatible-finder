@@ -185,14 +185,26 @@ non-ASCII.
 ```json
 {
     "sha256": "3f9a1c2e7b4d5a60...",
+    "schemaVersion": 2,
     "hardware_sources": [
         {"source": "install", "member": "Install", "firmware": null,
          "ids": ["IPC-HX3XXX"], "raw": [["IPC-HX3XXX", "1.00"]], "vendor": "General", "counted": false},
         {"source": "hwid", "member": "hwid", "firmware": null, "ids": ["IPC-HFW2541SP-S", "..."],
          "raw": ["IPC-HFW2541SP-S:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100", "..."],
-         "counted": true},
+         "counted": true,
+         "lines": [{"model": "IPC-HFW2541SP-S",
+                    "raw": "IPC-HFW2541SP-S:01:02:04:C8:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100",
+                    "layout": 1, "fieldCount": 21,
+                    "decoded": {"category": {"code": "02", "name": "IP camera"},
+                                "formFactor": {"code": "04", "name": "Dome (mostly)"},
+                                "sensor": {"code": "C8", "name": "SC530AI"},
+                                "soc": {"code": "62", "name": "Infinity6C"},
+                                "videoChannels": 1, "audioIn": true, "audioOut": false, "microSD": true,
+                                "cpuMhz": [1200], "wifi": false, "videoOut": {"code": "00", "name": "None"},
+                                "ramMiB": 256}},
+                   "..."]},
         {"source": "check_img", "member": "check.img", "firmware": null, "ids": ["IPC-HFW2541SP-S", "..."],
-         "raw_same_as": 1, "counted": true}
+         "raw_same_as": 1, "counted": true, "lines": ["... the same lines as source 1 ..."]}
     ],
     "packages": [{
         "firmware": null,
@@ -241,6 +253,8 @@ storing each once keeps the data small. A package with no partition table has `"
 | Field | Description |
 |---|---|
 | `hardware_sources[]` | One entry per place that lists hardware. `source`: `hwid` (the `hwid` file), `check_img` (`check.img`'s hwid list), `install` (`Install`'s `Devices`), `install_lua` (`Install.lua`'s `board.name`/`vendor.Name` checks), `dhi7` (a DHI7 header's device type: x86 recorders, keyboards and servers such as `NVR6XX-4KS2`, `NKB5000`, `EVS70XX`, `DSS7016`), `android_ota` (an Android OTA package's `pre-device`, the board the update checks for, e.g. `px30_evb`), `folder` (inherited, see below) or `uboot` (the u-boot image's board name, only used when nothing else lists hardware). `member`: path inside its container. `firmware`: the inner firmware's file name in a bundle, else `null`. `raw`: the full hwid entries (the part after the first `:` encodes hardware revision details) or `Install`'s `[id, version]` pairs. `vendor`: `Install`'s `Vendor` (or a DHI7 header's). The hwid and `check.img` lists are what the device itself checks before installing, so they're the most reliable; `Install` lists board families; `install_lua` can include generic names like `DAHUA`. `raw_same_as`: set instead of `raw` when the list is exactly the same as an earlier source's (a firmware's `hwid` file and `check.img` usually are); it's that source's position in `hardware_sources`, so copy its `raw`. `counted`: whether these IDs are in `hardware_ids`. Every source is listed, but within one folder of one firmware only the most specific one counts (hwid/`check.img`/`dhi7`, then `install`, then `install_lua`, then `android_ota`, then `uboot`), so a board family like `IPC-HX3XXX` doesn't make a firmware look compatible with every camera in that family. **`folder`**: some mirrors (DH Vision) publish a firmware unpacked, one file per member. Its partition images don't list hardware, so they get the IDs of the `check.img`, `hwid` or `Install` published in the same folder; `member` names that file, and it always counts. |
+| `schemaVersion` | What the file holds, for feature detection: `2` adds `hardware_sources[].lines`. Files without it are version 1. The `decode` stage brings every stored file up to the current version from what it already holds (no firmware needed). |
+| `hardware_sources[].lines` | `hwid`, `check_img` and `folder` sources only: each `raw` line decoded (with `raw_same_as` already resolved, so every such source has its own `lines`). See [Hardware ID lines](#hardware-id-lines) below. |
 | `package_format` | The file's container: `zip`, `dh` (Dahua's zip variant with `DH` signatures), `dhsp` (PTZ variant), `dhi7` (a DHI7 image), `rar` or `7z` (an archive around the firmware, unpacked first), `bundle` (a zip or `.bin` holding two or more firmwares) or `other` (not zip-style; read by binwalk). Packages use the same values except `rar`, `7z` and `bundle`. |
 | `packages[]` | One per firmware image set: the file itself, or each firmware nested in a bundle (`firmware` names it; a plain wrapper zip around one `.bin` gives one package named after the `.bin`). |
 | `packages[].architecture` | CPU architecture from the image headers (`arm`, `arm64`, `mips`...). |
@@ -263,6 +277,40 @@ storing each once keeps the data small. A package with no partition table has `"
   board.
 - Use `hardware.models` and `hardware.boards` for search; `hardware.hwids` only identify a board, and
   `hardware.ignored` aren't models at all.
+
+### Hardware ID lines
+
+A `hwid` / `check.img` line is `MODEL:f1:f2:…:f21[:f22[:f23]]`: one hardware build the firmware installs on, which
+the installer compares with the ID stored on the device. Fields are hex; field 12 is a `_`-separated list. The field
+names are Dahua's own (the `gethwid` tool's help) and the parsing follows Dahua's parser (`pdc.ko`). Each line in
+`lines` has:
+
+- `model` (field 0) and `raw` (the line itself).
+- `layout`: field 1 when it's the camera layout (`1`), else `null`. Switches (`02`), the NKB1000 keyboard and bare
+  board IDs use other layouts, so they get an empty `decoded`.
+- `fieldCount`: the number of fields after the model (21, 22 or 23 on almost every line).
+- `decoded`: only the fields known well enough to show. A field that's absent or unreadable is left out. A table
+  field with a code that isn't mapped yet keeps its key, as `{"code": "98", "name": null}` (show "unknown (0x98)").
+
+| Key | Field (Dahua's name) | Meaning | How sure |
+|---|---|---|---|
+| `category` | 2 CATEGORY | Product type: IP camera, PTZ, traffic, thermal, access control… | Read from Dahua's code |
+| `formFactor` | 3 SUB_CATEGORY | IP cameras only: bullet, dome, fisheye, pinhole… | Consistent across the data; 04 is mostly domes but includes some bullets |
+| `sensor` | 4 FVIDEO_CHIP | Image sensor | SmartSens codes from Dahua's sensor constants; the rest from the sensor drivers' tables, checked against model resolutions. The sensor driver can correct the code at boot, so this is the sensor the board was built for (23 = OV4689 was checked on hardware) |
+| `soc` | 5 DSP_CHIP | SoC | From which SoC each code goes with in the data. Prefer `packages[].soc` |
+| `videoChannels` | 7 VIDEO_CHANNEL | Number of video inputs | Read from Dahua's scripts |
+| `audioIn` / `audioOut` | 9 / 10 | Audio input / output | Consistent across the data; other audio-in codes (03, 07) are left out |
+| `microSD` | 11 STORE_INTERFACE | Has a microSD slot | Read from Dahua's scripts |
+| `cpuMhz` | 12 CPU_COUNT | CPU clock in MHz, one per core or cluster (e.g. `[1800, 1200, 1200]`) | Parsing from Dahua's code; the values match published clocks |
+| `wifi` | 14 WIRELESS_INTERFACE | Wi-Fi (02) or none (00); other codes left out | Read from Dahua's scripts |
+| `videoOut` | 16 VD_INTERFACE | None, analog (CVBS), HDMI, SDI, built-in display | 00 read from Dahua's scripts; the rest match model names |
+| `ramMiB` | 21 PHY_MEMSIZE | RAM in MiB | Read from Dahua's scripts and checked on hardware |
+
+Not decoded (meanings unknown or only guessed): fields 6 (BVIDEO_CHIP), 8 (ANALOG_AUDIO_MODE), 13 (ALARM_MODE),
+15 (HD_ENCODE), 17 (NET_INTERFACE), 18 (INTE_ANALYSE), 19 (lens type), 20 (VIDEO_STAND), 22 and 23. They stay in
+`raw`. The tables live in `util/hwid_lines.py`; after adding a code there, `python main.py decode validate` updates
+every detail file. The same model can appear with different values in different firmwares (a sensor or RAM change),
+so decode per firmware rather than once per model.
 
 ## `wanted.json`: firmware known to exist that we don't have
 

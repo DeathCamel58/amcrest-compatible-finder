@@ -89,7 +89,7 @@ from util.file_identity import assign_duplicates, assign_truncated_copies, get_f
 from util.firmware_processing import (firmware_processing_lock, flush_results, inherit_folder_results, mark_not_dahua,
                                       needs_processing, process_firmware_threaded)
 from util.wanted import refresh_file as refresh_wanted
-from util.analysis_store import join_result, remove_unreferenced, split_result, write_detail
+from util.analysis_store import join_result, remove_unreferenced, split_result, upgrade_details, write_detail
 from util.json_tools import (CAMERAS_JSON, JsonFileLock, get_cameras_json, save_cameras_json, get_firmware_json,
                              save_firmware_json, json_lock)
 
@@ -1152,6 +1152,17 @@ def process_all_firmwares():
         print(f'Removed {removed} detail and layout files no firmware refers to anymore')
 
 
+def decode_details():
+    """Bring the detail files up to date with the hardware ID line decoder (util/hwid_lines.py) from what they already
+    hold, so a newly mapped code or a new schemaVersion reaches every firmware without reading the firmware files."""
+    # Folder sources made before they carried their metadata file's lines get them now
+    inherited = inherit_folder_results(get_cameras_json())
+    if inherited:
+        print(f'Updated the folder sources of {inherited} firmwares published unpacked')
+    rewritten, lines = upgrade_details()
+    print(f'Decoded {lines} hardware ID lines; {rewritten} detail files changed')
+
+
 def with_platform(entry, path):
     if entry.get('platform') not in (None, 'unknown'):
         return entry
@@ -1431,13 +1442,13 @@ def validate_outputs():
 
 
 # Stages in the order they run. A full run is every stage except check-links (slow, and only needed now and then)
-STAGES = ('download', 'enrich', 'process', 'archive', 'check-links', 'validate')
+STAGES = ('download', 'enrich', 'process', 'decode', 'archive', 'check-links', 'validate')
 STAGE_GROUPS = {
-    'all': ('download', 'enrich', 'process', 'archive', 'validate'),
+    'all': ('download', 'enrich', 'process', 'decode', 'archive', 'validate'),
     # Everything that works from the files already downloaded, without uploading
-    'analyse': ('enrich', 'process', 'validate'),
+    'analyse': ('enrich', 'process', 'decode', 'validate'),
     # Find and download new firmwares and analyse them, but don't upload
-    'update': ('download', 'enrich', 'process', 'validate'),
+    'update': ('download', 'enrich', 'process', 'decode', 'validate'),
 }
 USAGE = ('usage: python main.py [STAGE|GROUP ...] [--from STAGE] [--to STAGE] [--no-archive] [--only NAME[,NAME...]] '
          '[--skip NAME[,NAME...]] [--list-sources]')
@@ -1447,6 +1458,7 @@ Stages, always run in this order whatever order they're given in:
   download     list every source and download new firmwares
   enrich       hash, de-duplicate and tidy the downloaded files, and move out non-firmware
   process      read the hardware IDs, SoC and partition layout from each firmware
+  decode       decode the hardware ID lines in the detail files again from their raw lines (no firmware needed)
   archive      upload new firmwares to archive.org and refresh changed item metadata
   check-links  check whether the listed download links still work (not part of "all")
   validate     check cameras.json and firmware_compatible.json against the schema
@@ -1457,7 +1469,7 @@ Groups:
   update       {' '.join(STAGE_GROUPS['update'])}
 
 Options:
-  --from STAGE   start at this stage of the selection (e.g. "--from process" = process archive validate)
+  --from STAGE   start at this stage of the selection (e.g. "--from process" = process decode archive validate)
   --to STAGE     stop after this stage of the selection
   --no-archive   leave out the archive stage (e.g. "python main.py --no-archive" = the full run without uploading)
   --only NAMES   list only these sources (module, display or vendor names, comma-separated)
@@ -1467,7 +1479,8 @@ Options:
 Examples:
   python main.py archive                      upload to archive.org only
   python main.py download process             download, then process (enrich isn't run)
-  python main.py --from process               process, archive, validate
+  python main.py --from process               process, decode, archive, validate
+  python main.py decode validate              refresh the decoded hardware ID lines (e.g. after adding a sensor code)
   python main.py --no-archive                 the full run without uploading to archive.org
   python main.py download --only EmpireTech   one source's downloads, e.g. through a VPN"""
 
@@ -1536,7 +1549,8 @@ if __name__ == '__main__':
     # See HELP, or run `python main.py --help`. With no stages named, everything but check-links runs.
     # A partial run (--only/--skip) only refreshes the listings (last_seen, latest) of the sources it ran
     stage_functions = {'download': get_all_firmwares, 'enrich': enrich_firmwares, 'process': process_all_firmwares,
-                       'archive': archive_all_firmwares, 'check-links': check_all_links, 'validate': validate_outputs}
+                       'decode': decode_details, 'archive': archive_all_firmwares, 'check-links': check_all_links,
+                       'validate': validate_outputs}
     stages, only, skip = parse_args(sys.argv[1:])
     ONLY_MODULES.update(only)
     SKIP_MODULES.update(skip)
