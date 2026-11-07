@@ -12,6 +12,267 @@
     "IPC-HDBW2831R-ZS-3711",
     "IPC-HDBW2831R-ZAS-3711"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R",
+     "raw": "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R-S",
+     "raw": "IPC-HDBW1831R-S:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1831E",
+     "raw": "IPC-HFW1831E:01:02:02:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZS-3711",
+     "raw": "IPC-HFW2831T-ZS-3711:01:02:02:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZAS-3711",
+     "raw": "IPC-HFW2831T-ZAS-3711:01:02:02:64:2C:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZS-3711",
+     "raw": "IPC-HDBW2831R-ZS-3711:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZAS-3711",
+     "raw": "IPC-HDBW2831R-ZAS-3711:01:02:05:64:2C:00:01:0E:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200",
@@ -52,6 +313,267 @@
     "IPC-HDBW2831R-ZS-3711",
     "IPC-HDBW2831R-ZAS-3711"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R",
+     "raw": "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R-S",
+     "raw": "IPC-HDBW1831R-S:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1831E",
+     "raw": "IPC-HFW1831E:01:02:02:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZS-3711",
+     "raw": "IPC-HFW2831T-ZS-3711:01:02:02:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZAS-3711",
+     "raw": "IPC-HFW2831T-ZAS-3711:01:02:02:64:2C:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZS-3711",
+     "raw": "IPC-HDBW2831R-ZS-3711:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZAS-3711",
+     "raw": "IPC-HDBW2831R-ZAS-3711:01:02:05:64:2C:00:01:0E:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -83,6 +605,267 @@
     "IPC-HFW2831T-ZAS-3711",
     "IPC-HDBW2831R-ZS-3711",
     "IPC-HDBW2831R-ZAS-3711"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R",
+     "raw": "IPC-HDBW1831R:01:02:05:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1831R-S",
+     "raw": "IPC-HDBW1831R-S:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1831E",
+     "raw": "IPC-HFW1831E:01:02:02:64:2C:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZS-3711",
+     "raw": "IPC-HFW2831T-ZS-3711:01:02:02:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831T-ZAS-3711",
+     "raw": "IPC-HFW2831T-ZAS-3711:01:02:02:64:2C:00:01:0F:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZS-3711",
+     "raw": "IPC-HDBW2831R-ZS-3711:01:02:05:64:2C:00:01:00:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2831R-ZAS-3711",
+     "raw": "IPC-HDBW2831R-ZAS-3711:01:02:05:64:2C:00:01:0E:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -416,5 +1199,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "dc50a597a94d28fc0f6ac2cdcece0a1caa76cace00e04ed0a8c27d542c66821e"
 }

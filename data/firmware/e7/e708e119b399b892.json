@@ -17,6 +17,407 @@
     "IPC-HFW2449M-ST-L8",
     "IPC-HFW2449M-S-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-LED-PRO",
+     "raw": "IPC-HFW2449TL-S-LED-PRO:01:02:00:B3:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-LED-PRO-QH",
+     "raw": "IPC-HFW2449TL-S-LED-PRO-QH:01:02:00:12C:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-AS-B-PRO",
+     "raw": "IPC-HFW2449M-AS-B-PRO:01:02:00:B3:73:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-PRO-QH-K",
+     "raw": "IPC-HFW2449TL-S-PRO-QH-K:01:02:00:12C:73:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-LED-B-PRO",
+     "raw": "IPC-HFW2449M-LED-B-PRO:01:02:00:B3:73:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-S-PV-B-PRO",
+     "raw": "IPC-HFW2449M-S-PV-B-PRO:01:02:00:B3:73:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2249TL-S-LED-PRO",
+     "raw": "IPC-HFW2249TL-S-LED-PRO:01:02:00:116:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2249M-AS-B-PRO",
+     "raw": "IPC-HFW2249M-AS-B-PRO:01:02:00:116:73:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-A-LED",
+     "raw": "IPC-HFW2449M-A-LED:01:02:02:B3:73:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-AS-LED",
+     "raw": "IPC-HFW2449M-AS-LED:01:02:02:B3:73:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-ST-L8",
+     "raw": "IPC-HFW2449M-ST-L8:01:02:00:B3:73:00:01:10:05:01:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-S-PV",
+     "raw": "IPC-HFW2449M-S-PV:01:02:00:B3:73:00:01:10:05:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2449TL-S-LED-PRO:01:02:00:B3:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100",
@@ -66,6 +467,407 @@
     "IPC-HFW2449M-AS-LED",
     "IPC-HFW2449M-ST-L8",
     "IPC-HFW2449M-S-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-LED-PRO",
+     "raw": "IPC-HFW2449TL-S-LED-PRO:01:02:00:B3:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-LED-PRO-QH",
+     "raw": "IPC-HFW2449TL-S-LED-PRO-QH:01:02:00:12C:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-AS-B-PRO",
+     "raw": "IPC-HFW2449M-AS-B-PRO:01:02:00:B3:73:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449TL-S-PRO-QH-K",
+     "raw": "IPC-HFW2449TL-S-PRO-QH-K:01:02:00:12C:73:00:01:00:00:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-LED-B-PRO",
+     "raw": "IPC-HFW2449M-LED-B-PRO:01:02:00:B3:73:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-S-PV-B-PRO",
+     "raw": "IPC-HFW2449M-S-PV-B-PRO:01:02:00:B3:73:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2249TL-S-LED-PRO",
+     "raw": "IPC-HFW2249TL-S-LED-PRO:01:02:00:116:73:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2249M-AS-B-PRO",
+     "raw": "IPC-HFW2249M-AS-B-PRO:01:02:00:116:73:00:01:10:03:01:04:3E8:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-A-LED",
+     "raw": "IPC-HFW2449M-A-LED:01:02:02:B3:73:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-AS-LED",
+     "raw": "IPC-HFW2449M-AS-LED:01:02:02:B3:73:00:01:10:03:01:04:4B0:08:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-ST-L8",
+     "raw": "IPC-HFW2449M-ST-L8:01:02:00:B3:73:00:01:10:05:01:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449M-S-PV",
+     "raw": "IPC-HFW2449M-S-PV:01:02:00:B3:73:00:01:10:05:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -229,5 +1031,6 @@
    "software_version": "V3.120.0000000.32.R.251222"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e708e119b399b89244e5ef31ac61658cde4e9e5d638704f64c7f0458ab35c8cf"
 }

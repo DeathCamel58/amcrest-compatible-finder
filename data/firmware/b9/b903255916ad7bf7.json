@@ -14,6 +14,313 @@
     "IPC-HFW1431TC1-SA-S6",
     "IPC-HFW1230TC1-SA-S6"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1439V-A-IL",
+     "raw": "IPC-HDW1439V-A-IL:01:02:13:D7:66:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-A-LED",
+     "raw": "IPC-B1A40-A-LED:01:02:00:B3:66:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1439TC1-SA-IL-S6",
+     "raw": "IPC-HFW1439TC1-SA-IL-S6:01:02:00:109:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1439TL1-PV",
+     "raw": "IPC-HFW1439TL1-PV:01:02:00:D7:66:00:01:10:01:01:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TL1-A-IL",
+     "raw": "IPC-HFW1239TL1-A-IL:01:02:13:CF:66:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TC1-SA-IL-S6",
+     "raw": "IPC-HFW1239TC1-SA-IL-S6:01:02:00:102:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TL1-PV",
+     "raw": "IPC-HFW1239TL1-PV:01:02:00:102:66:00:01:10:01:01:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1431TC1-SA-S6",
+     "raw": "IPC-HFW1431TC1-SA-S6:01:02:00:109:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230TC1-SA-S6",
+     "raw": "IPC-HFW1230TC1-SA-S6:01:02:00:102:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDW1439V-A-IL:01:02:13:D7:66:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80",
@@ -57,6 +364,313 @@
     "IPC-HFW1239TL1-PV",
     "IPC-HFW1431TC1-SA-S6",
     "IPC-HFW1230TC1-SA-S6"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1439V-A-IL",
+     "raw": "IPC-HDW1439V-A-IL:01:02:13:D7:66:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-A-LED",
+     "raw": "IPC-B1A40-A-LED:01:02:00:B3:66:00:01:10:01:00:00:4B0:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1439TC1-SA-IL-S6",
+     "raw": "IPC-HFW1439TC1-SA-IL-S6:01:02:00:109:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1439TL1-PV",
+     "raw": "IPC-HFW1439TL1-PV:01:02:00:D7:66:00:01:10:01:01:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TL1-A-IL",
+     "raw": "IPC-HFW1239TL1-A-IL:01:02:13:CF:66:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TC1-SA-IL-S6",
+     "raw": "IPC-HFW1239TC1-SA-IL-S6:01:02:00:102:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239TL1-PV",
+     "raw": "IPC-HFW1239TL1-PV:01:02:00:102:66:00:01:10:01:01:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1431TC1-SA-S6",
+     "raw": "IPC-HFW1431TC1-SA-S6:01:02:00:109:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "102",
+       "name": "SC223AP"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230TC1-SA-S6",
+     "raw": "IPC-HFW1230TC1-SA-S6:01:02:00:102:66:00:01:10:01:00:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -317,5 +931,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b903255916ad7bf7431cab3a7025683f2771f48fef0cb491df1c5576a215143d"
 }

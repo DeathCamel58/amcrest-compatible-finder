@@ -7,6 +7,82 @@
     "IPC-HFW1830SP-S6",
     "IPC-HDBW1830EP-S6"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1830SP-S6",
+     "raw": "IPC-HFW1830SP-S6:01:02:13:A2:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1830EP-S6",
+     "raw": "IPC-HDBW1830EP-S6:01:02:05:A2:3D:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1830SP-S6:01:02:13:A2:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-HFW1830SP-S6",
     "IPC-HDBW1830EP-S6"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1830SP-S6",
+     "raw": "IPC-HFW1830SP-S6:01:02:13:A2:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1830EP-S6",
+     "raw": "IPC-HDBW1830EP-S6:01:02:05:A2:3D:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -205,5 +357,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d431459ae0749ca69f2a12415fa736549f44b31720553ee1a1a6db52e5728fe3"
 }

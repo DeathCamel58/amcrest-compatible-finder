@@ -6,6 +6,72 @@
    "ids": [
     "VTO3221D"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO3221D",
+     "raw": "VTO3221D:01:04:01:36:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO3221D",
+     "raw": "VTO3221D:01:04:01:36:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:01:00:200:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO3221D:01:04:01:36:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200:FF",
@@ -59,6 +125,72 @@
    "firmware": "Customer_VTO3211D_Eng_P_32M_SIP_V3.200.10M7000.0.T.20181116.bin",
    "ids": [
     "VTO3221D"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO3221D",
+     "raw": "VTO3221D:01:04:01:36:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO3221D",
+     "raw": "VTO3221D:01:04:01:36:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:01:00:200:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -254,5 +386,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5a4d2526b9a80a93696febff76d0dde7b6fc4812e715306c698455492c32a628"
 }

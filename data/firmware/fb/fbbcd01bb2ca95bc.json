@@ -23,6 +23,74 @@
     "IPC-P3DP-3F-PV-P-PRO",
     "IPC-P3DW-3F-PV-P"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3DP-3F-PV-P-PRO",
+     "raw": "IPC-P3DP-3F-PV-P-PRO:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3DW-3F-PV-P",
+     "raw": "IPC-P3DW-3F-PV-P:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-P3DP-3F-PV-P-PRO:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100",
@@ -99,5 +167,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "fbbcd01bb2ca95bce1dd251d28a52954ef44b2d30c5dc40f267af02ae255e90c"
 }

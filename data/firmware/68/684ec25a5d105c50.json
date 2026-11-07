@@ -7,6 +7,74 @@
     "IPC-P5XP-PV-0360B",
     "IPC-P3XP-PV-0280B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "8C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5XP-PV-0360B",
+     "raw": "IPC-P5XP-PV-0360B:01:02:00:100:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "8C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3XP-PV-0280B",
+     "raw": "IPC-P3XP-PV-0280B:01:02:00:FA:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-P5XP-PV-0360B:01:02:00:100:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-P5XP-PV-0360B",
     "IPC-P3XP-PV-0280B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "8C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5XP-PV-0360B",
+     "raw": "IPC-P5XP-PV-0360B:01:02:00:100:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "8C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3XP-PV-0280B",
+     "raw": "IPC-P3XP-PV-0280B:01:02:00:FA:8C:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -121,5 +257,6 @@
    "software_version": "V2.820.0000000.1.R.260618"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "684ec25a5d105c5072c989da305bde9acddec001c03efbe0e1515b1af96c14d7"
 }

@@ -8,6 +8,107 @@
     "SD-MT1A4004DB1-B",
     "SD-MT1A2004DB1-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-A",
+     "raw": "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-B",
+     "raw": "SD-MT1A4004DB1-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A2004DB1-A",
+     "raw": "SD-MT1A2004DB1-A:01:03:04:79:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200",
@@ -39,6 +140,107 @@
     "SD-MT1A4004DB1-A",
     "SD-MT1A4004DB1-B",
     "SD-MT1A2004DB1-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-A",
+     "raw": "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-B",
+     "raw": "SD-MT1A4004DB1-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A2004DB1-A",
+     "raw": "SD-MT1A2004DB1-A:01:03:04:79:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -52,6 +254,107 @@
     "SD-MT1A4004DB1-B",
     "SD-MT1A2004DB1-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-A",
+     "raw": "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-B",
+     "raw": "SD-MT1A4004DB1-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A2004DB1-A",
+     "raw": "SD-MT1A2004DB1-A:01:03:04:79:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200",
@@ -83,6 +386,107 @@
     "SD-MT1A4004DB1-A",
     "SD-MT1A4004DB1-B",
     "SD-MT1A2004DB1-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-A",
+     "raw": "SD-MT1A4004DB1-A:01:03:04:78:5B:00:01:10:01:03:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A4004DB1-B",
+     "raw": "SD-MT1A4004DB1-B:01:03:04:78:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT1A2004DB1-A",
+     "raw": "SD-MT1A2004DB1-A:01:03:04:79:5B:00:01:10:01:01:04:3E8:04:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -313,5 +717,6 @@
    "software_version": "V3.201.0000007.1.R.260413"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c3fe39ad5229210e8fbe2cde322d906bf33bb535a4e2e6db8f6ea4dad1cc6e21"
 }

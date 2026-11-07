@@ -19,6 +19,494 @@
     "IPC-C5AP",
     "IPC-C3AP"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5B",
+     "raw": "IPC-H5B:01:02:08:E6:66:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3B",
+     "raw": "IPC-H3B:01:02:08:FA:66:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-360B",
+     "raw": "IPC-P5BP-360B:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-360B",
+     "raw": "IPC-P3BP-360B:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-PV-360B-Crystal",
+     "raw": "IPC-P5BP-PV-360B-Crystal:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-PV-360B-Diamond",
+     "raw": "IPC-P5BP-PV-360B-Diamond:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-PV-360B-Crystal",
+     "raw": "IPC-P3BP-PV-360B-Crystal:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-PV-360B-Diamond",
+     "raw": "IPC-P3BP-PV-360B-Diamond:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5AE",
+     "raw": "IPC-H5AE:01:02:08:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3AE",
+     "raw": "IPC-H3AE:01:02:08:FA:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5A",
+     "raw": "IPC-H5A:01:02:08:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3A",
+     "raw": "IPC-H3A:01:02:08:FA:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C5AP",
+     "raw": "IPC-C5AP:01:02:00:100:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C3AP",
+     "raw": "IPC-C3AP:01:02:00:FA:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-H5B:01:02:08:E6:66:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40",
@@ -72,6 +560,494 @@
     "IPC-H3A",
     "IPC-C5AP",
     "IPC-C3AP"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5B",
+     "raw": "IPC-H5B:01:02:08:E6:66:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3B",
+     "raw": "IPC-H3B:01:02:08:FA:66:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-360B",
+     "raw": "IPC-P5BP-360B:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-360B",
+     "raw": "IPC-P3BP-360B:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-PV-360B-Crystal",
+     "raw": "IPC-P5BP-PV-360B-Crystal:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P5BP-PV-360B-Diamond",
+     "raw": "IPC-P5BP-PV-360B-Diamond:01:02:00:BF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-PV-360B-Crystal",
+     "raw": "IPC-P3BP-PV-360B-Crystal:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3BP-PV-360B-Diamond",
+     "raw": "IPC-P3BP-PV-360B-Diamond:01:02:00:CF:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5AE",
+     "raw": "IPC-H5AE:01:02:08:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3AE",
+     "raw": "IPC-H3AE:01:02:08:FA:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5A",
+     "raw": "IPC-H5A:01:02:08:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3A",
+     "raw": "IPC-H3A:01:02:08:FA:68:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C5AP",
+     "raw": "IPC-C5AP:01:02:00:100:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C3AP",
+     "raw": "IPC-C3AP:01:02:00:FA:68:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -186,5 +1162,6 @@
    "software_version": "V2.860.0000000.26.R.260530"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d28c1d734158da82aa012d39fa411e8c152883e9a097cc63826fd6d7265d322a"
 }

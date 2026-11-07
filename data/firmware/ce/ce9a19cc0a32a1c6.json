@@ -11,6 +11,222 @@
     "IPC-K42",
     "IPC-K42A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D26E",
+     "raw": "IPC-D26E:01:02:00:77:3B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-T26E",
+     "raw": "IPC-T26E:01:02:00:77:3B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22",
+     "raw": "IPC-K22:01:02:07:77:3B:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22A",
+     "raw": "IPC-K22A:01:02:07:77:3B:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42",
+     "raw": "IPC-K42:01:02:07:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42A",
+     "raw": "IPC-K42A:01:02:07:89:3C:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-D26E:01:02:00:77:3B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80",
@@ -48,6 +264,222 @@
     "IPC-K22A",
     "IPC-K42",
     "IPC-K42A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D26E",
+     "raw": "IPC-D26E:01:02:00:77:3B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-T26E",
+     "raw": "IPC-T26E:01:02:00:77:3B:00:01:10:01:01:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22",
+     "raw": "IPC-K22:01:02:07:77:3B:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22A",
+     "raw": "IPC-K22A:01:02:07:77:3B:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42",
+     "raw": "IPC-K42:01:02:07:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42A",
+     "raw": "IPC-K42A:01:02:07:89:3C:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -303,5 +735,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "ce9a19cc0a32a1c610cd987a8cd97d49d7ad99492226cbc732ba2fa09b8aa483"
 }

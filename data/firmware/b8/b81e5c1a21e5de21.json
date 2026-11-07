@@ -6,6 +6,42 @@
    "ids": [
     "SD3A4000GA-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD3A4000GA-A",
+     "raw": "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
@@ -33,6 +69,42 @@
    "firmware": null,
    "ids": [
     "SD3A4000GA-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD3A4000GA-A",
+     "raw": "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -44,6 +116,42 @@
    "ids": [
     "SD3A4000GA-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD3A4000GA-A",
+     "raw": "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
@@ -71,6 +179,42 @@
    "firmware": "check.bin",
    "ids": [
     "SD3A4000GA-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD3A4000GA-A",
+     "raw": "SD3A4000GA-A:01:03:04:86:56:00:01:10:01:01:04:3E8_3E8:04:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -275,5 +419,6 @@
    "software_version": "V3.200.0000031.0.R.250528"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b81e5c1a21e5de21242c3670a5105ba1177b75bb7f6862b53245ea4914384019"
 }

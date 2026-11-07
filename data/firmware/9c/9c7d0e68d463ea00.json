@@ -6,6 +6,45 @@
    "ids": [
     "IPC-PDBW82041-B360-E4-27135"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041-B360-E4-27135",
+     "raw": "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
@@ -96,5 +135,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9c7d0e68d463ea00aa00e5585b4888fd5c8637b8ac17e209cf349f85f7f751da"
 }

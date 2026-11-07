@@ -6,6 +6,45 @@
    "ids": [
     "IPC-WL46AP"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WL46AP",
+     "raw": "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-WL46AP"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WL46AP",
+     "raw": "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -278,5 +356,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d560d4e78dc5b0e906dfb35ca316225f2dda5bbdf811bf6a896b019ee1aec23d"
 }

@@ -9,6 +9,193 @@
     "IPC-PFW83240-A180-E4-G",
     "IPC-PFEW83240-A180-E4-NF-AC220V"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:02:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83242-A180-E4",
+     "raw": "IPC-PFW83242-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:3E8:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4-G",
+     "raw": "IPC-PFW83240-A180-E4-G:01:02:02:87:2D:00:01:10:01:01:04:708:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       2000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFEW83240-A180-E4-NF-AC220V",
+     "raw": "IPC-PFEW83240-A180-E4-NF-AC220V:01:02:02:64:2D:00:01:10:01:01:04:7D0:09:00:00:04:03:01:00:00:2000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000",
@@ -44,6 +231,193 @@
     "IPC-PFW83240-A180-E4-G",
     "IPC-PFEW83240-A180-E4-NF-AC220V"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:02:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83242-A180-E4",
+     "raw": "IPC-PFW83242-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:3E8:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4-G",
+     "raw": "IPC-PFW83240-A180-E4-G:01:02:02:87:2D:00:01:10:01:01:04:708:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       2000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFEW83240-A180-E4-NF-AC220V",
+     "raw": "IPC-PFEW83240-A180-E4-NF-AC220V:01:02:02:64:2D:00:01:10:01:01:04:7D0:09:00:00:04:03:01:00:00:2000"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -72,6 +446,193 @@
     "IPC-PFW83242-A180-E4",
     "IPC-PFW83240-A180-E4-G",
     "IPC-PFEW83240-A180-E4-NF-AC220V"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4",
+     "raw": "IPC-PFW83240-A180-E4:01:02:02:64:2D:00:02:10:01:01:04:708:08:02:02:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83242-A180-E4",
+     "raw": "IPC-PFW83242-A180-E4:01:02:02:64:2D:00:01:10:01:01:04:3E8:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0D",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83240-A180-E4-G",
+     "raw": "IPC-PFW83240-A180-E4-G:01:02:02:87:2D:00:01:10:01:01:04:708:08:00:00:0D:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       2000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFEW83240-A180-E4-NF-AC220V",
+     "raw": "IPC-PFEW83240-A180-E4-NF-AC220V:01:02:02:64:2D:00:01:10:01:01:04:7D0:09:00:00:04:03:01:00:00:2000"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -355,5 +916,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "612f5b70834da7901f0caf325c7e54dc0feb410625e8b3138e8f5f816b3ca16f"
 }

@@ -21,6 +21,600 @@
     "IPC-HFW2431SP-SDZ",
     "IPC-HDW2431TP-ASDZ"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531SP-S",
+     "raw": "IPC-HFW2531SP-S:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2531TP-AS",
+     "raw": "IPC-HDW2531TP-AS:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-ZS-27135-S2",
+     "raw": "IPC-HFW2531TP-ZS-27135-S2:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-ZAS-27135-S2",
+     "raw": "IPC-HFW2531TP-ZAS-27135-S2:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-AS-S2",
+     "raw": "IPC-HFW2531TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2633T-A",
+     "raw": "IPC-HDW2633T-A:01:02:05:7C:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831SP-S-S2",
+     "raw": "IPC-HFW2831SP-S-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2831TP-AS-S2",
+     "raw": "IPC-HDW2831TP-AS-S2:01:02:05:9E:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-ZS-27135-S2",
+     "raw": "IPC-HFW2831TP-ZS-27135-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-ZAS-27135-S2",
+     "raw": "IPC-HFW2831TP-ZAS-27135-S2:01:02:02:9E:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-AS-S2",
+     "raw": "IPC-HFW2831TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2A80-SA",
+     "raw": "IPC-B2A80-SA:01:02:13:A2:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431TP-ZS-27135-S2DZ",
+     "raw": "IPC-HFW2431TP-ZS-27135-S2DZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431TP-ZAS-27135-S2DZ",
+     "raw": "IPC-HFW2431TP-ZAS-27135-S2DZ:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431SP-SDZ",
+     "raw": "IPC-HFW2431SP-SDZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2431TP-ASDZ",
+     "raw": "IPC-HDW2431TP-ASDZ:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2531SP-S:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100",
@@ -78,6 +672,600 @@
     "IPC-HFW2431TP-ZAS-27135-S2DZ",
     "IPC-HFW2431SP-SDZ",
     "IPC-HDW2431TP-ASDZ"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531SP-S",
+     "raw": "IPC-HFW2531SP-S:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2531TP-AS",
+     "raw": "IPC-HDW2531TP-AS:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-ZS-27135-S2",
+     "raw": "IPC-HFW2531TP-ZS-27135-S2:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-ZAS-27135-S2",
+     "raw": "IPC-HFW2531TP-ZAS-27135-S2:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2531TP-AS-S2",
+     "raw": "IPC-HFW2531TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2633T-A",
+     "raw": "IPC-HDW2633T-A:01:02:05:7C:3D:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831SP-S-S2",
+     "raw": "IPC-HFW2831SP-S-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2831TP-AS-S2",
+     "raw": "IPC-HDW2831TP-AS-S2:01:02:05:9E:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-ZS-27135-S2",
+     "raw": "IPC-HFW2831TP-ZS-27135-S2:01:02:02:9E:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "9E",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-ZAS-27135-S2",
+     "raw": "IPC-HFW2831TP-ZAS-27135-S2:01:02:02:9E:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2831TP-AS-S2",
+     "raw": "IPC-HFW2831TP-AS-S2:01:02:02:63:3D:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "A2",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2A80-SA",
+     "raw": "IPC-B2A80-SA:01:02:13:A2:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431TP-ZS-27135-S2DZ",
+     "raw": "IPC-HFW2431TP-ZS-27135-S2DZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431TP-ZAS-27135-S2DZ",
+     "raw": "IPC-HFW2431TP-ZAS-27135-S2DZ:01:02:02:7C:3D:00:01:10:01:01:04:400:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431SP-SDZ",
+     "raw": "IPC-HFW2431SP-SDZ:01:02:02:7C:3D:00:01:00:00:00:04:400:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "3D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2431TP-ASDZ",
+     "raw": "IPC-HDW2431TP-ASDZ:01:02:02:7C:3D:00:01:10:01:00:04:400:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -410,5 +1598,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "507d8b1d4cfd0855cbadfa9ad2c2448462c46a67174807d23b66ab86a696db2c"
 }

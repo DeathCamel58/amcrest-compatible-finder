@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HD4140X-3D"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD4140X-3D",
+     "raw": "IPC-HD4140X-3D:01:02:04:38:2C:00:01:0E:01:00:04:320:03:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HD4140X-3D:01:02:04:38:2C:00:01:0E:01:00:04:320:03:00:00:00:00:01:00:00:200"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-HD4140X-3D"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD4140X-3D",
+     "raw": "IPC-HD4140X-3D:01:02:04:38:2C:00:01:0E:01:00:04:320:03:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -325,5 +403,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "53aa88979a2c3e4f4d6b5792115abeeb0f29e5ed821b10594d615d357f60e6a7"
 }

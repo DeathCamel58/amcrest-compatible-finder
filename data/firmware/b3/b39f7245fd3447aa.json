@@ -9,6 +9,137 @@
     "SD292004DB-A",
     "SD292004DB-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-A",
+     "raw": "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-B",
+     "raw": "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-A",
+     "raw": "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-B",
+     "raw": "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
@@ -42,6 +173,137 @@
     "SD294004DB-B",
     "SD292004DB-A",
     "SD292004DB-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-A",
+     "raw": "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-B",
+     "raw": "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-A",
+     "raw": "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-B",
+     "raw": "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -56,6 +318,137 @@
     "SD292004DB-A",
     "SD292004DB-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-A",
+     "raw": "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-B",
+     "raw": "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-A",
+     "raw": "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-B",
+     "raw": "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200",
@@ -89,6 +482,137 @@
     "SD294004DB-B",
     "SD292004DB-A",
     "SD292004DB-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-A",
+     "raw": "SD294004DB-A:01:03:04:D7:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD294004DB-B",
+     "raw": "SD294004DB-B:01:03:04:D7:5B:00:01:10:01:00:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-A",
+     "raw": "SD292004DB-A:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "5B",
+       "name": "NT98560"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD292004DB-B",
+     "raw": "SD292004DB-B:01:03:04:B4:5B:00:01:10:03:01:04:3E8:04:00:00:04:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -339,5 +863,6 @@
    "software_version": "V3.201.0000007.1.R.260413"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b39f7245fd3447aa294c87da2273360a636a47bd9302122121326c71d31217f6"
 }

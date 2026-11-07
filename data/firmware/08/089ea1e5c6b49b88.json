@@ -7,6 +7,74 @@
     "IPC-BP6XP-E2-4G-0360B",
     "IPC-BP6XP-E2-4G"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2-4G-0360B",
+     "raw": "IPC-BP6XP-E2-4G-0360B:01:02:00:111:76:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2-4G",
+     "raw": "IPC-BP6XP-E2-4G:01:02:00:111:76:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-BP6XP-E2-4G-0360B:01:02:00:111:76:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-BP6XP-E2-4G-0360B",
     "IPC-BP6XP-E2-4G"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2-4G-0360B",
+     "raw": "IPC-BP6XP-E2-4G-0360B:01:02:00:111:76:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2-4G",
+     "raw": "IPC-BP6XP-E2-4G:01:02:00:111:76:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -119,5 +255,6 @@
    "software_version": "V2.820.0000000.21.R.260820"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "089ea1e5c6b49b88ed441bce9831c6b615e72f155a2fc4f2d30f9b9aa12b63fa"
 }

@@ -11,6 +11,206 @@
     "CA-HZ2023U",
     "CA-HZ4030UA"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ6030U",
+     "raw": "CA-HZ6030U:01:03:04:21:17:14:01:08:01:01:04:258:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4030U",
+     "raw": "CA-HZ4030U:01:03:04:23:17:14:01:08:01:01:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2030U1",
+     "raw": "CA-HZ2030U1:01:03:04:4A:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ1030U",
+     "raw": "CA-HZ1030U:01:03:04:4A:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2023U",
+     "raw": "CA-HZ2023U:01:03:04:4A:1A:17:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4030UA",
+     "raw": "CA-HZ4030UA:01:03:04:21:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ6030U:01:03:04:21:17:14:01:08:01:01:04:258:04:00:00:04:00:01:00:00:400",
@@ -48,6 +248,206 @@
     "CA-HZ1030U",
     "CA-HZ2023U",
     "CA-HZ4030UA"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ6030U",
+     "raw": "CA-HZ6030U:01:03:04:21:17:14:01:08:01:01:04:258:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4030U",
+     "raw": "CA-HZ4030U:01:03:04:23:17:14:01:08:01:01:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2030U1",
+     "raw": "CA-HZ2030U1:01:03:04:4A:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ1030U",
+     "raw": "CA-HZ1030U:01:03:04:4A:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2023U",
+     "raw": "CA-HZ2023U:01:03:04:4A:1A:17:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "17",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4030UA",
+     "raw": "CA-HZ4030UA:01:03:04:21:17:14:01:0A:01:01:04:258:00:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -243,5 +643,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "6ae4b6581a1b095af14d31749dd5931353021c95171a00e8b4786473fc8740e4"
 }

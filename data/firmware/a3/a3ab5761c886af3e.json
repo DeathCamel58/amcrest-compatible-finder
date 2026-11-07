@@ -6,6 +6,41 @@
    "ids": [
     "TPC-HO2201-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "9F",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO2201-B",
+     "raw": "TPC-HO2201-B:01:08:E2:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TPC-HO2201-B:01:08:E2:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
@@ -17,6 +52,41 @@
    "firmware": "DH_TPC-HO2201-B_Eng_P_V2.630.0000000.4.R.220801.bin",
    "ids": [
     "TPC-HO2201-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "9F",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO2201-B",
+     "raw": "TPC-HO2201-B:01:08:E2:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
    ],
    "member": "hwid",
    "raw": [
@@ -60,6 +130,41 @@
    "firmware": "DH_TPC-HO2201-B_Eng_P_V2.630.0000000.4.R.220801.bin",
    "ids": [
     "TPC-HO2201-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "9F",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO2201-B",
+     "raw": "TPC-HO2201-B:01:08:E2:9F:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -336,5 +441,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a3ab5761c886af3e4ddefdb2671aa8c2215a313b844dc954a50dc0499ae51c59"
 }

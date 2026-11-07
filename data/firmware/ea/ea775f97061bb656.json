@@ -9,6 +9,136 @@
     "IPC-MFW5643T2-E3-PV",
     "IPC-MFW5643T2-E3-PV-SLV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW5241T2P-E3-ASE",
+     "raw": "IPC-MFW5241T2P-E3-ASE:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW5241T2P-E3-ASE-SLV",
+     "raw": "IPC-MFW5241T2P-E3-ASE-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW5643T2-E3-PV",
+     "raw": "IPC-MFW5643T2-E3-PV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW5643T2-E3-PV-SLV",
+     "raw": "IPC-MFW5643T2-E3-PV-SLV:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-MFW5241T2P-E3-ASE:01:02:00:D6:63:00:03:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800",
@@ -73,5 +203,6 @@
    "software_version": "V3.142.0000000.11.R.260428"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "ea775f97061bb65607c14aa4970be167a16a86b89410aa98c80af239d846ce16"
 }

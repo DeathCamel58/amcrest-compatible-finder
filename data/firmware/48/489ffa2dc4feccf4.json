@@ -10,6 +10,193 @@
     "IPC-HFW1230SP-S4",
     "IPC-HFW1230TP-ZS-2812-S4"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-V2",
+     "raw": "IPC-HFW1230M-V2:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20",
+     "raw": "IPC-B1A20:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-A-V2",
+     "raw": "IPC-HDW1230C-A-V2:01:02:05:77:37:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230SP-S4",
+     "raw": "IPC-HFW1230SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230TP-ZS-2812-S4",
+     "raw": "IPC-HFW1230TP-ZS-2812-S4:01:02:02:77:37:00:01:00:00:00:04:384:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW1230M-V2:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40",
@@ -29,6 +216,193 @@
     "IPC-HDW1230C-A-V2",
     "IPC-HFW1230SP-S4",
     "IPC-HFW1230TP-ZS-2812-S4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-V2",
+     "raw": "IPC-HFW1230M-V2:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20",
+     "raw": "IPC-B1A20:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-A-V2",
+     "raw": "IPC-HDW1230C-A-V2:01:02:05:77:37:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230SP-S4",
+     "raw": "IPC-HFW1230SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230TP-ZS-2812-S4",
+     "raw": "IPC-HFW1230TP-ZS-2812-S4:01:02:02:77:37:00:01:00:00:00:04:384:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "hwid",
    "raw": [
@@ -65,6 +439,193 @@
     "IPC-HDW1230C-A-V2",
     "IPC-HFW1230SP-S4",
     "IPC-HFW1230TP-ZS-2812-S4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-V2",
+     "raw": "IPC-HFW1230M-V2:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20",
+     "raw": "IPC-B1A20:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-A-V2",
+     "raw": "IPC-HDW1230C-A-V2:01:02:05:77:37:00:01:10:01:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230SP-S4",
+     "raw": "IPC-HFW1230SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230TP-ZS-2812-S4",
+     "raw": "IPC-HFW1230TP-ZS-2812-S4:01:02:02:77:37:00:01:00:00:00:04:384:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -341,5 +902,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "489ffa2dc4feccf4d4e688acb305b2a54df9aee64464a0a0a91cd573922263e1"
 }

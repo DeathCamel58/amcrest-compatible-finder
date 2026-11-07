@@ -8,6 +8,107 @@
     "IPC-BF4C-MAX",
     "IPC-BF4C-K"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C",
+     "raw": "IPC-BF4C:01:02:00:112:76:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C-MAX",
+     "raw": "IPC-BF4C-MAX:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C-K",
+     "raw": "IPC-BF4C-K:01:02:00:112:76:00:01:10:00:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-BF4C:01:02:00:112:76:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:80",
@@ -39,6 +140,107 @@
     "IPC-BF4C",
     "IPC-BF4C-MAX",
     "IPC-BF4C-K"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C",
+     "raw": "IPC-BF4C:01:02:00:112:76:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C-MAX",
+     "raw": "IPC-BF4C-MAX:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF4C-K",
+     "raw": "IPC-BF4C-K:01:02:00:112:76:00:01:10:00:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -161,5 +363,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "48cedc482810c85c08ce374ffbcf951c059237a3349f6a9dd8d8fd194d692b6e"
 }

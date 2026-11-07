@@ -6,6 +6,45 @@
    "ids": [
     "IPC-WL46AP"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WL46AP",
+     "raw": "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
@@ -33,6 +72,45 @@
    "firmware": "DH_IPC-WX-Dalton_Eng_N_Stream3_V2.820.0000000.29.R.240906.bin",
    "ids": [
     "IPC-WL46AP"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WL46AP",
+     "raw": "IPC-WL46AP:01:02:13:89:41:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -380,5 +458,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "3739c3fa6cc65a3739a1e1477e4f9a24a06f10ef09a1cab096f89ecccdaf92c3"
 }

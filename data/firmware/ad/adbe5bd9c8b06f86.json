@@ -9,6 +9,156 @@
     "IPC-K42-HD",
     "IPC-K42A-HD"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22-HD",
+     "raw": "IPC-K22-HD:01:02:07:A8:3B:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22A-HD",
+     "raw": "IPC-K22A-HD:01:02:07:A8:3B:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42-HD",
+     "raw": "IPC-K42-HD:01:02:07:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42A-HD",
+     "raw": "IPC-K42A-HD:01:02:07:89:3C:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-K22-HD:01:02:07:A8:3B:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80",
@@ -42,6 +192,156 @@
     "IPC-K22A-HD",
     "IPC-K42-HD",
     "IPC-K42A-HD"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22-HD",
+     "raw": "IPC-K22-HD:01:02:07:A8:3B:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K22A-HD",
+     "raw": "IPC-K22A-HD:01:02:07:A8:3B:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42-HD",
+     "raw": "IPC-K42-HD:01:02:07:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K42A-HD",
+     "raw": "IPC-K42A-HD:01:02:07:89:3C:00:01:10:01:01:04:320:03:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -348,5 +648,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "adbe5bd9c8b06f8612f0517a45f868660b27d139ac1c12c0b80cb4dcde9523bc"
 }

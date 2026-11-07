@@ -7,6 +7,74 @@
     "IPC-WPT2249V-PV-LED-2E2",
     "IPC-WPT2249D-PV-2E2-PRO"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WPT2249V-PV-LED-2E2",
+     "raw": "IPC-WPT2249V-PV-LED-2E2:01:02:00:116:73:01:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WPT2249D-PV-2E2-PRO",
+     "raw": "IPC-WPT2249D-PV-2E2-PRO:01:02:00:116:73:01:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-WPT2249V-PV-LED-2E2:01:02:00:116:73:01:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-WPT2249V-PV-LED-2E2",
     "IPC-WPT2249D-PV-2E2-PRO"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WPT2249V-PV-LED-2E2",
+     "raw": "IPC-WPT2249V-PV-LED-2E2:01:02:00:116:73:01:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WPT2249D-PV-2E2-PRO",
+     "raw": "IPC-WPT2249D-PV-2E2-PRO:01:02:00:116:73:01:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -199,5 +335,6 @@
    "software_version": "V3.120.0000000.29.R.251127"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9f6f8cd6ef1fd342318c28118be52d3aff3ffb24c10e378753472a02f3263ac3"
 }

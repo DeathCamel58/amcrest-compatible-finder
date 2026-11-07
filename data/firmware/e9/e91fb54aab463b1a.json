@@ -6,6 +6,41 @@
    "ids": [
     "ASC3202B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "42",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASC3202B",
+     "raw": "ASC3202B:01:04:0E:00:42:00:00:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "ASC3202B:01:04:0E:00:42:00:00:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
@@ -33,6 +68,41 @@
    "firmware": "Customer_ASC320XB_MultiLang_NP_V1.002.10BE000.0.R.240306.bin",
    "ids": [
     "ASC3202B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "42",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASC3202B",
+     "raw": "ASC3202B:01:04:0E:00:42:00:00:10:01:01:04:400:00:00:00:00:00:00:00:00:100:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -141,5 +211,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e91fb54aab463b1aada9d06f4013126acef25ce588dbc2a6e2ede4693554fa4c"
 }

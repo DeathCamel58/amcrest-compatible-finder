@@ -23,6 +23,72 @@
     "IPC-MFW7459K2P-Z-0832-T40-0360B",
     "IPC-MFW7459K2P-Z-0856-T40-0360B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "123",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW7459K2P-Z-0832-T40-0360B",
+     "raw": "IPC-MFW7459K2P-Z-0832-T40-0360B:01:02:00:123:6A:00:02:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "123",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW7459K2P-Z-0856-T40-0360B",
+     "raw": "IPC-MFW7459K2P-Z-0856-T40-0360B:01:02:00:123:6A:00:02:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-MFW7459K2P-Z-0832-T40-0360B:01:02:00:123:6A:00:02:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800",
@@ -52,6 +118,72 @@
    "ids": [
     "IPC-MFW7459K2P-Z-0832-T40-0360B",
     "IPC-MFW7459K2P-Z-0856-T40-0360B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "123",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW7459K2P-Z-0832-T40-0360B",
+     "raw": "IPC-MFW7459K2P-Z-0832-T40-0360B:01:02:00:123:6A:00:02:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "123",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MFW7459K2P-Z-0856-T40-0360B",
+     "raw": "IPC-MFW7459K2P-Z-0856-T40-0360B:01:02:00:123:6A:00:02:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -272,5 +404,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "0c34e4609505e73bea9f945fce260e66c5baefce96cad8997d69e7eebfddeaa5"
 }

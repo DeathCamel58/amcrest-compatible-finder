@@ -40,6 +40,124 @@
     "TS-Venus-B-24ET2GF-240",
     "TS-Venus-B-24ET2GF-360"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-Venus-B-16ET2GF-190",
+     "raw": "TS-Venus-B-16ET2GF-190:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-Venus-B-16ET2GF-240",
+     "raw": "TS-Venus-B-16ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-Venus-B-24ET2GF-240",
+     "raw": "TS-Venus-B-24ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-Venus-B-24ET2GF-360",
+     "raw": "TS-Venus-B-24ET2GF-360:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TS-Venus-B-16ET2GF-190:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
@@ -124,5 +242,6 @@
    "software_version": "V1.001.0000002.7.R.230816"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b54a314a5191b9950836cb0ded6fd06857eeab9cb9eedd3f4544995479f03615"
 }

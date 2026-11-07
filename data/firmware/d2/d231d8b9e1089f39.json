@@ -13,6 +13,304 @@
     "IPC-B1A40-WT-PV",
     "IPC-B1A40-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-W",
+     "raw": "IPC-B1A20-W:01:02:02:77:3B:00:01:10:01:00:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT",
+     "raw": "IPC-B1A20-WT:01:02:02:77:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-LED",
+     "raw": "IPC-B1A20-WT-LED:01:02:02:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV",
+     "raw": "IPC-B1A20-WT-PV:01:02:02:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV-B-V2",
+     "raw": "IPC-B1A20-WT-PV-B-V2:01:02:13:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT",
+     "raw": "IPC-B1A40-WT:01:02:13:89:3C:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-PV",
+     "raw": "IPC-B1A40-WT-PV:01:02:13:89:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:02:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-PV",
+     "raw": "IPC-B1A40-PV:01:02:13:89:3C:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-B1A20-W:01:02:02:77:3B:00:01:10:01:00:04:320:00:00:00:00:00:00:00:00:80",
@@ -54,6 +352,304 @@
     "IPC-B1A40-WT",
     "IPC-B1A40-WT-PV",
     "IPC-B1A40-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-W",
+     "raw": "IPC-B1A20-W:01:02:02:77:3B:00:01:10:01:00:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT",
+     "raw": "IPC-B1A20-WT:01:02:02:77:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-LED",
+     "raw": "IPC-B1A20-WT-LED:01:02:02:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV",
+     "raw": "IPC-B1A20-WT-PV:01:02:02:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV-B-V2",
+     "raw": "IPC-B1A20-WT-PV-B-V2:01:02:13:A8:3B:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT",
+     "raw": "IPC-B1A40-WT:01:02:13:89:3C:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-PV",
+     "raw": "IPC-B1A40-WT-PV:01:02:13:89:3B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:02:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-PV",
+     "raw": "IPC-B1A40-PV:01:02:13:89:3C:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -304,5 +900,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d231d8b9e1089f39b1b85149e06712db1ba8e13cdb757cb6bd40263b548e0614"
 }

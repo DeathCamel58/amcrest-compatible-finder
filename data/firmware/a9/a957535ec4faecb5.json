@@ -9,6 +9,155 @@
     "IPC-HFW2430M",
     "IPC-B2B40-ZS"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B40",
+     "raw": "IPC-B1B40:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B40-AS",
+     "raw": "IPC-B1B40-AS:01:02:02:73:30:00:01:10:03:01:04:320:09:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7A",
+       "name": null
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2430M",
+     "raw": "IPC-HFW2430M:01:02:02:7A:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B40-ZS",
+     "raw": "IPC-B2B40-ZS:01:02:02:73:30:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-B1B40:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
@@ -42,6 +191,155 @@
     "IPC-B1B40-AS",
     "IPC-HFW2430M",
     "IPC-B2B40-ZS"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B40",
+     "raw": "IPC-B1B40:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B40-AS",
+     "raw": "IPC-B1B40-AS:01:02:02:73:30:00:01:10:03:01:04:320:09:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7A",
+       "name": null
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2430M",
+     "raw": "IPC-HFW2430M:01:02:02:7A:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B40-ZS",
+     "raw": "IPC-B2B40-ZS:01:02:02:73:30:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -184,5 +482,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a957535ec4faecb50274f9aa6c634efe6ac8ed4329c7ee792f564ce043fc2593"
 }

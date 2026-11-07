@@ -7,6 +7,74 @@
     "SD-MT2H3000NB-B",
     "SD-MT2H5000NB-C"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H3000NB-B",
+     "raw": "SD-MT2H3000NB-B:01:03:04:FA:66:00:01:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H5000NB-C",
+     "raw": "SD-MT2H5000NB-C:01:03:04:100:66:00:01:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD-MT2H3000NB-B:01:03:04:FA:66:00:01:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80",
@@ -36,6 +104,74 @@
    "ids": [
     "SD-MT2H3000NB-B",
     "SD-MT2H5000NB-C"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H3000NB-B",
+     "raw": "SD-MT2H3000NB-B:01:03:04:FA:66:00:01:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "100",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H5000NB-C",
+     "raw": "SD-MT2H5000NB-C:01:03:04:100:66:00:01:10:01:01:04:4B0:04:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -320,5 +456,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "662d52f9d3c855b8b8cbd5acf33c829f8f75f3a9559d2fd93582237b64abd876"
 }

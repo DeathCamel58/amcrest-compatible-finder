@@ -7,6 +7,82 @@
     "IPC-HDPW5443C-PV-DTFX-MP",
     "IPC-HDPW5441CP-AS-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "CE",
+       "name": null
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW5443C-PV-DTFX-MP",
+     "raw": "IPC-HDPW5443C-PV-DTFX-MP:01:02:04:CE:57:00:01:10:01:01:04:4B0:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "CE",
+       "name": null
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW5441CP-AS-PV",
+     "raw": "IPC-HDPW5441CP-AS-PV:01:02:04:CE:57:00:01:10:01:01:04:4B0:09:00:00:00:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDPW5443C-PV-DTFX-MP:01:02:04:CE:57:00:01:10:01:01:04:4B0:09:00:00:00:00:01:00:00:400",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-HDPW5443C-PV-DTFX-MP",
     "IPC-HDPW5441CP-AS-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "CE",
+       "name": null
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW5443C-PV-DTFX-MP",
+     "raw": "IPC-HDPW5443C-PV-DTFX-MP:01:02:04:CE:57:00:01:10:01:01:04:4B0:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "CE",
+       "name": null
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW5441CP-AS-PV",
+     "raw": "IPC-HDPW5441CP-AS-PV:01:02:04:CE:57:00:01:10:01:01:04:4B0:09:00:00:00:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -310,5 +462,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "08e9e6be6096ceb8911cfdf6ee2c7a2e854b6c2c2f2d02e2cff615381240895a"
 }

@@ -7,6 +7,76 @@
     "SDT5X223-2F-0600-WA-A",
     "SDT5X225-2F-0600-WA-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "76",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT5X223-2F-0600-WA-A",
+     "raw": "SDT5X223-2F-0600-WA-A:01:03:04:76:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "76",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT5X225-2F-0600-WA-A",
+     "raw": "SDT5X225-2F-0600-WA-A:01:03:04:76:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SDT5X223-2F-0600-WA-A:01:03:04:76:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:800",
@@ -35,6 +105,76 @@
    "ids": [
     "SDT5X223-2F-0600-WA-A",
     "SDT5X225-2F-0600-WA-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "76",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT5X223-2F-0600-WA-A",
+     "raw": "SDT5X223-2F-0600-WA-A:01:03:04:76:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "76",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT5X225-2F-0600-WA-A",
+     "raw": "SDT5X225-2F-0600-WA-A:01:03:04:76:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -337,5 +477,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "ae6ee5656c2a34e7f59adfa3ca90a8cf3edebdea778be74312f23572ed69bc2b"
 }

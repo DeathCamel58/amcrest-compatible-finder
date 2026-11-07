@@ -37,6 +37,41 @@
    "ids": [
     "TPC-BF5X00-TC"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       816
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "30",
+       "name": null
+      },
+      "soc": {
+       "code": "15",
+       "name": "Ambarella S2L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-BF5X00-TC",
+     "raw": "TPC-BF5X00-TC:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TPC-BF5X00-TC:01:08:03:30:15:00:01:06:01:00:04:330:02:00:00:04:00:01:01:00:400"
@@ -260,5 +295,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9f7b83b1a5f3ad3c9669d5fc0d20b4d1634dfa2fef31c3263ea663ec9596e18d"
 }

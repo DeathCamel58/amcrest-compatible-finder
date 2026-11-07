@@ -22,6 +22,37 @@
    "ids": [
     "TS-Venus-B-4ET-96"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-Venus-B-4ET-96",
+     "raw": "TS-Venus-B-4ET-96:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TS-Venus-B-4ET-96:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
@@ -101,5 +132,6 @@
    "software_version": "V1.001.0000000.12.R.230816"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b3261ad92a5076db12bbf31dcdb54f771a55bdceccd1366b0acbc89e1a85c48e"
 }

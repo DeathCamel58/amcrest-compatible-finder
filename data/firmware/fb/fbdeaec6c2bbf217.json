@@ -11,6 +11,230 @@
     "IPC-HFW1239S1-LED-S6",
     "IPC-HFW1230M-A-B-S6"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-X12",
+     "raw": "IPC-X12:01:02:13:AC:48:00:01:00:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230X",
+     "raw": "IPC-HFW1230X:01:02:13:AC:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230V-LED",
+     "raw": "IPC-HFW1230V-LED:01:02:13:AC:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-A-V4",
+     "raw": "IPC-HFW1230M-A-V4:01:02:13:AC:48:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239S1-LED-S6",
+     "raw": "IPC-HFW1239S1-LED-S6:01:02:13:CD:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-A-B-S6",
+     "raw": "IPC-HFW1230M-A-B-S6:01:02:13:CD:48:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-X12:01:02:13:AC:48:00:01:00:01:00:00:4B0:00:00:00:00:00:00:00:00:40",
@@ -48,6 +272,230 @@
     "IPC-HFW1230M-A-V4",
     "IPC-HFW1239S1-LED-S6",
     "IPC-HFW1230M-A-B-S6"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-X12",
+     "raw": "IPC-X12:01:02:13:AC:48:00:01:00:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230X",
+     "raw": "IPC-HFW1230X:01:02:13:AC:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230V-LED",
+     "raw": "IPC-HFW1230V-LED:01:02:13:AC:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-A-V4",
+     "raw": "IPC-HFW1230M-A-V4:01:02:13:AC:48:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1239S1-LED-S6",
+     "raw": "IPC-HFW1239S1-LED-S6:01:02:13:CD:48:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M-A-B-S6",
+     "raw": "IPC-HFW1230M-A-B-S6:01:02:13:CD:48:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -217,5 +665,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "fbdeaec6c2bbf217d8b9bcb079774b4f915021df3a30d4e5db7837fc4082ebde"
 }

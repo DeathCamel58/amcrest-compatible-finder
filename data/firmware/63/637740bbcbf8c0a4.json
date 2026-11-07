@@ -10,6 +10,185 @@
     "IPC-HFW1839TC-A-IL",
     "IPC-HDBW1839E1-IL"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1530B-A-IL",
+     "raw": "IPC-HFW1530B-A-IL:01:02:13:C8:6E:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1639TC-A-IL",
+     "raw": "IPC-HFW1639TC-A-IL:01:02:02:C8:6E:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1639E1-IL",
+     "raw": "IPC-HDBW1639E1-IL:01:02:00:C8:6E:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "DE",
+       "name": "SC830AI"
+      },
+      "soc": {
+       "code": "62",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1839TC-A-IL",
+     "raw": "IPC-HFW1839TC-A-IL:01:02:02:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "DE",
+       "name": "SC830AI"
+      },
+      "soc": {
+       "code": "62",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1839E1-IL",
+     "raw": "IPC-HDBW1839E1-IL:01:02:00:DE:62:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1530B-A-IL:01:02:13:C8:6E:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100",
@@ -45,6 +224,185 @@
     "IPC-HDBW1639E1-IL",
     "IPC-HFW1839TC-A-IL",
     "IPC-HDBW1839E1-IL"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1530B-A-IL",
+     "raw": "IPC-HFW1530B-A-IL:01:02:13:C8:6E:00:01:10:01:00:00:3E8:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1639TC-A-IL",
+     "raw": "IPC-HFW1639TC-A-IL:01:02:02:C8:6E:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "6E",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1639E1-IL",
+     "raw": "IPC-HDBW1639E1-IL:01:02:00:C8:6E:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "DE",
+       "name": "SC830AI"
+      },
+      "soc": {
+       "code": "62",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1839TC-A-IL",
+     "raw": "IPC-HFW1839TC-A-IL:01:02:02:DE:62:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "DE",
+       "name": "SC830AI"
+      },
+      "soc": {
+       "code": "62",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1839E1-IL",
+     "raw": "IPC-HDBW1839E1-IL:01:02:00:DE:62:00:01:00:00:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -183,5 +541,6 @@
    "software_version": "V2.880.0000000.22.R.260514"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "637740bbcbf8c0a49292942b3db7003ee3663d081288ee1435f1a6341b2e40df"
 }

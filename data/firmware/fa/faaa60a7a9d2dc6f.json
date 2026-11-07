@@ -6,6 +6,41 @@
    "ids": [
     "IPC-DS1AP-Grey"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-DS1AP-Grey",
+     "raw": "IPC-DS1AP-Grey:01:04:0F:00:68:00:00:10:00:01:00:320:00:02:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-DS1AP-Grey:01:04:0F:00:68:00:00:10:00:01:00:320:00:02:00:00:00:00:00:00:40"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-WDS-Kant_MultiLang_PN_V2.860.0000000.19.R.250811.bin",
    "ids": [
     "IPC-DS1AP-Grey"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-DS1AP-Grey",
+     "raw": "IPC-DS1AP-Grey:01:04:0F:00:68:00:00:10:00:01:00:320:00:02:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -147,5 +217,6 @@
    "software_version": "V2.860.0000000.19.R.250811"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "faaa60a7a9d2dc6fc339b1c1ce9ffaf2ca5a5f90beb7eec379493261898acda0"
 }

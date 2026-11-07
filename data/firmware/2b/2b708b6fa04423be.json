@@ -6,6 +6,45 @@
    "ids": [
     "IPC-L26"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-L26",
+     "raw": "IPC-L26:01:02:02:60:2B:00:01:10:01:01:04:320:07:02:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-L26:01:02:02:60:2B:00:01:10:01:01:04:320:07:02:00:00:00:00:00:00:80"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-L26"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-L26",
+     "raw": "IPC-L26:01:02:02:60:2B:00:01:10:01:01:04:320:07:02:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -173,5 +251,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "2b708b6fa04423be687ed99522fe8102b92fea013965b94c269aa11dc7cbcc56"
 }

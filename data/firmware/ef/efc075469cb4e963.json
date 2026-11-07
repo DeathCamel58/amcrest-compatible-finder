@@ -7,6 +7,81 @@
     "IPC-AW12W",
     "IPC-KW12"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "2E",
+       "name": "AR0140"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW12W",
+     "raw": "IPC-AW12W:01:02:08:2E:0E:00:01:08:01:01:04:1B8:00:03:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12",
+     "raw": "IPC-KW12:01:02:07:1D:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-AW12W:01:02:08:2E:0E:00:01:08:01:01:04:1B8:00:03:02:00:00:00:00:00:80",
@@ -20,6 +95,81 @@
    "ids": [
     "IPC-AW12W",
     "IPC-KW12"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "2E",
+       "name": "AR0140"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW12W",
+     "raw": "IPC-AW12W:01:02:08:2E:0E:00:01:08:01:01:04:1B8:00:03:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12",
+     "raw": "IPC-KW12:01:02:07:1D:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -211,5 +361,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "efc075469cb4e963fc1284ac939c0c6e98b22a395d1098739c25f07cfbc08b93"
 }

@@ -7,6 +7,80 @@
     "IPC-HFS8249-I4-D2",
     "IPC-HFS8243-I4"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFS8249-I4-D2",
+     "raw": "IPC-HFS8249-I4-D2:01:02:02:42:23:00:01:10:03:01:05:4B0:09:00:00:08:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFS8243-I4",
+     "raw": "IPC-HFS8243-I4:01:02:02:42:23:00:01:10:03:01:05:4B0:09:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFS8249-I4-D2:01:02:02:42:23:00:01:10:03:01:05:4B0:09:00:00:08:00:01:00:00:800",
@@ -36,6 +110,80 @@
    "ids": [
     "IPC-HFS8249-I4-D2",
     "IPC-HFS8243-I4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFS8249-I4-D2",
+     "raw": "IPC-HFS8249-I4-D2:01:02:02:42:23:00:01:10:03:01:05:4B0:09:00:00:08:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFS8243-I4",
+     "raw": "IPC-HFS8243-I4:01:02:02:42:23:00:01:10:03:01:05:4B0:09:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -256,5 +404,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "482f7baced9af8353bf89cd46d2cefbb18224a82ad1a50e8df3c1666e2164427"
 }

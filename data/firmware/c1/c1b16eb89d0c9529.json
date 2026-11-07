@@ -20,6 +20,561 @@
     "IPC-HDBW1320R-V2",
     "IPC-HFW1320M-AS"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220B-V2",
+     "raw": "IPC-HFW1220B-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220S-V2",
+     "raw": "IPC-HFW1220S-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "55",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-V2",
+     "raw": "IPC-HDBW1220R-V2:01:02:05:55:1C:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "58",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-V2",
+     "raw": "IPC-HFW1220M-V2:01:02:02:58:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "58",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S-V2",
+     "raw": "IPC-HDBW1220R-S-V2:01:02:05:58:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "65",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S2",
+     "raw": "IPC-HDBW1220R-S2:01:02:05:65:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "65",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S-S2",
+     "raw": "IPC-HDBW1220R-S-S2:01:02:05:65:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "51",
+       "name": "IMX290 (parallel)"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-AS-S2",
+     "raw": "IPC-HFW1220M-AS-S2:01:02:02:51:1C:00:01:0E:01:01:04:258:08:03:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "51",
+       "name": "IMX290 (parallel)"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-S-S2",
+     "raw": "IPC-HFW1220M-S-S2:01:02:02:51:1C:00:01:00:00:00:04:258:00:03:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1320S-V2",
+     "raw": "IPC-HDW1320S-V2:01:02:05:1F:1C:00:01:00:00:00:00:190:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1325R-S-V2",
+     "raw": "IPC-HDBW1325R-S-V2:01:02:05:1F:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1325R-V2",
+     "raw": "IPC-HDBW1325R-V2:01:02:05:1F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "61",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1320R-S-V2",
+     "raw": "IPC-HDBW1320R-S-V2:01:02:05:61:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "61",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1320R-V2",
+     "raw": "IPC-HDBW1320R-V2:01:02:05:61:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "19",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1320M-AS",
+     "raw": "IPC-HFW1320M-AS:01:02:02:19:1C:00:01:0E:01:01:04:258:08:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1220B-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80",
@@ -75,6 +630,561 @@
     "IPC-HDBW1320R-S-V2",
     "IPC-HDBW1320R-V2",
     "IPC-HFW1320M-AS"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220B-V2",
+     "raw": "IPC-HFW1220B-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220S-V2",
+     "raw": "IPC-HFW1220S-V2:01:02:02:4F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "55",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-V2",
+     "raw": "IPC-HDBW1220R-V2:01:02:05:55:1C:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "58",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-V2",
+     "raw": "IPC-HFW1220M-V2:01:02:02:58:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "58",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S-V2",
+     "raw": "IPC-HDBW1220R-S-V2:01:02:05:58:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "65",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S2",
+     "raw": "IPC-HDBW1220R-S2:01:02:05:65:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "65",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1220R-S-S2",
+     "raw": "IPC-HDBW1220R-S-S2:01:02:05:65:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "51",
+       "name": "IMX290 (parallel)"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-AS-S2",
+     "raw": "IPC-HFW1220M-AS-S2:01:02:02:51:1C:00:01:0E:01:01:04:258:08:03:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "51",
+       "name": "IMX290 (parallel)"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1220M-S-S2",
+     "raw": "IPC-HFW1220M-S-S2:01:02:02:51:1C:00:01:00:00:00:04:258:00:03:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1320S-V2",
+     "raw": "IPC-HDW1320S-V2:01:02:05:1F:1C:00:01:00:00:00:00:190:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1325R-S-V2",
+     "raw": "IPC-HDBW1325R-S-V2:01:02:05:1F:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1325R-V2",
+     "raw": "IPC-HDBW1325R-V2:01:02:05:1F:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "61",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1320R-S-V2",
+     "raw": "IPC-HDBW1320R-S-V2:01:02:05:61:1C:00:01:00:00:00:04:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "61",
+       "name": null
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1320R-V2",
+     "raw": "IPC-HDBW1320R-V2:01:02:05:61:1C:00:01:00:00:00:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "19",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "1C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1320M-AS",
+     "raw": "IPC-HFW1320M-AS:01:02:02:19:1C:00:01:0E:01:01:04:258:08:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -235,5 +1345,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c1b16eb89d0c9529cbe21594dbb950bd0f345570c09f585c154b9a241465871d"
 }

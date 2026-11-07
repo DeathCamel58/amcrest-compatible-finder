@@ -20,6 +20,1081 @@
     "IPC-HFW5431-IRA-AS",
     "IPC-HDBW5431R-Z"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5431EP",
+     "raw": "IPC-HF5431EP:01:02:04:23:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z",
+     "raw": "IPC-HFW5431EP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431DP-Z",
+     "raw": "IPC-HFW5431DP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431EP-Z",
+     "raw": "IPC-HDBW5431EP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431RP-Z",
+     "raw": "IPC-HDBW5431RP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z-IRA",
+     "raw": "IPC-HFW5431EP-Z-IRA:01:02:05:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5431EP",
+     "raw": "IPC-HF5431EP:01:02:04:23:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z",
+     "raw": "IPC-HFW5431EP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431DP-Z",
+     "raw": "IPC-HFW5431DP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431EP-Z",
+     "raw": "IPC-HDBW5431EP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431RP-Z",
+     "raw": "IPC-HDBW5431RP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z-IRA",
+     "raw": "IPC-HFW5431EP-Z-IRA:01:02:05:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5231EP",
+     "raw": "IPC-HF5231EP:01:02:04:36:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z",
+     "raw": "IPC-HFW5231EP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231DP-Z",
+     "raw": "IPC-HFW5231DP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231EP-Z",
+     "raw": "IPC-HDBW5231EP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231RP-Z",
+     "raw": "IPC-HDBW5231RP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z-IRA",
+     "raw": "IPC-HFW5231EP-Z-IRA:01:02:05:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5231EP",
+     "raw": "IPC-HF5231EP:01:02:04:36:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z",
+     "raw": "IPC-HFW5231EP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231DP-Z",
+     "raw": "IPC-HFW5231DP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231EP-Z",
+     "raw": "IPC-HDBW5231EP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231RP-Z",
+     "raw": "IPC-HDBW5231RP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z-IRA",
+     "raw": "IPC-HFW5231EP-Z-IRA:01:02:05:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA",
+     "raw": "IPC-HFW5431-IRA:01:02:02:23:1A:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA-AS",
+     "raw": "IPC-HFW5431-IRA-AS:01:02:02:23:1A:00:01:0A:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA",
+     "raw": "IPC-HFW5431-IRA:01:02:02:23:1A:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA-AS",
+     "raw": "IPC-HFW5431-IRA-AS:01:02:02:23:1A:00:01:0A:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431R-Z",
+     "raw": "IPC-HDBW5431R-Z:01:02:05:23:1A:17:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HF5431EP:01:02:04:23:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:100",
@@ -73,6 +1148,1081 @@
     "IPC-HFW5431-IRA",
     "IPC-HFW5431-IRA-AS",
     "IPC-HDBW5431R-Z"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5431EP",
+     "raw": "IPC-HF5431EP:01:02:04:23:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z",
+     "raw": "IPC-HFW5431EP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431DP-Z",
+     "raw": "IPC-HFW5431DP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431EP-Z",
+     "raw": "IPC-HDBW5431EP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431RP-Z",
+     "raw": "IPC-HDBW5431RP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z-IRA",
+     "raw": "IPC-HFW5431EP-Z-IRA:01:02:05:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5431EP",
+     "raw": "IPC-HF5431EP:01:02:04:23:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z",
+     "raw": "IPC-HFW5431EP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431DP-Z",
+     "raw": "IPC-HFW5431DP-Z:01:02:02:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431EP-Z",
+     "raw": "IPC-HDBW5431EP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431RP-Z",
+     "raw": "IPC-HDBW5431RP-Z:01:02:05:23:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431EP-Z-IRA",
+     "raw": "IPC-HFW5431EP-Z-IRA:01:02:05:23:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5231EP",
+     "raw": "IPC-HF5231EP:01:02:04:36:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z",
+     "raw": "IPC-HFW5231EP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231DP-Z",
+     "raw": "IPC-HFW5231DP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231EP-Z",
+     "raw": "IPC-HDBW5231EP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231RP-Z",
+     "raw": "IPC-HDBW5231RP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z-IRA",
+     "raw": "IPC-HFW5231EP-Z-IRA:01:02:05:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5231EP",
+     "raw": "IPC-HF5231EP:01:02:04:36:1A:17:01:0A:01:01:04:258:02:00:00:08:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z",
+     "raw": "IPC-HFW5231EP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231DP-Z",
+     "raw": "IPC-HFW5231DP-Z:01:02:02:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231EP-Z",
+     "raw": "IPC-HDBW5231EP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231RP-Z",
+     "raw": "IPC-HDBW5231RP-Z:01:02:05:36:1A:17:01:06:01:01:04:258:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5231EP-Z-IRA",
+     "raw": "IPC-HFW5231EP-Z-IRA:01:02:05:36:1A:17:01:06:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA",
+     "raw": "IPC-HFW5431-IRA:01:02:02:23:1A:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA-AS",
+     "raw": "IPC-HFW5431-IRA-AS:01:02:02:23:1A:00:01:0A:01:01:04:258:02:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA",
+     "raw": "IPC-HFW5431-IRA:01:02:02:23:1A:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5431-IRA-AS",
+     "raw": "IPC-HFW5431-IRA-AS:01:02:02:23:1A:00:01:0A:01:01:04:258:02:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5431R-Z",
+     "raw": "IPC-HDBW5431R-Z:01:02:05:23:1A:17:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -284,5 +2434,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d62e9bccc536f80bc3a48511cafc895a91f31dbcf547e40816ca28796a3ba498"
 }

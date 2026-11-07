@@ -6,6 +6,45 @@
    "ids": [
     "IPC-D1B20"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20",
+     "raw": "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
@@ -33,6 +72,45 @@
    "firmware": "Firmware_VIP_1020_G2_23-03-21.bin",
    "ids": [
     "IPC-D1B20"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20",
+     "raw": "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -167,5 +245,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "f7b46100559eca3305280c1ccd9e0fa09849d6a43c10ba1e07b55796bb3c5c60"
 }

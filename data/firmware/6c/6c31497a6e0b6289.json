@@ -6,6 +6,41 @@
    "ids": [
     "IPC-PTS1439B-E2-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "10B",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PTS1439B-E2-PV",
+     "raw": "IPC-PTS1439B-E2-PV:01:02:00:10B:73:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PTS1439B-E2-PV:01:02:00:10B:73:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-HX1XXX-DC-Hugo_EngSpnRusUkr_PN_V3.120.0000000.38.R.260623.bin",
    "ids": [
     "IPC-PTS1439B-E2-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "10B",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PTS1439B-E2-PV",
+     "raw": "IPC-PTS1439B-E2-PV:01:02:00:10B:73:00:02:10:01:01:04:3E8:00:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -177,5 +247,6 @@
    "software_version": "V3.120.0000000.38.R.260623"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "6c31497a6e0b628994c7cdd1e5bcacbb70ff6777e068bc23e8e61c793430aa15"
 }

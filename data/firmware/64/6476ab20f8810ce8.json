@@ -18,6 +18,446 @@
     "CA-HZ2042VA2-A",
     "CA-HZ2040VA1-D"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040VI-A",
+     "raw": "CA-HZ8040VI-A:01:03:04:74:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040VI-A",
+     "raw": "CA-HZ4040VI-A:01:03:04:74:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040VI-A",
+     "raw": "CA-HZ2040VI-A:01:03:04:42:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2055VA-A",
+     "raw": "CA-HZ2055VA-A:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040-WARPWAY-B",
+     "raw": "CA-HZ2040-WARPWAY-B:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-CA-HZ2040VC-B",
+     "raw": "IPC-CA-HZ2040VC-B:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-CA-HZ2026VA-A",
+     "raw": "IPC-CA-HZ2026VA-A:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8020VA-A",
+     "raw": "CA-HZ8020VA-A:01:03:04:74:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8025VA-A",
+     "raw": "CA-HZ8025VA-A:01:03:04:74:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2033VA-A",
+     "raw": "CA-HZ2033VA-A:01:03:04:42:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2048VA2-A",
+     "raw": "CA-HZ2048VA2-A:01:03:04:1E:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2042VA2-A",
+     "raw": "CA-HZ2042VA2-A:01:03:04:1E:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040VA1-D",
+     "raw": "CA-HZ2040VA1-D:01:03:04:42:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ8040VI-A:01:03:04:74:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800",
@@ -69,6 +509,446 @@
     "CA-HZ2048VA2-A",
     "CA-HZ2042VA2-A",
     "CA-HZ2040VA1-D"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040VI-A",
+     "raw": "CA-HZ8040VI-A:01:03:04:74:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040VI-A",
+     "raw": "CA-HZ4040VI-A:01:03:04:74:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040VI-A",
+     "raw": "CA-HZ2040VI-A:01:03:04:42:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2055VA-A",
+     "raw": "CA-HZ2055VA-A:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040-WARPWAY-B",
+     "raw": "CA-HZ2040-WARPWAY-B:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-CA-HZ2040VC-B",
+     "raw": "IPC-CA-HZ2040VC-B:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-CA-HZ2026VA-A",
+     "raw": "IPC-CA-HZ2026VA-A:01:03:04:42:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8020VA-A",
+     "raw": "CA-HZ8020VA-A:01:03:04:74:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8025VA-A",
+     "raw": "CA-HZ8025VA-A:01:03:04:74:23:00:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2033VA-A",
+     "raw": "CA-HZ2033VA-A:01:03:04:42:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2048VA2-A",
+     "raw": "CA-HZ2048VA2-A:01:03:04:1E:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2042VA2-A",
+     "raw": "CA-HZ2042VA2-A:01:03:04:1E:23:18:01:10:01:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800,
+       1250
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2040VA1-D",
+     "raw": "CA-HZ2040VA1-D:01:03:04:42:23:00:01:10:03:01:04:320_4E2:04:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -299,5 +1179,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "6476ab20f8810ce82ce46a6139e2c047c4dbf790e65d07f780ac50e5798c2eab"
 }

@@ -21,6 +21,600 @@
     "IPC-HDP2230C-SA",
     "IPC-HFW2233M-AS-LED"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-X5",
+     "raw": "IPC-HDBW2230R-X5:01:02:05:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDW2230C-A-X5",
+     "raw": "IPC-HDW2230C-A-X5:01:02:05:60:2B:00:01:15:01:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-X5",
+     "raw": "IPC-HDBW2233R-X5:01:02:05:4A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A-X5",
+     "raw": "IPC-HDW2233C-A-X5:01:02:05:4A:2B:00:01:15:01:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M",
+     "raw": "IPC-HFW2233M:01:02:02:6A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A",
+     "raw": "IPC-HDW2233C-A:01:02:05:6A:2B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-LED",
+     "raw": "IPC-HFW2233M-LED:01:02:02:6A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233T-A-LED",
+     "raw": "IPC-HDW2233T-A-LED:01:02:05:6A:2B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-AS-X5",
+     "raw": "IPC-HDBW2230R-AS-X5:01:02:05:60:2B:00:01:15:01:01:04:320:08:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-S-X5",
+     "raw": "IPC-HDBW2230R-S-X5:01:02:05:60:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-AS-X5",
+     "raw": "IPC-HDBW2233R-AS-X5:01:02:05:4A:2B:00:01:15:01:01:04:320:08:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-S-X5",
+     "raw": "IPC-HDBW2233R-S-X5:01:02:05:4A:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-S",
+     "raw": "IPC-HFW2233M-S:01:02:02:6A:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS",
+     "raw": "IPC-HFW2233M-AS:01:02:02:6A:2B:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDP2230C-SA",
+     "raw": "IPC-HDP2230C-SA:01:02:05:60:2B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS-LED",
+     "raw": "IPC-HFW2233M-AS-LED:01:02:05:6A:2B:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDBW2230R-X5:01:02:05:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80:FF",
@@ -78,6 +672,600 @@
     "IPC-HFW2233M-AS",
     "IPC-HDP2230C-SA",
     "IPC-HFW2233M-AS-LED"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-X5",
+     "raw": "IPC-HDBW2230R-X5:01:02:05:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDW2230C-A-X5",
+     "raw": "IPC-HDW2230C-A-X5:01:02:05:60:2B:00:01:15:01:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-X5",
+     "raw": "IPC-HDBW2233R-X5:01:02:05:4A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A-X5",
+     "raw": "IPC-HDW2233C-A-X5:01:02:05:4A:2B:00:01:15:01:00:00:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M",
+     "raw": "IPC-HFW2233M:01:02:02:6A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A",
+     "raw": "IPC-HDW2233C-A:01:02:05:6A:2B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-LED",
+     "raw": "IPC-HFW2233M-LED:01:02:02:6A:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233T-A-LED",
+     "raw": "IPC-HDW2233T-A-LED:01:02:05:6A:2B:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-AS-X5",
+     "raw": "IPC-HDBW2230R-AS-X5:01:02:05:60:2B:00:01:15:01:01:04:320:08:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2230R-S-X5",
+     "raw": "IPC-HDBW2230R-S-X5:01:02:05:60:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-AS-X5",
+     "raw": "IPC-HDBW2233R-AS-X5:01:02:05:4A:2B:00:01:15:01:01:04:320:08:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-S-X5",
+     "raw": "IPC-HDBW2233R-S-X5:01:02:05:4A:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-S",
+     "raw": "IPC-HFW2233M-S:01:02:02:6A:2B:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS",
+     "raw": "IPC-HFW2233M-AS:01:02:02:6A:2B:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDP2230C-SA",
+     "raw": "IPC-HDP2230C-SA:01:02:05:60:2B:00:01:10:01:01:04:320:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS-LED",
+     "raw": "IPC-HFW2233M-AS-LED:01:02:05:6A:2B:00:01:10:01:01:04:320:08:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -219,5 +1407,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9becb404dd89120a070a3b87ed46379c486df7663098227b4010731fd001378a"
 }

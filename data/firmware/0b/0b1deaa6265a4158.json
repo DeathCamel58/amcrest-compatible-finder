@@ -7,6 +7,74 @@
     "TPC-SD8442A-BCZ45-S2",
     "TPC-SD8642A-BCZ45-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F1",
+       "name": null
+      },
+      "soc": {
+       "code": "40",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-SD8442A-BCZ45-S2",
+     "raw": "TPC-SD8442A-BCZ45-S2:01:08:05:F1:40:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "EA",
+       "name": null
+      },
+      "soc": {
+       "code": "40",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-SD8642A-BCZ45-S2",
+     "raw": "TPC-SD8642A-BCZ45-S2:01:08:05:EA:40:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "TPC-SD8442A-BCZ45-S2:01:08:05:F1:40:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400",
@@ -36,6 +104,74 @@
    "ids": [
     "TPC-SD8442A-BCZ45-S2",
     "TPC-SD8642A-BCZ45-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F1",
+       "name": null
+      },
+      "soc": {
+       "code": "40",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-SD8442A-BCZ45-S2",
+     "raw": "TPC-SD8442A-BCZ45-S2:01:08:05:F1:40:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "EA",
+       "name": null
+      },
+      "soc": {
+       "code": "40",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-SD8642A-BCZ45-S2",
+     "raw": "TPC-SD8642A-BCZ45-S2:01:08:05:EA:40:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -455,5 +591,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "0b1deaa6265a41586c8f3f575a5c9a3a73026a0682005851758c9e79737bc207"
 }

@@ -7,6 +7,82 @@
     "IPC-AW26WN-S2",
     "IPC-AW46WN-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW26WN-S2",
+     "raw": "IPC-AW26WN-S2:01:02:08:77:3B:00:01:10:01:01:04:320:00:02:00:00:01:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW46WN-S2",
+     "raw": "IPC-AW46WN-S2:01:02:08:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-AW26WN-S2:01:02:08:77:3B:00:01:10:01:01:04:320:00:02:00:00:01:00:00:00:80",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-AW26WN-S2",
     "IPC-AW46WN-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW26WN-S2",
+     "raw": "IPC-AW26WN-S2:01:02:08:77:3B:00:01:10:01:01:04:320:00:02:00:00:01:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW46WN-S2",
+     "raw": "IPC-AW46WN-S2:01:02:08:89:3C:00:01:10:01:01:04:320:03:02:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -291,5 +443,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "6656174c8d43260a066122d86984b99a61249effab1e1f1a25b34ff5ef03890f"
 }

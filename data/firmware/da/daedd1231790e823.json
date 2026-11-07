@@ -22,6 +22,601 @@
     "IPC-HDW3841HN-AS-PV-CAYENNE",
     "IPC-HDW3641EMP-S-0280B-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841R-ZAS",
+     "raw": "IPC-HDBW3841R-ZAS:01:02:05:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841R-ZS",
+     "raw": "IPC-HDBW3841R-ZS:01:02:05:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EP-AS",
+     "raw": "IPC-HFW3841EP-AS:01:02:02:8F:41:00:01:10:03:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EP-SA",
+     "raw": "IPC-HFW3841EP-SA:01:02:02:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841T-ZAS-27135",
+     "raw": "IPC-HFW3841T-ZAS-27135:01:02:02:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841T-ZS-27135",
+     "raw": "IPC-HFW3841T-ZS-27135:01:02:02:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841TM-AS",
+     "raw": "IPC-HDW3841TM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841EM-AS",
+     "raw": "IPC-HDW3841EM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841T-ZAS-27135",
+     "raw": "IPC-HDW3841T-ZAS-27135:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841E-S",
+     "raw": "IPC-HDBW3841E-S:01:02:00:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841E-AS",
+     "raw": "IPC-HDBW3841E-AS:01:02:00:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EN-PV-0280B-cayenne",
+     "raw": "IPC-HFW3841EN-PV-0280B-cayenne:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3849HP-AS-PV",
+     "raw": "IPC-HDW3849HP-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3849T1P-AS-PV",
+     "raw": "IPC-HFW3849T1P-AS-PV:01:02:02:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841HN-AS-PV",
+     "raw": "IPC-HDW3841HN-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841HN-AS-PV-CAYENNE",
+     "raw": "IPC-HDW3841HN-AS-PV-CAYENNE:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3641EMP-S-0280B-S2",
+     "raw": "IPC-HDW3641EMP-S-0280B-S2:01:02:00:7C:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDBW3841R-ZAS:01:02:05:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200",
@@ -81,6 +676,601 @@
     "IPC-HDW3841HN-AS-PV",
     "IPC-HDW3841HN-AS-PV-CAYENNE",
     "IPC-HDW3641EMP-S-0280B-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841R-ZAS",
+     "raw": "IPC-HDBW3841R-ZAS:01:02:05:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841R-ZS",
+     "raw": "IPC-HDBW3841R-ZS:01:02:05:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EP-AS",
+     "raw": "IPC-HFW3841EP-AS:01:02:02:8F:41:00:01:10:03:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EP-SA",
+     "raw": "IPC-HFW3841EP-SA:01:02:02:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841T-ZAS-27135",
+     "raw": "IPC-HFW3841T-ZAS-27135:01:02:02:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841T-ZS-27135",
+     "raw": "IPC-HFW3841T-ZS-27135:01:02:02:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841TM-AS",
+     "raw": "IPC-HDW3841TM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841EM-AS",
+     "raw": "IPC-HDW3841EM-AS:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841T-ZAS-27135",
+     "raw": "IPC-HDW3841T-ZAS-27135:01:02:00:8F:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841E-S",
+     "raw": "IPC-HDBW3841E-S:01:02:00:8F:41:00:01:10:00:00:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3841E-AS",
+     "raw": "IPC-HDBW3841E-AS:01:02:00:8F:41:00:01:10:01:01:04:320:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3841EN-PV-0280B-cayenne",
+     "raw": "IPC-HFW3841EN-PV-0280B-cayenne:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3849HP-AS-PV",
+     "raw": "IPC-HDW3849HP-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3849T1P-AS-PV",
+     "raw": "IPC-HFW3849T1P-AS-PV:01:02:02:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841HN-AS-PV",
+     "raw": "IPC-HDW3841HN-AS-PV:01:02:00:8F:41:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "8F",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3841HN-AS-PV-CAYENNE",
+     "raw": "IPC-HDW3841HN-AS-PV-CAYENNE:01:02:02:8F:41:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW3641EMP-S-0280B-S2",
+     "raw": "IPC-HDW3641EMP-S-0280B-S2:01:02:00:7C:41:00:01:10:01:00:04:320:00:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -232,5 +1422,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "daedd1231790e8234921097870c430e2106ad1636bdbc3951156925d35ad9f60"
 }

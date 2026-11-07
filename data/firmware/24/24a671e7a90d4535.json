@@ -6,6 +6,45 @@
    "ids": [
     "IPC-EBW81240"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW81240",
+     "raw": "IPC-EBW81240:01:02:0B:24:2D:00:01:10:01:01:04:400:08:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-EBW81240:01:02:0B:24:2D:00:01:10:01:01:04:400:08:00:00:00:00:01:00:00:1000"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-EBW81240"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW81240",
+     "raw": "IPC-EBW81240:01:02:0B:24:2D:00:01:10:01:01:04:400:08:00:00:00:00:01:00:00:1000"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -266,5 +344,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "24a671e7a90d4535ffa0984c6e453d486a27c865cdd680cce683acecf081db48"
 }

@@ -11,6 +11,206 @@
     "SD-E46B230U-HNI",
     "SD-E46B230U-HN"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8030U-I",
+     "raw": "CA-HZ8030U-I:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8004V",
+     "raw": "CA-HZ8004V:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-46A230U-HNI",
+     "raw": "SD-46A230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-P46B230U-HNI",
+     "raw": "SD-P46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-E46B230U-HNI",
+     "raw": "SD-E46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-E46B230U-HN",
+     "raw": "SD-E46B230U-HN:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ8030U-I:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400",
@@ -48,6 +248,206 @@
     "SD-P46B230U-HNI",
     "SD-E46B230U-HNI",
     "SD-E46B230U-HN"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8030U-I",
+     "raw": "CA-HZ8030U-I:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8004V",
+     "raw": "CA-HZ8004V:01:03:04:24:1F:00:01:10:00:00:04:258:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-46A230U-HNI",
+     "raw": "SD-46A230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-P46B230U-HNI",
+     "raw": "SD-P46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-E46B230U-HNI",
+     "raw": "SD-E46B230U-HNI:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "07",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-E46B230U-HN",
+     "raw": "SD-E46B230U-HN:01:03:04:4A:1F:00:01:10:01:01:04:320:00:00:00:07:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -240,5 +640,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "deccf9a8329c15df32a823aa34fda14c06cb8ef9d1bc0000ba0068553a9b4288"
 }

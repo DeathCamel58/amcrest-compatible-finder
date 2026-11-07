@@ -10,6 +10,193 @@
     "IPC-TD15",
     "IPC-TG26"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1235E-W-ECO",
+     "raw": "IPC-HDBW1235E-W-ECO:01:02:05:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1235S-W-ECO",
+     "raw": "IPC-HFW1235S-W-ECO:01:02:02:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TD26",
+     "raw": "IPC-TD26:01:02:05:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TD15",
+     "raw": "IPC-TD15:01:02:05:38:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TG26",
+     "raw": "IPC-TG26:01:02:0F:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDBW1235E-W-ECO:01:02:05:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100",
@@ -29,6 +216,193 @@
     "IPC-TD26",
     "IPC-TD15",
     "IPC-TG26"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1235E-W-ECO",
+     "raw": "IPC-HDBW1235E-W-ECO:01:02:05:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1235S-W-ECO",
+     "raw": "IPC-HFW1235S-W-ECO:01:02:02:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TD26",
+     "raw": "IPC-TD26:01:02:05:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TD15",
+     "raw": "IPC-TD15:01:02:05:38:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TG26",
+     "raw": "IPC-TG26:01:02:0F:60:28:00:01:10:01:00:04:320:00:02:00:00:00:00:00:00:100"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -285,5 +659,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "f306037e79216550014fd7931f93fe0559e28e16d8cf47dd3d9ba17bb7c4a5a1"
 }

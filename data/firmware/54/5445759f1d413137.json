@@ -7,6 +7,82 @@
     "IPC-HDBW1230E-S-S2",
     "IPC-HDBW1230E-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230E-S-S2",
+     "raw": "IPC-HDBW1230E-S-S2:01:02:05:60:28:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230E-S2",
+     "raw": "IPC-HDBW1230E-S2:01:02:05:60:28:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDBW1230E-S-S2:01:02:05:60:28:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100",
@@ -20,6 +96,82 @@
    "ids": [
     "IPC-HDBW1230E-S-S2",
     "IPC-HDBW1230E-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230E-S-S2",
+     "raw": "IPC-HDBW1230E-S-S2:01:02:05:60:28:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "28",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230E-S2",
+     "raw": "IPC-HDBW1230E-S2:01:02:05:60:28:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -276,5 +428,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5445759f1d4131373c3a3f4d8c874ce69fd30fe248890d401101a604f3d70dc7"
 }

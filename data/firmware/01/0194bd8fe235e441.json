@@ -42,6 +42,45 @@
    "ids": [
     "IPC-HDBW5231EP-ZE-HDMI-27135"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "0C",
+       "name": "HDMI"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5231EP-ZE-HDMI-27135",
+     "raw": "IPC-HDBW5231EP-ZE-HDMI-27135:01:02:05:4A:21:00:01:0F:01:01:04:2D0:03:00:00:0C:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDBW5231EP-ZE-HDMI-27135:01:02:05:4A:21:00:01:0F:01:01:04:2D0:03:00:00:0C:00:01:00:00:200"
@@ -265,5 +304,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "0194bd8fe235e4418c4d6d7ef6eb1e0466155ddaa80a3f350a1e06960c25cefa"
 }

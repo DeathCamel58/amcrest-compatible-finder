@@ -45,6 +45,140 @@
     "CA-HZ2012T-S2",
     "CA-HZ2023T-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       816
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "CA-HZ2030T-S2",
+     "raw": "CA-HZ2030T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       816
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "CA-HZ2025T-S2",
+     "raw": "CA-HZ2025T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       816
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "CA-HZ2012T-S2",
+     "raw": "CA-HZ2012T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       816
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "CA-HZ2023T-S2",
+     "raw": "CA-HZ2023T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "CA-HZ2030T-S2:01:03:04:4A:21:00:01:0E:01:01:04:330:00:00:00:04:00:00:00:00:200:00",
@@ -261,5 +395,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "69b185ee266c097af638786028d00c51bc136fbd1b67a0ca0ff88f05941a262c"
 }

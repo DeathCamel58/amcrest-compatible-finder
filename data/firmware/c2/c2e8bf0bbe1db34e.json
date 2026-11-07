@@ -22,6 +22,40 @@
    "ids": [
     "IPC-HDBW2449FP-AS-E2-IL-0280B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2449FP-AS-E2-IL-0280B",
+     "raw": "IPC-HDBW2449FP-AS-E2-IL-0280B:01:02:00:10C:6A:00:02:10:07:01:04:3E8:03:00:00:00:00:00:00:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDBW2449FP-AS-E2-IL-0280B:01:02:00:10C:6A:00:02:10:07:01:04:3E8:03:00:00:00:00:00:00:00:400"
@@ -49,6 +83,40 @@
    "firmware": "web-x.squashfs.bin",
    "ids": [
     "IPC-HDBW2449FP-AS-E2-IL-0280B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2449FP-AS-E2-IL-0280B",
+     "raw": "IPC-HDBW2449FP-AS-E2-IL-0280B:01:02:00:10C:6A:00:02:10:07:01:04:3E8:03:00:00:00:00:00:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -218,5 +286,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c2e8bf0bbe1db34eef2e4e8b0e177b53a51dcc9afa666a763ea16939b5490eab"
 }

@@ -6,6 +6,41 @@
    "ids": [
     "IPC-HFW2431DGP-4G-SP"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431DGP-4G-SP",
+     "raw": "IPC-HFW2431DGP-4G-SP:01:02:00:89:60:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2431DGP-4G-SP:01:02:00:89:60:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:100"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-HX2XXX-Joule2_MultiLang_PN_V3.000.0000000.8.R.250626.bin",
    "ids": [
     "IPC-HFW2431DGP-4G-SP"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2431DGP-4G-SP",
+     "raw": "IPC-HFW2431DGP-4G-SP:01:02:00:89:60:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -248,5 +318,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b29c2423584c48d304fdca894410b904c86fbec4dd3ce75fe8a612adf30d7c78"
 }

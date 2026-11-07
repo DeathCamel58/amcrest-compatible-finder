@@ -6,6 +6,40 @@
    "ids": [
     "VTO2101E"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO2101E",
+     "raw": "VTO2101E:01:04:01:36:1E:00:01:11:03:03:00:21C:00:00:00:00:00:00:00:00:100:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO2101E:01:04:01:36:1E:00:01:11:03:03:00:21C:00:00:00:00:00:00:00:00:100:FF"
@@ -38,6 +72,40 @@
    "firmware": "General_VTO2101E_MultiLang_PN_16M-SIP_V4.500.0000000.5.R.201026.bin",
    "ids": [
     "VTO2101E"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO2101E",
+     "raw": "VTO2101E:01:04:01:36:1E:00:01:11:03:03:00:21C:00:00:00:00:00:00:00:00:100:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -205,5 +273,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "8ca98ebb10932007455065caf253845027c2ba6640a7c6aa83b7a77701eff849"
 }

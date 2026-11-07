@@ -7,6 +7,74 @@
     "IPC-HUM8531MP-V",
     "IPC-HUM7533M-V"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E1",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM8531MP-V",
+     "raw": "IPC-HUM8531MP-V:01:02:00:E1:60:01:01:10:01:00:04:4B0:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E1",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM7533M-V",
+     "raw": "IPC-HUM7533M-V:01:02:00:E1:60:01:01:10:01:00:04:4B0:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HUM8531MP-V:01:02:00:E1:60:01:01:10:01:00:04:4B0:00:00:00:00:00:00:00:00:100",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-HUM8531MP-V",
     "IPC-HUM7533M-V"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E1",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM8531MP-V",
+     "raw": "IPC-HUM8531MP-V:01:02:00:E1:60:01:01:10:01:00:04:4B0:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E1",
+       "name": null
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM7533M-V",
+     "raw": "IPC-HUM7533M-V:01:02:00:E1:60:01:01:10:01:00:04:4B0:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -279,5 +415,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e90c70656564bb39bcd7cf714481a560bd89c148f25bdc87888a5d9c03ef690f"
 }

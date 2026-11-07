@@ -28,6 +28,245 @@
     "SD-MT2C8000NAS2-A",
     "SD-MT2C8000NAS2-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-P3DP-3F-PV-P-PRO",
+     "raw": "IPC-P3DP-3F-PV-P-PRO:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C2000NAS2-A",
+     "raw": "SD-MT2C2000NAS2-A:01:03:04:116:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C3000NAS2-A",
+     "raw": "SD-MT2C3000NAS2-A:01:03:04:116:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C4000NAS2-D",
+     "raw": "SD-MT2C4000NAS2-D:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C5000NAS2-A",
+     "raw": "SD-MT2C5000NAS2-A:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "F2",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C8000NAS2-A",
+     "raw": "SD-MT2C8000NAS2-A:01:03:04:F2:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "F2",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2C8000NAS2-B",
+     "raw": "SD-MT2C8000NAS2-B:01:03:04:F2:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-P3DP-3F-PV-P-PRO:01:02:00:116:73:00:02:10:01:01:04:3E8:00:00:00:00:00:00:00:00:100",
@@ -109,5 +348,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e869d38d79c633d6e98bcf6fb6b2f223b160f65b4679ec2452a0c0ee8d75ec70"
 }

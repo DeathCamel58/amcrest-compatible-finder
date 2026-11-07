@@ -40,6 +40,136 @@
     "ARA46-P-W2",
     "ARA46-P-W2-868"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ARA46-N-W2",
+     "raw": "ARA46-N-W2:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ARA46-N-W2-868",
+     "raw": "ARA46-N-W2-868:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ARA46-P-W2",
+     "raw": "ARA46-P-W2:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ARA46-P-W2-868",
+     "raw": "ARA46-P-W2-868:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "ARA46-N-W2:01:04:04:00:76:00:00:00:00:00:00:3E8:00:03:00:00:08:00:00:00:80:FF",
@@ -113,5 +243,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "34acb3cc8c523fc0b1447810641793864512540482a813ac4e9b4421bfeba2ad"
 }

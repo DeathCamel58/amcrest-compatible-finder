@@ -13,6 +13,272 @@
     "SD29204T-GNW",
     "SD29204T-GN"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "33",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2030T",
+     "raw": "CA-HZ2030T:01:03:04:33:18:00:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "37",
+       "name": "IMX225"
+      },
+      "soc": {
+       "code": "16",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ1020TA",
+     "raw": "CA-HZ1020TA:01:03:04:37:16:13:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2020TA",
+     "raw": "CA-HZ2020TA:01:03:04:1E:18:15:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ2012T",
+     "raw": "CA-HZ2012T:01:03:04:36:18:00:01:0C:01:00:04:258:00:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD22204T-GN-NAND",
+     "raw": "SD22204T-GN-NAND:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD22204T-GNW",
+     "raw": "SD22204T-GNW:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD29204T-GNW",
+     "raw": "SD29204T-GNW:01:03:04:36:18:00:01:0E:01:00:04:258:00:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD29204T-GN",
+     "raw": "SD29204T-GN:01:03:04:36:18:00:01:0E:01:00:04:258:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "CA-HZ2030T:01:03:04:33:18:00:01:07:01:01:04:258:00:00:00:04:00:01:00:00:100",
@@ -278,5 +544,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "3d050f4a8f5978569762f9e8ade7a894139ca01ac30b29755cfc42b8d657b39f"
 }

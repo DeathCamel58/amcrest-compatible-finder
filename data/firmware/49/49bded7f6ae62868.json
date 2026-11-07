@@ -8,6 +8,105 @@
     "IPC-HDBW5443DF-ST-KLTJ",
     "DAE-CPC5241F"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443F-AST-KLTJ",
+     "raw": "IPC-HDBW5443F-AST-KLTJ:01:02:00:C8:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443DF-ST-KLTJ",
+     "raw": "IPC-HDBW5443DF-ST-KLTJ:01:02:00:C8:56:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "DAE-CPC5241F",
+     "raw": "DAE-CPC5241F:01:02:00:B4:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDBW5443F-AST-KLTJ:01:02:00:C8:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400",
@@ -23,6 +122,105 @@
     "IPC-HDBW5443F-AST-KLTJ",
     "IPC-HDBW5443DF-ST-KLTJ",
     "DAE-CPC5241F"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443F-AST-KLTJ",
+     "raw": "IPC-HDBW5443F-AST-KLTJ:01:02:00:C8:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443DF-ST-KLTJ",
+     "raw": "IPC-HDBW5443DF-ST-KLTJ:01:02:00:C8:56:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "DAE-CPC5241F",
+     "raw": "DAE-CPC5241F:01:02:00:B4:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "hwid",
    "raw": [
@@ -55,6 +253,105 @@
     "IPC-HDBW5443F-AST-KLTJ",
     "IPC-HDBW5443DF-ST-KLTJ",
     "DAE-CPC5241F"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443F-AST-KLTJ",
+     "raw": "IPC-HDBW5443F-AST-KLTJ:01:02:00:C8:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443DF-ST-KLTJ",
+     "raw": "IPC-HDBW5443DF-ST-KLTJ:01:02:00:C8:56:00:01:10:01:01:04:3E8:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "DAE-CPC5241F",
+     "raw": "DAE-CPC5241F:01:02:00:B4:56:00:01:10:03:03:04:3E8:03:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -501,5 +798,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "49bded7f6ae62868a02d768e2fd0d6908249ff77e598e0e5c057ab84addeb8a5"
 }

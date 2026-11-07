@@ -7,6 +7,74 @@
     "IPC-BF5HP-0210B",
     "IPC-BF5HP-0210B-Black"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF5HP-0210B",
+     "raw": "IPC-BF5HP-0210B:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:02:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF5HP-0210B-Black",
+     "raw": "IPC-BF5HP-0210B-Black:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-BF5HP-0210B:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:02:00:00:01:00:00:80",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-BF5HP-0210B",
     "IPC-BF5HP-0210B-Black"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF5HP-0210B",
+     "raw": "IPC-BF5HP-0210B:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:02:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "112",
+       "name": null
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BF5HP-0210B-Black",
+     "raw": "IPC-BF5HP-0210B-Black:01:02:00:112:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -158,5 +294,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "abe224084ebc5283efb5fdefd1e4f83b9995ac3ffbfbdc21ccbe1ed1296a0fe1"
 }

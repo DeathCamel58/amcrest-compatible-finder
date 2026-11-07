@@ -6,6 +6,41 @@
    "ids": [
     "CA-HZ8025YA-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8025YA-A",
+     "raw": "CA-HZ8025YA-A:01:03:04:74:34:00:01:10:03:01:04:4B0_4B0:04:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ8025YA-A:01:03:04:74:34:00:01:10:03:01:04:4B0_4B0:04:00:00:04:00:01:00:00:800"
@@ -34,6 +69,41 @@
    "ids": [
     "CA-HZ8025YA-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8025YA-A",
+     "raw": "CA-HZ8025YA-A:01:03:04:74:34:00:01:10:03:01:04:4B0_4B0:04:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -59,6 +129,41 @@
    "firmware": "PART 2 _ General_SD-Nobel-Web_MultiLang_NP_PART2_V2.800.000000J.0.R.220331.bin",
    "ids": [
     "CA-HZ8025YA-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8025YA-A",
+     "raw": "CA-HZ8025YA-A:01:03:04:74:34:00:01:10:03:01:04:4B0_4B0:04:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -401,5 +506,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "05f285dac0b420a7f27d01523fa8238f35bb4a08e8f79a190718f385d4794d74"
 }

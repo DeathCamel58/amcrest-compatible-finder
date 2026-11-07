@@ -44,6 +44,107 @@
     "SD-6C80E-GN",
     "SD-6C82E-GN"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD22204T-GN",
+     "raw": "SD22204T-GN:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "16",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-6C80E-GN",
+     "raw": "SD-6C80E-GN:01:03:04:38:16:13:01:00:00:00:04:258:00:00:00:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "36",
+       "name": "AR0230"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-6C82E-GN",
+     "raw": "SD-6C82E-GN:01:03:04:36:18:16:01:00:00:00:04:258:00:00:00:04:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "SD22204T-GN:01:03:04:36:18:00:01:00:00:00:04:258:00:02:00:00:00:01:00:00:100",
@@ -268,5 +369,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "37d4fbeae0842e28fd85123b37d1bf309a3e0805159517120b487b42ec6281e7"
 }

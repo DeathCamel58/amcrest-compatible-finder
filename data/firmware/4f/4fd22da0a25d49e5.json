@@ -7,6 +7,82 @@
     "CE-C100",
     "CE-C10S"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "0D",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "11",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CE-C100",
+     "raw": "CE-C100:01:02:0D:1D:11:00:01:08:01:01:04:1B8:00:02:02:04:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "0D",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "11",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CE-C10S",
+     "raw": "CE-C10S:01:02:0D:1D:11:0E:01:08:01:01:04:1B8:00:02:02:00:04:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CE-C100:01:02:0D:1D:11:00:01:08:01:01:04:1B8:00:02:02:04:00:00:00:00:40",
@@ -61,6 +137,82 @@
    "ids": [
     "CE-C100",
     "CE-C10S"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "0D",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "11",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CE-C100",
+     "raw": "CE-C100:01:02:0D:1D:11:00:01:08:01:01:04:1B8:00:02:02:04:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       440
+      ],
+      "formFactor": {
+       "code": "0D",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "11",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CE-C10S",
+     "raw": "CE-C10S:01:02:0D:1D:11:0E:01:08:01:01:04:1B8:00:02:02:00:04:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -194,5 +346,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "4fd22da0a25d49e5d06cc18d21bed91900a79367d16f355c123f85a15222e166"
 }

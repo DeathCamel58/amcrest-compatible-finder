@@ -17,6 +17,452 @@
     "IPC-B2B20-ZS",
     "IPC-B2B20-L-ZS"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2130M",
+     "raw": "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2130C-A",
+     "raw": "IPC-HDW2130C-A:01:02:02:38:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20",
+     "raw": "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20-L",
+     "raw": "IPC-D1B20-L:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B20",
+     "raw": "IPC-B1B20:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B20-L",
+     "raw": "IPC-B1B20-L:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230MO",
+     "raw": "IPC-HFW1230MO:01:02:02:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-AO",
+     "raw": "IPC-HDW1230C-AO:01:02:05:60:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M",
+     "raw": "IPC-HFW1230M:01:02:02:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-A",
+     "raw": "IPC-HDW1230C-A:01:02:05:77:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B20-ZS",
+     "raw": "IPC-B2B20-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B20-L-ZS",
+     "raw": "IPC-B2B20-L-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40",
@@ -66,6 +512,452 @@
     "IPC-HDW1230C-A",
     "IPC-B2B20-ZS",
     "IPC-B2B20-L-ZS"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2130M",
+     "raw": "IPC-HFW2130M:01:02:02:38:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2130C-A",
+     "raw": "IPC-HDW2130C-A:01:02:02:38:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20",
+     "raw": "IPC-D1B20:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-D1B20-L",
+     "raw": "IPC-D1B20-L:01:02:05:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B20",
+     "raw": "IPC-B1B20:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1B20-L",
+     "raw": "IPC-B1B20-L:01:02:05:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230MO",
+     "raw": "IPC-HFW1230MO:01:02:02:60:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-AO",
+     "raw": "IPC-HDW1230C-AO:01:02:05:60:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230M",
+     "raw": "IPC-HFW1230M:01:02:02:77:2F:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230C-A",
+     "raw": "IPC-HDW1230C-A:01:02:05:77:2F:00:01:10:01:00:00:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B20-ZS",
+     "raw": "IPC-B2B20-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2F",
+       "name": "Hi3516CV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B2B20-L-ZS",
+     "raw": "IPC-B2B20-L-ZS:01:02:02:60:2F:00:01:00:00:00:04:320:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -199,5 +1091,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d61594423afa923bd14def4534cdce0730cc80066d36eb732bfeecd69c767f27"
 }

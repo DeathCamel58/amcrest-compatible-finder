@@ -47,6 +47,265 @@
     "IPC-MW4231AP-E2",
     "IPC-MW4231AP-E2-V2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "62",
+       "name": "B5N + IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM8231P-E2",
+     "raw": "IPC-HUM8231P-E2:01:02:0C:62:21:00:02:0F:01:01:04:2D0:08:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "62",
+       "name": "B5N + IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM7233-E2",
+     "raw": "IPC-HUM7233-E2:01:02:0C:62:21:00:02:0F:01:01:04:2D0:08:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW7233X-AS-E2-0280B",
+     "raw": "IPC-HDBW7233X-AS-E2-0280B:01:02:05:4A:21:00:02:0F:03:01:04:2D0:08:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW4231FP-E2-M",
+     "raw": "IPC-HDBW4231FP-E2-M:01:02:05:4A:21:00:02:0F:01:00:04:2D0:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW7233X-AS-E2-0280B",
+     "raw": "IPC-HDBW7233X-AS-E2-0280B:01:02:05:4A:21:00:02:0F:03:01:04:2D0:08:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MW4231AP-E2",
+     "raw": "IPC-MW4231AP-E2:01:02:02:4A:21:00:02:0F:01:00:04:2D0:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MW4231AP-E2-V2",
+     "raw": "IPC-MW4231AP-E2-V2:01:02:02:4A:21:00:02:0F:01:00:04:2D0:00:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HUM8231P-E2:01:02:0C:62:21:00:02:0F:01:01:04:2D0:08:00:00:00:00:01:00:00:200",
@@ -274,5 +533,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "3947cd6c54664e90e49fc6b9f7546c2138eaa83f8a8410a40718ae2b76d17ccd"
 }

@@ -9,6 +9,144 @@
     "CA-HZ8040XA-B",
     "CA-HZ4032XB-E"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040XA-C",
+     "raw": "CA-HZ4040XA-C:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040XA-A",
+     "raw": "CA-HZ8040XA-A:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040XA-B",
+     "raw": "CA-HZ8040XA-B:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4032XB-E",
+     "raw": "CA-HZ4032XB-E:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ4040XA-C:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400",
@@ -42,6 +180,144 @@
     "CA-HZ8040XA-A",
     "CA-HZ8040XA-B",
     "CA-HZ4032XB-E"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040XA-C",
+     "raw": "CA-HZ4040XA-C:01:03:04:86:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040XA-A",
+     "raw": "CA-HZ8040XA-A:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040XA-B",
+     "raw": "CA-HZ8040XA-B:01:03:04:74:51:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "78",
+       "name": "IMX335"
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4032XB-E",
+     "raw": "CA-HZ4032XB-E:01:03:04:78:36:00:01:10:01:01:04:384_384:04:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -307,5 +583,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "87c317d63fbb37905d087507d498c1945005019be5febccf5f42289c1aa145c4"
 }

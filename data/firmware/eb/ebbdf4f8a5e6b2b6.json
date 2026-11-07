@@ -8,6 +8,119 @@
     "IPC-HDBW1530EP-S6",
     "IPC-HFW1431S1P-A-S4"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1530SP-S6",
+     "raw": "IPC-HFW1530SP-S6:01:02:13:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1530EP-S6",
+     "raw": "IPC-HDBW1530EP-S6:01:02:05:BA:49:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1431S1P-A-S4",
+     "raw": "IPC-HFW1431S1P-A-S4:01:02:05:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1530SP-S6:01:02:13:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80",
@@ -39,6 +152,119 @@
     "IPC-HFW1530SP-S6",
     "IPC-HDBW1530EP-S6",
     "IPC-HFW1431S1P-A-S4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1530SP-S6",
+     "raw": "IPC-HFW1530SP-S6:01:02:13:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1530EP-S6",
+     "raw": "IPC-HDBW1530EP-S6:01:02:05:BA:49:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "BA",
+       "name": null
+      },
+      "soc": {
+       "code": "49",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1431S1P-A-S4",
+     "raw": "IPC-HFW1431S1P-A-S4:01:02:05:BA:49:00:01:10:01:00:00:4B0:00:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -198,5 +424,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "ebbdf4f8a5e6b2b64503a167a472e6432f30cdbeeeb6d74bfe848e762d1235fd"
 }

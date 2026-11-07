@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HDPW1130P-ARDM"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E4",
+       "name": "SC2336"
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW1130P-ARDM",
+     "raw": "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
@@ -34,6 +73,45 @@
    "ids": [
     "IPC-HDPW1130P-ARDM"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E4",
+       "name": "SC2336"
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW1130P-ARDM",
+     "raw": "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -59,6 +137,45 @@
    "firmware": "rtos-x_V2.820.0000000.3.R.240223.bin",
    "ids": [
     "IPC-HDPW1130P-ARDM"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "E4",
+       "name": "SC2336"
+      },
+      "soc": {
+       "code": "60",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDPW1130P-ARDM",
+     "raw": "IPC-HDPW1130P-ARDM:01:02:05:E4:60:00:01:10:01:00:00:3E8:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -237,5 +354,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "753ed6140196c49b1ee905f59e7adc3cb8700df7fc6d540d66ce4541c4ae9c79"
 }

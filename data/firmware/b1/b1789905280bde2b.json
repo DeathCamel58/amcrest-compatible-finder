@@ -6,6 +6,41 @@
    "ids": [
     "DB43BP-BTR"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12F",
+       "name": null
+      },
+      "soc": {
+       "code": "7F",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "DB43BP-BTR",
+     "raw": "DB43BP-BTR:01:04:07:12F:7F:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "DB43BP-BTR:01:04:07:12F:7F:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-WDB-Cauchy_Eng_PN_V2.820.0000000.11.R.260204.bin",
    "ids": [
     "DB43BP-BTR"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12F",
+       "name": null
+      },
+      "soc": {
+       "code": "7F",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "DB43BP-BTR",
+     "raw": "DB43BP-BTR:01:04:07:12F:7F:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -135,5 +205,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b1789905280bde2b75e5e7bc8b466a027cebfd4bcd0e7d5b4a47f09122c366ad"
 }

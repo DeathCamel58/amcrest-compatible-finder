@@ -6,6 +6,42 @@
    "ids": [
     "SD-MT2H4000NAS2-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H4000NAS2-B",
+     "raw": "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
@@ -33,6 +69,42 @@
    "firmware": "DH_SD-Hugo_MultiLang_PN_Stream2-Normal-GYY_V3.200.0000010.2.R.250409.bin",
    "ids": [
     "SD-MT2H4000NAS2-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H4000NAS2-B",
+     "raw": "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -44,6 +116,42 @@
    "ids": [
     "SD-MT2H4000NAS2-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H4000NAS2-B",
+     "raw": "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
@@ -71,6 +179,42 @@
    "firmware": "check.bin",
    "ids": [
     "SD-MT2H4000NAS2-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-MT2H4000NAS2-B",
+     "raw": "SD-MT2H4000NAS2-B:01:03:04:B3:73:00:01:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -296,5 +440,6 @@
    "software_version": "V3.200.0000010.2.R.250409"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "7d8e2d95ada70cea08ea5525697f3888bf48cec1af85b62179453763430027ce"
 }

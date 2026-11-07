@@ -8,6 +8,105 @@
     "IPC-HFW4443DG-4G-PV-SA",
     "IPC-HFW5443DG-4G-PV-AS"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3441DGP-AS-4G",
+     "raw": "IPC-HFW3441DGP-AS-4G:01:02:00:89:41:00:01:10:03:03:04:320:08:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4443DG-4G-PV-SA",
+     "raw": "IPC-HFW4443DG-4G-PV-SA:01:02:00:89:41:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443DG-4G-PV-AS",
+     "raw": "IPC-HFW5443DG-4G-PV-AS:01:02:00:89:41:00:01:10:03:03:04:320:08:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW3441DGP-AS-4G:01:02:00:89:41:00:01:10:03:03:04:320:08:00:00:00:00:01:00:00:200",
@@ -39,6 +138,105 @@
     "IPC-HFW3441DGP-AS-4G",
     "IPC-HFW4443DG-4G-PV-SA",
     "IPC-HFW5443DG-4G-PV-AS"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3441DGP-AS-4G",
+     "raw": "IPC-HFW3441DGP-AS-4G:01:02:00:89:41:00:01:10:03:03:04:320:08:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4443DG-4G-PV-SA",
+     "raw": "IPC-HFW4443DG-4G-PV-SA:01:02:00:89:41:00:01:10:01:01:04:320:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443DG-4G-PV-AS",
+     "raw": "IPC-HFW5443DG-4G-PV-AS:01:02:00:89:41:00:01:10:03:03:04:320:08:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -376,5 +574,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9b1f700194264e830bb3c109ac958eb5dcccd4fbbb2fb613cb2a38a0536ca7d8"
 }

@@ -15,6 +15,370 @@
     "IPC-S21F-LC",
     "IPC-S21F-imou"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-D-LC",
+     "raw": "IPC-A22E-D-LC:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:08:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-D-imou",
+     "raw": "IPC-A22E-D-imou:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-D-LC",
+     "raw": "IPC-C22E-D-LC:01:02:0F:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-D-imou",
+     "raw": "IPC-C22E-D-imou:01:02:0F:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA22C-D-LC",
+     "raw": "IPC-TA22C-D-LC:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA22CP-D-imou",
+     "raw": "IPC-TA22CP-D-imou:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-D-LC",
+     "raw": "IPC-F22-D-LC:01:02:08:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-D-imou",
+     "raw": "IPC-F22-D-imou:01:02:08:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S21F-LC",
+     "raw": "IPC-S21F-LC:01:02:00:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S21F-imou",
+     "raw": "IPC-S21F-imou:01:02:00:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-A22E-D-LC:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:08:01:00:01:40",
@@ -60,6 +424,370 @@
     "IPC-F22-D-imou",
     "IPC-S21F-LC",
     "IPC-S21F-imou"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-D-LC",
+     "raw": "IPC-A22E-D-LC:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:08:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-D-imou",
+     "raw": "IPC-A22E-D-imou:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-D-LC",
+     "raw": "IPC-C22E-D-LC:01:02:0F:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-D-imou",
+     "raw": "IPC-C22E-D-imou:01:02:0F:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA22C-D-LC",
+     "raw": "IPC-TA22C-D-LC:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA22CP-D-imou",
+     "raw": "IPC-TA22CP-D-imou:01:02:08:C1:50:00:01:10:01:01:04:258:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-D-LC",
+     "raw": "IPC-F22-D-LC:01:02:08:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:01:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-D-imou",
+     "raw": "IPC-F22-D-imou:01:02:08:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S21F-LC",
+     "raw": "IPC-S21F-LC:01:02:00:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "C1",
+       "name": null
+      },
+      "soc": {
+       "code": "50",
+       "name": "SSC335DE"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S21F-imou",
+     "raw": "IPC-S21F-imou:01:02:00:C1:50:00:01:10:01:00:04:258:00:02:00:00:08:01:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -173,5 +901,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "50b338f3159097587d0dde5cc9d9434e76dc3717158340ac35034a2792a94542"
 }

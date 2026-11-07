@@ -6,6 +6,42 @@
    "ids": [
     "VTO6521K"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO6521K",
+     "raw": "VTO6521K:01:04:01:B4:36:00:01:10:01:01:04:384_384:00:00:00:06:07:01:00:00:400:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO6521K:01:04:01:B4:36:00:01:10:01:01:04:384_384:00:00:00:06:07:01:00:00:400:FF"
@@ -33,6 +69,42 @@
    "firmware": null,
    "ids": [
     "VTO6521K"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900,
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "36",
+       "name": "Hi3516DV300 or Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO6521K",
+     "raw": "VTO6521K:01:04:01:B4:36:00:01:10:01:01:04:384_384:00:00:00:06:07:01:00:00:400:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -296,5 +368,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "622beb7e8a9c0c1a21da63879241ef9cc194df749ef0522e8b0bab4f1c4ce4b5"
 }

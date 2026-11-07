@@ -10,6 +10,218 @@
     "IPC-HDBW5443R1-ZAST-0624-GZHG",
     "IPC-PFW5849P-A180-E2-Lexus"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443F1-ZAST-27135-GZHG",
+     "raw": "IPC-HFW5443F1-ZAST-27135-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443R1-ZAST-27135-GZHG",
+     "raw": "IPC-HDBW5443R1-ZAST-27135-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443F1-ZAST-0624-GZHG",
+     "raw": "IPC-HFW5443F1-ZAST-0624-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443R1-ZAST-0624-GZHG",
+     "raw": "IPC-HDBW5443R1-ZAST-0624-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW5849P-A180-E2-Lexus",
+     "raw": "IPC-PFW5849P-A180-E2-Lexus:01:02:00:7C:56:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW5849P-A180-E2-Lexus",
+     "raw": "IPC-PFW5849P-A180-E2-Lexus:01:02:00:7C:56:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW5443F1-ZAST-27135-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400",
@@ -46,6 +258,218 @@
     "IPC-HFW5443F1-ZAST-0624-GZHG",
     "IPC-HDBW5443R1-ZAST-0624-GZHG",
     "IPC-PFW5849P-A180-E2-Lexus"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443F1-ZAST-27135-GZHG",
+     "raw": "IPC-HFW5443F1-ZAST-27135-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443R1-ZAST-27135-GZHG",
+     "raw": "IPC-HDBW5443R1-ZAST-27135-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5443F1-ZAST-0624-GZHG",
+     "raw": "IPC-HFW5443F1-ZAST-0624-GZHG:01:02:02:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "57",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443R1-ZAST-0624-GZHG",
+     "raw": "IPC-HDBW5443R1-ZAST-0624-GZHG:01:02:04:C8:57:00:01:10:03:03:04:3E8:09:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW5849P-A180-E2-Lexus",
+     "raw": "IPC-PFW5849P-A180-E2-Lexus:01:02:00:7C:56:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW5849P-A180-E2-Lexus",
+     "raw": "IPC-PFW5849P-A180-E2-Lexus:01:02:00:7C:56:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -196,5 +620,6 @@
    "software_version": "V3.120.00AC002.0.R.250403"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "41277e10f269cbce9865ca11a482f1bcc064b7e7a67b94ab6b7adaf87e35d604"
 }

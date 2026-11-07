@@ -6,6 +6,41 @@
    "ids": [
     "IPC-DB41AP-0210B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-DB41AP-0210B",
+     "raw": "IPC-DB41AP-0210B:01:04:07:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-DB41AP-0210B:01:04:07:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:40"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-WDB-Kant_MultiLang_PN_V2.860.0000000.26.R.260530.bin",
    "ids": [
     "IPC-DB41AP-0210B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "68",
+       "name": "SigmaStar Infinity6C/SSC027A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-DB41AP-0210B",
+     "raw": "IPC-DB41AP-0210B:01:04:07:E6:68:00:01:10:01:01:04:4B0:00:00:00:00:00:01:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -167,5 +237,6 @@
    "software_version": "V2.860.0000000.26.R.260530"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "eecf18d6e4a5ef36521d52c59bcaf36340cceed741b626ca7630145484c8d412"
 }

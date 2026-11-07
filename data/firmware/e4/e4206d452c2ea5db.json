@@ -28,6 +28,66 @@
     "TS-LR-Venus-B-16ET2GF-240",
     "TS-LR-Venus-B-24ET2GF-360"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR-Venus-B-16ET2GF-240",
+     "raw": "TS-LR-Venus-B-16ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "microSD": false,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "300",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR-Venus-B-24ET2GF-360",
+     "raw": "TS-LR-Venus-B-24ET2GF-360:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TS-LR-Venus-B-16ET2GF-240:01:04:02:00:300:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
@@ -108,5 +168,6 @@
    "software_version": "V1.000.0000001.7.R.230816"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e4206d452c2ea5db7ca29d8b2138c0224b0e09d07c69cc7dbda7f0c427e953ec"
 }

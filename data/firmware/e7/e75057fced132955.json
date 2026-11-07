@@ -7,6 +7,74 @@
     "TPC-BF2221-TB",
     "TPC-BF2221-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "8D",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-BF2221-TB",
+     "raw": "TPC-BF2221-TB:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "8D",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-BF2221-B",
+     "raw": "TPC-BF2221-B:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "TPC-BF2221-TB:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400",
@@ -51,6 +119,74 @@
    "ids": [
     "TPC-BF2221-TB",
     "TPC-BF2221-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "8D",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-BF2221-TB",
+     "raw": "TPC-BF2221-TB:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "8D",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-BF2221-B",
+     "raw": "TPC-BF2221-B:01:08:02:8D:34:00:02:01:01:01:04:4B0:04:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -355,5 +491,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e75057fced13295539d804d3b388bb9c8a22867c6b8216bdf660e5ee48d2f45d"
 }

@@ -44,6 +44,119 @@
     "IPC-HFW2235M-W4G-AS",
     "IPC-HFW2231MP-4G-AS"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "25",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2235M-W-S",
+     "raw": "IPC-HFW2235M-W-S:01:02:02:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "25",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2235M-W4G-AS",
+     "raw": "IPC-HFW2235M-W4G-AS:01:02:02:4F:25:00:01:0E:01:01:04:2D0:08:02:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "25",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2231MP-4G-AS",
+     "raw": "IPC-HFW2231MP-4G-AS:01:02:02:4F:25:00:01:0E:01:01:04:2D0:08:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW2235M-W-S:01:02:02:4F:25:00:01:00:00:00:04:2D0:00:02:00:00:00:01:00:00:100",
@@ -267,5 +380,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c26e0d6dddd683637284caaed6f4bb92b4ecb2a008f642fcfdef912c20f79888"
 }

@@ -6,6 +6,41 @@
    "ids": [
     "TPC-HO5601-B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B7",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO5601-B",
+     "raw": "TPC-HO5601-B:01:08:E2:B7:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TPC-HO5601-B:01:08:E2:B7:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
@@ -17,6 +52,41 @@
    "firmware": "DH_TPC-HO5601-B_Eng_V2.630.1A4H000.0.R.220701.bin",
    "ids": [
     "TPC-HO5601-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B7",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO5601-B",
+     "raw": "TPC-HO5601-B:01:08:E2:B7:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
    ],
    "member": "hwid",
    "raw": [
@@ -60,6 +130,41 @@
    "firmware": "DH_TPC-HO5601-B_Eng_V2.630.1A4H000.0.R.220701.bin",
    "ids": [
     "TPC-HO5601-B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B7",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HO5601-B",
+     "raw": "TPC-HO5601-B:01:08:E2:B7:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -336,5 +441,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9e3faf6860c716edffde465aad2fb3210c2ab8c38d4ae771e19e2cbab1f99603"
 }

@@ -6,6 +6,45 @@
    "ids": [
     "IPC-MW1230P-M12"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MW1230P-M12",
+     "raw": "IPC-MW1230P-M12:01:02:02:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-MW1230P-M12:01:02:02:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-MW1230P-M12"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-MW1230P-M12",
+     "raw": "IPC-MW1230P-M12:01:02:02:60:2B:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -175,5 +253,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a881aa40260f441c308a647ce1e297a0312c4413bd32bee742e431dc906daac0"
 }

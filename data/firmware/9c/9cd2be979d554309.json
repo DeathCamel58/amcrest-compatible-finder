@@ -44,6 +44,116 @@
     "IPC-HDW8241X-3D",
     "IPC-HDW7341X-B-E2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "29",
+       "name": "IMX123"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW7243X",
+     "raw": "IPC-HDW7243X:01:02:05:29:21:00:01:0F:07:01:04:2D0:08:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "29",
+       "name": "IMX123"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW8241X-3D",
+     "raw": "IPC-HDW8241X-3D:01:02:05:29:21:00:01:0F:07:01:04:2D0:08:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "29",
+       "name": "IMX123"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW7341X-B-E2",
+     "raw": "IPC-HDW7341X-B-E2:01:02:05:29:21:00:01:0F:07:01:04:2D0:08:00:00:04:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HDW7243X:01:02:05:29:21:00:01:0F:07:01:04:2D0:08:00:00:04:00:01:00:00:200",
@@ -347,5 +457,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9cd2be979d554309affd914950cac1778ab96d83cd4de3336640c57949ac9d8c"
 }

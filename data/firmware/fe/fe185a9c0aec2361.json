@@ -6,6 +6,45 @@
    "ids": [
     "IPC-EBW81240"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW81240",
+     "raw": "IPC-EBW81240:01:02:0B:24:2D:00:01:10:01:01:04:400:08:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-EBW81240:01:02:0B:24:2D:00:01:10:01:01:04:400:08:00:00:00:00:01:00:00:1000"
@@ -86,5 +125,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "fe185a9c0aec23611e8620b7e4dc971c92c8c7d228257a0b30db8ea806c27c8a"
 }

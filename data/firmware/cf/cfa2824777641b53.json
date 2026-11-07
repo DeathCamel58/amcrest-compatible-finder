@@ -57,6 +57,1480 @@
     "IPC-HDBW81200E-Z",
     "IPC-HFW81200E-Z-IRA"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       500
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4800E",
+     "raw": "IPC-HFW4800E:01:02:02:1C:14:11:01:00:00:00:00:1F4:00:00:02:00:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       500
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW4800E-AS",
+     "raw": "IPC-HDBW4800E-AS:01:02:05:1C:14:11:01:06:01:01:04:1F4:03:00:02:00:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       500
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW4800E-A",
+     "raw": "IPC-HDBW4800E-A:01:02:05:1C:14:11:01:06:01:01:00:1F4:03:00:02:00:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       500
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW4800E-S",
+     "raw": "IPC-HDBW4800E-S:01:02:05:1C:14:11:01:00:00:00:04:1F4:00:00:02:00:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       500
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW4800E",
+     "raw": "IPC-HDBW4800E:01:02:05:1C:14:11:01:00:00:00:00:1F4:00:00:02:00:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW600",
+     "raw": "IPC-EBW600:01:02:0B:21:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB600",
+     "raw": "IPC-EB600:01:02:0B:21:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW600",
+     "raw": "IPC-EBW600:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB600",
+     "raw": "IPC-EB600:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1200",
+     "raw": "IPC-EBW1200:01:02:0B:1C:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1200",
+     "raw": "IPC-EBW1200:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB1200",
+     "raw": "IPC-EB1200:01:02:0B:1C:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1201",
+     "raw": "IPC-EBW1201:01:02:0B:24:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB1201",
+     "raw": "IPC-EB1201:01:02:0B:24:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF81200E",
+     "raw": "IPC-HF81200E:01:02:02:1C:0D:0A:01:06:01:01:04:3F0:03:00:02:04:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "29",
+       "name": "IMX123"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ3030S",
+     "raw": "CA-HZ3030S:01:03:04:29:0D:0A:01:07:01:01:04:3E8:00:00:00:04:00:00:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8018T",
+     "raw": "CA-HZ8018T:01:03:04:24:0D:0A:01:07:01:01:04:3E8:04:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12",
+     "raw": "ICIP360L12:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V8",
+     "raw": "ICIP360L12-V8:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V10",
+     "raw": "ICIP360L12-V10:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12",
+     "raw": "ICIP360L12:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V8",
+     "raw": "ICIP360L12-V8:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V10",
+     "raw": "ICIP360L12-V10:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8600E",
+     "raw": "IPC-HF8600E:01:02:01:21:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW8600D-Z",
+     "raw": "IPC-HFW8600D-Z:01:02:02:21:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW8600D",
+     "raw": "IPC-HFW8600D:01:02:02:21:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW8600E-Z-IRA",
+     "raw": "IPC-HFW8600E-Z-IRA:01:02:02:21:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW8600-Z",
+     "raw": "IPC-HDBW8600-Z:01:02:05:21:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "32",
+       "name": "MN34220"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8201E",
+     "raw": "IPC-HF8201E:01:02:01:32:14:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "32",
+       "name": "MN34220"
+      },
+      "soc": {
+       "code": "14",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW8201E",
+     "raw": "IPC-HFW8201E:01:02:02:32:14:00:01:06:01:01:04:3E8:03:00:02:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 1000,
+      "sensor": {
+       "code": "27",
+       "name": null
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW8321E",
+     "raw": "IPC-HFW8321E:01:02:01:27:0D:0A:01:06:01:01:04:3F0:05:00:02:04:00:01:00:00:3E8"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TDCZ04",
+     "raw": "IPC-TDCZ04:01:02:0B:21:0D:00:01:06:01:00:00:3F0:00:00:00:00:00:00:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF81220E",
+     "raw": "IPC-HF81220E:01:02:01:24:0D:00:01:06:01:01:04:3E8:02:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW81200E-Z",
+     "raw": "IPC-HFW81200E-Z:01:02:01:24:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW81200E-Z",
+     "raw": "IPC-HDBW81200E-Z:01:02:05:24:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW81200E-Z-IRA",
+     "raw": "IPC-HFW81200E-Z-IRA:01:02:01:24:0D:00:01:06:01:01:04:3E8:02:00:02:04:00:01:00:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW4800E:01:02:02:1C:14:11:01:00:00:00:00:1F4:00:00:02:00:00:00:00:00:3E8",
@@ -292,5 +1766,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "cfa2824777641b53a9c174d9c37afc080e346eb5ce413d44844097e9889a0ebc"
 }

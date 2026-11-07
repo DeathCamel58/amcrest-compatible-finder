@@ -7,6 +7,82 @@
     "IPC-HDBW5441FP-AS-E2",
     "IPC-HDBW5443X-AS-E2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5441FP-AS-E2",
+     "raw": "IPC-HDBW5441FP-AS-E2:01:02:05:63:51:00:02:10:01:01:04:384:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443X-AS-E2",
+     "raw": "IPC-HDBW5443X-AS-E2:01:02:05:63:51:00:02:10:01:01:04:384:08:00:00:00:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDBW5441FP-AS-E2:01:02:05:63:51:00:02:10:01:01:04:384:08:00:00:00:00:01:00:00:400",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-HDBW5441FP-AS-E2",
     "IPC-HDBW5443X-AS-E2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5441FP-AS-E2",
+     "raw": "IPC-HDBW5441FP-AS-E2:01:02:05:63:51:00:02:10:01:01:04:384:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "51",
+       "name": "Hi3516CV500 or Hi3516AV300"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5443X-AS-E2",
+     "raw": "IPC-HDBW5443X-AS-E2:01:02:05:63:51:00:02:10:01:01:04:384:08:00:00:00:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -271,5 +423,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "e33c01b84af24a533043904ade1e1e277714e13993a196b915a99a65eb40fa73"
 }

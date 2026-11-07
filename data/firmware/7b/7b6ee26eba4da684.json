@@ -10,6 +10,178 @@
     "SD-PSD81639-H-A180-E5",
     "SD-PSD81639-H-A360-E1"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": false,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-PFW81639-H-A360-E9",
+     "raw": "IPC-PFW81639-H-A360-E9:01:02:10:42:1F:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": false,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-PFW81639-H-A180-E5",
+     "raw": "IPC-PFW81639-H-A180-E5:01:02:10:42:1F:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A360-E9",
+     "raw": "SD-PSD81639-H-A360-E9:01:03:04:1E:1F:00:03:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A180-E5",
+     "raw": "SD-PSD81639-H-A180-E5:01:03:04:1E:1F:00:02:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A360-E1",
+     "raw": "SD-PSD81639-H-A360-E1:01:03:04:1E:1F:00:01:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PFW81639-H-A360-E9:01:02:10:42:1F:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800:FF",
@@ -45,6 +217,178 @@
     "SD-PSD81639-H-A360-E9",
     "SD-PSD81639-H-A180-E5",
     "SD-PSD81639-H-A360-E1"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": false,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-PFW81639-H-A360-E9",
+     "raw": "IPC-PFW81639-H-A360-E9:01:02:10:42:1F:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": false,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "42",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "IPC-PFW81639-H-A180-E5",
+     "raw": "IPC-PFW81639-H-A180-E5:01:02:10:42:1F:00:01:00:00:00:00:4B0:00:00:00:00:00:00:00:00:800:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A360-E9",
+     "raw": "SD-PSD81639-H-A360-E9:01:03:04:1E:1F:00:03:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A180-E5",
+     "raw": "SD-PSD81639-H-A180-E5:01:03:04:1E:1F:00:02:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "1E",
+       "name": "IMX185"
+      },
+      "soc": {
+       "code": "1F",
+       "name": "Hi3519"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD-PSD81639-H-A360-E1",
+     "raw": "SD-PSD81639-H-A360-E1:01:03:04:1E:1F:00:01:10:03:01:04:4B0:04:00:00:04:03:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -245,5 +589,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "7b6ee26eba4da684c33d1b9a8eb1949325095cdb8cb9fa0b9836e91ddc134105"
 }

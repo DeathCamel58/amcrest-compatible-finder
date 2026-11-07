@@ -7,6 +7,76 @@
     "VTH5421H",
     "VTH5422H"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "45",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTH5421H",
+     "raw": "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "45",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTH5422H",
+     "raw": "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF",
@@ -41,6 +111,76 @@
    "ids": [
     "VTH5421H",
     "VTH5422H"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "45",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTH5421H",
+     "raw": "VTH5421H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:00:00:00:00:80:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "45",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTH5422H",
+     "raw": "VTH5422H:01:04:02:00:45:00:00:10:01:01:04:4B0_4B0:00:00:00:06:07:00:00:00:80:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -174,5 +314,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "820d7df071f48b623e3ede93bcdd669cff32a4177989ca8da8043b54d73ce439"
 }

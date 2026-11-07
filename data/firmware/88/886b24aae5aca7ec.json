@@ -7,6 +7,74 @@
     "IPC-WDS-S2-Cayenne",
     "IPC-WDS-S2-USA"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WDS-S2-Cayenne",
+     "raw": "IPC-WDS-S2-Cayenne:01:04:07:00:39:00:00:10:00:01:00:320:00:02:00:00:04:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WDS-S2-USA",
+     "raw": "IPC-WDS-S2-USA:01:04:0F:00:39:00:00:10:00:01:00:3E8:00:02:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-WDS-S2-Cayenne:01:04:07:00:39:00:00:10:00:01:00:320:00:02:00:00:04:00:00:00:40",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-WDS-S2-Cayenne",
     "IPC-WDS-S2-USA"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WDS-S2-Cayenne",
+     "raw": "IPC-WDS-S2-Cayenne:01:04:07:00:39:00:00:10:00:01:00:320:00:02:00:00:04:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WDS-S2-USA",
+     "raw": "IPC-WDS-S2-USA:01:04:0F:00:39:00:00:10:00:01:00:3E8:00:02:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -149,5 +285,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "886b24aae5aca7ece769762651a9ea906c35cae777082e71f585b4f19216d7d7"
 }

@@ -7,6 +7,74 @@
     "IPC-PDBW82043-B360-E4-2812-S2",
     "IPC-PDBW82041P-B360-E4-2812-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82043-B360-E4-2812-S2",
+     "raw": "IPC-PDBW82043-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:02:00:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041P-B360-E4-2812-S2",
+     "raw": "IPC-PDBW82041P-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PDBW82043-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:02:00:00:01:00:00:1000",
@@ -36,6 +104,74 @@
    "ids": [
     "IPC-PDBW82043-B360-E4-2812-S2",
     "IPC-PDBW82041P-B360-E4-2812-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82043-B360-E4-2812-S2",
+     "raw": "IPC-PDBW82043-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:02:00:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041P-B360-E4-2812-S2",
+     "raw": "IPC-PDBW82041P-B360-E4-2812-S2:01:02:00:63:52:00:04:14:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -177,5 +313,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "30f021e26e422827be0db25f704c0cef7131f011e2161bf525fbb97fd053fdbd"
 }

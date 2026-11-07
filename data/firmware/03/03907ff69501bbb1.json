@@ -33,6 +33,80 @@
     "SD6A8240-HNI",
     "SD6A9130-HNI"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       240,
+       240,
+       750
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "09",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6A8240-HNI",
+     "raw": "SD6A8240-HNI:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1000,
+       240,
+       240,
+       750
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "09",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6A9130-HNI",
+     "raw": "SD6A9130-HNI:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "SD6A8240-HNI:01:03:02:00:09:06:01:02:01:01:04:3E8_F0_F0_2EE:04:00:00:04:00:01:00:00:200",
@@ -215,5 +289,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "03907ff69501bbb1e3a8b6b93e2fd1560bd2867ae07a4a735e71b7388a4ad084"
 }

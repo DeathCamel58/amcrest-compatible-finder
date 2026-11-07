@@ -8,6 +8,114 @@
     "CA-HZ4025GB2S2-C",
     "CA-HZ4040GA4S2-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4032GB1S2-D",
+     "raw": "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4025GB2S2-C",
+     "raw": "CA-HZ4025GB2S2-C:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4040GA4S2-A",
+     "raw": "CA-HZ4040GA4S2-A:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FE:800E"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E",
@@ -39,6 +147,114 @@
     "CA-HZ4032GB1S2-D",
     "CA-HZ4025GB2S2-C",
     "CA-HZ4040GA4S2-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4032GB1S2-D",
+     "raw": "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4025GB2S2-C",
+     "raw": "CA-HZ4025GB2S2-C:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4040GA4S2-A",
+     "raw": "CA-HZ4040GA4S2-A:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FE:800E"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -52,6 +268,114 @@
     "CA-HZ4025GB2S2-C",
     "CA-HZ4040GA4S2-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4032GB1S2-D",
+     "raw": "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4025GB2S2-C",
+     "raw": "CA-HZ4025GB2S2-C:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4040GA4S2-A",
+     "raw": "CA-HZ4040GA4S2-A:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FE:800E"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E",
@@ -83,6 +407,114 @@
     "CA-HZ4032GB1S2-D",
     "CA-HZ4025GB2S2-C",
     "CA-HZ4040GA4S2-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4032GB1S2-D",
+     "raw": "CA-HZ4032GB1S2-D:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4025GB2S2-C",
+     "raw": "CA-HZ4025GB2S2-C:01:03:04:10C:6A:00:01:10:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ4040GA4S2-A",
+     "raw": "CA-HZ4040GA4S2-A:01:03:04:86:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FE:800E"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -427,5 +859,6 @@
    "software_version": "V3.211.0000014.4.R.260807"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a8fd93d52ba444a03b7a3b901db705b0b1ea84c2089c175f2b0c40f120f86a48"
 }

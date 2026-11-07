@@ -7,6 +7,82 @@
     "IPC-HFW1235S-W-S2",
     "IPC-HDBW1235E-W-S2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1235S-W-S2",
+     "raw": "IPC-HFW1235S-W-S2:01:02:03:60:2B:00:01:10:00:00:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1235E-W-S2",
+     "raw": "IPC-HDBW1235E-W-S2:01:02:05:60:2B:00:01:00:00:00:04:320:00:02:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1235S-W-S2:01:02:03:60:2B:00:01:10:00:00:04:320:00:02:00:00:00:00:00:00:80",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-HFW1235S-W-S2",
     "IPC-HDBW1235E-W-S2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1235S-W-S2",
+     "raw": "IPC-HFW1235S-W-S2:01:02:03:60:2B:00:01:10:00:00:04:320:00:02:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "60",
+       "name": "OV2735"
+      },
+      "soc": {
+       "code": "2B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1235E-W-S2",
+     "raw": "IPC-HDBW1235E-W-S2:01:02:05:60:2B:00:01:00:00:00:04:320:00:02:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -198,5 +350,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5acad3368adac54f6612d33b0bc6a725b66d58847d25eb04d45a157e1bc1754b"
 }

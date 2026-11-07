@@ -14,6 +14,341 @@
     "IPC-F22-LC",
     "IPC-F22"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22C-LC",
+     "raw": "IPC-C22C-LC:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22C",
+     "raw": "IPC-C22C:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22A-LC",
+     "raw": "IPC-F22A-LC:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22A",
+     "raw": "IPC-F22A:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-G22A-LC",
+     "raw": "IPC-G22A-LC:01:02:02:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-G22FA-LC",
+     "raw": "IPC-G22FA-LC:01:02:02:A8:39:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-T22A",
+     "raw": "IPC-T22A:01:02:04:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-LC",
+     "raw": "IPC-F22-LC:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22",
+     "raw": "IPC-F22:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-C22C-LC:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40",
@@ -57,6 +392,341 @@
     "IPC-T22A",
     "IPC-F22-LC",
     "IPC-F22"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22C-LC",
+     "raw": "IPC-C22C-LC:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22C",
+     "raw": "IPC-C22C:01:02:0F:AC:39:00:01:10:01:00:04:320:00:02:00:00:0A:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22A-LC",
+     "raw": "IPC-F22A-LC:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22A",
+     "raw": "IPC-F22A:01:02:03:AC:39:00:01:10:01:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-G22A-LC",
+     "raw": "IPC-G22A-LC:01:02:02:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "A8",
+       "name": "SC2239"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-G22FA-LC",
+     "raw": "IPC-G22FA-LC:01:02:02:A8:39:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-T22A",
+     "raw": "IPC-T22A:01:02:04:AC:39:00:01:10:00:00:00:320:00:00:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22-LC",
+     "raw": "IPC-F22-LC:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "39",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F22",
+     "raw": "IPC-F22:01:02:03:AC:39:00:01:10:01:00:04:320:00:02:00:00:00:01:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -170,5 +840,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "20a122363a203e69bc3af2b0670e66b30a870494c0f7db430e0fe2a390a3b5c0"
 }

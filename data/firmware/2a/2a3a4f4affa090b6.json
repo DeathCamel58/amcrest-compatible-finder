@@ -9,6 +9,156 @@
     "IPC-HDBW1020E-S3",
     "IPC-HFW2220M"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2120C-A",
+     "raw": "IPC-HDW2120C-A:01:02:05:38:1D:00:01:10:01:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2120M",
+     "raw": "IPC-HFW2120M:01:02:02:38:1D:00:01:00:00:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "49",
+       "name": "OV9732"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1020E-S3",
+     "raw": "IPC-HDBW1020E-S3:01:02:05:49:1D:00:01:00:00:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2220M",
+     "raw": "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDW2120C-A:01:02:05:38:1D:00:01:10:01:00:00:21C:00:00:00:00:00:00:00:00:40",
@@ -42,6 +192,156 @@
     "IPC-HFW2120M",
     "IPC-HDBW1020E-S3",
     "IPC-HFW2220M"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2120C-A",
+     "raw": "IPC-HDW2120C-A:01:02:05:38:1D:00:01:10:01:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2120M",
+     "raw": "IPC-HFW2120M:01:02:02:38:1D:00:01:00:00:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       540
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "49",
+       "name": "OV9732"
+      },
+      "soc": {
+       "code": "1D",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1020E-S3",
+     "raw": "IPC-HDBW1020E-S3:01:02:05:49:1D:00:01:00:00:00:00:21C:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2220M",
+     "raw": "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:00:258:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -207,5 +507,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "2a3a4f4affa090b658281a10af439fdd398f495ee2c9c469a2483a6de96d5af5"
 }

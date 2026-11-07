@@ -9,6 +9,156 @@
     "IPC-K15-LTE",
     "IPC-K35-LTE"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "16",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K15-5G",
+     "raw": "IPC-K15-5G:01:02:07:38:16:00:01:0F:01:01:04:258:03:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "19",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K35-5G",
+     "raw": "IPC-K35-5G:01:02:07:19:18:00:01:0F:01:01:04:258:03:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "38",
+       "name": "OV9750"
+      },
+      "soc": {
+       "code": "16",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K15-LTE",
+     "raw": "IPC-K15-LTE:01:02:07:38:16:00:01:0F:01:01:04:258:03:02:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "19",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "18",
+       "name": "Ambarella S3L"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-K35-LTE",
+     "raw": "IPC-K35-LTE:01:02:07:19:18:00:01:0F:01:01:04:258:03:02:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-K15-5G:01:02:07:38:16:00:01:0F:01:01:04:258:03:02:00:00:00:00:00:00:100",
@@ -258,5 +408,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "8d26892c5e2ce19bb09c47b59cbceed10d33ac83c0be064cb81b8c4843b8a5ad"
 }

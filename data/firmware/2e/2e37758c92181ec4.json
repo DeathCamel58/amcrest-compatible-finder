@@ -7,6 +7,74 @@
     "TS-LR2218-16ET-240",
     "TS-LR2226-24ET-360"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "06",
+       "name": "Switch"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "00",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR2218-16ET-240",
+     "raw": "TS-LR2218-16ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "06",
+       "name": "Switch"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "00",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR2226-24ET-360",
+     "raw": "TS-LR2226-24ET-360:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "TS-LR2218-16ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80",
@@ -81,6 +149,74 @@
    "ids": [
     "TS-LR2218-16ET-240",
     "TS-LR2226-24ET-360"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "06",
+       "name": "Switch"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "00",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR2218-16ET-240",
+     "raw": "TS-LR2218-16ET-240:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "06",
+       "name": "Switch"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "00",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TS-LR2226-24ET-360",
+     "raw": "TS-LR2226-24ET-360:01:06:01:00:00:00:01:00:01:01:00:258:00:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -241,5 +377,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "2e37758c92181ec4a210e455c577d73c88d7d4d90877cac473ec209f040e49bf"
 }

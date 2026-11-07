@@ -69,6 +69,2193 @@
     "IPC-HDBW5849R1P-ASE-PV",
     "IPC-HF5842F-ZE"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541T-ASE",
+     "raw": "IPC-HFW5541T-ASE:01:02:00:C8:63:00:01:14:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241T-ASE",
+     "raw": "IPC-HFW5241T-ASE:01:02:00:D6:63:00:01:14:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541T-SE",
+     "raw": "IPC-HFW5541T-SE:01:02:00:C8:63:00:01:14:01:00:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241T-SE",
+     "raw": "IPC-HFW5241T-SE:01:02:00:D6:63:00:01:14:01:00:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442TP-ASE-S3",
+     "raw": "IPC-HFW5442TP-ASE-S3:01:02:00:86:63:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442TP-SE-S3",
+     "raw": "IPC-HFW5442TP-SE-S3:01:02:00:86:63:00:01:10:01:00:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5241TP-ZE-27135-S3",
+     "raw": "IPC-HDW5241TP-ZE-27135-S3:01:02:00:D6:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5541TP-ZE-27135-S3",
+     "raw": "IPC-HDW5541TP-ZE-27135-S3:01:02:00:C8:63:00:01:10:01:00:04:4B0:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5442T-ZE-2712",
+     "raw": "IPC-HDW5442T-ZE-2712:01:02:00:86:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449TP-ASTE",
+     "raw": "IPC-HFW5449TP-ASTE:01:02:00:B3:63:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-0735-S3",
+     "raw": "IPC-HFW5241EP-ZE-0735-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZE-0735-S3",
+     "raw": "IPC-HFW5541EP-ZE-0735-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZE-0735-S3",
+     "raw": "IPC-HDBW5541EP-ZE-0735-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5241EP-ZE-0735-S3",
+     "raw": "IPC-HDBW5241EP-ZE-0735-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5442HP-ZHE-2712F-AC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5442HP-ZHE-0832-DCAC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5241EP-ZE-27135-S3",
+     "raw": "IPC-HDBW5241EP-ZE-27135-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZE-27135-S3",
+     "raw": "IPC-HDBW5541EP-ZE-27135-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-27135-S3",
+     "raw": "IPC-HFW5241EP-ZE-27135-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZE-27135-S3",
+     "raw": "IPC-HFW5541EP-ZE-27135-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZE-2712-DCAC",
+     "raw": "IPC-HDBW5442E-ZE-2712-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZE-2712",
+     "raw": "IPC-HFW5442E-ZE-2712:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZE-0832-DCAC",
+     "raw": "IPC-HDBW5442E-ZE-0832-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HFW5442HP-ZHE-2712F-AC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZHE-27135-S3",
+     "raw": "IPC-HDBW5541EP-ZHE-27135-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZHE-27135-S3",
+     "raw": "IPC-HFW5541EP-ZHE-27135-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-0560-S3",
+     "raw": "IPC-HFW5241EP-ZE-0560-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZHE-2712-DCAC",
+     "raw": "IPC-HDBW5442E-ZHE-2712-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZE-0832",
+     "raw": "IPC-HFW5442E-ZE-0832:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZHE-2712",
+     "raw": "IPC-HFW5442E-ZHE-2712:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449T1P-ASTE-PV",
+     "raw": "IPC-HFW5449T1P-ASTE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5449HP-ASTE-PV",
+     "raw": "IPC-HDW5449HP-ASTE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5449R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5449R1P-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5449HP-ZE-PV-2712",
+     "raw": "IPC-HDW5449HP-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5449T1P-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5449R1P-ASE-PV",
+     "raw": "IPC-HDBW5449R1P-ASE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5241FP-ZE-S3",
+     "raw": "IPC-HF5241FP-ZE-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5541F-ZE-S3",
+     "raw": "IPC-HF5541F-ZE-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5442F-ZE",
+     "raw": "IPC-HF5442F-ZE:01:02:00:86:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842TP-ASE-S3",
+     "raw": "IPC-HFW5842TP-ASE-S3:01:02:00:EC:63:00:01:10:01:00:04:3E8:03:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842TP-SE-S3",
+     "raw": "IPC-HFW5842TP-SE-S3:01:02:00:EC:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5842T-ZE-2712",
+     "raw": "IPC-HDW5842T-ZE-2712:01:02:00:EC:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZE-2712-DCAC",
+     "raw": "IPC-HDBW5842E-ZE-2712-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZE-2712",
+     "raw": "IPC-HFW5842E-ZE-2712:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZE-0832-DCAC",
+     "raw": "IPC-HDBW5842E-ZE-0832-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZE-0832",
+     "raw": "IPC-HFW5842E-ZE-0832:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZHE-2712-DCAC",
+     "raw": "IPC-HDBW5842E-ZHE-2712-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZHE-2712",
+     "raw": "IPC-HFW5842E-ZHE-2712:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HFW5842HP-ZHE-2712F-AC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5649T1P-ASTE-PV",
+     "raw": "IPC-HFW5649T1P-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5849T1P-ASTE-PV",
+     "raw": "IPC-HFW5849T1P-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5649HP-ASTE-PV",
+     "raw": "IPC-HDW5649HP-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5849HP-ASTE-PV",
+     "raw": "IPC-HDW5849HP-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5649T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5649T1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5849T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5849T1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5649HP-ZE-PV-2712",
+     "raw": "IPC-HDW5649HP-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5849HP-ZE-PV-2712",
+     "raw": "IPC-HDW5849HP-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5649R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5649R1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5849R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5849R1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5649R1P-ASE-PV",
+     "raw": "IPC-HDBW5649R1P-ASE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5849R1P-ASE-PV",
+     "raw": "IPC-HDBW5849R1P-ASE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5842F-ZE",
+     "raw": "IPC-HF5842F-ZE:01:02:00:EC:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW5541T-ASE:01:02:00:C8:63:00:01:14:03:01:04:3E8:03:00:00:00:00:01:00:00:400",
@@ -226,6 +2413,2193 @@
     "IPC-HDBW5649R1P-ASE-PV",
     "IPC-HDBW5849R1P-ASE-PV",
     "IPC-HF5842F-ZE"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541T-ASE",
+     "raw": "IPC-HFW5541T-ASE:01:02:00:C8:63:00:01:14:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241T-ASE",
+     "raw": "IPC-HFW5241T-ASE:01:02:00:D6:63:00:01:14:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541T-SE",
+     "raw": "IPC-HFW5541T-SE:01:02:00:C8:63:00:01:14:01:00:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241T-SE",
+     "raw": "IPC-HFW5241T-SE:01:02:00:D6:63:00:01:14:01:00:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442TP-ASE-S3",
+     "raw": "IPC-HFW5442TP-ASE-S3:01:02:00:86:63:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442TP-SE-S3",
+     "raw": "IPC-HFW5442TP-SE-S3:01:02:00:86:63:00:01:10:01:00:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5241TP-ZE-27135-S3",
+     "raw": "IPC-HDW5241TP-ZE-27135-S3:01:02:00:D6:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5541TP-ZE-27135-S3",
+     "raw": "IPC-HDW5541TP-ZE-27135-S3:01:02:00:C8:63:00:01:10:01:00:04:4B0:00:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5442T-ZE-2712",
+     "raw": "IPC-HDW5442T-ZE-2712:01:02:00:86:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449TP-ASTE",
+     "raw": "IPC-HFW5449TP-ASTE:01:02:00:B3:63:00:01:10:03:01:04:3E8:03:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-0735-S3",
+     "raw": "IPC-HFW5241EP-ZE-0735-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZE-0735-S3",
+     "raw": "IPC-HFW5541EP-ZE-0735-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZE-0735-S3",
+     "raw": "IPC-HDBW5541EP-ZE-0735-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5241EP-ZE-0735-S3",
+     "raw": "IPC-HDBW5241EP-ZE-0735-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5442HP-ZHE-2712F-AC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5442HP-ZHE-0832-DCAC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5241EP-ZE-27135-S3",
+     "raw": "IPC-HDBW5241EP-ZE-27135-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZE-27135-S3",
+     "raw": "IPC-HDBW5541EP-ZE-27135-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-27135-S3",
+     "raw": "IPC-HFW5241EP-ZE-27135-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZE-27135-S3",
+     "raw": "IPC-HFW5541EP-ZE-27135-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZE-2712-DCAC",
+     "raw": "IPC-HDBW5442E-ZE-2712-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZE-2712",
+     "raw": "IPC-HFW5442E-ZE-2712:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZE-0832-DCAC",
+     "raw": "IPC-HDBW5442E-ZE-0832-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HFW5442HP-ZHE-2712F-AC-S3:01:02:00:86:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5541EP-ZHE-27135-S3",
+     "raw": "IPC-HDBW5541EP-ZHE-27135-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5541EP-ZHE-27135-S3",
+     "raw": "IPC-HFW5541EP-ZHE-27135-S3:01:02:00:C8:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5241EP-ZE-0560-S3",
+     "raw": "IPC-HFW5241EP-ZE-0560-S3:01:02:00:D6:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5442E-ZHE-2712-DCAC",
+     "raw": "IPC-HDBW5442E-ZHE-2712-DCAC:01:02:00:86:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZE-0832",
+     "raw": "IPC-HFW5442E-ZE-0832:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5442E-ZHE-2712",
+     "raw": "IPC-HFW5442E-ZHE-2712:01:02:00:86:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449T1P-ASTE-PV",
+     "raw": "IPC-HFW5449T1P-ASTE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5449HP-ASTE-PV",
+     "raw": "IPC-HDW5449HP-ASTE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5449R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5449R1P-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5449HP-ZE-PV-2712",
+     "raw": "IPC-HDW5449HP-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5449T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5449T1P-ZE-PV-2712:01:02:00:86:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5449R1P-ASE-PV",
+     "raw": "IPC-HDBW5449R1P-ASE-PV:01:02:00:86:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "D6",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5241FP-ZE-S3",
+     "raw": "IPC-HF5241FP-ZE-S3:01:02:00:D6:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "C8",
+       "name": "SC530AI"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5541F-ZE-S3",
+     "raw": "IPC-HF5541F-ZE-S3:01:02:00:C8:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5442F-ZE",
+     "raw": "IPC-HF5442F-ZE:01:02:00:86:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842TP-ASE-S3",
+     "raw": "IPC-HFW5842TP-ASE-S3:01:02:00:EC:63:00:01:10:01:00:04:3E8:03:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842TP-SE-S3",
+     "raw": "IPC-HFW5842TP-SE-S3:01:02:00:EC:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5842T-ZE-2712",
+     "raw": "IPC-HDW5842T-ZE-2712:01:02:00:EC:63:00:01:10:01:00:04:4B0:00:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZE-2712-DCAC",
+     "raw": "IPC-HDBW5842E-ZE-2712-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZE-2712",
+     "raw": "IPC-HFW5842E-ZE-2712:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-2712F-AC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3",
+     "raw": "IPC-HDBW5842HP-ZHE-0832-DCAC-S3:01:02:00:87:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZE-0832-DCAC",
+     "raw": "IPC-HDBW5842E-ZE-0832-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZE-0832",
+     "raw": "IPC-HFW5842E-ZE-0832:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5842E-ZHE-2712-DCAC",
+     "raw": "IPC-HDBW5842E-ZHE-2712-DCAC:01:02:00:EC:63:00:01:10:07:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842E-ZHE-2712",
+     "raw": "IPC-HFW5842E-ZHE-2712:01:02:00:EC:63:00:01:10:03:01:04:4B0:02:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5842HP-ZHE-2712F-AC-S3",
+     "raw": "IPC-HFW5842HP-ZHE-2712F-AC-S3:01:02:00:EC:63:00:01:10:07:03:04:3E8:09:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5649T1P-ASTE-PV",
+     "raw": "IPC-HFW5649T1P-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5849T1P-ASTE-PV",
+     "raw": "IPC-HFW5849T1P-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5649HP-ASTE-PV",
+     "raw": "IPC-HDW5649HP-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5849HP-ASTE-PV",
+     "raw": "IPC-HDW5849HP-ASTE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5649T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5649T1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW5849T1P-ZE-PV-2712",
+     "raw": "IPC-HFW5849T1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5649HP-ZE-PV-2712",
+     "raw": "IPC-HDW5649HP-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW5849HP-ZE-PV-2712",
+     "raw": "IPC-HDW5849HP-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5649R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5649R1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5849R1P-ZE-PV-2712",
+     "raw": "IPC-HDBW5849R1P-ZE-PV-2712:01:02:00:87:63:00:01:10:07:03:04:3E8:08:02:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5649R1P-ASE-PV",
+     "raw": "IPC-HDBW5649R1P-ASE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "87",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW5849R1P-ASE-PV",
+     "raw": "IPC-HDBW5849R1P-ASE-PV:01:02:00:87:63:00:01:10:07:03:04:3E8:08:00:00:00:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "EC",
+       "name": null
+      },
+      "soc": {
+       "code": "63",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF5842F-ZE",
+     "raw": "IPC-HF5842F-ZE:01:02:00:EC:63:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -581,5 +4955,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "391ad0ca1890cf3808ca32fe85b7faaafb8cb53b38f4ad98fb81a05ad8c0b813"
 }

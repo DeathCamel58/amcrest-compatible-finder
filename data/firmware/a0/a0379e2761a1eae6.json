@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HFW1030SP-S4"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1030SP-S4",
+     "raw": "IPC-HFW1030SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW1030SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
@@ -33,6 +72,45 @@
    "firmware": "Firmware_VIP_1130_26-10-23.bin",
    "ids": [
     "IPC-HFW1030SP-S4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1030SP-S4",
+     "raw": "IPC-HFW1030SP-S4:01:02:02:77:37:00:01:00:00:00:00:384:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -187,5 +265,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a0379e2761a1eae67aff9f6eed35dbc79dbe8d098844c3a4c2d8e12ed5b4ce49"
 }

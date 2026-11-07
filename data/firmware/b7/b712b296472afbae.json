@@ -16,6 +16,415 @@
     "IPC-HD1100C-A",
     "IPC-HDW1100S-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2150F",
+     "raw": "IPC-IPVM2150F:01:02:0A:17:0E:00:01:08:01:01:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2151F",
+     "raw": "IPC-IPVM2151F:01:02:0A:17:0E:00:01:08:01:01:04:190:03:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2131F",
+     "raw": "IPC-IPVM2131F:01:02:0A:17:0E:00:01:08:01:01:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW10",
+     "raw": "IPC-KW10:01:02:07:1D:0E:00:01:08:01:00:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12",
+     "raw": "IPC-KW12:01:02:07:1D:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD1100C",
+     "raw": "IPC-HD1100C:01:02:04:1D:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1100S",
+     "raw": "IPC-HDW1100S:01:02:04:1D:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW10-A",
+     "raw": "IPC-KW10-A:01:02:07:17:0E:00:01:08:01:00:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12-A",
+     "raw": "IPC-KW12-A:01:02:07:17:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD1100C-A",
+     "raw": "IPC-HD1100C-A:01:02:04:17:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1100S-A",
+     "raw": "IPC-HDW1100S-A:01:02:04:17:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-IPVM2150F:01:02:0A:17:0E:00:01:08:01:01:00:190:00:02:02:00:00:00:00:00:80",
@@ -63,6 +472,415 @@
     "IPC-KW12-A",
     "IPC-HD1100C-A",
     "IPC-HDW1100S-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2150F",
+     "raw": "IPC-IPVM2150F:01:02:0A:17:0E:00:01:08:01:01:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2151F",
+     "raw": "IPC-IPVM2151F:01:02:0A:17:0E:00:01:08:01:01:04:190:03:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0A",
+       "name": null
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-IPVM2131F",
+     "raw": "IPC-IPVM2131F:01:02:0A:17:0E:00:01:08:01:01:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW10",
+     "raw": "IPC-KW10:01:02:07:1D:0E:00:01:08:01:00:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12",
+     "raw": "IPC-KW12:01:02:07:1D:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD1100C",
+     "raw": "IPC-HD1100C:01:02:04:1D:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "1D",
+       "name": "OV9712"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1100S",
+     "raw": "IPC-HDW1100S:01:02:04:1D:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW10-A",
+     "raw": "IPC-KW10-A:01:02:07:17:0E:00:01:08:01:00:00:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "07",
+       "name": "Consumer cube"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-KW12-A",
+     "raw": "IPC-KW12-A:01:02:07:17:0E:00:01:08:01:01:04:190:00:02:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HD1100C-A",
+     "raw": "IPC-HD1100C-A:01:02:04:17:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "17",
+       "name": "AR0130"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1100S-A",
+     "raw": "IPC-HDW1100S-A:01:02:04:17:0E:00:01:00:00:00:00:190:00:00:02:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -236,5 +1054,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b712b296472afbaed64236bc12f593a2ed023d7502c9ef94876bba82af9a6b74"
 }

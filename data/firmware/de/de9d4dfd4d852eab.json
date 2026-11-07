@@ -10,6 +10,193 @@
     "IPC-A26HS-LC",
     "IPC-A26HSP-imou-Asia"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22P-S2",
+     "raw": "IPC-C22P-S2:01:02:0F:77:37:00:01:10:01:01:04:384:00:02:00:00:04:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22P-S2",
+     "raw": "IPC-A22P-S2:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA26HS-LC",
+     "raw": "IPC-TA26HS-LC:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A26HS-LC",
+     "raw": "IPC-A26HS-LC:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A26HSP-imou-Asia",
+     "raw": "IPC-A26HSP-imou-Asia:01:02:08:AC:37:00:01:10:01:01:04:384:02:02:00:00:09:01:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-C22P-S2:01:02:0F:77:37:00:01:10:01:01:04:384:00:02:00:00:04:01:00:00:40",
@@ -45,6 +232,193 @@
     "IPC-TA26HS-LC",
     "IPC-A26HS-LC",
     "IPC-A26HSP-imou-Asia"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22P-S2",
+     "raw": "IPC-C22P-S2:01:02:0F:77:37:00:01:10:01:01:04:384:00:02:00:00:04:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22P-S2",
+     "raw": "IPC-A22P-S2:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-TA26HS-LC",
+     "raw": "IPC-TA26HS-LC:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A26HS-LC",
+     "raw": "IPC-A26HS-LC:01:02:08:77:37:00:01:10:01:01:04:384:00:02:00:00:08:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "AC",
+       "name": "SC2239 (MIPI)"
+      },
+      "soc": {
+       "code": "37",
+       "name": "Hi3516EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A26HSP-imou-Asia",
+     "raw": "IPC-A26HSP-imou-Asia:01:02:08:AC:37:00:01:10:01:01:04:384:02:02:00:00:09:01:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -169,5 +543,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "de9d4dfd4d852eabeafabe2654ac2ee7cb77237430188ce3ab2d5a8bf319d1e2"
 }

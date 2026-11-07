@@ -16,6 +16,748 @@
     "ICIP360L12-V8",
     "ICIP360L12-V10"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW600",
+     "raw": "IPC-EBW600:01:02:0B:21:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB600",
+     "raw": "IPC-EB600:01:02:0B:21:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW600",
+     "raw": "IPC-EBW600:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB600",
+     "raw": "IPC-EB600:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW600-IMM",
+     "raw": "IPC-EBW600-IMM:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1200",
+     "raw": "IPC-EBW1200:01:02:0B:1C:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1200",
+     "raw": "IPC-EBW1200:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB1200",
+     "raw": "IPC-EB1200:01:02:0B:1C:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EBW1201",
+     "raw": "IPC-EBW1201:01:02:0B:24:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "24",
+       "name": "PO3100"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-EB1201",
+     "raw": "IPC-EB1201:01:02:0B:24:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "21",
+       "name": "IMX178"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L6",
+     "raw": "ICIP360L6:01:02:0B:21:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12",
+     "raw": "ICIP360L12:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V8",
+     "raw": "ICIP360L12-V8:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V10",
+     "raw": "ICIP360L12-V10:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12",
+     "raw": "ICIP360L12:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V8",
+     "raw": "ICIP360L12-V8:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1008
+      ],
+      "formFactor": {
+       "code": "0B",
+       "name": "Fisheye"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "1C",
+       "name": "IMX172"
+      },
+      "soc": {
+       "code": "0D",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "ICIP360L12-V10",
+     "raw": "ICIP360L12-V10:01:02:0B:1C:0D:00:01:06:01:01:04:3F0:02:00:02:00:00:01:01:00:400"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-EBW600:01:02:0B:21:0D:0A:01:06:01:01:04:3F0:03:02:00:04:00:00:00:00:100",
@@ -252,5 +994,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c476da3c8aabdcfd57145f6f6ac28a0e252a65afbca043a87ee0a8aedc8f3c88"
 }

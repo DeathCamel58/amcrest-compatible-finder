@@ -8,6 +8,119 @@
     "IPC-C22E-S2",
     "IPC-F46F-imou"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-S2",
+     "raw": "IPC-A22E-S2:01:02:08:77:3B:00:01:10:01:01:04:400:00:02:00:00:00:01:00:01:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-S2",
+     "raw": "IPC-C22E-S2:01:02:0F:77:3B:00:01:10:01:01:04:400:00:02:00:00:04:01:00:01:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F46F-imou",
+     "raw": "IPC-F46F-imou:01:02:03:89:3C:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-A22E-S2:01:02:08:77:3B:00:01:10:01:01:04:400:00:02:00:00:00:01:00:01:80",
@@ -39,6 +152,119 @@
     "IPC-A22E-S2",
     "IPC-C22E-S2",
     "IPC-F46F-imou"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A22E-S2",
+     "raw": "IPC-A22E-S2:01:02:08:77:3B:00:01:10:01:01:04:400:00:02:00:00:00:01:00:01:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "77",
+       "name": "SC2238"
+      },
+      "soc": {
+       "code": "3B",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C22E-S2",
+     "raw": "IPC-C22E-S2:01:02:0F:77:3B:00:01:10:01:01:04:400:00:02:00:00:04:01:00:01:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "89",
+       "name": null
+      },
+      "soc": {
+       "code": "3C",
+       "name": "SSC325"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-F46F-imou",
+     "raw": "IPC-F46F-imou:01:02:03:89:3C:00:01:10:01:01:04:320:00:02:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -294,5 +520,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c42dd214fde1faff28c1bad3b58a58559bd1f789e3f1e93cb12c8ef68c2b8b16"
 }

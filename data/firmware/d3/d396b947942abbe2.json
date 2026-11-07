@@ -7,6 +7,74 @@
     "VTO4202F",
     "VTO4202F-MA"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F",
+     "raw": "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F-MA",
+     "raw": "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF",
@@ -20,6 +88,74 @@
    "ids": [
     "VTO4202F",
     "VTO4202F-MA"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F",
+     "raw": "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F-MA",
+     "raw": "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    }
    ],
    "member": "hwid",
    "raw": [
@@ -75,6 +211,74 @@
    "ids": [
     "VTO4202F",
     "VTO4202F-MA"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F",
+     "raw": "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F-MA",
+     "raw": "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -168,6 +372,74 @@
    "ids": [
     "VTO4202F",
     "VTO4202F-MA"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F",
+     "raw": "VTO4202F:01:04:01:6A:35:00:01:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "35",
+       "name": "Hi3516CV500"
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO4202F-MA",
+     "raw": "VTO4202F-MA:01:04:01:00:35:00:00:10:01:01:04:384:00:00:00:00:07:00:00:00:100:FF"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -632,5 +904,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "d396b947942abbe2de0e81195794ac0db1a1088335296016575a45432cfd2482"
 }

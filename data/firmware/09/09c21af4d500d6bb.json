@@ -6,6 +6,41 @@
    "ids": [
     "IPC-BP6XP-E2Z-4G"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2Z-4G",
+     "raw": "IPC-BP6XP-E2Z-4G:01:02:00:111:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-BP6XP-E2Z-4G:01:02:00:111:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
@@ -33,6 +68,41 @@
    "firmware": "DH_IPC-PT-4G-AOVHB-Cauchy_Eng_PN_V2.820.0000000.21.R.260820.bin",
    "ids": [
     "IPC-BP6XP-E2Z-4G"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "111",
+       "name": "SC2336P"
+      },
+      "soc": {
+       "code": "76",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-BP6XP-E2Z-4G",
+     "raw": "IPC-BP6XP-E2Z-4G:01:02:00:111:76:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -116,5 +186,6 @@
    "software_version": "V2.820.0000000.21.R.260820"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "09c21af4d500d6bb5058f81c0b774ebe738a0e774bf165529320c92e88dd476d"
 }

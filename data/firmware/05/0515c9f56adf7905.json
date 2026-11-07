@@ -6,6 +6,41 @@
    "ids": [
     "ASI1212F-MEW"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "46",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI1212F-MEW",
+     "raw": "ASI1212F-MEW:01:04:05:00:46:00:00:10:00:01:01:4B0:00:02:00:06:08:00:00:00:80:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "ASI1212F-MEW:01:04:05:00:46:00:00:10:00:01:01:4B0:00:02:00:06:08:00:00:00:80:FF"
@@ -33,6 +68,41 @@
    "firmware": "DH_ASIX2XXF-E-V-SIV_MultiLang_NP_V3.004.0000000.3.R.260928.bin",
    "ids": [
     "ASI1212F-MEW"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "46",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI1212F-MEW",
+     "raw": "ASI1212F-MEW:01:04:05:00:46:00:00:10:00:01:01:4B0:00:02:00:06:08:00:00:00:80:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -223,5 +293,6 @@
    "software_version": "V3.004.0000000.3.R.260928"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "0515c9f56adf7905b5707684e0c4746787a00d29ff35666ae912e757163582f5"
 }

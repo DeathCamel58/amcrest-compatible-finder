@@ -23,6 +23,82 @@
     "IPC-VIP-1430-B",
     "IPC-VIP-1430-D"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-VIP-1430-B",
+     "raw": "IPC-VIP-1430-B:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-VIP-1430-D",
+     "raw": "IPC-VIP-1430-D:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-VIP-1430-B:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-VIP-1430-B",
     "IPC-VIP-1430-D"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-VIP-1430-B",
+     "raw": "IPC-VIP-1430-B:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "30",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-VIP-1430-D",
+     "raw": "IPC-VIP-1430-D:01:02:02:73:30:00:01:00:00:00:00:320:00:00:00:00:00:00:00:00:100"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 1,
@@ -178,5 +330,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "4abf470adf603c9db40980a78b03851e06d4d02ef69931aeee6d5baded418d2e"
 }

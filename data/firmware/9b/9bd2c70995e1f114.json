@@ -6,6 +6,40 @@
    "ids": [
     "DB6I"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "DB6I",
+     "raw": "DB6I:01:04:07:7C:41:00:01:10:01:01:04:400:03:03:00:00:08:01:00:00:100:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "DB6I:01:04:07:7C:41:00:01:10:01:01:04:400:03:03:00:00:08:01:00:00:100:FF"
@@ -38,6 +72,40 @@
    "firmware": null,
    "ids": [
     "DB6I"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "7C",
+       "name": null
+      },
+      "soc": {
+       "code": "41",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "DB6I",
+     "raw": "DB6I:01:04:07:7C:41:00:01:10:01:01:04:400:03:03:00:00:08:01:00:00:100:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -137,5 +205,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "9bd2c70995e1f1142b1cfd1b1eccbc9cd8bef35da3ab0264738c78d85e0135eb"
 }

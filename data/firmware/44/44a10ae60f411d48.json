@@ -7,6 +7,72 @@
     "IPC-HUM4231S1P",
     "IPC-HUM4431S1P"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4231S1P",
+     "raw": "IPC-HUM4231S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4431S1P",
+     "raw": "IPC-HUM4431S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HUM4231S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80",
@@ -36,6 +102,72 @@
    "ids": [
     "IPC-HUM4231S1P",
     "IPC-HUM4431S1P"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4231S1P",
+     "raw": "IPC-HUM4231S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "D7",
+       "name": "SC430AI"
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4431S1P",
+     "raw": "IPC-HUM4431S1P:01:02:00:D7:66:00:01:10:03:01:04:3E8:02:00:00:00:00:00:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -193,5 +325,6 @@
    "software_version": "V3.120.0000000.21.R.260514"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "44a10ae60f411d484c6625dc1688791b81a46f091b0b11d0f823dd7499c1e6e1"
 }

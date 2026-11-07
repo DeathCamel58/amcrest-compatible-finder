@@ -8,6 +8,116 @@
     "IPC-HF8835F",
     "IPC-HF8248F-XF"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "5A",
+       "name": null
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF81239F",
+     "raw": "IPC-HF81239F:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "5A",
+       "name": null
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8835F",
+     "raw": "IPC-HF8835F:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8248F-XF",
+     "raw": "IPC-HF8248F-XF:01:02:01:4A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HF81239F:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800",
@@ -39,6 +149,116 @@
     "IPC-HF81239F",
     "IPC-HF8835F",
     "IPC-HF8248F-XF"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "5A",
+       "name": null
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF81239F",
+     "raw": "IPC-HF81239F:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "5A",
+       "name": null
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8835F",
+     "raw": "IPC-HF8835F:01:02:01:5A:23:00:01:10:07:01:04:4B0:08:00:00:04:00:01:00:00:800"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "08",
+       "name": null
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HF8248F-XF",
+     "raw": "IPC-HF8248F-XF:01:02:01:4A:23:00:01:10:07:01:04:4B0:08:00:00:08:00:01:00:00:800"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -291,5 +511,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "82e76dd058d91e8f746c52524d5f69145a461b0e12d78ff01ca49e302e3fadd9"
 }

@@ -6,6 +6,40 @@
    "ids": [
     "VTO9341D"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "71",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO9341D",
+     "raw": "VTO9341D:01:04:01:71:23:00:01:11:03:03:04:4B0:00:00:00:06:00:01:00:00:800:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO9341D:01:04:01:71:23:00:01:11:03:03:04:4B0:00:00:00:06:00:01:00:00:800:FF"
@@ -33,6 +67,40 @@
    "firmware": null,
    "ids": [
     "VTO9341D"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "71",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO9341D",
+     "raw": "VTO9341D:01:04:01:71:23:00:01:11:03:03:04:4B0:00:00:00:06:00:01:00:00:800:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -252,5 +320,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "09e4c316be1c1ed8703bbdae5f8fdfc2f44529af2add8c711acdaad1c7636c6b"
 }

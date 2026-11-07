@@ -44,6 +44,85 @@
     "TS-WBC5-45AC-03S",
     "TS-WBC5-90AC-01S"
    ],
+   "lines": [
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBC5-90AC-01P",
+     "raw": "TS-WBC5-90AC-01P:02:04:06:01:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBC5-45AC-03P",
+     "raw": "TS-WBC5-45AC-03P:02:04:06:02:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBC5-30AC-05P",
+     "raw": "TS-WBC5-30AC-05P:02:04:06:03:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-90AC-01P",
+     "raw": "TS-WBK5-90AC-01P:02:04:06:01:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-45AC-03P",
+     "raw": "TS-WBK5-45AC-03P:02:04:06:02:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-30AC-05P",
+     "raw": "TS-WBK5-30AC-05P:02:04:06:03:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-90AC-01P",
+     "raw": "TS-WBK5-90AC-01P:02:04:06:01:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-45AC-03P",
+     "raw": "TS-WBK5-45AC-03P:02:04:06:02:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBK5-30AC-05P",
+     "raw": "TS-WBK5-30AC-05P:02:04:06:03:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBC5-45AC-03S",
+     "raw": "TS-WBC5-45AC-03S:02:04:06:04:100:101:02:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-WBC5-90AC-01S",
+     "raw": "TS-WBC5-90AC-01S:02:04:06:05:100:101:01:00:09:00:00:00:00:00:00:00:00:00:00:00:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TS-WBC5-90AC-01P:02:04:06:01:100:101:00:00:09:00:00:00:00:00:00:00:00:00:00:00:00",
@@ -155,5 +234,6 @@
    "software_version": "V1.000.0000004.3.R.250821"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b16b32cb56ee546d41c179c5085f9878e4001a8d974e361383ec8cacde8f5f32"
 }

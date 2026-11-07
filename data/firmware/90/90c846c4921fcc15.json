@@ -7,6 +7,72 @@
     "IPC-PFW2849S-A180-SA-PV",
     "IPC-PDW2849-A180-SA-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F3",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW2849S-A180-SA-PV",
+     "raw": "IPC-PFW2849S-A180-SA-PV:01:02:00:F3:56:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F3",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDW2849-A180-SA-PV",
+     "raw": "IPC-PDW2849-A180-SA-PV:01:02:00:F3:56:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PFW2849S-A180-SA-PV:01:02:00:F3:56:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400",
@@ -36,6 +102,72 @@
    "ids": [
     "IPC-PFW2849S-A180-SA-PV",
     "IPC-PDW2849-A180-SA-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F3",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW2849S-A180-SA-PV",
+     "raw": "IPC-PFW2849S-A180-SA-PV:01:02:00:F3:56:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "F3",
+       "name": null
+      },
+      "soc": {
+       "code": "56",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDW2849-A180-SA-PV",
+     "raw": "IPC-PDW2849-A180-SA-PV:01:02:00:F3:56:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -310,5 +442,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "90c846c4921fcc156bf541125c71fe93f1da1bd6335f45c0b9a76ca2c9ff0c45"
 }

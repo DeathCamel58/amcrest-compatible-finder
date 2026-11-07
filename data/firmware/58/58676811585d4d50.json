@@ -11,6 +11,212 @@
     "SDT8A1440WA-4Z3",
     "CA-HZ4040WA1-E"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1840WA-8Z4",
+     "raw": "SDT8A1840WA-8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040WA-B",
+     "raw": "CA-HZ8040WA-B:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1840WA-T8Z4",
+     "raw": "SDT8A1840WA-T8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040WA-C",
+     "raw": "CA-HZ8040WA-C:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1440WA-4Z3",
+     "raw": "SDT8A1440WA-4Z3:01:03:04:86:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040WA1-E",
+     "raw": "CA-HZ4040WA1-E:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SDT8A1840WA-8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000",
@@ -48,6 +254,212 @@
     "CA-HZ8040WA-C",
     "SDT8A1440WA-4Z3",
     "CA-HZ4040WA1-E"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1840WA-8Z4",
+     "raw": "SDT8A1840WA-8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040WA-B",
+     "raw": "CA-HZ8040WA-B:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1840WA-T8Z4",
+     "raw": "SDT8A1840WA-T8Z4:01:03:04:74:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ8040WA-C",
+     "raw": "CA-HZ8040WA-C:01:03:04:74:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT8A1440WA-4Z3",
+     "raw": "SDT8A1440WA-4Z3:01:03:04:86:2D:00:02:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1800,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "CA-HZ4040WA1-E",
+     "raw": "CA-HZ4040WA1-E:01:03:04:86:2D:00:01:10:03:01:04:708_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -258,5 +670,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "58676811585d4d50863b1f131e32156d1950b6116e9d3f40e4da8955b4e1230e"
 }

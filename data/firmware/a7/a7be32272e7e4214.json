@@ -37,6 +37,45 @@
    "ids": [
     "IPC-HFW4300S"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       528
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "1F",
+       "name": "AR0330"
+      },
+      "soc": {
+       "code": "0A",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4300S",
+     "raw": "IPC-HFW4300S:01:02:02:1F:0A:00:01:00:00:00:00:210:00:00:02:00:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW4300S:01:02:02:1F:0A:00:01:00:00:00:00:210:00:00:02:00:00:00:00:00:100"
@@ -218,5 +257,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "a7be32272e7e42143e61cff661fc41d2b60acc4dacece61004410c4968935736"
 }

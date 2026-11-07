@@ -7,6 +7,74 @@
     "VTS5340B",
     "VTS8340B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1500,
+       1500
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTS5340B",
+     "raw": "VTS5340B:01:04:03:00:34:00:00:10:03:01:05:5DC_5DC:00:00:02:06:00:00:00:01:400:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1500,
+       1500
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "97",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTS8340B",
+     "raw": "VTS8340B:01:04:03:97:34:00:01:10:03:01:05:5DC_5DC:00:00:02:06:00:00:00:01:400:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTS5340B:01:04:03:00:34:00:00:10:03:01:05:5DC_5DC:00:00:02:06:00:00:00:01:400:FF",
@@ -36,6 +104,74 @@
    "ids": [
     "VTS5340B",
     "VTS8340B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1500,
+       1500
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTS5340B",
+     "raw": "VTS5340B:01:04:03:00:34:00:00:10:03:01:05:5DC_5DC:00:00:02:06:00:00:00:01:400:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1500,
+       1500
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "97",
+       "name": null
+      },
+      "soc": {
+       "code": "34",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTS8340B",
+     "raw": "VTS8340B:01:04:03:97:34:00:01:10:03:01:05:5DC_5DC:00:00:02:06:00:00:00:01:400:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -286,5 +422,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "78467f771064f1dcc3c234b1791e678a3311b72ac924a500bb01d28523786068"
 }

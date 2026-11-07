@@ -46,6 +46,193 @@
     "IPC-HDBW1430EN-AS-Lexus",
     "IPC-AW46W-5G"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430SN-W-Lexus",
+     "raw": "IPC-HFW1430SN-W-Lexus:01:02:03:23:21:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "03",
+       "name": "Wi-Fi bullet / dome"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1430SN-AW-Lexus",
+     "raw": "IPC-HDBW1430SN-AW-Lexus:01:02:03:23:21:00:01:0E:01:01:04:2D0:03:02:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": false,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430SN-Lexus",
+     "raw": "IPC-HFW1430SN-Lexus:01:02:02:23:21:00:01:00:00:00:00:2D0:00:00:00:00:00:01:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "23",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "21",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1430EN-AS-Lexus",
+     "raw": "IPC-HDBW1430EN-AS-Lexus:01:02:05:23:21:00:01:0E:01:01:04:2D0:03:00:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       720
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "73",
+       "name": "OV4689"
+      },
+      "soc": {
+       "code": "20",
+       "name": "Ambarella S3L (S3LM)"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-AW46W-5G",
+     "raw": "IPC-AW46W-5G:01:02:08:73:20:00:01:0F:01:01:04:2D0:00:02:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW1430SN-W-Lexus:01:02:03:23:21:00:01:00:00:00:04:2D0:00:02:00:00:00:00:00:00:200",
@@ -271,5 +458,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5f92012a59dd9efd30f94e3844b55107069012a4a42a737ffa5541218dbc2825"
 }

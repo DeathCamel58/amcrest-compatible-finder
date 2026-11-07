@@ -12,6 +12,263 @@
     "IPC-E2AP",
     "IPC-H2AC"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C42EN-S2-Cayenne",
+     "raw": "IPC-C42EN-S2-Cayenne:01:02:0F:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A42EN-S2-Cayenne",
+     "raw": "IPC-A42EN-S2-Cayenne:01:02:00:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-E4AP",
+     "raw": "IPC-E4AP:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H4AC",
+     "raw": "IPC-H4AC:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S42F-0360B-S2-Cayenne",
+     "raw": "IPC-S42F-0360B-S2-Cayenne:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-E2AP",
+     "raw": "IPC-E2AP:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H2AC",
+     "raw": "IPC-H2AC:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-C42EN-S2-Cayenne:01:02:0F:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40",
@@ -51,6 +308,263 @@
     "IPC-S42F-0360B-S2-Cayenne",
     "IPC-E2AP",
     "IPC-H2AC"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "0F",
+       "name": "Consumer C series"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-C42EN-S2-Cayenne",
+     "raw": "IPC-C42EN-S2-Cayenne:01:02:0F:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-A42EN-S2-Cayenne",
+     "raw": "IPC-A42EN-S2-Cayenne:01:02:00:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-E4AP",
+     "raw": "IPC-E4AP:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H4AC",
+     "raw": "IPC-H4AC:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-S42F-0360B-S2-Cayenne",
+     "raw": "IPC-S42F-0360B-S2-Cayenne:01:02:08:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-E2AP",
+     "raw": "IPC-E2AP:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "08",
+       "name": "Consumer pan-tilt"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H2AC",
+     "raw": "IPC-H2AC:01:02:08:FA:4F:00:01:10:01:01:04:4B0:00:00:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -154,5 +668,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "2391b413fec94dd77dba918c092a0dc4840263c65dba0e283edfea022446ca68"
 }

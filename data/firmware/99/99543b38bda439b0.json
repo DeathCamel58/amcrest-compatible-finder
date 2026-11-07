@@ -61,6 +61,72 @@
     "VTO3221E",
     "VTO6221E"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "VTO3221E",
+     "raw": "VTO3221E:01:04:01:4A:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "VTO6221E",
+     "raw": "VTO6221E:01:04:01:4A:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO3221E:01:04:01:4A:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200",
@@ -128,6 +194,72 @@
    "ids": [
     "VTO3221E",
     "VTO6221E"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "VTO3221E",
+     "raw": "VTO3221E:01:04:01:4A:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "4A",
+       "name": "IMX290"
+      },
+      "soc": {
+       "code": "1A",
+       "name": "Hi3516A"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "VTO6221E",
+     "raw": "VTO6221E:01:04:01:4A:1A:17:01:11:03:03:04:258:00:02:00:00:00:00:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 1,
@@ -359,5 +491,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "99543b38bda439b09d69369fdfdf81e41a8114fb47b1b51eff5b55c4605a3089"
 }

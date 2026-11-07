@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HFW2220M"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2220M",
+     "raw": "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100"
@@ -17,6 +56,45 @@
    "firmware": null,
    "ids": [
     "IPC-HFW2220M"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       600
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "4F",
+       "name": "IMX322"
+      },
+      "soc": {
+       "code": "1E",
+       "name": "Hi3518EV200"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2220M",
+     "raw": "IPC-HFW2220M:01:02:02:4F:1E:00:01:00:00:00:04:258:00:00:00:00:00:01:00:00:100"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -198,5 +276,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "866f4d2474695df215f1dba717d8d0d5a6d1d5b9f973cacb6b34213597281a62"
 }

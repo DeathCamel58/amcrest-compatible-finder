@@ -22,6 +22,42 @@
    "ids": [
     "SDT2A206-4F-NAS2-0280-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F6",
+       "name": null
+      },
+      "soc": {
+       "code": "80",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SDT2A206-4F-NAS2-0280-A",
+     "raw": "SDT2A206-4F-NAS2-0280-A:01:03:04:F6:80:00:02:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:200"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "SDT2A206-4F-NAS2-0280-A:01:03:04:F6:80:00:02:10:01:01:04:4B0_4B0:04:00:00:04:00:01:00:00:200"
@@ -97,5 +133,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b25f4a725a18708e2e706d88d9e6dd6c3c7d8c46ef7af322395d10ffba982ec0"
 }

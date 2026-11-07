@@ -18,6 +18,424 @@
     "VTA2501G-4G-E",
     "VTA2511G-4G-E"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G",
+     "raw": "VTA2501G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-4G",
+     "raw": "VTA2501G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G",
+     "raw": "VTA2502G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-4G",
+     "raw": "VTA2502G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G",
+     "raw": "VTA2511G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G-4G",
+     "raw": "VTA2511G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2512G",
+     "raw": "VTA2512G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2512G-4G",
+     "raw": "VTA2512G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-E",
+     "raw": "VTA2501G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-E",
+     "raw": "VTA2502G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-E-I",
+     "raw": "VTA2502G-E-I:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-4G-E",
+     "raw": "VTA2501G-4G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G-4G-E",
+     "raw": "VTA2511G-4G-E:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTA2501G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF",
@@ -129,6 +547,424 @@
     "VTA2502G-E-I",
     "VTA2501G-4G-E",
     "VTA2511G-4G-E"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G",
+     "raw": "VTA2501G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-4G",
+     "raw": "VTA2501G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G",
+     "raw": "VTA2502G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-4G",
+     "raw": "VTA2502G-4G:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G",
+     "raw": "VTA2511G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G-4G",
+     "raw": "VTA2511G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2512G",
+     "raw": "VTA2512G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2512G-4G",
+     "raw": "VTA2512G-4G:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-E",
+     "raw": "VTA2501G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-E",
+     "raw": "VTA2502G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2502G-E-I",
+     "raw": "VTA2502G-E-I:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:00:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2501G-4G-E",
+     "raw": "VTA2501G-4G-E:01:04:08:F0:4B:00:01:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "00",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 0,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTA2511G-4G-E",
+     "raw": "VTA2511G-4G-E:01:04:08:00:4B:00:00:10:07:03:04:400:00:00:00:00:09:00:00:00:200:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -244,5 +1080,6 @@
    "software_version": "V4.300.0000000.7.R.260611"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "c40b57141baa9266a9834fe7674e2e0552347c16c05f5192c8a7da7cb425cc11"
 }

@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HUM4101"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "28",
+       "name": "AR0140"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4101",
+     "raw": "IPC-HUM4101:01:02:0C:28:0E:00:01:00:00:00:00:190:00:00:02:04:00:00:00:00:80"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HUM4101:01:02:0C:28:0E:00:01:00:00:00:00:190:00:00:02:04:00:00:00:00:80"
@@ -17,6 +56,45 @@
    "firmware": null,
    "ids": [
     "IPC-HUM4101"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       400
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "28",
+       "name": "AR0140"
+      },
+      "soc": {
+       "code": "0E",
+       "name": "Hi3518"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM4101",
+     "raw": "IPC-HUM4101:01:02:0C:28:0E:00:01:00:00:00:00:190:00:00:02:04:00:00:00:00:80"
+    }
    ],
    "member": "hwid",
    "raw_same_as": 0,
@@ -208,5 +286,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5caa3ed1803753d90584626aea2450ef5e48b670d0404ef50c72deb071cb6f00"
 }

@@ -16,6 +16,414 @@
     "IPC-HFW3233M-SG",
     "IPC-HFW2233M-A-IL"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M",
+     "raw": "IPC-HFW2233M:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A",
+     "raw": "IPC-HDW2233C-A:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-S",
+     "raw": "IPC-HDBW2233R-S:01:02:05:6A:38:00:01:00:00:00:04:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS",
+     "raw": "IPC-HFW2233M-AS:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4233M-LED",
+     "raw": "IPC-HFW4233M-LED:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4233M-AS-LED",
+     "raw": "IPC-HFW4233M-AS-LED:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW4233T-A-LED",
+     "raw": "IPC-HDW4233T-A-LED:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM7236-S2",
+     "raw": "IPC-HUM7236-S2:01:02:0C:6A:38:00:01:10:01:01:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233DM-4G-AS-I2",
+     "raw": "IPC-HFW2233DM-4G-AS-I2:01:02:02:6A:38:00:01:10:03:01:04:384:08:02:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3233M-SG",
+     "raw": "IPC-HFW3233M-SG:01:02:13:B4:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-A-IL",
+     "raw": "IPC-HFW2233M-A-IL:01:02:13:B4:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2233M:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80",
@@ -63,6 +471,414 @@
     "IPC-HFW2233DM-4G-AS-I2",
     "IPC-HFW3233M-SG",
     "IPC-HFW2233M-A-IL"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M",
+     "raw": "IPC-HFW2233M:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2233C-A",
+     "raw": "IPC-HDW2233C-A:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW2233R-S",
+     "raw": "IPC-HDBW2233R-S:01:02:05:6A:38:00:01:00:00:00:04:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-AS",
+     "raw": "IPC-HFW2233M-AS:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4233M-LED",
+     "raw": "IPC-HFW4233M-LED:01:02:01:6A:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "01",
+       "name": "Box"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4233M-AS-LED",
+     "raw": "IPC-HFW4233M-AS-LED:01:02:01:6A:38:00:01:10:01:01:04:384:08:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW4233T-A-LED",
+     "raw": "IPC-HDW4233T-A-LED:01:02:05:6A:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "0C",
+       "name": "Pinhole"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HUM7236-S2",
+     "raw": "IPC-HUM7236-S2:01:02:0C:6A:38:00:01:10:01:01:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "6A",
+       "name": "IMX307"
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233DM-4G-AS-I2",
+     "raw": "IPC-HFW2233DM-4G-AS-I2:01:02:02:6A:38:00:01:10:03:01:04:384:08:02:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW3233M-SG",
+     "raw": "IPC-HFW3233M-SG:01:02:13:B4:38:00:01:00:00:00:00:384:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "formFactor": {
+       "code": "13",
+       "name": "Newer value line"
+      },
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2233M-A-IL",
+     "raw": "IPC-HFW2233M-A-IL:01:02:13:B4:38:00:01:10:01:00:00:384:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -386,5 +1202,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5077ac03522107d638dac09c7bf27f52a9e7ada442fb8b1a26b6ae0f2a2e42b8"
 }

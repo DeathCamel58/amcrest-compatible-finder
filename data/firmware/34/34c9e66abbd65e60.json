@@ -29,6 +29,29 @@
     "TS-SG5036FX",
     "TTS-SG5036FX"
    ],
+   "lines": [
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-SG5028X",
+     "raw": "TS-SG5028X:02:04:01:0D:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TS-SG5036FX",
+     "raw": "TS-SG5036FX:02:04:01:0E:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 21,
+     "layout": null,
+     "model": "TTS-SG5036FX",
+     "raw": "TTS-SG5036FX:02:04:01:0E:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "TS-SG5028X:02:04:01:0D:101:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
@@ -92,5 +115,6 @@
    "software_version": "V1.001.0000000.29.R.260108"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "34c9e66abbd65e6032dc05c975323e8c90e3fd536ee30d2deb7501f82f652578"
 }

@@ -7,6 +7,72 @@
     "IPC-H3JSP-0280B",
     "IPC-H5JSP-0280B"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "87",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3JSP-0280B",
+     "raw": "IPC-H3JSP-0280B:01:02:00:FA:87:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "87",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5JSP-0280B",
+     "raw": "IPC-H5JSP-0280B:01:02:00:E6:87:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-H3JSP-0280B:01:02:00:FA:87:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80",
@@ -36,6 +102,72 @@
    "ids": [
     "IPC-H3JSP-0280B",
     "IPC-H5JSP-0280B"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "FA",
+       "name": null
+      },
+      "soc": {
+       "code": "87",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H3JSP-0280B",
+     "raw": "IPC-H3JSP-0280B:01:02:00:FA:87:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "E6",
+       "name": "SC4336"
+      },
+      "soc": {
+       "code": "87",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-H5JSP-0280B",
+     "raw": "IPC-H5JSP-0280B:01:02:00:E6:87:00:01:10:03:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -151,5 +283,6 @@
    "software_version": "V2.860.0000000.4.R.260515"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "df216eed63045397cfbfa807ac7318717c161a09b5ef355b223edb20046f6d3a"
 }

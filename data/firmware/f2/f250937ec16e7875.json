@@ -12,6 +12,259 @@
     "CA-HZ8040FA-A",
     "CA-HZ8040FG-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-A",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FA-0280-A",
+     "raw": "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FG-0280-A",
+     "raw": "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1-8P-FA-0280-A",
+     "raw": "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-B",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FA-A",
+     "raw": "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "AB",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FG-A",
+     "raw": "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000",
@@ -51,6 +304,259 @@
     "PTZ-MT4X8052FG-4F2-0400-B",
     "CA-HZ8040FA-A",
     "CA-HZ8040FG-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-A",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FA-0280-A",
+     "raw": "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FG-0280-A",
+     "raw": "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1-8P-FA-0280-A",
+     "raw": "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-B",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FA-A",
+     "raw": "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "AB",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FG-A",
+     "raw": "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -68,6 +574,259 @@
     "CA-HZ8040FA-A",
     "CA-HZ8040FG-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-A",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FA-0280-A",
+     "raw": "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FG-0280-A",
+     "raw": "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1-8P-FA-0280-A",
+     "raw": "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-B",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FA-A",
+     "raw": "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "AB",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FG-A",
+     "raw": "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000",
@@ -107,6 +866,259 @@
     "PTZ-MT4X8052FG-4F2-0400-B",
     "CA-HZ8040FA-A",
     "CA-HZ8040FG-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-A",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-A:01:03:04:86:52:00:04:14:03:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:2000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FA-0280-A",
+     "raw": "SDT8C1840-8P-FA-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1840-8P-FG-0280-A",
+     "raw": "SDT8C1840-8P-FG-0280-A:01:03:04:DC:52:00:02:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006_000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 8192,
+      "sensor": {
+       "code": "DC",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1-8P-FA-0280-A",
+     "raw": "SDT8C1-8P-FA-0280-A:01:03:04:DC:52:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:2000:FF:0006"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "86",
+       "name": "OS04"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "PTZ-MT4X8052FG-4F2-0400-B",
+     "raw": "PTZ-MT4X8052FG-4F2-0400-B:01:03:04:86:52:00:02:14:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:01:00:00:1000"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "74",
+       "name": "IMX334"
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FA-A",
+     "raw": "CA-HZ8040FA-A:01:03:04:74:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "AB",
+       "name": null
+      },
+      "soc": {
+       "code": "52",
+       "name": "SS928V100"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "CA-HZ8040FG-A",
+     "raw": "CA-HZ8040FG-A:01:03:04:AB:52:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:1000:FF:000E"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -371,5 +1383,6 @@
    "software_version": "V3.200.1CLO000.0.R.241213"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "f250937ec16e78757f2ff340ec65e44e56a30f2d19d44f03299537d51a9a5c0b"
 }

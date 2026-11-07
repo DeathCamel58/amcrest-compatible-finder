@@ -6,6 +6,45 @@
    "ids": [
     "IPC-HDW2249T-S-PV"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2249T-S-PV",
+     "raw": "IPC-HDW2249T-S-PV:01:02:04:B4:66:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDW2249T-S-PV:01:02:04:B4:66:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
@@ -33,6 +72,45 @@
    "firmware": "Firmware - VIP 3230 (D) FC+ AP IA - 230926.bin",
    "ids": [
     "IPC-HDW2249T-S-PV"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "66",
+       "name": "Infinity6C"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW2249T-S-PV",
+     "raw": "IPC-HDW2249T-S-PV:01:02:04:B4:66:00:01:10:01:01:04:3E8:00:00:00:00:00:01:00:00:80"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -293,5 +371,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "b846c036b34ac5c9378bf25c9b111cfee4a940bb336843fc5d0dec77ab914f30"
 }

@@ -26,6 +26,173 @@
     "IPC-HFW4639TC1-S-IL",
     "IPC-HFW4839TC1-S-IL"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "116",
+       "name": null
+      },
+      "soc": {
+       "code": "82",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4239TC1-S-IL",
+     "raw": "IPC-HFW4239TC1-S-IL:01:02:00:116:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "10C",
+       "name": null
+      },
+      "soc": {
+       "code": "82",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4439TC1-S-IL",
+     "raw": "IPC-HFW4439TC1-S-IL:01:02:00:10C:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "82",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4439K-TGD",
+     "raw": "IPC-HFW4439K-TGD:01:02:00:12C:82:00:01:00:00:00:00:3E8:00:00:00:00:00:01:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "12A",
+       "name": "SC533HAI"
+      },
+      "soc": {
+       "code": "82",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4639TC1-S-IL",
+     "raw": "IPC-HFW4639TC1-S-IL:01:02:00:12A:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "113",
+       "name": "SC835HAI"
+      },
+      "soc": {
+       "code": "82",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW4839TC1-S-IL",
+     "raw": "IPC-HFW4839TC1-S-IL:01:02:00:113:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "IPC-HFW4239TC1-S-IL:01:02:00:116:82:00:01:10:01:00:04:3E8:02:00:00:00:00:01:00:00:80",
@@ -105,5 +272,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "82a948606b1b4206084059ab3692cf7339ee0b2eb18c33525985372c7d654bcf"
 }

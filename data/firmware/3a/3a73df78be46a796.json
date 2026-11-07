@@ -117,6 +117,413 @@
     "SD6E82-HN",
     "SD6E83-HN"
    ],
+   "lines": [
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8040425126418422",
+     "raw": "8040425126418422"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8040425126518422",
+     "raw": "8040425126518422"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8044425126918422",
+     "raw": "8044425126918422"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8040024605418433",
+     "raw": "8040024605418433"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       486
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6582B-HN",
+     "raw": "SD6582B-HN:01:03:01:05:06:05:01:04:01:01:04:1E6:04:00:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       486
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6982B-HN",
+     "raw": "SD6982B-HN:01:03:01:05:06:05:01:04:01:01:04:1E6:04:00:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8040020646418439",
+     "raw": "8040020646418439"
+    },
+    {
+     "decoded": {},
+     "fieldCount": 0,
+     "layout": null,
+     "model": "8040020646518439",
+     "raw": "8040020646518439"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       432
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD32XX-HN",
+     "raw": "SD32XX-HN:01:03:00:05:06:00:01:04:01:01:04:1B0:02:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       486
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD32XX-HN",
+     "raw": "SD32XX-HN:01:03:00:05:06:00:01:04:01:01:04:1E6:02:00:00:00:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       432
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "04",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD4X81-HN",
+     "raw": "SD4X81-HN:01:03:01:04:06:05:01:04:01:01:04:1B0:02:00:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       270
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "03",
+       "name": null
+      },
+      "soc": {
+       "code": "05",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6380D-HN",
+     "raw": "SD6380D-HN:01:03:04:03:05:00:01:00:00:00:00:10E:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       270
+      ],
+      "microSD": false,
+      "ramMiB": 128,
+      "sensor": {
+       "code": "03",
+       "name": null
+      },
+      "soc": {
+       "code": "05",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6C80D-HN",
+     "raw": "SD6C80D-HN:01:03:04:03:05:00:01:00:00:00:00:10E:00:00:00:00:00:00:00:00:80"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       432
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "04",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6E81-HN",
+     "raw": "SD6E81-HN:01:03:05:04:06:00:01:00:00:00:03:1B0:00:00:00:04:00:00:00:00:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       432
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6E82-HN",
+     "raw": "SD6E82-HN:01:03:05:05:06:00:01:00:00:00:03:1B0:00:00:00:04:00:00:00:01:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       486
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "05",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6E82-HN",
+     "raw": "SD6E82-HN:01:03:05:05:06:00:01:00:00:00:03:1E6:00:00:00:04:00:00:00:02:100"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       486
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "09",
+       "name": null
+      },
+      "soc": {
+       "code": "06",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "SD6E83-HN",
+     "raw": "SD6E83-HN:01:03:05:09:06:00:01:00:00:00:03:1E6:00:00:00:04:00:00:00:00:100"
+    }
+   ],
    "member": "check.img",
    "raw": [
     "8040425126418422",
@@ -261,5 +668,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "3a73df78be46a796c7c8f9bc61fa6a632eec264441645321edb1afa9419566c5"
 }

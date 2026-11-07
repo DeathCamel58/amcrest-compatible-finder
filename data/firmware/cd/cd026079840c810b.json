@@ -25,6 +25,748 @@
     "IPC-B1A40-WT-PV-B-V2",
     "IPC-B1A40-PV-V2"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WD22",
+     "raw": "IPC-WD22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WF22",
+     "raw": "IPC-WF22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230DS-SAW",
+     "raw": "IPC-HFW1230DS-SAW:01:02:02:CD:48:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230DE-SW",
+     "raw": "IPC-HDBW1230DE-SW:01:02:04:CD:48:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230DT-SAW",
+     "raw": "IPC-HDW1230DT-SAW:01:02:04:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230DS1-SAW",
+     "raw": "IPC-HFW1230DS1-SAW:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV-B-V2A",
+     "raw": "IPC-B1A20-WT-PV-B-V2A:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-W-B-V2",
+     "raw": "IPC-B1A20-W-B-V2:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-B-V2",
+     "raw": "IPC-B1A20-WT-B-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-PV-V2",
+     "raw": "IPC-B1A20-PV-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B3A40-WT",
+     "raw": "IPC-B3A40-WT:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WF42",
+     "raw": "IPC-WF42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WD42",
+     "raw": "IPC-WD42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430DS-SAW",
+     "raw": "IPC-HFW1430DS-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1430DE-SW",
+     "raw": "IPC-HDBW1430DE-SW:01:02:04:BF:4F:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1430DT-SAW",
+     "raw": "IPC-HDW1430DT-SAW:01:02:04:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430DS1-SAW",
+     "raw": "IPC-HFW1430DS1-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-B-V2",
+     "raw": "IPC-B1A40-WT-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-PV-B-V2",
+     "raw": "IPC-B1A40-WT-PV-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-PV-V2",
+     "raw": "IPC-B1A40-PV-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-WD22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40",
@@ -90,6 +832,748 @@
     "IPC-B1A40-WT-B-V2",
     "IPC-B1A40-WT-PV-B-V2",
     "IPC-B1A40-PV-V2"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WD22",
+     "raw": "IPC-WD22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WF22",
+     "raw": "IPC-WF22:01:02:02:CD:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230DS-SAW",
+     "raw": "IPC-HFW1230DS-SAW:01:02:02:CD:48:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CD",
+       "name": "SC2239P"
+      },
+      "soc": {
+       "code": "48",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1230DE-SW",
+     "raw": "IPC-HDBW1230DE-SW:01:02:04:CD:48:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1230DT-SAW",
+     "raw": "IPC-HDW1230DT-SAW:01:02:04:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1230DS1-SAW",
+     "raw": "IPC-HFW1230DS1-SAW:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-PV-B-V2A",
+     "raw": "IPC-B1A20-WT-PV-B-V2A:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-W-B-V2",
+     "raw": "IPC-B1A20-W-B-V2:01:02:02:CF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-WT-B-V2",
+     "raw": "IPC-B1A20-WT-B-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "CF",
+       "name": "SC223A"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A20-PV-V2",
+     "raw": "IPC-B1A20-PV-V2:01:02:02:CF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B3A40-WT",
+     "raw": "IPC-B3A40-WT:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WF42",
+     "raw": "IPC-WF42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-WD42",
+     "raw": "IPC-WD42:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430DS-SAW",
+     "raw": "IPC-HFW1430DS-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": false,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW1430DE-SW",
+     "raw": "IPC-HDBW1430DE-SW:01:02:04:BF:4F:00:01:10:00:00:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "04",
+       "name": "Dome (mostly)"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDW1430DT-SAW",
+     "raw": "IPC-HDW1430DT-SAW:01:02:04:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW1430DS1-SAW",
+     "raw": "IPC-HFW1430DS1-SAW:01:02:02:BF:4F:00:01:10:01:00:04:4B0:00:02:00:00:00:01:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-B-V2",
+     "raw": "IPC-B1A40-WT-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-WT-PV-B-V2",
+     "raw": "IPC-B1A40-WT-PV-B-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "02",
+       "name": "Bullet"
+      },
+      "microSD": true,
+      "ramMiB": 64,
+      "sensor": {
+       "code": "BF",
+       "name": "SC401AI"
+      },
+      "soc": {
+       "code": "4F",
+       "name": "SSC335"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": true
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-B1A40-PV-V2",
+     "raw": "IPC-B1A40-PV-V2:01:02:02:BF:4F:00:01:10:01:01:04:4B0:00:02:00:00:00:00:00:00:40"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -259,5 +1743,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "cd026079840c810b2fd3454e8f7178fdb10d8202ddc1ef3773ed41384376de2c"
 }

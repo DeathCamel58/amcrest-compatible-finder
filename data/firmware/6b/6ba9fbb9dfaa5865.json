@@ -6,6 +6,41 @@
    "ids": [
     "TPC-HT2201-TD"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "A5",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HT2201-TD",
+     "raw": "TPC-HT2201-TD:01:08:E3:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "TPC-HT2201-TD:01:08:E3:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
@@ -48,6 +83,41 @@
    "firmware": "DH_TPC-HT2201-TD_Eng_V2.630.0000000.6.R.240506.bin",
    "ids": [
     "TPC-HT2201-TD"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "08",
+       "name": "Thermal camera (TPC)"
+      },
+      "cpuMhz": [
+       900
+      ],
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "A5",
+       "name": null
+      },
+      "soc": {
+       "code": "38",
+       "name": "Hi3516EV300"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "TPC-HT2201-TD",
+     "raw": "TPC-HT2201-TD:01:08:E3:A5:38:00:01:01:01:01:04:384:02:00:00:04:00:00:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -160,5 +230,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "6ba9fbb9dfaa5865e680354ec0683af77aca03093e7fd023903a4b4d2f6b37c6"
 }

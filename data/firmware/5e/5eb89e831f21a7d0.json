@@ -6,6 +6,40 @@
    "ids": [
     "IPC-HFW2449DGP-ZAS-PV-4G"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449DGP-ZAS-PV-4G",
+     "raw": "IPC-HFW2449DGP-ZAS-PV-4G:01:02:00:12C:73:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HFW2449DGP-ZAS-PV-4G:01:02:00:12C:73:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
@@ -33,6 +67,40 @@
    "firmware": "DH_IPC-HX2XXX-AOV-Hugo_Eng_PN_V2.820.0000000.12.R.260520.bin",
    "ids": [
     "IPC-HFW2449DGP-ZAS-PV-4G"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1000
+      ],
+      "microSD": true,
+      "ramMiB": 512,
+      "sensor": {
+       "code": "12C",
+       "name": null
+      },
+      "soc": {
+       "code": "73",
+       "name": "Axera AX620E family"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HFW2449DGP-ZAS-PV-4G",
+     "raw": "IPC-HFW2449DGP-ZAS-PV-4G:01:02:00:12C:73:00:01:10:03:03:04:3E8:03:00:00:00:00:01:00:00:200"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -260,5 +328,6 @@
    ]
   }
  ],
+ "schemaVersion": 2,
  "sha256": "5eb89e831f21a7d0d089458ea42b3e5f17564339958a95b85f141c670825f5b6"
 }

@@ -6,6 +6,41 @@
    "ids": [
     "VTO6631Q-WP"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "0E",
+       "name": "Built-in display"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO6631Q-WP",
+     "raw": "VTO6631Q-WP:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:02:00:0E:08:01:00:01:400:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "VTO6631Q-WP:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:02:00:0E:08:01:00:01:400:FF"
@@ -93,6 +128,41 @@
    "firmware": "DH_VTO66-Freyja-A3_MultiLang_PN_V4.820.0000000.2.R.260707.bin",
    "ids": [
     "VTO6631Q-WP"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "B4",
+       "name": null
+      },
+      "soc": {
+       "code": "4B",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "0E",
+       "name": "Built-in display"
+      },
+      "wifi": true
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "VTO6631Q-WP",
+     "raw": "VTO6631Q-WP:01:04:01:B4:4B:00:02:10:01:01:00:4B0:00:02:00:0E:08:01:00:01:400:FF"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -267,5 +337,6 @@
    "software_version": "V4.820.0000000.2.R.260707"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "ae9599650c4da58ddf668bc3e812cb51c150d954d78b6ad774d1a9f852628c7a"
 }

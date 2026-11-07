@@ -6,6 +6,45 @@
    "ids": [
     "IPC-PDBW82041-B360-E4-27135"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041-B360-E4-27135",
+     "raw": "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
@@ -34,6 +73,45 @@
    "ids": [
     "IPC-PDBW82041-B360-E4-27135"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041-B360-E4-27135",
+     "raw": "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -43,6 +121,45 @@
    "firmware": "firmware.bin",
    "ids": [
     "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041-B360-E4-27135",
+     "raw": "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -87,6 +204,45 @@
    "firmware": "web-x.squashfs.bin",
    "ids": [
     "IPC-PDBW82041-B360-E4-27135"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": true,
+      "ramMiB": 4096,
+      "sensor": {
+       "code": "63",
+       "name": "OS05A10"
+      },
+      "soc": {
+       "code": "2D",
+       "name": "Hi3559AV100"
+      },
+      "videoChannels": 4,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PDBW82041-B360-E4-27135",
+     "raw": "IPC-PDBW82041-B360-E4-27135:01:02:05:63:2D:00:04:10:01:01:04:4B0:09:00:00:00:00:01:00:00:1000"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -439,5 +595,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "7d8395704675665a1a6162da2d2ed08de9e6d1412833ba605317ce9b1f7fd583"
 }

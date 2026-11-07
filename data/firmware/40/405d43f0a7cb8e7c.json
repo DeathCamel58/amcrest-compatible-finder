@@ -7,6 +7,82 @@
     "IPC-HDBW7243F-FD-M",
     "IPC-HDBW3241F-FD-M"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW7243F-FD-M",
+     "raw": "IPC-HDBW7243F-FD-M:01:02:05:79:2C:00:01:0E:01:00:00:320:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3241F-FD-M",
+     "raw": "IPC-HDBW3241F-FD-M:01:02:05:79:2C:00:01:0E:01:00:00:320:00:00:00:00:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-HDBW7243F-FD-M:01:02:05:79:2C:00:01:0E:01:00:00:320:00:00:00:00:00:01:00:00:400",
@@ -36,6 +112,82 @@
    "ids": [
     "IPC-HDBW7243F-FD-M",
     "IPC-HDBW3241F-FD-M"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW7243F-FD-M",
+     "raw": "IPC-HDBW7243F-FD-M:01:02:05:79:2C:00:01:0E:01:00:00:320:00:00:00:00:00:01:00:00:400"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": false,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       800
+      ],
+      "formFactor": {
+       "code": "05",
+       "name": "Dome / turret"
+      },
+      "microSD": false,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "79",
+       "name": "IMX327"
+      },
+      "soc": {
+       "code": "2C",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "00",
+       "name": "None"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-HDBW3241F-FD-M",
+     "raw": "IPC-HDBW3241F-FD-M:01:02:05:79:2C:00:01:0E:01:00:00:320:00:00:00:00:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -318,5 +470,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "405d43f0a7cb8e7cc6ae2e7652a52f11832bcb2d4b30f3b57491d97e23d74126"
 }

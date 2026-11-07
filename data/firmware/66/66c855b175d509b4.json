@@ -19,6 +19,456 @@
     "ASI30EL-MW-V0",
     "ASI30EL-MFW-V0"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-M-V0",
+     "raw": "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MF-V0",
+     "raw": "ASI30E-MF-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MW-V0",
+     "raw": "ASI30E-MW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MFW-V0",
+     "raw": "ASI30E-MFW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-M-V0",
+     "raw": "ASI30EL-M-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MF-V0",
+     "raw": "ASI30EL-MF-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-W-V0",
+     "raw": "ASI3214E-W-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-DW-V0",
+     "raw": "ASI3214E-DW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-V0",
+     "raw": "ASI3214E-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-W-V0",
+     "raw": "ASI3213E-W-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-DW-V0",
+     "raw": "ASI3213E-DW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-V0",
+     "raw": "ASI3213E-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MW-V0",
+     "raw": "ASI30EL-MW-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MFW-V0",
+     "raw": "ASI30EL-MFW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF",
@@ -138,6 +588,456 @@
     "ASI30EL-MW-V0",
     "ASI30EL-MFW-V0"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-M-V0",
+     "raw": "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MF-V0",
+     "raw": "ASI30E-MF-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MW-V0",
+     "raw": "ASI30E-MW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MFW-V0",
+     "raw": "ASI30E-MFW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-M-V0",
+     "raw": "ASI30EL-M-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MF-V0",
+     "raw": "ASI30EL-MF-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-W-V0",
+     "raw": "ASI3214E-W-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-DW-V0",
+     "raw": "ASI3214E-DW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-V0",
+     "raw": "ASI3214E-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-W-V0",
+     "raw": "ASI3213E-W-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-DW-V0",
+     "raw": "ASI3213E-DW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-V0",
+     "raw": "ASI3213E-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MW-V0",
+     "raw": "ASI30EL-MW-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MFW-V0",
+     "raw": "ASI30EL-MFW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    }
+   ],
    "member": "check.img",
    "raw_same_as": 0,
    "source": "check_img"
@@ -160,6 +1060,456 @@
     "ASI3213E-V0",
     "ASI30EL-MW-V0",
     "ASI30EL-MFW-V0"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-M-V0",
+     "raw": "ASI30E-M-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MF-V0",
+     "raw": "ASI30E-MF-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MW-V0",
+     "raw": "ASI30E-MW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30E-MFW-V0",
+     "raw": "ASI30E-MFW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-M-V0",
+     "raw": "ASI30EL-M-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MF-V0",
+     "raw": "ASI30EL-MF-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-W-V0",
+     "raw": "ASI3214E-W-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-DW-V0",
+     "raw": "ASI3214E-DW-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 3,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3214E-V0",
+     "raw": "ASI3214E-V0:01:04:05:104:72:00:03:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-W-V0",
+     "raw": "ASI3213E-W-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-DW-V0",
+     "raw": "ASI3213E-DW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:08:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI3213E-V0",
+     "raw": "ASI3213E-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MW-V0",
+     "raw": "ASI30EL-MW-V0:01:04:05:104:72:00:01:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "04",
+       "name": "Access control / intercom"
+      },
+      "cpuMhz": [
+       1024
+      ],
+      "microSD": true,
+      "ramMiB": 256,
+      "sensor": {
+       "code": "104",
+       "name": null
+      },
+      "soc": {
+       "code": "72",
+       "name": null
+      },
+      "videoChannels": 2,
+      "videoOut": {
+       "code": "06",
+       "name": "Built-in display"
+      }
+     },
+     "fieldCount": 22,
+     "layout": 1,
+     "model": "ASI30EL-MFW-V0",
+     "raw": "ASI30EL-MFW-V0:01:04:05:104:72:00:02:10:01:01:05:400:00:03:00:06:00:01:00:01:100:FF"
+    }
    ],
    "member": "check.img",
    "raw": [
@@ -457,5 +1807,6 @@
    "soc": null
   }
  ],
+ "schemaVersion": 2,
  "sha256": "66c855b175d509b435cacc2a52fd4c734ce1a4e22a7fcfa63610e1c6c2d83053"
 }

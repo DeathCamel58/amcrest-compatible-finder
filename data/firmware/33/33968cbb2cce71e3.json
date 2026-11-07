@@ -6,6 +6,45 @@
    "ids": [
     "IPC-PFW83230-H-A180-E4"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83230-H-A180-E4",
+     "raw": "IPC-PFW83230-H-A180-E4:01:02:10:64:23:00:01:10:01:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "IPC-PFW83230-H-A180-E4:01:02:10:64:23:00:01:10:01:01:04:4B0:08:00:00:04:00:01:00:00:400"
@@ -33,6 +72,45 @@
    "firmware": null,
    "ids": [
     "IPC-PFW83230-H-A180-E4"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "02",
+       "name": "IP camera"
+      },
+      "cpuMhz": [
+       1200
+      ],
+      "formFactor": {
+       "code": "10",
+       "name": "Multi-sensor / panoramic"
+      },
+      "microSD": true,
+      "ramMiB": 1024,
+      "sensor": {
+       "code": "64",
+       "name": "OS08"
+      },
+      "soc": {
+       "code": "23",
+       "name": "Hi3519V101"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 21,
+     "layout": 1,
+     "model": "IPC-PFW83230-H-A180-E4",
+     "raw": "IPC-PFW83230-H-A180-E4:01:02:10:64:23:00:01:10:01:01:04:4B0:08:00:00:04:00:01:00:00:400"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -234,5 +312,6 @@
    }
   }
  ],
+ "schemaVersion": 2,
  "sha256": "33968cbb2cce71e351294d4e34f75730bb5ea7f1545bd1fe1a02a073672f843d"
 }

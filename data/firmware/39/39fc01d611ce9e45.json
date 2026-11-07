@@ -19,6 +19,488 @@
     "SDT7C1432-4F-GBS2-0400-A",
     "SDT7C1425-4F-GBS2-0400-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT3E410-8P-GBS2-0280-A",
+     "raw": "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-8P-MB-0280-A",
+     "raw": "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-4F-GBS2-0280-A",
+     "raw": "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E425-8P-MB-0280-A",
+     "raw": "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E432-8P-MB-0280-A",
+     "raw": "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1223-6P-GBS2-0280-A",
+     "raw": "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-6P-GBS2-0280-A",
+     "raw": "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-6P-GBS2-0280-A",
+     "raw": "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1433-6P-GAS2-0280-A",
+     "raw": "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1440-6P-GAS2-0280-A",
+     "raw": "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1425-6P-GAS2-0280-A",
+     "raw": "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C2433-4Z4-GAS2-0832-A",
+     "raw": "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-4F-GBS2-0400-A",
+     "raw": "SDT7C1432-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-4F-GBS2-0400-A",
+     "raw": "SDT7C1425-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
@@ -72,6 +554,488 @@
     "SDT8C2433-4Z4-GAS2-0832-A",
     "SDT7C1432-4F-GBS2-0400-A",
     "SDT7C1425-4F-GBS2-0400-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT3E410-8P-GBS2-0280-A",
+     "raw": "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-8P-MB-0280-A",
+     "raw": "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-4F-GBS2-0280-A",
+     "raw": "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E425-8P-MB-0280-A",
+     "raw": "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E432-8P-MB-0280-A",
+     "raw": "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1223-6P-GBS2-0280-A",
+     "raw": "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-6P-GBS2-0280-A",
+     "raw": "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-6P-GBS2-0280-A",
+     "raw": "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1433-6P-GAS2-0280-A",
+     "raw": "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1440-6P-GAS2-0280-A",
+     "raw": "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1425-6P-GAS2-0280-A",
+     "raw": "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C2433-4Z4-GAS2-0832-A",
+     "raw": "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-4F-GBS2-0400-A",
+     "raw": "SDT7C1432-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-4F-GBS2-0400-A",
+     "raw": "SDT7C1425-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 0,
@@ -96,6 +1060,488 @@
     "SDT7C1432-4F-GBS2-0400-A",
     "SDT7C1425-4F-GBS2-0400-A"
    ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT3E410-8P-GBS2-0280-A",
+     "raw": "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-8P-MB-0280-A",
+     "raw": "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-4F-GBS2-0280-A",
+     "raw": "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E425-8P-MB-0280-A",
+     "raw": "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E432-8P-MB-0280-A",
+     "raw": "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1223-6P-GBS2-0280-A",
+     "raw": "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-6P-GBS2-0280-A",
+     "raw": "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-6P-GBS2-0280-A",
+     "raw": "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1433-6P-GAS2-0280-A",
+     "raw": "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1440-6P-GAS2-0280-A",
+     "raw": "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1425-6P-GAS2-0280-A",
+     "raw": "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C2433-4Z4-GAS2-0832-A",
+     "raw": "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-4F-GBS2-0400-A",
+     "raw": "SDT7C1432-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-4F-GBS2-0400-A",
+     "raw": "SDT7C1425-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    }
+   ],
    "member": "hwid",
    "raw": [
     "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C",
@@ -149,6 +1595,488 @@
     "SDT8C2433-4Z4-GAS2-0832-A",
     "SDT7C1432-4F-GBS2-0400-A",
     "SDT7C1425-4F-GBS2-0400-A"
+   ],
+   "lines": [
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "109",
+       "name": "SC430AI (4-lane SLVS)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT3E410-8P-GBS2-0280-A",
+     "raw": "SDT3E410-8P-GBS2-0280-A:01:03:04:109:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-8P-MB-0280-A",
+     "raw": "SDT4E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8004_8004"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "F0",
+       "name": "SC430AI (4-lane)"
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT4E425-4F-GBS2-0280-A",
+     "raw": "SDT4E425-4F-GBS2-0280-A:01:03:04:F0:6A:00:01:10:01:01:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:800C_800C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E425-8P-MB-0280-A",
+     "raw": "SDT6E425-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "FC",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT6E432-8P-MB-0280-A",
+     "raw": "SDT6E432-8P-MB-0280-A:01:03:04:FC:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8184_826E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1223-6P-GBS2-0280-A",
+     "raw": "SDT7C1223-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-6P-GBS2-0280-A",
+     "raw": "SDT7C1425-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-6P-GBS2-0280-A",
+     "raw": "SDT7C1432-6P-GBS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1433-6P-GAS2-0280-A",
+     "raw": "SDT8C1433-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1440-6P-GAS2-0280-A",
+     "raw": "SDT8C1440-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "10F",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C1425-6P-GAS2-0280-A",
+     "raw": "SDT8C1425-6P-GAS2-0280-A:01:03:04:10F:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:8084_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       1200,
+       1200,
+       1200,
+       1200
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT8C2433-4Z4-GAS2-0832-A",
+     "raw": "SDT8C2433-4Z4-GAS2-0832-A:01:03:04:B3:6A:00:01:10:01:03:04:4B0_4B0_4B0_4B0:04:00:00:04:00:03:00:00:800:FF:80AE_800E"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1432-4F-GBS2-0400-A",
+     "raw": "SDT7C1432-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    },
+    {
+     "decoded": {
+      "audioIn": true,
+      "audioOut": true,
+      "category": {
+       "code": "03",
+       "name": "PTZ / speed dome"
+      },
+      "cpuMhz": [
+       850,
+       850
+      ],
+      "microSD": true,
+      "ramMiB": 2048,
+      "sensor": {
+       "code": "B3",
+       "name": null
+      },
+      "soc": {
+       "code": "6A",
+       "name": "Hi3519DV500"
+      },
+      "videoChannels": 1,
+      "videoOut": {
+       "code": "04",
+       "name": "Analog (CVBS)"
+      },
+      "wifi": false
+     },
+     "fieldCount": 23,
+     "layout": 1,
+     "model": "SDT7C1425-4F-GBS2-0400-A",
+     "raw": "SDT7C1425-4F-GBS2-0400-A:01:03:04:B3:6A:00:01:10:01:01:04:352_352:04:00:00:04:00:03:00:00:800:FF:800C_826C"
+    }
    ],
    "member": "check.img",
    "raw_same_as": 3,
@@ -593,5 +2521,6 @@
    "software_version": "V3.211.0000007.1.R.260206"
   }
  ],
+ "schemaVersion": 2,
  "sha256": "39fc01d611ce9e45f931ba06d95f5a31ff2d9cd78c2110202b00cfaa5a61ca70"
 }
